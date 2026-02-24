@@ -89,6 +89,52 @@ No ceratocone, a anatomia corneana se altera de formas específicas que afetam d
 | **Curvatura aumentada focalmente** | K-max elevado. Alvo principal do VR |
 | **Assimetria de espessura** | Paquimetria desigual entre meridianos exige planejamento assimétrico |
 
+---
+
+### A Malha de Colágeno na Escala Micro — A Protagonista Invisível
+
+> *Esta é a seção mais importante deste capítulo e talvez de todo o Atlas. Tudo que você aprenderá nas próximas 200 páginas — vetores, Plácido, nomogramas — nasce aqui, nas fibras de colágeno.*
+
+#### Arquitetura Lamelar Normal
+
+O estroma é composto por ~200 lamelas empilhadas. Cada lamela é uma "folha" de ~2 µm de espessura com fibrilas de colágeno tipo I dispostas paralelamente dentro de cada folha, mas cruzando-se em ângulos regulares entre folhas adjacentes.
+
+**Padrão de cruzamento:**
+- **Fibras radiais:** correm do centro para a periferia (como raios de uma roda)
+- **Fibras tangenciais (circunferenciais):** correm em arcos paralelos ao limbo (como cercas concêntricas)
+- **Fibras oblíquas:** conectam as camadas anteriores às posteriores (como tirantes de uma ponte)
+
+```
+Vista superior da malha de colágeno normal:
+
+    ╲  |  ╱         Fibras radiais (raios da roda)
+     ╲ | ╱
+  ────(●)────       Fibras tangenciais (cercas concêntricas)
+     ╱ | ╲
+    ╱  |  ╲         Centro pupilar = (●)
+
+  Resultado: Tensão equilibrada → Curvatura uniforme → Plácido concêntrico
+```
+
+#### O Que Muda no Ceratocone — A Catástrofe Lamelar
+
+No ceratocone, a degradação enzimática (MMP-2, MMP-9) destrói os proteoglicanos que servem de "cola" entre as lamelas. Sem cola:
+
+1. **As lamelas deslizam** umas sobre as outras — perda de ancoragem interlaminar
+2. **O espaçamento aumenta** na zona do ápice — "vácuo estrutural"
+3. **As fibras radiais se esticam** na zona do cone — perdem a tensão elástica
+4. **As fibras tangenciais se rompem funcionalmente** na periferia do cone
+5. **A PIO vence localmente** — a malha cedeu → protrusão → o cone nasce
+
+#### O Plácido Como Espelho da Malha
+
+Cada anel do disco de Plácido refletido é, literalmente, o **reflexo da tensão superficial gerada pelas fibras abaixo**.
+
+- **Fibras tensas e organizadas** → superfície lisa → reflexo regular → anéis concêntricos
+- **Fibras frouxas e desorganizadas** → superfície irregular → reflexo distorcido → anéis comprimidos
+
+> **A frase que define o Atlas:** O Plácido não mede curvatura. Ele mede o **estado de tensão** da malha de colágeno. Cada distorção que você vê nos anéis é uma fibra que cedeu.
+
 ### Armadilhas Anatômicas
 
 1. **A paquimetria do centro NÃO é a paquimetria do local de implantação.** O anel é implantado na periferia, onde a córnea é mais espessa. Sempre medir paquimetria no local previsto do túnel, não apenas no centro.

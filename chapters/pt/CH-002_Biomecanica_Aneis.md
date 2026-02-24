@@ -96,6 +96,45 @@ Tenting (efeito tenda)
 Soma de todos:
   └→ VEsférico (Resultante) — Capítulo 8
 ```
+---
+
+### Os 3 Princípios na Escala das Fibras de Colágeno
+
+> *Cada princípio físico descrito acima tem uma tradução direta no que acontece com as lamelas individuais de colágeno.*
+
+#### Barraquer nas Fibras
+
+Quando o anel adiciona volume ao estroma periférico (Barraquer), ele **afasta fisicamente** as lamelas na zona de implantação. As lamelas que passam por cima e por baixo do implante são forçadas a percorrer um caminho mais longo. Esse percurso mais longo **traciona as fibras centrais** adjacentes, esticando-as e reorganizando a malha central frouxa.
+
+```
+SEM ANEL:                      COM ANEL (Barraquer):
+  Periferia: tensas              Periferia: separadas pelo PMMA
+  Centro: frouxas                Centro: tracionadas ← pelas periféricas
+  Resultado: K alto              Resultado: K reduzido
+```
+
+#### Arc-Shortening nas Fibras
+
+O encurtamento de arco ocorre porque o PMMA **ocupa o espaço** que as fibras antes cobriam. As fibras que corriam tangencialmente na periferia agora precisam "desviar" — o caminho funcional delas encurtou naquele meridiano. A consequência é redistribuição de tensão para o meridiano perpendicular (Efeito de Acoplamento nas fibras).
+
+#### Tenting nas Fibras
+
+O efeito tenda é a **separação local das lamelas** acima do implante. As fibras mais superficiais são empurradas anteriormente, criando uma elevação focal. As fibras mais profundas (abaixo do anel) permanecem na posição original. O gradiente de tensão entre as duas populações de fibras é o que gera a redistribuição de curvatura.
+
+**Quando o tenting é simétrico** (anel simétrico) → VR puro
+**Quando o tenting é assimétrico** (anel progressivo) → Vτ (Torque)
+
+---
+
+### O Disco de Plácido e os 3 Princípios
+
+O Plácido permite ao cirurgião **ver** os 3 princípios em ação simultânea:
+
+| Princípio | O Que Você Vê no Plácido |
+|-----------|-------------------------|
+| **Barraquer** | Anéis centrais mais espaçados (aplainamento) |
+| **Arc-Shortening** | Diminuição da ovalização (redistribuição de astigmatismo) |
+| **Tenting** | Leve compressão dos anéis na zona periférica sobre o implante |
 
 ### Armadilhas Biomecânicas
 

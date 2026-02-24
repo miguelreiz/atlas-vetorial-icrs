@@ -141,6 +141,68 @@ O VComa pode ser inferido clinicamente antes da cirurgia:
 
 ---
 
+### Escala Micro — O Coma na Linguagem das Fibras de Colágeno
+
+> *O coma não é uma aberração abstrata. Ele é o resultado óptico direto de uma assimetria física na malha de colágeno.*
+
+#### O Que Acontece nas Fibras Quando o Ápice Se Desloca
+
+Quando as lamelas da zona inferior degradam e deslizam (perda de proteoglicanos), o ápice geométrico da córnea se descola do centro pupilar. Mas as lamelas superiores permanecem relativamente intactas. O resultado é uma **assimetria de tensão lamelar entre hemicórneas**:
+
+- **Hemicórnea superior:** fibras tensas, organizadas, regulares → curvatura normal
+- **Hemicórnea inferior:** fibras frouxas, espaçadas, deslizadas → curvatura excessiva
+
+A luz que entra pela metade superior da pupila refrata normalmente. A luz que entra pela metade inferior refrata excessivamente. A **diferença entre as duas** é o coma — uma aberração de "meia-lua" que borra imagem para o lado do cone.
+
+```
+LUZ ENTRANDO PELA PUPILA:
+
+  ┌─── Metade superior ───┐
+  │  Lamelas intactas      │  → Foco correto
+  │  Curvatura normal      │
+  ├────────────────────────┤
+  │  Lamelas frouxas       │  → Foco deslocado
+  │  Curvatura excessiva   │
+  └─── Metade inferior ───┘
+  
+  RESULTADO: Dois focos → Imagem com "cauda de cometa"
+```
+
+#### O Anel Corrige o Coma Movendo as Fibras
+
+O segmento assimétrico (ponta grossa inferior) atua nas fibras em 3 etapas:
+
+1. **Ponta grossa empurra as lamelas inferiores** anteriormente (tenting máximo) → elevação focal
+2. **Tração reversa** puxa as lamelas vizinhas em direção ao anel → reorganização
+3. **O ápice, que era sustentado pelas lamelas frouxas**, é mecanicamente **içado** pela nova tensão → migra em direção ao centro pupilar
+4. A assimetria de tensão entre hemicórneas **diminui** → o diferencial de refração diminui → **coma cai**
+
+> **Pérola Micro:** O coma não desaparece porque o anel "corrigiu uma aberração óptica". Desaparece porque o anel **reorganizou fisicamente as fibras** de modo que a assimetria de tensão entre metades da córnea foi reduzida. A óptica é consequência da mecânica.
+
+---
+
+### O Plácido Antes e Depois do VComa
+
+#### Antes (Cone Oval com Coma Alto — Sem Anel)
+
+O disco de Plácido mostra:
+- **Anéis comprimidos na hemicórnea inferior** — muitos anéis juntos (alta curvatura)
+- **Anéis espaçados na hemicórnea superior** — poucos anéis (curvatura normal)
+- **Centro de compressão deslocado** — não coincide com o centro pupilar
+- **Assimetria vertical extrema** — o "peso" dos anéis está todo embaixo
+
+#### Depois (VComa Reduzido — Segmento Assimétrico Implantado)
+
+O disco de Plácido mostra:
+- **Diminuição da compressão inferior** — anéis mais espaçados no polo inferior
+- **Centro de compressão mais centrado** — migrou em direção ao centro pupilar
+- **Simetria vertical parcialmente restaurada** — diferença entre hemicórneas reduzida
+- **Resultado:** paciente relata que a "cauda de cometa" diminuiu ou desapareceu
+
+> **Leitura Vetorial do Plácido:** O VComa se manifesta como a **assimetria de densidade dos anéis** entre hemicórneas. Quando o anel corrige, os anéis ficam mais uniformemente distribuídos — porque as fibras subjacentes agora têm tensão mais simétrica.
+
+---
+
 ## 🎨 ESPECIFICAÇÃO VISUAL
 
 ```yaml
