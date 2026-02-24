@@ -117,6 +117,77 @@ Se a incisão for posicionada equivocadamente fora do eixo topográfico principa
 
 ---
 
+### Escala Micro — O Que Acontece nas Fibras de Colágeno com o VT
+
+> *O Vetor Tangencial não "empurra" para o centro como o VR. Ele redistribui a orientação das lamelas entre meridianos ortogonais — é uma rotação de estresse, não uma compressão.*
+
+#### O Astigmatismo na Escala das Fibras
+
+No astigmatismo corneano, as lamelas de colágeno estão **desigualmente tensionadas entre dois meridianos ortogonais**:
+
+- **Meridiano curvo (K-steep):** lamelas estiradas ao máximo, com espaçamento menor entre elas — alta densidade de fibras, alta tensão
+- **Meridiano plano (K-flat):** lamelas relaxadas, com espaçamento maior — baixa densidade, baixa tensão
+
+Essa diferença de tensão entre meridianos é o **astigmatismo na linguagem das fibras**.
+
+#### O Anel e o Efeito de Acoplamento nas Lamelas
+
+Quando o anel é implantado **no meridiano mais curvo** (K-steep):
+
+1. O segmento de PMMA **separa as lamelas** nesse meridiano (Tenting + Volume local)
+2. As fibras que passam por cima do anel nesse meridiano são **forçadas a encurtar** seu caminho funcional — o arco que elas cobriam agora é ocupado pelo PMMA
+3. Essa perda de "comprimento funcional" no meridiano curvo **relaxa a tensão** nesse eixo → aplainamento local
+4. **Pelo princípio de conservação de volume do estroma:** a tensão perdida no K-steep é **transferida para o K-flat** (meridiano perpendicular)
+5. As lamelas no K-flat, que estavam frouxas, são agora **tracionadas** → encurvamento no eixo plano
+
+**Este é o Efeito de Acoplamento visto na escala das fibras:**
+
+```
+ANTES:
+  K-steep (ex: 180°) → lamelas hiper-tensas → 48 D
+  K-flat  (ex: 90°)  → lamelas relaxadas    → 42 D
+  Astigmatismo = 6 D
+
+ANEL NO K-STEEP:
+  K-steep → lamelas parcialmente descongestionadas pelo PMMA → 45 D (↓3 D)
+  K-flat  → lamelas tensionadas por redistribuição          → 44 D (↑2 D)
+  Astigmatismo = 1 D (redistribuído)
+```
+
+#### O Que Acontece Quando a Incisão Está no Eixo Errado
+
+Se o cirurgião posiciona a incisão fora do K-steep:
+- O anel tensiona as lamelas no eixo **errado**
+- O Efeito de Acoplamento atua na direção **errada**
+- Resultado: **criação de novo astigmatismo** (cilindro induzido cirurgicamente — SIA conflitante)
+- No Plácido: aparece padrão bowtie **rotado** em relação ao pré-operatório
+
+> **Pérola Micro:** O VT não cria tensão nova. Ele **redistribui** a tensão existente entre meridianos. Se a redistribuição é correta (incisão no K-steep), o astigmatismo diminui. Se é incorreta, o astigmatismo muda de eixo e pode até aumentar.
+
+---
+
+### O Plácido Antes e Depois do VT
+
+#### Antes (Astigmatismo Regular — Sem Anel)
+
+O disco de Plácido mostra:
+- **Anéis elípticos** — ovalização ao longo do meridiano principal
+- **Bowtie clássico** no mapa de cores — dois lobos vermelhos simétricos
+- **Compressão dos anéis** ao longo do K-steep
+- **Espaçamento dos anéis** ao longo do K-flat
+
+#### Depois (VT Aplicado — Anel no K-steep)
+
+O disco de Plácido mostra:
+- **Anéis mais circulares** — a ovalização diminuiu
+- **Bowtie suavizado** — os dois lobos se aproximam em intensidade
+- **Anéis menos comprimidos** no K-steep (lamelas descongestionadas)
+- **Anéis menos espaçados** no K-flat (lamelas tensionadas pelo acoplamento)
+
+> **Leitura Vetorial do Plácido:** O VT transforma o padrão bowtie assimétrico em um padrão mais circular. Os anéis de Plácido ficam mais uniformemente espaçados em todos os meridianos — porque a tensão lamelar foi redistributada de forma mais equitativa.
+
+---
+
 ## 🎨 ESPECIFICAÇÃO VISUAL PARA ILUSTRAÇÕES MÉDICAS (RASCUNHOS IA)
 
 ```yaml

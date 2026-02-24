@@ -240,6 +240,81 @@ diagram_concept: >
 
 ---
 
+### Escala Micro — O Que Acontece nas Fibras de Colágeno com o VR
+
+> *Esta seção apresenta a perspectiva que diferencia este Atlas: o mecanismo do vetor ao nível das lamelas estromais.*
+
+#### O Estroma Normal (Sem Ectasia)
+
+No estroma saudável, as ~200 lamelas de colágeno estão empilhadas em camadas regulares, com espaçamento uniforme de substância fundamental entre elas. As fibras cruzam-se em ângulos precisos (predominantemente 0° e 90°), formando uma **rede de tensegridade** — uma malha elástica que distribui a pressão intraocular uniformemente em toda a superfície.
+
+Os anéis de Plácido refletidos por esta córnea são **concêntricos e regulares** — porque a curvatura anterior é o reflexo direto de uma malha lamelar equilibrada.
+
+#### O Estroma Ectásico (Ceratocone — Antes do Anel)
+
+Na zona do cone, as pontes de proteoglicanos entre as lamelas se degradaram. As fibras perderam ancoragem entre si. As lamelas **deslizam** umas sobre as outras, separando-se. O espaçamento entre lamelas aumenta na zona do ápice — criando uma zona de "vácuo estrutural":
+
+- **Fibras centrais:** espaçadas, relaxadas, desorganizadas
+- **Fibras periféricas:** ainda relativamente organizadas, mas sob tensão assimétrica
+- **Resultado macroscópico:** a PIO vence localmente → protrusão → K-max elevado
+
+No Plácido, os anéis **se comprimem** na zona do cone (muitos anéis juntos = curvatura alta) e se **espaçam** na periferia oposta.
+
+#### O Anel Implantado — Como o VR Age nas Fibras
+
+Quando o segmento de PMMA é inserido a ~75% de profundidade estromal:
+
+1. **O anel separa fisicamente as lamelas** no ponto de implantação — criando uma "tenda" local (Efeito Tenting)
+2. As lamelas que passam **por cima** do anel são forçadas a percorrer um caminho mais longo (Efeito Arc-Shortening)
+3. Para compensar esse caminho mais longo, as lamelas **tracionam as fibras vizinhas** em direção centrípeta — esta é a origem física do VR
+4. As fibras centrais, que estavam frouxas e espaçadas, são **esticadas e reorganizadas** pela tração gerada perifericamente
+5. O resultado: a malha lamelar central se retensiona → a curvatura anterior diminui → K-max cai
+
+**O que você vê no microscópio confocal pós-operatório:**
+- Fibras acima do anel: densas, comprimidas, paralelas ao implante
+- Fibras centrais: mais regulares e tensas do que no pré-operatório
+- Interface anel-estroma: zona de remodelação ativa (6-12 meses)
+
+#### Resumo Micro do VR
+
+```
+ANTES (ectasia):
+  Lamelas centrais → frouxas, espaçadas → protrusão → K-max alto
+  
+ANEL IMPLANTADO:
+  Cunha rígida separa lamelas perifericamente
+  → Fibras desviam por cima do anel (caminho mais longo)
+  → Tração centrípeta nas fibras adjacentes
+  → Fibras centrais esticam e reorganizam
+
+DEPOIS (correção):
+  Lamelas centrais → tensas, regulares → aplainamento → K-max reduzido
+```
+
+---
+
+### O Plácido Antes e Depois do VR
+
+#### Antes (Cone Nipple — Sem Anel)
+
+O disco de Plácido mostra:
+- **Anéis comprimidos centralmente** — alta densidade de anéis no ápice do cone
+- **Anéis regulares perifericamente** — a periferia está relativamente preservada
+- **Padrão:** concêntrico, simétrico, mas com compressão central excessiva
+- **Mapa de cores:** ilha vermelha redonda e bem centrada
+
+#### Depois (Cone Nipple — VR Aplicado pelo Anel Simétrico)
+
+O disco de Plácido mostra:
+- **Anéis menos comprimidos centralmente** — a densidade central diminuiu
+- **Leve elevação periférica** nos meridianos do implante (a "sombra" do Tenting)
+- **Padrão:** mais regular, mais próximo dos concêntricos perfeitos
+- **Mapa de cores:** ilha vermelha menor, mais pálida, K-max 3-5 D mais baixo
+
+> **Leitura Vetorial do Plácido:** No Nipple tratado com VR simétrico, o campo vetorial concêntrico de deformação (Fr apontando para fora) é **diretamente neutralizado** pelo campo vetorial centrípeto do anel. O resultado é a descompressão dos anéis centrais — que se espaçam e normalizam.
+
+---
+
 ## 📚 REFERENCES
 
 ```yaml

@@ -146,6 +146,76 @@ Essa combinação gera um **torque líquido** que reposiciona o eixo visual do p
 
 ---
 
+### Escala Micro — O Que Acontece nas Fibras de Colágeno com o Vτ
+
+> *O Torque é o vetor mais invisível nos mapas convencionais — mas o mais violento na escala das fibras. Ele acontece quando a geometria do implante força lamelas adjacentes a rotacionar em direções opostas.*
+
+#### A Assimetria Lamelar que Gera Torção
+
+Num cone oval (sagging), as lamelas inferiores não estão apenas esticadas — estão **deslocadas diferencialmente**. As fibras superficiais se moveram mais do que as profundas. O resultado é um **cisalhamento interlaminar** — camadas deslizando umas sobre as outras como cartas de um baralho sendo empurradas de um lado só.
+
+Este cisalhamento é invisível no mapa de curvatura. Mas é a causa física do deslocamento do ápice e do coma vertical.
+
+#### Como o Anel Assimétrico Gera Torque nas Fibras
+
+Quando um segmento progressivo (espessura variável: 150 µm → 350 µm) é implantado:
+
+1. **Ponta fina:** separação lamelar mínima. As fibras desviam suavemente por cima do implante. Tensão local moderada.
+2. **Ponta grossa:** separação lamelar enorme. As fibras são forçadas a escalar uma "montanha" de PMMA. Tensão local altíssima.
+3. **O gradiente de tensão** entre as duas pontas cria um **momento de torção** — as lamelas entre a ponta fina e a ponta grossa são submetidas a um campo rotacional de estresse.
+
+**O efeito nas fibras:**
+- As lamelas acima da ponta **grossa** são empurradas anteriormente de maneira massiva — gerando forte elevação local (Tenting máximo)
+- As lamelas acima da ponta **fina** são minimamente perturbadas
+- A **transição** entre as duas zonas força as fibras a **rotarem seu eixo de orientação** — esta rotação é o Torque
+
+```
+PONTA FINA (150 µm):       PONTA GROSSA (350 µm):
+  Lamelas: leve desvio        Lamelas: desvio massivo
+  Tenting: mínimo             Tenting: máximo
+  Tensão: baixa               Tensão: altíssima
+
+  ←————— GRADIENTE = TORQUE ——————→
+  
+  As fibras entre os dois extremos
+  são ROTADAS pelo diferencial de força
+  → O ápice do cone é EMPURRADO
+     na direção da ponta fina
+```
+
+#### O Efeito de Reposicionamento do Ápice
+
+A consequência do torque nas fibras é física e direta: como a ponta grossa gera levantamento muito maior que a ponta fina, o ápice da protrusão (que estava deslocado inferiormente) é **empurrado mecanicamente** em direção ao centro pupilar.
+
+- **Antes:** ápice inferior + coma alto
+- **Depois:** ápice mais centralizado + coma reduzido
+
+Este é o único mecanismo mecânico real pelo qual um anel pode reduzir coma. Sem torque (anel simétrico), não há reposicionamento do ápice — apenas aplainamento.
+
+---
+
+### O Plácido Antes e Depois do Vτ
+
+#### Antes (Cone Oval / Sagging — Sem Anel)
+
+O disco de Plácido mostra:
+- **Anéis comprimidos inferiormente** — alta densidade inferior, baixa densidade superior
+- **Assimetria vertical extrema** — a metade inferior é "quente", a superior é "fria"
+- **Ápice deslocado** — o centro de compressão dos anéis não coincide com o centro pupilar
+- **Mapa de cores:** "ilha quente" oval escorrendo para baixo
+
+#### Depois (Vτ Aplicado — Segmento Assimétrico Inferior)
+
+O disco de Plácido mostra:
+- **Anéis menos comprimidos inferiormente** — a densidade inferior diminuiu (a ponta grossa aplainoy o polo inferior)
+- **Recentramento parcial** — o centro de compressão dos anéis migrou em direção ao centro pupilar
+- **Assimetria vertical reduzida** — a diferença de temperatura entre metades superior e inferior diminuiu
+- **Mapa de cores:** a "ilha quente" encolheu, subiu e ficou mais centrada
+
+> **Leitura Vetorial do Plácido:** O Vτ não muda apenas a curvatura — ele **rotaciona o padrão de deformação dos anéis**. Os anéis que antes mostravam compressão excêntrica inferior agora mostram compressão mais centrada. A "impressão digital mecânica" do cone mudou de posição — o que significa que as fibras subjacentes foram fisicamente reposicionadas.
+
+---
+
 ## 🎨 ESPECIFICAÇÃO VISUAL PARA ILUSTRAÇÕES MÉDICAS
 
 ```yaml
