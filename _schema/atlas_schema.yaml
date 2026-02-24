@@ -1,0 +1,37 @@
+# ATLAS SCHEMA - Source of Truth for Chapter Generation
+# Version: 1.0.0
+
+chapter_metadata:
+  chapter_id: string # Unique ID (e.g., CH-001)
+  title: string # Clinical title
+  status: enum [draft, scientific_validation, visual_design, ready]
+  version: semantic_version
+
+scientific_core:
+  vector_type: enum [VR, VT, Vτ, VComa, VEsferico]
+  biomechanics_base: string # Physical principle (e.g., Arc-shortening)
+  phenotype_target: string # e.g., Nippled, Sagging, Oval
+  clinical_indication: string
+  expected_outcome: string
+
+instructional_content:
+  definition: string # 1-2 sentences
+  didactic_explanation: markdown
+  clinical_application: markdown
+  common_pitfalls: list
+  pearls: list
+
+visual_specification:
+  primary_vector: string
+  secondary_vectors: list
+  anatomical_view: enum [top_down, cross_section, 3D_oblique]
+  layers:
+    - name: string
+      visible: boolean
+      color_token: string
+  diagram_concept: string
+
+references:
+  - doi: string
+    title: string
+    relevance: string

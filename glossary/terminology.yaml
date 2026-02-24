@@ -1,0 +1,99 @@
+# ATLAS TERMINOLOGY — Bilingual Glossary (PT-BR ↔ EN-US)
+# Standard: American English (AAO/ASCRS)
+# Version: 1.0.0
+
+# ─── VETORES / VECTORS ───
+vectors:
+  Vetor Radial: Radial Vector
+  Vetor Tangencial: Tangential Vector
+  Vetor de Torque: Torque Vector
+  Vetor de Deslocamento Óptico: Optical Displacement Vector (Coma Vector)
+  Vetor Esférico Resultante: Resultant Spherical Vector
+  Soma Vetorial: Vector Summation
+
+# ─── ANATOMIA / ANATOMY ───
+anatomy:
+  Córnea: Cornea
+  Estroma: Stroma
+  Epitélio: Epithelium
+  Endotélio: Endothelium
+  Membrana de Bowman: Bowman's Membrane (Bowman's Layer)
+  Membrana de Descemet: Descemet's Membrane
+  Lamelas Estromais: Stromal Lamellae
+  Fibras de Colágeno: Collagen Fibers
+  Zona Óptica: Optical Zone
+  Eixo Visual: Visual Axis
+  Ápice Corneano: Corneal Apex
+  Limbo: Limbus
+
+# ─── PATOLOGIA / PATHOLOGY ───
+pathology:
+  Ceratocone: Keratoconus
+  Ectasia Corneana: Corneal Ectasia
+  Ceratectasia: Keratectasia
+  Cone Central (Nipple): Central (Nipple) Cone
+  Cone Oval (Sagging): Oval (Sagging) Cone
+  Cone Globoso: Globus Cone
+  Afinamento Estromal: Stromal Thinning
+  Protrusão Apical: Apical Protrusion
+
+# ─── CIRURGIA / SURGERY ───
+surgery:
+  Anel Intracorneano: Intracorneal Ring Segment (ICRS)
+  Segmento de Anel: Ring Segment
+  Túnel Estromal: Stromal Tunnel
+  Tunelização: Tunnel Creation (Channeling)
+  Laser de Femtosegundo: Femtosecond Laser
+  Profundidade de Implantação: Implantation Depth
+  Extrusão: Extrusion
+  Migração: Migration
+  Nomograma: Nomogram
+  Arco do Segmento: Segment Arc Length
+  Diâmetro de Implantação: Implantation Diameter
+  Espessura do Anel: Ring (Segment) Thickness
+
+# ─── BIOMECÂNICA / BIOMECHANICS ───
+biomechanics:
+  Efeito de Encurtamento de Arco: Arc-Shortening Effect
+  Efeito de Tenda: Tenting Effect
+  Lei das Espessuras de Barraquer: Barraquer's Law of Thickness
+  Aplainamento Central: Central Flattening
+  Força Centrípeta: Centripetal Force
+  Gradiente de Aplainamento: Flattening Gradient
+  Curvatura Reversa: Reverse Curvature
+  Ponto de Inflexão: Inflection Point
+  Braço de Alavanca Biomecânico: Biomechanical Lever Arm
+  Tensão / Deformação: Stress / Strain
+  Módulo de Elasticidade: Elastic Modulus (Young's Modulus)
+  Redistribuição de Tensão: Stress Redistribution
+  Reserva Estromal: Stromal Reserve
+  Remodelamento Epitelial: Epithelial Remodeling
+
+# ─── ÓPTICA / OPTICS ───
+optics:
+  Aberração de Alta Ordem: Higher-Order Aberration (HOA)
+  Coma: Coma
+  Trefoil: Trefoil
+  Desfoque Esférico: Spherical Defocus
+  Aberrometria: Aberrometry
+  Astigmatismo Irregular: Irregular Astigmatism
+  Curvatura Máxima (K-max): Maximum Keratometry (K-max)
+  Asfericidade (Q-value): Asphericity (Q-value)
+  Acuidade Visual Corrigida (BSCVA): Best Spectacle-Corrected Visual Acuity (BSCVA)
+
+# ─── ANÁLISE VETORIAL / VECTOR ANALYSIS ───
+vector_analysis:
+  Astigmatismo Induzido Alvo (TIA): Target Induced Astigmatism (TIA)
+  Astigmatismo Cirurgicamente Induzido (SIA): Surgically Induced Astigmatism (SIA)
+  Diferença Vetorial: Difference Vector (DV)
+  Análise de Alpins: Alpins Vector Analysis
+
+# ─── MODELOS DE ANEL / RING MODELS ───
+ring_models:
+  Ferrara: Ferrara Ring
+  Keraring: Keraring
+  MyoRing: MyoRing
+  Anel Simétrico: Symmetric Ring (Segment)
+  Anel Assimétrico (Progressivo): Asymmetric (Progressive) Ring (Segment)
+  Espessura Progressiva: Progressive Thickness
+  Largura de Base Progressiva: Progressive Base Width
