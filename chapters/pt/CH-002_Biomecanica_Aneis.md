@@ -76,6 +76,8 @@ Cada parâmetro cirúrgico modifica um ou mais dos princípios acima:
 
 > **Pérola Fundamental:** A espessura decide "quanto." O arco decide "como distribui." A assimetria decide "para onde empurra." O eixo decide "onde tudo acontece."
 
+![Figura 2.3: Os 3 Princípios Biomecânicos com Analogias — Cúpula/tenda (Barraquer), Arco de violino (Arc-Shortening), Barraca de camping (Tenting)](images/CH-002_Biomecanica/Figura_3_Principios_Analogias.png)
+
 ### Como os 3 Princípios Geram os 5 Vetores
 
 Os 3 princípios físicos produzem os 5 vetores biomecânicos de forma hierárquica:
@@ -123,6 +125,8 @@ O efeito tenda é a **separação local das lamelas** acima do implante. As fibr
 
 **Quando o tenting é simétrico** (anel simétrico) → VR puro
 **Quando o tenting é assimétrico** (anel progressivo) → Vτ (Torque)
+
+![Figura 2.4: Tenting em Detalhe — A cunha de PMMA separa as lamelas de dentro; tensão redistribuída aplaina o centro](images/CH-002_Biomecanica/Figura_Tenting_Barraca.png)
 
 ---
 

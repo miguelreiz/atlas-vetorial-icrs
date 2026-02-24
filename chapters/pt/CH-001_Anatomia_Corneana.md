@@ -95,6 +95,8 @@ No ceratocone, a anatomia corneana se altera de formas específicas que afetam d
 
 > *Esta é a seção mais importante deste capítulo e talvez de todo o Atlas. Tudo que você aprenderá nas próximas 200 páginas — vetores, Plácido, nomogramas — nasce aqui, nas fibras de colágeno.*
 
+![Figura 1.3: O Framework Multi-Escala — O mesmo cone visto em 3 níveis de magnificação: Plácido (macro), Corte transversal (meso), Fibras de colágeno (micro)](images/P1-01_Framework/Figura_Framework_MultiEscala.png)
+
 #### Arquitetura Lamelar Normal
 
 O estroma é composto por ~200 lamelas empilhadas. Cada lamela é uma "folha" de ~2 µm de espessura com fibrilas de colágeno tipo I dispostas paralelamente dentro de cada folha, mas cruzando-se em ângulos regulares entre folhas adjacentes.
@@ -125,6 +127,8 @@ No ceratocone, a degradação enzimática (MMP-2, MMP-9) destrói os proteoglica
 3. **As fibras radiais se esticam** na zona do cone — perdem a tensão elástica
 4. **As fibras tangenciais se rompem funcionalmente** na periferia do cone
 5. **A PIO vence localmente** — a malha cedeu → protrusão → o cone nasce
+
+![Figura 1.4: A Catástrofe Lamelar — De fibras intactas a ceratocone em 4 passos: normal → degradação enzimática → deslizamento → protrusão](images/CH-001_Anatomia/Figura_Catastrofe_Lamelar.png)
 
 #### O Plácido Como Espelho da Malha
 
