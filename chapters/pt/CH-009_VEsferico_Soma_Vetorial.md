@@ -1,11 +1,11 @@
-# Capítulo 8 — VEsférico: O Vetor Esférico Resultante (Soma Vetorial)
+# Capítulo 9 — VEsférico: O Vetor Esférico Resultante (Soma Vetorial)
 
 ---
 
 ## 📋 METADADOS DO CAPÍTULO
 
 ```yaml
-chapter_id: CH-008
+chapter_id: CH-009
 title: "VEsférico — O Vetor Esférico Resultante: A Soma de Todas as Forças"
 language: PT-BR
 status: draft

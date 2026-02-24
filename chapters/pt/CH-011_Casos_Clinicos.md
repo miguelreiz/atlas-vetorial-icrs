@@ -1,11 +1,11 @@
-# Capítulo 10 — Casos Clínicos Comentados: O Sistema Vetorial na Prática
+# Capítulo 11 — Casos Clínicos Comentados: O Sistema Vetorial na Prática
 
 ---
 
 ## 📋 METADADOS DO CAPÍTULO
 
 ```yaml
-chapter_id: CH-010
+chapter_id: CH-011
 title: "Casos Clínicos Comentados: Aplicação do Sistema Vetorial em Cenários Reais"
 language: PT-BR
 status: draft

@@ -1,11 +1,11 @@
-# Capítulo 12 — O Futuro dos Anéis Intracorneanos: Para Onde os Vetores Nos Levam
+# Capítulo 13 — O Futuro dos Anéis Intracorneanos: Para Onde os Vetores Nos Levam
 
 ---
 
 ## 📋 METADADOS DO CAPÍTULO
 
 ```yaml
-chapter_id: CH-012
+chapter_id: CH-013
 title: "O Futuro dos Anéis Intracorneanos: Novas Tecnologias, Simulações e Personalização Vetorial"
 language: PT-BR
 status: draft

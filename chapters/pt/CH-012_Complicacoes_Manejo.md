@@ -1,11 +1,11 @@
-# Capítulo 11 — Complicações e Manejo: Quando os Vetores Trabalham Contra Você
+# Capítulo 12 — Complicações e Manejo: Quando os Vetores Trabalham Contra Você
 
 ---
 
 ## 📋 METADADOS DO CAPÍTULO
 
 ```yaml
-chapter_id: CH-011
+chapter_id: CH-012
 title: "Complicações e Manejo: Diagnóstico e Solução Usando a Linguagem Vetorial"
 language: PT-BR
 status: draft
