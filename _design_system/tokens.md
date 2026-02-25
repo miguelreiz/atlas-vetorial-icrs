@@ -27,6 +27,39 @@ Used to identify specific vector forces across all chapters.
 3. **The Law of Orientation**: Top-down views must align the 0-180 axis horizontally.
 4. **The Law of Anatomy**: Vectors must NOT penetrate anatomical structures unless representing "trans-stromal tension".
 
+### 3.1 REGRA DE LEGENDA OBRIGATÓRIA (v0.10.0)
+> Toda imagem que contenha setas vetoriais DEVE incluir uma legenda visível dentro da própria figura com:
+> - **Nome completo + sigla** de cada vetor (ex: "Vetor Radial (VR)", não apenas "VR")
+> - **Cor da seta** correspondente ao token do design system
+> - **Direção:** seta vermelha = problema / seta verde ou azul = solução
+
+### 3.2 CONVENÇÃO DE DIREÇÃO DOS VETORES
+| Elemento | Cor | Direção | Significado |
+|----------|-----|---------|-------------|
+| Vetor do Problema | `#FF4444` vermelho | Aponta **para fora** (centrífugo) ou **para baixo** | A força de deformação causada pela ectasia |
+| Vetor da Solução | `#00CC66` verde | Aponta **para dentro** (centrípeto) ou **para cima** | A força de compensação gerada pelo anel |
+| Vetor de Torque (Problema) | `#FF8800` laranja | Seta curva **horária** (CW) | Rotação que o cone impõe |
+| Vetor de Torque (Solução) | `#00AAFF` azul claro | Seta curva **anti-horária** (CCW) | Contra-rotação do anel progressivo |
+
+### 3.3 REGRA DE DUPLA VISUALIZAÇÃO: PLÁCIDO + TOPOGRAFIA (v0.10.0)
+> **Nova regra editorial:** Sempre que uma figura mostrar o padrão de Plácido (anéis brancos sobre fundo escuro), deve incluir **lado a lado** o mapa topográfico axial tradicional (color-coded, escala quente-fria) do mesmo padrão.
+>
+> **Justificativa:** A maioria dos oftalmologistas está treinada para ler mapas topográficos de cores. Mostrar os dois formatos simultaneamente permite que o médico:
+> 1. **Reconheça** o padrão no formato familiar (mapa de cores)
+> 2. **Aprenda** a ler o mesmo padrão nos anéis de Plácido
+> 3. **Correlacione** onde os anéis comprimidos correspondem às zonas quentes
+>
+> **Formato da prancha dupla:**
+> ```
+> ┌────────────────────┬────────────────────┐
+> │  PLÁCIDO            │  TOPOGRAFIA AXIAL  │
+> │  (anéis brancos)    │  (mapa de cores)   │
+> │  Vista funcional    │  Vista familiar    │
+> └────────────────────┴────────────────────┘
+>   "O que as fibras     "O que o cirurgião
+>    fazem"               já conhece"
+> ```
+
 ---
 
 ## 4. FRAMEWORK VISUAL MULTI-ESCALA — Linguagem Própria do Atlas
