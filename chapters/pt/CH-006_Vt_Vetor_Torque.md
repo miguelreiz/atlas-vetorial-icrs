@@ -183,6 +183,8 @@ PONTA FINA (150 µm):       PONTA GROSSA (350 µm):
      na direção da ponta fina
 ```
 
+![Figura 6.3: Torque por Gradiente — Ponta fina (150µm) vs ponta grossa (350µm). As fibras na zona de transição rotacionam, empurrando o ápice](images/CH-006_Torque/Figura_Torque_Gradiente.png)
+
 #### O Efeito de Reposicionamento do Ápice
 
 A consequência do torque nas fibras é física e direta: como a ponta grossa gera levantamento muito maior que a ponta fina, o ápice da protrusão (que estava deslocado inferiormente) é **empurrado mecanicamente** em direção ao centro pupilar.

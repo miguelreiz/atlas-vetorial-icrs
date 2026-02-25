@@ -164,6 +164,8 @@ Se o cirurgião posiciona a incisão fora do K-steep:
 
 > **Pérola Micro:** O VT não cria tensão nova. Ele **redistribui** a tensão existente entre meridianos. Se a redistribuição é correta (incisão no K-steep), o astigmatismo diminui. Se é incorreta, o astigmatismo muda de eixo e pode até aumentar.
 
+![Figura 5.3: Efeito de Acoplamento nas Fibras — Tensão transferida do K-steep para o K-flat a 90°. Antes: astigmatismo 6D. Depois: 1D redistribuído](images/CH-005_VT/Figura_Efeito_Acoplamento.png)
+
 ---
 
 ### O Plácido Antes e Depois do VT

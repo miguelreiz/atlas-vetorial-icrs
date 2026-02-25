@@ -179,6 +179,8 @@ O segmento assimétrico (ponta grossa inferior) atua nas fibras em 3 etapas:
 
 > **Pérola Micro:** O coma não desaparece porque o anel "corrigiu uma aberração óptica". Desaparece porque o anel **reorganizou fisicamente as fibras** de modo que a assimetria de tensão entre metades da córnea foi reduzida. A óptica é consequência da mecânica.
 
+![Figura 7.4: Coma como Duas Hemicórneas — Metade superior com lamelas intactas e foco correto; metade inferior com lamelas frouxas e foco deslocado. Anel reorganiza → focos convergem → coma reduzido](images/CH-007_VComa/Figura_Coma_Hemicorneas.png)
+
 ---
 
 ### O Plácido Antes e Depois do VComa
