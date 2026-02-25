@@ -59,6 +59,8 @@ Para cada desequilíbrio, há um perfil de anel projetado para aplicar pressão 
 | O colágeno cedeu mais de um lado, encurvando um eixo e planificando o outro. | Precisamos **redistribuir a carga / esticar as malhas opostas**. Vetor Tangencial (VT). | Segmento único cobrindo um longo arco (Efeito Acoplamento). |
 | O cone deslocou a "ponta" do globo inteiro para baixo ou na diagonal, quebrando a simetria da luz, varrendo a pupila de aberração Coma. | Precisamos **puxar a ponta do globo e rotacioná-la** de volta para o centro óptico pupilar. **Vetor de Torque (Vτ).** | **Segmentos Assimétricos (Tapered / Progressive).** Pontas mais grossas afundam forte de um lado, empurrando o ápice pelo efeito de volume. |
 
+![Figura P3.1 — A Matriz de Decisão Vetorial: Padrão → Teste de Coincidência Axial → Arma Biomecânica → Prescrição](images/P1-03_Matriz/Figura_Matriz_Decisao.png)
+
 ---
 
 ### Aplicando a Matriz: Tradução dos Fenótipos AJL / Alfonso
@@ -98,6 +100,8 @@ Veja a tabela que se tornará seu companheiro automático pré-cirúrgico.
 *   **Bem-vindos à Parte II:** Agora que você formou o fluxo intelectual mental **(Aprendeu a diagnosticar o padrão e definir que vetor quer extrair)**, a Parte II do Atlas — que começa na próxima página — irá literalmente tecer como funciona a mecânica brutal do **Vetor Radial, Tangencial, Torque, e Coma**.
 
 ---
+
+![Figura P3.2 — Cheat Sheet clínica: Do Fenótipo à Caixa Cirúrgica. Imprima e cole na parede do bloco.](images/P1-03_Matriz/Figura_Cheat_Sheet.png)
 
 ## 🎨 ESPECIFICAÇÃO VISUAL PARA AS ILUSTRAÇÕES
 
