@@ -346,6 +346,14 @@ references:
   - doi: "Avicenna Alliance"
     title: "Simulation Driven Surgery Planning"
     relevance: "FEM principles applied to corneal biomechanics post-implantation"
+  
+  # Substrato de fibras do VR (Modelo 3-Fibras)
+  - doi: "Exp Eye Res"
+    title: "Meek KM, Boote C (2004). The organization of collagen in the corneal stroma."
+    relevance: "As fibras radiais (centro→periferia) são o substrato mecânico primário que transmite o VR. WAXS: 66% em ±22.5° dos eixos N-T e S-I."
+  - doi: "IOVS"
+    title: "Winkler M et al. (2013). Three-dimensional distribution of transverse collagen fibers in the anterior human corneal stroma."
+    relevance: "Mapeamento SHG 3D confirma fibras radiais na periferia — são estas que o anel tensiona para gerar VR."
 ```
 
 ---

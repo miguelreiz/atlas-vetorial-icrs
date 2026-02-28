@@ -99,6 +99,12 @@ Soma de todos:
   └→ VEsférico (Vetor Esférico Resultante) — Capítulo 9
 ```
 
+#### O ICRS na Escala das Fibras — Como o Anel Corrige
+
+![Figura 2.5: ICRS — A Correção na Escala das Fibras. Vista superior mostrando: anel retensiona radiais (🔴→VR aplainamento), cria nova linha tangencial artificial (🔵→VT redistribuição), e estabiliza lamelas onde oblíquas (🟢) falharam (Vτ travamento). Zona de ectasia reduzida após implantação.](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\icrs_fiber_correction_1772278243571.png)
+
+> **💡 Síntese do Autor (3-Fibras→3-Vetores):** Na escala das fibras, o anel interage diretamente com cada família: (1) tensiona **radiais** → VR; (2) cria nova linha **tangencial** → VT; (3) estabiliza **lamelas** como trava interlamelar → Vτ. O mecanismo é análogo ao das oblíquas (ambos impedem deslizamento), mas mecanisticamente diferente: oblíquas = tração biológica; ICRS = compressão mecânica PMMA.
+
 ### Convenção Fundamental: F (Problema) vs V (Correção)
 
 > **Esta convenção é usada em todo o Atlas.** Memorize-a antes de prosseguir.
@@ -236,6 +242,7 @@ O mesmo anel com 250 µm e 120° de arco produz VR **diferente** dependendo do p
 
 ```yaml
 references:
+  # Princípios biomecânicos ICRS
   - title: "Barraquer JI — Law of Thickness in Lamellar Surgery"
     relevance: "Lei fundamental que governa o VR."
   - title: "Arc-Shortening Biomechanics of Intracorneal Ring Segments"
@@ -244,7 +251,13 @@ references:
     relevance: "Visualização e quantificação do efeito tenda pós-ICRS."
   - title: "Finite Element Modeling of ICRS Biomechanics (Avicenna)"
     relevance: "Validação computacional dos 3 princípios."
+  
+  # Substrato de fibras (Modelo 3-Fibras)
+  - title: "Meek KM, Boote C (2004). The organization of collagen in the corneal stroma. Exp Eye Res."
+    relevance: "Os 3 princípios são transmitidos pela malha de colágeno: radiais (VR), tangenciais (VT). WAXS quantifica a orientação preferencial."
+  - title: "Winkler M et al. (2013). Three-dimensional distribution of transverse collagen fibers. IOVS."
+    relevance: "Fibras oblíquas no anterior explicam por que o túnel ICRS é feito a 70-75% (zona paralela, sem oblíquas)."
 ```
 
 ---
-*Pipeline Status: DRAFT v0.2.0 — Integração: F/V, X-Y-Z, profundidade, perfis de anel*
+*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras referenciado*

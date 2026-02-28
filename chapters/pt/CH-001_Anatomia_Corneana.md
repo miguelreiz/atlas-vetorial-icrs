@@ -52,7 +52,21 @@ Essa tensão gerada no anel se propaga pelas lamelas e é transmitida de volta p
 - **Lamelas anteriores (superficiais):** Entrelaçadas, densas, fortemente conectadas entre si. Difíceis de separar. Respondem menos ao anel (rigidez alta).
 - **Lamelas posteriores (profundas):** Mais paralelas, menos entrelaçadas, com mais substância fundamental entre elas. **Mais fáceis de separar.** É aqui que o túnel do anel é criado.
 
-> **Pérola Anatômica:** O anel é implantado no estroma posterior (~70-80% de profundidade) por dois motivos: (1) é mecanicamente mais fácil criar o túnel nessa zona, e (2) a ação biomecânica do anel nessa profundidade maximiza o efeito de aplainamento (quanto mais profundo, maior o braço de alavanca).
+> **Pérola Anatômica — Por Que 70-75% de Profundidade?**
+>
+> O anel é implantado no estroma posterior (~70-75%) por razões **arquiteturais e biomecânicas**, não apenas técnicas:
+>
+> **Arquitetura lamelar:** O estroma anterior (1/3) tem fibras entrelaçadas e oblíquas — uma rede densa tipo feltro, difícil de dissecar. O estroma posterior (2/3) tem lamelas **paralelas**, predominantemente nos eixos nasal-temporal e superior-inferior (WAXS: 66% em ±22.5°). As lamelas separam-se ao longo dos planos naturais → o túnel é criado com facilidade nessa zona. A facilidade é **consequência** da arquitetura, não o motivo primário.
+>
+> **Equilíbrio tenting–âncora:** O motivo primário é biomecânico. O anel age como cunha/fulcro: empurra o tecido *acima* anteriormente (tenting = VR), enquanto o tecido *abaixo* fornece a ancoragem reativa. O ponto ótimo equilibra ambos:
+>
+> | Profundidade | Acima do anel | Abaixo (âncora) | Efeito |
+> |-------------|--------------|-----------------|--------|
+> | 60% | 60% | 40% | VR fraco — pouco tecido acima para tenting |
+> | **70-75%** ✅ | 70-75% | 25-30% | **Ótimo** — máximo tenting + âncora suficiente |
+> | >80% | >80% | <20% | VR **diminuído** (FEM) — âncora posterior fina demais |
+>
+> Acima de 80%, o anel "flutua" sem resistência posterior adequada — o efeito de aplainamento cai. A frase "mais fundo = sempre melhor" é um mito perigoso.
 
 ### Geometria Corneana: O Mapa que o Cirurgião Lê
 
@@ -101,32 +115,35 @@ No ceratocone, a anatomia corneana se altera de formas específicas que afetam d
 
 O estroma é composto por ~200 lamelas empilhadas. Cada lamela é uma "folha" de ~2 µm de espessura com fibrilas de colágeno tipo I dispostas paralelamente dentro de cada folha, mas cruzando-se em ângulos regulares entre folhas adjacentes.
 
-**Padrão de cruzamento:**
-- **Fibras radiais:** correm do centro para a periferia (como raios de uma roda)
-- **Fibras tangenciais (circunferenciais):** correm em arcos paralelos ao limbo (como cercas concêntricas)
-- **Fibras oblíquas:** conectam as camadas anteriores às posteriores (como tirantes de uma ponte)
+**Padrão de cruzamento (Modelo 3-Fibras — baseado em WAXS e SHG):**
 
-```
-Vista superior da malha de colágeno normal:
+- 🔴 **Fibras radiais:** correm do centro para a periferia (como raios de uma roda) — ✅ Meek & Boote, 2004; Winkler et al., 2013
+- 🔵 **Fibras tangenciais (circunferenciais):** correm em arcos paralelos ao limbo (como cercas concêntricas) — ✅ Meek & Newton, 1998 (Annulus Limbal)
+- 🟢 **Fibras oblíquas (interlamelares):** conectam as camadas anteriores às posteriores (como tirantes de uma ponte) — ✅ Radner et al., 1998; Winkler et al., 2013
 
-    ╲  |  ╱         Fibras radiais (raios da roda)
-     ╲ | ╱
-  ────(●)────       Fibras tangenciais (cercas concêntricas)
-     ╱ | ╲
-    ╱  |  ╲         Centro pupilar = (●)
+![Figura 1.8: Malha de Colágeno Corneana Normal — Vista Superior. Fibras radiais (vermelhas) do centro à periferia, tangenciais (azuis) em arcos concêntricos no limbo, oblíquas (verdes) conectando camadas. Tensão equilibrada = curvatura uniforme = Plácido concêntrico](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\collagen_fiber_pattern_1772276571709.png)
 
-  Resultado: Tensão equilibrada → Curvatura uniforme → Plácido concêntrico
-```
+> **💡 Síntese do Autor:** Cada família de fibras conecta-se a um vetor de correção do ICRS: radiais → VR (aplainamento), tangenciais → VT (redistribuição), oblíquas → estabilização interlamelar. Esta ponte fibra→vetor é proposta pelo autor com base na convergência de evidência WAXS (Meek), SHG (Winkler), e EM (Radner).
 
-#### O Que Muda no Ceratocone — A Catástrofe Lamelar
+#### Gradiente de Fibras Oblíquas — Por Que o Anel Vai a 70-75%
 
-No ceratocone, a degradação enzimática (MMP-2, MMP-9) enfraquece os proteoglicanos que servem de "cola" entre as lamelas. Sem essa ancoragem:
+As fibras oblíquas não estão distribuídas uniformemente. Elas formam um **gradiente**: abundantes no estroma anterior (tipo "feltro"), progressivamente raras no posterior (lamelas paralelas):
 
-1. **As lamelas deslizam** umas sobre as outras — deslocamento inter e intralamelar
-2. **O espaçamento aumenta** na zona do ápice — perda de coesão interlaminar
-3. **As fibras se reorientam** na zona do cone — os eixos preferenciais mudam de 90°/180° para ~60°/120° (demonstrado por WAXS)
-4. **As fibras tangenciais perdem orientação preferencial** na periferia do cone — deslocando-se e reorganizando-se em ângulos não-ortogonais
-5. **A PIO vence localmente** — a malha cedeu → o posterior abaulha anteriormente → o cone nasce
+![Figura 1.9: Gradiente de Fibras Oblíquas em Corte Transversal — Estroma anterior (1/3) denso em oblíquas verdes; estroma posterior (2/3) com lamelas paralelas e poucas oblíquas. O túnel do anel é criado na zona sem oblíquas a 70-75% — Baseado em Winkler et al. (2013) SHG 3D mapping](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\oblique_fiber_gradient_1772278256215.png)
+
+#### O Que Muda no Ceratocone — A Cascata Patogênica nas Fibras
+
+No ceratocone, a degradação enzimática (MMP-2, MMP-9 — ✅ Kenney et al., 2004) enfraquece os proteoglicanos que ancoram as fibras oblíquas. A cascata progride em 4 etapas:
+
+![Figura 1.10: Cascata Patogênica do Ceratocone na Escala das Fibras — 4 estágios: (1) Normal: fibras intactas. (2) Degradação: MMPs degradam proteoglicanos, oblíquas perdem ancoragem. (3) Deslizamento: lamelas deslizam, radiais frouxas. (4) Ectasia: PIO vence focalmente, protrusão. Tangenciais límbicas preservadas em todos os estágios — Kenney 2003/2004, Radner 1998, Winkler 2013, Meek & Knupp 2015](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\cascata_patogenica_fibras_1772278304940.png)
+
+![Figura 1.11: Ceratocone na Escala das Fibras — Vista superior mostrando: radiais inferiores (🔴) frouxas e fragmentadas, oblíquas (🟢) ausentes na zona do cone, tangenciais límbicas (🔵) preservadas. Zona de ectasia em laranja. Explica por que o ceratocone é central/paracentral, nunca límbico](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\keratoconus_fiber_damage_1772278231858.png)
+
+**Na linguagem das 3 fibras:**
+1. 🟢 **Oblíquas degradam primeiro** — proteoglicanos perdidos → lamelas perdem "rebites" (🔬 evidência indireta: Radner 1998 + Winkler 2013)
+2. 🔴 **Radiais afrouxam em seguida** — sem travamento oblíquo, PIO estica radiais focalmente (✅ Meek & Knupp 2015)
+3. 🔵 **Tangenciais límbicas permanecem intactas** — o anel límbico é uma estrutura de contenção independente (✅ Meek & Newton 1998)
+4. Resultado: tensão assimétrica → curvatura focal → anéis de Plácido comprimidos na zona do cone
 
 > **Nota (Skill 0):** A massa total de colágeno no ceratocone diminui apenas ~5%. O que ocorre não é destruição das fibras, mas **redistribuição por deslizamento** — as fibrilas escorregam entre e dentro das lamelas, mudando de posição e orientação sem serem destruídas.
 
@@ -215,13 +232,32 @@ A ectasia corneana — seja ceratocone primário, seja ectasia pós-cirurgia ref
 
 ```yaml
 references:
+  # Anatomia geral
   - title: "Corneal Anatomy and Physiology — Krachmer's Cornea"
     relevance: "Referência anatômica padrão para estrutura lamelar."
   - title: "Stromal Lamellar Organization in Keratoconus (Meek & Knupp)"
     relevance: "Demonstra as diferenças entre lamelas anteriores e posteriores."
   - title: "Implantation Depth and ICRS Outcomes"
     relevance: "Correlação entre profundidade do túnel e efeito biomecânico."
+  
+  # Arquitetura de fibras de colágeno (Modelo 3-Fibras)
+  - title: "Meek KM, Newton RH (1998). Organization of collagen fibrils in the corneal stroma in relation to mechanical properties and surgical practice. J Refract Surg."
+    relevance: "Evidência WAXS do Annulus Limbal — fibras tangenciais circunferenciais no limbo."
+  - title: "Meek KM, Boote C (2004). The organization of collagen in the corneal stroma. Exp Eye Res."
+    relevance: "WAXS quantitativo: 66% das fibras centrais em ±22.5° dos eixos preferenciais (nasal-temporal e superior-inferior)."
+  - title: "Winkler M et al. (2013). Three-dimensional distribution of transverse collagen fibers in the anterior human corneal stroma. Invest Ophthalmol Vis Sci."
+    relevance: "Mapeamento SHG 3D: fibras oblíquas interlamelares abundantes no 1/3 anterior, raras no posterior. Fibras radiais na periferia."
+  - title: "Radner W et al. (1998). Interlacing and cross-angle distribution of collagen lamellae in the human cornea. Cornea."
+    relevance: "Microscopia eletrônica: fibras oblíquas conectando camadas no estroma anterior (tipo feltro)."
+  - title: "Mallinger R, Stockinger H (2002). Corneal collagen lamella architecture."
+    relevance: "Gradiente de fibras oblíquas: abundantes anterior → raras posterior."
+  - title: "Gogola A et al. (2018). Radial and circumferential collagen fibers are a feature of the peripapillary sclera. Invest Ophthalmol Vis Sci."
+    relevance: "Confirmação do padrão radial e circunferencial como princípio organizador do tecido ocular."
+  - title: "Agbaje TO et al. (2022). Corneal collagen orientation studies."
+    relevance: "Validação adicional do padrão tangencial límbico por técnicas modernas."
 ```
 
+> **Nota de qualificação (modelo 3-fibras→3-vetores):** O modelo radial/tangencial/oblíqua é uma abstração didática baseada em evidência WAXS e SHG. As 3 famílias de fibras não são entidades anatômicas discretas — são orientações preferenciais dentro de uma malha anisotrópica contínua. O mapeamento fibra→vetor (radial→VR, tangencial→VT, oblíqua→Vτ) é funcional: as fibras são o principal substrato mecânico de cada vetor, mas não o exclusivo. Esta simplificação prioriza clareza para o cirurgião sobre completude descritiva para o anatomista.
+
 ---
-*Pipeline Status: DRAFT v0.1.0*
+*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado, referências WAXS/SHG*
