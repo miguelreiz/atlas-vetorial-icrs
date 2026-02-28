@@ -106,6 +106,46 @@ A córnea pode ser mapeada em zonas concêntricas. **Cada zona tem uma arquitetu
 
 > **🔬 Evidência Indireta Convergente:** A relação diâmetro→fibra→vetor é baseada em: (1) mapas WAXS de Meek & Boote 2004 mostrando transição ortogonal→circumferencial, (2) dados clínicos mostrando que anéis de diâmetro menor geram mais ΔK (aplainamento) e anéis maiores geram mais redistribuição, (3) princípio biomecânico de que o vetor gerado depende da orientação das fibras interceptadas.
 
+#### Proporções do Estroma — Anterior vs Posterior
+
+A córnea central (~550 µm) divide-se em camadas com funções distintas:
+
+| Camada | Espessura | % total |
+|--------|----------|---------|
+| Epitélio | ~50 µm | 9% |
+| Bowman | ~8-14 µm | 2% |
+| **Estroma Anterior** | **~120-160 µm** | **~30% do estroma** |
+| **Estroma Posterior** | **~320-360 µm** | **~70% do estroma** |
+| Descemet + Endotélio | ~15-17 µm | 3% |
+
+```
+Diagrama em escala — Onde o anel fica:
+
+  0 µm ┬─── Epitélio (50µm)
+ 50 µm ├─── Bowman
+ 64 µm ├═══════════════════════════════ Estroma Anterior (30%)
+       │   🟢🟢🟢 Oblíquas densas      ← "feltro" — difícil dissecção
+       │   Fibras entrelaçadas
+       │   Orientação isotrópica
+~210µm ├─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─  Transição
+       │
+       ├═══════════════════════════════ Estroma Posterior (70%)
+       │   🔴🔴 Radiais ortogonais     ← N-T e S-I (WAXS: 66%)
+       │   Lamelas paralelas
+       │   Orientação fortemente organizada
+       │
+385µm ─┤   ███ ANEL (70% profundidade)  ← AQUI
+413µm ─┤   ███ ANEL (75% profundidade)  ← OU AQUI
+       │
+       │   Poucas oblíquas nesta zona
+~530µm ├─── Descemet + Endotélio
+ 550µm ┴
+```
+
+> **⚠️ Qualificação sobre Profundidade WAXS (importante para defesa científica):**
+>
+> Os mapas WAXS de Meek & Boote (2004) representam a **soma de toda a espessura corneana** — o raio X atravessa a córnea inteira. Porém, o padrão ortogonal N-T/S-I registrado é **dominado pela contribuição do estroma posterior** (70% da espessura, fibras mais organizadas). Winkler et al. (2013) confirmaram por SHG que o estroma posterior é mais fortemente ortogonal que o anterior. **Conclusão:** os mapas zonais (centro ortogonal → limbo circunferencial) são diretamente representativos da zona de interação do ICRS a 70-75%, já que a orientação preferencial vem primariamente do estroma posterior onde o anel é implantado.
+
 
 ### Os 5 Marcos Anatômicos do Cirurgião de Anéis
 
