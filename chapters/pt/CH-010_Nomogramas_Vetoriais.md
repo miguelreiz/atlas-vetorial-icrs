@@ -199,7 +199,25 @@ SE prioridade = VR + VT + VComa      → FERRARA HM (>300°) ou CORNEALRING 300�
 
 ---
 
-### Anéis Concêntricos — Engenharia Estrutural Multicamada
+### Matriz de Decisão: Perfil × Arco × Fenótipo
+
+A escolha do **perfil** (triangular vs flat) e do **arco** (curto vs longo) deve ser guiada pelo fenótipo e pela malha fibrilar que o anel encontra:
+
+| Fenótipo | Perfil | Arco | Vetor Dominante | Razão Fibrilar |
+|----------|--------|------|----------------|---------------|
+| **P1 (Nipple)** | 🔺 Triangular | 2×150° | VR bilateral | Ponta separa lamelas sobre ápice central |
+| **P2 (Oval)** | ▬ Flat | 210° | Vτ + VT | Face plana redistribui + gradiente progressivo |
+| **P3 Duck T1** | 🔺 Triangular | 150° assimétrico | VR + Vτ | Ponta focal sobre cada lobo |
+| **P3 Duck T2** | ▬ Flat | 160-210° | Vτ guiado | Face plana + gradiente sem hiperaplanamento |
+| **P4 (Snowman)** | 🔺 Triangular | 2×(90-150°) | VR duplo + Vτ | Duas pontas focais sobre cada polo |
+| **P5 (Complexo)** | ▬ Flat | 210-340° | Contenção | Annulus artificial parcial → contenção global |
+| **KC Progressivo** | ▬ Flat | 340° + CXL | Annulus + CXL | Máxima contenção + crosslinks bioquímicos |
+
+![Figura 10.1: Matriz de Decisão — Perfil × Arco × Fenótipo. Quatro cenários: P1 Nipple (triangular+curto), P2 Oval (flat+longo), P3 Duck (triangular+assimétrico), KC Progressivo (flat+340°+CXL)](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\profile_fenotype_matrix_1772311340157.png)
+
+> **💡 Síntese:** O triangular é a "cunha" para cones focais (VR forte). O flat é a "almofada" para cones amplos (VT+contenção). O arco longo é o "annulus artificial" para progressão.
+
+
 
 Quando um único anel é insuficiente (Kmax > 60-65 D), a estratégia avançada é **implantar anéis em planos concêntricos** — dois níveis de modulação atuando complementarmente.
 

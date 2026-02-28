@@ -259,5 +259,44 @@ references:
     relevance: "Fibras oblíquas no anterior explicam por que o túnel ICRS é feito a 70-75% (zona paralela, sem oblíquas)."
 ```
 
+### Perfil do Anel × Malha Fibrilar — Triangular vs Flat
+
+O formato da seção transversal do anel determina **como** o estresse é distribuído nas fibras de colágeno:
+
+#### Dado FEM Crucial (✅ Fato Publicado)
+
+| Fator | Contribuição para ΔK | Ref |
+|-------|----------------------|-----|
+| **Altura vertical (espessura)** | **84%** | ✅ PLOS ONE FEM |
+| **Formato da seção** | **13%** | ✅ PLOS ONE FEM |
+
+> A espessura importa muito mais que o formato para aplainamento. Mas o formato determina **distribuição de estresse, complicações e estabilidade**.
+
+#### 🔺 Triangular (Ferrara/Keraring) — A "Cunha"
+
+- Ponta aguda → **tenting focal** → pressão concentrada em poucas lamelas
+- Maximiza arc-shortening → VR concentrado
+- ✅ Melhor para: nipple (P1), K-max >60D, Ø5mm (fibras ortogonais → ponta fende entre lamelas paralelas)
+- ⚠️ Risco: haze focal em paquimetrias finas
+
+#### ▬ Flat/Hexagonal (Intacs) — A "Almofada"
+
+- Face plana → **tenting difuso** → pressão distribuída sobre muitas lamelas
+- Arc-shortening moderado → VR diluído + VT amplo
+- ✅ Melhor para: oval (P2), progressão, Ø7mm (fibras já tangenciais → face plana interage melhor)
+- ✅ Menor risco de haze (estresse distribuído)
+
+![Figura 2.6: Triangular vs Flat — Como cada perfil interage com as fibras de colágeno. Triangular: tenting focal, VR concentrado (cunha entre lamelas). Flat: tenting difuso, VR+VT distribuído (almofada sobre lamelas).](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\triangular_vs_flat_fibers_1772311323851.png)
+
+#### 💡 Perfil × Zona WAXS (Síntese do Autor)
+
+| Diâmetro | Zona WAXS | Fibras | Perfil Ideal |
+|----------|----------|--------|-------------|
+| **Ø5mm** | Paracentral (ortogonais) | 🔴 Radiais paralelas | 🔺 **Triangular** — ponta se insere entre lamelas retas |
+| **Ø6mm** | Transição | Misto 🔴→🔵 | Qualquer perfil |
+| **Ø7mm** | Pré-limbal (tangenciais) | 🔵 Emergindo | ▬ **Flat** — face plana distribui sobre fibras curvas |
+
+> **🔬 Evidência Indireta:** O triangular é geometricamente mais eficiente a Ø5mm porque as fibras são ortogonais e paralelas — a ponta da cunha se insere entre elas como uma faca entre camadas de massa folhada. A Ø7mm, a face plana distribui melhor porque as fibras curvas não formam "camadas retas" para fender.
+
 ---
-*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras referenciado*
+*Pipeline Status: DRAFT v0.4.0 — Perfil × Arco × Malha integrado*
