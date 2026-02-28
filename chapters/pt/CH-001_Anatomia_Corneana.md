@@ -142,9 +142,129 @@ Diagrama em escala — Onde o anel fica:
  550µm ┴
 ```
 
+![Figura 1.13: Proporções do Estroma Corneano — Anterior (30%) vs Posterior (70%). Corte transversal mostrando estroma anterior rico em oblíquas verdes (feltro, isotrópico) versus estroma posterior com fibras vermelhas paralelas (ortogonais N-T/S-I). ICRS posicionado a 70-75% de profundidade no estroma posterior. Proporção em escala.](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\stromal_proportion_depth_1772301574639.png)
+
 > **⚠️ Qualificação sobre Profundidade WAXS (importante para defesa científica):**
 >
 > Os mapas WAXS de Meek & Boote (2004) representam a **soma de toda a espessura corneana** — o raio X atravessa a córnea inteira. Porém, o padrão ortogonal N-T/S-I registrado é **dominado pela contribuição do estroma posterior** (70% da espessura, fibras mais organizadas). Winkler et al. (2013) confirmaram por SHG que o estroma posterior é mais fortemente ortogonal que o anterior. **Conclusão:** os mapas zonais (centro ortogonal → limbo circunferencial) são diretamente representativos da zona de interação do ICRS a 70-75%, já que a orientação preferencial vem primariamente do estroma posterior onde o anel é implantado.
+
+---
+
+### A Proporção Estromal Explica o PTA — Hipótese da Ponte Fibrilar
+
+> **💡 SÍNTESE DO AUTOR — Hipótese Original**
+>
+> A seção a seguir propõe uma ponte inédita entre dois corpos de evidência independentes: a anatomia fibrilar (Meek/Winkler) e o índice PTA de Santhiago. Cada componente é fato publicado; **a conexão causal é proposta pelo autor deste Atlas.**
+
+#### O Que é o PTA (Percent Tissue Altered)
+
+O PTA foi proposto por Marcony R. Santhiago como preditor de ectasia pós-LASIK (✅ Santhiago MR et al., *Ophthalmology*, 2014):
+
+```
+PTA = (Espessura do Flap + Profundidade de Ablação) / Espessura Corneana Central (CCT)
+```
+
+| PTA | Interpretação | Evidência |
+|-----|--------------|-----------|
+| <35% | Seguro | ✅ Santhiago 2014 |
+| 35-40% | Zona cinza | ✅ Santhiago 2014 |
+| **≥40%** | **Risco independente de ectasia** | ✅ Santhiago 2014, Ophthalmology |
+
+**Achados clínicos (✅ fatos publicados):**
+- PTA ≥40% é o preditor **mais robusto e independente** de ectasia pós-LASIK (✅ Santhiago MR et al., *Ophthalmology*, 2014)
+- Superior ao RSB (leito estromal residual) isolado como preditor (✅ Santhiago MR et al., *JCRS*, 2014)
+- Superior ao ERSS (Ectasia Risk Scoring System) de Randleman (✅ Santhiago MR et al., 2014)
+- O anterior **40%** da córnea tem resistência tensil **significativamente maior** que os posteriores 60% (✅ Randleman JB et al., *JCRS*, 2008)
+
+#### A Coincidência Numérica — Por Que 40%?
+
+A pergunta fundamental que o PTA nunca respondeu: **por que exatamente 40%?**
+
+A resposta está na proporção das fibras oblíquas:
+
+| Dado Anatômico | Valor | Dado Clínico | Valor |
+|---------------|-------|-------------|-------|
+| ✅ Estroma anterior (oblíquas 🟢 densas) | **~30-40%** da espessura | ✅ Limiar PTA de ectasia | **≥40%** |
+| ✅ Resistência tensil anterior >> posterior | Anterior 40% concentra a maior rigidez | ✅ RSB sozinho não prediz ectasia | RSB é posterior puro |
+| ✅ Oblíquas impedem cisalhamento interlamelar | Radner 1998, Winkler 2013 | ✅ Ectasia pós-LASIK = mesmo fenótipo que KC | Mesma morfologia e progressão |
+
+> **💡 Hipótese do Autor:** O limiar PTA ≥40% marca o ponto em que TODA a camada rica em fibras oblíquas (estroma anterior) foi **cortada** (pelo flap) e/ou **removida** (pela ablação). Abaixo desse ponto, o RSB é estroma posterior puro — lamelas paralelas sem travamento interlamelar — vulnerável ao deslizamento sob PIO.
+
+#### Cascata Patogênica: PTA na Linguagem das Fibras
+
+```
+✅ FLAP LASIK (~120-160 µm) corta ATRAVÉS do estroma anterior
+   ↓
+✅ Flap ROMPE as fibras oblíquas 🟢 interlamelares (Winkler 2013)
+   → Destrói a rede "feltro" que impede cisalhamento entre lamelas
+   ↓
+✅ ABLAÇÃO a laser (~50-100 µm) REMOVE tecido na interface
+   → Elimina fibras oblíquas e radiais adicionais
+   ↓
+🔬 O leito residual (RSB) = estroma POSTERIOR
+   → Contém apenas fibras paralelas 🔴 (radiais ortogonais N-T/S-I)
+   → SEM oblíquas 🟢 → SEM resistência ao cisalhamento interlamelar
+   ↓
+💡 Se PTA ≥40%:
+   → TODA a camada rica em oblíquas foi comprometida
+   → O RSB é composto de lamelas posteriors SEM travamento transversal
+   → A PIO atua sobre lamelas "soltas" (mesma situação do ceratocone)
+   → Lamelas deslizam → ECTASIA
+```
+
+#### Comparação: LASIK Seguro vs LASIK Risco
+
+| | LASIK Seguro (PTA 35%) | LASIK Risco (PTA ≥40%) |
+|--|----------------------|----------------------|
+| **Flap** | 120 µm — corta **parte** das oblíquas | 160 µm — corta **todas** as oblíquas |
+| **Ablação** | 70 µm — dentro da zona anterior | 90 µm — atinge a zona de transição |
+| **Oblíquas restantes** | 🟢 **Sim** — "feltro" parcialmente preservado | ❌ **Não** — "feltro" completamente rompido |
+| **RSB** | Misto anterior/posterior — algum travamento residual | Posterior puro — sem travamento interlamelar |
+| **Resultado** | ✅ Córnea estável sob PIO | ⚠️ Risco de deslizamento lamelar → ectasia |
+
+#### A Ponte com o Ceratocone — O Mesmo Mecanismo
+
+| Etapa | Ceratocone | Ectasia pós-LASIK |
+|-------|-----------|-------------------|
+| **Causa primária** | ✅ Enzimas (MMP-2/9) degradam proteoglicanos | ✅ Flap + ablação cortam/removem tecido |
+| **Consequência** | 🔬 Oblíquas perdem ancoragem | 🔬 Oblíquas são fisicamente cortadas |
+| **Resultado mecânico** | 🔬 Lamelas sem travamento → deslizam | 🔬 RSB sem oblíquas → desliza |
+| **Fenótipo final** | ✅ Protrusão focal, K-max elevado | ✅ Protrusão focal, K-max elevado |
+| **O que preserva** | ✅ Anel límbico intacto (tangenciais 🔵) | ✅ Periferia não ablacionada intacta |
+
+> **💡 Síntese do Autor:** Ceratocone e ectasia pós-LASIK são **o mesmo mecanismo fibrilar** (perda de travamento oblíquo → deslizamento lamelar) por causas diferentes (enzimática vs. iatrogênica). O PTA ≥40% quantifica o limiar onde o dano iatrogênico é equivalente ao dano enzimático do ceratocone.
+>
+> **Nível de evidência:** Cada componente individual é ✅ fato publicado: PTA (Santhiago 2014), proporção estromal (Winkler 2013), resistência tensil (Randleman 2008), mecanismo de deslizamento (Radner 1998). **A ponte entre eles é 💡 síntese original do autor.**
+
+#### Predição Verificável
+
+Esta hipótese é experimentalmente testável:
+
+| Experimento | Método | Predição |
+|-------------|--------|---------|
+| Medir oblíquas residuais em córneas pós-LASIK | SHG microscopia (Winkler) | Córneas com PTA ≥40% terão **zero** oblíquas residuais |
+| Resistência ao cisalhamento do RSB | Teste mecânico ex vivo | RSB de PTA ≥40% terá resistência ao cisalhamento **significativamente menor** |
+| CXL pós-LASIK | Histologia com SHG | CXL recria crosslinks artificiais **equivalentes funcional** às oblíquas perdidas |
+
+#### Referências (Seção PTA)
+
+```yaml
+references_pta:
+  - title: "Santhiago MR et al. (2014). Association between the percent tissue altered and post-LASIK ectasia in eyes with normal preoperative topography. J Refract Surg."
+    relevance: "✅ Artigo original definindo PTA. PTA ≥40% = preditor independente de ectasia."
+  - title: "Santhiago MR et al. (2014). Role of percent tissue altered on ectasia after LASIK in eyes with suspicious topography. JCRS."
+    relevance: "✅ PTA superior ao RSB como preditor isolado."
+  - title: "Randleman JB et al. (2008). Depth-dependent cohesive tensile strength in human donor corneas. JCRS."
+    relevance: "✅ Anterior 40% tem resistência tensil significativamente maior que posterior 60%."
+  - title: "Winkler M et al. (2013). Three-dimensional distribution of transverse collagen fibers. IOVS."
+    relevance: "✅ Oblíquas concentradas no anterior 30-40%. Gradiente: densas→raras."
+  - title: "Radner W et al. (1998). Interlacing and cross-angle distribution of collagen lamellae. Cornea."
+    relevance: "✅ Coesão interlamelar mediada por fibras oblíquas."
+  - title: "Meek KM, Knupp C (2015). Corneal structure and transparency. Prog Retin Eye Res."
+    relevance: "✅ Organização fibrilar diferencial anterior vs posterior."
+  - title: "Kenney MC et al. (2004). Increased levels of catalase and cathepsin V/L2. Exp Eye Res."
+    relevance: "✅ MMPs no ceratocone — mecanismo enzimático de perda de oblíquas (comparação com iatrogênica)."
+```
 
 
 ### Os 5 Marcos Anatômicos do Cirurgião de Anéis
