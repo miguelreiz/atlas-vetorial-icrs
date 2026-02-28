@@ -238,5 +238,16 @@ references:
     relevance: "Base teórica para a decomposição do VComa em Z(3,1) e Z(3,-1)."
 ```
 
+#### 💡 O VComa na Escala das Fibras (Síntese do Autor)
+
+O VComa não é um vetor mecânico — é o **resultado óptico** da distribuição assimétrica de fibras:
+
+- **Causa do coma:** O ápice desloca-se porque as oblíquas 🟢 degradaram **assimetricamente** — mais em uma região (inferior no KC clássico) que em outra. Onde há menos oblíquas → lamelas deslizam mais → ápice migra para essa zona
+- **VComa geométrico:** A distância entre o ápice (zona de máxima protrusão = zona de máxima perda de oblíquas) e o centro pupilar
+- **Como o anel corrige VComa:** O Vτ (gradiente de espessura) recria um travamento assimétrico que **empurra o ápice de volta**: ponta grossa trava as lamelas na zona do cone (onde oblíquas falharam), ponta fina preserva a zona saudável → ápice migra para o centro → VComa diminui
+- **Por que anel simétrico não corrige VComa:** Sem gradiente de travamento, o anel aplaina uniformemente mas NÃO reposiciona — as lamelas continuam deslizadas na mesma configuração assimétrica
+
+> **🔬 Evidência Indireta:** A redução de coma é maior com segmentos assimétricos (✅ dados pub.) porque eles recriam o gradiente de travamento oblíquo perdido. Anel simétrico = aplainamento sem reposicionamento = VR sem VComa.
+
 ---
-*Pipeline Status: DRAFT v0.1.0 — Aguardando integração das pranchas visuais.*
+*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado*

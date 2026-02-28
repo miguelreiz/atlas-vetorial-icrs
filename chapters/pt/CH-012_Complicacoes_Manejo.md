@@ -142,5 +142,18 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 
 3. **Sempre documente o VEsférico pré e pós.** É a única forma de aprender com cada caso e refinar seu nomograma pessoal ao longo dos anos.
 
+#### 💡 Complicações na Escala das Fibras (Síntese do Autor)
+
+| Complicação | Vetor | Na Linguagem das Fibras |
+|-------------|-------|------------------------|
+| **Hipocorreção** | VR insuficiente | Anel não tensionou suficientemente as 🔴 radiais (espessura baixa ou diâmetro grande) |
+| **Hipercorreção** | VR excessivo | Anel tensionou 🔴 radiais em excesso → inversão de curvatura — radiais "hiperesticadas" |
+| **Astigmatismo induzido** | VT mal direcionado | Anel criou nova linha 🔵 tangencial no eixo errado → redistribuiu tensão na direção incorreta |
+| **Coma piorado** | Vτ invertido | Ponta grossa do lado errado → gradiente de travamento 🟢 invertido → ápice migra para LONGE do centro |
+| **Extrusão** | Tenting excessivo | Anel muito espesso a profundidade insuficiente → pressão erosiva sobre as lamelas acima → fibras 🔴 e 🟢 rompem focalmente |
+| **Haze estromal** | Estresse mecânico | Lamelas no ponto de máximo tenting sofrem microtrauma → resposta cicatricial |
+
+> **🔬 Implicação Clínica:** Entender a complicação na escala fibrilar ajuda a escolher a **correção correta**: se o problema é de 🔴 radiais (hipo/hipercorreção), troque espessura. Se é de 🟢 oblíquas (coma), troque para assimétrico. Se é de 🔵 tangenciais (SIA), corrija o eixo.
+
 ---
-*Pipeline Status: DRAFT v0.2.0 — Auditoria aplicada: Recall sentences, profundidade corrigida, imagens de fibras*
+*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado*

@@ -158,5 +158,16 @@ O objetivo é duplo: (1) treinar o raciocínio vetorial e (2) demonstrar que dif
 
 ![Figura 11.1: Vetores do Anel na Escala das Fibras — Corte transversal mostrando ICRS a 70-75% de profundidade, tenting effect nas lamelas acima do implante, VR (azul) apontando para o aplainamento central, VT (azul) redistribuindo tensão tangencialmente](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\icrs_crosssection_vectors_1772194823388.png)
 
+#### 💡 Análise dos Casos na Escala das Fibras (Síntese do Autor)
+
+| Caso | Fibra Primária Afetada | O Que o Anel Fez | Resultado Fibrilar |
+|------|----------------------|-----------------|-------------------|
+| 1 (Nipple) | 🔴 Radiais frouxas centralmente | Retensionou radiais (VR forte) | ✅ Radiais retensionadas → aplainamento |
+| 2 (Oval) | 🟢 Oblíquas degradadas inferiormente | Recriou gradiente de travamento (Vτ) | ✅ Ápice reposicionado → coma corrigido |
+| 3 (Globoso) | 🔴🟢 Radiais e oblíquas difusamente | VR máximo + VT (arco longo) | ✅ Parcial — aplainamento bom, mas K-max residual alto |
+| 4 (**Erro**) | 🟢 Oblíquas degradadas inferiormente | **Apenas VR — não recriou gradiente** | ❌ Radiais retensionadas, mas oblíquas ignoradas → coma persistente |
+
+> **Lição fibrilar:** O Caso 4 falhou porque o cirurgião tratou um problema de 🟢 oblíquas (cone oval = degradação assimétrica) com solução de 🔴 radiais (anel simétrico = VR puro). **Cada fenótipo exige a interação com a família de fibras correta.**
+
 ---
-*Pipeline Status: DRAFT v0.2.0 — Auditoria aplicada: Recall sentences, imagens de fibras*
+*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado*

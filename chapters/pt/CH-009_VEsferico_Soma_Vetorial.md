@@ -200,5 +200,20 @@ references:
     relevance: "Validação computacional do modelo de soma vetorial via simulação FEM."
 ```
 
+#### 💡 O VEsférico na Escala das Fibras (Síntese do Autor)
+
+O VEsférico é a soma vetorial de todas as interações do anel com as 3 famílias de fibras:
+
+| Componente | Fibra Interagida | Mecanismo |
+|-----------|-----------------|-----------|
+| **VR** (aplainamento) | 🔴 Radiais — tensionadas lateralmente pelo tenting | Anel separa lamelas → fibras radiais esticam → curvatura central diminui |
+| **VT** (redistribuição) | 🔵 Tangenciais — arco do anel cria nova tangencial | Anel age como tangencial artificial → redistribui tensão entre meridianos |
+| **Vτ** (torque) | 🟢 Oblíquas — gradiente de travamento recriado | Ponta grossa→ponta fina cria gradiente que empurra ápice |
+| **VComa** (óptico) | Resultado da soma assimétrica | Migração do ápice = consequência óptica da redistribuição fibrilar |
+
+**VEsférico = f(🔴) + f(🔵) + f(🟢)** — cada vetor é uma função de como o anel interage com uma família de fibras.
+
+> **💡 Síntese:** Um VEsférico "bom" significa que o anel interagiu **corretamente com todas as 3 famílias**: tensionou radiais (VR), criou tangenciais (VT), recriou gradiente de oblíquas (Vτ), e reposicionou o ápice (VComa). Um VEsférico "ruim" significa que uma ou mais interações falhou — geralmente porque o fenótipo foi mal classificado ou o anel mal posicionado.
+
 ---
-*Pipeline Status: DRAFT v0.1.0 — Aguardando integração das pranchas visuais.*
+*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado*
