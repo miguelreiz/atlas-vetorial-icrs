@@ -70,14 +70,42 @@ Essa tensão gerada no anel se propaga pelas lamelas e é transmitida de volta p
 
 ### Geometria Corneana: O Mapa que o Cirurgião Lê
 
-A córnea pode ser mapeada em 4 zonas concêntricas, cada uma com relevância diferente:
+A córnea pode ser mapeada em zonas concêntricas. **Cada zona tem uma arquitetura fibrilar diferente** — e é isso que determina como cada diâmetro de anel interage com o tecido:
 
-| Zona | Diâmetro | Relevância Clínica |
-|------|----------|-------------------|
-| **Zona Óptica Central** | 0–3 mm | O que o paciente enxerga. Área de maior curvatura no ceratocone. |
-| **Zona Paracentral** | 3–5 mm | **Zona de implantação do anel** (tipicamente 5–7 mm de diâmetro). |
-| **Zona Periférica** | 5–9 mm | Apoio estrutural. Onde o anel faz contato. |
-| **Limbo** | 9–12 mm | Transição para esclera. Referência anatômica para incisão. |
+#### Dimensões das Fibrilas de Colágeno (✅ WAXS)
+
+| Parâmetro | Valor | Referência |
+|-----------|-------|-----------|
+| **Diâmetro da fibrila** | 30-35 nm | ✅ Meek & Boote, 2004 |
+| **Comprimento da fibrila** | ~25 µm | ✅ Meek, 2009 |
+| **Espaçamento interfibrilar** | 40-60 nm (controlado por proteoglicanos) | ✅ Meek & Knupp, 2015 |
+| **Espessura de cada lamela** | ~2 µm | ✅ Radner et al., 1998 |
+| **Largura de cada lamela** | 0.5–2.5 mm (variável) | ✅ Winkler et al., 2013 |
+| **Número total de lamelas** | ~200 (empilhadas) | ✅ Komai & Ushiki, 1991 |
+| **Diâmetro constante até** | 6 mm centrais (depois aumenta) | ✅ WAXS |
+
+#### Arquitetura Fibrilar por Zona — A Chave para Entender os Diâmetros dos Anéis
+
+| Zona | Diâmetro | Fibras Dominantes | Orientação | Relevância para ICRS |
+|------|----------|-------------------|-----------|---------------------|
+| **Central** | 0–3 mm | 🔴 Radiais ortogonais | N-T (0°) e S-I (90°), **66% em ±22.5°** dos eixos | Zona óptica — NÃO implante aqui. É o alvo do aplainamento (VR) |
+| **Paracentral** | 3–5 mm | 🔴→🔵 Transição | Ortogonal → isotrópico (fibras se espalham) | **Anel Ø5mm** — intercepta zona mista. VR forte, VT moderado |
+| **Periférica** | 5–7 mm | 🔵 Circunferenciais emergem | Radiais começam a curvar-se para tangenciais | **Anel Ø6mm** — intercepta transição. VR + VT equilibrados |
+| **Pré-limbal** | 7–9 mm | 🔵🔵 Circunferenciais dominam | Fibras mudam de direção **1-1.5mm antes do limbo** | **Anel Ø7mm** — intercepta tangenciais. VT domina, VR menor |
+| **Limbo** | 9–12 mm | 🔵🔵🔵 Annulus Limbal | Circunferencial puro (posterior 30% do estroma) | Não se implanta aqui. Referência anatômica para incisão |
+
+![Figura 1.12: Arquitetura Fibrilar por Zona — Onde Cada Anel Interage. Vista superior mostrando zonas concêntricas com fibras radiais ortogonais no centro (vermelho), transição paracentral, emergência circunferencial na periferia (azul), e annulus limbal. Posições dos anéis Ø5mm, Ø6mm e Ø7mm sobrepostas — WAXS: Meek & Boote 2004; SHG: Winkler 2013](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\fiber_zones_icrs_diameters_1772300692729.png)
+
+#### 💡 O Que Isto Significa para o Cirurgião (Síntese do Autor)
+
+| Diâmetro do Anel | Zona que Intercepta | Fibras que Tensiona | Vetor Dominante | Efeito Clínico |
+|-----------------|--------------------|--------------------|----------------|---------------|
+| **Ø5mm** | Paracentral (2.5mm do centro) | Principalmente 🔴 radiais ortogonais | **VR forte** | Aplainamento agressivo. Ideal para cones centrais (nipple) com K-max alto |
+| **Ø6mm** | Periférica (3mm do centro) | Misto 🔴/🔵 (transição) | **VR + VT** | Equilíbrio aplainamento/redistribuição. Diâmetro mais usado ("standard") |
+| **Ø7mm** | Pré-limbal (3.5mm do centro) | Principalmente 🔵 tangenciais | **VT forte** | Redistribuição ampla, aplainamento suave. Ideal para cones ovais (sagging) com astigmatismo alto |
+
+> **🔬 Evidência Indireta Convergente:** A relação diâmetro→fibra→vetor é baseada em: (1) mapas WAXS de Meek & Boote 2004 mostrando transição ortogonal→circumferencial, (2) dados clínicos mostrando que anéis de diâmetro menor geram mais ΔK (aplainamento) e anéis maiores geram mais redistribuição, (3) princípio biomecânico de que o vetor gerado depende da orientação das fibras interceptadas.
+
 
 ### Os 5 Marcos Anatômicos do Cirurgião de Anéis
 
