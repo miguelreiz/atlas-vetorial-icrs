@@ -139,4 +139,4 @@ references:
 ```
 
 ---
-*Pipeline Status: DRAFT v0.1.0*
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

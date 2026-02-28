@@ -121,7 +121,7 @@ O VComa pode ser inferido clinicamente antes da cirurgia:
 | Coma Horizontal (ápice temporal) | Segmento temporal mais grosso | Vτ empurra ápice nasalmente |
 | Coma Oblíquo | Rotação do eixo de implantação | Vτ alinhado ao eixo do coma |
 
-### Armadilhas Comuns (*Common Pitfalls*)
+### Armadilhas Comuns
 
 1. **Ignorar o coma e focar apenas no K-max.** O erro mais frequente em nomogramas simplificados. Um K-max de 58 D pode ter coma baixo (se o cone é central) ou coma enorme (se o cone é periférico). O K-max sozinho não informa sobre VComa.
 
@@ -250,4 +250,4 @@ O VComa não é um vetor mecânico — é o **resultado óptico** da distribuiç
 > **🔬 Evidência Indireta:** A redução de coma é maior com segmentos assimétricos (✅ dados pub.) porque eles recriam o gradiente de travamento oblíquo perdido. Anel simétrico = aplainamento sem reposicionamento = VR sem VComa.
 
 ---
-*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado*
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

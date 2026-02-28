@@ -170,4 +170,4 @@ O objetivo é duplo: (1) treinar o raciocínio vetorial e (2) demonstrar que dif
 > **Lição fibrilar:** O Caso 4 falhou porque o cirurgião tratou um problema de 🟢 oblíquas (cone oval = degradação assimétrica) com solução de 🔴 radiais (anel simétrico = VR puro). **Cada fenótipo exige a interação com a família de fibras correta.**
 
 ---
-*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado*
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

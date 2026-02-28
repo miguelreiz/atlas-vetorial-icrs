@@ -299,4 +299,4 @@ O formato da seção transversal do anel determina **como** o estresse é distri
 > **🔬 Evidência Indireta:** O triangular é geometricamente mais eficiente a Ø5mm porque as fibras são ortogonais e paralelas — a ponta da cunha se insere entre elas como uma faca entre camadas de massa folhada. A Ø7mm, a face plana distribui melhor porque as fibras curvas não formam "camadas retas" para fender.
 
 ---
-*Pipeline Status: DRAFT v0.4.0 — Perfil × Arco × Malha integrado*
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

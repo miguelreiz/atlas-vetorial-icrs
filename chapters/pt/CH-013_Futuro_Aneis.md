@@ -188,4 +188,4 @@ O limbo contém um **annulus de fibras circunferenciais** (🔵) a 360° que man
 > **🔬 Evidência:** Dados clínicos (Ferrara 2009, 5-12 anos): ICRS sozinho estabiliza **74%** dos casos. Falha em 26% (especialmente ≤21 anos, 7× mais risco). ICRS + CXL = abordagem sinérgica: contenção mecânica + crosslinks bioquímicos.
 
 ---
-*Pipeline Status: DRAFT v0.4.0 — Annulus Artificial integrado — FIM DO ATLAS*
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial — FIM DO ATLAS*

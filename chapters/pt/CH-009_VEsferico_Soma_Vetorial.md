@@ -145,7 +145,7 @@ Se VEsférico_real << VEsférico_planejado → Investigar causa do sub-resultado
 Se VEsférico_real >> VEsférico_planejado → Hipercorreção (raro com anéis)
 ```
 
-### Armadilhas Comuns (*Common Pitfalls*)
+### Armadilhas Comuns
 
 1. **Tratar vetores isoladamente.** O erro mais conceitual. "O K-max baixou 5 D" (bom VR) mas "o coma piorou" (mau Vτ) = VEsférico ruim. Nunca analise um vetor sozinho.
 
@@ -216,4 +216,4 @@ O VEsférico é a soma vetorial de todas as interações do anel com as 3 famíl
 > **💡 Síntese:** Um VEsférico "bom" significa que o anel interagiu **corretamente com todas as 3 famílias**: tensionou radiais (VR), criou tangenciais (VT), recriou gradiente de oblíquas (Vτ), e reposicionou o ápice (VComa). Um VEsférico "ruim" significa que uma ou mais interações falhou — geralmente porque o fenótipo foi mal classificado ou o anel mal posicionado.
 
 ---
-*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado*
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

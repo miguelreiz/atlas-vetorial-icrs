@@ -126,7 +126,7 @@ Essa combinação gera um **torque líquido** que reposiciona o eixo visual do p
 | Fenótipo ideal | Cone central (nipple) | Cone oval (sagging) |
 | Aberração corrigida | Defocus | Coma + astigmatismo irregular |
 
-### Armadilhas Comuns (*Common Pitfalls*)
+### Armadilhas Comuns
 
 1. **Usar anel simétrico em cone descentrado.** Este é o erro cardeal. Se o cone está deslocado inferiormente e o cirurgião implanta um anel simétrico (zero torque), o centro aplaina mas o ápice real permanece inalterado. O paciente pode até piorar: o *shift* do eixo visual sem correção do coma pode gerar aberrações novas.
 
@@ -270,4 +270,4 @@ O Vτ é o vetor mais diretamente ligado às **fibras oblíquas** (🟢):
 > **💡 Síntese do Autor:** O Vτ é, em essência, a **recriação artificial do gradiente de oblíquas perdido**. No cone normal, as oblíquas fornecem travamento uniforme. No ceratocone, o gradiente de perda cria cisalhamento. O anel progressivo recria um gradiente de travamento mecânico que contra-atua o cisalhamento patológico. (Baseado em: Radner 1998 + Winkler 2013 + FEM Avicenna)
 
 ---
-*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado*
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

@@ -477,4 +477,4 @@ references:
 > **Nota de qualificação (modelo 3-fibras→3-vetores):** O modelo radial/tangencial/oblíqua é uma abstração didática baseada em evidência WAXS e SHG. As 3 famílias de fibras não são entidades anatômicas discretas — são orientações preferenciais dentro de uma malha anisotrópica contínua. O mapeamento fibra→vetor (radial→VR, tangencial→VT, oblíqua→Vτ) é funcional: as fibras são o principal substrato mecânico de cada vetor, mas não o exclusivo. Esta simplificação prioriza clareza para o cirurgião sobre completude descritiva para o anatomista.
 
 ---
-*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado, referências WAXS/SHG*
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

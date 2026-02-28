@@ -658,4 +658,4 @@ Se o autor publicar, em qualquer formato indexado, a definição dos três índi
 
 ---
 
-*Pipeline Status: DRAFT v0.1.0 — Conceito central completo. Aguardando: (1) casos reais com imagens, (2) produção das 4 pranchas visuais, (3) protocolo de validação IDT/COF/ENM.*
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

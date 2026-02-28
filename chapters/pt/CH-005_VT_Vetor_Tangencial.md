@@ -233,4 +233,4 @@ O VT atua redistributindo tensão ao longo das **fibras tangenciais/circunferenc
 > **🔬 Evidência Indireta:** A eficácia do VT cresce com o comprimento do arco porque arcos mais longos interceptam proporcionalmente mais fibras tangenciais na periferia (zona de transição radial→circunferencial, WAXS).
 
 ---
-*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado*
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

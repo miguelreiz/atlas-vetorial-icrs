@@ -257,4 +257,4 @@ Aplicação: sequencial (0 → 6 → 12 meses)
 1. **Figura 9.1 — Fluxograma do Nomograma Vetorial:** Os 5 passos em formato de pipeline visual.
 
 ---
-*Pipeline Status: DRAFT v0.2.0 — Integração: multi-fabricante, arco longo analysis, anéis concêntricos*
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

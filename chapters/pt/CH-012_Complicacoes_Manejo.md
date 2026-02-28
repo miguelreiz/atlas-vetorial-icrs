@@ -156,4 +156,4 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 > **🔬 Implicação Clínica:** Entender a complicação na escala fibrilar ajuda a escolher a **correção correta**: se o problema é de 🔴 radiais (hipo/hipercorreção), troque espessura. Se é de 🟢 oblíquas (coma), troque para assimétrico. Se é de 🔵 tangenciais (SIA), corrija o eixo.
 
 ---
-*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado*
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

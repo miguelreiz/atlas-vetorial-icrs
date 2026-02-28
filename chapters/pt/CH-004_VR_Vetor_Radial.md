@@ -2,11 +2,11 @@
 
 ---
 
-## 📋 CHAPTER METADATA
+## 📋 METADADOS DO CAPÍTULO
 
 ```yaml
 chapter_id: CH-004
-title: "VR — O Vetor Radial: Força Centrípeta de Aplainamento"
+title: "VR — O Vetor Radial: Força Centrífuga e Aplainamento"
 status: draft
 version: 0.1.0
 pipeline_execution:
@@ -145,7 +145,7 @@ Um anel simétrico (mesma espessura em ambos os segmentos) com diâmetro de 5.0-
 | Profundidade do túnel | 70–75% (máximo 80%) | Otimiza o braço de alavanca biomecânico (FEM: ≥80% com efeito diminuído) |
 | Arco do segmento ↑ | 120° → 210° | Força radial mais distribuída, menos concentrada |
 
-### Armadilhas Comuns (*Common Pitfalls*)
+### Armadilhas Comuns
 
 1. **Confundir aplainamento com correção refrativa total.** O Vetor Radial aplaina a córnea anterior, mas o resultado refrativo final depende da interação com o Vetor Tangencial (Capítulo 5) e o Vetor de Torque (Capítulo 6). Um mapa topográfico mais plano não significa automaticamente que o paciente enxerga melhor.
 
@@ -196,18 +196,18 @@ layers:
 diagram_concept: >
   Ilustração principal em corte transversal (cross-section) da córnea 
   mostrando o anel inserido a ~75% de profundidade no estroma. Do anel, 
-  partem setas azuis (VR, #0B3D91) em direção centrípeta (apontando para 
-  o eixo central). A superfície anterior da córnea mostra uma curvatura 
-  visivelmente mais plana na zona central (aplainamento) comparada às 
-  zonas periféricas. A zona aplanada é preenchida com azul semitransparente 
-  (20% opacity). Uma segunda ilustração (menor, tipo thumbnail) mostra a 
-  vista top-down com dois segmentos de anel e setas VR apontando para o 
-  centro, demonstrando o padrão concêntrico.
+  partem setas vermelhas (VR) em direção CENTRÍFUGA (apontando PARA FORA, 
+  em direção ao limbo). O anel empurra as lamelas para fora (tenting + 
+  separação). A superfície anterior da córnea mostra aplainamento central 
+  como CONSEQUÊNCIA do arc-shortening (arco encurta → centro aplaina). 
+  A zona aplanada é preenchida com azul semitransparente (20% opacity). 
+  Uma segunda ilustração (menor, tipo thumbnail) mostra a vista top-down 
+  com setas VR apontando PARA FORA do anel, demonstrando a força centrífuga.
 ```
 
 ### 🖼️ BRIEFING DE ILUSTRAÇÃO (Skill 7 — Elite Medical Illustration Director)
 
-**Título da Prancha:** *"VR — O Vetor Radial: Força Centrípeta de Aplainamento"*
+**Título da Prancha:** *"VR — O Vetor Radial: Força Centrífuga e Aplainamento"*
 
 **Estilo:** Atlas anatômico clássico (referência: Netter / Thieme Atlas of Anatomy). Linhas limpas, sombreamento sutil, anatomia precisa. Não estilizado, não cartoon.
 
@@ -217,7 +217,7 @@ diagram_concept: >
 |----------|---------------|
 | **Córnea** | Corte meridional mostrando epitélio (cinza claro, #ECEFF1), Bowman, estroma (bege, #D7CCC8) com indicação lamelar sutil, Descemet, endotélio |
 | **Anel** | Secção transversal do implante (hexagonal ou triangular, dependendo do modelo) posicionado a ~75% de profundidade estromal. Cor: cinza-azulado (#455A64) |
-| **Setas VR** | 2-3 setas azuis (#0B3D91) partindo de cada lado do anel em direção ao centro. Setas com corpo espesso e ponta triangular. Representam a força centrípeta |
+| **Setas VR** | 2-3 setas vermelhas partindo de cada lado do anel em direção CENTRÍFUGA (PARA FORA, em direção ao limbo). Setas com corpo espesso e ponta triangular. Representam a força centrífuga — o anel empurra lamelas para fora; aplainamento central é consequência |
 | **Zona de aplainamento** | Preenchimento semitransparente azul (#0B3D91, 20% opacidade) sobre a superfície anterior aplanada, entre os dois pontos de implante |
 | **Curvatura anterior** | Linha contínua mostrando: curvatura normal (pré) em cinza tracejado; curvatura pós-implante (mais plana no centro) em linha sólida |
 | **Efeito de tenda** | Indicação sutil do ponto de inflexão (curvatura reversa) na zona peri-implante |
@@ -229,7 +229,7 @@ diagram_concept: >
 |----------|---------------|
 | **Córnea** | Vista frontal, limbo visível |
 | **Segmentos** | Dois arcos de 150° cada (ou configuração a definir pelo cirurgião-autor) |
-| **Setas VR** | 4-6 setas azuis partindo do arco interno dos segmentos, todas apontando para o centro pupilar |
+| **Setas VR** | 4-6 setas vermelhas partindo do arco EXTERNO dos segmentos, todas apontando PARA FORA (centrífugas, em direção ao limbo). Aplainamento central = consequência geométrica |
 | **Centro** | Marca de cruz no centro óptico |
 
 **Regras Visuais Aplicadas (tokens.md):**
@@ -311,11 +311,11 @@ O disco de Plácido mostra:
 - **Padrão:** mais regular, mais próximo dos concêntricos perfeitos
 - **Mapa de cores:** ilha vermelha menor, mais pálida, K-max 3-5 D mais baixo
 
-> **Leitura Vetorial do Plácido:** No Nipple tratado com VR simétrico, o campo vetorial concêntrico de deformação (🔴 Fr apontando para fora) é **diretamente neutralizado** pelo campo vetorial centrípeto do anel (🔵 VR). O resultado é a descompressão dos anéis centrais — que se espaçam e normalizam.
+> **Leitura Vetorial do Plácido:** No Nipple tratado com VR simétrico, o campo vetorial concêntrico de deformação (🔴 Fr apontando para fora da PIO) é **neutralizado** pelo campo vetorial centrífugo do anel (🔴 VR empurrando lamelas para fora). O arc-shortening resultante aplaina o centro — os anéis de Plácido se espaçam e normalizam.
 
 ---
 
-## 📚 REFERENCES
+## 📚 REFERÊNCIAS
 
 ```yaml
 references:
@@ -447,4 +447,4 @@ A tabela de decisão cirúrgica (espessura, diâmetro, profundidade, arco) é ú
 
 ---
 
-*Pipeline Status: DRAFT v0.1.0 — Aguardando revisão do autor (cirurgião) e produção de ilustrações.*
+*Pipeline Status: DRAFT v0.6.0 — VR corrigido para centrífugo. Revisado pelo Engenheiro Vetorial.*
