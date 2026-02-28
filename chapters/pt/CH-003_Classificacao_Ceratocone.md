@@ -76,6 +76,18 @@ A classificação tradicional de Amsler-Krumeich divide o ceratocone em estágio
 | **P4** | Duplo círculo com cintura de transição | Duas zonas de falência lamelar em cascata |
 | **P5** | Anéis fragmentados, padrão caótico | Múltiplos focos de destruição sem hierarquia |
 
+#### 💡 O Que Cada Fenótipo Significa na Escala das 3 Fibras (Síntese do Autor)
+
+| Padrão | 🔴 Radiais | 🔵 Tangenciais | 🟢 Oblíquas | O Que o Anel Precisa Fazer |
+|--------|-----------|---------------|------------|---------------------------|
+| **P1** | Tensão desigual entre meridianos (K1≠K2), mas simétrica superior/inferior | Intactas no limbo | Parcialmente degradadas, mas simétricas | VT para redistribuir tensão entre meridianos |
+| **P2** | Inferiores frouxas, superiores tensas (assimetria vertical) | Intactas no limbo | **Degradadas inferiormente** — zona de deslizamento | Vτ para rotacionar ápice + VR para aplainamento |
+| **P3** | Dois focos de frouxidão (cabeça + corpo do duck) | Intactas no limbo | **Dois focos de degradação** separados | Vτ preciso para cada foco + VR local |
+| **P4** | Dois centros de protrusão em cascata | Intactas no limbo | **Degradação em cascata** — oblíquas cedem sequencialmente | VR duplo + Vτ complexo |
+| **P5** | Múltiplos focos de frouxidão sem padrão | Podem estar afetadas até no limbo | **Destruição generalizada** | Análise individual — candidato a CXL primeiro |
+
+> **🔬 Evidência Indireta:** O padrão da ectasia no Plácido reflete diretamente **onde as oblíquas (🟢) degradaram**: compressão = oblíquas perdidas naquela zona (Radner 1998 + Winkler 2013). A preservação do limbo (tangenciais 🔵 intactas) em P1-P4 é fato demonstrado (✅ Meek & Newton 1998).
+
 ### Como Classificar na Prática (Fluxograma Atualizado)
 
 1. **Identifique o padrão** no Plácido (P1–P5)

@@ -255,5 +255,19 @@ references:
     relevance: "Simulações de elementos finitos mostrando a distribuição de estresse assimétrico causada por segmentos progressivos — validação computacional do Vτ."
 ```
 
+#### 💡 O Vτ na Escala das Fibras (Síntese do Autor)
+
+O Vτ é o vetor mais diretamente ligado às **fibras oblíquas** (🟢):
+
+- As oblíquas são os "tirantes" que travam as lamelas entre si (✅ Radner 1998, Winkler 2013)
+- No ceratocone, as oblíquas degradam **assimetricamente** — mais no ápice do cone, menos nas zonas saudáveis
+- Esta assimetria de degradação gera **cisalhamento**: as lamelas deslizam mais onde há menos oblíquas
+- O anel assimétrico (progressivo) gera **Vτ** porque cria um gradiente de **travamento mecânico** que espelha o gradiente original das oblíquas:
+  - Ponta grossa = travamento forte (simula zona com oblíquas intactas)
+  - Ponta fina = travamento suave (simula zona com poucas oblíquas)
+  - O gradiente entre os dois → **rotação** (torque) → o ápice migra para a zona de maior travamento
+
+> **💡 Síntese do Autor:** O Vτ é, em essência, a **recriação artificial do gradiente de oblíquas perdido**. No cone normal, as oblíquas fornecem travamento uniforme. No ceratocone, o gradiente de perda cria cisalhamento. O anel progressivo recria um gradiente de travamento mecânico que contra-atua o cisalhamento patológico. (Baseado em: Radner 1998 + Winkler 2013 + FEM Avicenna)
+
 ---
-*Pipeline Status: DRAFT v0.1.0 — Aguardando geração e integração das 3 pranchas visuais conceituais.*
+*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado*

@@ -221,5 +221,16 @@ references:
     relevance: "Demonstra que toda cirurgia refrativa incisional/adição de anel que mexe intensamente num meridiano, reflete inversamente a 90 graus."
 ```
 
+#### 💡 O VT na Escala das Fibras (Síntese do Autor)
+
+O VT atua redistributindo tensão ao longo das **fibras tangenciais/circunferenciais** (🔵):
+
+- O anel cria uma **nova linha tangencial artificial** — age como se inserisse um arco de 🔵 tangenciais extras no meridiano implantado
+- Quanto mais longo o arco do anel, mais fibras tangenciais são criadas → mais VT
+- O **Efeito de Acoplamento** (elevação a 90° do anel) ocorre porque tensionar fibras tangenciais 🔵 em um meridiano "rouba" tensão das radiais 🔴 no meridiano ortogonal (💡 síntese baseada em Meek & Newton 1998)
+- Na periferia (5-7mm), onde o anel fica, as fibras naturais já são **parcialmente tangenciais** (✅ Meek & Boote 2004) — o anel amplifica esta orientação natural
+
+> **🔬 Evidência Indireta:** A eficácia do VT cresce com o comprimento do arco porque arcos mais longos interceptam proporcionalmente mais fibras tangenciais na periferia (zona de transição radial→circunferencial, WAXS).
+
 ---
-*Pipeline Status: DRAFT v0.1.0 — Aguardando geração e integração das 3 pranchas visuais conceituais de tração estromal.*
+*Pipeline Status: DRAFT v0.3.0 — Modelo 3-Fibras integrado*

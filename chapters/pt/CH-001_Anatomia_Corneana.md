@@ -222,6 +222,35 @@ A resposta está na proporção das fibras oblíquas:
 | **RSB** | Misto anterior/posterior — algum travamento residual | Posterior puro — sem travamento interlamelar |
 | **Resultado** | ✅ Córnea estável sob PIO | ⚠️ Risco de deslizamento lamelar → ectasia |
 
+#### Simulações PTA — Testando a Hipótese com Diversas Paquimetrias
+
+> **💡 Método:** Para cada córnea simulada, calculamos: (1) PTA, (2) quanto do estroma anterior (oblíquas) foi comprometido pelo flap + ablação, (3) composição do RSB. O estroma anterior é estimado em ~35% da espessura corneana total (Winkler 2013, Randleman 2008).
+
+| # | CCT (µm) | Flap (µm) | Ablação (µm) | PTA (%) | Estroma Ant. (35%) | Flap+Abl. vs Ant. | 🟢 Oblíquas | RSB (µm) | Risco |
+|---|---------|----------|-------------|---------|-------------------|-------------------|------------|---------|-------|
+| 1 | **580** | 100 | 50 | **26%** | 203 µm | 150 < 203 | ✅ Preservadas (~26%) | 430 | ✅ Seguro |
+| 2 | **580** | 120 | 70 | **33%** | 203 µm | 190 < 203 | ✅ Fino residual (~6%) | 390 | ✅ Seguro |
+| 3 | **580** | 120 | 100 | **38%** | 203 µm | 220 > 203 | ⚠️ **Invadiu posterior** | 360 | ⚠️ Limite |
+| 4 | **580** | 160 | 90 | **43%** | 203 µm | 250 >> 203 | ❌ **Todas cortadas** | 330 | ❌ **Risco** |
+| 5 | **540** | 100 | 50 | **28%** | 189 µm | 150 < 189 | ✅ Preservadas (~21%) | 390 | ✅ Seguro |
+| 6 | **540** | 120 | 80 | **37%** | 189 µm | 200 > 189 | ⚠️ **Marginal** | 340 | ⚠️ Limite |
+| 7 | **540** | 140 | 80 | **41%** | 189 µm | 220 >> 189 | ❌ **Todas cortadas** | 320 | ❌ **Risco** |
+| 8 | **540** | 160 | 90 | **46%** | 189 µm | 250 >> 189 | ❌ **Todas cortadas** | 290 | ❌ **Alto risco** |
+| 9 | **500** | 100 | 50 | **30%** | 175 µm | 150 < 175 | ✅ Preservadas (~14%) | 350 | ✅ Seguro |
+| 10 | **500** | 120 | 70 | **38%** | 175 µm | 190 > 175 | ⚠️ **Marginal** | 310 | ⚠️ Limite |
+| 11 | **500** | 120 | 90 | **42%** | 175 µm | 210 >> 175 | ❌ **Todas cortadas** | 290 | ❌ **Risco** |
+| 12 | **440** | 100 | 70 | **39%** | 154 µm | 170 > 154 | ⚠️→❌ **Quase todas** | 270 | ❌ **Risco** |
+
+**Achados das simulações:**
+
+1. ✅ Em **todas** as 12 simulações, PTA ≥40% corresponde a flap+ablação **excedendo** a espessura do estroma anterior
+2. ✅ O limiar PTA ~38-40% coincide com o ponto onde flap+ablação **ultrapassa** a camada rica em oblíquas
+3. ✅ Isso é consistente **independentemente da paquimetria** (440-580 µm)
+4. 🔬 Córneas mais finas (440-500 µm) atingem o limiar com flaps e ablações menores — coerente com dados clínicos de Santhiago
+
+> **💡 Conclusão da Simulação:** A coincidência PTA ≥40% ≈ disrupção total do estroma anterior se mantém em **todas as paquimetrias testadas**. O PTA não é um número arbitrário — é um **proxy inadvertido da integridade das fibras oblíquas**. Santhiago descobriu empiricamente o que a anatomia já previa.
+
+
 #### A Ponte com o Ceratocone — O Mesmo Mecanismo
 
 | Etapa | Ceratocone | Ectasia pós-LASIK |
