@@ -36,7 +36,7 @@ Para o cirurgião de anéis, a córnea pode ser entendida como uma estrutura com
 
 ### O Estroma: A Camada que Importa
 
-O estroma corneano é composto por ~200 lamelas de colágeno sobrepostas. Cada lamela é uma "folha" finíssima de fibras colágenas dispostas em padrões precisos.
+O estroma corneano é composto por ~200–250 lamelas de colágeno sobrepostas. Cada lamela é uma "folha" finíssima de fibras colágenas dispostas em padrões precisos.
 
 Por que isso importa para os anéis?
 Porque o anel intracorneano não age como uma ponte mecânica rígida (como uma placa de titânio num osso fraturado). Ele age **tensionando as fibras de colágeno**.
@@ -120,13 +120,15 @@ Vista superior da malha de colágeno normal:
 
 #### O Que Muda no Ceratocone — A Catástrofe Lamelar
 
-No ceratocone, a degradação enzimática (MMP-2, MMP-9) destrói os proteoglicanos que servem de "cola" entre as lamelas. Sem cola:
+No ceratocone, a degradação enzimática (MMP-2, MMP-9) enfraquece os proteoglicanos que servem de "cola" entre as lamelas. Sem essa ancoragem:
 
-1. **As lamelas deslizam** umas sobre as outras — perda de ancoragem interlaminar
-2. **O espaçamento aumenta** na zona do ápice — "vácuo estrutural"
-3. **As fibras radiais se esticam** na zona do cone — perdem a tensão elástica
-4. **As fibras tangenciais se rompem funcionalmente** na periferia do cone
-5. **A PIO vence localmente** — a malha cedeu → protrusão → o cone nasce
+1. **As lamelas deslizam** umas sobre as outras — deslocamento inter e intralamelar
+2. **O espaçamento aumenta** na zona do ápice — perda de coesão interlaminar
+3. **As fibras se reorientam** na zona do cone — os eixos preferenciais mudam de 90°/180° para ~60°/120° (demonstrado por WAXS)
+4. **As fibras tangenciais perdem orientação preferencial** na periferia do cone — deslocando-se e reorganizando-se em ângulos não-ortogonais
+5. **A PIO vence localmente** — a malha cedeu → o posterior abaulha anteriormente → o cone nasce
+
+> **Nota (Skill 0):** A massa total de colágeno no ceratocone diminui apenas ~5%. O que ocorre não é destruição das fibras, mas **redistribuição por deslizamento** — as fibrilas escorregam entre e dentro das lamelas, mudando de posição e orientação sem serem destruídas.
 
 ![Figura 1.4: A Catástrofe Lamelar — De fibras intactas a ceratocone em 4 passos: normal → degradação enzimática → deslizamento → protrusão](images/CH-001_Anatomia/Figura_Catastrofe_Lamelar.png)
 
@@ -138,6 +140,54 @@ Cada anel do disco de Plácido refletido é, literalmente, o **reflexo da tensã
 - **Fibras frouxas e desorganizadas** → superfície irregular → reflexo distorcido → anéis comprimidos
 
 > **A frase que define o Atlas:** O Plácido não mede curvatura. Ele mede o **estado de tensão** da malha de colágeno. Cada distorção que você vê nos anéis é uma fibra que cedeu.
+
+#### Astigmatismo: A Malha que Puxa Desigual
+
+O astigmatismo corneano, na sua essência, não é uma "forma oval" da superfície. É uma **diferença de tensão entre dois meridianos ortogonais** da malha de colágeno.
+
+No meridiano mais curvo (K-steep), as fibras estão sob alta tensão — densas, próximas, resistentes. No meridiano mais plano (K-flat), as fibras estão mais relaxadas — espaçadas, com menor pré-carga elástica. Essa assimetria de tensão gera uma assimetria de curvatura: onde a malha é mais tensa, a superfície é mais curva; onde é mais frouxa, a superfície é mais plana.
+
+![Figura 1.5: Astigmatismo na Linguagem das Fibras — Vista superior da malha de colágeno. Fibras densas e tensas no meridiano K-steep (90°) contrastam com fibras frouxas e espaçadas no K-flat (180°). Tensão desigual = astigmatismo.](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\astigmatism_fiber_mesh_1772192187788.png)
+
+No Plácido, isso aparece como anéis elípticos — comprimidos ao longo do K-steep e espaçados ao longo do K-flat. Cada anel oval é o reflexo de uma malha que não puxa igualmente em todas as direções.
+
+Esta perspectiva é fundamental para entender o Vetor Tangencial (Capítulo 5): quando o anel é implantado no K-steep, ele descongestiona as fibras hiper-tensas daquele meridiano e redistribui tensão para o K-flat — o Efeito de Acoplamento. **O anel não "corrige" o astigmatismo diretamente. Ele reequilibra a tensão entre meridianos.**
+
+> **Pérola:** O astigmatismo é uma doença da malha, não da superfície. A superfície é consequência. Quando o cirurgião entende isso, nunca mais pensa em "aplainar o K-steep" — pensa em "redistribuir tensão para o K-flat."
+
+---
+
+#### Por Que Anterior e Posterior Não Concordam
+
+Se a córnea fosse uma casca homogênea — mesma rigidez em toda a espessura — o astigmatismo anterior e o posterior teriam sempre o mesmo eixo e a mesma magnitude. Mas a córnea **não é homogênea**. Ela possui ao menos dois "andares" mecânicos com propriedades distintas.
+
+O **estroma anterior** (~120 µm) tem lamelas densamente entrelaçadas, com fibras cruzando-se em múltiplas direções. Esta arquitetura confere alta rigidez tangencial — ele resiste à deformação e redistribui carga lateralmente, como um tecido trançado.
+
+O **estroma posterior** tem lamelas organizadas de forma mais paralela, com menor entrelaçamento entre camadas adjacentes. Ele é estruturalmente mais deformável — cede mais facilmente sob a mesma carga.
+
+![Figura 1.6: Por Que Anterior e Posterior Não Concordam — Corte transversal com proporções reais (~120µm anterior vs ~330µm posterior). Mesma PIO atuando sobre duas redes com rigidez diferente pode gerar eixos de astigmatismo rotados 15-40° entre superfícies.](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\anterior_posterior_v2_1772192382852.png)
+
+Quando a PIO — que é a mesma para ambos os andares — deforma a córnea, **cada camada responde de acordo com sua arquitetura**. O estroma posterior, mais flexível, pode ceder em eixo ligeiramente diferente do anterior. O estroma anterior, mais rígido, redistribui parte da carga e pode manter um eixo aparente diferente do real.
+
+O resultado é mensurável no Pentacam: divergência angular de 15–40° entre o eixo do astigmatismo anterior e posterior. Isso não é erro de medida. É a assinatura de duas redes mecânicas distintas respondendo à mesma força de maneira diferente.
+
+> **Implicação cirúrgica (desenvolvida no Capítulo 8, Limitação 4):** Quando anterior e posterior divergem significativamente, o Plácido — que lê apenas a superfície anterior — pode não revelar o verdadeiro eixo vetorial da ectasia. A tomografia posterior e o eixo do coma tornam-se complementos obrigatórios.
+
+---
+
+#### A Ectasia como Falência em Camadas
+
+A ectasia corneana — seja ceratocone primário, seja ectasia pós-cirurgia refrativa — não é um evento instantâneo. É um colapso progressivo que se manifesta de forma diferente em cada camada da malha.
+
+**Estágio 1 — O posterior desloca-se anteriormente.** A degradação dos proteoglicanos enfraquece primeiro as lamelas posteriores (menos entrelaçadas, menos resistentes). A malha posterior começa a ceder focalmente — mas, diferentemente do que a intuição sugere, a superfície posterior não protrui para fora. Ela **abaulha em direção à superfície anterior**, reduzindo focalmente a espessura estromal. Esta é a razão pela qual a elevação posterior e a paquimetria mínima são os primeiros marcadores a se alterar no Pentacam, antes que a superfície anterior mostre qualquer anomalia significativa.
+
+**Estágio 2 — O anterior compensa.** As lamelas anteriores, com seu entrelaçamento denso, redistribuem a tensão lateralmente. Elas "seguram" a superfície por mais tempo, mascarando parcialmente a deformação que já existe em profundidade. O Plácido pode parecer quase normal enquanto o posterior já está significativamente alterado.
+
+**Estágio 3 — O epitélio mascara.** O epitélio corneano atua como uma camada de suavização biológica — ele engrossa sobre as depressões e afina sobre as protrusões. Este remodelamento epitelial (visível em mapas de espessura epitelial por OCT) cria uma superfície anterior mais regular do que o estroma subjacente realmente é. O Plácido, refletindo esta superfície suavizada, pode subestimar a severidade real da ectasia.
+
+![Figura 1.7: A Ectasia como Falência em Camadas — Progressão em 4 estágios: malha intacta → posterior desloca-se anteriormente → anterior redistribui → epitélio mascara. Na ectasia, a superfície posterior abaulha em direção à anterior (não protrui para fora). O Plácido lê apenas a superfície final suavizada.](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\ectasia_progression_v2_1772192394453.png)
+
+> **A lição fundamental para o cirurgião de anéis:** O que você vê no Plácido é o resultado final de uma cadeia de compensações. A superfície anterior é o último dominó a cair — e quando cai, já é visível. Mas o vetor biomecânico que causou a ectasia frequentemente começou no plano posterior, em eixo que pode diferir do que a superfície mostra. É por isso que o planejamento vetorial avançado (Capítulo 8) integra Plácido, tomografia posterior e coma — nunca um isoladamente.
 
 ### Armadilhas Anatômicas
 
@@ -152,7 +202,12 @@ Cada anel do disco de Plácido refletido é, literalmente, o **reflexo da tensã
 ## 🎨 ESPECIFICAÇÃO VISUAL
 
 1. **Figura 1.1 — Corte Transversal da Córnea:** Camadas com destaque para a zona de implantação do anel (~70-80%).
-2. **Figura 1.2 — Zonas Corneanas (Vista Superior):** Círculos concêntricos com a zona do anel destacada.
+2. **Figura 1.2 — Mecanismo de Tensão no Colágeno:** O bloco de PMMA tensionando as fibras adjacentes.
+3. **Figura 1.3 — Framework Multi-Escala:** Plácido (macro), Corte (meso), Fibras (micro).
+4. **Figura 1.4 — A Catástrofe Lamelar:** Fibras normais → degradação → deslizamento → protrusão.
+5. **Figura 1.5 — Astigmatismo na Linguagem das Fibras:** Tensão desigual entre meridianos ortogonais.
+6. **Figura 1.6 — Por Que Anterior e Posterior Não Concordam:** Duas camadas, mesma PIO, eixos diferentes.
+7. **Figura 1.7 — A Ectasia como Falência em Camadas:** Progressão posterior → anterior → epitélio.
 
 ---
 

@@ -20,17 +20,26 @@ version: 0.1.0
 
 O sistema vetorial que apresentamos neste Atlas é uma ferramenta conceitual e clínica. Mas ele também é a base para a próxima geração de tecnologias em anéis intracorneanos. Este capítulo final olha para o futuro — o que já está sendo desenvolvido e como o paradigma vetorial moldará a próxima década da cirurgia refrativa corneana.
 
+*Recall:* O Atlas define **F** (forças do cone: Fr, Ft, Fτ) como o problema que você lê no Plácido, e **V** (vetores do anel: VR, VT, Vτ) como a correção que você prescreve. O **VEsférico** é o resultado final integrado. O futuro é maximizar V = −F com precisão personalizada.
+
 ### 1. Simulação por Elementos Finitos (FEM) Personalizada
 
-**Estado atual:** Modelos FEM genéricos já validam os princípios vetoriais em córneas "modelo." O futuro é o FEM **personalizado por paciente**.
+**Estado atual:** Modelos FEM baseados no modelo constitutivo **Holzapfel-Gasser-Ogden (HGO)** — que representa fibras de colágeno anisotrópicas embebidas em matriz hiperélastica — já validam os princípios vetoriais em córneas "modelo." Dados quantitativos atuais:
+- A **altura vertical do ICRS** responde por **84%** da mudança de curvatura
+- Estresse Von Mises pós-implante: **81–170 kPa** (varia por técnica de inserção)
+- A profundidade ótima de implantação validada por FEM é **75%** da espessura estromal
+
+O futuro é o FEM **personalizado por paciente**.
 
 **Como funciona:**
-1. A topografia e tomografia do paciente são convertidas em um modelo 3D da córnea
-2. As propriedades biomecânicas (elasticidade, espessura, crosslinking) são atribuídas ao modelo
+1. A topografia e tomografia do paciente são convertidas em um modelo 3D anisotrópico da córnea
+2. As propriedades biomecânicas (elasticidade profundidade-dependente — Brillouin mostra anterior **3× mais rígido** que posterior) são atribuídas ao modelo
 3. O anel é virtualmente implantado, e o simulador calcula o VEsférico resultante
 4. O cirurgião vê o resultado ANTES de operar
 
 **Impacto vetorial:** O cirurgião poderá otimizar cada parâmetro do anel (espessura, arco, assimetria, eixo) para maximizar o VEsférico in silico antes de ir ao centro cirúrgico.
+
+![Figura 13.1: O Futuro — FEM Personalizado — Workflow: topografia + tomografia + Brillouin → modelo HGO anisotrópico → simulação pré-operatória com VEsférico previsto](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\future_fem_simulation_1772194849122.png)
 
 ### 2. Anéis com Geometria Personalizada (Custom Rings)
 
@@ -42,6 +51,28 @@ O sistema vetorial que apresentamos neste Atlas é uma ferramenta conceitual e c
 - O anel é fabricado por impressão 3D ou usinagem de precisão
 
 **Impacto vetorial:** Eliminação do compromisso entre o que o vetor pede e o que o catálogo oferece. VEsférico maximizado por design.
+
+### 2.5 Anéis Concêntricos — Engenharia Tensional Multicamada
+
+**Estado atual:** Já em uso clínico em centros especializados. Representam a evolução de "um anel, uma correção" para **"múltiplos planos estruturais, múltiplas funções"**.
+
+**Configuração Dupla (5 + 6 mm):**
+- **Anel interno (5 mm, ~350 µm):** função refrativa — modula VR e VComa focalmente
+- **Anel externo (6 mm, ~400 µm):** função regularizadora — distribui VT globalmente
+
+**Configuração Tripla (3 + 5 + 6 mm — Kmax > 65 D):**
+- 3 mm centraliza, 5 mm refrata, 6 mm estabiliza
+- Aplicação sequencial: 0 → 6 → 12 meses
+
+**Perfil vetorial comparado:**
+```
+Anel único 5mm:     VR +++  VT +    VComa ++   Estabilidade +
+Anel único 6mm:     VR +    VT +++  VComa +    Estabilidade +++
+Concêntrico 5+6mm:  VR +++  VT +++  VComa +++  Estabilidade ++++
+Triplo 3+5+6mm:     VR ++++ VT +++  VComa ++++ Estabilidade +++++
+```
+
+**Impacto vetorial:** Passa-se da lógica dióptrica simples para a **engenharia tensional multicamada** — cada plano de implantação modula um conjunto diferente de vetores.
 
 ### 3. Inteligência Artificial para Nomogramas Preditivos
 

@@ -67,9 +67,9 @@ Cada parâmetro cirúrgico modifica um ou mais dos princípios acima:
 
 | Parâmetro | O Que o Cirurgião Decide | Qual Princípio Afeta | Qual Vetor Domina |
 |-----------|--------------------------|---------------------|-------------------|
-| **Espessura** | 150, 200, 250, 300, 350 μm | Barraquer + Tenting | **VR** (aplainamento) |
-| **Comprimento do Arco** | 90°, 120°, 150°, 160°, 210°, 355° | Arc-Shortening | **VT** (redistribuição) |
-| **Assimetria** | Simétrico vs Progressivo | Tenting diferencial | **Vτ** (torque) |
+| **Espessura** | 150, 200, 250, 300, 350 μm | Barraquer + Tenting | **VR (Vetor Radial)** — aplainamento |
+| **Comprimento do Arco** | 90°, 120°, 150°, 160°, 210°, 355° | Arc-Shortening | **VT (Vetor Tangencial)** — redistribuição |
+| **Assimetria** | Simétrico vs Progressivo | Tenting diferencial | **Vτ (Vetor Torsional)** — torque |
 | **Eixo da Incisão** | Meridiano de implantação | Todos os 3 | Todos os vetores |
 
 ![Figura 2.1: Os 3 Princípios Biomecânicos — Barraquer (volume periferico = aplainamento central), Arc-Shortening (segmento rígido redistribui tensão), Tenting (anel empurra criando tenda focal)](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\three_principles_pt_1771790915821.png)
@@ -92,12 +92,33 @@ Arc-Shortening (encurtamento de arco)
 
 Tenting (efeito tenda)
   └→ VR (contribuição local)
-  └→ Vτ (Torque) — quando o tenting é assimétrico
-  └→ VComa — resultado óptico do reposicionamento
+  └→ Vτ (Vetor Torsional / Torque) — quando o tenting é assimétrico
+  └→ VComa (Vetor de Deslocamento Óptico) — resultado óptico do reposicionamento
 
 Soma de todos:
-  └→ VEsférico (Resultante) — Capítulo 8
+  └→ VEsférico (Vetor Esférico Resultante) — Capítulo 9
 ```
+
+### Convenção Fundamental: F (Problema) vs V (Correção)
+
+> **Esta convenção é usada em todo o Atlas.** Memorize-a antes de prosseguir.
+
+O ceratocone gera **forças** que deformam a córnea. O anel gera **vetores** que corrigem a deformação. Usamos prefixos diferentes para distingui-los:
+
+| Prefixo | Significado | Cor Visual | Direção |
+|---------|-----------|-----------|----------|
+| **F** (Força) | A força que o cone exerce sobre a malha | 🔴 Vermelho | Na direção da deformação |
+| **V** (Vetor) | A correção que o anel impõe à malha | 🔵 Azul | Oposta à deformação |
+
+| Força do Cone | Vetor do Anel | Descrição |
+|---------------|--------------|----------|
+| **Fr** (Força Radial) | **VR** (Vetor Radial) | Compressão central / Aplainamento central |
+| **Ft** (Força Tangencial) | **VT** (Vetor Tangencial) | Tensão assimétrica / Redistribuição |
+| **Fτ** (Força Torsional) | **Vτ** (Vetor Torsional) | Rotação do eixo / Contra-rotação |
+
+**Regra cardinal:** O objetivo cirúrgico é sempre **V = −F** (neutralização vetorial). Quando V_anel + F_cone ≈ 0, a córnea está mecanicamente equilibrada.
+
+> **Pérola:** Quando você lê o Plácido, você está lendo **F** (as forças do cone). Quando você prescreve o anel, você está prescrevendo **V** (a correção). O Capítulo 8 (LDM) formaliza essa leitura.
 ---
 
 ### Os 3 Princípios na Escala das Fibras de Colágeno
@@ -130,6 +151,38 @@ O efeito tenda é a **separação local das lamelas** acima do implante. As fibr
 
 ---
 
+### Os 3 Planos do Atlas: X, Y e Z
+
+A maioria dos cirurgiões pensa em 2D — o mapa topográfico. Mas o anel atua em **3 dimensões**. O Atlas usa 3 planos para representar todas as forças:
+
+```
+PLANO X-Y (Superfície — Top View):
+  X = Meridiano nasal-temporal
+  Y = Meridiano superior-inferior
+  Aqui se projetam: VR, VT, Vτ, ENM, COF
+
+PLANO Z (Profundidade — Side View):
+  Z = 0 na superfície anterior
+  Z = 0.70–0.75 na zona de implantação do ICRS
+  Z = 1.0 no endotélio
+  Aqui se projetam: profundidade do ICRS, desacoplamento A/P
+
+REGRA VISUAL DO ATLAS:
+  Nunca misturar 3 eixos em uma única vista.
+  Usar VISTAS PAREADAS: top view (X-Y) + side view (X-Z).
+```
+
+| Vetor | Plano | O que mostra | Analogia |
+|-------|-------|-------------|----------|
+| **VR (Vetor Radial)** | X-Y | Aplainamento central | Pressionar centro de um trampolim |
+| **VT (Vetor Tangencial)** | X-Y | Redistribuição entre meridianos | Apertar um colchão d'água |
+| **Vτ (Vetor Torsional)** | X-Y + Z | Rotação do eixo | Desenroscar uma tampa |
+| **Desacoplamento A/P** | Z | Divergência anterior/posterior | Dois andares respondendo diferente |
+
+> **Pérola:** O plano Z é onde os resultados subótimos se escondem. O Plácido lê apenas Z ≈ 0 (superfície). A tomografia posterior lê Z ≈ 1.0. O ICRS atua em Z ≈ 0.70. Se você não pensa em Z, está planejando cego em profundidade.
+
+---
+
 ### O Disco de Plácido e os 3 Princípios
 
 O Plácido permite ao cirurgião **ver** os 3 princípios em ação simultânea:
@@ -146,7 +199,7 @@ O Plácido permite ao cirurgião **ver** os 3 princípios em ação simultânea:
 
 2. **"Dois segmentos são sempre melhores que um"** — Depende. Dois segmentos simétricos em um cone oval (sagging) podem cancelar parcialmente o Vτ. Às vezes, um segmento assimétrico único é superior.
 
-3. **"A profundidade não importa muito"** — Importa enormemente. A diferença entre 70% e 80% é a diferença entre um tenting moderado e um tenting agressivo, com consequências diretas no VR e no risco de extrusão.
+3. **"A profundidade não importa muito"** — Importa enormemente. Estudos de elementos finitos demonstram que a profundidade ideal é **70–75%** da espessura estromal. Acima de 80%, o efeito biomecânico diminui significativamente (UCVA/BSCVA melhora < 1 linha; ΔKmax < 0.5 D). Abaixo de 65%, o risco de extrusão aumenta.
 
 ### Pérolas Biomecânicas
 
@@ -165,6 +218,20 @@ O Plácido permite ao cirurgião **ver** os 3 princípios em ação simultânea:
 
 ---
 
+### A Geometria do Anel Também É um Parâmetro Biomecânico
+
+O mesmo anel com 250 µm e 120° de arco produz VR **diferente** dependendo do perfil da seção transversal. A geometria do corte determina como a força é transmitida ao estroma:
+
+| Perfil | Fabricantes | VR/espessura | Von Mises | Menos Glare |
+|--------|------------|-------------|-----------|-------------|
+| **Triangular** (ápice anterior, base 600 µm) | Ferrara, Keraring | +++ Máximo | Focal nas arestas (140-170 kPa) | Sim (prisma) |
+| **Hexagonal** (topo plano) | Intacs | ++ Moderado | Distribuído | Moderado |
+| **Arredondado** (anatômico) | Cornealring (Visiontech) | ++ Moderado | Difuso (81-120 kPa) | Sim (anti-glare) |
+
+> **Pérola:** O perfil triangular é o "motor turbo" — gera mais VR por micro de espessura. O arredondado é o "motor híbrido" — gera VR moderado mas com excelente biocompatibilidade e menos haze. A escolha do perfil não é cosmética — é **parte da prescrição biomecânica**.
+
+---
+
 ## 📚 REFERÊNCIAS
 
 ```yaml
@@ -180,4 +247,4 @@ references:
 ```
 
 ---
-*Pipeline Status: DRAFT v0.1.0*
+*Pipeline Status: DRAFT v0.2.0 — Integração: F/V, X-Y-Z, profundidade, perfis de anel*

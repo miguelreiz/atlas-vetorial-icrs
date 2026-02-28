@@ -20,6 +20,8 @@ version: 0.1.0
 
 Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos ou insuficientes geram complicações. Este capítulo classifica as complicações mais comuns usando a linguagem vetorial — porque entender o vetor que causou o problema é o primeiro passo para corrigi-lo.
 
+*Recall:* **VR (Vetor Radial)** — quando excessivo, causa hipercorreção. **VT (Vetor Tangencial)** — quando mal direcionado, induz astigmatismo. **Vτ (Vetor Torsional)** — quando invertido, piora o coma. **VEsférico (Vetor Esférico Resultante)** — quando insuficiente, a cirurgia não fez efeito.
+
 ### Classificação Vetorial das Complicações
 
 #### Complicação 1: Hipocorreção (VEsférico Insuficiente)
@@ -38,7 +40,7 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 |-------|--------------|---------|
 | Anel muito fino | VR insuficiente | Trocar por anel mais gordo |
 | Arco muito curto | VT insuficiente | Trocar por arco mais longo |
-| Profundidade excessiva (>85%) | Tenting reduzido | Reimplantar mais superficial |
+| Profundidade excessiva (>80%) | Tenting reduzido (FEM: efeito diminuído ≥80%) | Reimplantar a 70–75% |
 | Córnea muito rígida (pós-CXL) | Todos reduzidos | Considerar espera ou anel mais agressivo |
 
 #### Complicação 2: Hipercorreção (VR Excessivo)
@@ -128,7 +130,9 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 | Coma piorado | Vτ invertido | Ponta grossa no lado errado | Inverter orientação |
 | Haze | Estresse mecânico local | Tenting alto | Observar ou corticóide |
 
-![Figura 11.1: As 6 Complicações dos Anéis Classificadas por Vetor — cada complicação está ligada ao vetor biomecânico responsável e sua solução](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\complication_table_pt_1771791413949.png)
+![Figura 12.1: As 6 Complicações dos Anéis Classificadas por Vetor — cada complicação está ligada ao vetor biomecânico responsável e sua solução](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\complication_table_pt_1771791413949.png)
+
+![Figura 12.2: Complicações na Linguagem Vetorial — Painel 2×2 mostrando hipocorreção (VR insuficiente), hipercorreção (VR excessivo), extrusão (tenting excessivo), e coma piorado (Vτ invertido) em corte transversal de fibras](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\complication_vectors_1772194835607.png)
 
 ### Pérolas de Complicações
 
@@ -139,4 +143,4 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 3. **Sempre documente o VEsférico pré e pós.** É a única forma de aprender com cada caso e refinar seu nomograma pessoal ao longo dos anos.
 
 ---
-*Pipeline Status: DRAFT v0.1.0*
+*Pipeline Status: DRAFT v0.2.0 — Auditoria aplicada: Recall sentences, profundidade corrigida, imagens de fibras*

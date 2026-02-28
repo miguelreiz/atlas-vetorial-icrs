@@ -18,7 +18,9 @@ version: 0.1.0
 
 ### Introdução
 
-Este capítulo apresenta 4 casos clínicos representativos — um para cada fenótipo principal. Em cada caso, aplicamos o nomograma vetorial (Cap. 9) passo a passo e analisamos o resultado com a linguagem vetorial.
+Este capítulo apresenta 4 casos clínicos representativos — um para cada fenótipo principal. Em cada caso, aplicamos o nomograma vetorial (Cap. 10) passo a passo e analisamos o resultado com a linguagem vetorial.
+
+*Recall:* **VR (Vetor Radial)** — mensurável clinicamente pela queda do K-max. **VT (Vetor Tangencial)** — mensurável pela redução do cilindro. **Vτ (Vetor Torsional)** — mensurável pela migração do ápice. **VComa (Vetor de Deslocamento Óptico)** — mensurável por ΔZ(3,1). **VEsférico** — o resultado global integrado.
 
 O objetivo é duplo: (1) treinar o raciocínio vetorial e (2) demonstrar que diferentes cones exigem estratégias radicalmente diferentes.
 
@@ -154,5 +156,7 @@ O objetivo é duplo: (1) treinar o raciocínio vetorial e (2) demonstrar que dif
 | 3 | Globoso | Duplo simétrico máximo | VR (força bruta) | Bom |
 | 4 | **Oval + Anel errado** | **Simétrico (erro)** | **VR sem Vτ** | **Subótimo** |
 
+![Figura 11.1: Vetores do Anel na Escala das Fibras — Corte transversal mostrando ICRS a 70-75% de profundidade, tenting effect nas lamelas acima do implante, VR (azul) apontando para o aplainamento central, VT (azul) redistribuindo tensão tangencialmente](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\icrs_crosssection_vectors_1772194823388.png)
+
 ---
-*Pipeline Status: DRAFT v0.1.0*
+*Pipeline Status: DRAFT v0.2.0 — Auditoria aplicada: Recall sentences, imagens de fibras*

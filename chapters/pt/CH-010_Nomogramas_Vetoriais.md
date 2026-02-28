@@ -18,7 +18,9 @@ version: 0.1.0
 
 ### Introdução
 
-Nos capítulos anteriores, você aprendeu **o que** cada vetor faz (Caps. 4–7) e **como** eles se somam (Cap. 8). Agora, a pergunta prática: **"Dado este mapa topográfico, qual anel devo usar?"**
+Nos capítulos anteriores, você aprendeu **o que** cada vetor faz (Caps. 4–7) e **como** eles se somam (Cap. 9). Agora, a pergunta prática: **"Dado este mapa topográfico, qual anel devo usar?"**
+
+*Recall:* **VR (Vetor Radial)** — guia a espessura do anel. **VT (Vetor Tangencial)** — guia o comprimento do arco. **Vτ (Vetor Torsional)** — guia a assimetria do segmento. **VComa (Vetor de Deslocamento Óptico)** — verifica se o ápice foi centralizado.
 
 Este capítulo ensina a lógica dos nomogramas vetoriais — o sistema de decisão que traduz dados topográficos em uma prescrição cirúrgica objetiva.
 
@@ -147,9 +149,94 @@ PRESCRIÇÃO CIRÚRGICA
 
 ---
 
+### Comparação Multi-Fabricante: O Que Cada Anel Faz Melhor
+
+O nomograma vetorial é **agnóstico de marca** — ele prescreve vetores, não fabricantes. Mas cada fabricante tem diferenciais que o tornam mais adequado para certos perfis vetoriais:
+
+| Fabricante | Diferencial Único | Melhor Quando |
+|-----------|-------------------|---------------|
+| **Ferrara Padrão** | Perfil triangular (base 600 µm) — VR máximo/espessura | Nipple severo, VR prioritário |
+| **Ferrara HM** | Arco >300° — VR+VT+VComa simultâneos | Alta miopia + KC, VT máximo |
+| **Keraring AS** | Segmento assimétrico com espessura progressiva | Duck/Snowman, Vτ deliberado |
+| **AJL PRO+** | Base variável (0.60-0.80 mm) + espessura progressiva | Cones irregulares (P5), ajuste fino |
+| **Cornealring** | Perfil arredondado anti-glare + arcos até 340° | Arco longo universal, menor glare |
+
+#### Perfil Vetorial por Fabricante e Configuração
+
+```
+FERRARA 120° simétrico:   VR +++  VT ++   Vτ 0    → Nipple
+FERRARA HM (>300°):       VR +++  VT ++++ Vτ +    → Alta miopia
+KERARING SI5-AS (150°):   VR ++   VT ++   Vτ +++  → Duck/Snowman
+AJL PRO+ progressivo:     VR ++~+++ VT ++ Vτ ++   → Irregular (gradiente)
+CORNEALRING 300°:         VR ++   VT ++++ Vτ +    → KC + miopia (arco longo)
+CORNEALRING 340°:         VR ++   VT +++++ Vτ 0   → Miopia alta (quase completo)
+```
+
+> **Pérola:** O perfil do anel afeta o vetor. Triangular (Ferrara, Keraring) gera **VR máximo por espessura** — ápice empurra anteriormente com tenting focal. Arredondado (Cornealring) gera **VR moderado mas com menor estresse Von Mises** — menos haze, mais biocompatível. A escolha do perfil é parte da prescrição vetorial.
+
+---
+
+### Arcos Longos vs Arcos Curtos — Em Que Fenótipos o Arco Longo Domina?
+
+A tendência moderna (defendida por Bicalho com o Cornealring e implementada no Ferrara HM) é usar arcos longos (≥210°) como estratégia predominante. O nomograma vetorial explica por quê — e quando:
+
+| Fenótipo | Arco Longo Domina? | Por quê |
+|----------|-------------------|---------|
+| **P1 Circular** | ✅ Sim | VT alto + VR distribuído = ΔSE máximo |
+| **Astigmatismo regular** | ✅ Sim | Redistribuição tangencial ampla |
+| **KC + alta miopia** | ✅ Sim | HM ou Cornealring 300-340° |
+| **P2 Oval descentrado** | ⚠️ Depende | Arco longo dilui Vτ — ruim se torque é prioridade |
+| **P3 Duck** | ❌ Não | Precisa de Vτ focalizado, não distribuído |
+| **Nipple puro, coma baixo** | ⚠️ Depende | VR focal (curto) > VR difuso (longo) |
+
+**Regra vetorial:**
+```
+SE prioridade = VT (redistribuição)  → ARCO LONGO (≥210°)
+SE prioridade = Vτ (torque focal)    → ARCO CURTO (90-160°) ou ASSIMÉTRICO
+SE prioridade = VR máximo focal      → ARCO CURTO (90-120°) + espessura alta
+SE prioridade = VR + VT + VComa      → FERRARA HM (>300°) ou CORNEALRING 300°+
+```
+
+---
+
+### Anéis Concêntricos — Engenharia Estrutural Multicamada
+
+Quando um único anel é insuficiente (Kmax > 60-65 D), a estratégia avançada é **implantar anéis em planos concêntricos** — dois níveis de modulação atuando complementarmente.
+
+#### Configuração Dupla (5 + 6 mm)
+
+| | Anel Interno | Anel Externo |
+|--|-------------|-------------|
+| **Diâmetro** | 5 mm | 6 mm |
+| **Profundidade** | ~350 µm (355-365 µm ideal) | ~400 µm (390-395 µm ideal) |
+| **Função** | Refrativa (VR + VComa) | Regularizadora (VT + estabilização) |
+| **Efeito** | Focal — modula ápice | Biomecânico — distribui tensões |
+
+#### Configuração Tripla (3 + 5 + 6 mm) — Casos Severos (Kmax > 65 D)
+
+```
+3 mm → Centralizador (ápice)
+5 mm → Refrativo (miopia + coma)
+6 mm → Regularizador (estabilidade global)
+
+Aplicação: sequencial (0 → 6 → 12 meses)
+```
+
+#### Regras de Segurança (Obrigatórias)
+
+1. Diferença mínima entre planos: **30-50 µm**
+2. Estroma residual acima de cada túnel: **≥ 120 µm**
+3. Profundidade: **0.75 × paquimetria local** por túnel
+4. Profundidade máxima: **400 µm**
+5. Regra dos 60%: não ultrapassar 60% de tecido alterado
+
+> **Pérola:** Anel único = correção dominante. Anel concêntrico = **arquitetura tensional multicamada**. Você sai da lógica dióptrica simples e entra na engenharia estrutural da córnea.
+
+---
+
 ## 🎨 ESPECIFICAÇÃO VISUAL
 
 1. **Figura 9.1 — Fluxograma do Nomograma Vetorial:** Os 5 passos em formato de pipeline visual.
 
 ---
-*Pipeline Status: DRAFT v0.1.0*
+*Pipeline Status: DRAFT v0.2.0 — Integração: multi-fabricante, arco longo analysis, anéis concêntricos*

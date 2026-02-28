@@ -34,16 +34,18 @@ O **Vetor Esférico Resultante (VEsférico)** é o vetor final do sistema. Ele n
 
 **"Qual é o efeito total do anel na córnea deste paciente?"**
 
-Cada vetor individual (VR, VT, Vτ, VComa) descreve um aspecto isolado da mecânica do anel. O VEsférico os combina em um único resultado clínico integrado.
+*Recall:* **VR (Vetor Radial)** — a força que aplaina centralmente. **VT (Vetor Tangencial)** — redistribui tensão entre meridianos. **Vτ (Vetor Torsional)** — rotaciona o eixo do cone. **VComa (Vetor de Deslocamento Óptico)** — mede o quanto o ápice se aproximou do eixo visual.
+
+Cada vetor individual descreve um aspecto isolado da mecânica do anel. O VEsférico os combina em um único resultado clínico integrado.
 
 ### Explicação Didática: A Analogia do Time de Futebol
 
 Imagine que você é o técnico de um time de futebol e cada vetor é um jogador:
 
-- **VR (Vetor Radial)** = O **Zagueiro**. Forte, direto, previsível. Sua função é clara: aplainar o centro. Sempre faz seu trabalho, mas sozinho não ganha o jogo.
-- **VT (Vetor Tangencial)** = O **Meio-campista**. Distribui as forças ao redor da córnea. Decide para onde o astigmatismo se desloca. Estratégico.
-- **Vτ (Vetor de Torque)** = O **Atacante**. Agressivo, direcional. Move o cone de lugar. Sem ele, o time pode dominar a posse (aplainar) mas nunca marca gol (não corrige coma).
-- **VComa** = O **GPS/VAR**. Não joga, mas verifica se o ataque foi para o lugar certo. Mede o resultado óptico real.
+- **VR (Vetor Radial)** = O **Zagueiro**. Forte, direto, previsível. Aplaina o centro. Sempre faz seu trabalho, mas sozinho não ganha o jogo.
+- **VT (Vetor Tangencial)** = O **Meio-campista**. Redistribui as forças entre meridianos. Decide para onde o astigmatismo se desloca. Estratégico.
+- **Vτ (Vetor Torsional)** = O **Atacante**. Agressivo, direcional. Move o cone de lugar. Sem ele, o time pode dominar a posse (aplainar) mas nunca marca gol (não corrige coma).
+- **VComa (Vetor de Deslocamento Óptico)** = O **GPS/VAR**. Não joga, mas verifica se o ataque foi para o lugar certo. Mede o resultado óptico real.
 
 O **VEsférico** = O **Resultado Final no Placar**. O que importa no final não é quanto cada jogador correu individualmente — é o placar final (ganhou ou perdeu). O VEsférico é o placar.
 
@@ -66,7 +68,7 @@ Clinicamente, o VEsférico se traduz em:
 - **Quanto o cilindro mudou** (e em que eixo)
 - **Quanto o coma mudou** (e em que direção)
 
-![Figura 8.1: A Soma Vetorial — Os 4 vetores (VR azul, VT vermelho, Torque laranja, VComa roxo) se combinam no paralelogramo de forças para gerar o VEsférico Resultante (seta verde = resultado final)](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\vector_summation_pt_1771790484069.png)
+![Figura 9.1: A Soma Vetorial — Os 4 vetores de correção (todos em 🔵 azul: VR, VT, Vτ, VComa) se combinam para gerar o VEsférico Resultante (🟢 verde = resultado final). Nota: nas figuras onde forças do cone (Fr, Ft, Fτ) aparecem, elas são sempre em 🔴 vermelho.](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\vector_summation_pt_1771790484069.png)
 
 ### Os Três Cenários de Soma Vetorial
 

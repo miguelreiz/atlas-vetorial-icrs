@@ -40,7 +40,7 @@ expected_outcome: "Reduction of central corneal power (ΔK = -2.0 to -6.0 D depe
 
 ### Definição
 
-O **Vetor Radial** é a força biomecânica primária exercida pelo anel intracorneano sobre o estroma. Ele age como uma **força centrípeta** — isto é, uma força que "puxa" em direção ao centro — que traciona o tecido corneano periférico em direção ao implante, provocando o **aplainamento central** da córnea. Este é o efeito terapêutico fundamental de todo anel intracorneano: reduzir a curvatura excessiva da córnea doente.
+O **Vetor Radial (VR)** é a força biomecânica primária exercida pelo anel intracorneano sobre o estroma. Ele age como uma **força centrípeta** — isto é, uma força que "puxa" em direção ao centro — que traciona o tecido corneano periférico em direção ao implante, provocando o **aplainamento central** da córnea. Este é o efeito terapêutico fundamental de todo anel intracorneano: neutralizar a força radial do cone (**Fr**) reduzindo a curvatura excessiva da córnea doente.
 
 ### Explicação Didática
 
@@ -134,7 +134,7 @@ Um anel simétrico (mesma espessura em ambos os segmentos) com diâmetro de 5.0-
 **Resultados esperados (baseados em literatura):**
 - Redução da curvatura máxima (K-max): 2.0 a 6.0 dioptrias
 - Melhora da melhor acuidade visual corrigida (BSCVA): 2 a 4 linhas de Snellen
-- Redução do astigmatismo cilíndrico: variável (efeito secundário do Vetor Radial; a correção primária do astigmatismo irregular pertence ao Vetor de Torque, detalhado no Capítulo 6)
+- Redução do astigmatismo cilíndrico: variável (efeito secundário do VR; a correção primária do astigmatismo irregular pertence ao **Vτ (Vetor Torsional)**, detalhado no Capítulo 6)
 
 #### Decisão Cirúrgica Guiada pelo Vetor Radial
 
@@ -142,16 +142,16 @@ Um anel simétrico (mesma espessura em ambos os segmentos) com diâmetro de 5.0-
 |-----------|-------|------------------------|
 | Espessura do anel ↑ | 250 → 350 μm | Força radial aumenta (maior aplainamento) |
 | Diâmetro do anel ↓ | 6.0 → 5.0 mm | Força radial mais concentrada centralmente |
-| Profundidade do túnel | 70-80% | Otimiza o braço de alavanca biomecânico |
+| Profundidade do túnel | 70–75% (máximo 80%) | Otimiza o braço de alavanca biomecânico (FEM: ≥80% com efeito diminuído) |
 | Arco do segmento ↑ | 120° → 210° | Força radial mais distribuída, menos concentrada |
 
 ### Armadilhas Comuns (*Common Pitfalls*)
 
 1. **Confundir aplainamento com correção refrativa total.** O Vetor Radial aplaina a córnea anterior, mas o resultado refrativo final depende da interação com o Vetor Tangencial (Capítulo 5) e o Vetor de Torque (Capítulo 6). Um mapa topográfico mais plano não significa automaticamente que o paciente enxerga melhor.
 
-2. **Hiperestimar o Vetor Radial em cones descentrados.** Em cones ovais ou do tipo *sagging* ("caído" inferiormente), a protrusão está deslocada para baixo, longe do eixo visual. Usar um anel simétrico (que gera apenas Vetor Radial puro e centrado) nesse cenário ignora a necessidade de correção assimétrica, que exige o Vetor de Torque e o Vetor de Deslocamento Óptico (Capítulos 6 e 7). Resultado: o centro da córnea aplaina, mas o ápice real do cone — que está deslocado — permanece protuso.
+2. **Hiperestimar o VR em cones descentrados.** Em cones ovais ou do tipo *sagging* ("caído" inferiormente), a protrusão está deslocada para baixo, longe do eixo visual. Usar um anel simétrico (que gera apenas VR puro e centrado) nesse cenário ignora a necessidade de correção assimétrica, que exige o **Vτ (Vetor Torsional)** e o **VComa (Vetor de Deslocamento Óptico)** (Capítulos 6 e 7). Resultado: o centro da córnea aplaina, mas o ápice real do cone — que está deslocado — permanece protuso.
 
-3. **Ignorar a profundidade do túnel.** Um túnel criado a apenas 60% da espessura estromal reduz o braço de alavanca biomecânico do Vetor Radial. O padrão de 70-80% de profundidade (com laser de femtosegundo) maximiza a eficiência do vetor.
+3. **Ignorar a profundidade do túnel.** Um túnel criado a apenas 60% da espessura estromal reduz o braço de alavanca biomecânico do VR. A profundidade ideal é **70–75%** (com laser de femtosegundo); acima de 80%, estudos FEM demonstram efeito diminuído.
 
 4. **Confundir "mais espesso = sempre melhor."** Um anel de 350-400 μm gera uma força radial alta, mas em uma córnea com espessura mínima de 400 μm no trajeto do túnel, a margem de segurança é mínima e o risco de extrusão (o anel perfurando para fora) aumenta exponencialmente. A força radial deve ser calibrada contra a reserva estromal disponível.
 
@@ -163,7 +163,7 @@ Um anel simétrico (mesma espessura em ambos os segmentos) com diâmetro de 5.0-
 
 3. **O Vetor Radial explica a Lei de Barraquer sem fórmulas.** Ao ensinar residentes, use este conceito como tradução visual da Lei das Espessuras — é intuitivo e imediato. O residente entende em segundos o que levaria uma hora com equações.
 
-4. **Profundidade = alavanca.** O Vetor Radial age melhor quanto mais profundo o implante está posicionado. A 70-80% de profundidade, o anel está entre as camadas estromais mais densas e resistentes (estroma posterior), maximizando o efeito de tenda sobre a superfície anterior.
+4. **Profundidade = alavanca.** O VR age melhor quanto mais profundo o implante está posicionado. A **70–75%** de profundidade, o anel está entre as camadas estromais mais densas e resistentes (estroma posterior), maximizando o efeito de tenda sobre a superfície anterior.
 
 ---
 
@@ -246,17 +246,17 @@ diagram_concept: >
 
 #### O Estroma Normal (Sem Ectasia)
 
-No estroma saudável, as ~200 lamelas de colágeno estão empilhadas em camadas regulares, com espaçamento uniforme de substância fundamental entre elas. As fibras cruzam-se em ângulos precisos (predominantemente 0° e 90°), formando uma **rede de tensegridade** — uma malha elástica que distribui a pressão intraocular uniformemente em toda a superfície.
+No estroma saudável, as **~200–250 lamelas** de colágeno estão empilhadas em camadas regulares, com espaçamento uniforme de substância fundamental entre elas. No **estroma anterior (1/3)**, as fibras são entrelaçadas e oblíquas, formando uma malha densa. No **estroma posterior (2/3)**, as fibras correm paralelas, predominantemente nos eixos nasal-temporal e superior-inferior (66% em ±22.5°, WAXS). Juntas, formam uma **rede de tensegridade** que distribui a pressão intraocular uniformemente.
 
 Os anéis de Plácido refletidos por esta córnea são **concêntricos e regulares** — porque a curvatura anterior é o reflexo direto de uma malha lamelar equilibrada.
 
 #### O Estroma Ectásico (Ceratocone — Antes do Anel)
 
-Na zona do cone, as pontes de proteoglicanos entre as lamelas se degradaram. As fibras perderam ancoragem entre si. As lamelas **deslizam** umas sobre as outras, separando-se. O espaçamento entre lamelas aumenta na zona do ápice — criando uma zona de "vácuo estrutural":
+Na zona do cone, as pontes de proteoglicanos entre as lamelas se degradaram. As fibras perderam ancoragem entre si. As lamelas **deslizam** umas sobre as outras, e seus eixos preferenciais **reorientam** de 90°/180° para ~60°/120° (WAXS). O espaçamento entre lamelas aumenta na zona do ápice:
 
 - **Fibras centrais:** espaçadas, relaxadas, desorganizadas
 - **Fibras periféricas:** ainda relativamente organizadas, mas sob tensão assimétrica
-- **Resultado macroscópico:** a PIO vence localmente → protrusão → K-max elevado
+- **Resultado macroscópico:** a PIO vence localmente → o posterior abaulha anteriormente → K-max elevado
 
 No Plácido, os anéis **se comprimem** na zona do cone (muitos anéis juntos = curvatura alta) e se **espaçam** na periferia oposta.
 
@@ -311,7 +311,7 @@ O disco de Plácido mostra:
 - **Padrão:** mais regular, mais próximo dos concêntricos perfeitos
 - **Mapa de cores:** ilha vermelha menor, mais pálida, K-max 3-5 D mais baixo
 
-> **Leitura Vetorial do Plácido:** No Nipple tratado com VR simétrico, o campo vetorial concêntrico de deformação (Fr apontando para fora) é **diretamente neutralizado** pelo campo vetorial centrípeto do anel. O resultado é a descompressão dos anéis centrais — que se espaçam e normalizam.
+> **Leitura Vetorial do Plácido:** No Nipple tratado com VR simétrico, o campo vetorial concêntrico de deformação (🔴 Fr apontando para fora) é **diretamente neutralizado** pelo campo vetorial centrípeto do anel (🔵 VR). O resultado é a descompressão dos anéis centrais — que se espaçam e normalizam.
 
 ---
 

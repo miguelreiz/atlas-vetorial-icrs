@@ -30,9 +30,9 @@ expected_outcome: "Rotação do eixo astigmático em direção ortogonal à inci
 
 ### Definição
 
-O **Vetor Tangencial (VT)** é a força biomecânica exercida pelo segmento de anel intracorneano que atua paralelamente (tangencialmente) à trajetória do túnel estromal. Enquanto o Vetor Radial (Capítulo 4) puxa o tecido em direção ao centro para aplanar a córnea, o Vetor Tangencial redistribui a tensão ao longo da circunferência do anel. 
+O **Vetor Tangencial (VT)** é a força biomecânica exercida pelo segmento de anel intracorneano que atua paralelamente (tangencialmente) à trajetória do túnel estromal. Enquanto o **VR (Vetor Radial)** (Capítulo 4) puxa o tecido em direção ao centro para aplanar a córnea, o VT redistribui a tensão ao longo da circunferência do anel. Na convenção F/V do Atlas (Cap. 2): VT neutraliza a **Ft (Força Tangencial)** do cone.
 
-Clinicamente, o Vetor Tangencial é o "vetor do astigmatismo". É a força primariamente responsável por **rotacionar e regularizar o eixo cilíndrico** da córnea, trabalhando através do princípio biomecânico conhecido como Efeito de Acoplamento (*Coupling Effect*).
+Clinicamente, o VT é o "vetor do astigmatismo". É a força primariamente responsável por **rotacionar e regularizar o eixo cilíndrico** da córnea, trabalhando através do princípio biomecânico conhecido como Efeito de Acoplamento (*Coupling Effect*).
 
 ### Explicação Didática: Biomecânica Estrutural
 

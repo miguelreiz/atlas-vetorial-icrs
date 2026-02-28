@@ -30,7 +30,7 @@ expected_outcome: "Rotação e regularização do eixo astigmático; redução d
 
 ### Definição
 
-O **Vetor de Torque (Vτ)** é a terceira força biomecânica fundamental do sistema vetorial do anel intracorneano. Enquanto o Vetor Radial (Capítulo 4) aplaina o centro e o Vetor Tangencial (Capítulo 5) redistribui o astigmatismo ao longo do eixo do anel, o **Vetor de Torque é a força rotacional que nasce da assimetria do próprio implante**.
+O **Vetor de Torque (Vτ)** é a terceira força biomecânica fundamental do sistema vetorial do anel intracorneano. Enquanto o **VR (Vetor Radial)** (Capítulo 4) aplaina o centro e o **VT (Vetor Tangencial)** (Capítulo 5) redistribui o astigmatismo ao longo do eixo do anel, o **Vτ é a força rotacional que nasce da assimetria do próprio implante**. Na convenção F/V do Atlas (Cap. 2): Vτ neutraliza a **Fτ (Força Torsional)** do cone.
 
 Em linguagem simples: o Vetor de Torque é o que acontece quando um lado do anel é mais gordo que o outro.
 
