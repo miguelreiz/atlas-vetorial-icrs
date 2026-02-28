@@ -286,7 +286,7 @@ O formato da seção transversal do anel determina **como** o estresse é distri
 - ✅ Melhor para: oval (P2), progressão, Ø7mm (fibras já tangenciais → face plana interage melhor)
 - ✅ Menor risco de haze (estresse distribuído)
 
-![Figura 2.6: Triangular vs Flat — Como cada perfil interage com as fibras de colágeno. Triangular: tenting focal, VR concentrado (cunha entre lamelas). Flat: tenting difuso, VR+VT distribuído (almofada sobre lamelas).](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\triangular_vs_flat_fibers_1772311323851.png)
+![Figura 2.6: Triangular vs Flat — Interação com as fibras de colágeno. Triangular: força centrífuga focal, VR concentrado (cunha entre lamelas). Flat: força centrífuga difusa, VR diluído + VT (almofada sobre lamelas). Aplainamento = consequência geométrica.](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\triangular_flat_fibras_1772316348524.png)
 
 #### 💡 Perfil × Zona WAXS (Síntese do Autor)
 

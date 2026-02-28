@@ -213,7 +213,7 @@ A escolha do **perfil** (triangular vs flat) e do **arco** (curto vs longo) deve
 | **P5 (Complexo)** | ▬ Flat | 210-340° | Contenção | Annulus artificial parcial → contenção global |
 | **KC Progressivo** | ▬ Flat | 340° + CXL | Annulus + CXL | Máxima contenção + crosslinks bioquímicos |
 
-![Figura 10.1: Matriz de Decisão — Perfil × Arco × Fenótipo. Quatro cenários: P1 Nipple (triangular+curto), P2 Oval (flat+longo), P3 Duck (triangular+assimétrico), KC Progressivo (flat+340°+CXL)](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\profile_fenotype_matrix_1772311340157.png)
+![Figura 10.1: Matriz de Decisão — Perfil × Arco × Fenótipo. P1 Nipple (triangular+curto, VR centrífugo bilateral), P2 Oval (flat+longo, VT+Vτ), P3 Duck (triangular+assimétrico), KC Progressivo (flat+340°+CXL, annulus artificial)](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\perfil_fenotipo_matriz_1772316336266.png)
 
 > **💡 Síntese:** O triangular é a "cunha" para cones focais (VR forte). O flat é a "almofada" para cones amplos (VT+contenção). O arco longo é o "annulus artificial" para progressão.
 

@@ -175,7 +175,7 @@ O limbo contém um **annulus de fibras circunferenciais** (🔵) a 360° que man
 | 210° | 58% | Annulus parcial |
 | **340°** | **94%** | **Quase annulus completo** |
 
-![Figura 13.1: Do Annulus Natural ao Artificial — comparação do annulus limbal 360° com ICRS de arcos progressivos (90°, 210°, 340°), mostrando o gradiente de contenção circunferencial](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\annulus_icrs_comparison_1772310310087.png)
+![Figura 13.1: Do Annulus Natural ao Artificial — comparação do annulus limbal 360° com ICRS de arcos progressivos (90°, 210°, 340°), mostrando o gradiente de contenção circunferencial. Todos os rótulos em português.](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\annulus_comparacao_1772316366020.png)
 
 #### ICRS × CXL — Tala Mecânica + Cura Bioquímica
 

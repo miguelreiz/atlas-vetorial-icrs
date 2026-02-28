@@ -42,6 +42,14 @@ Este modelo didático é fundamentado em três linhas de evidência:
 - Tensiona-as lateralmente (tenting) → VR gerado
 - Quanto mais fibras radiais o anel intercepta (arco mais longo) → VR mais distribuído
 
+**⚠️ DIREÇÃO DO VR — REGRA BIOMECÂNICA CRÍTICA:**
+- A **FORÇA mecânica** do anel sobre as fibras radiais é **CENTRÍFUGA** (para FORA)
+- O anel empurra as lamelas lateralmente (tenting = separação) → para FORA
+- O arc-shortening é consequência dessa separação centrífuga
+- O **aplainamento central** é o EFEITO geométrico (arco encurta → centro aplaina), NÃO a direção da força
+- **Em imagens:** setas VR devem apontar **PARA FORA a partir do anel**, nunca para o centro
+- Analogia: o cinto do barril aperta para DENTRO (centrípeto), mas o ICRS faz o OPOSTO — empurra para FORA (centrífugo), e o arco encurta → centro aplaina
+
 ---
 
 ### 🔵 Fibras Tangenciais/Circunferenciais (Paralelas ao Limbo)
