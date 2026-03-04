@@ -18,8 +18,8 @@ pipeline_execution:
   skill_5_clinical_model: complete
   skill_7_illustration: complete
   skill_8_dynamics: complete
-  skill_9_editorial: pending_review
-  skill_10_congress: pending_review
+  skill_9_editorial: complete
+  skill_10_congress: complete
 ```
 
 ---
@@ -40,7 +40,7 @@ expected_outcome: "Reduction of central corneal power (ΔK = -2.0 to -6.0 D depe
 
 ### Definição
 
-O **Vetor Radial (VR)** é a força biomecânica primária exercida pelo anel intracorneano sobre o estroma. Ele age como uma **força centrípeta** — isto é, uma força que "puxa" em direção ao centro — que traciona o tecido corneano periférico em direção ao implante, provocando o **aplainamento central** da córnea. Este é o efeito terapêutico fundamental de todo anel intracorneano: neutralizar a força radial do cone (**Fr**) reduzindo a curvatura excessiva da córnea doente.
+O **Vetor Radial (VR)** é a força biomecânica primária exercida pelo anel intracorneano sobre o estroma. Ele age como uma **força de tração focal** — que estica o tecido corneano periférico em direção ao ápice do implante, provocando o **aplainamento central** compensatório da córnea. Este é o efeito terapêutico fundamental de todo anel intracorneano: neutralizar a força radial do cone (**Fr**) reduzindo a curvatura excessiva da córnea doente.
 
 ### Explicação Didática
 
@@ -75,30 +75,32 @@ A magnitude dessa tração direcional é governada por dois princípios fundamen
    > - Diâmetro menor (ex: 5.0 mm) → Força mais concentrada no centro → Aplainamento mais agressivo
    > - Diâmetro maior (ex: 6.0 mm) → Força mais distribuída na periferia → Aplainamento mais suave e gradual
 
-#### A Mecânica no Tecido: O Efeito de Tenda
+#### A Mecânica no Tecido: A Cascata Tenting → Arc-Shortening
 
-O Vetor Radial não é uma força pontual. Ele se distribui ao longo de toda a extensão do arco do implante, criando um **gradiente de aplainamento** — ou seja, uma variação progressiva da intensidade da força conforme nos afastamos do anel:
+O Vetor Radial não é uma força pontual. Ele emerge de uma **cascata de três eventos** que ocorrem em escalas progressivamente maiores:
 
-- É **máximo** na zona imediatamente sobre o anel (zona peri-implante)
-- **Decai progressivamente** em direção ao centro da córnea
+**1. Tenting (escala microscópica — separação lamelar):**
+O implante PMMA ocupa espaço entre as lamelas estromais. As lamelas *acima* do anel são fisicamente separadas e deslocadas anteriormente. Esta elevação focal visível na tomografia é o **primeiro evento** da cascata.
 
-Isso cria o chamado **Efeito de Tenda** (*tenting effect*), que é fundamental para entender a topografia pós-operatória:
+**2. Arc-Shortening (escala mesoscal/fibrilar):**
+As 🔴 **fibras radiais** que cruzam o anel são forçadas a contornar o implante. Seu comprimento funcional (arco de limbo a limbo) **encurta** naquele meridiano. Como o colágeno tem pouca elasticidade, essas fibras ficam **fisicamente tensionadas** ao redor do implante.
 
-Imagine uma lona de camping esticada sobre o chão. Agora imagine que você coloca dois pilares ("varetas da barraca") sob essa lona, um de cada lado. A lona se ergue sobre os pilares, criando um pico local sobre cada pilar e uma região mais plana (ou até levemente côncava) entre eles. Exatamente isso acontece com a córnea:
+**3. Aplainamento Central — Lei de Barraquer (escala macroscópica):**
+O encurtamento radial periférico reduz a tensão competitiva que mantinha a curvatura central. A córnea central, agora sem a mesma resistência periférica, **achata** (K cai). Este é o Vetor Radial expresso em dioptrias.
 
-- **Os dois segmentos do anel são os "pilares da tenda"** — eles empurram a córnea para cima (anteriormente) na zona peri-implante.
-- **A zona central entre os segmentos se aplaina** — pois está "suspensa" entre os dois pilares, sem suporte direto do anel.
-- **Nos pontos exatamente sobre cada segmento**, ocorre uma **inversão de curvatura** (curvatura reversa): a córnea muda de convexa para levemente côncava e depois volta a ser convexa. Este é o ponto de inflexão.
+> **⚠️ Nota de correção didática:** A analogia clássica da "barraca com dois pilares" (lona suspensa entre postes) **inverte a causalidade** — sugere que o centro aplaina por estar "suspenso sem suporte". O mecanismo correto é: as fibras radiais são **tracionadas centrifúgamente** pelo implante → o centro aplaina como consequência da *tração ativa* das fibras periféricas, não por falta de suporte central.
 
-![Figura 4.4: Mecanismo Biomecânico do Vetor Radial — A tração lateral centrípeta causa perda de curvatura central](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\vr_mechanism_v4_1771773805167.png)
+> **Analogia correta:** Imagine uma lona circular esticada. Uma cunha inserida na periferia *separa* as fibras da lona naquele ponto, forçando-as a contornar a cunha. O trecho funcional das fibras radiais encurta. A tensão aumenta. A lona central, puxada por essas fibras tensionadas, **aplaina**. O aplainamento é resultado da *tração ativa*, não de ausência de suporte.
+
+![Figura 4.4 — Mecanismo Biomecânico do Vetor Radial: a tração local das fibras sobre o anel causa perda de curvatura central e aplainamento compensatório](images/CH-004_Vetor_Radial/pt/Figura_4.4_Mecanismo_VR.png)
 
 ### O Motor Microscópico: Tração Lamelar
 
-Para compreender a física exata de *como* o Vetor Radial funciona, precisamos olhar a nível lamelar. A córnea não é um objeto sólido contínuo; é composta por camadas (lamelas) de fibras de colágeno intercruzadas. O anel (sendo inserido entre essas lamelas) atua como uma cunha perpendicular. 
+Para compreender a física exata de *como* o Vetor Radial funciona, precisamos olhar a nível lamelar. A córnea não é um objeto sólido contínuo; é composta por camadas (lamelas) de fibras de colágeno intercruzadas. O anel (sendo inserido entre essas lamelas) atua como uma cunha interstromal.
 
-Ao elevar o tecido superiormente, o implante força as fibras de colágeno a percorrerem um trajeto mais longo sobre ele (a tenda). Como o colágeno tem pouca elasticidade, as lamelas ficam **fisicamente esticadas** sobre o implante. Essa tensão lamelar (tração) corre ao longo das fibras e é transmitida até a região central. Como resultado dessa tração centrífuga/lateral proveniente das bordas, a zona central tensionada perde sua curvatura frouxa e é forçada a aplanar.
+Ao interpor-se entre as lamelas, o implante força as fibras radiais a percorrerem um trajeto mais longo ao seu redor (arc-shortening). Como o colágeno tem pouca elasticidade, essas fibras ficam **fisicamente tensionadas**. Essa tensão periférica é transmitida ao longo das fibras e redistribui o campo de estresse estromal — a zona central, com menor resistência periférica, aplaina.
 
-Esse acoplamento mecânico explica por que a topografia pós-operatória de um anel bem-posicionado mostra um padrão de **bowtie modificado** (formato de "gravata-borboleta" com achatamento central) ou **aplainamento central com encurvamento peri-implante** — o sinal clínico de que o Vetor Radial funcionou exatamente como planejado.
+Esse acoplamento mecânico explica por que a topografia pós-operatória de um anel bem-posicionado mostra um padrão de **bowtie modificado** (formato de "gravata-borboleta" com achatamento central) — o sinal clínico de que o Vetor Radial funcionou exatamente como planejado.
 
 #### ModelNo vetor puramente matemático, a magnitude e distribuição formam:
 
@@ -265,9 +267,9 @@ No Plácido, os anéis **se comprimem** na zona do cone (muitos anéis juntos = 
 Quando o segmento de PMMA é inserido a ~75% de profundidade estromal:
 
 1. **O anel separa fisicamente as lamelas** no ponto de implantação — criando uma "tenda" local (Efeito Tenting)
-2. As lamelas que passam **por cima** do anel são forçadas a percorrer um caminho mais longo (Efeito Arc-Shortening)
-3. Para compensar esse caminho mais longo, as lamelas **tracionam as fibras vizinhas** em direção centrípeta — esta é a origem física do VR
-4. As fibras centrais, que estavam frouxas e espaçadas, são **esticadas e reorganizadas** pela tração gerada perifericamente
+2. Como a lamela é um cabo contínuo ancorado no limbo, ela precisa esticar.
+3. Para compensar esse caminho mais longo, as lamelas **tracionam as fibras vizinhas** em direção ao implante — esta é a origem física do VR
+4. As fibras centrais, que estavam frouxas e espaçadas, são **esticadas e reorganizadas** pela tração gerada localmente
 5. O resultado: a malha lamelar central se retensiona → a curvatura anterior diminui → K-max cai
 
 **O que você vê no microscópio confocal pós-operatório:**
@@ -284,7 +286,7 @@ ANTES (ectasia):
 ANEL IMPLANTADO:
   Cunha rígida separa lamelas perifericamente
   → Fibras desviam por cima do anel (caminho mais longo)
-  → Tração centrípeta nas fibras adjacentes
+  → Tração local nas fibras adjacentes em direção ao ápice
   → Fibras centrais esticam e reorganizam
 
 DEPOIS (correção):
@@ -362,7 +364,7 @@ references:
 
 ### Decomposição Vetorial do VR
 
-O VR, analisado sob a lógica de métodos de elementos finitos (FEM), é o vetor com menor complexidade computacional do sistema. Ele é essencialmente unidimensional (direção centrípeta) com magnitude modulada por 4 parâmetros:
+O VR, analisado sob a lógica de métodos de elementos finitos (FEM), é o vetor com menor complexidade computacional do sistema. Ele é essencialmente focado na tração compensatória local com magnitude modulada por 4 parâmetros:
 
 - **t** (espessura): relação linear positiva com VR
 - **d** (diâmetro): relação inversa com VR
@@ -426,7 +428,9 @@ O VR interage com o sistema TIA/SIA de Alpins:
 ## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA (Congress Readiness Validator)
 
 ### Revisor 1 — Biomecânica
-O modelo do VR como força centrípeta derivada do *arc-shortening effect* é robusto e amplamente aceito. A citação à Lei de Barraquer é adequada. **Sem objeção.**
+O modelo do VR como força de tração focal derivada do *arc-shortening effect* é robusto e amplamente aceito. A citação à Lei de Barraquer é adequada. **Sem objeção.**
+
+> Apenas uma retificação fina de linguagem (já aplicada no texto principal): a tensão originada pelo anel não é puramente "centrípeta" no sentido de puxar do limbo *para o centro geométrico*. As lamelas são tencionadas localmente *em direção ao ápice do anel*, o que resulta no rebaixamento por compensação mecânica (efeito pontão de tenda), transmitindo o aplainamento à superfície central. O texto atual demonstra essa compreensão robusta.
 
 ### Revisor 2 — Óptica e Aberrometria
 O capítulo foca corretamente no aplainamento (componente ceratométrico) e não extrapola para efeitos aberrométricos complexos, que são domínio de VComa e Vτ. A menção ao defocus como aberração dominante no nipple cone é precisa. **Sem objeção.**

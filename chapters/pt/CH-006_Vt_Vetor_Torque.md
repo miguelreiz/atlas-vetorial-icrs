@@ -55,7 +55,7 @@ Imagine que você está tentando girar um parafuso (a córnea deformada) usando 
 
 O anel assimétrico faz exatamente isso. A ponta grossa do segmento empurra com muito mais força do que a ponta fina. Essa diferença de força cria uma rotação localizada do tecido estromal — o Vetor de Torque.
 
-![Figura 6.1: O Que é Torque? A Analogia da Chave de Fenda — Forças iguais não giram o objeto (anel simétrico = só VR); forças desiguais geram rotação (anel assimétrico = Torque Vτ)](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\torque_screwdriver_pt_1771788427453.png)
+![Figura 6.1: O Que é Torque? A Analogia da Chave de Fenda — Forças iguais não giram o objeto (anel simétrico = só VR); forças desiguais geram rotação (anel assimétrico = Torque Vτ)](images/CH-006_Torque/Figura_Torque_Screwdriver.png)
 
 #### O Efeito de Volume Diferencial (*Bulking Effect*)
 
@@ -67,7 +67,19 @@ A consequência biomecânica direta dessa assimetria é o chamado **Efeito de Vo
 
 É como se o implante assimétrico "inclinasse" o tecido estromal, girando-o: a zona de maior elevação (ponta grossa) força o cone a se reposicionar, puxando o ápice da protrusão na direção da zona mais fina.
 
-![Figura 6.2: Efeito de Volume Diferencial (Bulking Effect) — Anel simétrico gera elevação igual dos dois lados (sem torque). Anel assimétrico progressivo cria elevação massiva na ponta grossa, gerando um Momento de Torção (Torque)](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\bulking_effect_pt_1771788443095.png)
+![Figura 6.2: Efeito de Volume Diferencial (Bulking Effect) — Anel simétrico gera elevação igual dos dois lados (sem torque). Anel assimétrico progressivo cria elevação massiva na ponta grossa, gerando um Momento de Torção (Torque)](images/CH-006_Torque/Figura_Bulking_Effect.png)
+
+#### 🔬 Evidência Clínica Quantitativa (Projeto ICE)
+
+A literatura confirma o poder torcional da assimetria geométrica. A meta-análise de dados (banco ICE) para o anel **AJL PRO+** (perfil com base e espessura progressivas) demonstra a eficácia do Vτ em reduzir o cilindro e o coma vertical primário:
+
+| Estudo / Implante | Redução do Cilindro (D) | Redução do Coma (RMS) |
+|---|---|---|
+| **Kammoun (2021) — AJL PRO+** | -4.14 D → -1.66 D | Redução significativa |
+| **Cuiña-Sardiña (2020) — AJL PRO+** | -2.92 D → -2.13 D | 3.54 μm → 2.12 μm |
+| **Benlarbi (2023) — AJL PRO+** | N/A | 1.62 μm → 0.99 μm |
+
+> **Dado Crítico:** A redução de até 60% no coma primário (Cuiña-Sardiña) prova o Efeito de Volume Diferencial. O anel assimétrico forçou a migração do ápice inferior (sagging) em direção ao centro estrutural.
 
 ### Modelo Vetorial Formal
 
@@ -107,7 +119,7 @@ O cirurgião posiciona o segmento de anel de modo que **a ponta mais grossa** do
 2. **Torque rotacional que puxa o ápice para cima** (em direção ao eixo visual), regularizando a posição do cone.
 3. **Gradiente de curvatura suavizado** — a transição abrupta entre a zona protusa (quente) e a zona saudável (fria) se torna gradual, reduzindo o coma.
 
-![Figura 6.3: Reposicionamento do Cone Descentrado — O Vτ gerado pelo segmento assimétrico empurra o ápice protuso de volta ao eixo visual (centro pupilar), reduzindo o coma vertical](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\cone_repositioning_v5_pt_1771789551798.png)
+![Figura 6.3: Reposicionamento do Cone Descentrado — O Vτ gerado pelo segmento assimétrico empurra o ápice protuso de volta ao eixo visual (centro pupilar), reduzindo o coma vertical](images/CH-006_Torque/Figura_Cone_Repositioning.png)
 
 #### Assimetria Funcional de Dois Segmentos
 
@@ -267,7 +279,7 @@ O Vτ é o vetor mais diretamente ligado às **fibras oblíquas** (🟢):
   - Ponta fina = travamento suave (simula zona com poucas oblíquas)
   - O gradiente entre os dois → **rotação** (torque) → o ápice migra para a zona de maior travamento
 
-> **💡 Síntese do Autor:** O Vτ é, em essência, a **recriação artificial do gradiente de oblíquas perdido**. No cone normal, as oblíquas fornecem travamento uniforme. No ceratocone, o gradiente de perda cria cisalhamento. O anel progressivo recria um gradiente de travamento mecânico que contra-atua o cisalhamento patológico. (Baseado em: Radner 1998 + Winkler 2013 + FEM Avicenna)
+> **💡 Síntese do Autor (Gemini Refinement):** O Vτ não "puxa" mecanicamente as fibras oblíquas que estão ausentes ou falhas no cone (isso seria impossível). O que ele faz é **substituir artificialmente o seu papel biomecânico**. Na córnea sã, a rede oblíqua confere o *interlamellar shear resistance* (travamento contra deslizamento). No ceratocone, as lamelas deslizam e o ápice protruí (desce). O anel assimétrico progressivo recria esse crosslink mecânico: a ponta grossa fornece resistência máxima ao cisalhamento, e a ponta fina oferece resistência mínima. Este **gradiente volumétrico de contenção** mimetiza as propriedades de torção do colágeno oblíquo perdido. (Baseado em: Radner 1998 + Winkler 2013 + FEM Avicenna)
 
 ---
 *Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

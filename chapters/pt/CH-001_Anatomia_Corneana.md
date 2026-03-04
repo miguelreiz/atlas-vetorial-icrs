@@ -72,7 +72,9 @@ Essa tensão gerada no anel se propaga pelas lamelas e é transmitida de volta p
 
 A córnea pode ser mapeada em zonas concêntricas. **Cada zona tem uma arquitetura fibrilar diferente** — e é isso que determina como cada diâmetro de anel interage com o tecido:
 
-#### Dimensões das Fibrilas de Colágeno (✅ WAXS)
+#### Dimensões das Fibrilas de Colágeno e a Técnica WAXS
+
+> **Entendendo a Ferramenta:** **WAXS** = *Wide-Angle X-ray Scattering* (Espalhamento de Raios-X de Ângulo Amplo). É a técnica de ponta usada por biofísicos como Keith Meek e Craig Boote para mapear a orientação das fibras de colágeno na córnea em escala nanométrica. São os mapas WAXS que revelam onde as fibras são ortogonais (centro) e onde viram tangenciais (periferia). Esta tecnologia é a base científica fundamental da correspondência geométrica demonstrada neste Atlas.
 
 | Parâmetro | Valor | Referência |
 |-----------|-------|-----------|
@@ -82,14 +84,15 @@ A córnea pode ser mapeada em zonas concêntricas. **Cada zona tem uma arquitetu
 | **Espessura de cada lamela** | ~2 µm | ✅ Radner et al., 1998 |
 | **Largura de cada lamela** | 0.5–2.5 mm (variável) | ✅ Winkler et al., 2013 |
 | **Número total de lamelas** | ~200 (empilhadas) | ✅ Komai & Ushiki, 1991 |
-| **Diâmetro constante até** | 6 mm centrais (depois aumenta) | ✅ WAXS |
+
+![Figura 1.12a: Dimensões das Fibrilas de Colágeno — A microestrutura lamelar revelada pelo WAXS.](images/CH-001_Anatomia/Figura_Fibrilas_WAXS.png)
 
 #### Arquitetura Fibrilar por Zona — A Chave para Entender os Diâmetros dos Anéis
 
 | Zona | Diâmetro | Fibras Dominantes | Orientação | Relevância para ICRS |
 |------|----------|-------------------|-----------|---------------------|
-| **Central** | 0–3 mm | 🔴 Radiais ortogonais | N-T (0°) e S-I (90°), **66% em ±22.5°** dos eixos | Zona óptica — NÃO implante aqui. É o alvo do aplainamento (VR) |
-| **Paracentral** | 3–5 mm | 🔴→🔵 Transição | Ortogonal → isotrópico (fibras se espalham) | **Anel Ø5mm** — intercepta zona mista. VR forte, VT moderado |
+| **Central** | 0–3 mm | 🔴 Radiais ortogonais | N-T (0°) e S-I (90°), **66% em ±22.5°** dos eixos | Zona óptica — NÃO implante aqui. É o alvo do aplainamento (VR). Fibrilas mantêm diâmetro constante. |
+| **Paracentral** | 3–5 mm | 🔴→🔵 Transição | Ortogonal → isotrópico (fibras se espalham) | **Anel Ø5mm** — intercepta zona mista. VR forte, VT moderado. Fibrilas começam a se alterar. |
 | **Periférica** | 5–7 mm | 🔵 Circunferenciais emergem | Radiais começam a curvar-se para tangenciais | **Anel Ø6mm** — intercepta transição. VR + VT equilibrados |
 | **Pré-limbal** | 7–9 mm | 🔵🔵 Circunferenciais dominam | Fibras mudam de direção **1-1.5mm antes do limbo** | **Anel Ø7mm** — intercepta tangenciais. VT domina, VR menor |
 | **Limbo** | 9–12 mm | 🔵🔵🔵 Annulus Limbal | Circunferencial puro (posterior 30% do estroma) | Não se implanta aqui. Referência anatômica para incisão |
@@ -105,6 +108,8 @@ A córnea pode ser mapeada em zonas concêntricas. **Cada zona tem uma arquitetu
 | **Ø7mm** | Pré-limbal (3.5mm do centro) | Principalmente 🔵 tangenciais | **VT forte** | Redistribuição ampla, aplainamento suave. Ideal para cones ovais (sagging) com astigmatismo alto |
 
 > **🔬 Evidência Indireta Convergente:** A relação diâmetro→fibra→vetor é baseada em: (1) mapas WAXS de Meek & Boote 2004 mostrando transição ortogonal→circumferencial, (2) dados clínicos mostrando que anéis de diâmetro menor geram mais ΔK (aplainamento) e anéis maiores geram mais redistribuição, (3) princípio biomecânico de que o vetor gerado depende da orientação das fibras interceptadas.
+
+![Figura 1.12b: Relação entre Diâmetro do Anel e Zonas de Fibras — A interação biomecânica depende de qual zona da malha (ortogonal central vs. tangencial periférica) o implante intercepta.](images/CH-001_Anatomia/Figura_Diametro_Fibra_Vetor.png)
 
 #### Proporções do Estroma — Anterior vs Posterior
 
@@ -147,6 +152,8 @@ Diagrama em escala — Onde o anel fica:
 > **⚠️ Qualificação sobre Profundidade WAXS (importante para defesa científica):**
 >
 > Os mapas WAXS de Meek & Boote (2004) representam a **soma de toda a espessura corneana** — o raio X atravessa a córnea inteira. Porém, o padrão ortogonal N-T/S-I registrado é **dominado pela contribuição do estroma posterior** (70% da espessura, fibras mais organizadas). Winkler et al. (2013) confirmaram por SHG que o estroma posterior é mais fortemente ortogonal que o anterior. **Conclusão:** os mapas zonais (centro ortogonal → limbo circunferencial) são diretamente representativos da zona de interação do ICRS a 70-75%, já que a orientação preferencial vem primariamente do estroma posterior onde o anel é implantado.
+>
+> ![Figura 1.13b: Como o WAXS mapeia a Córnea — O feixe atravessa toda a córnea, mas o sinal de espalhamento é dominado pela organização rigorosa do estroma posterior (70% da espessura).](images/CH-001_Anatomia/Figura_WAXS_Mapa.png)
 
 ---
 
@@ -178,9 +185,9 @@ PTA = (Espessura do Flap + Profundidade de Ablação) / Espessura Corneana Centr
 
 #### A Coincidência Numérica — Por Que 40%?
 
-A pergunta fundamental que o PTA nunca respondeu: **por que exatamente 40%?**
+A pergunta fundamental: **por que exatamente 40%?** Marcony Santhiago respondeu a isso em seus estudos primários apontando que a força elástica (*tensile strength*) não é uniforme: o terço anterior é biomecanicamente muito mais forte do que os dois terços posteriores (baseado nos estudos de Randleman, 2008). 
 
-A resposta está na proporção das fibras oblíquas:
+Contudo, Santhiago descreveu o "o quê" (a força elástica), mas faltava o "porquê" microestrutural. A resistência à tração não surge do nada; ela é o produto físico de uma arquitetura invisível. A resposta estrutural exata está na **proporção e localização das fibras oblíquas interlamelares** mapeadas por Winkler et al.:
 
 | Dado Anatômico | Valor | Dado Clínico | Valor |
 |---------------|-------|-------------|-------|
@@ -211,6 +218,8 @@ A resposta está na proporção das fibras oblíquas:
    → A PIO atua sobre lamelas "soltas" (mesma situação do ceratocone)
    → Lamelas deslizam → ECTASIA
 ```
+
+![Figura 1.14: Cascata Patogênica do PTA — A explicação mecânica baseada na destruição das fibras oblíquas do estroma anterior. Quando o PTA ultrapassa ~40%, a rede de travamento ("feltro") é inteiramente contornada, deixando lamelas posteriores soltas.](images/CH-001_Anatomia/Figura_Cascata_PTA_Fibras.png)
 
 #### Comparação: LASIK Seguro vs LASIK Risco
 
@@ -273,6 +282,7 @@ Esta hipótese é experimentalmente testável:
 |-------------|--------|---------|
 | Medir oblíquas residuais em córneas pós-LASIK | SHG microscopia (Winkler) | Córneas com PTA ≥40% terão **zero** oblíquas residuais |
 | Resistência ao cisalhamento do RSB | Teste mecânico ex vivo | RSB de PTA ≥40% terá resistência ao cisalhamento **significativamente menor** |
+| Resposta de deformação biomecânica *in vivo* | Corvis ST e TBI/CBI (Ambrósio) | Córneas com PTA ≥40% demonstrarão resposta de deformação (CBI) equivalente a ceratocones subclínicos devido ao deslizamento lamelar |
 | CXL pós-LASIK | Histologia com SHG | CXL recria crosslinks artificiais **equivalentes funcional** às oblíquas perdidas |
 
 #### Referências (Seção PTA)

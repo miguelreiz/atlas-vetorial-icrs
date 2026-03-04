@@ -383,12 +383,14 @@ references:
       Parâmetros de seleção de anel por fenótipo. Base para a tabela
       de estratégia cirúrgica (zona, espessura, assimetria) por padrão.
 
-  - title: "Topographic and comatic axis discordance in asymmetric keratoconus (2021)"
-    doi: "A ser confirmado pelo autor"
+  - title: "Kammoun H, Piñero DP, Alió JL, Barraquer RI, García-González M — Clinical Outcomes of Femtosecond Laser–Assisted Implantation of Asymmetric ICRS in Keratoconus With No Coincidence of Topographic and Comatic Axes"
+    doi: "10.3928/1081597X-20210615-01"
+    journal: "J Refract Surg. 2021;37(10):693–699"
     relevance: >
       Demonstração de que no Duck Tipo 2 e Snowman Tipo 2 o eixo topográfico
       não coincide com o eixo comático — fundamentando a estratégia de
-      planejamento por aberrometria e não por K-max.
+      planejamento por aberrometria e não por K-max. Referência canonica para
+      a Lei da Discordância Topográfico-Comática (LDTC) do Atlas.
 
   - title: "Zernike Decomposition of Corneal Coma in Keratoconus"
     doi: "Invest Ophthalmol Vis Sci"
@@ -399,4 +401,4 @@ references:
 
 ---
 
-*Pipeline Status: DRAFT v0.2.0 — Conteúdo completo com 5 padrões, 2 subtipos por Duck e Snowman, 3 escalas de severidade. Aguardando: (1) prancha visual 5×3, (2) confirmação doi do artigo 2021.*
+*Pipeline Status: DRAFT v0.2.0 — Conteúdo completo com 5 padrões, 2 subtipos por Duck e Snowman, 3 escalas de severidade. doi Kammoun 2021 confirmado e integrado. Aguardando: prancha visual 5×3.*

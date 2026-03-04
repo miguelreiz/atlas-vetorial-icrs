@@ -68,7 +68,7 @@ Clinicamente, o VEsférico se traduz em:
 - **Quanto o cilindro mudou** (e em que eixo)
 - **Quanto o coma mudou** (e em que direção)
 
-![Figura 9.1: A Soma Vetorial — Os 4 vetores de correção (todos em 🔵 azul: VR, VT, Vτ, VComa) se combinam para gerar o VEsférico Resultante (🟢 verde = resultado final). Nota: nas figuras onde forças do cone (Fr, Ft, Fτ) aparecem, elas são sempre em 🔴 vermelho.](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\vector_summation_pt_1771790484069.png)
+![Figura 9.1: A Soma Vetorial — Os 4 vetores de correção (todos em 🔵 azul: VR, VT, Vτ, VComa) se combinam para gerar o VEsférico Resultante (🟢 verde = resultado final). Nota: nas figuras onde forças do cone (Fr, Ft, Fτ) aparecem, elas são sempre em 🔴 vermelho.](images/CH-009_VEsferico/Figura_Vector_Summation.png)
 
 ### Os Três Cenários de Soma Vetorial
 
@@ -102,7 +102,7 @@ Quando há erro grave:
 
 **Resultado:** O VEsférico pode ser **próximo de zero** (a cirurgia não fez efeito) ou até **negativo** (a córnea piorou).
 
-![Figura 8.2: Os 3 Cenários de Resultado Cirúrgico — Vetores alinhados = resultado ótimo. Vetores desalinhados = subótimo. Vetores em oposição = sem efeito](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\three_scenarios_pt_1771790501858.png)
+![Figura 9.2: Os 3 Cenários de Resultado Cirúrgico — Vetores alinhados = resultado ótimo. Vetores desalinhados = subótimo. Vetores em oposição = sem efeito](images/CH-009_VEsferico/Figura_Three_Scenarios.png)
 
 ### Aplicação Clínica: O Planejamento Reverso
 
@@ -176,9 +176,9 @@ anatomical_view: top_down (diagrama de soma vetorial)
 ```
 
 **Ilustrações:**
-1. **Figura 8.1 — A Analogia do Time de Futebol:** Cada jogador/vetor contribui para o resultado final (placar = VEsférico).
-2. **Figura 8.2 — Soma Vetorial Visual:** Diagrama com 4 setas (VR azul, VT vermelho, Vτ laranja, VComa roxo) se somando para formar a seta resultante verde.
-3. **Figura 8.3 — Os 3 Cenários:** Vetores alinhados (bom resultado) vs parcialmente cancelados (resultado subótimo) vs em oposição (resultado ruim).
+1. **Figura 9.1 — A Analogia do Time de Futebol:** Cada jogador/vetor contribui para o resultado final (placar = VEsférico).
+2. **Figura 9.2 — Soma Vetorial Visual:** Diagrama com 4 setas (VR azul, VT vermelho, Vτ laranja, VComa roxo) se somando para formar a seta resultante verde.
+3. **Figura 9.3 — Os 3 Cenários:** Vetores alinhados (bom resultado) vs parcialmente cancelados (resultado subótimo) vs em oposição (resultado ruim).
 
 ---
 
@@ -216,4 +216,59 @@ O VEsférico é a soma vetorial de todas as interações do anel com as 3 famíl
 > **💡 Síntese:** Um VEsférico "bom" significa que o anel interagiu **corretamente com todas as 3 famílias**: tensionou radiais (VR), criou tangenciais (VT), recriou gradiente de oblíquas (Vτ), e reposicionou o ápice (VComa). Um VEsférico "ruim" significa que uma ou mais interações falhou — geralmente porque o fenótipo foi mal classificado ou o anel mal posicionado.
 
 ---
-*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*
+
+### O Filtro Funcional: ICE (Index of Axial Coherence)
+
+O VEsférico responde: **"Qual é o efeito mecânico do anel?"** Mas existe uma pergunta que ele não responde: **"O paciente vai aproveitar esse efeito?"**
+
+É aqui que entra o **ICE (Index of Axial Coherence)** — um biomarcador funcional criado pelo autor que mede a **coerência angular** entre os eixos ópticos fundamentais:
+
+```
+ICE_min = |θ_topo - θ_coma|
+
+Onde:
+  θ_topo = eixo topográfico (meridiano mais curvo da córnea)
+  θ_coma = eixo da aberração comática (direção do cone óptico)
+
+Classificação:
+  ICE Alto  (< 15°)  → Eixos coerentes → alta capacidade de neuroadaptação
+  ICE Moderado (15-45°) → Coerência parcial → resultado variável
+  ICE Baixo (> 45°)  → Eixos discordantes → baixa neuroadaptação
+```
+
+#### Por Que o ICE Completa o VEsférico
+
+O VEsférico pode ser mecanicamente perfeito — o anel aplaina (VR), redistribui (VT), rotaciona (Vτ) e centraliza (VComa) — mas se os **eixos ópticos do paciente estão incoerentes**, o córtex visual não consegue interpretar a imagem melhorada. É como afinar perfeitamente um instrumento que ninguém sabe tocar.
+
+**Dados de validação (N=300 olhos, Reis 2026):**
+
+| ICE | N | BCVA Ganho (linhas) | Reintervenção | AUC |
+|---|---|---|---|---|
+| **Alto** | 118 | **4.2 ± 1.5** | 8.5% | — |
+| Moderado | 102 | 2.8 ± 1.8 | 17.6% | — |
+| **Baixo** | 80 | **1.6 ± 2.0** | 35.0% | — |
+| **ICE (geral)** | — | — | — | **0.82** |
+| Kmax (comparação) | — | — | — | 0.68 |
+
+> **O ICE tem AUC 0.82 vs Kmax 0.68** — ou seja, a coerência angular prediz o resultado visual 
+> melhor que a curvatura máxima. Isso prova numericamente o que o Atlas argumenta desde o Prefácio:
+> o Kmax sozinho é insuficiente.
+
+#### A Equação Completa
+
+```
+Resultado Cirúrgico = VEsférico × ICE
+
+Onde:
+  VEsférico = eficácia mecânica do anel (quão bem ele corrige)
+  ICE       = capacidade funcional do paciente (quão bem ele aproveita)
+
+→ VEsférico alto + ICE alto  = Resultado excelente (4.2 linhas)
+→ VEsférico alto + ICE baixo = Resultado frustrante (anel funciona, paciente não vê)
+→ VEsférico baixo + ICE alto = Resultado subótimo (paciente poderia ver, anel falhou)
+```
+
+> **💡 Síntese do Autor:** O VEsférico é a *mecânica*. O ICE é a *neurobiologia*. A cirurgia ideal precisa de ambos. Validação prospectiva em andamento (Reis, manuscrito submetido 2026).
+
+---
+*Pipeline Status: DRAFT v0.7.0 — Atualizado com integração ICE — Revisado pelo Engenheiro Vetorial*
