@@ -34,7 +34,7 @@ Baseado na morfologia descrita por **José F. Alfonso** e no **nomograma AJL Oph
 
 > **A premissa central:** A morfologia do Plácido *antecipa* o comportamento biomecânico. Aprender a ler os 5 padrões é aprender a prever o vetor antes de tocar no planilha do nomograma.
 
-![Figura P2.0 — Atlas dos 5 Padrões de Deformação do Plácido: P1 Circular, P2 Oval, P3 Duck, P4 Snowman, P5 Complexo — cada um com seu vetor dominante e estratégia cirúrgica](images/P1-02_Padroes/Figura_Atlas_5_Padroes.png)
+![Figura P2.0 — Atlas dos 5 Padrões de Deformação do Plácido: P1 Circular, P2 Oval, P3 Duck, P4 Snowman, P5 Complexo — cada um com seu vetor dominante e estratégia cirúrgica](../../images/P1-02_Padroes/Figura_Atlas_5_Padroes.png)
 
 ---
 

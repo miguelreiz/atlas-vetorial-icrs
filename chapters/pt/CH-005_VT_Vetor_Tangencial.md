@@ -64,7 +64,7 @@ Uma analogia clássica para esse fenômeno foi descrita pelo Dr. Frederico Bical
 
 1. **Figura 5.1 — O Mecanismo de Acoplamento na Malha de Colágeno:** Visão superior e transversal mostrando o efeito direto geométrico. Ao inserir o anel e tracionar agressivamente o eixo longitudinal, a malha de colágeno perde tensão no eixo cruzado, provocando dobramento/encurvamento (steepening) a 90° graus.
 
-![Figura 5.1: O Efeito de Acoplamento Biomecânico — O anel estica a malha de colágeno no seu eixo (Aplainamento Direto). Essa tração "rouba" tensão das fibras cruzadas a 90°, que afrouxam e encurvam (Elevação/Acoplamento Ortogonal) puramente por relaxamento da rede estrutural.](images/CH-005_VT/Figura_Coupling_Collagen.png)
+![Figura 5.1: O Efeito de Acoplamento Biomecânico — O anel estica a malha de colágeno no seu eixo (Aplainamento Direto). Essa tração "rouba" tensão das fibras cruzadas a 90°, que afrouxam e encurvam (Elevação/Acoplamento Ortogonal) puramente por relaxamento da rede estrutural.](../../images/CH-005_VT/Figura_Coupling_Collagen.png)
 
 Portanto, o Vetor Tangencial não apenas estica o tecido na direção do anel, ele obriga o eixo do astigmatismo da córnea a se deslocar. Ele age para "forçar" o meridiano mais curvo (eixo do astigmatismo miópico) a se alinhar aos 90° de onde os anéis estão posicionados. 
 
@@ -92,7 +92,7 @@ Diferente do Vetor Radial (onde segmentos mais finos com diâmetros menores têm
 
 1. **Figura 5.2 — Dinâmica da Tração Tangencial no Estroma:** Visão top-down (superior) das lamelas de colágeno sendo puxadas pelas extremidades do anel. Demonstra como o VT é gerado quase que inteiramente pelas pontas do segmento esticando o tecido longitudinalmente, enquanto o meio atua como ancoragem passiva.
 
-![Figura 5.2: Dinâmica da Tração Tangencial — As pontas do anel atuam como âncoras focais, tracionando violentamente as lamelas de colágeno ao longo do seu eixo, redistribuindo a tensão do meridiano](images/CH-005_VT/Figura_Tangential_Traction.png)
+![Figura 5.2: Dinâmica da Tração Tangencial — As pontas do anel atuam como âncoras focais, tracionando violentamente as lamelas de colágeno ao longo do seu eixo, redistribuindo a tensão do meridiano](../../images/CH-005_VT/Figura_Tangential_Traction.png)
 
 - **Arcos Curtos (90° - 120°):** Geram um Vetor Tangencial altamente focado e intenso nas suas extremidades. Excelentes para girar agressivamente eixos localizados ou quebrar assimetrias periféricas intensas (ex: nódulos de ceratocone periférico extremo). Agem quase como "cunhas limitantes" de astigmatismo focal.
 - **Arcos Longos (160° - 340°):** O Vetor Tangencial se difunde ao longo de um amplo arco estromal. Eles produzem um efeito de regularização em massa — o chamado "efeito cinta" ou "ring effect". Um anel de 340° tem o Vetor Tangencial dominando esmagadoramente o resultado, englobando a córnea e forçando a centralização maciça do cone.
@@ -111,7 +111,7 @@ Ao colocar a incisão exatamente no eixo curvo:
 3. Os anéis geram volume sob as lamelas mais deformadas do eixo curvo. 
 4. O Vetor Radial aplaina massivamente esse eixo específico, enquanto o Vetor Tangencial se dissipa pelas laterais (meridiano plano) forçando (pelo Efeito de Acoplamento) o meridiano frouxo/plano a encurvar as lamelas a 90°.
 
-![Figura 5.3: A Regra da Incisão (Lógica Geométrica) — Atacar diretamente os polos de tensão de uma elipse (anel ovalado) usando cunhas forçará a estrutura frouxa a se arredondar (círculo perfeito)](images/CH-005_VT/Figura_Incision_Axis.png)
+![Figura 5.3: A Regra da Incisão (Lógica Geométrica) — Atacar diretamente os polos de tensão de uma elipse (anel ovalado) usando cunhas forçará a estrutura frouxa a se arredondar (círculo perfeito)](../../images/CH-005_VT/Figura_Incision_Axis.png)
 
 O resultado é a aproximação das curvaturas K1 (meridiano plano) e K2 (meridiano curvo) → Redução do astigmatismo (Diferença Vetorial).
 
@@ -178,7 +178,7 @@ Se o cirurgião posiciona a incisão fora do K-steep:
 
 > **Pérola Micro:** O VT não cria tensão nova. Ele **redistribui** a tensão existente entre meridianos. Se a redistribuição é correta (incisão no K-steep), o astigmatismo diminui. Se é incorreta, o astigmatismo muda de eixo e pode até aumentar.
 
-![Figura 5.3: Efeito de Acoplamento nas Fibras — Tensão transferida do K-steep para o K-flat a 90°. Antes: astigmatismo 6D. Depois: 1D redistribuído](images/CH-005_VT/Figura_Efeito_Acoplamento.png)
+![Figura 5.3: Efeito de Acoplamento nas Fibras — Tensão transferida do K-steep para o K-flat a 90°. Antes: astigmatismo 6D. Depois: 1D redistribuído](../../images/CH-005_VT/Figura_Efeito_Acoplamento.png)
 
 ---
 

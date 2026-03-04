@@ -130,9 +130,9 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 | Coma piorado | Vτ invertido | Ponta grossa no lado errado | Inverter orientação |
 | Haze | Estresse mecânico local | Tenting alto | Observar ou corticóide |
 
-![Figura 12.1: As 6 Complicações dos Anéis Classificadas por Vetor — cada complicação está ligada ao vetor biomecânico responsável e sua solução](images/CH-013_Complicacoes/Figura_12.1_Complicacoes_Por_Vetor.png)
+![Figura 12.1: As 6 Complicações dos Anéis Classificadas por Vetor — cada complicação está ligada ao vetor biomecânico responsável e sua solução](../../images/CH-013_Complicacoes/Figura_12.1_Complicacoes_Por_Vetor.png)
 
-![Figura 12.2: Complicações na Linguagem Vetorial — Painel 2×2 mostrando hipocorreção (VR insuficiente), hipercorreção (VR excessivo), extrusão (tenting excessivo), e coma piorado (Vτ invertido) em corte transversal de fibras](images/CH-013_Complicacoes/Figura_12.2_Complicacoes_Vetores_Fibras.png)
+![Figura 12.2: Complicações na Linguagem Vetorial — Painel 2×2 mostrando hipocorreção (VR insuficiente), hipercorreção (VR excessivo), extrusão (tenting excessivo), e coma piorado (Vτ invertido) em corte transversal de fibras](../../images/CH-013_Complicacoes/Figura_12.2_Complicacoes_Vetores_Fibras.png)
 
 ### Pérolas de Complicações
 

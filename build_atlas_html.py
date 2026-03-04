@@ -6,8 +6,8 @@ embeds images as base64, outputs a single styled HTML file.
 import os, re, base64, glob
 from pathlib import Path
 
-CHAPTERS_DIR = r"C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\chapters\pt"
-PROJECT_ROOT = r"C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel"
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+CHAPTERS_DIR = os.path.join(PROJECT_ROOT, "chapters", "pt")
 OUTPUT_FILE = os.path.join(PROJECT_ROOT, "Atlas_Vetorial_ICRS_Completo.html")
 
 CHAPTER_ORDER = [

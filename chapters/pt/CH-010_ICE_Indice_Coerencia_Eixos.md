@@ -124,7 +124,7 @@ Se cada farol aponta para um lado diferente → a imagem é confusa → **ICE Ba
 
 O cirurgião pode afinar qualquer farol individual (ICRS corrige o topográfico, lente corrige o refrativo). Mas se os farois estão fundamentalmente desalinhados, nenhuma cirurgia isolada resolve a **confusão neural**.
 
-![Figura 10.1: A Analogia dos Faróis — ICE Tipo 1 (Coerente): 3 eixos apontam na mesma direção → imagem nítida, 4.2 linhas de ganho. ICE Tipo 2 (Discordante): eixos divergentes → confusão neural, 1.6 linhas, 35% reintervencão.](images/CH-010_ICE/Figura_10.1_ICE_Analogia_Farois.png)
+![Figura 10.1: A Analogia dos Faróis — ICE Tipo 1 (Coerente): 3 eixos apontam na mesma direção → imagem nítida, 4.2 linhas de ganho. ICE Tipo 2 (Discordante): eixos divergentes → confusão neural, 1.6 linhas, 35% reintervencão.](../../images/CH-010_ICE/Figura_10.1_ICE_Analogia_Farois.png)
 
 ---
 
@@ -193,7 +193,7 @@ O ICE foi validado retrospectivamente em **300 olhos** com ceratocone submetidos
 
 > **Achado-chave:** O ICE é **preditor independente** — Kmax, paquimetria e idade **não** atingem significância quando o ICE está no modelo. Isso significa que o ICE **captura informação que as métricas estruturais não contêm**: a capacidade do sistema visual em interpretar a correção mecânica.
 
-![Figura 10.2: Curvas ROC Comparativas — ICE-min (AUC 0.82, ouro) supera Kmax (AUC 0.68, azul) e Paquimetria (AUC 0.64, cinza) na predição de ≥3 linhas de ganho BCVA. DeLong p=0.012. N=300, ceratocone + ICRS.](images/CH-010_ICE/Figura_10.2_ICE_ROC_AUC.png)
+![Figura 10.2: Curvas ROC Comparativas — ICE-min (AUC 0.82, ouro) supera Kmax (AUC 0.68, azul) e Paquimetria (AUC 0.64, cinza) na predição de ≥3 linhas de ganho BCVA. DeLong p=0.012. N=300, ceratocone + ICRS.](../../images/CH-010_ICE/Figura_10.2_ICE_ROC_AUC.png)
 
 ---
 
@@ -217,7 +217,7 @@ Cenários:
 
 > **💡 Síntese do Autor:** O VEsférico é a *mecânica*. O ICE é a *neurobiologia*. A cirurgia ideal precisa de ambos. O Atlas sem o ICE ensinaria a construir o melhor avião — mas sem checar se a pista de pouso existe.
 
-![Figura 10.3: A Equação Completa — Matriz 2×2: VEsférico × ICE. Quadrante Excelente (alto/alto): 4.2 linhas, 8.5% reintervenção. Frustrante (alto/baixo): mecânica ok mas sem melhora visual. Subótimo (baixo/alto): paciente poderia melhorar. Fracasso (baixo/baixo): replanejar.](images/CH-010_ICE/Figura_10.3_VEsferico_ICE_2x2.png)
+![Figura 10.3: A Equação Completa — Matriz 2×2: VEsférico × ICE. Quadrante Excelente (alto/alto): 4.2 linhas, 8.5% reintervenção. Frustrante (alto/baixo): mecânica ok mas sem melhora visual. Subótimo (baixo/alto): paciente poderia melhorar. Fracasso (baixo/baixo): replanejar.](../../images/CH-010_ICE/Figura_10.3_VEsferico_ICE_2x2.png)
 
 ---
 

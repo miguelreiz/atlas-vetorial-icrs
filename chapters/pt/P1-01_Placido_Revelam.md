@@ -46,7 +46,7 @@ Mas olhe mais fundo. Pense na **cadeia de eventos** que antecede o anel de luz r
 
 **A mancha vermelha no Plácido não diz "aqui a córnea é curva". Ela grita: "AQUI A MALHA DE COLÁGENO SE DESPEDAÇOU".**
 
-![Figura P1.1 — A Cadeia Causal: PIO → Malha de Colágeno → Falência → Plácido. Cada anel comprimido = uma fibra que cedeu](images/P1-01_Framework/Figura_Cadeia_Causal.png)
+![Figura P1.1 — A Cadeia Causal: PIO → Malha de Colágeno → Falência → Plácido. Cada anel comprimido = uma fibra que cedeu](../../images/P1-01_Framework/Figura_Cadeia_Causal.png)
 
 ---
 
@@ -79,7 +79,7 @@ Um vetor não é uma flecha colorida desenhada abstratamente por cima do papel d
 *   Quando a malha inferior escorregou em relação à malha superior, o ápice desabou (Cone Oval). Ao analisar a assimetria das fibras, você percebe um momento rotacional de perda de esqueleto estrutural. **Você enxerga isso na distorção do Plácido inferior.** As fibras precisam ser içadas, tracionadas de volta para o norte: **O Vetor de Torque (Vτ)**.
 *   Quando a malha se desencontrou criando tensões oblíquas não simétricas, deslocando a qualidade ótica para formar a terrível aberração de coma. **Você enxerga isso na divergência de anéis comprimidos**. As lamelas precisam ser rotacionadas e reconectadas opticamente ao eixo visual pupilar: **O Vetor de Coma (VComa)**.
 
-![Figura P1.2 — O Nascimento dos Vetores: 3 tipos de dano lamelar geram 3 vetores diferentes (VR, Vτ, VT)](images/P1-01_Framework/Figura_Nascimento_Vetores.png)
+![Figura P1.2 — O Nascimento dos Vetores: 3 tipos de dano lamelar geram 3 vetores diferentes (VR, Vτ, VT)](../../images/P1-01_Framework/Figura_Nascimento_Vetores.png)
 
 ### E o Anel?
 

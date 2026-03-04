@@ -107,7 +107,7 @@ VR | VT | Vτ | VEsférico — EM DIOPTRIAS — ANTES DE OPERAR
 
 **Impacto vetorial:** Eliminação do erro de prescrição por variabilidade individual. O nomograma diz "para K-max 52D, use 250µm." O FEM diz "para *esta* córnea de 52D com rigidez anterior 12 kPa e 48% de fibras oblíquas residuais, use 220µm a 73% de profundidade."
 
-![Figura 13.1: O Futuro — FEM Personalizado — Workflow: topografia + tomografia + Brillouin → modelo HGO anisotrópico → simulação pré-operatória com VEsférico previsto](images/CH-014_Futuro/Figura_13.1_FEM_Personalizado_Pipeline.png)
+![Figura 13.1: O Futuro — FEM Personalizado — Workflow: topografia + tomografia + Brillouin → modelo HGO anisotrópico → simulação pré-operatória com VEsférico previsto](../../images/CH-014_Futuro/Figura_13.1_FEM_Personalizado_Pipeline.png)
 
 ### 2. Anéis com Geometria Personalizada (Custom Rings)
 
@@ -237,7 +237,7 @@ O limbo contém um **annulus de fibras circunferenciais** (🔵) a 360° que man
 | **355°** | **99%** | 🔺 **Keraring triangular** | Quase-annulus completo! |
 | **360°** | **100%** | ⭕ **MyoRing** (pocket) | Annulus perfeito |
 
-![Figura 13.2: Do Annulus Natural ao Artificial — comparação do annulus limbal 360° com ICRS de arcos progressivos (90°, 210°, 340°), mostrando o gradiente de contenção circunferencial.](images/CH-014_Futuro/Figura_13.2_Annulus_Natural_vs_Artificial.png)
+![Figura 13.2: Do Annulus Natural ao Artificial — comparação do annulus limbal 360° com ICRS de arcos progressivos (90°, 210°, 340°), mostrando o gradiente de contenção circunferencial.](../../images/CH-014_Futuro/Figura_13.2_Annulus_Natural_vs_Artificial.png)
 
 #### ICRS × CXL — Tala Mecânica + Cura Bioquímica
 
@@ -292,7 +292,7 @@ A análise do banco de dados *ICRS Clinical Evidence* por faixa de paquimetria r
 
 > **O Paradoxo da Córnea Fina:** As córneas mais finas tiveram o **melhor resultado médio**, a **maior taxa de melhora** (80%) e **zero casos de piora visual**. O caso mais extremo — paciente E36, CPT de **329μm**, Kmax 83.5D — ganhou 4 linhas de visão. O paciente C06 (397μm, Kmax 71.5D) ganhou **11 linhas**.
 
-![Análise ICE: Resultado Visual por Faixa de Paquimetria e Dispersão CPT vs CDVA colorida por Kmax — observe que à esquerda da linha vermelha (400μm), todos os pontos estão abaixo de zero (ganho de visão).](images/CH-014_Futuro/Figura_13.3_ICE_Paquimetria_CDVA.png)
+![Análise ICE: Resultado Visual por Faixa de Paquimetria e Dispersão CPT vs CDVA colorida por Kmax — observe que à esquerda da linha vermelha (400μm), todos os pontos estão abaixo de zero (ganho de visão).](../../images/CH-014_Futuro/Figura_13.3_ICE_Paquimetria_CDVA.png)
 
 #### Explicação Biomecânica: A Hipótese da Zona de Implantação Residual
 

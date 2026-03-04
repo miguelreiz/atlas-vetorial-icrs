@@ -93,7 +93,7 @@ ANTES (ceratocone):                COM ANEL:
 - 🔵 **Azul no centro** = K caiu = cone foi corrigido
 - 🔴 **Vermelho residual** = área ainda saliente acima da nova referência = correção incompleta
 
-![Figura 2.0: Elevação vs Curvatura no Pentacam — Paradoxo Resolvido. Antes: cone vermelho (elevação positiva). Depois: anel e centro azuis no mapa de elevação (esfera best-fit expandida). O azul no anel NÃO significa ausência de tenting físico — significa que a esfera de referência expandiu com o aplainamento central.](images/CH-002_Biomecanica/Figura_2.0_Elevacao_vs_Curvatura.png)
+![Figura 2.0: Elevação vs Curvatura no Pentacam — Paradoxo Resolvido. Antes: cone vermelho (elevação positiva). Depois: anel e centro azuis no mapa de elevação (esfera best-fit expandida). O azul no anel NÃO significa ausência de tenting físico — significa que a esfera de referência expandiu com o aplainamento central.](../../images/CH-002_Biomecanica/Figura_2.0_Elevacao_vs_Curvatura.png)
 
 **Na tomografia (Pentacam) — o que procurar:**
 - **Mapa de elevação anterior:** zona do anel azul/verde (sucesso), zona central menos vermelha (aplainamento)
@@ -287,13 +287,13 @@ O modelo de Elementos Finitos (FEM) 2D corneano simula a córnea como um materia
 
 ---
 
-![Figura 2.1: O Efeito de Tenda e o Aplainamento Central — O anel PMMA traciona as fibras radiais por encurtamento de arco, gerando elevação focal local e aplainamento central (ΔK). O mecanismo é tração centrifúga das radiais, não conservação de volume](images/CH-002_Biomecanica/Figura_2.1_Principios_Biomecanicos_v4.png)
+![Figura 2.1: O Efeito de Tenda e o Aplainamento Central — O anel PMMA traciona as fibras radiais por encurtamento de arco, gerando elevação focal local e aplainamento central (ΔK). O mecanismo é tração centrifúga das radiais, não conservação de volume](../../images/CH-002_Biomecanica/Figura_2.1_Principios_Biomecanicos_v4.png)
 
 
 
 > **Pérola Fundamental:** A espessura decide "quanto." O arco decide "como distribui." A assimetria decide "para onde empurra." O eixo decide "onde tudo acontece."
 
-![Figura 2.3: A Cascata Causal do ICRS — Tenting (separação lamelar microscópica) → Arc-Shortening (fibras radiais tensionadas, encurtamento de arco) → Lei de Barraquer (ΔK central, aplainamento óptico). Um único fenômeno em 3 escalas.](images/CH-002_Biomecanica/Figura_2.3_Cascata_Causal_v1.png)
+![Figura 2.3: A Cascata Causal do ICRS — Tenting (separação lamelar microscópica) → Arc-Shortening (fibras radiais tensionadas, encurtamento de arco) → Lei de Barraquer (ΔK central, aplainamento óptico). Um único fenômeno em 3 escalas.](../../images/CH-002_Biomecanica/Figura_2.3_Cascata_Causal_v1.png)
 
 
 ### Como a Cascata Causal Gera os 5 Vetores
@@ -368,17 +368,17 @@ O ceratocone gera **forças** que deformam a córnea. O anel gera **vetores** qu
 
 **1. Lei de Barraquer (escala macroscópica — resultado óptico):** O PMMA **afasta fisicamente** as lamelas na zona de implantação. As lamelas que passam por cima e por baixo percorrem um caminho mais longo, **tracionando as fibras radiais centrais** adjacentes e reorganizando a malha central frouxa.
 
-![Figura 2.6: Lei de Barraquer na Escala das Fibras — Antes (ceratocone: periferia tensa, centro frouxo, K alto) vs Depois (ICRS: periferia separada pelo PMMA, centro tracionado pelas perifericas, K reduzido)](images/CH-002_Biomecanica/Figura_2.6_Barraquer_Fibras.png)
+![Figura 2.6: Lei de Barraquer na Escala das Fibras — Antes (ceratocone: periferia tensa, centro frouxo, K alto) vs Depois (ICRS: periferia separada pelo PMMA, centro tracionado pelas perifericas, K reduzido)](../../images/CH-002_Biomecanica/Figura_2.6_Barraquer_Fibras.png)
 
 **2. Arc-Shortening + Efeito de Poisson (escala fibrilar — mecanismo):** As 🔴 **fibras radiais** são forçadas a contornar o implante → comprimento funcional encurta → tensão periférica aumenta → **VR** (aplainamento). No meridiano perpendicular, o Efeito de Poisson redistribui: tecido tracionado no Meridiano A gera cecência no Meridiano B → **Efeito de Acoplamento** (VT).
 
 > ⚠️ **Nota bibliográfica:** O "Efeito de Poisson" não é a terminologia clínica usual na literatura de ICRS (onde se usa "efeito de acoplamento" ou *coupling*). É a **explicação mecanística** usada nos modelos de Elementos Finitos (FEM) da córnea (Lago et al., Elsheikh et al.), onde a córnea é modelada com coeficiente de Poisson ν ≈ 0.42–0.49 (quase incompressível). O fenômeno é real; o nome é FEM/biofísica, não nomenclatura clínica padronizada.
 
-![Figura 2.7: Arc-Shortening e Efeito de Poisson — Vista superior das fibras radiais desviando pelo PMMA (arc-shortening → VR aplainamento) e efeito no meridiano perpendicular (Poisson → acoplamento → VT)](images/CH-002_Biomecanica/Figura_2.7_ArcShortening_Poisson.png)
+![Figura 2.7: Arc-Shortening e Efeito de Poisson — Vista superior das fibras radiais desviando pelo PMMA (arc-shortening → VR aplainamento) e efeito no meridiano perpendicular (Poisson → acoplamento → VT)](../../images/CH-002_Biomecanica/Figura_2.7_ArcShortening_Poisson.png)
 
 **3. Tenting (escala microscópica — origem física):** O PMMA separa fisicamente as lamelas, gerando elevação focal. O gradiente de separação determina qual vetor domina: **tenting simétrico** → VR puro; **tenting assimétrico** (anel progressivo) → gradiente interlamelar → torque rotacional → **Vτ** → reposicionamento → **VComa**.
 
-![Figura 2.8: Tenting nas Fibras — Simétrico vs. Assimétrico. Esquerda: segmentos de igual espessura → separação lamelar uniforme → VR puro. Direita: anel progressivo → gradiente de separação → Vτ (torque rotacional)](images/CH-002_Biomecanica/Figura_2.8_Tenting_Fibras.png)
+![Figura 2.8: Tenting nas Fibras — Simétrico vs. Assimétrico. Esquerda: segmentos de igual espessura → separação lamelar uniforme → VR puro. Direita: anel progressivo → gradiente de separação → Vτ (torque rotacional)](../../images/CH-002_Biomecanica/Figura_2.8_Tenting_Fibras.png)
 
 
 ---

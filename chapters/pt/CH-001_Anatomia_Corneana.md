@@ -85,7 +85,7 @@ A córnea pode ser mapeada em zonas concêntricas. **Cada zona tem uma arquitetu
 | **Largura de cada lamela** | 0.5–2.5 mm (variável) | ✅ Winkler et al., 2013 |
 | **Número total de lamelas** | ~200 (empilhadas) | ✅ Komai & Ushiki, 1991 |
 
-![Figura 1.12a: Dimensões das Fibrilas de Colágeno — A microestrutura lamelar revelada pelo WAXS.](images/CH-001_Anatomia/Figura_Fibrilas_WAXS.png)
+![Figura 1.12a: Dimensões das Fibrilas de Colágeno — A microestrutura lamelar revelada pelo WAXS.](../../images/CH-001_Anatomia/Figura_Fibrilas_WAXS.png)
 
 #### Arquitetura Fibrilar por Zona — A Chave para Entender os Diâmetros dos Anéis
 
@@ -109,7 +109,7 @@ A córnea pode ser mapeada em zonas concêntricas. **Cada zona tem uma arquitetu
 
 > **🔬 Evidência Indireta Convergente:** A relação diâmetro→fibra→vetor é baseada em: (1) mapas WAXS de Meek & Boote 2004 mostrando transição ortogonal→circumferencial, (2) dados clínicos mostrando que anéis de diâmetro menor geram mais ΔK (aplainamento) e anéis maiores geram mais redistribuição, (3) princípio biomecânico de que o vetor gerado depende da orientação das fibras interceptadas.
 
-![Figura 1.12b: Relação entre Diâmetro do Anel e Zonas de Fibras — A interação biomecânica depende de qual zona da malha (ortogonal central vs. tangencial periférica) o implante intercepta.](images/CH-001_Anatomia/Figura_Diametro_Fibra_Vetor.png)
+![Figura 1.12b: Relação entre Diâmetro do Anel e Zonas de Fibras — A interação biomecânica depende de qual zona da malha (ortogonal central vs. tangencial periférica) o implante intercepta.](../../images/CH-001_Anatomia/Figura_Diametro_Fibra_Vetor.png)
 
 #### Proporções do Estroma — Anterior vs Posterior
 
@@ -153,7 +153,7 @@ Diagrama em escala — Onde o anel fica:
 >
 > Os mapas WAXS de Meek & Boote (2004) representam a **soma de toda a espessura corneana** — o raio X atravessa a córnea inteira. Porém, o padrão ortogonal N-T/S-I registrado é **dominado pela contribuição do estroma posterior** (70% da espessura, fibras mais organizadas). Winkler et al. (2013) confirmaram por SHG que o estroma posterior é mais fortemente ortogonal que o anterior. **Conclusão:** os mapas zonais (centro ortogonal → limbo circunferencial) são diretamente representativos da zona de interação do ICRS a 70-75%, já que a orientação preferencial vem primariamente do estroma posterior onde o anel é implantado.
 >
-> ![Figura 1.13b: Como o WAXS mapeia a Córnea — O feixe atravessa toda a córnea, mas o sinal de espalhamento é dominado pela organização rigorosa do estroma posterior (70% da espessura).](images/CH-001_Anatomia/Figura_WAXS_Mapa.png)
+> ![Figura 1.13b: Como o WAXS mapeia a Córnea — O feixe atravessa toda a córnea, mas o sinal de espalhamento é dominado pela organização rigorosa do estroma posterior (70% da espessura).](../../images/CH-001_Anatomia/Figura_WAXS_Mapa.png)
 
 ---
 
@@ -219,7 +219,7 @@ Contudo, Santhiago descreveu o "o quê" (a força elástica), mas faltava o "por
    → Lamelas deslizam → ECTASIA
 ```
 
-![Figura 1.14: Cascata Patogênica do PTA — A explicação mecânica baseada na destruição das fibras oblíquas do estroma anterior. Quando o PTA ultrapassa ~40%, a rede de travamento ("feltro") é inteiramente contornada, deixando lamelas posteriores soltas.](images/CH-001_Anatomia/Figura_Cascata_PTA_Fibras.png)
+![Figura 1.14: Cascata Patogênica do PTA — A explicação mecânica baseada na destruição das fibras oblíquas do estroma anterior. Quando o PTA ultrapassa ~40%, a rede de travamento ("feltro") é inteiramente contornada, deixando lamelas posteriores soltas.](../../images/CH-001_Anatomia/Figura_Cascata_PTA_Fibras.png)
 
 #### Comparação: LASIK Seguro vs LASIK Risco
 
@@ -273,6 +273,69 @@ Contudo, Santhiago descreveu o "o quê" (a força elástica), mas faltava o "por
 > **💡 Síntese do Autor:** Ceratocone e ectasia pós-LASIK são **o mesmo mecanismo fibrilar** (perda de travamento oblíquo → deslizamento lamelar) por causas diferentes (enzimática vs. iatrogênica). O PTA ≥40% quantifica o limiar onde o dano iatrogênico é equivalente ao dano enzimático do ceratocone.
 >
 > **Nível de evidência:** Cada componente individual é ✅ fato publicado: PTA (Santhiago 2014), proporção estromal (Winkler 2013), resistência tensil (Randleman 2008), mecanismo de deslizamento (Radner 1998). **A ponte entre eles é 💡 síntese original do autor.**
+
+---
+
+#### 💡 BOX DE DISCUSSÃO: O PTA é Igual em PRK e LASIK? — Uma Provocação Fibrilar
+
+> **⚠️ NOTA IMPORTANTE:** Os estudos originais de Santhiago (2014) definiram e validaram o PTA exclusivamente para **LASIK**. O PTA não foi formalmente estudado em PRK nos artigos originais. A discussão a seguir é uma **extensão hipotética proposta pelo autor**, aplicando a lógica fibrilar à diferença mecânica entre os dois procedimentos.
+
+##### A Fórmula é a Mesma — O Efeito Não
+
+```
+PTA_LASIK = (Espessura do Flap + Ablação) / CCT
+PTA_PRK   = (0 + Ablação) / CCT        ← SEM FLAP
+```
+
+Numericamente, um PTA de 30% em PRK parece "menos" que um PTA de 40% em LASIK. Mas a questão fibrilar é mais profunda: **o que cada procedimento faz com as oblíquas 🟢?**
+
+##### O Duplo Insulto do LASIK vs. O Insulto Simples do PRK
+
+| Mecanismo | LASIK | PRK |
+|-----------|-------|-----|
+| **Corte horizontal das oblíquas** | ✅ O flap (~120-160 µm) cria um **plano de cisalhamento horizontal** que secciona TODAS as oblíquas naquela profundidade | ❌ **NÃO há corte horizontal** |
+| **Remoção de oblíquas** | ✅ A ablação remove tecido do leito (pós-flap) | ✅ A ablação remove tecido superficial (inclui oblíquas) |
+| **Tipo de dano** | **Secção + Remoção** (duplo insulto) | **Apenas Remoção** (insulto simples) |
+| **Oblíquas restantes** | As oblíquas **acima do flap** ficam desconectadas do estroma abaixo — o flap NUNCA regenera oblíquas (✅ Dawson et al., 2008) | As oblíquas restantes mantêm **continuidade vertical intacta** — não há plano de cisalhamento |
+| **Integridade da rede "feltro"** | ❌ **Fendida** — o feltro é cortado em dois "tapetes" que não se reconectam | ⚠️ **Afinada** — o feltro fica mais fino, mas as conexões verticais que restam continuam funcionais |
+
+##### 💡 Hipótese do Autor: O PTA Efetivo é Diferente
+
+Na perspectiva fibrilar, o mesmo número de PTA gera danos diferentes:
+
+```
+PTA 35% em LASIK (flap 120 + abl 72 / CCT 550):
+  → Flap secciona TODAS as oblíquas até 120 µm
+  → Ablação remove mais 72 µm
+  → Total: 192 µm de dano → CORTE HORIZONTAL criado
+  → "Feltro" FENDIDO em dois planos desconectados
+
+PTA 35% em PRK (ablação 193 / CCT 550):
+  → Ablação remove 193 µm de superfície
+  → Remove oblíquas progressivamente (de cima para baixo)
+  → NÃO há plano de cisalhamento horizontal
+  → "Feltro" AFINADO mas INTEIRO — oblíquas residuais mantêm conexão
+```
+
+> **💡 Conclusão do Autor:** Um PTA de 35% em LASIK é biomecanicamente **mais destrutivo** do que um PTA de 35% em PRK, porque o flap cria um plano de cisalhamento interlamelar que a ablação de superfície do PRK nunca cria. **O PTA numérico é o mesmo, mas o dano fibrilar é qualitativamente diferente.**
+
+##### Evidência Indireta que Suporta Esta Hipótese
+
+1. **Ectasia pós-PRK é muitíssimo mais rara** do que pós-LASIK, mesmo com ablações profundas (✅ fato clínico amplamente reconhecido)
+2. **A cicatrização epitelial do PRK preserva** a continuidade da Bowman/estroma anterior de forma que o LASIK não preserva (✅ Netto MV et al., 2006)
+3. **O flap de LASIK nunca recupera** a resistência tensil original — as oblíquas cortadas não se regeneram (✅ Dawson DG et al., 2008; Schmack I et al., 2005)
+
+##### A Provocação para Futuros Estudos
+
+| Predição | Método | Resultado Esperado |
+|----------|--------|--------------------|
+| O limiar PTA de ectasia no PRK deveria ser **significativamente maior** do que 40% | Estudo retrospectivo multicêntrico PRK (modelo Santhiago aplicado ao PRK) | PTA_ectasia_PRK ≈ 50-55% (hipótese) vs PTA_ectasia_LASIK ≈ 40% |
+| Córneas pós-PRK com PTA 40% terão **mais oblíquas residuais** do que pós-LASIK com mesmo PTA | SHG microscopia confocal (Winkler) | PRK: oblíquas residuais presentes; LASIK: zero oblíquas na zona do flap |
+| Corvis ST mostrará resposta biomecânica **menos alterada** em PRK do que em LASIK para o mesmo PTA | Análise de deformação (Ambrósio) | Deformação amplitude menor no PRK para PTA equivalente |
+
+> **O Valor Editorial Desta Discussão:** Santhiago formalizou o PTA como preditor para LASIK. A extensão para PRK — com a predição de que o limiar deveria ser mais alto — é a consequência lógica da Hipótese da Ponte Fibrilar. Se confirmada em estudos futuros, esta predição redefine o PTA de um número arbitrário para um **índice ponderado pelo tipo de dano fibrilar**, onde o peso do flap é maior do que o peso da ablação de superfície.
+
+---
 
 #### Predição Verificável
 
@@ -336,7 +399,7 @@ No ceratocone, a anatomia corneana se altera de formas específicas que afetam d
 
 > *Esta é a seção mais importante deste capítulo e talvez de todo o Atlas. Tudo que você aprenderá nas próximas 200 páginas — vetores, Plácido, nomogramas — nasce aqui, nas fibras de colágeno.*
 
-![Figura 1.3: O Framework Multi-Escala — O mesmo cone visto em 3 níveis de magnificação: Plácido (macro), Corte transversal (meso), Fibras de colágeno (micro)](images/P1-01_Framework/Figura_Framework_MultiEscala.png)
+![Figura 1.3: O Framework Multi-Escala — O mesmo cone visto em 3 níveis de magnificação: Plácido (macro), Corte transversal (meso), Fibras de colágeno (micro)](../../images/P1-01_Framework/Figura_Framework_MultiEscala.png)
 
 #### Arquitetura Lamelar Normal
 
@@ -374,7 +437,7 @@ No ceratocone, a degradação enzimática (MMP-2, MMP-9 — ✅ Kenney et al., 2
 
 > **Nota (Skill 0):** A massa total de colágeno no ceratocone diminui apenas ~5%. O que ocorre não é destruição das fibras, mas **redistribuição por deslizamento** — as fibrilas escorregam entre e dentro das lamelas, mudando de posição e orientação sem serem destruídas.
 
-![Figura 1.4: A Catástrofe Lamelar — De fibras intactas a ceratocone em 4 passos: normal → degradação enzimática → deslizamento → protrusão](images/CH-001_Anatomia/Figura_Catastrofe_Lamelar.png)
+![Figura 1.4: A Catástrofe Lamelar — De fibras intactas a ceratocone em 4 passos: normal → degradação enzimática → deslizamento → protrusão](../../images/CH-001_Anatomia/Figura_Catastrofe_Lamelar.png)
 
 #### O Plácido Como Espelho da Malha
 

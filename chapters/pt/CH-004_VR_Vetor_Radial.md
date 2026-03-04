@@ -92,7 +92,7 @@ O encurtamento radial periférico reduz a tensão competitiva que mantinha a cur
 
 > **Analogia correta:** Imagine uma lona circular esticada. Uma cunha inserida na periferia *separa* as fibras da lona naquele ponto, forçando-as a contornar a cunha. O trecho funcional das fibras radiais encurta. A tensão aumenta. A lona central, puxada por essas fibras tensionadas, **aplaina**. O aplainamento é resultado da *tração ativa*, não de ausência de suporte.
 
-![Figura 4.4 — Mecanismo Biomecânico do Vetor Radial: a tração local das fibras sobre o anel causa perda de curvatura central e aplainamento compensatório](images/CH-004_Vetor_Radial/pt/Figura_4.4_Mecanismo_VR.png)
+![Figura 4.4 — Mecanismo Biomecânico do Vetor Radial: a tração local das fibras sobre o anel causa perda de curvatura central e aplainamento compensatório](../../images/CH-004_Vetor_Radial/pt/Figura_4.4_VR_Corte_Transversal.png)
 
 ### O Motor Microscópico: Tração Lamelar
 

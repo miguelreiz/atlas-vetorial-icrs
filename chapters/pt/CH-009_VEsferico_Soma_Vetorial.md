@@ -68,7 +68,7 @@ Clinicamente, o VEsférico se traduz em:
 - **Quanto o cilindro mudou** (e em que eixo)
 - **Quanto o coma mudou** (e em que direção)
 
-![Figura 9.1: A Soma Vetorial — Os 4 vetores de correção (todos em 🔵 azul: VR, VT, Vτ, VComa) se combinam para gerar o VEsférico Resultante (🟢 verde = resultado final). Nota: nas figuras onde forças do cone (Fr, Ft, Fτ) aparecem, elas são sempre em 🔴 vermelho.](images/CH-009_VEsferico/Figura_Vector_Summation.png)
+![Figura 9.1: A Soma Vetorial — Os 4 vetores de correção (todos em 🔵 azul: VR, VT, Vτ, VComa) se combinam para gerar o VEsférico Resultante (🟢 verde = resultado final). Nota: nas figuras onde forças do cone (Fr, Ft, Fτ) aparecem, elas são sempre em 🔴 vermelho.](../../images/CH-009_VEsferico/Figura_Vector_Summation.png)
 
 ### Os Três Cenários de Soma Vetorial
 
@@ -102,7 +102,7 @@ Quando há erro grave:
 
 **Resultado:** O VEsférico pode ser **próximo de zero** (a cirurgia não fez efeito) ou até **negativo** (a córnea piorou).
 
-![Figura 9.2: Os 3 Cenários de Resultado Cirúrgico — Vetores alinhados = resultado ótimo. Vetores desalinhados = subótimo. Vetores em oposição = sem efeito](images/CH-009_VEsferico/Figura_Three_Scenarios.png)
+![Figura 9.2: Os 3 Cenários de Resultado Cirúrgico — Vetores alinhados = resultado ótimo. Vetores desalinhados = subótimo. Vetores em oposição = sem efeito](../../images/CH-009_VEsferico/Figura_Three_Scenarios.png)
 
 ### Aplicação Clínica: O Planejamento Reverso
 
