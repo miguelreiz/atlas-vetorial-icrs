@@ -189,7 +189,7 @@ O ICE foi validado retrospectivamente em **300 olhos** com ceratocone submetidos
 
 **DeLong test (ICE vs Kmax): p = 0.012** — ICE é estatisticamente superior.
 
-**Threshold ótimo:** ICE-min < 28° → sensibilidade 78%, especificidade 84%
+⚠️ **Threshold ótimo (estimado retrospectivo):** ICE-min < 28° → sensibilidade 78%, especificidade 84%. *Valor derivado por análise Youden Index na curva ROC da coorte retrospectiva N=300. Necessita validação prospectiva antes de ser adotado como ponto de corte clínico definitivo (ver Seção 10 — Limitações).*
 
 > **Achado-chave:** O ICE é **preditor independente** — Kmax, paquimetria e idade **não** atingem significância quando o ICE está no modelo. Isso significa que o ICE **captura informação que as métricas estruturais não contêm**: a capacidade do sistema visual em interpretar a correção mecânica.
 
@@ -233,17 +233,19 @@ No Capítulo 11 (Nomogramas Vetoriais), o ICE é o **Passo 0** — o primeiro fi
 
 #### Cenários Clínicos
 
+> **💡 Casos Ilustrativos:** Os cenários A, B e C são casos compostos pelo autor para demonstrar o cálculo e aplicação prática do ICE. Os valores numéricos são representativos e coerentes com a faixa observada nas coortes de validação (N=300).
+
 **Cenário A — O Candidato Ideal:**
-Paciente 28 anos, KC estágio II. Kmax 52D, paquimetria 470µm.
-- θ_topo = 135°, θ_cyl = 140°, θ_coma = 132°
+💡 Paciente 28 anos, KC estágio II. Kmax 52D, paquimetria 470µm.
+- θ_topo = 135°, θ_cyl = 140°, θ_coma = 132° (discordância angular máxima = 8°)
 - HOA = 2.1µm RMS, Astig_topo = 3.5D, Cyl = 3.2D
 - **ICE = 0.78 (Tipo 1)**
 - → Nomograma vetorial: Duck leve → 1 segmento progressivo inferior
-- → Prognóstico: Ganho esperado 4+ linhas, reintervenção <10%
+- → Prognóstico: Ganho esperado 4+ linhas, reintervenção <10% (*baseado na Tabela 10.2: ICE Alto reintervenção 8.5%*)
 
 **Cenário B — O Caso de Alerta:**
-Paciente 34 anos, KC estágio III. Kmax 56D, paquimetria 445µm.
-- θ_topo = 165°, θ_cyl = 95° (!), θ_coma = 140°
+💡 Paciente 34 anos, KC estágio III. Kmax 56D, paquimetria 445µm.
+- θ_topo = 165°, θ_cyl = 95° (!), θ_coma = 140° (discordância 70°)
 - HOA = 5.2µm RMS, Astig_topo = 5.8D, Cyl = 3.1D
 - **ICE = 0.31 (Tipo 2)**
 - → ICRS como procedimento isolado: prognóstico reservado
@@ -251,8 +253,8 @@ Paciente 34 anos, KC estágio III. Kmax 56D, paquimetria 445µm.
 - → Se operar: ajustar expectativa, documentar ICE no prontuário
 
 **Cenário C — O Caso Paradoxal (Córnea Fina com ICE Alto):**
-Paciente 30 anos, KC estágio III-IV. Kmax 68D, paquimetria 385µm (ultrafina).
-- θ_topo = 170°, θ_cyl = 175°, θ_coma = 168° (quase perfeitos!)
+💡 Paciente 30 anos, KC estágio III-IV. Kmax 68D, paquimetria 385µm (ultrafina).
+- θ_topo = 170°, θ_cyl = 175°, θ_coma = 168° (quase perfeitos — discordância máxima 5°)
 - HOA = 3.8µm RMS, Astig_topo = 6.2D, Cyl = 5.9D
 - **ICE = 0.71 (Tipo 1)** — apesar da severidade estrutural!
 - → Córnea severamente ectática MAS com eixos coerentes

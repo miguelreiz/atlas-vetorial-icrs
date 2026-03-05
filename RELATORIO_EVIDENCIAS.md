@@ -15,7 +15,7 @@
 | **CH-005_VT_Vetor_Tangencial** | 0 | 0 | 11 |
 | **CH-006_Vt_Vetor_Torque** | 0 | 0 | 2 |
 | **CH-007_VComa_Deslocamento_Optico** | 0 | 0 | 1 |
-| **CH-008_LDM_A_Lei_do_Disco_Mecanico** | 6 | 0 | 6 |
+| **CH-008_LDM_A_Lei_do_Disco_Mecanico** | 1 | 0 | 3 |
 | **CH-009_VEsferico_Soma_Vetorial** | 1 | 0 | 0 |
 | **CH-010_ICE_Indice_Coerencia_Eixos** | 4 | 0 | 0 |
 | **CH-011_Nomogramas_Vetoriais** | 2 | 0 | 2 |
@@ -422,21 +422,7 @@ A Seção Micro (O Efeito de Acoplamento nas Lamelas) com o diagrama textual ANT
 
 ### CH-008_LDM_A_Lei_do_Disco_Mecanico
 
-**12 ocorrência(s)**
-
-
-**Linha 283** — 🟢 BAIXA
-
-```
-- COF deslocado < 0.3 mm do centro pupilar
-```
-
-
-**Linha 309** — 🟢 BAIXA
-
-```
-- COF deslocado > 0.6 mm (frequentemente infero-temporal)
-```
+**4 ocorrência(s)**
 
 
 **Linha 327** — 🟢 BAIXA
@@ -446,63 +432,21 @@ A Seção Micro (O Efeito de Acoplamento nas Lamelas) com o diagrama textual ANT
 ```
 
 
-**Linha 380** — 🔴 ALTA
-
-```
-**Paciente:** 28 anos, KC estágio III. K-max = 56.2 D a 135°. Coma = 2.8 µm.
-```
-
-
-**Linha 384** — 🔴 ALTA
-
-```
-**Resultado:** Aplainamento de 2.5 D no K-max, mas coma **aumentou** de 2.8 para 3.1 µm. Visão subjetiva piorada. BSCVA caiu de 0.3 para 0.2 LogMAR.
-```
-
-
-**Linha 388** — 🔴 ALTA
-
-```
-**Replanejamento:** Rotação da incisão para 107° (ENM calculado). Segmento inferior progressivo 250/350 µm. Resultado pós-operatório: coma reduzido de
-```
-
-
-**Linha 394** — 🔴 ALTA
-
-```
-**Paciente:** 22 anos, KC estágio II. K-max = 49.8 D, central. Coma = 0.6 µm. IDT = 4%.
-```
-
-
-**Linha 396** — 🟢 BAIXA
-
-```
-**Planejamento convencional:** MyoRing 5.0 mm. Resultado: K-max 44.1 D. BSCVA +3 linhas.
-```
-
-
-**Linha 502** — 🟢 BAIXA
+**Linha 504** — 🟢 BAIXA
 
 ```
 A literatura (Winkler 2013, Meek & Boote 2004, Radner & Mallinger) demonstra que:
 ```
 
 
-**Linha 516** — 🔴 ALTA
-
-```
-Quando a LDM calcula os vetores de força (Fr, Ft, Fτ) a partir do Plácido, ela está lendo a deformação da **superfície anterior** — que reflete o estr
-```
-
-
-**Linha 600** — 🟢 BAIXA
+**Linha 602** — 🟢 BAIXA
 
 ```
 - COF marcado com ponto magenta, a 0.7 mm do centro pupilar
 ```
 
 
-**Linha 690** — 🔴 ALTA
+**Linha 692** — 🔴 ALTA
 
 ```
 Os três índices (IDT, COF, ENM) carecem de validação prospectiva. A tabela de IDT (quartis < 5%, 5–15%, 15–30%, > 30%) é baseada em raciocínio clínico
@@ -530,28 +474,28 @@ Os três índices (IDT, COF, ENM) carecem de validação prospectiva. A tabela d
 **4 ocorrência(s)**
 
 
-**Linha 192** — 🔴 ALTA
-
-```
-**Threshold ótimo:** ICE-min < 28° → sensibilidade 78%, especificidade 84%
-```
-
-
-**Linha 239** — 🔴 ALTA
+**Linha 241** — 🔴 ALTA
 
 ```
 - HOA = 2.1µm RMS, Astig_topo = 3.5D, Cyl = 3.2D
 ```
 
 
-**Linha 247** — 🔴 ALTA
+**Linha 244** — 🔴 ALTA
+
+```
+- → Prognóstico: Ganho esperado 4+ linhas, reintervenção <10% (*baseado na Tabela 10.2: ICE Alto reintervenção 8.5%*)
+```
+
+
+**Linha 249** — 🔴 ALTA
 
 ```
 - HOA = 5.2µm RMS, Astig_topo = 5.8D, Cyl = 3.1D
 ```
 
 
-**Linha 256** — 🔴 ALTA
+**Linha 258** — 🔴 ALTA
 
 ```
 - HOA = 3.8µm RMS, Astig_topo = 6.2D, Cyl = 5.9D

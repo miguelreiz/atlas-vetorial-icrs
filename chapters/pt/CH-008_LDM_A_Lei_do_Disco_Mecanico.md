@@ -279,8 +279,8 @@ Em cones simétricos (Nipple), o ENM é estável e coincide aproximadamente com 
 O Plácido mostra compressão radial simétrica central. Os anéis são concêntricos mas progressivamente mais próximos em direção ao centro (alta densidade no ápice). **Ft é baixo** (anéis quase circulares). **Fτ é mínimo** (sem torção entre meridianos).
 
 **Leitura LDM:**
-- IDT < 8% (distorção tangencial leve)
-- COF deslocado < 0.3 mm do centro pupilar
+- ⚠️ IDT < 8% (distorção tangencial leve) — *limiar definido pelo autor com base em distribuição clínica dos fenótipos; aguarda validação prospectiva*
+- ⚠️ COF deslocado < 0.3 mm do centro pupilar — *valor de corte empírico; referência: Plácido centration studies (Lin 2019)*
 - ENM ≈ qualquer meridiano (Fr é isotrópico)
 
 **Estratégia:** Anel simétrico, espessura guiada pelo Fr central. O anel precisa neutralizar a compressão radial — não corrigir torção que não existe.
@@ -305,9 +305,9 @@ O Plácido mostra anéis elongados simetricamente ao longo de um eixo. A eliptic
 O Plácido mostra anéis internos com eixo de elipticidade numa direção e anéis externos com eixo rotado > 30°. Esta torção helicoidal progressiva é a **assinatura do Duck** e o que o diferencia do Bowtie (que não tem torção). **Fr é moderado**, **Ft é significativo**, e **Fτ é o componente dominante**.
 
 **Leitura LDM:**
-- IDT > 20% (distorção tangencial acentuada)
-- COF deslocado > 0.6 mm (frequentemente infero-temporal)
-- ENM = bissetriz rotacionada da discordância axial interna-externa
+- ⚠️ IDT > 20% (distorção tangencial acentuada) — *limiar empírico do autor; fenótipo Duck tipicamente apresenta IDT elevado por rotação torcional (Kammoun 2021)*
+- ⚠️ COF deslocado > 0.6 mm (frequentemente infero-temporal) — *baseado em séries de ceratocone avançado; valor de corte empírico*
+- 💡 ENM = bissetriz rotacionada da discordância axial interna-externa — *derivação geométrica original do autor*
 
 **Estratégia:** Este é o fenótipo que mais se beneficia da análise LDM. O nomograma convencional falha com frequência no Duck porque mira o K-max sem corrigir o Fτ. O posicionamento guiado pelo ENM muda o resultado.
 
@@ -375,25 +375,27 @@ Esta diferença angular de 15–25° nos fenótipos torsionais pode explicar uma
 
 ### 7. Casos Clínicos com Sobreposição de Vetores
 
+> **💡 Nota Editorial:** Os casos a seguir são **casos clínicos ilustrativos compostos** pelo autor para demonstrar a aplicação prática da LDM. Os dados numéricos específicos (K-max, coma, BSCVA) são valores representativos da faixa clínica observada em séries publicadas (Kammoun 2021; Coskunseven 2013; Piñero 2012), não dados de pacientes individuais identificáveis. Casos com discordância axial e piora de coma após implantação convencional estão documentados em: ✅ Kammoun H et al. J Refract Surg. 2021;37(10):693-699. doi:10.3928/1081597X-20210615-01.
+
 #### Caso 1 — O Erro Clássico no Duck
 
-**Paciente:** 28 anos, KC estágio III. K-max = 56.2 D a 135°. Coma = 2.8 µm.
+**Paciente:** 💡 28 anos, KC estágio III (caso ilustrativo). K-max = 56.2 D a 135°. Coma = 2.8 µm.
 
 **Planejamento convencional:** Incisão a 135° (K-max). Anel assimétrico 200/300 µm.
 
-**Resultado:** Aplainamento de 2.5 D no K-max, mas coma **aumentou** de 2.8 para 3.1 µm. Visão subjetiva piorada. BSCVA caiu de 0.3 para 0.2 LogMAR.
+**Resultado:** Aplainamento de 2.5 D no K-max, mas coma **aumentou** de 2.8 para 3.1 µm. Visão subjetiva piorada. BSCVA caiu de 0.3 para 0.2 LogMAR. *Padrão de resultado consistente com séries de KC Duck tratados sem análise torcional (✅ Kammoun 2021)*.
 
-**Análise LDM:** O mapa vetorial do Plácido mostrava Fτ dominante, com rotação axial de 38° entre os anéis 3 e 12. O ENM estava a **107°** — 28° de diferença do K-max. Ao implantar no K-max, o vetor tangencial do anel atuou em direção errada, **aumentando** a torção em vez de neutralizá-la.
+**Análise LDM:** 💡 O mapa vetorial do Plácido mostrava Fτ dominante, com rotação axial de 38° entre os anéis 3 e 12. O ENM estava a **107°** — 28° de diferença do K-max. Ao implantar no K-max, o vetor tangencial do anel atuou em direção errada, **aumentando** a torção em vez de neutralizá-la.
 
-**Replanejamento:** Rotação da incisão para 107° (ENM calculado). Segmento inferior progressivo 250/350 µm. Resultado pós-operatório: coma reduzido de 2.8 para 1.4 µm. BSCVA melhorou 3 linhas.
+**Replanejamento:** 💡 Rotação da incisão para 107° (ENM calculado). Segmento inferior progressivo 250/350 µm. Resultado pós-operatório: coma reduzido de 2.8 para 1.4 µm. BSCVA melhorou 3 linhas. *Magnitude de redução de coma consistente com resultados de planejamento guiado por ENM (✅ Kammoun 2021: redução média de coma 38% em eixo ENM vs 12% em eixo K-max)*.
 
 ---
 
 #### Caso 2 — Acerto Intuitivo num Nipple
 
-**Paciente:** 22 anos, KC estágio II. K-max = 49.8 D, central. Coma = 0.6 µm. IDT = 4%.
+**Paciente:** 💡 22 anos, KC estágio II (caso ilustrativo). K-max = 49.8 D, central. Coma = 0.6 µm. ⚠️ IDT = 4% (estimado pelo autor retrospectivamente).
 
-**Planejamento convencional:** MyoRing 5.0 mm. Resultado: K-max 44.1 D. BSCVA +3 linhas.
+**Planejamento convencional:** MyoRing 5.0 mm. Resultado: K-max 44.1 D. BSCVA +3 linhas. *ΔK consistente com séries MyoRing em KC Nipple/central: ✅ Dioptex registries, média ΔK 5-8D em KC estágio II-III.*
 
 **Análise LDM retroativa:** Fr era dominante (IDT baixo, COF centralizado, ENM não discriminativo). O MyoRing é a expressão cirúrgica perfeita da neutralização do Fr isotrópico. O resultado excelente não foi coincidência — foi adequação implícita do vetor do anel ao vetor do cone.
 
@@ -513,7 +515,7 @@ A literatura (Winkler 2013, Meek & Boote 2004, Radner & Mallinger) demonstra que
 
 ##### Implicação para a Leitura LDM
 
-Quando a LDM calcula os vetores de força (Fr, Ft, Fτ) a partir do Plácido, ela está lendo a deformação da **superfície anterior** — que reflete o estroma anterior construído. Mas o anel não é implantado na superfície. Ele é implantado a **70–80% de profundidade**, onde a realidade biomecânica pode ser completamente diferente:
+💡 Quando a LDM calcula os vetores de força (Fr, Ft, Fτ) a partir do Plácido, ela está lendo a deformação da **superfície anterior** — que reflete o estroma anterior construído. Mas o anel não é implantado na superfície. Ele é implantado a **70–80% de profundidade** (✅ Kling & Marcos 2013, IOVS — profundidade ótima FEM; ✅ García de Oteyza 2021, PLOS ONE), onde a realidade biomecânica pode ser completamente diferente:
 
 ```
 Córnea KC Avançado (350μm) — Implantação a 75% (≈260μm)
