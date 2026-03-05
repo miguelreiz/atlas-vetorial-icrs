@@ -11,7 +11,7 @@
 | **CH-001_Anatomia_Corneana** | 5 | 0 | 2 |
 | **CH-002_Biomecanica_Aneis** | 2 | 2 | 12 |
 | **CH-003_Classificacao_Ceratocone** | 0 | 0 | 0 |
-| **CH-004_VR_Vetor_Radial** | 2 | 0 | 8 |
+| **CH-004_VR_Vetor_Radial** | 1 | 0 | 8 |
 | **CH-005_VT_Vetor_Tangencial** | 0 | 0 | 11 |
 | **CH-006_Vt_Vetor_Torque** | 0 | 0 | 2 |
 | **CH-007_VComa_Deslocamento_Optico** | 0 | 0 | 1 |
@@ -21,8 +21,8 @@
 | **CH-011_Nomogramas_Vetoriais** | 2 | 0 | 2 |
 | **CH-012_Casos_Clinicos** | 1 | 0 | 0 |
 | **CH-013_Complicacoes_Manejo** | 1 | 0 | 0 |
-| **CH-014_Futuro_Aneis** | 3 | 0 | 1 |
-| **CH-015_Biomecanica_Profunda_CXL** | 8 | 0 | 8 |
+| **CH-014_Futuro_Aneis** | 1 | 0 | 1 |
+| **CH-015_Biomecanica_Profunda_CXL** | 2 | 0 | 8 |
 | **ENCARTE_Referencia_Rapida** | 0 | 0 | 0 |
 | **P1-01_Placido_Revelam** | 1 | 0 | 0 |
 | **P1-02_Padroes_Deformacao** | 0 | 0 | 2 |
@@ -226,7 +226,7 @@ O ICRS produz 5 vetores biomecânicos como **resultado da cascata Tenting → Ar
 
 ### CH-004_VR_Vetor_Radial
 
-**10 ocorrência(s)**
+**9 ocorrência(s)**
 
 
 **Linha 49** — 🟢 BAIXA
@@ -275,13 +275,6 @@ Um anel simétrico (mesma espessura em ambos os segmentos) com diâmetro de 5.0-
 
 ```
 3. **O Vetor Radial explica a Lei de Barraquer sem fórmulas.** Ao ensinar residentes, use este conceito como tradução visual da Lei das Espessuras — é
-```
-
-
-**Linha 168** — 🔴 ALTA
-
-```
-4. **Profundidade = alavanca.** O VR age melhor quanto mais profundo o implante está posicionado. A **70–75%** de profundidade, o anel está entre as c
 ```
 
 
@@ -569,20 +562,13 @@ O Ferrara HM com **arco de 320° e perfil fusiforme** em Ø5.7mm atua simultanea
 
 ### CH-014_Futuro_Aneis
 
-**4 ocorrência(s)**
+**2 ocorrência(s)**
 
 
 **Linha 61** — 🔴 ALTA
 
 ```
 - A **espessura do ICRS** *(ICRS = Intracorneal Ring Segment = segmento de anel intracorneano; a "altura" do anel no plano sagital)* responde por **84
-```
-
-
-**Linha 108** — 🔴 ALTA
-
-```
-**Impacto vetorial:** Eliminação do erro de prescrição por variabilidade individual. O nomograma diz "para K-max 52D, use 250µm." O FEM diz "para *est
 ```
 
 
@@ -593,18 +579,11 @@ O Ferrara HM com **arco de 320° e perfil fusiforme** em Ø5.7mm atua simultanea
 ```
 
 
-**Linha 310** — 🔴 ALTA
-
-```
-- A profundidade relativa (75-80%) se torna ainda mais crítica — erros de profundidade absoluta em córneas finas são menos tolerantes
-```
-
-
 ---
 
 ### CH-015_Biomecanica_Profunda_CXL
 
-**16 ocorrência(s)**
+**10 ocorrência(s)**
 
 
 **Linha 33** — 🟢 BAIXA
@@ -635,34 +614,6 @@ O anel aplaina a córnea por causa do princípio de *Arc-Shortening* acoplado ao
 ```
 
 
-**Linha 61** — 🔴 ALTA
-
-```
-**A profundidade de 70-80% é o Ponto de Alavanca Ideal (Fulcro Ótimo):**
-```
-
-
-**Linha 62** — 🔴 ALTA
-
-```
-1.  Existe tecido suficiente ACIMA do anel (70% do estroma) para que as lamelas anteriores sejam tracionadas hidraulicamente, gerando o "repuxo" das f
-```
-
-
-**Linha 63** — 🔴 ALTA
-
-```
-2.  Existe tecido suficiente ABAIXO do anel (20-30%) para servir como uma "cama de resistência" (âncora). O anel precisa de algo resistente contra o q
-```
-
-
-**Linha 86** — 🔴 ALTA
-
-```
-A literatura frequentemente descreve que a córnea fica "mais dura" (aumento do módulo de Young elástico) e, portanto, "resiste" ao aplainamento do ane
-```
-
-
 **Linha 110** — 🔴 ALTA
 
 ```
@@ -674,13 +625,6 @@ Aqui ocorre o choque mecânico: o túnel do anel é feito a 70% de profundidade 
 
 ```
 Quando o anel PMMA infla e tenta separar as lamelas e tensionar as radiais (*arc-shortening*):
-```
-
-
-**Linha 120** — 🔴 ALTA
-
-```
-A redistribuição da tensão circunferencial para formar o Acoplamento (VT) também sofre amputação severa. Como as fibrilas adjacentes estão quimicament
 ```
 
 
@@ -702,13 +646,6 @@ No contexto corneano, "ceder" significa que as lamelas de colágeno **deslizam u
 
 ```
 O anel não "dissolve" o escudo CXL — ele explora micro-pontos de menor resistência na malha, induzindo um **micro-deslizamento lamelar focal** suficie
-```
-
-
-**Linha 349** — 🔴 ALTA
-
-```
-- Os parâmetros de material (módulo de Young, coeficiente de Poisson) variam entre pacientes e entre KC e córnea normal
 ```
 
 

@@ -105,7 +105,7 @@ VR | VT | Vτ | VEsférico — EM DIOPTRIAS — ANTES DE OPERAR
 > **Sem FEM:** O cirurgião escolhe o anel com base em nomogramas populacionais → resultado médio esperado.
 > **Com FEM personalizado:** O cirurgião simula *este* paciente → VEsférico calculado para *esta* córnea → resultado individualizado.
 
-**Impacto vetorial:** Eliminação do erro de prescrição por variabilidade individual. O nomograma diz "para K-max 52D, use 250µm." O FEM diz "para *esta* córnea de 52D com rigidez anterior 12 kPa e 48% de fibras oblíquas residuais, use 220µm a 73% de profundidade."
+💡 **Impacto vetorial:** Eliminação do erro de prescrição por variabilidade individual. O nomograma diz "para K-max 52D, use 250µm." O FEM diz "para *esta* córnea de 52D com rigidez anterior 12 kPa e 48% de fibras oblíquas residuais, use 220µm a 73% de profundidade." *Esta capacidade de FEM personalizado ainda não está disponível comercialmente — conceito validado em modelos de pesquisa.*
 
 ![Figura 13.1: O Futuro — FEM Personalizado — Workflow: topografia + tomografia + Brillouin → modelo HGO anisotrópico → simulação pré-operatória com VEsférico previsto](../../images/CH-014_Futuro/Figura_13.1_FEM_Personalizado_Pipeline.png)
 
@@ -307,7 +307,7 @@ Por que córneas ultrafinas respondem paradoxalmente bem ao ICRS? A resposta est
 
 Para pacientes com ceratocone avançado onde o transplante seria a única opção:
 - O ICRS em córnea ultrafina pode ser uma **ponte terapêutica** legítima
-- A profundidade relativa (75-80%) se torna ainda mais crítica — erros de profundidade absoluta em córneas finas são menos tolerantes
+- ✅ A profundidade relativa (75-80%) se torna ainda mais crítica — *embasamento FEM: Kling & Marcos 2013, IOVS* — erros de profundidade absoluta em córneas finas são menos tolerantes
 - A combinação ICRS + CXL é especialmente indicada nestes casos (contenção mecânica + estabilização bioquímica)
 
 > [!WARNING]

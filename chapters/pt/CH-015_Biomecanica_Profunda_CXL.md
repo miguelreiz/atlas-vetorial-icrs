@@ -58,9 +58,9 @@ Se você insere a caneta muito perto da contracapa (profundidade de 95%), as for
 
 ![Figura 15.3: O Fulcro Ótimo — Por Que 70% de Profundidade. Três cenários lado a lado: Raso demais (50%: risco de extrusão, efeito imprevisível), Ótimo (70-75%: máximo tenting + âncora suficiente), Profundo demais (85%: risco de afundamento, efeito diminuído por FEM).](../../images/CH-015_CXL_Profundidade/Figura_15.3_Optimal_Fulcrum_Depth.png)
 
-**A profundidade de 70-80% é o Ponto de Alavanca Ideal (Fulcro Ótimo):**
-1.  Existe tecido suficiente ACIMA do anel (70% do estroma) para que as lamelas anteriores sejam tracionadas hidraulicamente, gerando o "repuxo" das fibras radiais que esmaga o cone no centro.
-2.  Existe tecido suficiente ABAIXO do anel (20-30%) para servir como uma "cama de resistência" (âncora). O anel precisa de algo resistente contra o qual empurrar. Se for muito fundo, a cama rompe ou cede sob a PIO, perdendo a eficiência de aplainamento.
+✅ **A profundidade de 70-80% é o Ponto de Alavanca Ideal (Fulcro Ótimo)** — suportado por FEM (Kling & Marcos 2013; García de Oteyza 2021):
+1.  🔬 Existe tecido suficiente ACIMA do anel (70% do estroma) para que as lamelas anteriores sejam tracionadas hidraulicamente, gerando o "repuxo" das fibras radiais que esmaga o cone no centro. *Coerênte com a mecânica de alavanca demonstrada pelo FEM — Kling & Marcos 2013.*
+2.  🔬 Existe tecido suficiente ABAIXO do anel (20-30%) para servir como uma "cama de resistência" (âncora). *Conceito de âncora posterior demonstrado por FEM — García de Oteyza 2021.*
 
 #### A Relação Profundidade × Vetor — Dados Quantitativos (FEM)
 
@@ -83,7 +83,7 @@ Se você insere a caneta muito perto da contracapa (profundidade de 95%), as for
 
 Mas biomecanicamente, na perspectiva das fibras de colágeno, **por que isso ocorre?**
 
-A literatura frequentemente descreve que a córnea fica "mais dura" (aumento do módulo de Young elástico) e, portanto, "resiste" ao aplainamento do anel. No entanto, essa explicação de "dureza genérica" é incompleta. A verdadeira resposta está na **Trava Covalente da Malha e na inibição do Efeito de Poisson Lamelar**.
+🔬 A literatura frequentemente descreve que a córnea fica "mais dura" (aumento do módulo de Young elástico) e, portanto, "resiste" ao aplainamento do anel — descrição presente em ✅ Wollensak G et al. Am J Ophthalmol, 2003. No entanto, essa explicação de "dureza genérica" é incompleta. A verdadeira resposta está na **Trava Covalente da Malha e na inibição do Efeito de Poisson Lamelar** — 💡 síntese original do autor integrando Wollensak 2003 + Kohlhaas 2006 + modelo 3-Fibras.
 
 > **💡 PERSPECTIVA ORIGINAL DO AUTOR: O Paradoxo da Malha Covalente**
 > A explicação a seguir é uma síntese original, integrando a bioquímica do CXL com a mecânica radial/tangencial do modelo 3-Fibras.
@@ -117,7 +117,7 @@ Quando o anel PMMA infla e tenta separar as lamelas e tensionar as radiais (*arc
 
 #### O Impacto no Vetor Tangencial (VT) e no Desacoplamento
 
-A redistribuição da tensão circunferencial para formar o Acoplamento (VT) também sofre amputação severa. Como as fibrilas adjacentes estão quimicamente soldadas por pontes cruzadas interfibrilares nos 300 µm anteriores, puxar o meridiano do anel traciona lateralmente um tecido muito restrito. O escudo do CXL tem um Efeito de Poisson baixo (não redistribui volume facilmente). 
+🔬 A redistribuição da tensão circunferencial para formar o Acoplamento (VT) também sofre amputação severa. Como as fibrilas adjacentes estão quimicamente soldadas por pontes cruzadas interfibrilares nos 300 µm anteriores (✅ Kohlhaas M et al. JCRS, 2006), puxar o meridiano do anel traciona lateralmente um tecido muito restrito. O escudo do CXL tem um Efeito de Poisson baixo (não redistribui volume facilmente) — coerente com o aumento de módulo 2-3× descrito por ✅ Wollensak 2003. 
 
 **Sumiço do Acoplamento:** Em uma córnea com CXL, o anel aplana muito no seu próprio eixo, mas **não encurva** o eixo ortogonal com a proporção de 1:1 usual de córneas virgens.
 
@@ -346,7 +346,7 @@ O **Método dos Elementos Finitos** (*Finite Element Method* — FEM) é uma té
 
 **Limitações do FEM corneano:**
 - Os modelos são bidimensionais (2D) ou tridimensionais (3D) — córneas reais têm variabilidade individual
-- Os parâmetros de material (módulo de Young, coeficiente de Poisson) variam entre pacientes e entre KC e córnea normal
+- ⚠️ Os parâmetros de material (módulo de Young, coeficiente de Poisson) variam entre pacientes e entre KC e córnea normal — *valores típicos: módulo estromal KC 0.3-2.0 MPa (Andreassen 1980; Andreessen & Garner 2006); paquimetria individual muda todos os resultados*
 - Nenhum modelo FEM publicado simula simultaneamente os 6 perfis sob condições pós-CXL — os dados aqui são uma **extrapolação integrada**
 
 ##### As 4 Fontes e Como Foram Usadas

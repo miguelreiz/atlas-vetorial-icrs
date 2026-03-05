@@ -165,7 +165,7 @@ Um anel simétrico (mesma espessura em ambos os segmentos) com diâmetro de 5.0-
 
 3. **O Vetor Radial explica a Lei de Barraquer sem fórmulas.** Ao ensinar residentes, use este conceito como tradução visual da Lei das Espessuras — é intuitivo e imediato. O residente entende em segundos o que levaria uma hora com equações.
 
-4. **Profundidade = alavanca.** O VR age melhor quanto mais profundo o implante está posicionado. A **70–75%** de profundidade, o anel está entre as camadas estromais mais densas e resistentes (estroma posterior), maximizando o efeito de tenda sobre a superfície anterior.
+4. ✅ **Profundidade = alavanca.** O VR age melhor quanto mais profundo o implante está posicionado. A **70–75%** de profundidade, o anel está entre as camadas estromais mais densas e resistentes (estroma posterior), maximizando o efeito de tenda sobre a superfície anterior. *Embasamento FEM: Kling & Marcos 2013, IOVS.*
 
 ---
 
