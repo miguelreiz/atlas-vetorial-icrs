@@ -73,6 +73,8 @@ POSTERIOR (67-100%):
 
 > ✅ **Evidência:** Winkler M et al. (2011), IOVS — Usando **microscopia óptica não-linear de alta resolução** *(NLO-HRMac = Nonlinear Optical High-Resolution Macroscopy)*, mediram que a **densidade de pontos de ramificação** *(branching-point density)* é **4 vezes maior** no terço anterior comparado ao terço posterior. Essa densidade diminui **logaritmicamente** com a distância da Bowman.
 
+![Figura 16.1 — Anatomia da Fibra em Mola (Bow Spring): corte transversal mostrando as fibras que sobem do estroma, fundem-se à Bowman e descem, com posição do ICRS abaixo.](../../images/CH-016_Malha_Estromal/Figura_16.1_Bow_Spring_Anatomia.png)
+
 ---
 
 ## 2. Fibras em Mola *(Bow Spring Fibers)* — As Vigas da Córnea
@@ -159,6 +161,8 @@ O ESTROMA MODULA O EPITÉLIO:
 
 > ✅ **Evidência:** Rhee J et al. (citado em Mohammad Nejad T et al. 2013, review de FEM corneano) — Modelo FEM não-linear anisotrópico da córnea de camundongo. As curvas numéricas de máximo **cisalhamento** *(shear strain)* correlacionam diretamente com os padrões em espiral observados no epitélio.
 
+![Figura 16.2 — Padrões em Espiral do Epitélio: a malha estromal gera linhas de cisalhamento (shear strain) que guiam a migração celular epitelial em espiral.](../../images/CH-016_Malha_Estromal/Figura_16.2_Espiral_Epitelial_Shear.png)
+
 ### 💡 Implicação para o Atlas (Síntese do Autor)
 
 > Se o estroma deformado pelo ceratocone muda as linhas de cisalhamento…
@@ -217,6 +221,8 @@ CASCATA PATOGÊNICA COMPLETA (CH-001 + CH-016):
 ```
 
 > 🔬 **Nota de evidência:** A perda de fibras em mola no ceratocone (Mikula 2018) é um achado observacional direto. A conexão causal entre essa perda e a instabilidade da superfície é suportada pelo modelo de Cheng (2015), mas não foi demonstrada in vivo em humanos — é evidência indireta convergente.
+
+![Figura 16.3 — Córnea Normal vs Ceratocone: perda das fibras em mola (bow springs) na zona do cone, com redução do entrelaçamento e compensação epitelial.](../../images/CH-016_Malha_Estromal/Figura_16.3_KC_Perda_BowSprings.png)
 
 ---
 
@@ -279,7 +285,7 @@ Epitélio          ← Superfície refrativa
 | Oblíquas na zona do anel | 💡 **SUBSTITUI** — o anel age como trava mecânica no local |
 | Lamelas posteriores | 🔬 **SEPARA** localmente — cria tenting, arc-shortening |
 
-> 💡 **Síntese do autor:** O ICRS é a cirurgia refrativa que **menos agride** a malha estromal anterior. Enquanto o LASIK destrói as fibras em mola, o ICRS trabalha **abaixo** delas. Isso explica, em parte, por que a ectasia pós-ICRS é extremamente rara, enquanto a ectasia pós-LASIK é uma complicação conhecida.
+> 💡 **Síntese do autor:** O ICRS — que é um procedimento **terapêutico e reabilitador**, não uma cirurgia refrativa — é a intervenção corneana que **menos agride** a malha estromal anterior. Enquanto o LASIK (este sim, cirurgia refrativa) destrói as fibras em mola, o ICRS trabalha **abaixo** delas. Isso explica, em parte, por que a desestabilização pós-ICRS é extremamente rara, enquanto a ectasia pós-LASIK é uma complicação conhecida.
 
 ---
 
@@ -336,6 +342,8 @@ LDM (Lei do Disco Mecânico → IDT, COF, ENM)
 
 > 💡 **Insight final:** A LDM não lê a córnea — ela lê a **assinatura da malha estromal projetada na superfície através do epitélio**. Cada anel de Plácido comprimido é uma região onde a malha falhou. Cada anel alargado é uma região onde a malha se mantém.
 
+![Figura 16.4 — Modelo de 4 Camadas: do estroma posterior ao epitélio, cada camada contribui para a estabilidade da superfície refrativa.](../../images/CH-016_Malha_Estromal/Figura_16.4_Modelo_4_Camadas.png)
+
 ---
 
 ## 7. Pérolas Clínicas e Visão de Futuro
@@ -346,7 +354,7 @@ LDM (Lei do Disco Mecânico → IDT, COF, ENM)
 
 2. **LASIK vs PRK em córneas de risco:** Se o PTA está perto de 40%, considere que o LASIK destrói as fibras em mola E as oblíquas. A PRK preserva ambas.
 
-3. **ICRS é a cirurgia mais respeitosa à malha:** O anel trabalha no "andar de baixo" onde as fibras já são paralelas e fáceis de separar. As fibras em mola do "andar de cima" permanecem intactas.
+3. **O ICRS é o procedimento mais respeitoso à malha:** Por ser terapêutico (e não refrativo), o anel trabalha no "andar de baixo" onde as fibras já são paralelas e fáceis de separar. As fibras em mola do "andar de cima" permanecem intactas.
 
 4. **O mascaramento epitelial é biomecânico:** O epitélio que afina sobre o cone não é apenas compensação óptica — é resposta às linhas de cisalhamento alteradas pela malha doente.
 
