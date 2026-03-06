@@ -247,7 +247,7 @@ Epitélio                           Epitélio
 ═══════════════                    ═══════════════
 ```
 
-> 💡 **Conexão com PTA (Santhiago 2014):** O limiar de 40% de tecido alterado para risco de ectasia pós-LASIK agora ganha uma explicação estrutural: quando o LASIK remove >40% da espessura, ele destrói virtualmente **todas** as fibras em mola e grande parte das oblíquas interlamelares. A córnea perde suas duas linhas de defesa mecânica simultaneamente.
+> 💡 **Conexão com PTA (Santhiago 2014):** O limiar de 40% de tecido alterado para risco de ectasia pós-LASIK agora ganha uma explicação estrutural: considerando um flap de 120-160 µm em uma córnea de ~500 µm, quando o LASIK remove >40% da espessura, ele destrói virtualmente **todas** as fibras em mola e grande parte das oblíquas interlamelares. A córnea perde suas duas linhas de defesa mecânica simultaneamente.
 
 ### PRK: Preservando a Malha
 
@@ -257,7 +257,7 @@ A **PRK** *(ceratectomia fotorrefrativa)* remove apenas o epitélio e ablaciona 
 - ✅ As oblíquas profundas não são cortadas
 - Apenas a superficial mais superficial é afetada
 
-> 💡 Isto explica por que a PRK tem risco ~10× menor de ectasia que o LASIK em perfis de risco semelhantes.
+> ⚠️ **Estimativa clínica:** A PRK tem risco substancialmente menor de ectasia que o LASIK em perfis de risco semelhantes, pois preserva as fibras em mola e a maioria das oblíquas interlamelares. O valor exato depende do contexto clínico (Randleman 2008 — Risk Factor Scoring System).
 
 ### ICRS: Abaixo da Zona de Molas
 
@@ -323,6 +323,8 @@ CAMADA 1: LAMELAS POSTERIORES (Ortogonais)
 | **PRK** | Preserva | Preserva (profundas) | Afeta superficialmente | Remove temporariamente |
 | **ICRS** | Separa localmente | ✅ SUBSTITUI | ✅ PRESERVA | Preserva |
 | **CXL** | Pouco efeito | ✅ REFORÇA | ✅ REFORÇA | Preserva |
+
+→ *Para biomecânica detalhada do CXL e sua interação com ICRS, ver CH-015.*
 
 ### O Ciclo Estroma → Epitélio → Plácido
 
