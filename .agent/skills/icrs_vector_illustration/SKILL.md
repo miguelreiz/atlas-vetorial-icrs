@@ -71,11 +71,11 @@ TEMPLATE — CORTE TRANSVERSAL:
 ```
 
 **Regras:**
-1. Setas de força: saindo do anel PARA CIMA e PARA OS LADOS (centrífugo)
-2. Lamelas acima do anel: mostrar tenting (elevação)
+1. Setas de força radiais: saindo do anel PARA OS LADOS (centrífugo)
+2. **Vetor Endotelial:** O anel traciona as radiais para baixo, anulando a PIO e causando **APLAINAMENTO ou leve rebaixamento** da superfície diretamente acima (nunca desenhar tenting/elevação).
 3. Lamelas abaixo do anel: comprimidas contra o posterior
 4. Oblíquas (🟢): mostrar como cruzam entre lamelas no anterior (se presentes)
-5. Superfície: mostrar curva ANTES (tracejada, curva) e DEPOIS (sólida, plana)
+5. Superfície: mostrar curva ANTES (tracejada) e PLANA/APLAINADA DEPOIS (sólida) sobre o anel.
 
 ---
 

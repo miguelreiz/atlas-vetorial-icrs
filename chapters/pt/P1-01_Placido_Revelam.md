@@ -60,7 +60,7 @@ Este é o **Framework Multi-Escala**, e é a fundação intelectual de cada pág
 É a vista superior (Top-Down). O mapa de Plácido com seus anéis deformados. É aqui que você identifica o **fenótipo** da doença (P1 a P5). Você lê a distorção morfológica e reconhece: "este paciente tem um cone Duck".
 
 #### 2. A Escala MESO (A Anatomia)
-É o corte transversal meridional. É aqui que você enxerga o afinamento estromal localizado e percebe a protrusão física. É a camada onde a decisão cirúrgica de "a qual profundidade colocar o túnel (70-80%)" acontece.
+É o corte transversal meridional. É aqui que você enxerga o afinamento estromal localizado e percebe a protrusão física. É a camada onde a decisão cirúrgica de "a qual profundidade colocar o túnel (70–75%, máximo 80%)" acontece.
 
 #### 3. A Escala MICRO (A Biomecânica da Malha)
 Esta é a escala que separa os mestres dos operadores. É a visão ampliada do estroma. Você visualiza as fibras de colágeno perfeitamente esticadas na periferia, mas perigosamente esgarçadas, relaxadas e caóticas na zona do cone.

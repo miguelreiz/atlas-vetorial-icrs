@@ -36,7 +36,7 @@ Como explorado no Capítulo 1 e 2, o estroma corneano não é um bloco maciço d
 #### O Estroma Posterior (30% - 100%)
 *   **Composição:** Rarefação das fibras oblíquas.
 *   **Arquitetura:** As lamelas (compostas primariamente pelas fibras radiais e tangenciais em suas respectivas zonas) deitam-se paralelamente umas sobre as outras, com poucas pontes verticais conectando-as.
-*   **Comportamento:** Esta é a **"Zona de Clivagem Natural"**. O túnel do femtosegundo ou do dissecador manual separa essas lamelas paralelas facilmente. É por isso que convencionou-se a profundidade de implantação fisiológica em **70% a 80%**.
+*   **Comportamento:** Esta é a **"Zona de Clivagem Natural"**. O túnel do femtosegundo ou do dissecador manual separa essas lamelas paralelas facilmente. É por isso que convencionou-se a profundidade de implantação fisiológica em **70–75% (máximo admissível 80%)**.
 
 #### Tabela de Fibras Atingidas por Profundidade
 
@@ -58,7 +58,7 @@ Se você insere a caneta muito perto da contracapa (profundidade de 95%), as for
 
 ![Figura 15.3: O Fulcro Ótimo — Por Que 70% de Profundidade. Três cenários lado a lado: Raso demais (50%: risco de extrusão, efeito imprevisível), Ótimo (70-75%: máximo tenting + âncora suficiente), Profundo demais (85%: risco de afundamento, efeito diminuído por FEM).](../../images/CH-015_CXL_Profundidade/Figura_15.3_Optimal_Fulcrum_Depth.png)
 
-✅ **A profundidade de 70-80% é o Ponto de Alavanca Ideal (Fulcro Ótimo)** — suportado por FEM (Kling & Marcos 2013; García de Oteyza 2021):
+✅ **A profundidade de 70–75% é o Ponto de Alavanca Ideal (Fulcro Ótimo)** — suportado por FEM (Kling & Marcos 2013; García de Oteyza 2021):
 1.  🔬 Existe tecido suficiente ACIMA do anel (70% do estroma) para que as lamelas anteriores sejam tracionadas hidraulicamente, gerando o "repuxo" das fibras radiais que esmaga o cone no centro. *Coerênte com a mecânica de alavanca demonstrada pelo FEM — Kling & Marcos 2013.*
 2.  🔬 Existe tecido suficiente ABAIXO do anel (20-30%) para servir como uma "cama de resistência" (âncora). *Conceito de âncora posterior demonstrado por FEM — García de Oteyza 2021.*
 
@@ -508,3 +508,47 @@ references:
 
 ---
 *Pipeline Status: DRAFT ORIGINAL EDITION v0.8.0 — Com 6 Figuras (4 originais + 2 novas CXL×Perfil)*
+
+---
+
+## ✅ SKILL 9 — CHECKLIST EDITORIAL
+
+### Coerência Científica
+- [x] Modelo 4-camadas biomecânicas — original e coerente com WAXS/SHG
+- [x] Profundidade 70–75% padronizada (máximo admissível 80%)
+- [x] Análise Perfil × CXL inovadora — nenhum atlas publicado compara 6 perfis sob CXL
+- [x] Metodologia FEM documentáda com limitações explícitas
+
+### Coerência Clínica
+- [x] Tabela de eficácia retida pós-CXL por perfil — acionável
+- [x] Equação V_CXL = V_virgem × η_perfil(CXL) — formulação prática
+
+### Coerência com o Atlas
+- [x] Integra CH-002 (perfis), CH-004-006 (vetores), modelo 3-fibras
+- [x] Profundidade ótima consistente com CH-001, CH-004, CH-008
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL INDEPENDENTEMENTE.** A análise Perfil × CXL é inédita e merece publicação em JCRS ou Cornea.
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA
+
+### Revisor 1 — Biomecânica Corneana
+O modelo 4-camadas é consistente com dados Brillouin e FEM publicados. A análise CXL×Perfil é a primeira síntese integrada. **Sem objeção conceitual.** Sugestão: validação ex-vivo.
+
+### Revisor 2 — CXL Expert
+Os percentuais de eficácia retida são estimativas FEM, não dados clínicos diretos. A transparência metodológica mitiga o risco. **Aceito com ressalva sobre replicabilidade.**
+
+### Risco de Contestação
+**MÉDIO** — extrapolação FEM multi-perfil é new territory. Blindagem adequada (⚠️ marcações, seção metodológica detalhada).
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind
+
+### O Que Este Capítulo Representa
+O **capítulo mais denso e original** do Atlas após o ICE. A análise CXL×Perfil e o modelo 4-camadas expandem o framework vetorial para uma nova dimensão.
+
+### O Elemento Mais Poderoso
+A **tabela de eficácia retida por perfil pós-CXL** — nenhum atlas publicado tem esta informação. Potencial de citação altíssimo.

@@ -221,54 +221,49 @@ O VEsférico é a soma vetorial de todas as interações do anel com as 3 famíl
 
 O VEsférico responde: **"Qual é o efeito mecânico do anel?"** Mas existe uma pergunta que ele não responde: **"O paciente vai aproveitar esse efeito?"**
 
-É aqui que entra o **ICE (Index of Axial Coherence)** — um biomarcador funcional criado pelo autor que mede a **coerência angular** entre os eixos ópticos fundamentais:
-
-```
-ICE_min = |θ_topo - θ_coma|
-
-Onde:
-  θ_topo = eixo topográfico (meridiano mais curvo da córnea)
-  θ_coma = eixo da aberração comática (direção do cone óptico)
-
-Classificação:
-  ICE Alto  (< 15°)  → Eixos coerentes → alta capacidade de neuroadaptação
-  ICE Moderado (15-45°) → Coerência parcial → resultado variável
-  ICE Baixo (> 45°)  → Eixos discordantes → baixa neuroadaptação
-```
-
-#### Por Que o ICE Completa o VEsférico
-
-O VEsférico pode ser mecanicamente perfeito — o anel aplaina (VR), redistribui (VT), rotaciona (Vτ) e centraliza (VComa) — mas se os **eixos ópticos do paciente estão incoerentes**, o córtex visual não consegue interpretar a imagem melhorada. É como afinar perfeitamente um instrumento que ninguém sabe tocar.
-
-**Dados de validação (N=300 olhos, Reis 2026):**
-
-| ICE | N | BCVA Ganho (linhas) | Reintervenção | AUC |
-|---|---|---|---|---|
-| **Alto** | 118 | **4.2 ± 1.5** | 8.5% | — |
-| Moderado | 102 | 2.8 ± 1.8 | 17.6% | — |
-| **Baixo** | 80 | **1.6 ± 2.0** | 35.0% | — |
-| **ICE (geral)** | — | — | — | **0.82** |
-| Kmax (comparação) | — | — | — | 0.68 |
-
-> **O ICE tem AUC 0.82 vs Kmax 0.68** — ou seja, a coerência angular prediz o resultado visual 
-> melhor que a curvatura máxima. Isso prova numericamente o que o Atlas argumenta desde o Prefácio:
-> o Kmax sozinho é insuficiente.
-
-#### A Equação Completa
+É aqui que entra o **ICE (Index of Axial Coherence)** — um biomarcador funcional que mede a **coerência angular** entre os eixos ópticos fundamentais (topográfico, comático, refrativo). O ICE completa a equação cirúrgica:
 
 ```
 Resultado Cirúrgico = VEsférico × ICE
 
-Onde:
-  VEsférico = eficácia mecânica do anel (quão bem ele corrige)
-  ICE       = capacidade funcional do paciente (quão bem ele aproveita)
-
-→ VEsférico alto + ICE alto  = Resultado excelente (4.2 linhas)
+→ VEsférico alto + ICE alto  = Resultado excelente
 → VEsférico alto + ICE baixo = Resultado frustrante (anel funciona, paciente não vê)
-→ VEsférico baixo + ICE alto = Resultado subótimo (paciente poderia ver, anel falhou)
 ```
 
-> **💡 Síntese do Autor:** O VEsférico é a *mecânica*. O ICE é a *neurobiologia*. A cirurgia ideal precisa de ambos. Validação prospectiva em andamento (Reis, manuscrito submetido 2026).
+> **💡 Síntese:** O VEsférico é a *mecânica*. O ICE é a *neurobiologia*. A cirurgia ideal precisa de ambos. Para a fórmula completa, dados de validação (N=1.139, AUC 0.82) e aplicação clínica detalhada, ver **Capítulo 10 — ICE: O Índice de Coerência de Eixos**.
 
 ---
 *Pipeline Status: DRAFT v0.7.0 — Atualizado com integração ICE — Revisado pelo Engenheiro Vetorial*
+
+---
+
+## ✅ SKILL 9 — CHECKLIST EDITORIAL
+
+### Coerência Científica
+- [x] VEsférico definido como soma ponderada de VR+VT+Vτ+VComa
+- [x] Não-linearidade da soma reconhecida explicitamente
+- [x] ICE remetido ao CH-010 (sem duplicação)
+
+### Coerência Clínica
+- [x] Equação ‘Resultado = VEsférico × ICE' — formulão original e memórável
+- [x] Tabela fibrilar integrativa (VR=🔴, VT=🔵, Vτ=🟢) — síntese exemplar
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL.** O conceito de VEsférico como resultante integrada é original.
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA
+
+### Risco de Contestação
+**BAIXO** — capítulo integrativo que não faz afirmações quantitativas próprias (dados remetidos ao ICE).
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind
+
+### O Que Este Capítulo Representa
+O nó integrador — transforma 4 vetores individuais em uma linguagem única de análise resultante.
+
+### O Elemento Mais Poderoso
+A **tabela fibrilar** (VR=🔴, VT=🔵, Vτ=🟢, VComa=resultado) é a síntese mais didática do Atlas inteiro.

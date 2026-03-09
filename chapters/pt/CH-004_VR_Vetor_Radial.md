@@ -48,22 +48,22 @@ O **Vetor Radial (VR)** é a força biomecânica primária exercida pelo anel in
 
 Quando um corpo rígido — o anel — é inserido dentro de um tecido viscoelástico curvo — o estroma corneano —, ele impõe uma geometria localmente mais plana do que a curvatura natural da córnea. Este é o chamado **Efeito de Encurtamento de Arco** (*arc-shortening effect*).
 
-![Figura 4.1: Princípio Físico do Encurtamento de Arco — O implante rígido força o tecido viscoelástico a assumir a sua geometria plana](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\arc_shortening_viscoelastic_pt_1771775836446.png)
+![Figura 4.1: Princípio Físico do Encurtamento de Arco — O implante rígido força o tecido viscoelástico a assumir a sua geometria plana](../../images/CH-004_Vetor_Radial/arc_shortening_viscoelastic_pt_1771775836446.png)
 
 Para entender esse efeito de forma intuitiva e na escala microscópica, precisamos observar as **lamelas de colágeno** estromais. Se você insere uma cunha rígida (o anel intracorneano) no meio de um feixe de fibras contínuo, a porção da fibra que passa sobre a cunha é forçada a "desviar" de seu caminho original. Como resultado, ela é puxada, tracionando e esticando a porção adjacente da fibra na zona óptica central. A curvatura frouxa natural é perdida, resultando em um perfil central tenso e plano.
 
-![Figura 4.2: Analogia Biomecânica do Encurtamento de Arco — A inserção da cunha periférica consome comprimento focal e traciona as fibras adjacentes](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\arc_shortening_lamellar_v2_pt_1771777672694.png)
+![Figura 4.2: Analogia Biomecânica do Encurtamento de Arco — A inserção da cunha periférica consome comprimento focal e traciona as fibras adjacentes](../../images/CH-004_Vetor_Radial/arc_shortening_lamellar_v2_pt_1771777672694.png)
 
 A magnitude dessa tração direcional é governada por dois princípios fundamentais:
 
-1. **Lei das Espessuras de Barraquer (1964):** Esta é a lei fundamental da cirurgia refrativa corneana. Ela estabelece dois princípios simples e complementares:
+1. **Lei das Espessuras de Barraquer (1964):** Esta é a lei fundamental da cirurgia corneana. Ela estabelece dois princípios simples e complementares:
 
    - **Adicionar material na periferia** da córnea → o centro aplaina (fica mais plano).
    - **Remover material do centro** da córnea → o centro também aplaina.
 
    Em ambos os casos, a curvatura central diminui. O anel intracorneano explora a **primeira metade** dessa lei de maneira puramente biomecânica: ao inserir um implante (adicionando volume extra) no estroma periférico, este volume ocupa espaço entre as lamelas, esticando a superfície anterior tracionando a rede em direção ao limbo, o que resulta mecanicamente no aplanamento da zona central.
 
-   ![Figura 4.3: Lei de Barraquer focada em Biomecânica da Córnea — Comparação da adição periférica pelo Anel e a remoção central pelo Excimer Laser](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\barraquer_law_biomechanics_pt_1771774491898.png)
+   ![Figura 4.3: Lei de Barraquer focada em Biomecânica da Córnea — Comparação da adição periférica pelo Anel e a remoção central pelo Excimer Laser](../../images/CH-004_Vetor_Radial/barraquer_law_biomechanics_pt_1771774491898.png)
 
 2. **Relação Espessura/Diâmetro do Anel:** A força do Vetor Radial é governada por uma relação simples:
 
@@ -102,7 +102,22 @@ Ao interpor-se entre as lamelas, o implante força as fibras radiais a percorrer
 
 Esse acoplamento mecânico explica por que a topografia pós-operatória de um anel bem-posicionado mostra um padrão de **bowtie modificado** (formato de "gravata-borboleta" com achatamento central) — o sinal clínico de que o Vetor Radial funcionou exatamente como planejado.
 
-#### ModelNo vetor puramente matemático, a magnitude e distribuição formam:
+#### 4.1.1 — A Prova Biomecânica do VR: Opondo-se ao Colapso (FEBio)
+
+Para validar a necessidade do Vetor Radial, o autor utilizou o modelo de **Elementos Finitos (FEBio)** para simular o comportamento de uma córnea com déficit fibrilar inferotemporal (WAXS -44%) sob pressão intraocular (PIO 15mmHg).
+
+O resultado (ver Cap. 3, Seção 3.4.6) revela um **Vetor de Colapso (V_cone)**: um deslocamento anterior e inferior do tecido onde as lamelas falham em conter a pressão. 
+
+O **Vetor Radial (VR)** é a resposta de engenharia a este colapso:
+- Enquanto a PIO "empurra" o estroma enfraquecido para fora do plano, o anel aplica uma **tração centrífuga** que estica essas lamelas frouxas.
+- O VR atua como um "tensor" que reestabelece a pré-tensão lamelar perdida na ectasia.
+- **V_anel (VR) ≈ −V_cone (Colapso)**.
+
+Esta é a justificativa matemática de por que o VR é o motor da cirurgia: ele não apenas "achata" a córnea, ele **re-tensiona ativamente a rede de colágeno** que a PIO estava deformando.
+
+![Figura 4.5 — VR vs. Colapso FEBio: O anel aplicando tração radial para "esticar" a zona de colapso simulada no FEBio](../../images/CH-003_Classificacao/Figura_3.7_FEBio_Deslocamento.png)
+
+#### Modelagem Matemática do VR
 
 ```
 Vetor Radial = f(t, d, E_estromal, r)
@@ -116,7 +131,7 @@ Onde:
 
 Numa visão *top-down* (frontal), em vez de meras setas, observe a córnea como um tecido tensionado. Os segmentos laterais agem como **âncoras estromais**, puxando ativamente as linhas de tensão (as fibras) a partir das bordas, criando um trecho uniformemente esticado (zona óptica aplainada) em todo o centro.
 
-![Figura 4.5: Mapa de Tensão Biomecânica do Vetor Radial — Linhas de tração estromal puxadas a partir das âncoras periféricas garantindo uma zona óptica rígida e plana](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\top_down_tension_pt_1771774458719.png)
+![Figura 4.5: Mapa de Tensão Biomecânica do Vetor Radial — Linhas de tração estromal puxadas a partir das âncoras periféricas garantindo uma zona óptica rígida e plana](../../images/CH-004_Vetor_Radial/top_down_tension_pt_1771774458719.png)
 
 Num **anel de 360° (ex: MyoRing)**, o Vetor Radial foca esta tração radial simetricamente em toda a circunferência de ancoragem — o aplainamento é isotrópico.
 Em **segmentos de arco (como o Ferrara ou o Keraring)**, o Vetor Radial se concentra na zona onde o segmento está implantado e decai nas zonas sem implante, gerando uma **assimetria intencional** — que é exatamente o que desejamos quando o cone não é central.

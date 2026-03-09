@@ -70,7 +70,7 @@ Toda afirmação científica neste Atlas é classificada em um de três níveis:
 
 ### ICRS — Intracorneal Ring Segment (Segmento de Anel Intracorneano)
 - **Em palavras simples:** Um pequeno implante de plástico (PMMA) inserido dentro da córnea para corrigi-la mecanicamente nas doenças que deformam sua curvatura.
-- **Técnico:** Implante intraestromal de polimetilmetacrilato (PMMA) com geometria de arco, implantado a 70-80% da paquimetria local por cirurgia a laser femtossegundo ou dissector manual. Gera vetores de força (VR, VT, Vτ, VComa) que redistribuem a tensão estromal e reduzem a ectasia.
+- **Técnico:** Implante intraestromal de polimetilmetacrilato (PMMA) com geometria de arco, implantado a 70–75% (máximo admissível 80%) da paquimetria local por cirurgia a laser femtossegundo ou dissector manual. Gera vetores de força (VR, VT, Vτ, VComa) que redistribuem a tensão estromal e reduzem a ectasia.
 - **Capítulo principal:** CH-002 a CH-010
 
 ---

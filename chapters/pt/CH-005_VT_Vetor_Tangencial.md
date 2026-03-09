@@ -232,7 +232,7 @@ references:
     relevance: "Impacto das forças tangenciais de acordo com tamanho linear do PMMA, suportando a teoria comparativa de 90° vs 210/340°."
   - doi: "Historical/Technical"
     title: "Coupling Effect Principle in Refractive Surgery"
-    relevance: "Demonstra que toda cirurgia refrativa incisional/adição de anel que mexe intensamente num meridiano, reflete inversamente a 90 graus."
+    relevance: "Demonstra que toda cirurgia corneana incisional/adição de anel que mexe intensamente num meridiano, reflete inversamente a 90 graus."
 ```
 
 #### 💡 O VT na Escala das Fibras (Síntese do Autor)

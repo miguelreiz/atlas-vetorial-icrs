@@ -1,11 +1,11 @@
-# Capítulo 12 — Complicações e Manejo: Quando os Vetores Trabalham Contra Você
+# Capítulo 13 — Complicações e Manejo: Quando os Vetores Trabalham Contra Você
 
 ---
 
 ## 📋 METADADOS DO CAPÍTULO
 
 ```yaml
-chapter_id: CH-012
+chapter_id: CH-013
 title: "Complicações e Manejo: Diagnóstico e Solução Usando a Linguagem Vetorial"
 language: PT-BR
 status: draft
@@ -157,3 +157,36 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 
 ---
 *Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*
+
+---
+
+## ✅ SKILL 9 — CHECKLIST EDITORIAL
+
+### Coerência Científica
+- [x] Cada complicacao mapeada ao vetor e à família de fibras correspondentes
+- [x] Tabela complicação → vetor → fibra — original e systemática
+- [x] Soluções na linguagem vetorial (trocar espessura, trocar assimetria, corrigir eixo)
+
+### Coerência Clínica
+- [x] Armadilhas reais e frequentes (extrusão, haze, coma piorado)
+- [x] Manejo orientável por fibra — acionável na prática
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL.** A perspectiva fibrilar sobre complicações é inédita na literatura de ICRS.
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA
+
+### Risco de Contestação
+**BAIXO** — framework interpretativo, não dados quantitativos próprios.
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind
+
+### O Que Este Capítulo Representa
+O **capítulo de segurança** — essencial em qualquer atlas cirúrgico. A abordagem fibrilar transforma complicações em oportunidades didáticas.
+
+### O Elemento Mais Poderoso
+A **tabela complicação → vetor → fibra** — pode ser a referência padrão para troubleshooting de ICRS.

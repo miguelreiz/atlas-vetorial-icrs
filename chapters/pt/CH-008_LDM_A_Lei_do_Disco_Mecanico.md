@@ -129,6 +129,16 @@ A topografia continua sendo o exame. A LDM é a forma mais completa de lê-lo.
 
 ---
 
+### 2.1 O Embasamento da Engenharia: O Mapa de Von Mises (FEBio)
+
+Para provar que a distorção do Plácido reflete tensões reais, o autor submeteu o modelo de córnea ectásica (déficit IT de -44%) ao solver **FEBio**. O mapa de **Tensão de Von Mises** (Figura 8.2) revela que o pico de estresse estromal (magnitude de tração nas lamelas) coincide exatamente com o foco de distorção dos anéis de Plácido observados clinicamente.
+
+Ao identificar o **ENM (Eixo de Neutralização Mecânica)** no Plácido, o cirurgião está, na verdade, localizando o **eixo de maior tensão mecânica simulado pelo FEM**. 
+
+> **💡 Conclusão LDM:** O Plácido é o "FEBio do consultório". Seus anéis se comprimem onde a tensão estromal (Von Mises) é máxima. Tratar o K-max sem ler o mapa de tensões é negligenciar a causa raiz da deformidade.
+
+![Figura 8.2 — Mapa de Tensão Von Mises (FEBio): Demonstração do pico de estresse no quadrante inferotemporal, validando a Lei do Disco Mecânico como tradução visual dessa tensão.](../../images/CH-003_Classificacao/Figura_3.8_VonMises_Stress.png)
+
 ### 2. O Disco de Plácido como Campo de Forças
 
 #### O Princípio Fundamental
@@ -515,7 +525,7 @@ A literatura (Winkler 2013, Meek & Boote 2004, Radner & Mallinger) demonstra que
 
 ##### Implicação para a Leitura LDM
 
-💡 Quando a LDM calcula os vetores de força (Fr, Ft, Fτ) a partir do Plácido, ela está lendo a deformação da **superfície anterior** — que reflete o estroma anterior construído. Mas o anel não é implantado na superfície. Ele é implantado a **70–80% de profundidade** (✅ Kling & Marcos 2013, IOVS — profundidade ótima FEM; ✅ García de Oteyza 2021, PLOS ONE), onde a realidade biomecânica pode ser completamente diferente:
+💡 Quando a LDM calcula os vetores de força (Fr, Ft, Fτ) a partir do Plácido, ela está lendo a deformação da **superfície anterior** — que reflete o estroma anterior construído. Mas o anel não é implantado na superfície. Ele é implantado a **70–75% de profundidade (máximo admissível 80%)** (✅ Kling & Marcos 2013, IOVS — profundidade ótima FEM; ✅ García de Oteyza 2021, PLOS ONE), onde a realidade biomecânica pode ser completamente diferente:
 
 ```
 Córnea KC Avançado (350μm) — Implantação a 75% (≈260μm)

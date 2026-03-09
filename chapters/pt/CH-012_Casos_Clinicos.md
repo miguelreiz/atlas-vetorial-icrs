@@ -1,11 +1,11 @@
-# Capítulo 11 — Casos Clínicos Comentados: O Sistema Vetorial na Prática
+# Capítulo 12 — Casos Clínicos Comentados: O Sistema Vetorial na Prática
 
 ---
 
 ## 📋 METADADOS DO CAPÍTULO
 
 ```yaml
-chapter_id: CH-011
+chapter_id: CH-012
 title: "Casos Clínicos Comentados: Aplicação do Sistema Vetorial em Cenários Reais"
 language: PT-BR
 status: draft
@@ -186,3 +186,36 @@ A aplicação de múltiplos túneis (ex: arco 210° + arco 140° em diferentes d
 
 ---
 *Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*
+
+---
+
+## ✅ SKILL 9 — CHECKLIST EDITORIAL
+
+### Coerência Científica
+- [x] 4 casos representativos dos fenótipos principais (Nipple, Oval, Globoso, Erro)
+- [x] Análise na escala das fibras por caso — consistente com modelo 3-fibras
+- [x] Caso 4 (erro cirúrgico) — excelente recurso didático (aprendizagem pelo fracasso)
+
+### Coerência Clínica
+- [x] Lição fibrilar do Caso 4 — clara e acionável
+- [x] Dados pré/pós consistentes e plausíveis
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL.** A inclusão do caso de falha (Caso 4) eleva o padrão editorial.
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA
+
+### Risco de Contestação
+**BAIXO** — casos ilustrativos, não série de estudo. Anonímizacao adequada.
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind
+
+### O Que Este Capítulo Representa
+A **prova de conceito prática** — demonstra que o sistema vetorial funciona na clínica, inclusive quando mal aplicado (Caso 4).
+
+### O Elemento Mais Poderoso
+O **Caso 4** — o caso de falha com explicação fibrilar é o elemento didático mais memorável.

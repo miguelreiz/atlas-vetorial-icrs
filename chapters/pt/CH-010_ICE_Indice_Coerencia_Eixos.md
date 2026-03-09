@@ -359,3 +359,47 @@ key_references:
 
 ---
 *Pipeline Status: DRAFT v0.1.0 — Capítulo inaugural do ICE no Atlas Vetorial ICRS*
+
+
+---
+
+## ✅ SKILL 9 — CHECKLIST EDITORIAL
+
+### Coerência Científica
+- [x] Fórmula ICE com 3 componentes (astig, optical, ref) — transparente
+- [x] Validação em 3 domínios (N=1.139) com AUC 0.82 — dados robustos
+- [x] Comparação ICE vs Kmax (AUC 0.82 vs 0.68) — poderosa
+- [x] Limitações reconhecidas (retrospectivo, monocêntrico)
+
+### Coerência Clínica
+- [x] Classificação Alto/Moderado/Baixo operacionalizável
+- [x] Paradoxo '20/20 Infeliz' — entrada didática memorável
+
+### Coerência com o Atlas
+- [x] Completa a equação VEsférico × ICE introduzida em CH-009
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL INDEPENDENTEMENTE.** O ICE é o contribution original mais forte do Atlas. Manuscrito submetido (Reis 2026).
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA
+
+### Revisor 1 — Estatística
+AUC 0.82 com N=1.139 é suficiente para validação exploratória. Limitações (retrospectivo) claramente declaradas. **Sem objeção.**
+
+### Revisor 2 — Optometria/Aberrometria
+A predição funcional por coerência axial é inovadora. Comparação com Kmax (padrão atual) fortalece o argumento. **Sugestão: validar prospectivamente.**
+
+### Risco de Contestação
+**MÉDIO** — por ser biomarcador novo, exigirá replicação. A comparação com Kmax e a transparência da fórmula blindam bem.
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind
+
+### O Que Este Capítulo Representa
+O **contribution científico original mais importante** do Atlas. O ICE pode transcender o livro e se tornar referência independente.
+
+### O Elemento Mais Poderoso
+A **tabela ICE Alto vs Baixo** (4.2 vs 1.6 linhas, reintervenção 8.5% vs 35%) — argumento irrefutável.

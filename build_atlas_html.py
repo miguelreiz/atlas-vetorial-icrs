@@ -11,6 +11,7 @@ CHAPTERS_DIR = os.path.join(PROJECT_ROOT, "chapters", "pt")
 OUTPUT_FILE = os.path.join(PROJECT_ROOT, "Atlas_Vetorial_ICRS_Completo.html")
 
 CHAPTER_ORDER = [
+    "CH-000_Prefacio.md",
     "CH-001_Anatomia_Corneana.md",
     "CH-002_Biomecanica_Aneis.md",
     "CH-003_Classificacao_Ceratocone.md",
@@ -20,11 +21,16 @@ CHAPTER_ORDER = [
     "CH-007_VComa_Deslocamento_Optico.md",
     "CH-008_LDM_A_Lei_do_Disco_Mecanico.md",
     "CH-009_VEsferico_Soma_Vetorial.md",
-    "CH-010_Nomogramas_Vetoriais.md",
-    "CH-011_Casos_Clinicos.md",
-    "CH-012_Complicacoes_Manejo.md",
-    "CH-013_Futuro_Aneis.md",
+    "CH-010_ICE_Indice_Coerencia_Eixos.md",
+    "CH-011_Nomogramas_Vetoriais.md",
+    "CH-012_Casos_Clinicos.md",
+    "CH-013_Complicacoes_Manejo.md",
+    "CH-014_Futuro_Aneis.md",
+    "CH-015_Biomecanica_Profunda_CXL.md",
+    "CH-016_Malha_Estromal_Superfície.md",
+    "GLOSSARIO_TERMOS_TECNICOS.md",
     "ENCARTE_Referencia_Rapida.md",
+    "REFERENCIAS_BIBLIOGRAFICAS.md",
 ]
 
 def resolve_image_path(path, chapter_dir):

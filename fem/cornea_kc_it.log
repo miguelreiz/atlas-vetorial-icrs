@@ -1,0 +1,911 @@
+===========================================================================
+         ________    _________   _______       __     _________            
+        |        |\ |        |\ |       \\    |  |\  /         \\          
+        |    ____|| |    ____|| |    __  ||   |__|| |    ___    ||         
+        |   |\___\| |   |\___\| |   |\_| ||    \_\| |   //  \   ||         
+        |   ||__    |   ||__    |   ||_| ||   |  |\ |  ||    |  ||         
+        |       |\  |       |\  |         \\  |  || |  ||    |  ||         
+        |    ___||  |    ___||  |    ___   || |  || |  ||    |  ||         
+        |   |\__\|  |   |\__\|  |   |\__|  || |  || |  ||    |  ||         
+        |   ||      |   ||___   |   ||__|  || |  || |   \\__/   ||         
+        |   ||      |        |\ |          || |  || |           ||         
+        |___||      |________|| |_________//  |__||  \_________//          
+                                                                           
+      F I N I T E   E L E M E N T S   F O R   B I O M E C H A N I C S      
+                                                                           
+  version 4.12.0
+  FEBio is a registered trademark.                                         
+  copyright (c) 2006-2026 - All rights reserved                            
+                                                                           
+===========================================================================
+
+
+ *************************************************************************
+ *                               WARNING                                 *
+ * 24 isolated vertices removed.                                         *
+ *************************************************************************
+
+
+
+
+ FILES USED
+===========================================================================
+	Input file : C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\cornea_kc_it.feb
+	Plot file  : C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\cornea_kc_it.xplt
+	Log file   : C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\cornea_kc_it.log
+
+
+ MESH INFO
+===========================================================================
+	Number of materials ............................ : 2
+	Number of domains .............................. : 2
+	Number of nodes ................................ : 505
+	Number of shell elements ....................... : 480
+
+
+ MODULE
+===========================================================================
+	Module type ....................................... : solid
+
+
+ CONTROL DATA
+===========================================================================
+	analysis .......................................... : STATIC (0)
+	time_steps ........................................ : 10
+	step_size ......................................... : 0.1
+	plot_zero_state ................................... : no (0)
+	plot_range ........................................ : 0,-1
+	plot_level ........................................ : PLOT_MAJOR_ITRS (1)
+	output_level ...................................... : OUTPUT_MAJOR_ITRS (1)
+	plot_stride ....................................... : 1
+	output_stride ..................................... : 1
+	adaptor_re_solve .................................. : yes (1)
+	Auto time stepper activated ....................... : no
+ SOLVER PARAMETERS
+===========================================================================
+	symmetric_stiffness ............................... : symmetric (1)
+	equation_scheme ................................... : staggered (0)
+	equation_order .................................... : default (0)
+	optimize_bw ....................................... : no (0)
+	lstol ............................................. : 0.9
+	lsmin ............................................. : 0.01
+	lsiter ............................................ : 5
+	ls_check_jacobians ................................ : no (0)
+	max_refs .......................................... : 15
+	check_zero_diagonal ............................... : no (0)
+	zero_diagonal_tol ................................. : 0
+	force_partition ................................... : 0
+	reform_each_time_step ............................. : yes (1)
+	reform_augment .................................... : no (0)
+	diverge_reform .................................... : yes (1)
+	min_residual ...................................... : 1e-20
+	max_residual ...................................... : 0
+	dtol .............................................. : 0.001
+	etol .............................................. : 0.01
+	rtol .............................................. : 0
+	rhoi .............................................. : -2
+	alpha ............................................. : 1
+	beta .............................................. : 0.25
+	gamma ............................................. : 0.5
+	logSolve .......................................... : no (0)
+	arc_length ........................................ : 0
+	arc_length_scale .................................. : 0
+
+
+
+
+
+
+ MATERIAL DATA
+===========================================================================
+  1 - Cornea_Normal (type: Mooney-Rivlin)
+	density ........................................... : 1
+	k ................................................. : 4.76
+	pressure_model .................................... : default (0)
+	c1 ................................................ : 0.08
+	c2 ................................................ : 0.01
+---------------------------------------------------------------------------
+  2 - Cornea_IT (type: Mooney-Rivlin)
+	density ........................................... : 1
+	k ................................................. : 4.76
+	pressure_model .................................... : default (0)
+	c1 ................................................ : 0.045
+	c2 ................................................ : 0.006
+
+
+ BOUNDARY CONDITION DATA
+===========================================================================
+  1 -  Type: zero displacement
+	x_dof ............................................. : yes (1)
+	y_dof ............................................. : yes (1)
+	z_dof ............................................. : yes (1)
+
+
+ MODEL LOAD DATA
+===========================================================================
+  1 -  Type: pressure
+	pressure .......................................... : 0.00199983
+	symmetric_stiffness ............................... : yes (1)
+	linear ............................................ : no (0)
+	shell_bottom ...................................... : no (0)
+
+
+ LOAD CONTROLLER DATA
+===========================================================================
+load controller   1 - lc1 (type: loadcurve)
+	interpolate ....................................... : LINEAR (0)
+	extend ............................................ : CONSTANT (0)
+	points ............................................ : (can't display value)
+
+
+ OUTPUT DATA
+===========================================================================
+ LINEAR SOLVER DATA
+===========================================================================
+	Default linear solver ............................. : pardiso
+
+
+Data Record #1
+===========================================================================
+Step = 0
+Time = 0
+Data = sx;sy;sxy
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\stress_out.csv
+
+Data Record #2
+===========================================================================
+Step = 0
+Time = 0
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\disp_out.csv
+
+ *************************************************************************
+ * Selecting linear solver pardiso                                       *
+ *************************************************************************
+
+===== beginning time step 1 : 0.1 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+===== reforming stiffness matrix:
+	Nr of equations ........................... : 2814
+	Nr of nonzeroes in stiffness matrix ....... : 75189
+ 1
+ Nonlinear solution status: time= 0.1
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.042153e-06    1.950345e-05    0.000000e+00 
+	   energy              4.054911e-04    1.059909e-05    4.054911e-06 
+	   displacement        5.996207e-01    5.996207e-01    5.996207e-07 
+ 2
+ Nonlinear solution status: time= 0.1
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.042153e-06    5.727140e-07    0.000000e+00 
+	   energy              4.054911e-04    7.120716e-07    4.054911e-06 
+	   displacement        5.996207e-01    6.920699e-04    5.679631e-07 
+ 3
+ Nonlinear solution status: time= 0.1
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.042153e-06    2.572718e-08    0.000000e+00 
+	   energy              4.054911e-04    5.673156e-09    4.054911e-06 
+	   displacement        5.996207e-01    9.182681e-05    5.717513e-07 
+ 4
+ Nonlinear solution status: time= 0.1
+	stiffness updates             = 3
+	right hand side evaluations   = 5
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.042153e-06    1.433143e-09    0.000000e+00 
+	   energy              4.054911e-04    3.342021e-10    4.054911e-06 
+	   displacement        5.996207e-01    2.074404e-06    5.736057e-07 
+ 5
+ Nonlinear solution status: time= 0.1
+	stiffness updates             = 4
+	right hand side evaluations   = 6
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.042153e-06    2.081250e-11    0.000000e+00 
+	   energy              4.054911e-04    9.709804e-12    4.054911e-06 
+	   displacement        5.996207e-01    6.046707e-08    5.736277e-07 
+
+convergence summary
+    number of iterations   : 5
+    number of reformations : 1
+
+------- converged at time : 0.1
+
+
+Data Record #1
+===========================================================================
+Step = 1
+Time = 0.1
+Data = sx;sy;sxy
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\stress_out.csv
+
+Data Record #2
+===========================================================================
+Step = 1
+Time = 0.1
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\disp_out.csv
+
+===== beginning time step 2 : 0.2 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.2
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.060458e-06    1.318902e-05    0.000000e+00 
+	   energy              3.926402e-04    7.855554e-06    3.926402e-06 
+	   displacement        5.403986e-01    5.403986e-01    5.403986e-07 
+ 2
+ Nonlinear solution status: time= 0.2
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.060458e-06    2.339437e-07    0.000000e+00 
+	   energy              3.926402e-04    3.548408e-07    3.926402e-06 
+	   displacement        5.403986e-01    3.614379e-04    5.177020e-07 
+ 3
+ Nonlinear solution status: time= 0.2
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.060458e-06    1.071617e-08    0.000000e+00 
+	   energy              3.926402e-04    1.930302e-09    3.926402e-06 
+	   displacement        5.403986e-01    3.833459e-05    5.197210e-07 
+ 4
+ Nonlinear solution status: time= 0.2
+	stiffness updates             = 3
+	right hand side evaluations   = 5
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.060458e-06    3.535859e-10    0.000000e+00 
+	   energy              3.926402e-04    1.215232e-10    3.926402e-06 
+	   displacement        5.403986e-01    6.017924e-07    5.206903e-07 
+ 5
+ Nonlinear solution status: time= 0.2
+	stiffness updates             = 4
+	right hand side evaluations   = 6
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.060458e-06    4.372690e-12    0.000000e+00 
+	   energy              3.926402e-04    1.689423e-12    3.926402e-06 
+	   displacement        5.403986e-01    1.597605e-08    5.206837e-07 
+
+convergence summary
+    number of iterations   : 5
+    number of reformations : 1
+
+------- converged at time : 0.2
+
+
+Data Record #1
+===========================================================================
+Step = 2
+Time = 0.2
+Data = sx;sy;sxy
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\stress_out.csv
+
+Data Record #2
+===========================================================================
+Step = 2
+Time = 0.2
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\disp_out.csv
+
+===== beginning time step 3 : 0.3 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.3
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.074513e-06    9.582728e-06    0.000000e+00 
+	   energy              3.826735e-04    6.137467e-06    3.826735e-06 
+	   displacement        4.953258e-01    4.953258e-01    4.953258e-07 
+ 2
+ Nonlinear solution status: time= 0.3
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.074513e-06    1.112745e-07    0.000000e+00 
+	   energy              3.826735e-04    1.995453e-07    3.826735e-06 
+	   displacement        4.953258e-01    2.118839e-04    4.781842e-07 
+ 3
+ Nonlinear solution status: time= 0.3
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.074513e-06    4.973455e-09    0.000000e+00 
+	   energy              3.826735e-04    8.009061e-10    3.826735e-06 
+	   displacement        4.953258e-01    1.858076e-05    4.792558e-07 
+ 4
+ Nonlinear solution status: time= 0.3
+	stiffness updates             = 3
+	right hand side evaluations   = 5
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.074513e-06    1.064609e-10    0.000000e+00 
+	   energy              3.826735e-04    4.861543e-11    3.826735e-06 
+	   displacement        4.953258e-01    2.123208e-07    4.798197e-07 
+
+convergence summary
+    number of iterations   : 4
+    number of reformations : 1
+
+------- converged at time : 0.3
+
+
+Data Record #1
+===========================================================================
+Step = 3
+Time = 0.3
+Data = sx;sy;sxy
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\stress_out.csv
+
+Data Record #2
+===========================================================================
+Step = 3
+Time = 0.3
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\disp_out.csv
+
+===== beginning time step 4 : 0.4 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.4
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.101105e-06    7.348056e-06    0.000000e+00 
+	   energy              3.747038e-04    4.968127e-06    3.747038e-06 
+	   displacement        4.597987e-01    4.597987e-01    4.597987e-07 
+ 2
+ Nonlinear solution status: time= 0.4
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.101105e-06    5.923269e-08    0.000000e+00 
+	   energy              3.747038e-04    1.225917e-07    3.747038e-06 
+	   displacement        4.597987e-01    1.343551e-04    4.463690e-07 
+ 3
+ Nonlinear solution status: time= 0.4
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.101105e-06    2.563219e-09    0.000000e+00 
+	   energy              3.747038e-04    3.848007e-10    3.747038e-06 
+	   displacement        4.597987e-01    1.013082e-05    4.469147e-07 
+ 4
+ Nonlinear solution status: time= 0.4
+	stiffness updates             = 3
+	right hand side evaluations   = 5
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.101105e-06    3.776383e-11    0.000000e+00 
+	   energy              3.747038e-04    2.159854e-11    3.747038e-06 
+	   displacement        4.597987e-01    8.797177e-08    4.472721e-07 
+
+convergence summary
+    number of iterations   : 4
+    number of reformations : 1
+
+------- converged at time : 0.4
+
+
+Data Record #1
+===========================================================================
+Step = 4
+Time = 0.4
+Data = sx;sy;sxy
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\stress_out.csv
+
+Data Record #2
+===========================================================================
+Step = 4
+Time = 0.4
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\disp_out.csv
+
+===== beginning time step 5 : 0.5 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.5
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.111263e-06    5.872878e-06    0.000000e+00 
+	   energy              3.682620e-04    4.143187e-06    3.682620e-06 
+	   displacement        4.311547e-01    4.311547e-01    4.311547e-07 
+ 2
+ Nonlinear solution status: time= 0.5
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.111263e-06    3.442464e-08    0.000000e+00 
+	   energy              3.682620e-04    8.070222e-08    3.682620e-06 
+	   displacement        4.311547e-01    9.052061e-05    4.203178e-07 
+ 3
+ Nonlinear solution status: time= 0.5
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.111263e-06    1.433446e-09    0.000000e+00 
+	   energy              3.682620e-04    2.066521e-10    3.682620e-06 
+	   displacement        4.311547e-01    6.038934e-06    4.205646e-07 
+ 4
+ Nonlinear solution status: time= 0.5
+	stiffness updates             = 3
+	right hand side evaluations   = 5
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.111263e-06    1.522213e-11    0.000000e+00 
+	   energy              3.682620e-04    1.058576e-11    3.682620e-06 
+	   displacement        4.311547e-01    4.128890e-08    4.208062e-07 
+
+convergence summary
+    number of iterations   : 4
+    number of reformations : 1
+
+------- converged at time : 0.5
+
+
+Data Record #1
+===========================================================================
+Step = 5
+Time = 0.5
+Data = sx;sy;sxy
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\stress_out.csv
+
+Data Record #2
+===========================================================================
+Step = 5
+Time = 0.5
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\disp_out.csv
+
+===== beginning time step 6 : 0.6 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.6
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.123460e-06    4.850430e-06    0.000000e+00 
+	   energy              3.629782e-04    3.529535e-06    3.629782e-06 
+	   displacement        4.076047e-01    4.076047e-01    4.076047e-07 
+ 2
+ Nonlinear solution status: time= 0.6
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.123460e-06    2.145598e-08    0.000000e+00 
+	   energy              3.629782e-04    5.610906e-08    3.629782e-06 
+	   displacement        4.076047e-01    6.378032e-05    3.986624e-07 
+ 3
+ Nonlinear solution status: time= 0.6
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.123460e-06    8.637573e-10    0.000000e+00 
+	   energy              3.629782e-04    1.216933e-10    3.629782e-06 
+	   displacement        4.076047e-01    3.869947e-06    3.987358e-07 
+ 4
+ Nonlinear solution status: time= 0.6
+	stiffness updates             = 3
+	right hand side evaluations   = 5
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.123460e-06    6.855499e-12    0.000000e+00 
+	   energy              3.629782e-04    5.682780e-12    3.629782e-06 
+	   displacement        4.076047e-01    2.154473e-08    3.989081e-07 
+
+convergence summary
+    number of iterations   : 4
+    number of reformations : 1
+
+------- converged at time : 0.6
+
+
+Data Record #1
+===========================================================================
+Step = 6
+Time = 0.6
+Data = sx;sy;sxy
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\stress_out.csv
+
+Data Record #2
+===========================================================================
+Step = 6
+Time = 0.6
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\disp_out.csv
+
+===== beginning time step 7 : 0.7 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.7
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.136615e-06    4.112059e-06    0.000000e+00 
+	   energy              3.586111e-04    3.058273e-06    3.586111e-06 
+	   displacement        3.879498e-01    3.879498e-01    3.879498e-07 
+ 2
+ Nonlinear solution status: time= 0.7
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.136615e-06    1.415596e-08    0.000000e+00 
+	   energy              3.586111e-04    4.077967e-08    3.586111e-06 
+	   displacement        3.879498e-01    4.655328e-05    3.804361e-07 
+ 3
+ Nonlinear solution status: time= 0.7
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.136615e-06    5.540400e-10    0.000000e+00 
+	   energy              3.586111e-04    7.737278e-11    3.586111e-06 
+	   displacement        3.879498e-01    2.625850e-06    3.804082e-07 
+ 4
+ Nonlinear solution status: time= 0.7
+	stiffness updates             = 3
+	right hand side evaluations   = 5
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.136615e-06    3.388641e-12    0.000000e+00 
+	   energy              3.586111e-04    3.303869e-12    3.586111e-06 
+	   displacement        3.879498e-01    1.225138e-08    3.805363e-07 
+
+convergence summary
+    number of iterations   : 4
+    number of reformations : 1
+
+------- converged at time : 0.7
+
+
+Data Record #1
+===========================================================================
+Step = 7
+Time = 0.7
+Data = sx;sy;sxy
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\stress_out.csv
+
+Data Record #2
+===========================================================================
+Step = 7
+Time = 0.7
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\disp_out.csv
+
+===== beginning time step 8 : 0.8 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.8
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.150239e-06    3.560210e-06    0.000000e+00 
+	   energy              3.549858e-04    2.686820e-06    3.549858e-06 
+	   displacement        3.713432e-01    3.713432e-01    3.713432e-07 
+ 2
+ Nonlinear solution status: time= 0.8
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.150239e-06    9.790165e-09    0.000000e+00 
+	   energy              3.549858e-04    3.074373e-08    3.549858e-06 
+	   displacement        3.713432e-01    3.496175e-05    3.649346e-07 
+ 3
+ Nonlinear solution status: time= 0.8
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.150239e-06    3.744163e-10    0.000000e+00 
+	   energy              3.549858e-04    5.247196e-11    3.549858e-06 
+	   displacement        3.713432e-01    1.864521e-06    3.648478e-07 
+ 4
+ Nonlinear solution status: time= 0.8
+	stiffness updates             = 3
+	right hand side evaluations   = 5
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.150239e-06    1.812222e-12    0.000000e+00 
+	   energy              3.549858e-04    2.055921e-12    3.549858e-06 
+	   displacement        3.713432e-01    7.467690e-09    3.649464e-07 
+
+convergence summary
+    number of iterations   : 4
+    number of reformations : 1
+
+------- converged at time : 0.8
+
+
+Data Record #1
+===========================================================================
+Step = 8
+Time = 0.8
+Data = sx;sy;sxy
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\stress_out.csv
+
+Data Record #2
+===========================================================================
+Step = 8
+Time = 0.8
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\disp_out.csv
+
+===== beginning time step 9 : 0.9 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.9
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.164104e-06    3.135597e-06    0.000000e+00 
+	   energy              3.519721e-04    2.387626e-06    3.519721e-06 
+	   displacement        3.571688e-01    3.571688e-01    3.571688e-07 
+ 2
+ Nonlinear solution status: time= 0.9
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.164104e-06    7.044080e-09    0.000000e+00 
+	   energy              3.519721e-04    2.389830e-08    3.519721e-06 
+	   displacement        3.571688e-01    2.688108e-05    3.516335e-07 
+ 3
+ Nonlinear solution status: time= 0.9
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.164104e-06    2.643115e-10    0.000000e+00 
+	   energy              3.519721e-04    3.756507e-11    3.519721e-06 
+	   displacement        3.571688e-01    1.373130e-06    3.515134e-07 
+ 4
+ Nonlinear solution status: time= 0.9
+	stiffness updates             = 3
+	right hand side evaluations   = 5
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.164104e-06    1.036419e-12    0.000000e+00 
+	   energy              3.519721e-04    1.354358e-12    3.519721e-06 
+	   displacement        3.571688e-01    4.814112e-09    3.515915e-07 
+
+convergence summary
+    number of iterations   : 4
+    number of reformations : 1
+
+------- converged at time : 0.9
+
+
+Data Record #1
+===========================================================================
+Step = 9
+Time = 0.9
+Data = sx;sy;sxy
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\stress_out.csv
+
+Data Record #2
+===========================================================================
+Step = 9
+Time = 0.9
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\disp_out.csv
+
+===== beginning time step 10 : 1 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 1
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.178100e-06    2.800676e-06    0.000000e+00 
+	   energy              3.494708e-04    2.142179e-06    3.494708e-06 
+	   displacement        3.449674e-01    3.449674e-01    3.449674e-07 
+ 2
+ Nonlinear solution status: time= 1
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.178100e-06    5.241574e-09    0.000000e+00 
+	   energy              3.494708e-04    1.906393e-08    3.494708e-06 
+	   displacement        3.449674e-01    2.108000e-05    3.401347e-07 
+ 3
+ Nonlinear solution status: time= 1
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.178100e-06    1.935393e-10    0.000000e+00 
+	   energy              3.494708e-04    2.813215e-11    3.494708e-06 
+	   displacement        3.449674e-01    1.041708e-06    3.399970e-07 
+ 4
+ Nonlinear solution status: time= 1
+	stiffness updates             = 3
+	right hand side evaluations   = 5
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            2.178100e-06    6.278321e-13    0.000000e+00 
+	   energy              3.494708e-04    9.354037e-13    3.494708e-06 
+	   displacement        3.449674e-01    3.247366e-09    3.400602e-07 
+
+convergence summary
+    number of iterations   : 4
+    number of reformations : 1
+
+------- converged at time : 1
+
+
+Data Record #1
+===========================================================================
+Step = 10
+Time = 1
+Data = sx;sy;sxy
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\stress_out.csv
+
+Data Record #2
+===========================================================================
+Step = 10
+Time = 1
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\disp_out.csv
+
+
+ N O N L I N E A R   I T E R A T I O N   I N F O R M A T I O N
+
+	Number of time steps completed .................... : 10
+
+	Total number of equilibrium iterations ............ : 42
+
+	Average number of equilibrium iterations .......... : 4.2
+
+	Total number of right hand evaluations ............ : 52
+
+	Total number of stiffness reformations ............ : 10
+
+
+ L I N E A R   S O L V E R   S T A T S
+
+	Total calls to linear solver ........ : 42
+
+	Avg iterations per solve ............ : 1
+
+	Time in linear solver: 0:00:00
+
+ Peak memory  : 31.7 MB
+
+ Elapsed time : 0:00:01
+
+ T I M I N G   I N F O R M A T I O N
+
+	Input time ...................... : 0:00:00 (0.0092839 sec)
+
+	Initialization time ............. : 0:00:00 (0.0095588 sec)
+
+	Solve time ...................... : 0:00:01 (0.749844 sec)
+
+	   IO-time (plot, dmp, data) .... : 0:00:00 (0.110709 sec)
+
+	   reforming stiffness .......... : 0:00:00 (0.0044366 sec)
+
+	   evaluating stiffness ......... : 0:00:00 (0.107967 sec)
+
+	   evaluating residual .......... : 0:00:00 (0.0424466 sec)
+
+	   model update ................. : 0:00:00 (0.0656207 sec)
+
+	   QN updates ................... : 0:00:00 (0.0014664 sec)
+
+	   time in linear solver ........ : 0:00:00 (0.40588 sec)
+
+	Total elapsed time .............. : 0:00:01 (0.780587 sec)
+
+
+ N O R M A L   T E R M I N A T I O N
+

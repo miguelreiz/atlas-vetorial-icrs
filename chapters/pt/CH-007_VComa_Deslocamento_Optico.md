@@ -251,3 +251,56 @@ O VComa não é um vetor mecânico — é o **resultado óptico** da distribuiç
 
 ---
 *Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*
+
+
+---
+
+## ✅ SKILL 9 — CHECKLIST EDITORIAL (Executive Chief Editor)
+
+### Coerência Científica
+- [x] VComa definido como vetor de resultado óptico (não mecânico) — distinção correta
+- [x] Relação VComa ↔ Vτ claramente estabelecida (assimetria de oblíquas → deslocamento de ápice)
+- [x] Referência a Zernike Z(3,-1) e Z(3,+1) correta
+- [x] Sem extrapolação não marcada — hipóteses com 💡
+
+### Coerência Clínica
+- [x] Analogia do farol torto — excelente didática
+- [x] Distinção anel simétrico (VR puro, sem VComa) vs assimétrico (Vτ + VComa) — fundamental
+- [x] Abordagem por hemicórneas (inferior cedida vs superior preservada) — visão cirúrgica prática
+
+### Coerência com o Atlas
+- [x] Modelo 3-fibras coerente (🔴🔵🟢)
+- [x] Código de cores VComa consistente com sistema do Atlas
+- [x] Cross-ref com CH-004 (VR), CH-006 (Vτ) e CH-009 (VEsférico)
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL.** A explicação da relação VComa-oblíquas é a mais clara já escrita. A analogia do farol é memorável.
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA (Congress Readiness Validator)
+
+### Revisor 1 — Biomecânica Corneana
+A classificação do VComa como vetor de resultado (não de força) é correta e evita confusão conceitual. **Sem objeção.**
+
+### Revisor 2 — Aberrometria e Óptica
+Os coeficientes de Zernike Z(3,-1) e Z(3,+1) são usados adequadamente. A explicação de coma vertical vs horizontal é didática. **Sem objeção.**
+
+### Revisor 3 — Metodologia
+Sem dados quantitativos próprios — hipóteses marcadas com 💡. **Risco baixo.**
+
+### Risco de Contestação
+**BAIXO** — capítulo didático e conceitual, sem afirmações quantitativas não embasadas.
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind (Pré-Produção)
+
+### O Que Este Capítulo Representa no Atlas
+Fecha os 4 vetores individuais (VR, VT, Vτ, VComa), estabelecendo o framework completo antes da integração no VEsférico (CH-009). O VComa é o elo entre mecânica e óptica.
+
+### O Elemento Mais Poderoso
+A **Síntese do Autor** que conecta degradação de oblíquas → deslizamento lamelar → migração do ápice → coma é a cadeia causal mais elegante do Atlas.
+
+### O Que Pode Tornar Isto Referência
+Publicar a **distinção anel simétrico (VR) vs assimétrico (Vτ+VComa)** como argumento formal em JCRS elevaria o padrão de planejamento cirúrgico.

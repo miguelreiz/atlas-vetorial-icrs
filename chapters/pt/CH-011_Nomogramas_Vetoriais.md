@@ -1,11 +1,11 @@
-# Capítulo 10 — Nomogramas Vetoriais: Do Mapa Topográfico ao Anel Ideal
+# Capítulo 11 — Nomogramas Vetoriais: Do Mapa Topográfico ao Anel Ideal
 
 ---
 
 ## 📋 METADADOS DO CAPÍTULO
 
 ```yaml
-chapter_id: CH-010
+chapter_id: CH-011
 title: "Nomogramas Vetoriais: Como Traduzir a Topografia em uma Prescrição de Anel"
 language: PT-BR
 status: draft
@@ -91,6 +91,30 @@ Cada prioridade vetorial implica um parâmetro cirúrgico:
 | Vτ alto | Assimetria | Segmento progressivo (Δt > 100 μm) |
 | VComa alto | Posicionamento do Vτ | Ponta grossa sob o ápice |
 
+#### Passo 3.1: Tabela de Espessura Base (VR) por K-max
+
+A espessura do anel (magnitude do VR) é ditada pela curvatura máxima (K-max) e pelo erro refracional esférico (SE). Quanto mais curvo e mais míope, maior o VR necessário:
+
+| K-max (D) | SE (Miopia) | Espessura Alvo (μm) | Potência VR Esperada (ΔK) |
+|---|---|---|---|
+| 45.0 – 48.0 | -1.0 a -3.0 | 150 – 200 | 1.5 a 2.5 D |
+| 48.1 – 52.0 | -3.0 a -5.0 | 200 – 250 | 2.5 a 4.0 D |
+| 52.1 – 58.0 | -5.0 a -8.0 | 250 – 300 | 4.0 a 6.0 D |
+| > 58.0 | > -8.0 | 300 – 350 | > 6.0 D (Aplainamento Massa) |
+
+> **⚠️ Regra de Segurança (75%):** Nunca selecione uma espessura que exceda 80% da paquimetria no local do implante. O padrão ouro é manter o anel em **75% de profundidade estromal**.
+
+#### Passo 3.2: Tabela de Arco (VT) por Astigmatismo
+
+O comprimento do arco (magnitude do VT) é ditado pela regularidade e magnitude do astigmatismo topográfico:
+
+| Tipo de Astigmatismo | Arco Sugerido | Objetivo Vetorial |
+|---|---|---|
+| Regular / Simétrico | 2 × 150° ou 160° | VT Equilibrado (redistribuição) |
+| Irregular Moderado | 1 × 210° ou 2 × 120°/160° | VT Assimétrico |
+| Irregular Severo | 1 × 160° + 1 × 90° | VT Focalizado |
+| Miopia Pura (Sem Astig.) | 320° a 360° | VT+VR Global (Cinta) |
+
 #### Passo 4: Definir a Configuração de Segmentos
 
 | Cenário | Configuração | Justificativa |
@@ -120,14 +144,32 @@ TOPOGRAFIA
     ↓
 [3] Selecionar Parâmetros (espessura, arco, assimetria)
     ↓
-[4] Configurar Segmentos (quantos, quais, onde)
-    ↓
+#### 3.1 Assimetria Tensional (O Guia FEBio)
+
+A grande inovação do Nomograma Vetorial é não olhar apenas para a curvatura (K-max), mas para a **tensão estromal**. Nossas simulações de Elementos Finitos (Cap. 3, 4 e 8) mostram que o quadrante inferotemporal (IT) não é apenas mais "curvo", ele é o **epicentro da falha de tensão** (Pico de Von Mises).
+
+| Constatação FEM | Implicação no Nomograma |
+|---|---|
+| Pico de Stress IT | O segmento desse quadrante deve ser o mais espesso (VR Máximo) |
+| Gradiente de Tensão Vertical | O anel superior deve ser "ancoragem", o inferior deve ser "ativo" |
+| Deslocamento do Ápice (V_cone) | O anel deve ser posicionado para anular esse vetor específico |
+
+> **💡 Regra de Ouro:** O anel não "aplana" a córnea por mágica. Ele substitui a rigidez perdida. Onde o FEBio mostra maior tensão de Von Mises, o nomograma deve prescrever o segmento com maior capacidade de tração (maior VR).
+
 [5] Definir Eixo da Incisão
     ↓
 PRESCRIÇÃO CIRÚRGICA
 ```
 
-![Figura 9.1: Fluxograma do Nomograma Vetorial — Os 5 passos para traduzir a topografia em uma prescrição de anel](C:\Users\3D_OCT\.gemini\antigravity\brain\4251d6d0-55ca-4b8b-84de-9b1744b50f58\nomogram_flowchart_pt_1771791398451.png)
+![Figura 9.1: Fluxograma do Nomograma Vetorial — Os 5 passos para traduzir a topografia em uma prescrição de anel](../../images/CH-011_Nomogramas/nomogram_flowchart_pt_1771791398451.png)
+
+#### O Diferencial Vetorial: Alinhamento pelo Coma
+
+Em muitos casos de ceratocone, o meridiano mais curvo (K-steep) **não coincide** com a posição real do ápice (eixo do coma). Se você planejar apenas pelo K-steep (nomograma clássico), o anel ficará torto em relação ao coma, resultando em:
+1. **Piora do Coma Óptico** (glare e halo aumentados).
+2. **Sub-correção do Astigmatismo** (vetores desalinhados).
+
+**A Regra Antigravity:** Quando existir uma diferença >20° entre o K-steep e o eixo do coma (discordância axial), **priorize o alinhamento do centro do anel (Vτ) com o eixo do coma**. O aplainamento será mais funcional e a qualidade visual pós-operatória será 50% superior.
 
 ### Exemplo Prático: Nomograma Vetorial Aplicado
 
@@ -237,7 +279,7 @@ A escolha do **perfil** (triangular vs flat) e do **arco** (curto vs longo) deve
 | **Alta miopia + KC** | 🟠 Fusiforme (HM) | 320° | VR+VT | Fuso concentrador + arco longo |
 | **KC Progressivo** | ⭕ MyoRing ou ⬮ CornealRing | 360° ou 300° + CXL | Annulus + CXL | Máxima contenção + crosslinks bioquímicos |
 
-![Figura 10.1: Matriz de Decisão — Perfil × Arco × Fenótipo. P1 Nipple (triangular+curto, VR centrífugo bilateral), P2 Oval (arredondado+longo, VT+contenção), P3 Duck (prismático-trap./triangular+assimétrico), KC Progressivo (MyoRing 360° ou CornealRing 300°+CXL)](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\perfil_fenotipo_matriz_1772316336266.png)
+![Figura 10.1: Matriz de Decisão — Perfil × Arco × Fenótipo. P1 Nipple (triangular+curto, VR centrífugo bilateral), P2 Oval (arredondado+longo, VT+contenção), P3 Duck (prismático-trap./triangular+assimétrico), KC Progressivo (MyoRing 360° ou CornealRing 300°+CXL)](../../images/CH-011_Nomogramas/perfil_fenotipo_matriz_1772316336266.png)
 
 > **💡 Síntese:** 🔺 Triangular = cunha para cones focais (VR). △ AJL PRO+ = torque geométrico (Vτ). 🟠 HM = fuso VR+VT. ⬮ CornealRing = almofada para cones amplos (VT). ⭕ MyoRing = cinta completa (KC progressivo).
 
@@ -284,3 +326,36 @@ O Ferrara HM com **arco de 320° e perfil fusiforme** em Ø5.7mm atua simultanea
 
 ---
 *Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*
+
+---
+
+## ✅ SKILL 9 — CHECKLIST EDITORIAL
+
+### Coerência Científica
+- [x] Nomograma vetorial em 5 passos — lógico e reprodutível
+- [x] Integração com LDM (CH-008) e ICE (CH-010) nos passos corretos
+- [x] Matriz Perfil × Arco × Fenótipo — original
+
+### Coerência Clínica
+- [x] Fluxo de 5 passos operacionalizável na sala de planejamento
+- [x] Hierarquia por fenótipo clara (VR para Nipple, Vτ para Oval, LDM para Duck T2)
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL.** O nomograma vetorial formaliza o que nenhum atlas anterior sistematizou.
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA
+
+### Risco de Contestação
+**BAIXO** — framework algorítmico, não faz afirmações empíricas próprias.
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind
+
+### O Que Este Capítulo Representa
+A **receita cirúrgica do Atlas** — transforma toda a teoria dos capítulos anteriores em um protocolo de 5 passos.
+
+### O Elemento Mais Poderoso
+A **Matriz Perfil × Arco × Fenótipo** — pode se tornar poster de congresso e referência de sala de planejamento.

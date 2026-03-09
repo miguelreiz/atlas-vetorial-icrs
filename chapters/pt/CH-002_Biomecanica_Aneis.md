@@ -334,7 +334,7 @@ O ICRS produz 5 vetores biomecânicos como **resultado da cascata Tenting → Ar
 
 #### O ICRS na Escala das Fibras — Como o Anel Corrige
 
-![Figura 2.5: ICRS — A Correção na Escala das Fibras. Vista superior mostrando: anel retensiona radiais (🔴→VR aplainamento), cria nova linha tangencial artificial (🔵→VT redistribuição), e estabiliza lamelas onde oblíquas (🟢) falharam (Vτ travamento). Zona de ectasia reduzida após implantação.](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\icrs_fiber_correction_1772278243571.png)
+![Figura 2.5: ICRS — A Correção na Escala das Fibras. Vista superior mostrando: anel retensiona radiais (🔴→VR aplainamento), cria nova linha tangencial artificial (🔵→VT redistribuição), e estabiliza lamelas onde oblíquas (🟢) falharam (Vτ travamento). Zona de ectasia reduzida após implantação.](../../images/CH-002_Biomecanica/icrs_fiber_correction_1772278243571.png)
 
 > **💡 Síntese do Autor (3-Fibras→3-Vetores):** Na escala das fibras, o anel interage diretamente com cada família: (1) tensiona **radiais** → VR; (2) cria nova linha **tangencial** → VT; (3) estabiliza **lamelas** como trava interlamelar → Vτ. O mecanismo é análogo ao das oblíquas (ambos impedem deslizamento), mas mecanisticamente diferente: oblíquas = tração biológica; ICRS = compressão mecânica PMMA.
 
@@ -554,7 +554,7 @@ O formato da seção transversal do anel determina **como** o estresse é distri
 - 360° = 100% de cobertura → contenção máxima
 - ✅ Melhor para: KC progressivo jovem, estabilização pura, Ø5-8mm
 
-![Figura 2.6: Triangular vs Flat — Interação com as fibras de colágeno. Triangular: força centrífuga focal, VR concentrado (cunha entre lamelas). Flat: força centrífuga difusa, VR diluído + VT (almofada sobre lamelas). Aplainamento = consequência geométrica.](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\triangular_flat_fibras_1772316348524.png)
+![Figura 2.6: Triangular vs Flat — Interação com as fibras de colágeno. Triangular: força centrífuga focal, VR concentrado (cunha entre lamelas). Flat: força centrífuga difusa, VR diluído + VT (almofada sobre lamelas). Aplainamento = consequência geométrica.](../../images/CH-002_Biomecanica/triangular_flat_fibras_1772316348524.png)
 
 ---
 *Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*

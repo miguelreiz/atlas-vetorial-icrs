@@ -22,7 +22,7 @@ Mas poucas vezes nos perguntamos **por que acontece**. Não "por que" no sentido
 
 Este livro nasceu de uma insatisfação com as respostas disponíveis. A Tabela 0.1 ilustra perfeitamente o problema da cirurgia "baseada em tabelas" — mesmo conhecendo os parâmetros (como o K-max), a resposta biológica (mudança na acuidade visual) é altamente variável.
 
-![Gráfico de Dispersão (Khanthik 2024, analisado no estudo ICE): A imprevisibilidade da cirurgia tradicional evidenciada na relação falha entre Kmax e o ganho de visão real. Quando não se domina a geometria fibrilar, córneas iguais entregam visões diferentes.](C:\Users\3D_OCT\.gemini\antigravity\brain\424af14e-3179-4e10-90c9-984c92111487\ice_imprevisibilidade_kmax_cdva.png)
+![Gráfico de Dispersão (Khanthik 2024, analisado no estudo ICE): A imprevisibilidade da cirurgia tradicional evidenciada na relação falha entre Kmax e o ganho de visão real. Quando não se domina a geometria fibrilar, córneas iguais entregam visões diferentes.](../../images/CH-000_Prefacio/ice_imprevisibilidade_kmax_cdva.png)
 
 O gráfico acima reúne **230 olhos** operados com ICRS (Khanthik 2024, PLOS ONE — dados utilizados no estudo ICE). Cada ponto é um olho. Os valores negativos no eixo Y significam *ganho* de visão; positivos, *perda*. Observe três fatos perturbadores:
 
