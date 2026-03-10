@@ -280,7 +280,7 @@ Em córnea pós-CXL, o mesmo anel em tecido mais rígido gera padrões de estres
 
 > **Pearl:** O cirurgião que implanta triangular em córnea CXL está deliberadamente trocando biocompatibilidade por eficácia. É uma decisão legítima em KC severo pós-CXL onde a subcorreção é clinicamente inaceitável — mas exige monitoramento rigoroso com lâmpada de fenda e OCT anterior nos primeiros 12 meses.
 
-> **Pearl Prático — Como Reduzir o Haze sem Perder a Eficácia em CXL:** Considere combinar triangular de espessura moderada (250 µm em vez de 300 µm) com **diâmetro menor** (5,0 mm em vez de 6,0 mm). A força centrípeta do VR aumenta pela proximidade ao cone, mas o Von Mises por unidade de área reduz pela menor espessura — mantendo penetração suficiente no escudo CXL com menor risco de ativação cicatricial.
+> **Pearl Prático — Como Reduzir o Haze sem Perder a Eficácia em CXL:** Considere combinar triangular de espessura moderada (250 µm em vez de 300 µm) com **diâmetro menor** (5,0 mm em vez de 6,0 mm). A força centrífuga do VR é mais eficaz pela proximidade ao cone, mas o Von Mises por unidade de área reduz pela menor espessura — mantendo penetração suficiente no escudo CXL com menor risco de ativação cicatricial.
 
 
 ##### 🟠 2° — Fusiforme (Ferrara HM, 320°): O Compensador por Cobertura

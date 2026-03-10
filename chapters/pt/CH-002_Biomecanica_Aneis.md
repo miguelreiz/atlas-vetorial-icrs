@@ -22,6 +22,8 @@ Este capítulo é a ponte entre a anatomia (Capítulo 1) e o sistema vetorial (C
 
 > ⚠️ **REVISÃO CONCEITUAL IMPORTANTE:** O framework clássico dos "3 Princípios Independentes" (Barraquer / Arc-Shortening / Tenting) é didaticamente convencional, mas biomechanicamente impreciso — pois Barraquer, Arc-Shortening e Tenting não são 3 causas paralelas: são **3 escalas de observação do mesmo fenômeno**. Este Atlas os apresenta na forma correta: uma **cascata causal em escala** (micro → meso → macro).
 
+> ✅ **QUALIFICAÇÃO FEM 2025 — Sobre o Termo "Tenting":** Neste Atlas, o termo "tenting" refere-se exclusivamente à **separação lamelar interstromal** (micro-escala) causada pela interposição do PMMA entre as lamelas — NÃO à elevação da superfície anterior sobre o anel. A simulação FEBio 2025 (Mooney-Rivlin, IOP=15 mmHg) confirmou que a superfície anterior sobre o anel é **PLANA ou REBAIXADA** (Vetor Endotelial, uz = −0,0068 mm). O "tenting de superfície" clássico **NÃO ocorre**. Onde este capítulo refere "tenting", leia "separação lamelar interstromal".
+
 ### A Cascata Causal do ICRS — Um Único Fenômeno em Três Escalas
 
 ```

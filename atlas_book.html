@@ -712,7 +712,7 @@ hr {
   <div class="sidebar-footer">
     <div class="reg-label">&#x1F512; OBRA REGISTRADA</div>
     <div style="margin-top:4px">Dr. Miguel Reis &copy; 2026</div>
-    <div style="margin-top:2px">Master: <code>b8b6982b5f675ae37f96...</code></div>
+    <div style="margin-top:2px">Master: <code>856dedfbb8509bfb3c37...</code></div>
     <div style="margin-top:2px">Registro: 2026-03-10</div>
   </div>
 </nav>
@@ -731,7 +731,7 @@ hr {
       que comprova a autoria e a integridade do conteudo.
     </p>
     <div class="master-hash">
-      Master Hash: b8b6982b5f675ae37f96860c2427e154b79b164d23faee24e1b4dc17bbbea74a
+      Master Hash: 856dedfbb8509bfb3c37dea4b1a7d453c2fba523b3f2f9116d830aa45e423e48
     </div>
     <p class="legal">
       Distribuicao deste documento para revisao nao constitui cessao de direitos.
@@ -1955,7 +1955,7 @@ Porque o anel intracorneano não age como uma ponte mecânica rígida (como uma 
 <p><strong>Pérola Anatômica — Por Que 70-75% de Profundidade?</strong></p>
 <p>O anel é implantado no estroma posterior (~70-75%) por razões <strong>arquiteturais e biomecânicas</strong>, não apenas técnicas:</p>
 <p><strong>Arquitetura lamelar:</strong> O estroma anterior (1/3) tem fibras entrelaçadas e oblíquas — uma rede densa tipo feltro, difícil de dissecar. O estroma posterior (2/3) tem lamelas <strong>paralelas</strong>, predominantemente nos eixos nasal-temporal e superior-inferior (WAXS: 66% em ±22.5°). As lamelas separam-se ao longo dos planos naturais → o túnel é criado com facilidade nessa zona. A facilidade é <strong>consequência</strong> da arquitetura, não o motivo primário.</p>
-<p><strong>Equilíbrio tenting–âncora:</strong> O motivo primário é biomecânico. O anel age como cunha/fulcro: empurra o tecido <em>acima</em> anteriormente (tenting = VR), enquanto o tecido <em>abaixo</em> fornece a ancoragem reativa. O ponto ótimo equilibra ambos:</p>
+<p><strong>Equilíbrio arc-shortening–âncora (✅ FEM 2025):</strong> O motivo primário é biomecânico. O anel age como cunha/fulcro: as fibras radiais <em>acima</em> são tensionadas pelo arc-shortening, gerando o <strong>Vetor Endotelial (V_End)</strong> descendente que se opõe à PIO — resultando em aplainamento (não elevação) da superfície sobre o anel. O tecido <em>abaixo</em> fornece a ancoragem reativa. O ponto ótimo equilibra ambos:</p>
 <table>
 <thead>
 <tr>
@@ -1970,13 +1970,13 @@ Porque o anel intracorneano não age como uma ponte mecânica rígida (como uma 
 <td>60%</td>
 <td>60%</td>
 <td>40%</td>
-<td>VR fraco — pouco tecido acima para tenting</td>
+<td>VR fraco — pouco tecido acima para arc-shortening</td>
 </tr>
 <tr>
 <td><strong>70-75%</strong> ✅</td>
 <td>70-75%</td>
 <td>25-30%</td>
-<td><strong>Ótimo</strong> — máximo tenting + âncora suficiente</td>
+<td><strong>Ótimo</strong> — máximo V_End + âncora suficiente</td>
 </tr>
 <tr>
 <td>&gt;80%</td>
@@ -2880,7 +2880,7 @@ PTA 35% em PRK (ablação 193 / CCT 550):
 <p><em>Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial</em></p>
 <div class="chapter-reg">
             <span class="reg-icon">&#x1F512;</span>
-            SHA-256: <code>9b8f9f6a31be418a...9609e8dc</code>
+            SHA-256: <code>bb3c7f60d39899c7...8d493094</code>
             &nbsp;|&nbsp; Registrado: 2026-03-10
         </div>
 </section><section id="CH-002_Biomecanica_Aneis" class="chapter">
@@ -2900,6 +2900,7 @@ version: 0.1.0
 <p>Este capítulo é a ponte entre a anatomia (Capítulo 1) e o sistema vetorial (Capítulos 4–8). Aqui você entenderá os <strong>princípios físicos fundamentais</strong> que explicam por que e como um pedaço de PMMA inserido no estroma consegue aplainar, redistribuir e reposicionar a curvatura corneana.</p>
 <blockquote>
 <p>⚠️ <strong>REVISÃO CONCEITUAL IMPORTANTE:</strong> O framework clássico dos "3 Princípios Independentes" (Barraquer / Arc-Shortening / Tenting) é didaticamente convencional, mas biomechanicamente impreciso — pois Barraquer, Arc-Shortening e Tenting não são 3 causas paralelas: são <strong>3 escalas de observação do mesmo fenômeno</strong>. Este Atlas os apresenta na forma correta: uma <strong>cascata causal em escala</strong> (micro → meso → macro).</p>
+<p>✅ <strong>QUALIFICAÇÃO FEM 2025 — Sobre o Termo "Tenting":</strong> Neste Atlas, o termo "tenting" refere-se exclusivamente à <strong>separação lamelar interstromal</strong> (micro-escala) causada pela interposição do PMMA entre as lamelas — NÃO à elevação da superfície anterior sobre o anel. A simulação FEBio 2025 (Mooney-Rivlin, IOP=15 mmHg) confirmou que a superfície anterior sobre o anel é <strong>PLANA ou REBAIXADA</strong> (Vetor Endotelial, uz = −0,0068 mm). O "tenting de superfície" clássico <strong>NÃO ocorre</strong>. Onde este capítulo refere "tenting", leia "separação lamelar interstromal".</p>
 </blockquote>
 <h3 id="a-cascata-causal-do-icrs-um-unico-fenomeno-em-tres-escalas">A Cascata Causal do ICRS — Um Único Fenômeno em Três Escalas</h3>
 <pre class="codehilite"><code>[ESCALA MICRO — Local/Histológico]
@@ -3843,7 +3844,7 @@ REGRA VISUAL DO ATLAS:
 <p><em>Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial</em></p>
 <div class="chapter-reg">
             <span class="reg-icon">&#x1F512;</span>
-            SHA-256: <code>c977d14490b54bbe...155acbcb</code>
+            SHA-256: <code>0710239f0f5b9228...c8995358</code>
             &nbsp;|&nbsp; Registrado: 2026-03-10
         </div>
 </section><section id="CH-003_Classificacao_Ceratocone" class="chapter">
@@ -9647,7 +9648,7 @@ Em córnea pós-CXL, o mesmo anel em tecido mais rígido gera padrões de estres
 <p><strong>O custo:</strong> Risco elevado de haze estromal perianel. Em córnea CXL + triangular espesso (≥300 µm), o estresse localizado pode exceder o limiar de remodelamento cicatricial do estroma reticulado.</p>
 <blockquote>
 <p><strong>Pearl:</strong> O cirurgião que implanta triangular em córnea CXL está deliberadamente trocando biocompatibilidade por eficácia. É uma decisão legítima em KC severo pós-CXL onde a subcorreção é clinicamente inaceitável — mas exige monitoramento rigoroso com lâmpada de fenda e OCT anterior nos primeiros 12 meses.</p>
-<p><strong>Pearl Prático — Como Reduzir o Haze sem Perder a Eficácia em CXL:</strong> Considere combinar triangular de espessura moderada (250 µm em vez de 300 µm) com <strong>diâmetro menor</strong> (5,0 mm em vez de 6,0 mm). A força centrípeta do VR aumenta pela proximidade ao cone, mas o Von Mises por unidade de área reduz pela menor espessura — mantendo penetração suficiente no escudo CXL com menor risco de ativação cicatricial.</p>
+<p><strong>Pearl Prático — Como Reduzir o Haze sem Perder a Eficácia em CXL:</strong> Considere combinar triangular de espessura moderada (250 µm em vez de 300 µm) com <strong>diâmetro menor</strong> (5,0 mm em vez de 6,0 mm). A força centrífuga do VR é mais eficaz pela proximidade ao cone, mas o Von Mises por unidade de área reduz pela menor espessura — mantendo penetração suficiente no escudo CXL com menor risco de ativação cicatricial.</p>
 </blockquote>
 <h5 id="2-fusiforme-ferrara-hm-320-o-compensador-por-cobertura">🟠 2° — Fusiforme (Ferrara HM, 320°): O Compensador por Cobertura</h5>
 <p><strong>Por que funciona em CXL:</strong>
@@ -9942,7 +9943,7 @@ Evidência clínica direta: ⚠️ Extrapolação derivada — nenhum RCT public
 <p>A <strong>tabela de eficácia retida por perfil pós-CXL</strong> — nenhum atlas publicado tem esta informação. Potencial de citação altíssimo.</p>
 <div class="chapter-reg">
             <span class="reg-icon">&#x1F512;</span>
-            SHA-256: <code>a9d5daab03a0654c...1637633b</code>
+            SHA-256: <code>82b4be29b280f987...99087b65</code>
             &nbsp;|&nbsp; Registrado: 2026-03-10
         </div>
 </section><section id="CH-016_Malha_Estromal_Superfície" class="chapter">
@@ -10726,7 +10727,7 @@ $$ \Delta R \approx -\frac{f^2}{R_{nominal}} \cdot \Delta K $$</p>
 <h3 id="arc-shortening-effect-efeito-de-encurtamento-de-arco">Arc-Shortening Effect (Efeito de Encurtamento de Arco)</h3>
 <ul>
 <li><strong>Em palavras simples:</strong> Quando um implante rígido é inserido numa estrutura curva flexível, a curvatura ao redor do implante "achata" — como uma corda que estica em linha reta quando um pau é colocado em seu meio.</li>
-<li><strong>Técnico:</strong> Redução do comprimento efetivo do arco de uma lamela corneana após a interposição de um implante rígido (ICRS). A força resultante é centrípeta (direcionada ao eixo óptico).</li>
+<li><strong>Técnico:</strong> Redução do comprimento efetivo do arco de uma lamela corneana após a interposição de um implante rígido (ICRS). A força resultante é <strong>centrífuga</strong> (do anel para fora); o aplainamento central é <em>consequência</em> da tração periférica, não da direção da força. ✅ Confirmado por FEM 2025.</li>
 <li><strong>Capítulo principal:</strong> CH-002, CH-004</li>
 </ul>
 <h3 id="coeficiente-de-poisson">Coeficiente de Poisson</h3>
@@ -10849,7 +10850,7 @@ $$ \Delta R \approx -\frac{f^2}{R_{nominal}} \cdot \Delta K $$</p>
 <p><em>Glossário versão 1.0 — Março 2026 | Expansão contínua a cada novo capítulo</em></p>
 <div class="chapter-reg">
             <span class="reg-icon">&#x1F512;</span>
-            SHA-256: <code>3f4c8d48d367754b...1af45744</code>
+            SHA-256: <code>fa4cc83c6041f831...3158413c</code>
             &nbsp;|&nbsp; Registrado: 2026-03-10
         </div>
 </section><section id="REFERENCIAS_BIBLIOGRAFICAS" class="chapter">
@@ -11281,8 +11282,8 @@ $$ \Delta R \approx -\frac{f^2}{R_{nominal}} \cdot \Delta K $$</p>
     <h2>Fim do Atlas Vetorial ICRS</h2>
     <p>
       <strong>Dr. Miguel Reis</strong> &copy; 2026 | Todos os direitos reservados<br>
-      24 capitulos | Master SHA-256: <code>b8b6982b5f675ae37f96860c2427e154...</code><br>
-      Versao 1.0.0-draft | Registro: 2026-03-10T10:37:13Z
+      24 capitulos | Master SHA-256: <code>856dedfbb8509bfb3c37dea4b1a7d453...</code><br>
+      Versao 1.0.0-draft | Registro: 2026-03-10T11:02:42Z
     </p>
     <p class="legal">
       Os conceitos originais deste Atlas incluem: Teoria Vetorial ICRS (VR, VT, Vτ, VComa, VEsferico),

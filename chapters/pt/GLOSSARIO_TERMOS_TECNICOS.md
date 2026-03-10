@@ -23,7 +23,7 @@ Toda afirmação científica neste Atlas é classificada em um de três níveis:
 
 ### Arc-Shortening Effect (Efeito de Encurtamento de Arco)
 - **Em palavras simples:** Quando um implante rígido é inserido numa estrutura curva flexível, a curvatura ao redor do implante "achata" — como uma corda que estica em linha reta quando um pau é colocado em seu meio.
-- **Técnico:** Redução do comprimento efetivo do arco de uma lamela corneana após a interposição de um implante rígido (ICRS). A força resultante é centrípeta (direcionada ao eixo óptico).
+- **Técnico:** Redução do comprimento efetivo do arco de uma lamela corneana após a interposição de um implante rígido (ICRS). A força resultante é **centrífuga** (do anel para fora); o aplainamento central é *consequência* da tração periférica, não da direção da força. ✅ Confirmado por FEM 2025.
 - **Capítulo principal:** CH-002, CH-004
 
 ### Coeficiente de Poisson

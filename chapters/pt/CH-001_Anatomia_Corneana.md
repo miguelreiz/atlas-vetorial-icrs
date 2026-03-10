@@ -58,12 +58,12 @@ Essa tensão gerada no anel se propaga pelas lamelas e é transmitida de volta p
 >
 > **Arquitetura lamelar:** O estroma anterior (1/3) tem fibras entrelaçadas e oblíquas — uma rede densa tipo feltro, difícil de dissecar. O estroma posterior (2/3) tem lamelas **paralelas**, predominantemente nos eixos nasal-temporal e superior-inferior (WAXS: 66% em ±22.5°). As lamelas separam-se ao longo dos planos naturais → o túnel é criado com facilidade nessa zona. A facilidade é **consequência** da arquitetura, não o motivo primário.
 >
-> **Equilíbrio tenting–âncora:** O motivo primário é biomecânico. O anel age como cunha/fulcro: empurra o tecido *acima* anteriormente (tenting = VR), enquanto o tecido *abaixo* fornece a ancoragem reativa. O ponto ótimo equilibra ambos:
+> **Equilíbrio arc-shortening–âncora (✅ FEM 2025):** O motivo primário é biomecânico. O anel age como cunha/fulcro: as fibras radiais *acima* são tensionadas pelo arc-shortening, gerando o **Vetor Endotelial (V_End)** descendente que se opõe à PIO — resultando em aplainamento (não elevação) da superfície sobre o anel. O tecido *abaixo* fornece a ancoragem reativa. O ponto ótimo equilibra ambos:
 >
 > | Profundidade | Acima do anel | Abaixo (âncora) | Efeito |
 > |-------------|--------------|-----------------|--------|
-> | 60% | 60% | 40% | VR fraco — pouco tecido acima para tenting |
-> | **70-75%** ✅ | 70-75% | 25-30% | **Ótimo** — máximo tenting + âncora suficiente |
+> | 60% | 60% | 40% | VR fraco — pouco tecido acima para arc-shortening |
+> | **70-75%** ✅ | 70-75% | 25-30% | **Ótimo** — máximo V_End + âncora suficiente |
 > | >80% | >80% | <20% | VR **diminuído** (FEM) — âncora posterior fina demais |
 >
 > Acima de 80%, o anel "flutua" sem resistência posterior adequada — o efeito de aplainamento cai. A frase "mais fundo = sempre melhor" é um mito perigoso.
