@@ -130,9 +130,8 @@ FIBER ARCHITECTURE POR PROFUNDIDADE
 
 | Element | Representation |
 |---------|---------------|
-| ICRS cross-section | Triangular (Ferrara) or hexagonal shape at **80% depth** EXACTLY. |
-| Proportion | Show accurate scaling: e.g., a 200 µm ring within a 580 µm thick cornea. |
-| Surface contour over ICRS | **FLATTENING (Aplainamento) or slight depression**, NOT elevation. The ring pulls radial fibers downward (endothelial vector) against IOP. |
+| ICRS cross-section | Triangular (Ferrara) or hexagonal shape at 70-75% depth |
+| Tenting effect | Anterior surface elevated directly above ICRS |
 | Arc-shortening | Fibers over ICRS follow a longer path → tension redistribution |
 | Von Mises stress | Concentration zones at ICRS edges and limbus |
 | Coupling effect | Steepening 90° away from ICRS (tension redistribution, NOT IOP) |

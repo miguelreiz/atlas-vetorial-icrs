@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(\"/c/Program Files/FEBioStudio/bin/febio4.exe\":*)"
+    ]
+  }
+}

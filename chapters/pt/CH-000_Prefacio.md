@@ -105,7 +105,7 @@ Este não é um atlas cirúrgico convencional. Não é um manual de técnica, em
 2. **Prever o resultado** de combinações novas (usando vetores)
 3. **Otimizar** a escolha de perfil, diâmetro, arco e profundidade (pela correspondência geométrica)
 4. **Prever quem vai responder** — através do ICE (Index of Axial Coherence), um biomarcador funcional original que mede a coerência angular dos eixos ópticos e prediz a capacidade do paciente em aproveitar a correção mecânica (Cap. 10)
-5. **Propor configurações** que ainda não existem (como concêntricos com profundidade diferencial)
+5. **Otimizar configurações** avançadas de anéis já existentes (como implantes concêntricos com profundidade diferencial)
 
 Muitas das hipóteses aqui apresentadas são originais e ainda não foram validadas prospectivamente. Elas são claramente marcadas como tal ao longo do texto, com níveis de evidência explícitos:
 

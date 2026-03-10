@@ -71,11 +71,37 @@ TEMPLATE — CORTE TRANSVERSAL:
 ```
 
 **Regras:**
-1. Setas de força radiais: saindo do anel PARA OS LADOS (centrífugo)
-2. **Vetor Endotelial:** O anel traciona as radiais para baixo, anulando a PIO e causando **APLAINAMENTO ou leve rebaixamento** da superfície diretamente acima (nunca desenhar tenting/elevação).
+1. Setas de força: saindo do anel PARA CIMA e PARA OS LADOS (centrífugo)
+2. Lamelas acima do anel: mostrar tenting (elevação)
 3. Lamelas abaixo do anel: comprimidas contra o posterior
 4. Oblíquas (🟢): mostrar como cruzam entre lamelas no anterior (se presentes)
-5. Superfície: mostrar curva ANTES (tracejada) e PLANA/APLAINADA DEPOIS (sólida) sobre o anel.
+5. Superfície: mostrar curva ANTES (tracejada, curva) e DEPOIS (sólida, plana)
+
+### ⚠️ Regras de Posicionamento Obrigatórias
+
+1. **Posição do anel**: SEMPRE na **média-periferia** (zona óptica ~5 mm, Ø 2,5 mm do centro). NUNCA próximo ao limbo. O efeito deve ser mostrado na perspectiva do **centro e média-periferia**.
+2. **Camadas corneanas**: SEMPRE mostrar TODAS as camadas em perspectiva:
+   - Epitélio (linha fina azul-clara no topo)
+   - Membrana de Bowman (linha fina abaixo do epitélio)
+   - Estroma anterior (1/3 — fibras oblíquas entrelaçadas)
+   - Estroma posterior (2/3 — lamelas paralelas)
+   - Membrana de Descemet (linha fina laranja)
+   - Endotélio (linha fina na base)
+3. **Contexto anatómico**: Mesmo em close-ups focados no anel, as camadas devem ser visíveis para dar escala e contexto ao leitor.
+4. **Profundidade do anel — ESTROMA POSTERIOR SEMPRE**: O anel ICRS fica SEMPRE no **estroma posterior**, a **80% de profundidade** (medido do epitélio). NUNCA representar o anel no estroma anterior. O estroma anterior (1/3) contém fibras oblíquas entrelaçadas e é biomecanicamente diferente — o anel é implantado ABAIXO dessa zona, nas lamelas paralelas do estroma posterior (2/3).
+   ```
+   ❌ ERRADO:   Anel no estroma anterior (1/3 superior)
+   ✅ CORRETO:  Anel no estroma posterior a 80% profundidade
+   
+   Epitélio ──────────────────
+   Bowman ────────────────────
+   Estroma anterior (1/3) ──── ← NUNCA aqui
+   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─
+   Estroma posterior (2/3) ───
+        ▲▲▲ [ANEL AQUI] ▲▲▲  ← 80% profundidade
+   Descemet ─────────────────
+   Endotélio ────────────────
+   ```
 
 ---
 

@@ -1,0 +1,1354 @@
+===========================================================================
+         ________    _________   _______       __     _________            
+        |        |\ |        |\ |       \\    |  |\  /         \\          
+        |    ____|| |    ____|| |    __  ||   |__|| |    ___    ||         
+        |   |\___\| |   |\___\| |   |\_| ||    \_\| |   //  \   ||         
+        |   ||__    |   ||__    |   ||_| ||   |  |\ |  ||    |  ||         
+        |       |\  |       |\  |         \\  |  || |  ||    |  ||         
+        |    ___||  |    ___||  |    ___   || |  || |  ||    |  ||         
+        |   |\__\|  |   |\__\|  |   |\__|  || |  || |  ||    |  ||         
+        |   ||      |   ||___   |   ||__|  || |  || |   \\__/   ||         
+        |   ||      |        |\ |          || |  || |           ||         
+        |___||      |________|| |_________//  |__||  \_________//          
+                                                                           
+      F I N I T E   E L E M E N T S   F O R   B I O M E C H A N I C S      
+                                                                           
+  version 4.12.0
+  FEBio is a registered trademark.                                         
+  copyright (c) 2006-2026 - All rights reserved                            
+                                                                           
+===========================================================================
+
+
+
+
+
+ FILES USED
+===========================================================================
+	Input file : cornea_hgo_icrs.feb
+	Plot file  : cornea_hgo_icrs.xplt
+	Log file   : cornea_hgo_icrs.log
+
+
+ MESH INFO
+===========================================================================
+	Number of materials ............................ : 1
+	Number of domains .............................. : 2
+	Number of nodes ................................ : 962
+	Number of solid elements ....................... : 480
+
+
+ MODULE
+===========================================================================
+	Module type ....................................... : solid
+
+
+ CONTROL DATA
+===========================================================================
+	analysis .......................................... : STATIC (0)
+	time_steps ........................................ : 20
+	step_size ......................................... : 0.05
+	plot_zero_state ................................... : no (0)
+	plot_range ........................................ : 0,-1
+	plot_level ........................................ : PLOT_MAJOR_ITRS (1)
+	output_level ...................................... : OUTPUT_MAJOR_ITRS (1)
+	plot_stride ....................................... : 1
+	output_stride ..................................... : 1
+	adaptor_re_solve .................................. : yes (1)
+	Auto time stepper activated ....................... : no
+ SOLVER PARAMETERS
+===========================================================================
+	symmetric_stiffness ............................... : symmetric (1)
+	equation_scheme ................................... : staggered (0)
+	equation_order .................................... : default (0)
+	optimize_bw ....................................... : no (0)
+	lstol ............................................. : 0.9
+	lsmin ............................................. : 0.01
+	lsiter ............................................ : 5
+	ls_check_jacobians ................................ : no (0)
+	max_refs .......................................... : 25
+	check_zero_diagonal ............................... : no (0)
+	zero_diagonal_tol ................................. : 0
+	force_partition ................................... : 0
+	reform_each_time_step ............................. : yes (1)
+	reform_augment .................................... : no (0)
+	diverge_reform .................................... : yes (1)
+	min_residual ...................................... : 1e-20
+	max_residual ...................................... : 0
+	dtol .............................................. : 0.001
+	etol .............................................. : 0.01
+	rtol .............................................. : 0
+	rhoi .............................................. : -2
+	alpha ............................................. : 1
+	beta .............................................. : 0.25
+	gamma ............................................. : 0.5
+	logSolve .......................................... : no (0)
+	arc_length ........................................ : 0
+	arc_length_scale .................................. : 0
+
+
+
+
+
+
+ MATERIAL DATA
+===========================================================================
+  1 - Cornea_HGO (type: Mooney-Rivlin)
+	density ........................................... : 1
+	k ................................................. : 4.76
+	pressure_model .................................... : default (0)
+	c1 ................................................ : 0.08
+	c2 ................................................ : 0.01
+
+
+ BOUNDARY CONDITION DATA
+===========================================================================
+  1 -  Type: zero displacement
+	x_dof ............................................. : yes (1)
+	y_dof ............................................. : yes (1)
+	z_dof ............................................. : yes (1)
+---------------------------------------------------------------------------
+  2 -  Type: zero displacement
+	x_dof ............................................. : yes (1)
+	y_dof ............................................. : yes (1)
+	z_dof ............................................. : no (0)
+
+
+ MODEL LOAD DATA
+===========================================================================
+  1 -  Type: pressure
+	pressure .......................................... : 0.00199983
+	symmetric_stiffness ............................... : yes (1)
+	linear ............................................ : no (0)
+	shell_bottom ...................................... : no (0)
+
+
+ LOAD CONTROLLER DATA
+===========================================================================
+load controller   1 - lc1 (type: loadcurve)
+	interpolate ....................................... : LINEAR (0)
+	extend ............................................ : CONSTANT (0)
+	points ............................................ : (can't display value)
+
+
+ OUTPUT DATA
+===========================================================================
+ LINEAR SOLVER DATA
+===========================================================================
+	Default linear solver ............................. : pardiso
+
+
+Data Record #1
+===========================================================================
+Step = 0
+Time = 0
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 0
+Time = 0
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+ *************************************************************************
+ * Selecting linear solver pardiso                                       *
+ *************************************************************************
+
+===== beginning time step 1 : 0.05 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+===== reforming stiffness matrix:
+	Nr of equations ........................... : 2694
+	Nr of nonzeroes in stiffness matrix ....... : 71061
+ 1
+ Nonlinear solution status: time= 0.05
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            7.962184e-07    5.689435e-09    0.000000e+00 
+	   energy              3.699908e-05    5.046073e-08    3.699908e-07 
+	   displacement        2.437803e-02    2.437803e-02    2.437803e-08 
+ 2
+ Nonlinear solution status: time= 0.05
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            7.962184e-07    2.255513e-13    0.000000e+00 
+	   energy              3.699908e-05    1.052217e-11    3.699908e-07 
+	   displacement        2.437803e-02    8.467354e-08    2.429059e-08 
+ 3
+ Nonlinear solution status: time= 0.05
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            7.962184e-07    2.348662e-16    0.000000e+00 
+	   energy              3.699908e-05    1.117334e-16    3.699908e-07 
+	   displacement        2.437803e-02    1.073689e-10    2.429076e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.05
+
+
+Data Record #1
+===========================================================================
+Step = 1
+Time = 0.05
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 1
+Time = 0.05
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 2 : 0.1 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.1
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            7.972094e-07    5.599279e-09    0.000000e+00 
+	   energy              3.693434e-05    4.958835e-08    3.693434e-07 
+	   displacement        2.423971e-02    2.423971e-02    2.423971e-08 
+ 2
+ Nonlinear solution status: time= 0.1
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            7.972094e-07    2.070971e-13    0.000000e+00 
+	   energy              3.693434e-05    9.862559e-12    3.693434e-07 
+	   displacement        2.423971e-02    8.874343e-08    2.414973e-08 
+ 3
+ Nonlinear solution status: time= 0.1
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            7.972094e-07    2.182598e-16    0.000000e+00 
+	   energy              3.693434e-05    9.887852e-17    3.693434e-07 
+	   displacement        2.423971e-02    9.699357e-11    2.414990e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.1
+
+
+Data Record #1
+===========================================================================
+Step = 2
+Time = 0.1
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 2
+Time = 0.1
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 3 : 0.15 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.15
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            7.982025e-07    5.513094e-09    0.000000e+00 
+	   energy              3.687133e-05    4.874781e-08    3.687133e-07 
+	   displacement        2.410472e-02    2.410472e-02    2.410472e-08 
+ 2
+ Nonlinear solution status: time= 0.15
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            7.982025e-07    1.906942e-13    0.000000e+00 
+	   energy              3.687133e-05    9.258493e-12    3.687133e-07 
+	   displacement        2.410472e-02    9.488760e-08    2.401238e-08 
+ 3
+ Nonlinear solution status: time= 0.15
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            7.982025e-07    2.045520e-16    0.000000e+00 
+	   energy              3.687133e-05    1.225631e-16    3.687133e-07 
+	   displacement        2.410472e-02    8.980335e-11    2.401250e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.15
+
+
+Data Record #1
+===========================================================================
+Step = 3
+Time = 0.15
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 3
+Time = 0.15
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 4 : 0.2 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.2
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            7.991960e-07    5.430618e-09    0.000000e+00 
+	   energy              3.681001e-05    4.793716e-08    3.681001e-07 
+	   displacement        2.397300e-02    2.397300e-02    2.397300e-08 
+ 2
+ Nonlinear solution status: time= 0.2
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            7.991960e-07    1.760665e-13    0.000000e+00 
+	   energy              3.681001e-05    8.703595e-12    3.681001e-07 
+	   displacement        2.397300e-02    1.028773e-07    2.387843e-08 
+ 3
+ Nonlinear solution status: time= 0.2
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            7.991960e-07    1.934934e-16    0.000000e+00 
+	   energy              3.681001e-05    1.741576e-16    3.681001e-07 
+	   displacement        2.397300e-02    8.539026e-11    2.387847e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.2
+
+
+Data Record #1
+===========================================================================
+Step = 4
+Time = 0.2
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 4
+Time = 0.2
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 5 : 0.25 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.25
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.001896e-07    5.351607e-09    0.000000e+00 
+	   energy              3.675033e-05    4.715461e-08    3.675033e-07 
+	   displacement        2.384443e-02    2.384443e-02    2.384443e-08 
+ 2
+ Nonlinear solution status: time= 0.25
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.001896e-07    1.629835e-13    0.000000e+00 
+	   energy              3.675033e-05    8.192387e-12    3.675033e-07 
+	   displacement        2.384443e-02    1.125123e-07    2.374778e-08 
+ 3
+ Nonlinear solution status: time= 0.25
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.001896e-07    1.848841e-16    0.000000e+00 
+	   energy              3.675033e-05    2.457985e-16    3.675033e-07 
+	   displacement        2.384443e-02    8.361150e-11    2.374769e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.25
+
+
+Data Record #1
+===========================================================================
+Step = 5
+Time = 0.25
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 5
+Time = 0.25
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 6 : 0.3 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.3
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.011835e-07    5.275840e-09    0.000000e+00 
+	   energy              3.669224e-05    4.639853e-08    3.669224e-07 
+	   displacement        2.371891e-02    2.371891e-02    2.371891e-08 
+ 2
+ Nonlinear solution status: time= 0.3
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.011835e-07    1.512500e-13    0.000000e+00 
+	   energy              3.669224e-05    7.720057e-12    3.669224e-07 
+	   displacement        2.371891e-02    1.236175e-07    2.362031e-08 
+ 3
+ Nonlinear solution status: time= 0.3
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.011835e-07    1.785278e-16    0.000000e+00 
+	   energy              3.669224e-05    3.306527e-16    3.669224e-07 
+	   displacement        2.371891e-02    8.454384e-11    2.362005e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.3
+
+
+Data Record #1
+===========================================================================
+Step = 6
+Time = 0.3
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 6
+Time = 0.3
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 7 : 0.35 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.35
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.021777e-07    5.203117e-09    0.000000e+00 
+	   energy              3.663567e-05    4.566742e-08    3.663567e-07 
+	   displacement        2.359634e-02    2.359634e-02    2.359634e-08 
+ 2
+ Nonlinear solution status: time= 0.35
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.021777e-07    1.406996e-13    0.000000e+00 
+	   energy              3.663567e-05    7.282370e-12    3.663567e-07 
+	   displacement        2.359634e-02    1.360402e-07    2.349590e-08 
+ 3
+ Nonlinear solution status: time= 0.35
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.021777e-07    1.741954e-16    0.000000e+00 
+	   energy              3.663567e-05    4.232003e-16    3.663567e-07 
+	   displacement        2.359634e-02    8.844708e-11    2.349545e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.35
+
+
+Data Record #1
+===========================================================================
+Step = 7
+Time = 0.35
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 7
+Time = 0.35
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 8 : 0.4 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.4
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.031722e-07    5.133256e-09    0.000000e+00 
+	   energy              3.658059e-05    4.495988e-08    3.658059e-07 
+	   displacement        2.347662e-02    2.347662e-02    2.347662e-08 
+ 2
+ Nonlinear solution status: time= 0.4
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.031722e-07    1.311904e-13    0.000000e+00 
+	   energy              3.658059e-05    6.875588e-12    3.658059e-07 
+	   displacement        2.347662e-02    1.496464e-07    2.337447e-08 
+ 3
+ Nonlinear solution status: time= 0.4
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.031722e-07    1.716009e-16    0.000000e+00 
+	   energy              3.658059e-05    5.194731e-16    3.658059e-07 
+	   displacement        2.347662e-02    9.573411e-11    2.337378e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.4
+
+
+Data Record #1
+===========================================================================
+Step = 8
+Time = 0.4
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 8
+Time = 0.4
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 9 : 0.45 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.45
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.041670e-07    5.066090e-09    0.000000e+00 
+	   energy              3.652695e-05    4.427465e-08    3.652695e-07 
+	   displacement        2.335967e-02    2.335967e-02    2.335967e-08 
+ 2
+ Nonlinear solution status: time= 0.45
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.041670e-07    1.226015e-13    0.000000e+00 
+	   energy              3.652695e-05    6.496410e-12    3.652695e-07 
+	   displacement        2.335967e-02    1.643184e-07    2.325590e-08 
+ 3
+ Nonlinear solution status: time= 0.45
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.041670e-07    1.704055e-16    0.000000e+00 
+	   energy              3.652695e-05    6.172093e-16    3.652695e-07 
+	   displacement        2.335967e-02    1.069460e-10    2.325494e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.45
+
+
+Data Record #1
+===========================================================================
+Step = 9
+Time = 0.45
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 9
+Time = 0.45
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 10 : 0.5 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.5
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.051621e-07    5.001467e-09    0.000000e+00 
+	   energy              3.647469e-05    4.361055e-08    3.647469e-07 
+	   displacement        2.324540e-02    2.324540e-02    2.324540e-08 
+ 2
+ Nonlinear solution status: time= 0.5
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.051621e-07    1.148292e-13    0.000000e+00 
+	   energy              3.647469e-05    6.141916e-12    3.647469e-07 
+	   displacement        2.324540e-02    1.799528e-07    2.314011e-08 
+ 3
+ Nonlinear solution status: time= 0.5
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.051621e-07    1.702411e-16    0.000000e+00 
+	   energy              3.647469e-05    7.158984e-16    3.647469e-07 
+	   displacement        2.324540e-02    1.227315e-10    2.313885e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.5
+
+
+Data Record #1
+===========================================================================
+Step = 10
+Time = 0.5
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 10
+Time = 0.5
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 11 : 0.55 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.55
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.061575e-07    4.939249e-09    0.000000e+00 
+	   energy              3.642379e-05    4.296648e-08    3.642379e-07 
+	   displacement        2.313373e-02    2.313373e-02    2.313373e-08 
+ 2
+ Nonlinear solution status: time= 0.55
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.061575e-07    1.077847e-13    0.000000e+00 
+	   energy              3.642379e-05    5.809516e-12    3.642379e-07 
+	   displacement        2.313373e-02    1.964583e-07    2.302700e-08 
+ 3
+ Nonlinear solution status: time= 0.55
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.061575e-07    1.707576e-16    0.000000e+00 
+	   energy              3.642379e-05    8.167261e-16    3.642379e-07 
+	   displacement        2.313373e-02    1.438299e-10    2.302542e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.55
+
+
+Data Record #1
+===========================================================================
+Step = 11
+Time = 0.55
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 11
+Time = 0.55
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 12 : 0.6 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.6
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.071532e-07    4.879308e-09    0.000000e+00 
+	   energy              3.637421e-05    4.234144e-08    3.637421e-07 
+	   displacement        2.302457e-02    2.302457e-02    2.302457e-08 
+ 2
+ Nonlinear solution status: time= 0.6
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.071532e-07    1.013920e-13    0.000000e+00 
+	   energy              3.637421e-05    5.496911e-12    3.637421e-07 
+	   displacement        2.302457e-02    2.137546e-07    2.291649e-08 
+ 3
+ Nonlinear solution status: time= 0.6
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.071532e-07    1.716795e-16    0.000000e+00 
+	   energy              3.637421e-05    9.224330e-16    3.637421e-07 
+	   displacement        2.302457e-02    1.710565e-10    2.291456e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.6
+
+
+Data Record #1
+===========================================================================
+Step = 12
+Time = 0.6
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 12
+Time = 0.6
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 13 : 0.65 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.65
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.081492e-07    4.821527e-09    0.000000e+00 
+	   energy              3.632589e-05    4.173448e-08    3.632589e-07 
+	   displacement        2.291785e-02    2.291785e-02    2.291785e-08 
+ 2
+ Nonlinear solution status: time= 0.65
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.081492e-07    9.558581e-14    0.000000e+00 
+	   energy              3.632589e-05    5.202059e-12    3.632589e-07 
+	   displacement        2.291785e-02    2.317704e-07    2.280850e-08 
+ 3
+ Nonlinear solution status: time= 0.65
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.081492e-07    1.728597e-16    0.000000e+00 
+	   energy              3.632589e-05    1.037110e-15    3.632589e-07 
+	   displacement        2.291785e-02    2.052906e-10    2.280618e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.65
+
+
+Data Record #1
+===========================================================================
+Step = 13
+Time = 0.65
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 13
+Time = 0.65
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 14 : 0.7 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.7
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.091455e-07    4.765797e-09    0.000000e+00 
+	   energy              3.627882e-05    4.114473e-08    3.627882e-07 
+	   displacement        2.281351e-02    2.281351e-02    2.281351e-08 
+ 2
+ Nonlinear solution status: time= 0.7
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.091455e-07    9.031027e-14    0.000000e+00 
+	   energy              3.627882e-05    4.923145e-12    3.627882e-07 
+	   displacement        2.281351e-02    2.504429e-07    2.270295e-08 
+ 3
+ Nonlinear solution status: time= 0.7
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.091455e-07    1.743262e-16    0.000000e+00 
+	   energy              3.627882e-05    1.165966e-15    3.627882e-07 
+	   displacement        2.281351e-02    2.474656e-10    2.270023e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.7
+
+
+Data Record #1
+===========================================================================
+Step = 14
+Time = 0.7
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 14
+Time = 0.7
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 15 : 0.75 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.75
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.101422e-07    4.712020e-09    0.000000e+00 
+	   energy              3.623296e-05    4.057138e-08    3.623296e-07 
+	   displacement        2.271146e-02    2.271146e-02    2.271146e-08 
+ 2
+ Nonlinear solution status: time= 0.75
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.101422e-07    8.551747e-14    0.000000e+00 
+	   energy              3.623296e-05    4.658553e-12    3.623296e-07 
+	   displacement        2.271146e-02    2.697161e-07    2.259978e-08 
+ 3
+ Nonlinear solution status: time= 0.75
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.101422e-07    1.763124e-16    0.000000e+00 
+	   energy              3.623296e-05    1.315096e-15    3.623296e-07 
+	   displacement        2.271146e-02    2.985599e-10    2.259662e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.75
+
+
+Data Record #1
+===========================================================================
+Step = 15
+Time = 0.75
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 15
+Time = 0.75
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 16 : 0.8 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.8
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.111393e-07    4.660104e-09    0.000000e+00 
+	   energy              3.618827e-05    4.001367e-08    3.618827e-07 
+	   displacement        2.261164e-02    2.261164e-02    2.261164e-08 
+ 2
+ Nonlinear solution status: time= 0.8
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.111393e-07    8.116644e-14    0.000000e+00 
+	   energy              3.618827e-05    4.406841e-12    3.618827e-07 
+	   displacement        2.261164e-02    2.895404e-07    2.249889e-08 
+ 3
+ Nonlinear solution status: time= 0.8
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.111393e-07    1.792693e-16    0.000000e+00 
+	   energy              3.618827e-05    1.491257e-15    3.618827e-07 
+	   displacement        2.261164e-02    3.595901e-10    2.249528e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.8
+
+
+Data Record #1
+===========================================================================
+Step = 16
+Time = 0.8
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 16
+Time = 0.8
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 17 : 0.85 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.85
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.121367e-07    4.609962e-09    0.000000e+00 
+	   energy              3.614473e-05    3.947088e-08    3.614473e-07 
+	   displacement        2.251399e-02    2.251399e-02    2.251399e-08 
+ 2
+ Nonlinear solution status: time= 0.85
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.121367e-07    7.722222e-14    0.000000e+00 
+	   energy              3.614473e-05    4.166727e-12    3.614473e-07 
+	   displacement        2.251399e-02    3.098719e-07    2.240024e-08 
+ 3
+ Nonlinear solution status: time= 0.85
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.121367e-07    1.838638e-16    0.000000e+00 
+	   energy              3.614473e-05    1.701678e-15    3.614473e-07 
+	   displacement        2.251399e-02    4.316047e-10    2.239614e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.85
+
+
+Data Record #1
+===========================================================================
+Step = 17
+Time = 0.85
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 17
+Time = 0.85
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 18 : 0.9 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.9
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.131345e-07    4.561517e-09    0.000000e+00 
+	   energy              3.610231e-05    3.894236e-08    3.610231e-07 
+	   displacement        2.241845e-02    2.241845e-02    2.241845e-08 
+ 2
+ Nonlinear solution status: time= 0.9
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.131345e-07    7.365509e-14    0.000000e+00 
+	   energy              3.610231e-05    3.937066e-12    3.610231e-07 
+	   displacement        2.241845e-02    3.306713e-07    2.230376e-08 
+ 3
+ Nonlinear solution status: time= 0.9
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.131345e-07    1.909644e-16    0.000000e+00 
+	   energy              3.610231e-05    1.953903e-15    3.610231e-07 
+	   displacement        2.241845e-02    5.156793e-10    2.229915e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.9
+
+
+Data Record #1
+===========================================================================
+Step = 18
+Time = 0.9
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 18
+Time = 0.9
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 19 : 0.95 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 0.95
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.141327e-07    4.514695e-09    0.000000e+00 
+	   energy              3.606097e-05    3.842748e-08    3.606097e-07 
+	   displacement        2.232496e-02    2.232496e-02    2.232496e-08 
+ 2
+ Nonlinear solution status: time= 0.95
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.141327e-07    7.043986e-14    0.000000e+00 
+	   energy              3.606097e-05    3.716840e-12    3.606097e-07 
+	   displacement        2.232496e-02    3.519037e-07    2.220937e-08 
+ 3
+ Nonlinear solution status: time= 0.95
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.141327e-07    2.016165e-16    0.000000e+00 
+	   energy              3.606097e-05    2.255666e-15    3.606097e-07 
+	   displacement        2.232496e-02    6.129123e-10    2.220424e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 0.95
+
+
+Data Record #1
+===========================================================================
+Step = 19
+Time = 0.95
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 19
+Time = 0.95
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+===== beginning time step 20 : 1 =====
+
+
+Reforming stiffness matrix: reformation #1
+
+ 1
+ Nonlinear solution status: time= 1
+	stiffness updates             = 0
+	right hand side evaluations   = 2
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.151313e-07    4.469428e-09    0.000000e+00 
+	   energy              3.602070e-05    3.792567e-08    3.602070e-07 
+	   displacement        2.223347e-02    2.223347e-02    2.223347e-08 
+ 2
+ Nonlinear solution status: time= 1
+	stiffness updates             = 1
+	right hand side evaluations   = 3
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.151313e-07    6.755535e-14    0.000000e+00 
+	   energy              3.602070e-05    3.505138e-12    3.602070e-07 
+	   displacement        2.223347e-02    3.735380e-07    2.211704e-08 
+ 3
+ Nonlinear solution status: time= 1
+	stiffness updates             = 2
+	right hand side evaluations   = 4
+	stiffness matrix reformations = 1
+	step from line search         = 1.000000
+	convergence norms :     INITIAL         CURRENT         REQUIRED
+	   residual            8.151313e-07    2.170167e-16    0.000000e+00 
+	   energy              3.602070e-05    2.614807e-15    3.602070e-07 
+	   displacement        2.223347e-02    7.244214e-10    2.211136e-08 
+
+convergence summary
+    number of iterations   : 3
+    number of reformations : 1
+
+------- converged at time : 1
+
+
+Data Record #1
+===========================================================================
+Step = 20
+Time = 1
+Data = sx;sy;sz;sxy;syz;sxz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv
+
+Data Record #2
+===========================================================================
+Step = 20
+Time = 1
+Data = ux;uy;uz
+File = C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv
+
+
+ N O N L I N E A R   I T E R A T I O N   I N F O R M A T I O N
+
+	Number of time steps completed .................... : 20
+
+	Total number of equilibrium iterations ............ : 60
+
+	Average number of equilibrium iterations .......... : 3
+
+	Total number of right hand evaluations ............ : 80
+
+	Total number of stiffness reformations ............ : 20
+
+
+ L I N E A R   S O L V E R   S T A T S
+
+	Total calls to linear solver ........ : 60
+
+	Avg iterations per solve ............ : 1
+
+	Time in linear solver: 0:00:01
+
+ Peak memory  : 30.5 MB
+
+ Elapsed time : 0:00:01
+
+ T I M I N G   I N F O R M A T I O N
+
+	Input time ...................... : 0:00:00 (0.0099088 sec)
+
+	Initialization time ............. : 0:00:00 (0.004755 sec)
+
+	Solve time ...................... : 0:00:01 (1.35817 sec)
+
+	   IO-time (plot, dmp, data) .... : 0:00:00 (0.369929 sec)
+
+	   reforming stiffness .......... : 0:00:00 (0.0039865 sec)
+
+	   evaluating stiffness ......... : 0:00:00 (0.17825 sec)
+
+	   evaluating residual .......... : 0:00:00 (0.0646818 sec)
+
+	   model update ................. : 0:00:00 (0.105804 sec)
+
+	   QN updates ................... : 0:00:00 (0.0011072 sec)
+
+	   time in linear solver ........ : 0:00:01 (0.614738 sec)
+
+	Total elapsed time .............. : 0:00:01 (1.38868 sec)
+
+
+ N O R M A L   T E R M I N A T I O N
+

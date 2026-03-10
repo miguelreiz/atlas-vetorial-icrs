@@ -41,6 +41,7 @@ CHAPTER_ORDER = [
     "CH-014_Futuro_Aneis.md",
     "CH-015_Biomecanica_Profunda_CXL.md",
     "CH-016_Malha_Estromal_Superf\u00edcie.md",
+    "APENDICE_A_Modelagem_Numerica.md",
     "GLOSSARIO_TERMOS_TECNICOS.md",
     "REFERENCIAS_BIBLIOGRAFICAS.md",
     "ENCARTE_Referencia_Rapida.md",

@@ -1953,6 +1953,9 @@
     <NodeSet name="Limbus">
       458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,939,940,941,942,943,944,945,946,947,948,949,950,951,952,953,954,955,956,957,958,959,960,961,962
     </NodeSet>
+    <NodeSet name="ICRS_Ring">
+      314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337
+    </NodeSet>
   </Mesh>
   <MeshDomains>
     <SolidDomain name="ApexWedges" mat="Cornea_HGO"/>
@@ -1963,6 +1966,12 @@
       <x_dof>1</x_dof>
       <y_dof>1</y_dof>
       <z_dof>1</z_dof>
+    </bc>
+    <!-- ICRS rigido a 80% prof. anel=14, r~4.2mm -->
+    <bc name="FixICRS" type="zero displacement" node_set="ICRS_Ring">
+      <x_dof>1</x_dof>
+      <y_dof>1</y_dof>
+      <z_dof>0</z_dof>
     </bc>
   </Boundary>
   <Loads>
@@ -1987,8 +1996,8 @@
       <var type="stress"/>
     </plotfile>
     <logfile>
-      <element_data file="C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_baseline_stress.csv" data="sx;sy;sz;sxy;syz;sxz" delim=","/>
-      <node_data file="C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_baseline_disp.csv" data="ux;uy;uz" delim=","/>
+      <element_data file="C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_stress.csv" data="sx;sy;sz;sxy;syz;sxz" delim=","/>
+      <node_data file="C:\Users\3D_OCT\Documents\Antigravity\Vetores Anel\fem\Simulation_Core\hgo_icrs_disp.csv" data="ux;uy;uz" delim=","/>
     </logfile>
   </Output>
 </febio_spec>

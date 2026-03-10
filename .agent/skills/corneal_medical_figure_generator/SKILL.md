@@ -138,8 +138,7 @@ CAMADAS (de fora para dentro):
 
 ELEMENTOS ESPECIAIS:
   ⌒ Fibras em mola (bow springs) — do estroma à Bowman
-  △ ICRS — perfil correto a **80% de profundidade** (proporção estrita, ex: 200µm num estroma de 580µm).
-  ↓ Vetor Endotelial — Fibras radiais tensionam para baixo ao redor do anel, causando **aplainamento na superfície anterior sobre o ICRS** (não desenhar elevação/tenting).
+  △ ICRS — triangular a 70-75% de profundidade
   ↑ PIO — sempre de dentro para fora (+Z)
 ```
 

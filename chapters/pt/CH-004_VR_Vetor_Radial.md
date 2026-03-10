@@ -40,7 +40,7 @@ expected_outcome: "Reduction of central corneal power (ΔK = -2.0 to -6.0 D depe
 
 ### Definição
 
-O **Vetor Radial (VR)** é a força biomecânica primária exercida pelo anel intracorneano sobre o estroma. Ele age como uma **força de tração focal** — que estica o tecido corneano periférico em direção ao ápice do implante, provocando o **aplainamento central** compensatório da córnea. Este é o efeito terapêutico fundamental de todo anel intracorneano: neutralizar a força radial do cone (**Fr**) reduzindo a curvatura excessiva da córnea doente.
+O **Vetor Radial (VR)** é a força biomecânica primária exercida pelo anel intracorneano sobre o estroma. Ele age como uma **força de tração focal** — que estica o tecido corneano periférico em direção ao ápice do implante, provocando o **aplainamento central compensatório** da córnea. Este é o efeito terapêutico fundamental de todo anel intracorneano: neutralizar a força radial do cone (**Fr**) reduzindo a curvatura excessiva da córnea doente.
 
 ### Explicação Didática
 
@@ -50,7 +50,7 @@ Quando um corpo rígido — o anel — é inserido dentro de um tecido viscoelá
 
 ![Figura 4.1: Princípio Físico do Encurtamento de Arco — O implante rígido força o tecido viscoelástico a assumir a sua geometria plana](../../images/CH-004_Vetor_Radial/arc_shortening_viscoelastic_pt_1771775836446.png)
 
-Para entender esse efeito de forma intuitiva e na escala microscópica, precisamos observar as **lamelas de colágeno** estromais. Se você insere uma cunha rígida (o anel intracorneano) no meio de um feixe de fibras contínuo, a porção da fibra que passa sobre a cunha é forçada a "desviar" de seu caminho original. Como resultado, ela é puxada, tracionando e esticando a porção adjacente da fibra na zona óptica central. A curvatura frouxa natural é perdida, resultando em um perfil central tenso e plano.
+Para entender esse efeito de forma intuitiva e na escala microscópica, precisamos observar as lamelas de colágeno estromais. Se você insere uma cunha rígida (o anel intracorneano) no meio de um feixe de fibras contínuo, a porção da fibra que passa sobre a cunha é forçada a "desviar" de seu caminho original. Como resultado, ela é puxada, tracionando e esticando a porção adjacente da fibra na zona óptica central. A curvatura frouxa natural é perdida, resultando em um perfil central tenso e plano.
 
 ![Figura 4.2: Analogia Biomecânica do Encurtamento de Arco — A inserção da cunha periférica consome comprimento focal e traciona as fibras adjacentes](../../images/CH-004_Vetor_Radial/arc_shortening_lamellar_v2_pt_1771777672694.png)
 

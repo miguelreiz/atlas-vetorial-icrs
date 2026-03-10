@@ -173,9 +173,9 @@ Uma vez que o dano estromal se inicia no IT, mecanismos moleculares aceleram e p
 
 > **O ciclo vicioso:** Dano estromal IT → MMP-9 local ↑ → mais degradação → menos keratócitos → menos colágeno → mais MMP-9... O cone IT, uma vez iniciado, alimenta sua própria progressão.
 
-#### 3.4.4 — Evidência Clínica: O Cone Sempre Vai para o IT
+#### 3.4.4 — Evidência Clínica: A Maioria dos Cones Vai para o IT
 
-Dados combinados de séries topográficas (N=834 olhos) confirmam a predileção IT:
+Dados combinados de séries topográficas (N=834 olhos) confirmam a forte predileção IT (embora não seja 100% dos casos, a grande maioria segue essa via biomecânica):
 
 | Posição (relógio) | Graus | % dos Casos | Quadrante |
 |---|---|---|---|
@@ -215,7 +215,7 @@ QUEBRAR O LOOP:
   + Cessar rubbing + Posição ao dormir
 ```
 
-> **Para o cirurgião:** A razão pela qual o KC progressivo piora sempre no IT — e não migra para outro quadrante — é autoevidente por este modelo: o IT tem a menor resistência inicial E recebe a maior carga acumulada E o feedback positivo molecular ancora o cone nessa posição.
+> **Para o cirurgião:** A razão pela qual a esmagadora maioria dos KCs progressivos piora no IT — e não migra para outro quadrante — é evidenciada por este modelo: o IT tem a menor resistência inicial E recebe a maior carga acumulada E o feedback positivo molecular ancora o cone nessa posição.
 
 #### 3.4.6 — A Prova Biomecânica: Simulação por Elementos Finitos (FEM FEBio)
 
