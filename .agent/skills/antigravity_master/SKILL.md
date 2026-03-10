@@ -100,52 +100,97 @@ Status: HIPÓTESE CONFIRMADA ✅
 
 ## 5. Como Usar as Skills do Projeto
 
-### Mapa de Skills (Nova Arquitetura — 7 Skills Unificadas)
+### Mapa Completo de Skills (Arquitetura Atual — 16 Skills Ativas)
 
 ```
 ANTIGRAVITY MASTER ◄─── Carregar primeiro em toda sessão
      │
-     ├── anatomia_corneana_unificada
-     │   Quando: Escrever/revisar camadas, fibras, KC, histologia ICRS
+     ├── FUNDAÇÃO CIENTÍFICA
+     │   ├── anatomia_corneana_unificada
+     │   │   Quando: Camadas, fibras, KC, histologia ICRS, proporções
+     │   │
+     │   ├── sistema_vetorial_icrs
+     │   │   Quando: Direções, cores, setas, V_End, templates vetoriais
+     │   │
+     │   └── fem_simulacao_engine
+     │       Quando: FEBio, HGO, resultados, predições biomecânicas
      │
-     ├── sistema_vetorial_icrs
-     │   Quando: Definir direções, cores, setas, V_End, templates de figuras
+     ├── CLÍNICA E PLANEJAMENTO
+     │   ├── banco_aneis_clinico
+     │   │   Quando: Selecionar anel, nomograma, fabricantes, segurança
+     │   │
+     │   ├── nomograma_engine
+     │   │   Quando: Calcular espessura + arco + VR/VT predito para um caso
+     │   │
+     │   ├── decompositor_caso_clinico
+     │   │   Quando: Analisar resultado de cirurgia, decompor em vetores
+     │   │
+     │   └── gerador_caso_didatico
+     │       Quando: Criar casos para CH-012, ensino, perfis paramétricos
      │
-     ├── banco_aneis_clinico
-     │   Quando: Selecionar anel, nomograma, planejamento cirúrgico
+     ├── PRODUÇÃO DO LIVRO
+     │   ├── sprint_capitulo
+     │   │   Quando: Iniciar ou acelerar a redação de qualquer capítulo
+     │   │
+     │   ├── biblio_nacional_icrs
+     │   │   Quando: Referências brasileiras, ABNT, Nassaralla/Almodin/Sandes
+     │   │
+     │   ├── mapa_evidencias_vivo
+     │   │   Quando: Auditar afirmações, fechar gaps, blindar contra revisores
+     │   │
+     │   └── livro_vivo_qr
+     │       Quando: QR codes, changelog biomecânico, publicação dinâmica
      │
-     ├── fem_simulacao_engine
-     │   Quando: Rodar FEBio, interpretar resultados, predições biomecânicas
+     ├── PRODUÇÃO DE IMAGENS
+     │   ├── pipeline_figura_express
+     │   │   Quando: Gerar qualquer figura (conceito → PNG)
+     │   │
+     │   ├── studio_ilustracao_atlas
+     │   │   Quando: Paleta oficial, templates matplotlib, BioRender, Fiverr
+     │   │
+     │   ├── icrs_geometria_precisa
+     │   │   Quando: Anel triangular/arredondado/hexagonal, proporções, triângulo ▲
+     │   │
+     │   └── ia_vs_python_imagens
+     │       Quando: Decidir ferramenta (IA vs Python), evitar viés "tenting treinado"
      │
-     ├── studio_ilustracao_atlas
-     │   Quando: Gerar figuras (matplotlib/BioRender/Fiverr), verificar visual
-     │
-     └── revisor_guardian_atlas
-         Quando: Revisar qualquer texto ou figura antes de publicar
+     └── REVISÃO E QUALIDADE
+         └── revisor_guardian_atlas
+             Quando: Revisar qualquer texto ou figura antes de publicar
 ```
 
 ### Fluxo de Trabalho Típico por Tarefa
 
-**Escrever um capítulo:**
-1. `antigravity_master` → contexto do projeto
-2. `anatomia_corneana_unificada` → base anatômica
-3. `sistema_vetorial_icrs` → vetores e direções
-4. `revisor_guardian_atlas` → validar antes de publicar
+**Escrever um capítulo novo:**
+1. `sprint_capitulo` → esqueleto completo em minutos
+2. `anatomia_corneana_unificada` → base anatômica das afirmações
+3. `sistema_vetorial_icrs` → vetores e direções corretas
+4. `biblio_nacional_icrs` → referências brasileiras (ABNT)
+5. `mapa_evidencias_vivo` → marcar ✅/🔬/💡/⚠️ em cada afirmação
+6. `revisor_guardian_atlas` → validação final antes de publicar
 
 **Criar uma figura:**
-1. `sistema_vetorial_icrs` → convenções de seta e cor
-2. `anatomia_corneana_unificada` → proporções corretas
-3. `studio_ilustracao_atlas` → template matplotlib e paleta
-4. `revisor_guardian_atlas` → Gate 1 e Gate 2 de qualidade
+1. `ia_vs_python_imagens` → decidir: IA ou Python? (regra dos 3 erros)
+2. `sistema_vetorial_icrs` → convenções de seta e cor
+3. `icrs_geometria_precisa` → posição, profundidade e proporção do anel
+4. `pipeline_figura_express` → template Python + execução + checklist
+5. `revisor_guardian_atlas` → Gate 1, 2 e 3 de qualidade
 
-**Planejamento cirúrgico (texto do atlas):**
-1. `banco_aneis_clinico` → catálogo e nomograma
-2. `fem_simulacao_engine` → predições biomecânicas
-3. `revisor_guardian_atlas` → validação de evidências
+**Planejar uma cirurgia (texto do atlas):**
+1. `nomograma_engine` → cálculo vetorial completo
+2. `banco_aneis_clinico` → catálogo e segurança
+3. `decompositor_caso_clinico` → gerar tabela pré/pós
+4. `gerador_caso_didatico` → transformar em caso didático para CH-012
 
 **Simulação FEM:**
-1. `fem_simulacao_engine` → parâmetros e configuração
-2. `antigravity_master` → contexto do que testar
+1. `fem_simulacao_engine` → parâmetros, FEBio, interpretação
+2. `mapa_evidencias_vivo` → registrar confirmações (💡→✅)
+
+**Sessão de produção rápida (sprint):**
+1. `antigravity_master` → contexto geral
+2. `sprint_capitulo` → rascunho do capítulo
+3. `pipeline_figura_express` → figuras pendentes do inventário
+4. `biblio_nacional_icrs` → fechar gaps de referência
 
 ---
 

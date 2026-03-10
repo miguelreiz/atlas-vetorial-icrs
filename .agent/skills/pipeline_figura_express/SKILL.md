@@ -217,6 +217,54 @@ ax.plot(x, y_new, color=COL_NEW, lw=2.2, linestyle='-')
 
 ---
 
+## 4b. Regras de Posicionamento Obrigatório do Anel em Toda Figura
+
+> **Ver:** skill `icrs_geometria_precisa` para código completo de cada perfil.
+
+### Localização (onde na córnea)
+- **Zona:** média-periferia — r = **2,5 a 4,0 mm** do centro óptico
+- **NUNCA** próximo ao limbo (r > 5mm) — efeito mínimo, visualmente errado
+- **NUNCA** na zona central (r < 2mm) — invasão da zona óptica
+
+### Profundidade (onde na espessura)
+- **70–80% da espessura total** medida do epitélio
+- Estroma acima do anel: visível (~20-25% da espessura = estroma anterior + parte do posterior)
+- Estroma residual abaixo do anel: visível (≥ 150 µm = ~27% em córnea de 550µm)
+- **O anel fica no estroma POSTERIOR** — nunca no anterior
+
+### Proporção do Anel (tamanho)
+- Espessura 200 µm em córnea de 550 µm = **36% da espessura total**
+- **NÃO desenhar anel maior que 40% da espessura total**
+- Perfil triangular: ápice para **CIMA** (▲ → direção do epitélio = direção do VR)
+- Base do triangulo: para baixo (assentada no estroma posterior)
+
+### Diagrama de Referência Visual
+```
+  Epitélio (~50µm)     ──────────────────────────── TOPO
+  Bowman (~10µm)       ────────────────────────────
+  Estroma Anterior     ──────────────────────────── 25% ↑
+  (~135µm = 25%)       ────────────────────────────
+  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ (limite ant/post) ─ ─ ─ ─ ─
+  Estroma Posterior    ────────────────────────────
+  (~330µm = 60%)           ▲ ANEL (ápice ↑)        ← 70-80% prof.
+                          ─── (200µm = 36%)
+  Estroma residual     ──────── ≥150µm ─────────── ↓
+  Descemet + Endotélio ──────────────────────────── BASE
+```
+
+### Regra de Decisão: IA vs. Python
+```
+IA generativa falha ~30% das vezes em:
+  - orientação do triângulo (ápice para baixo em vez de cima)
+  - profundidade do anel (coloca no anterior)
+  - proporção (anel gigante)
+
+SOLUÇÃO: usar Python/matplotlib sempre que houver anel na figura.
+Referência: fem/plot_fig_4_4.py (template aprovado com geometria correta)
+```
+
+---
+
 ## 5. Checklist de Qualidade do PNG
 
 Antes de confirmar uma figura como entregue:
