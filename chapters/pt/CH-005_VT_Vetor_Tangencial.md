@@ -74,6 +74,8 @@ A inserção de um segmento sólido de acrílico (PMMA) no estroma desloca fisic
 
 À medida que as pontas (*edges*) do segmento empurram o tecido para frente e para trás ao longo do túnel circunferencial, ocorre uma onda de **tensão de compressão** nas extremidades do segmento. Esta tensão tangencial percorre a malha de colágeno. Conforme a córnea reage a esta agressão estrutural longitudinal, ela tenta restaurar o equilíbrio tensional alterando a sua esfericidade global, o que se traduz na regularização topográfica de astigmatismos assimétricos.
 
+![Figura 5.2 — Dinâmica da Tração Tangencial: As pontas do anel concentram o stress máximo (VT), enquanto o corpo central atua como âncora passiva. Os vetores tangenciais (ciano) saem tangencialmente das extremidades do segmento.](../../images/CH-005_VT/Figura_Tangential_Traction.png)
+
 ### Modelo Vetorial Formal
 
 A força e a direção do Vetor Tangencial são determinadas por fatores focados no comprimento e posicionamento:
@@ -123,6 +125,8 @@ Quando usamos implantes assimétricos (ex: um segmento espesso de 160° inferior
 Muitos cirurgiões iniciantes entram em pânico ao observar que a implantação reduziu a refração esférica do paciente, mas AUMENTOU a refração cilíndrica. Isso é um erro de manipulação do Vetor Tangencial. 
 
 Se a incisão for posicionada equivocadamente fora do eixo topográfico principal mais curvo, as forças combinadas tangenciais dos anéis vão fatiar o astigmatismo nativo do doente original. Em vez de reduzir as curvas, estamos criando uma nova curva a 90º da nossa incisão aleatória. Criamos um cilindro induzido (SIA - Surgically Induced Astigmatism) conflitante, o que resulta em dupla curvatura borboleta destrutiva na topografia e queda severa na Visão Corrigida por Óculos (BSCVA). 
+
+![Figura 5.3 — O Efeito Nida: A incisão a 45° off-axis gera vetores tangenciais no eixo errado. O acoplamento ortogonal cria um novo cilindro induzido (SIA Conflitante) a 135°, resultando na dupla borboleta destrutiva.](../../images/CH-005_VT/Figura_Efeito_Acoplamento.png)
 
 ### Diferenciando Radical de Tangencial (A Chave Mestra)
 
