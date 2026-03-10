@@ -75,12 +75,12 @@ A magnitude dessa tração direcional é governada por dois princípios fundamen
    > - Diâmetro menor (ex: 5.0 mm) → Força mais concentrada no centro → Aplainamento mais agressivo
    > - Diâmetro maior (ex: 6.0 mm) → Força mais distribuída na periferia → Aplainamento mais suave e gradual
 
-#### A Mecânica no Tecido: A Cascata Tenting → Arc-Shortening
+#### A Mecânica no Tecido: A Cascata Separação Lamelar → Arc-Shortening
 
 O Vetor Radial não é uma força pontual. Ele emerge de uma **cascata de três eventos** que ocorrem em escalas progressivamente maiores:
 
-**1. Tenting (escala microscópica — separação lamelar):**
-O implante PMMA ocupa espaço entre as lamelas estromais. As lamelas *acima* do anel são fisicamente separadas e deslocadas anteriormente. Esta elevação focal visível na tomografia é o **primeiro evento** da cascata.
+**1. Separação lamelar interstromal (escala microscópica):**
+O implante PMMA ocupa espaço entre as lamelas estromais. As lamelas *acima* e *abaixo* do anel são fisicamente separadas. Esta separação local é o **primeiro evento** da cascata. ✅ FEM 2025: a superfície anterior sobre o anel é plana ou rebaixada (V_End), não elevada.
 
 **2. Arc-Shortening (escala mesoscal/fibrilar):**
 As 🔴 **fibras radiais** que cruzam o anel são forçadas a contornar o implante. Seu comprimento funcional (arco de limbo a limbo) **encurta** naquele meridiano. Como o colágeno tem pouca elasticidade, essas fibras ficam **fisicamente tensionadas** ao redor do implante.
@@ -281,7 +281,7 @@ No Plácido, os anéis **se comprimem** na zona do cone (muitos anéis juntos = 
 
 Quando o segmento de PMMA é inserido a ~75% de profundidade estromal:
 
-1. **O anel separa fisicamente as lamelas** no ponto de implantação — criando uma "tenda" local (Efeito Tenting)
+1. **O anel separa fisicamente as lamelas** no ponto de implantação — criando uma **separação lamelar interstromal** (a superfície NÃO eleva — ✅ V_End FEM 2025)
 2. Como a lamela é um cabo contínuo ancorado no limbo, ela precisa esticar.
 3. Para compensar esse caminho mais longo, as lamelas **tracionam as fibras vizinhas** em direção ao implante — esta é a origem física do VR
 4. As fibras centrais, que estavam frouxas e espaçadas, são **esticadas e reorganizadas** pela tração gerada localmente
@@ -324,7 +324,7 @@ O disco de Plácido mostra:
 
 O disco de Plácido mostra:
 - **Anéis menos comprimidos centralmente** — a densidade central diminuiu
-- **Leve elevação periférica** nos meridianos do implante (a "sombra" do Tenting)
+- **Leve compressão periférica** nos meridianos do implante (a "sombra" da separação lamelar)
 - **Padrão:** mais regular, mais próximo dos concêntricos perfeitos
 - **Mapa de cores:** ilha vermelha menor, mais pálida, K-max 3-5 D mais baixo
 

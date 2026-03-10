@@ -40,7 +40,7 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 |-------|--------------|---------|
 | Anel muito fino | VR insuficiente | Trocar por anel mais gordo |
 | Arco muito curto | VT insuficiente | Trocar por arco mais longo |
-| Profundidade excessiva (>80%) | Tenting reduzido (FEM: efeito diminuído ≥80%) | Reimplantar a 70–75% |
+| Profundidade excessiva (>80%) | Separação lamelar reduzida (FEM: efeito diminuído ≥80%) | Reimplantar a 70–75% |
 | Córnea muito rígida (pós-CXL) | Todos reduzidos | Considerar espera ou anel mais agressivo |
 
 #### Complicação 2: Hipercorreção (VR Excessivo)
@@ -63,7 +63,7 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 
 **O que aconteceu:** O anel migra para a superfície e perfura o epitélio.
 
-**Causa vetorial:** Tenting excessivo — o vetor de elevação local excede a capacidade do tecido de contê-lo.
+**Causa vetorial:** Separação lamelar excessiva — a força de separação local excede a capacidade do tecido de contê-la.
 
 **Fatores de risco:**
 - Anel muito superficial (< 65% de profundidade)
@@ -112,7 +112,7 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 
 **O que aconteceu:** Opacidade ou depósitos ao redor do anel.
 
-**Causa vetorial:** Não diretamente vetorial — é uma resposta tecidual. Porém, anéis com tenting excessivo (VR alto) tendem a gerar mais haze por maior estresse mecânico local.
+**Causa vetorial:** Não diretamente vetorial — é uma resposta tecidual. Porém, anéis com separação lamelar excessiva (VR alto) tendem a gerar mais haze por maior estresse mecânico local.
 
 **Manejo:**
 - Em geral, observação (a maioria estabiliza em 6–12 meses)
@@ -125,10 +125,10 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 |-------------|------------------|-----------|---------|
 | Hipocorreção | VEsférico baixo | Anel fraco ou cancelamento | Anel mais agressivo |
 | Hipercorreção | VR excessivo | Anel gordo demais | Trocar por mais fino |
-| Extrusão | Tenting excessivo | Superficial + gordo | Explantar, replanejar |
+| Extrusão | Separação lamelar excessiva | Superficial + gordo | Explantar, replanejar |
 | Astigmatismo induzido | VT errado | Incisão no eixo errado | Reposicionar |
 | Coma piorado | Vτ invertido | Ponta grossa no lado errado | Inverter orientação |
-| Haze | Estresse mecânico local | Tenting alto | Observar ou corticóide |
+| Haze | Estresse mecânico local | Separação lamelar alta | Observar ou corticóide |
 
 ![Figura 12.1: As 6 Complicações dos Anéis Classificadas por Vetor — cada complicação está ligada ao vetor biomecânico responsável e sua solução](../../images/CH-013_Complicacoes/Figura_12.1_Complicacoes_Por_Vetor.png)
 
@@ -150,8 +150,8 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 | **Hipercorreção** | VR excessivo | Anel tensionou 🔴 radiais em excesso → inversão de curvatura — radiais "hiperesticadas" |
 | **Astigmatismo induzido** | VT mal direcionado | Anel criou nova linha 🔵 tangencial no eixo errado → redistribuiu tensão na direção incorreta |
 | **Coma piorado** | Vτ invertido | Ponta grossa do lado errado → gradiente de travamento 🟢 invertido → ápice migra para LONGE do centro |
-| **Extrusão** | Tenting excessivo | Anel muito espesso a profundidade insuficiente → pressão erosiva sobre as lamelas acima → fibras 🔴 e 🟢 rompem focalmente |
-| **Haze estromal** | Estresse mecânico | Lamelas no ponto de máximo tenting sofrem microtrauma → resposta cicatricial |
+| **Extrusão** | Separação lamelar excessiva | Anel muito espesso a profundidade insuficiente → pressão erosiva sobre as lamelas acima → fibras 🔴 e 🟢 rompem focalmente |
+| **Haze estromal** | Estresse mecânico | Lamelas no ponto de máxima separação lamelar sofrem microtrauma → resposta cicatricial |
 
 > **🔬 Implicação Clínica:** Entender a complicação na escala fibrilar ajuda a escolher a **correção correta**: se o problema é de 🔴 radiais (hipo/hipercorreção), troque espessura. Se é de 🟢 oblíquas (coma), troque para assimétrico. Se é de 🔵 tangenciais (SIA), corrija o eixo.
 

@@ -172,7 +172,7 @@ LUZ ENTRANDO PELA PUPILA:
 
 O segmento assimétrico (ponta grossa inferior) atua nas fibras em 3 etapas:
 
-1. **Ponta grossa empurra as lamelas inferiores** anteriormente (tenting máximo) → elevação focal
+1. **Ponta grossa separa as lamelas inferiores** massivamente (separação lamelar máxima) → tensão focal
 2. **Tração reversa** puxa as lamelas vizinhas em direção ao anel → reorganização
 3. **O ápice, que era sustentado pelas lamelas frouxas**, é mecanicamente **içado** pela nova tensão → migra em direção ao centro pupilar
 4. A assimetria de tensão entre hemicórneas **diminui** → o diferencial de refração diminui → **coma cai**

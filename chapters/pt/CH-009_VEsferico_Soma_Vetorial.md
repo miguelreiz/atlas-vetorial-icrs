@@ -206,7 +206,7 @@ O VEsférico é a soma vetorial de todas as interações do anel com as 3 famíl
 
 | Componente | Fibra Interagida | Mecanismo |
 |-----------|-----------------|-----------|
-| **VR** (aplainamento) | 🔴 Radiais — tensionadas lateralmente pelo tenting | Anel separa lamelas → fibras radiais esticam → curvatura central diminui |
+| **VR** (aplainamento) | 🔴 Radiais — tensionadas lateralmente pela separação lamelar | Anel separa lamelas → fibras radiais esticam → curvatura central diminui |
 | **VT** (redistribuição) | 🔵 Tangenciais — arco do anel cria nova tangencial | Anel age como tangencial artificial → redistribui tensão entre meridianos |
 | **Vτ** (torque) | 🟢 Oblíquas — gradiente de travamento recriado | Ponta grossa→ponta fina cria gradiente que empurra ápice |
 | **VComa** (óptico) | Resultado da soma assimétrica | Migração do ápice = consequência óptica da redistribuição fibrilar |

@@ -219,10 +219,10 @@ O nomograma vetorial prescreve vetores, não matrizes comerciais. Mas as matrize
 
 | Perfil | Fabricante Exemplo | Dinâmica Biomecânica | Melhor Quando |
 |--------|--------------------|---------------------|---------------|
-| 🔺 **Triangular** | Ferrara Padrão (até 340°), Keraring (até 355°) | Tenting focal agudo. Separa lamelas como cunha. **VR máximo por espessura.** | Nipple severo, VR prioritário, Ø5mm (fibras ortogonais). |
-| △ **Prismático-trapezoidal arred.** | AJL PRO+ (160°, 210°) | Tenting atenuado. Base ampla + ápice suavizado. **Vτ embutido** pela base progressiva. | Duck (P3), Vτ prioritário. |
+| 🔺 **Triangular** | Ferrara Padrão (até 340°), Keraring (até 355°) | Separação lamelar focal aguda. Fende lamelas como cunha. **VR máximo por espessura.** | Nipple severo, VR prioritário, Ø5mm (fibras ortogonais). |
+| △ **Prismático-trapezoidal arred.** | AJL PRO+ (160°, 210°) | Separação lamelar atenuada. Base ampla + ápice suavizado. **Vτ embutido** pela base progressiva. | Duck (P3), Vτ prioritário. |
 | 🟠 **Fusiforme (spindle-like)** | Ferrara HM (320°) | Concentração semi-focal. Biconvexo sem ponta. **VR+VT simultâneos** pelo arco longo. | Alta miopia + KC, VR+VT unificados. |
-| ⬮ **Arredondado / Elíptico** | CornealRing (até 300°) | Tenting difuso. Modulação difusa pura. **Mínimo haze/glare.** VT excelente. | Cones amplos, contenção, Ø6mm+ (fibras tangenciais). |
+| ⬮ **Arredondado / Elíptico** | CornealRing (até 300°) | Separação lamelar difusa. Modulação difusa pura. **Mínimo haze/glare.** VT excelente. | Cones amplos, contenção, Ø6mm+ (fibras tangenciais). |
 | ⭕ **Anel 360°** | MyoRing (Ø5-8mm, pocket) | Annulus perfeito. 360° de cobertura. **Contenção máxima absoluta.** | KC progressivo jovem, estabilização pura. |
 
 #### Perfil Vetorial por Fabricante e Configuração

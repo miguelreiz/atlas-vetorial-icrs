@@ -712,7 +712,7 @@ hr {
   <div class="sidebar-footer">
     <div class="reg-label">&#x1F512; OBRA REGISTRADA</div>
     <div style="margin-top:4px">Dr. Miguel Reis &copy; 2026</div>
-    <div style="margin-top:2px">Master: <code>856dedfbb8509bfb3c37...</code></div>
+    <div style="margin-top:2px">Master: <code>a338b7de2d4cfc58f6a1...</code></div>
     <div style="margin-top:2px">Registro: 2026-03-10</div>
   </div>
 </nav>
@@ -731,7 +731,7 @@ hr {
       que comprova a autoria e a integridade do conteudo.
     </p>
     <div class="master-hash">
-      Master Hash: 856dedfbb8509bfb3c37dea4b1a7d453c2fba523b3f2f9116d830aa45e423e48
+      Master Hash: a338b7de2d4cfc58f6a1ce7e5f4f9a2894ace6462f1e59524f307ad4d8f9199d
     </div>
     <p class="legal">
       Distribuicao deste documento para revisao nao constitui cessao de direitos.
@@ -2898,6 +2898,52 @@ version: 0.1.0
 <h2 id="conteudo-instrucional">📖 CONTEÚDO INSTRUCIONAL</h2>
 <h3 id="introducao">Introdução</h3>
 <p>Este capítulo é a ponte entre a anatomia (Capítulo 1) e o sistema vetorial (Capítulos 4–8). Aqui você entenderá os <strong>princípios físicos fundamentais</strong> que explicam por que e como um pedaço de PMMA inserido no estroma consegue aplainar, redistribuir e reposicionar a curvatura corneana.</p>
+<hr />
+<h3 id="o-que-e-o-fem-uma-introducao-para-o-cirurgiao">🖥️ O Que é o FEM? — Uma Introdução Para o Cirurgião</h3>
+<blockquote>
+<p><strong>Ao longo deste Atlas, diversas afirmações terminam com a sigla "FEM" ou "FEBio". O que significam?</strong></p>
+<p>O <strong>Método dos Elementos Finitos (FEM)</strong> é uma técnica de simulação por computador que divide a córnea em milhares de pequenos elementos ("pecinhas") interligados e calcula como cada um se deforma quando uma força é aplicada — como a pressão intraocular ou a presença de um implante ICRS.</p>
+<p><strong>Por que usamos FEM neste Atlas?</strong>
+Porque é impossível medir diretamente <em>in vivo</em> as forças de micronewtons que o anel exerce sobre lamelas de micrômetros. O FEM permite criar um <strong>clone digital da córnea</strong> e testar hipóteses biomecânicas sem tocar no paciente.</p>
+<p><strong>O processo em 4 etapas:</strong></p>
+</blockquote>
+<p><img alt="Figura 2.0: Pipeline FEM — Como simulamos a córnea com ICRS. 4 etapas: (1) Geometria — modelo da córnea com anel Ø5-6mm a 70% de profundidade; (2) Malha — discretização em elementos finitos com refinamento adaptativo; (3) Carregamento — PIO 15 mmHg + condições de contorno limbais; (4) Resultado — mapa de Von Mises + deslocamento nodal (V_End)." src="file:///c:/Users/3D_OCT/Documents/Antigravity/Vetores Anel/images/CH-002_Biomecanica/Figura_FEM_Pipeline_Process.png" /></p>
+<blockquote>
+<table>
+<thead>
+<tr>
+<th>Etapa</th>
+<th>O que faz</th>
+<th>Analogia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1. Geometria</strong></td>
+<td>Desenha a córnea + anel (Ø5-6mm, 70% profundidade)</td>
+<td>O "paciente digital"</td>
+</tr>
+<tr>
+<td><strong>2. Malha</strong></td>
+<td>Divide em milhares de elementos triangulares</td>
+<td>O "mapa de ruas" do tecido</td>
+</tr>
+<tr>
+<td><strong>3. Carregamento</strong></td>
+<td>Aplica PIO (15 mmHg) + âncora limbal</td>
+<td>"Liga" a pressão no modelo</td>
+</tr>
+<tr>
+<td><strong>4. Resultado</strong></td>
+<td>Calcula deslocamento + tensão de Von Mises</td>
+<td>O "diagnóstico digital"</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Quando você ler "✅ FEM" ou "🔬 FEM" neste Atlas</strong>, significa que a afirmação foi testada nessa simulação e os resultados são consistentes com a hipótese apresentada.</p>
+<p>📖 <strong>Aprofundamento:</strong> CH-015 (Biomecânica Profunda + CXL) e Apêndice A (Modelagem Numérica FEBio).</p>
+</blockquote>
+<hr />
 <blockquote>
 <p>⚠️ <strong>REVISÃO CONCEITUAL IMPORTANTE:</strong> O framework clássico dos "3 Princípios Independentes" (Barraquer / Arc-Shortening / Tenting) é didaticamente convencional, mas biomechanicamente impreciso — pois Barraquer, Arc-Shortening e Tenting não são 3 causas paralelas: são <strong>3 escalas de observação do mesmo fenômeno</strong>. Este Atlas os apresenta na forma correta: uma <strong>cascata causal em escala</strong> (micro → meso → macro).</p>
 <p>✅ <strong>QUALIFICAÇÃO FEM 2025 — Sobre o Termo "Tenting":</strong> Neste Atlas, o termo "tenting" refere-se exclusivamente à <strong>separação lamelar interstromal</strong> (micro-escala) causada pela interposição do PMMA entre as lamelas — NÃO à elevação da superfície anterior sobre o anel. A simulação FEBio 2025 (Mooney-Rivlin, IOP=15 mmHg) confirmou que a superfície anterior sobre o anel é <strong>PLANA ou REBAIXADA</strong> (Vetor Endotelial, uz = −0,0068 mm). O "tenting de superfície" clássico <strong>NÃO ocorre</strong>. Onde este capítulo refere "tenting", leia "separação lamelar interstromal".</p>
@@ -3844,7 +3890,7 @@ REGRA VISUAL DO ATLAS:
 <p><em>Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial</em></p>
 <div class="chapter-reg">
             <span class="reg-icon">&#x1F512;</span>
-            SHA-256: <code>0710239f0f5b9228...c8995358</code>
+            SHA-256: <code>ad03df2e8ad61bfe...1397ae2a</code>
             &nbsp;|&nbsp; Registrado: 2026-03-10
         </div>
 </section><section id="CH-003_Classificacao_Ceratocone" class="chapter">
@@ -4493,10 +4539,10 @@ expected_outcome: &quot;Reduction of central corneal power (ΔK = -2.0 to -6.0 D
 - Diâmetro menor (ex: 5.0 mm) → Força mais concentrada no centro → Aplainamento mais agressivo
 - Diâmetro maior (ex: 6.0 mm) → Força mais distribuída na periferia → Aplainamento mais suave e gradual</p>
 </blockquote>
-<h4 id="a-mecanica-no-tecido-a-cascata-tenting-arc-shortening">A Mecânica no Tecido: A Cascata Tenting → Arc-Shortening</h4>
+<h4 id="a-mecanica-no-tecido-a-cascata-separacao-lamelar-arc-shortening">A Mecânica no Tecido: A Cascata Separação Lamelar → Arc-Shortening</h4>
 <p>O Vetor Radial não é uma força pontual. Ele emerge de uma <strong>cascata de três eventos</strong> que ocorrem em escalas progressivamente maiores:</p>
-<p><strong>1. Tenting (escala microscópica — separação lamelar):</strong>
-O implante PMMA ocupa espaço entre as lamelas estromais. As lamelas <em>acima</em> do anel são fisicamente separadas e deslocadas anteriormente. Esta elevação focal visível na tomografia é o <strong>primeiro evento</strong> da cascata.</p>
+<p><strong>1. Separação lamelar interstromal (escala microscópica):</strong>
+O implante PMMA ocupa espaço entre as lamelas estromais. As lamelas <em>acima</em> e <em>abaixo</em> do anel são fisicamente separadas. Esta separação local é o <strong>primeiro evento</strong> da cascata. ✅ FEM 2025: a superfície anterior sobre o anel é plana ou rebaixada (V_End), não elevada.</p>
 <p><strong>2. Arc-Shortening (escala mesoscal/fibrilar):</strong>
 As 🔴 <strong>fibras radiais</strong> que cruzam o anel são forçadas a contornar o implante. Seu comprimento funcional (arco de limbo a limbo) <strong>encurta</strong> naquele meridiano. Como o colágeno tem pouca elasticidade, essas fibras ficam <strong>fisicamente tensionadas</strong> ao redor do implante.</p>
 <p><strong>3. Aplainamento Central — Lei de Barraquer (escala macroscópica):</strong>
@@ -4738,7 +4784,7 @@ diagram_concept: &gt;
 <h4 id="o-anel-implantado-como-o-vr-age-nas-fibras">O Anel Implantado — Como o VR Age nas Fibras</h4>
 <p>Quando o segmento de PMMA é inserido a ~75% de profundidade estromal:</p>
 <ol>
-<li><strong>O anel separa fisicamente as lamelas</strong> no ponto de implantação — criando uma "tenda" local (Efeito Tenting)</li>
+<li><strong>O anel separa fisicamente as lamelas</strong> no ponto de implantação — criando uma <strong>separação lamelar interstromal</strong> (a superfície NÃO eleva — ✅ V_End FEM 2025)</li>
 <li>Como a lamela é um cabo contínuo ancorado no limbo, ela precisa esticar.</li>
 <li>Para compensar esse caminho mais longo, as lamelas <strong>tracionam as fibras vizinhas</strong> em direção ao implante — esta é a origem física do VR</li>
 <li>As fibras centrais, que estavam frouxas e espaçadas, são <strong>esticadas e reorganizadas</strong> pela tração gerada localmente</li>
@@ -4773,7 +4819,7 @@ DEPOIS (correção):
 <h4 id="depois-cone-nipple-vr-aplicado-pelo-anel-simetrico">Depois (Cone Nipple — VR Aplicado pelo Anel Simétrico)</h4>
 <p>O disco de Plácido mostra:
 - <strong>Anéis menos comprimidos centralmente</strong> — a densidade central diminuiu
-- <strong>Leve elevação periférica</strong> nos meridianos do implante (a "sombra" do Tenting)
+- <strong>Leve compressão periférica</strong> nos meridianos do implante (a "sombra" da separação lamelar)
 - <strong>Padrão:</strong> mais regular, mais próximo dos concêntricos perfeitos
 - <strong>Mapa de cores:</strong> ilha vermelha menor, mais pálida, K-max 3-5 D mais baixo</p>
 <blockquote>
@@ -4904,7 +4950,7 @@ Onde:
 <p><em>Pipeline Status: DRAFT v0.6.0 — VR corrigido para centrífugo. Revisado pelo Engenheiro Vetorial.</em></p>
 <div class="chapter-reg">
             <span class="reg-icon">&#x1F512;</span>
-            SHA-256: <code>11008b3e5667162d...d25a2498</code>
+            SHA-256: <code>899a69e224c8d396...7d573e89</code>
             &nbsp;|&nbsp; Registrado: 2026-03-10
         </div>
 </section><section id="CH-005_VT_Vetor_Tangencial" class="chapter">
@@ -5023,7 +5069,7 @@ Diferente do Vetor Radial (onde segmentos mais finos com diâmetros menores têm
 <h4 id="o-anel-e-o-efeito-de-acoplamento-nas-lamelas">O Anel e o Efeito de Acoplamento nas Lamelas</h4>
 <p>Quando o anel é implantado <strong>no meridiano mais curvo</strong> (K-steep):</p>
 <ol>
-<li>O segmento de PMMA <strong>separa as lamelas</strong> nesse meridiano (Tenting + Volume local)</li>
+<li>O segmento de PMMA <strong>separa as lamelas</strong> nesse meridiano (separação lamelar interstromal + Volume local)</li>
 <li>As fibras que passam por cima do anel nesse meridiano são <strong>forçadas a encurtar</strong> seu caminho funcional — o arco que elas cobriam agora é ocupado pelo PMMA</li>
 <li>Essa perda de "comprimento funcional" no meridiano curvo <strong>relaxa a tensão</strong> nesse eixo → aplainamento local</li>
 <li><strong>Pelo princípio de conservação de volume do estroma:</strong> a tensão perdida no K-steep é <strong>transferida para o K-flat</strong> (meridiano perpendicular)</li>
@@ -5168,7 +5214,7 @@ alternative_view: esquema_isometrico
 <p><em>Pipeline Status: DRAFT v0.6.0 — Checklists de skill 0, 9, 10, 11 adicionados. Skill 7 (ilustração) pendente.</em></p>
 <div class="chapter-reg">
             <span class="reg-icon">&#x1F512;</span>
-            SHA-256: <code>6534ca947b97ee9c...2de94e3a</code>
+            SHA-256: <code>b882bd52dffdaa65...a80202f7</code>
             &nbsp;|&nbsp; Registrado: 2026-03-10
         </div>
 </section><section id="CH-006_Vt_Vetor_Torque" class="chapter">
@@ -5214,8 +5260,8 @@ Agora imagine um segmento onde a espessura <strong>aumenta progressivamente</str
 <h4 id="o-efeito-de-volume-diferencial-bulking-effect">O Efeito de Volume Diferencial (<em>Bulking Effect</em>)</h4>
 <p>A consequência biomecânica direta dessa assimetria é o chamado <strong>Efeito de Volume Diferencial</strong> (<em>Differential Bulking Effect</em>):</p>
 <ul>
-<li>Na região onde o anel é mais espesso, ocorre um <strong>levantamento estromal massivo</strong> — as lamelas são empurradas anteriormente de forma muito pronunciada (grande efeito de tenda local).</li>
-<li>Na região onde o anel é fino, ocorre apenas um <strong>levantamento mínimo</strong> — quase sem efeito de tenda.</li>
+<li>Na região onde o anel é mais espesso, ocorre uma <strong>separação lamelar massiva</strong> — as lamelas são afastadas de forma muito pronunciada (grande separação interstromal local).</li>
+<li>Na região onde o anel é fino, ocorre apenas uma <strong>separação mínima</strong> — quase sem efeito local.</li>
 <li>Esse gradiente de levantamento — forte de um lado, suave do outro — cria uma <strong>transição de curvatura local</strong> (<em>local curvature transition</em>).</li>
 </ul>
 <p>É como se o implante assimétrico "inclinasse" o tecido estromal, girando-o: a zona de maior elevação (ponta grossa) força o cone a se reposicionar, puxando o ápice da protrusão na direção da zona mais fina.</p>
@@ -5371,12 +5417,12 @@ Onde:
 <li><strong>O gradiente de tensão</strong> entre as duas pontas cria um <strong>momento de torção</strong> — as lamelas entre a ponta fina e a ponta grossa são submetidas a um campo rotacional de estresse.</li>
 </ol>
 <p><strong>O efeito nas fibras:</strong>
-- As lamelas acima da ponta <strong>grossa</strong> são empurradas anteriormente de maneira massiva — gerando forte elevação local (Tenting máximo)
+- As lamelas acima da ponta <strong>grossa</strong> são separadas de maneira massiva — gerando forte separação lamelar local (máxima)
 - As lamelas acima da ponta <strong>fina</strong> são minimamente perturbadas
 - A <strong>transição</strong> entre as duas zonas força as fibras a <strong>rotarem seu eixo de orientação</strong> — esta rotação é o Torque</p>
 <pre class="codehilite"><code>PONTA FINA (150 µm):       PONTA GROSSA (350 µm):
   Lamelas: leve desvio        Lamelas: desvio massivo
-  Tenting: mínimo             Tenting: máximo
+  Separação: mínima           Separação: máxima
   Tensão: baixa               Tensão: altíssima
 
   ←————— GRADIENTE = TORQUE ——————→
@@ -5462,7 +5508,7 @@ alternative_view: top_down
 <p><em>Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial</em></p>
 <div class="chapter-reg">
             <span class="reg-icon">&#x1F512;</span>
-            SHA-256: <code>ca96c007c680aeaf...c31eb2e5</code>
+            SHA-256: <code>20b009f39f443d34...fc7e2aed</code>
             &nbsp;|&nbsp; Registrado: 2026-03-10
         </div>
 </section><section id="CH-007_VComa_Deslocamento_Optico" class="chapter">
@@ -5659,7 +5705,7 @@ O ápice está longe do centro (descentrado inferiormente). O coma é altíssimo
 <h4 id="o-anel-corrige-o-coma-movendo-as-fibras">O Anel Corrige o Coma Movendo as Fibras</h4>
 <p>O segmento assimétrico (ponta grossa inferior) atua nas fibras em 3 etapas:</p>
 <ol>
-<li><strong>Ponta grossa empurra as lamelas inferiores</strong> anteriormente (tenting máximo) → elevação focal</li>
+<li><strong>Ponta grossa separa as lamelas inferiores</strong> massivamente (separação lamelar máxima) → tensão focal</li>
 <li><strong>Tração reversa</strong> puxa as lamelas vizinhas em direção ao anel → reorganização</li>
 <li><strong>O ápice, que era sustentado pelas lamelas frouxas</strong>, é mecanicamente <strong>içado</strong> pela nova tensão → migra em direção ao centro pupilar</li>
 <li>A assimetria de tensão entre hemicórneas <strong>diminui</strong> → o diferencial de refração diminui → <strong>coma cai</strong></li>
@@ -5771,7 +5817,7 @@ anatomical_view: top_down
 <p>Publicar a <strong>distinção anel simétrico (VR) vs assimétrico (Vτ+VComa)</strong> como argumento formal em JCRS elevaria o padrão de planejamento cirúrgico.</p>
 <div class="chapter-reg">
             <span class="reg-icon">&#x1F512;</span>
-            SHA-256: <code>470f1f8fbbe345ee...0140e240</code>
+            SHA-256: <code>eb2d75f7997669bc...1921f8b2</code>
             &nbsp;|&nbsp; Registrado: 2026-03-10
         </div>
 </section><section id="CH-008_LDM_A_Lei_do_Disco_Mecanico" class="chapter">
@@ -6709,7 +6755,7 @@ anatomical_view: top_down (diagrama de soma vetorial)
 <tbody>
 <tr>
 <td><strong>VR</strong> (aplainamento)</td>
-<td>🔴 Radiais — tensionadas lateralmente pelo tenting</td>
+<td>🔴 Radiais — tensionadas lateralmente pela separação lamelar</td>
 <td>Anel separa lamelas → fibras radiais esticam → curvatura central diminui</td>
 </tr>
 <tr>
@@ -6777,7 +6823,7 @@ anatomical_view: top_down (diagrama de soma vetorial)
 <p>A <strong>tabela fibrilar</strong> (VR=🔴, VT=🔵, Vτ=🟢, VComa=resultado) é a síntese mais didática do Atlas inteiro.</p>
 <div class="chapter-reg">
             <span class="reg-icon">&#x1F512;</span>
-            SHA-256: <code>ac242ee90acaf59e...e4900ee8</code>
+            SHA-256: <code>616a74ebf480457d...bc73ef4a</code>
             &nbsp;|&nbsp; Registrado: 2026-03-10
         </div>
 </section><section id="CH-010_ICE_Indice_Coerencia_Eixos" class="chapter">
@@ -7677,13 +7723,13 @@ PRESCRIÇÃO CIRÚRGICA
 <tr>
 <td>🔺 <strong>Triangular</strong></td>
 <td>Ferrara Padrão (até 340°), Keraring (até 355°)</td>
-<td>Tenting focal agudo. Separa lamelas como cunha. <strong>VR máximo por espessura.</strong></td>
+<td>Separação lamelar focal aguda. Fende lamelas como cunha. <strong>VR máximo por espessura.</strong></td>
 <td>Nipple severo, VR prioritário, Ø5mm (fibras ortogonais).</td>
 </tr>
 <tr>
 <td>△ <strong>Prismático-trapezoidal arred.</strong></td>
 <td>AJL PRO+ (160°, 210°)</td>
-<td>Tenting atenuado. Base ampla + ápice suavizado. <strong>Vτ embutido</strong> pela base progressiva.</td>
+<td>Separação lamelar atenuada. Base ampla + ápice suavizado. <strong>Vτ embutido</strong> pela base progressiva.</td>
 <td>Duck (P3), Vτ prioritário.</td>
 </tr>
 <tr>
@@ -7695,7 +7741,7 @@ PRESCRIÇÃO CIRÚRGICA
 <tr>
 <td>⬮ <strong>Arredondado / Elíptico</strong></td>
 <td>CornealRing (até 300°)</td>
-<td>Tenting difuso. Modulação difusa pura. <strong>Mínimo haze/glare.</strong> VT excelente.</td>
+<td>Separação lamelar difusa. Modulação difusa pura. <strong>Mínimo haze/glare.</strong> VT excelente.</td>
 <td>Cones amplos, contenção, Ø6mm+ (fibras tangenciais).</td>
 </tr>
 <tr>
@@ -7910,7 +7956,7 @@ O Ferrara HM com <strong>arco de 320° e perfil fusiforme</strong> em Ø5.7mm at
 <p>A <strong>Matriz Perfil × Arco × Fenótipo</strong> — pode se tornar poster de congresso e referência de sala de planejamento.</p>
 <div class="chapter-reg">
             <span class="reg-icon">&#x1F512;</span>
-            SHA-256: <code>67b37d3cfb6acb27...931cea29</code>
+            SHA-256: <code>bd73a2229a678ff9...067cd1b5</code>
             &nbsp;|&nbsp; Registrado: 2026-03-10
         </div>
 </section><section id="CH-012_Casos_Clinicos" class="chapter">
@@ -8401,7 +8447,7 @@ version: 0.1.0
 |-------|--------------|---------|
 | Anel muito fino | VR insuficiente | Trocar por anel mais gordo |
 | Arco muito curto | VT insuficiente | Trocar por arco mais longo |
-| Profundidade excessiva (&gt;80%) | Tenting reduzido (FEM: efeito diminuído ≥80%) | Reimplantar a 70–75% |
+| Profundidade excessiva (&gt;80%) | Separação lamelar reduzida (FEM: efeito diminuído ≥80%) | Reimplantar a 70–75% |
 | Córnea muito rígida (pós-CXL) | Todos reduzidos | Considerar espera ou anel mais agressivo |</p>
 <h4 id="complicacao-2-hipercorrecao-vr-excessivo">Complicação 2: Hipercorreção (VR Excessivo)</h4>
 <p><strong>O que aconteceu:</strong> Aplainamento central excessivo, com inversão do perfil corneano.</p>
@@ -8416,7 +8462,7 @@ version: 0.1.0
 3. Se severo: explantar o anel e aguardar recuperação corneana (3–6 meses)</p>
 <h4 id="complicacao-3-extrusao-do-segmento">Complicação 3: Extrusão do Segmento</h4>
 <p><strong>O que aconteceu:</strong> O anel migra para a superfície e perfura o epitélio.</p>
-<p><strong>Causa vetorial:</strong> Tenting excessivo — o vetor de elevação local excede a capacidade do tecido de contê-lo.</p>
+<p><strong>Causa vetorial:</strong> Separação lamelar excessiva — a força de separação local excede a capacidade do tecido de contê-la.</p>
 <p><strong>Fatores de risco:</strong>
 - Anel muito superficial (&lt; 65% de profundidade)
 - Anel muito gordo em córnea fina (&lt; 400 μm no local)
@@ -8449,7 +8495,7 @@ version: 0.1.0
 2. <strong>Prevenção:</strong> Sempre marcar a orientação do segmento ANTES de inserir no túnel</p>
 <h4 id="complicacao-6-depositos-e-haze-peri-anel">Complicação 6: Depósitos e Haze Peri-Anel</h4>
 <p><strong>O que aconteceu:</strong> Opacidade ou depósitos ao redor do anel.</p>
-<p><strong>Causa vetorial:</strong> Não diretamente vetorial — é uma resposta tecidual. Porém, anéis com tenting excessivo (VR alto) tendem a gerar mais haze por maior estresse mecânico local.</p>
+<p><strong>Causa vetorial:</strong> Não diretamente vetorial — é uma resposta tecidual. Porém, anéis com separação lamelar excessiva (VR alto) tendem a gerar mais haze por maior estresse mecânico local.</p>
 <p><strong>Manejo:</strong>
 - Em geral, observação (a maioria estabiliza em 6–12 meses)
 - Se visualmente significativo: corticóide tópico por 2–4 semanas
@@ -8479,7 +8525,7 @@ version: 0.1.0
 </tr>
 <tr>
 <td>Extrusão</td>
-<td>Tenting excessivo</td>
+<td>Separação lamelar excessiva</td>
 <td>Superficial + gordo</td>
 <td>Explantar, replanejar</td>
 </tr>
@@ -8498,7 +8544,7 @@ version: 0.1.0
 <tr>
 <td>Haze</td>
 <td>Estresse mecânico local</td>
-<td>Tenting alto</td>
+<td>Separação lamelar alta</td>
 <td>Observar ou corticóide</td>
 </tr>
 </tbody>
@@ -8549,13 +8595,13 @@ version: 0.1.0
 </tr>
 <tr>
 <td><strong>Extrusão</strong></td>
-<td>Tenting excessivo</td>
+<td>Separação lamelar excessiva</td>
 <td>Anel muito espesso a profundidade insuficiente → pressão erosiva sobre as lamelas acima → fibras 🔴 e 🟢 rompem focalmente</td>
 </tr>
 <tr>
 <td><strong>Haze estromal</strong></td>
 <td>Estresse mecânico</td>
-<td>Lamelas no ponto de máximo tenting sofrem microtrauma → resposta cicatricial</td>
+<td>Lamelas no ponto de máxima separação lamelar sofrem microtrauma → resposta cicatricial</td>
 </tr>
 </tbody>
 </table>
@@ -8593,7 +8639,7 @@ version: 0.1.0
 <p>A <strong>tabela complicação → vetor → fibra</strong> — pode ser a referência padrão para troubleshooting de ICRS.</p>
 <div class="chapter-reg">
             <span class="reg-icon">&#x1F512;</span>
-            SHA-256: <code>91a7d23aea5dbbdb...8db4aeac</code>
+            SHA-256: <code>1b0fb32380b16a4e...b66f8a36</code>
             &nbsp;|&nbsp; Registrado: 2026-03-10
         </div>
 </section><section id="CH-014_Futuro_Aneis" class="chapter">
@@ -11282,8 +11328,8 @@ $$ \Delta R \approx -\frac{f^2}{R_{nominal}} \cdot \Delta K $$</p>
     <h2>Fim do Atlas Vetorial ICRS</h2>
     <p>
       <strong>Dr. Miguel Reis</strong> &copy; 2026 | Todos os direitos reservados<br>
-      24 capitulos | Master SHA-256: <code>856dedfbb8509bfb3c37dea4b1a7d453...</code><br>
-      Versao 1.0.0-draft | Registro: 2026-03-10T11:02:42Z
+      24 capitulos | Master SHA-256: <code>a338b7de2d4cfc58f6a1ce7e5f4f9a28...</code><br>
+      Versao 1.0.0-draft | Registro: 2026-03-10T11:19:04Z
     </p>
     <p class="legal">
       Os conceitos originais deste Atlas incluem: Teoria Vetorial ICRS (VR, VT, Vτ, VComa, VEsferico),

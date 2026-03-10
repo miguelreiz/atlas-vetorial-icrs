@@ -61,8 +61,8 @@ O anel assimétrico faz exatamente isso. A ponta grossa do segmento empurra com 
 
 A consequência biomecânica direta dessa assimetria é o chamado **Efeito de Volume Diferencial** (*Differential Bulking Effect*):
 
-- Na região onde o anel é mais espesso, ocorre um **levantamento estromal massivo** — as lamelas são empurradas anteriormente de forma muito pronunciada (grande efeito de tenda local).
-- Na região onde o anel é fino, ocorre apenas um **levantamento mínimo** — quase sem efeito de tenda.
+- Na região onde o anel é mais espesso, ocorre uma **separação lamelar massiva** — as lamelas são afastadas de forma muito pronunciada (grande separação interstromal local).
+- Na região onde o anel é fino, ocorre apenas uma **separação mínima** — quase sem efeito local.
 - Esse gradiente de levantamento — forte de um lado, suave do outro — cria uma **transição de curvatura local** (*local curvature transition*).
 
 É como se o implante assimétrico "inclinasse" o tecido estromal, girando-o: a zona de maior elevação (ponta grossa) força o cone a se reposicionar, puxando o ápice da protrusão na direção da zona mais fina.
@@ -177,14 +177,14 @@ Quando um segmento progressivo (espessura variável: 150 µm → 350 µm) é imp
 3. **O gradiente de tensão** entre as duas pontas cria um **momento de torção** — as lamelas entre a ponta fina e a ponta grossa são submetidas a um campo rotacional de estresse.
 
 **O efeito nas fibras:**
-- As lamelas acima da ponta **grossa** são empurradas anteriormente de maneira massiva — gerando forte elevação local (Tenting máximo)
+- As lamelas acima da ponta **grossa** são separadas de maneira massiva — gerando forte separação lamelar local (máxima)
 - As lamelas acima da ponta **fina** são minimamente perturbadas
 - A **transição** entre as duas zonas força as fibras a **rotarem seu eixo de orientação** — esta rotação é o Torque
 
 ```
 PONTA FINA (150 µm):       PONTA GROSSA (350 µm):
   Lamelas: leve desvio        Lamelas: desvio massivo
-  Tenting: mínimo             Tenting: máximo
+  Separação: mínima           Separação: máxima
   Tensão: baixa               Tensão: altíssima
 
   ←————— GRADIENTE = TORQUE ——————→

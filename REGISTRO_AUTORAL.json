@@ -2,10 +2,10 @@
   "title": "Atlas Vetorial ICRS: Engenharia Biomecanica Corneana",
   "author": "Dr. Miguel Reis",
   "edition": "1.0.0-draft",
-  "registration_timestamp": "2026-03-10T11:02:42Z",
+  "registration_timestamp": "2026-03-10T11:19:04Z",
   "registration_method": "SHA-256 content fingerprint per chapter",
   "total_chapters": 24,
-  "master_hash": "856dedfbb8509bfb3c37dea4b1a7d453c2fba523b3f2f9116d830aa45e423e48",
+  "master_hash": "a338b7de2d4cfc58f6a1ce7e5f4f9a2894ace6462f1e59524f307ad4d8f9199d",
   "chapters": [
     {
       "index": 1,
@@ -13,7 +13,7 @@
       "title": "Prefácio — A Geometria Escondida: Por Que Este Livro Existe",
       "sha256": "14a5cc2e8cfac22520173af5e6b7b426ef8e8f577b0c94333fbcf9a87246d5f4",
       "size_bytes": 9890,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 2,
@@ -21,7 +21,7 @@
       "title": "P1.1 — A Origem: Da Ilusão Topográfica à Verdade Biomecânica",
       "sha256": "715a002120a105b1591e725d7bc9231c817c11554666d4bf9e48be24a9ccf702",
       "size_bytes": 7913,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 3,
@@ -29,7 +29,7 @@
       "title": "P1.2 — Os 5 Padrões de Deformação do Plácido",
       "sha256": "a9f0b241aa7f46ff04f52c3d76b0185a0925ac2d27d9bd6366b77e1785212b56",
       "size_bytes": 19174,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 4,
@@ -37,7 +37,7 @@
       "title": "P1.3 — A Matriz de Decisão: Do Padrão Morfológico à Mecânica do Anel",
       "sha256": "d981960759a3ad87ebd5ae1a8d6b2f7fd8088dafc783b62a18f53138f0ee7138",
       "size_bytes": 22033,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 5,
@@ -45,15 +45,15 @@
       "title": "Capítulo 1 — Anatomia Corneana Essencial para o Cirurgião de Anéis",
       "sha256": "bb3c7f60d39899c7185cbd9d8d7798fb9f6c0625e08a8e54a7a628c88d493094",
       "size_bytes": 45645,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 6,
       "filename": "CH-002_Biomecanica_Aneis.md",
       "title": "Capítulo 2 — Biomecânica dos Anéis Intracorneanos: Como o Anel Modifica a Córnea",
-      "sha256": "0710239f0f5b9228625ca7ead190e2a470ddd3919d21a564a8c112dbc8995358",
-      "size_bytes": 38854,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "sha256": "ad03df2e8ad61bfe72f4b954e2122da39ddcc7bfa257e2d8f190af561397ae2a",
+      "size_bytes": 40837,
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 7,
@@ -61,39 +61,39 @@
       "title": "Capítulo 3 — Classificação do Ceratocone e Fenótipos: O Mapa Antes da Cirurgia",
       "sha256": "95de299bb9d4d98fa0a548c1ef5db5d1517f704dcada198887a5dccbd28e98e0",
       "size_bytes": 23313,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 8,
       "filename": "CH-004_VR_Vetor_Radial.md",
       "title": "Capítulo 4 — VR: O Vetor Radial",
-      "sha256": "11008b3e5667162d3903b4c950e033190a38df86fcb574d8d49c406dd25a2498",
-      "size_bytes": 30593,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "sha256": "899a69e224c8d3968a0f9c461d9883808087b098e7d8bc2117ff536a7d573e89",
+      "size_bytes": 30732,
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 9,
       "filename": "CH-005_VT_Vetor_Tangencial.md",
       "title": "Capítulo 5 — Vetor Tangencial: O Reposicionamento Ortogonal do Eixo",
-      "sha256": "6534ca947b97ee9c558d79e17e5a547872d9fd5a60da1c9516a227b02de94e3a",
-      "size_bytes": 22905,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "sha256": "b882bd52dffdaa65f95685ca805284657a43c4ea42b7a0dd5cf5308ba80202f7",
+      "size_bytes": 22930,
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 10,
       "filename": "CH-006_Vt_Vetor_Torque.md",
       "title": "Capítulo 6 — Vτ: O Vetor de Torque (Torção Assimétrica)",
-      "sha256": "ca96c007c680aeaf84076630dc246b352a4591615518d3a028c85934c31eb2e5",
-      "size_bytes": 18831,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "sha256": "20b009f39f443d34a45f78ae42b066f83cd2e96b4a1d9f602a8144f5fc7e2aed",
+      "size_bytes": 18813,
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 11,
       "filename": "CH-007_VComa_Deslocamento_Optico.md",
       "title": "Capítulo 7 — VComa: O Vetor de Deslocamento Óptico",
-      "sha256": "470f1f8fbbe345ee4274cc6f7ded3d2dd08719ebc3a5784ee2689f060140e240",
-      "size_bytes": 17137,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "sha256": "eb2d75f7997669bc9ed0e225a8d429690d21e3a17e36c6d446aa43481921f8b2",
+      "size_bytes": 17144,
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 12,
@@ -101,15 +101,15 @@
       "title": "Capítulo 8 — A Lei do Disco Mecânico: Leitura Vetorial do Plácido na Ectasia Corneana",
       "sha256": "1f3ecda2d8bfbb4848d79c956d5b86cde6b5a23ade5a8854ef1320c78f0de2eb",
       "size_bytes": 52504,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 13,
       "filename": "CH-009_VEsferico_Soma_Vetorial.md",
       "title": "Capítulo 9 — VEsférico: O Vetor Esférico Resultante (Soma Vetorial)",
-      "sha256": "ac242ee90acaf59eb82eebb75e9ef18a436c85ecb437063d15d33a01e4900ee8",
-      "size_bytes": 13480,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "sha256": "616a74ebf480457dc7f514f0bb56f69888153a5841427555c0921360bc73ef4a",
+      "size_bytes": 13492,
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 14,
@@ -117,15 +117,15 @@
       "title": "Capítulo 10 — ICE: O Índice de Coerência de Eixos — Quando os Vetores Encontram a Neurobiologia",
       "sha256": "1e7a11ab2c94243a49a9e28813efa969255d22a10314fd4fd2931261288281fa",
       "size_bytes": 19412,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 15,
       "filename": "CH-011_Nomogramas_Vetoriais.md",
       "title": "Capítulo 11 — Nomogramas Vetoriais: Do Mapa Topográfico ao Anel Ideal",
-      "sha256": "67b37d3cfb6acb27f2d90cd449d7982f5b6a54f99d1a9a4ae30e9a95931cea29",
-      "size_bytes": 19422,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "sha256": "bd73a2229a678ff952fc890c6624f52e6ecb1437dd4a252fdfb28c38067cd1b5",
+      "size_bytes": 19457,
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 16,
@@ -133,15 +133,15 @@
       "title": "Capítulo 12 — Casos Clínicos Comentados: O Sistema Vetorial na Prática",
       "sha256": "9c562d7f17e8894e804be777b7df3859470c3883b77b69127a345a8f5cf03399",
       "size_bytes": 9806,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 17,
       "filename": "CH-013_Complicacoes_Manejo.md",
       "title": "Capítulo 13 — Complicações e Manejo: Quando os Vetores Trabalham Contra Você",
-      "sha256": "91a7d23aea5dbbdb52ae63dc49cf420d8c82407fcd97357c95468d368db4aeac",
-      "size_bytes": 8921,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "sha256": "1b0fb32380b16a4e8a2a38527b6fe6b10aa394217ee2b816796da77db66f8a36",
+      "size_bytes": 9007,
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 18,
@@ -149,7 +149,7 @@
       "title": "Capítulo 14 — O Futuro dos Anéis Intracorneanos: Para Onde os Vetores Nos Levam",
       "sha256": "3427c9320997dfbcfd6b1eb9f39ffb194a1500c412e2bdca72db9995c9da232f",
       "size_bytes": 22355,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 19,
@@ -157,7 +157,7 @@
       "title": "Capítulo 15 — A Profundidade do Túnel, a Trama Lamelar e o Efeito Diminuído Pós-Crosslinking (CXL)",
       "sha256": "82b4be29b280f987fbf79ff7b9e6ec1c05b4ea58593064d832132f4199087b65",
       "size_bytes": 46683,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 20,
@@ -165,7 +165,7 @@
       "title": "CH-016 — A Malha Estromal: Das Fibras em Mola à Superfície Refrativa",
       "sha256": "f7bd0094dca751b3bf24b3ad4cb7eea8d87de542d6990442ba45089d5e274ecf",
       "size_bytes": 30652,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 21,
@@ -173,7 +173,7 @@
       "title": "APÊNDICE A: Modelagem Numérica e Simulação de Elementos Finitos (FEBio)",
       "sha256": "3c195a45503a13a3054e8cb95d82ac1e1a6732a3f5efb7ad5cd1c65808c201c4",
       "size_bytes": 6672,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 22,
@@ -181,7 +181,7 @@
       "title": "Glossário de Termos Técnicos — Atlas Vetorial ICRS",
       "sha256": "fa4cc83c6041f831a83d68f33dec6bda9fba0243d79f3c1558cc16f13158413c",
       "size_bytes": 12115,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 23,
@@ -189,7 +189,7 @@
       "title": "Referências Bibliográficas — Atlas Vetorial ICRS",
       "sha256": "b3db35454946a12fce528d9f66d0033b042e418edcb4547fc92d387cba78bc22",
       "size_bytes": 12157,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     },
     {
       "index": 24,
@@ -197,7 +197,7 @@
       "title": "Referência Rápida — Atlas Vetorial ICRS",
       "sha256": "ae71641da2b176ba8a31c1fef8add281e15722f16394e73c705767b6b803454e",
       "size_bytes": 2765,
-      "timestamp": "2026-03-10T11:02:42Z"
+      "timestamp": "2026-03-10T11:19:04Z"
     }
   ]
 }

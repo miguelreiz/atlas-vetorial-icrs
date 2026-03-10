@@ -152,7 +152,7 @@ Essa diferença de tensão entre meridianos é o **astigmatismo na linguagem das
 
 Quando o anel é implantado **no meridiano mais curvo** (K-steep):
 
-1. O segmento de PMMA **separa as lamelas** nesse meridiano (Tenting + Volume local)
+1. O segmento de PMMA **separa as lamelas** nesse meridiano (separação lamelar interstromal + Volume local)
 2. As fibras que passam por cima do anel nesse meridiano são **forçadas a encurtar** seu caminho funcional — o arco que elas cobriam agora é ocupado pelo PMMA
 3. Essa perda de "comprimento funcional" no meridiano curvo **relaxa a tensão** nesse eixo → aplainamento local
 4. **Pelo princípio de conservação de volume do estroma:** a tensão perdida no K-steep é **transferida para o K-flat** (meridiano perpendicular)

@@ -20,6 +20,34 @@ version: 0.1.0
 
 Este capítulo é a ponte entre a anatomia (Capítulo 1) e o sistema vetorial (Capítulos 4–8). Aqui você entenderá os **princípios físicos fundamentais** que explicam por que e como um pedaço de PMMA inserido no estroma consegue aplainar, redistribuir e reposicionar a curvatura corneana.
 
+---
+
+### 🖥️ O Que é o FEM? — Uma Introdução Para o Cirurgião
+
+> **Ao longo deste Atlas, diversas afirmações terminam com a sigla "FEM" ou "FEBio". O que significam?**
+>
+> O **Método dos Elementos Finitos (FEM)** é uma técnica de simulação por computador que divide a córnea em milhares de pequenos elementos ("pecinhas") interligados e calcula como cada um se deforma quando uma força é aplicada — como a pressão intraocular ou a presença de um implante ICRS.
+>
+> **Por que usamos FEM neste Atlas?**
+> Porque é impossível medir diretamente *in vivo* as forças de micronewtons que o anel exerce sobre lamelas de micrômetros. O FEM permite criar um **clone digital da córnea** e testar hipóteses biomecânicas sem tocar no paciente.
+>
+> **O processo em 4 etapas:**
+
+![Figura 2.0: Pipeline FEM — Como simulamos a córnea com ICRS. 4 etapas: (1) Geometria — modelo da córnea com anel Ø5-6mm a 70% de profundidade; (2) Malha — discretização em elementos finitos com refinamento adaptativo; (3) Carregamento — PIO 15 mmHg + condições de contorno limbais; (4) Resultado — mapa de Von Mises + deslocamento nodal (V_End).](../../images/CH-002_Biomecanica/Figura_FEM_Pipeline_Process.png)
+
+> | Etapa | O que faz | Analogia |
+> |-------|-----------|----------|
+> | **1. Geometria** | Desenha a córnea + anel (Ø5-6mm, 70% profundidade) | O "paciente digital" |
+> | **2. Malha** | Divide em milhares de elementos triangulares | O "mapa de ruas" do tecido |
+> | **3. Carregamento** | Aplica PIO (15 mmHg) + âncora limbal | "Liga" a pressão no modelo |
+> | **4. Resultado** | Calcula deslocamento + tensão de Von Mises | O "diagnóstico digital" |
+>
+> **Quando você ler "✅ FEM" ou "🔬 FEM" neste Atlas**, significa que a afirmação foi testada nessa simulação e os resultados são consistentes com a hipótese apresentada.
+>
+> 📖 **Aprofundamento:** CH-015 (Biomecânica Profunda + CXL) e Apêndice A (Modelagem Numérica FEBio).
+
+---
+
 > ⚠️ **REVISÃO CONCEITUAL IMPORTANTE:** O framework clássico dos "3 Princípios Independentes" (Barraquer / Arc-Shortening / Tenting) é didaticamente convencional, mas biomechanicamente impreciso — pois Barraquer, Arc-Shortening e Tenting não são 3 causas paralelas: são **3 escalas de observação do mesmo fenômeno**. Este Atlas os apresenta na forma correta: uma **cascata causal em escala** (micro → meso → macro).
 
 > ✅ **QUALIFICAÇÃO FEM 2025 — Sobre o Termo "Tenting":** Neste Atlas, o termo "tenting" refere-se exclusivamente à **separação lamelar interstromal** (micro-escala) causada pela interposição do PMMA entre as lamelas — NÃO à elevação da superfície anterior sobre o anel. A simulação FEBio 2025 (Mooney-Rivlin, IOP=15 mmHg) confirmou que a superfície anterior sobre o anel é **PLANA ou REBAIXADA** (Vetor Endotelial, uz = −0,0068 mm). O "tenting de superfície" clássico **NÃO ocorre**. Onde este capítulo refere "tenting", leia "separação lamelar interstromal".
