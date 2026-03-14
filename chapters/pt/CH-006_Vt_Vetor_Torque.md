@@ -34,6 +34,26 @@ O **Vetor de Torque (Vτ)** é a terceira força biomecânica fundamental do sis
 
 Em linguagem simples: o Vetor de Torque é o que acontece quando um lado do anel é mais gordo que o outro.
 
+---
+
+### 🎯 Vτ — Plano de Ação e Distinção dos Outros Vetores
+
+> **Este é o ponto crítico para não confundir os vetores.** VR, VT e Vτ atuam em planos e producem consequências distintas. O Vτ é o único que gera **momento rotacional** — e por isso é o único que move o ápice do cone.
+
+| | **VR — Vetor Radial** | **VT — Vetor Tangencial** | **Vτ — Vetor de Torque** |
+|--|--|--|--|
+| **Origem** | Espessura uniforme do anel | Comprimento do arco | Assimetria de espessura (Δt) |
+| **Plano primário** | Fibrilar XY (arc-shortening radial) | Fibrilar XY (fibras circunferenciais) | Rotacional XY (gradiente volumétrico) |
+| **Ação nas fibras** | Tensiona fibras radiais 🔴 simétricamente | Tensiona fibras tangenciais 🔵 ao longo do arco | Cria gradiente de tensão entre lamelas → **momento de torção** |
+| **Consequência axial (Z)** | Aplainamento central (Z−) | Redistribuição de curvatura entre meridianos | Deslocamento lateral do ápice (eixo pupilar XY) |
+| **O que move** | Superfície desce centralmente | Astigmatismo redistribuído | **Ápice do cone se reposiciona** |
+| **Aberração corrigida** | Defocus esférico | Astigmatismo irregular | **Coma vertical/horizontal** |
+| **Anel ideal** | Simétrico (qualquer) | Arco longo | **Assimétrico (progressivo)** |
+
+> **Regra de ouro:** VR e VT atuam no plano das fibras (XY) gerando consequências axiais (Z). Vτ atua no plano rotacional (XY) gerando consequência lateral (deslocamento do ápice no plano XY). Nenhum dos três é uma "força axial" primária — a PIO (Fr) é a única força axial patológica do sistema.
+
+---
+
 ### Explicação Didática: A Origem da Torção
 
 #### O Anel Simétrico vs O Anel Assimétrico
@@ -69,9 +89,11 @@ A consequência biomecânica direta dessa assimetria é o chamado **Efeito de Vo
 
 ![Figura 6.2: Efeito de Volume Diferencial (Bulking Effect) — Anel simétrico gera elevação igual dos dois lados (sem torque). Anel assimétrico progressivo cria elevação massiva na ponta grossa, gerando um Momento de Torção (Torque)](../../images/CH-006_Torque/Figura_Bulking_Effect.png)
 
-#### 🔬 Evidência Clínica Quantitativa (Projeto ICE)
+#### 🔬 Evidência Clínica Quantitativa (Estudos Publicados — AJL PRO+)
 
-A literatura confirma o poder torcional da assimetria geométrica. A meta-análise de dados (banco ICE) para o anel **AJL PRO+** (perfil com base e espessura progressivas) demonstra a eficácia do Vτ em reduzir o cilindro e o coma vertical primário:
+A literatura confirma o poder torcional da assimetria geométrica. Os estudos abaixo, independentes, avaliaram o anel **AJL PRO+** (perfil com base e espessura progressivas) e demonstram a eficácia do Vτ em reduzir o cilindro e o coma vertical primário:
+
+> **📝 Nota de atribuição:** Os dados abaixo referem-se a estudos clínicos publicados individualmente sobre o anel AJL PRO+, não a uma meta-análise formal. O termo "Projeto ICE" refere-se ao banco de dados do autor para síntese e análise comparativa — não a uma meta-análise publicada.
 
 | Estudo / Implante | Redução do Cilindro (D) | Redução do Coma (RMS) |
 |---|---|---|
@@ -152,7 +174,7 @@ Essa combinação gera um **torque líquido** que reposiciona o eixo visual do p
 
 2. **Coma = Torque.** A única maneira biomecânica eficiente de reduzir coma corneano com anel é gerar torque. Um anel simétrico nunca corrigirá coma; apenas defocus. Memorize: **Coma precisa de Torque (Vτ), nunca de VR isolado.**
 
-3. **O Torque desaparece em anéis de 360°.** O MyoRing, sendo um anel completo sem pontas, tem Δt = 0 (espessura uniform em toda a circunferência), portanto gera Vτ ≈ 0. Isso explica por que o MyoRing é excelente para cones centrais (nipple) mas limitado para cones ovais descentrados.
+3. **O Torque desaparece em anéis de 360°.** O MyoRing, sendo um anel completo sem pontas, tem Δt = 0 (espessura uniforme em toda a circunferência), portanto gera Vτ ≈ 0. Isso explica por que o MyoRing é excelente para cones centrais (nipple) mas limitado para cones ovais descentrados.
 
 4. **Pense em pares assimétricos como "dupla diferenciada".** O segmento gordo é o "atacante" que vai resolver o cone; o segmento fino é o "goleiro" que dá suporte sem agredir. Não coloque dois atacantes ou dois goleiros.
 
@@ -195,7 +217,7 @@ PONTA FINA (150 µm):       PONTA GROSSA (350 µm):
      na direção da ponta fina
 ```
 
-![Figura 6.3: Torque por Gradiente — Ponta fina (150µm) vs ponta grossa (350µm). As fibras na zona de transição rotacionam, empurrando o ápice](../../images/CH-006_Torque/Figura_Torque_Gradiente.png)
+![Figura 6.4: Torque por Gradiente — Ponta fina (150µm) vs ponta grossa (350µm). As fibras na zona de transição rotacionam, empurrando o ápice](../../images/CH-006_Torque/Figura_Torque_Gradiente.png)
 
 #### O Efeito de Reposicionamento do Ápice
 
@@ -221,7 +243,7 @@ O disco de Plácido mostra:
 #### Depois (Vτ Aplicado — Segmento Assimétrico Inferior)
 
 O disco de Plácido mostra:
-- **Anéis menos comprimidos inferiormente** — a densidade inferior diminuiu (a ponta grossa aplainoy o polo inferior)
+- **Anéis menos comprimidos inferiormente** — a densidade inferior diminuiu (a ponta grossa aplainou o polo inferior)
 - **Recentramento parcial** — o centro de compressão dos anéis migrou em direção ao centro pupilar
 - **Assimetria vertical reduzida** — a diferença de temperatura entre metades superior e inferior diminuiu
 - **Mapa de cores:** a "ilha quente" encolheu, subiu e ficou mais centrada
@@ -243,6 +265,7 @@ alternative_view: top_down
 1. **Figura 6.1 — A Analogia da Torção (Chave de Fenda):** Diagrama simplificado mostrando que a aplicação desigual de força em lados opostos gera rotação (torque). Dois painéis: Força igual (sem rotação) vs Força desigual (rotação).
 2. **Figura 6.2 — Efeito de Volume Diferencial (Bulking Effect):** Diagrama comparativo em vista frontal mostrando um anel simétrico (elevação igual dos dois lados) vs anel assimétrico (elevação extrema num lado, suave no outro), com setas mostrando o torque resultante.
 3. **Figura 6.3 — Reposicionamento do Cone (Sagging to Center):** Diagrama mostrando uma córnea com ápice descentrado inferiormente (cone oval/sagging), e uma seta longa mostrando como o Vetor de Torque rotaciona esse ápice DE VOLTA em direção ao eixo visual central.
+4. **Figura 6.4 — Torque por Gradiente (Escala Fibrilar):** Diagrama comparativo ponta fina (150 µm, separação lamelar mínima, baixa tensão) vs ponta grossa (350 µm, separação lamelar máxima, tensão altíssima). Setas mostrando o gradiente de tensão entre os extremos e a rotação das fibras na zona de transição. Label: "Gradiente = Torque → ápice migra para ponta fina".
 
 ---
 

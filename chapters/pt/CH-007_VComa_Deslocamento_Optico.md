@@ -36,6 +36,8 @@ Em linguagem simples: **O VComa responde à pergunta "o ponto mais curvo da cór
 
 Se a resposta for "não", o paciente enxerga com coma. Se o anel corrigir e a resposta passar a ser "sim", o coma diminui.
 
+> **📌 Nota de posição no sistema vetorial:** O VComa é o único vetor do Atlas que **não é uma força de entrada** — é uma métrica de saída. VR, VT e Vτ descrevem o que o anel *faz* no tecido. O VComa descreve o que o tecido *entregou* opticamente como resultado. Esta distinção é fundamental para a leitura dos nomogramas: você planeja com VR/VT/Vτ e verifica o resultado com VComa. Ver CH-004 (Fr vs. VR), CH-005 (VT), CH-006 (Vτ) para os mecanismos que geram o VComa.
+
 ### Explicação Didática: O Que é Coma?
 
 #### A Analogia do Farol Torto
@@ -110,8 +112,8 @@ O ápice está longe do centro (descentrado inferiormente). O coma é altíssimo
 O VComa pode ser inferido clinicamente antes da cirurgia:
 
 1. **Na Topografia Axial:** Medir a distância e a direção entre o ápice corneano (K-max) e o centro pupilar.
-2. **Na Aberrometria:** O coeficiente de Zernike Z(3,1) para coma vertical e Z(3,-1) para coma horizontal expressam diretamente as componentes do VComa.
-3. **Objetivo:** Após o implante, a distância ápice-centro deve reduzir → Z(3,1) e Z(3,-1) → 0.
+2. **Na Aberrometria:** O coeficiente de Zernike Z(3,-1) para coma vertical (eixo Y, inferior↔superior) e Z(3,+1) para coma horizontal (eixo X, nasal↔temporal) expressam diretamente as componentes do VComa. *(Notação OSA/ANSI — convenção padrão em aberrometria clínica)*
+3. **Objetivo:** Após o implante, a distância ápice-centro deve reduzir → Z(3,-1) e Z(3,+1) → 0.
 
 #### Estratégia Cirúrgica para Minimizar VComa
 
@@ -174,7 +176,7 @@ O segmento assimétrico (ponta grossa inferior) atua nas fibras em 3 etapas:
 
 1. **Ponta grossa separa as lamelas inferiores** massivamente (separação lamelar máxima) → tensão focal
 2. **Tração reversa** puxa as lamelas vizinhas em direção ao anel → reorganização
-3. **O ápice, que era sustentado pelas lamelas frouxas**, é mecanicamente **içado** pela nova tensão → migra em direção ao centro pupilar
+3. **O ápice, que era suportado pelas lamelas frouxas**, é mecanicamente **redirecionado** pela nova tensão assimétrica → migra em direção ao centro pupilar
 4. A assimetria de tensão entre hemicórneas **diminui** → o diferencial de refração diminui → **coma cai**
 
 > **Pérola Micro:** O coma não desaparece porque o anel "corrigiu uma aberração óptica". Desaparece porque o anel **reorganizou fisicamente as fibras** de modo que a assimetria de tensão entre metades da córnea foi reduzida. A óptica é consequência da mecânica.
@@ -260,7 +262,7 @@ O VComa não é um vetor mecânico — é o **resultado óptico** da distribuiç
 ### Coerência Científica
 - [x] VComa definido como vetor de resultado óptico (não mecânico) — distinção correta
 - [x] Relação VComa ↔ Vτ claramente estabelecida (assimetria de oblíquas → deslocamento de ápice)
-- [x] Referência a Zernike Z(3,-1) e Z(3,+1) correta
+- [x] Referência a Zernike Z(3,-1) (coma vertical, OSA) e Z(3,+1) (coma horizontal, OSA) correta — notação explicitada no texto
 - [x] Sem extrapolação não marcada — hipóteses com 💡
 
 ### Coerência Clínica
