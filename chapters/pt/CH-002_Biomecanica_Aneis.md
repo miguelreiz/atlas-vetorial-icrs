@@ -75,7 +75,7 @@ Este capítulo é a ponte entre a anatomia (Capítulo 1) e o sistema vetorial (C
      = O encurtamento radial periférico achata a cúpula central
        → K-máximo cai (VR = Vetor Radial)
        → astigmatismo se redistribui (VT = Vetor Tangencial)
-       → se assimétrico: torque é gerado (Vτ = Vetor Torsional)
+       → se assimétrico: torque é gerado (Vτ = Vetor de Torque)
 ```
 
 > **Por que isso importa clinicamente?** A Lei de Barraquer diz O QUÊ acontece (aplainamento). O Arc-Shortening diz COMO acontece (mecânica fibrilar). O Tenting diz ONDE começa (local microscópico). Confundi-los como princípios paralelos leva a erros de raciocínio: por exemplo, tratar Barraquer e Tenting como efeitos independentes sobre o VR — quando na verdade são a mesma cadeia lida em escalas diferentes.
@@ -175,7 +175,7 @@ Esse é o mecanismo pelo qual o anel não apenas aplaina o centro, mas também m
 
 **Quando o tenting é simétrico** (anel de espessura uniforme) → separação lamelar igual nos dois lados → VR puro (aplainamento central concêntrico)
 
-**Quando o tenting é assimétrico** (anel progressivo: ponta grossa vs. ponta fina) → separação lamelar desigual → gradiente de pressão interlamelar → torque rotacional → Vτ (Vetor Torsional) → reposicionamento do ápice → VComa
+**Quando o tenting é assimétrico** (anel progressivo: ponta grossa vs. ponta fina) → separação lamelar desigual → gradiente de pressão interlamelar → torque rotacional → Vτ (Vetor de Torque) → reposicionamento do ápice → VComa
 
 
 ### Os 4 Parâmetros que o Cirurgião Controla
@@ -186,7 +186,7 @@ Cada parâmetro cirúrgico modifica um ou mais dos princípios acima:
 |-----------|--------------------------|----------------------------|--------------------------|
 | **Espessura** | 150, 200, 250, 300, 350 μm | Tenting (separação lamelar) + Arc-Shortening | **VR (Vetor Radial)** — aplainamento |
 | **Comprimento do Arco** | 90°, 120°, 150°, 160°, 210°, 355° | Arc-Shortening (distribuição da tensão) | **VT (Vetor Tangencial)** — redistribuição |
-| **Assimetria** | Simétrico vs Progressivo | Tenting diferencial (gradiente lamelar) | **Vτ (Vetor Torsional)** — torque |
+| **Assimetria** | Simétrico vs Progressivo | Tenting diferencial (gradiente lamelar) | **Vτ (Vetor de Torque)** — torque |
 | **Eixo da Incisão** | Meridiano de implantação | Toda a cascata | Todos os vetores |
 
 ---
@@ -351,7 +351,7 @@ O ICRS produz 5 vetores biomecânicos como **resultado da cascata Tenting → Ar
 ══════════════════════════════════════════════════════
   TENTING ASSIMÉTRICO (anel progressivo)
   = Gradiente de separação lamelar → torque
-       └→ Vτ (Vetor Torsional) — rotação do eixo
+       └→ Vτ (Vetor de Torque) — rotação do eixo
             └→ VComa (Vetor de Deslocamento Óptico)
 ══════════════════════════════════════════════════════
 
@@ -383,7 +383,7 @@ O ceratocone gera **forças** que deformam a córnea. O anel gera **vetores** qu
 |---------------|--------------|----------|
 | **Fr** (Força Radial) | **VR** (Vetor Radial) | Compressão central / Aplainamento central |
 | **Ft** (Força Tangencial) | **VT** (Vetor Tangencial) | Tensão assimétrica / Redistribuição |
-| **Fτ** (Força Torsional) | **Vτ** (Vetor Torsional) | Rotação do eixo / Contra-rotação |
+| **Fτ** (Força Torsional) | **Vτ** (Vetor de Torque) | Rotação do eixo / Contra-rotação |
 
 **Regra cardinal:** O objetivo cirúrgico é sempre **V = −F** (neutralização vetorial). 
 
@@ -438,7 +438,7 @@ REGRA VISUAL DO ATLAS:
 |---------------|-------|-------------|--------------------|
 | **VR (Vetor Radial)** | X-Y | Aplainamento central | Pressionar as **bordas** de um trampolim para fora — o centro achata |
 | **VT (Vetor Tangencial)** | X-Y | Redistribuição entre meridianos | Apertar um colchão d'água — sobe do outro lado |
-| **Vτ (Vetor Torsional)** | X-Y + Z | Rotação do eixo | Desenroscar uma tampa de forma— o eixo gira |
+| **Vτ (Vetor de Torque)** | X-Y + Z | Rotação do eixo | Desenroscar uma tampa de forma— o eixo gira |
 | **Fator Z (Desacoplamento A/P)** | Z | Divergência anterior/posterior | Dois andares de um prédio respondendo diferente ao vento |
 
 > 📌 **Nota:** O Desacoplamento A/P **não é um vetor** no sentido clássico — é uma *propriedade biomecânica* da córnea que limita a previsibilidade dos vetores. Um vetor tem magnitude e direção; o desacoplamento é uma divergência de resposta entre camadas.

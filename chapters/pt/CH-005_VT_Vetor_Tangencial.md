@@ -55,7 +55,7 @@ Clinicamente, o VT é o "vetor do astigmatismo". É a força primariamente respo
 A córnea não é um espelho asférico rígido; é um domo viscoelástico sob pressão (PIO). Quando alteramos um meridiano deste domo, o meridiano perpendicular ortogonal automaticamente sofre uma alteração oposta e compensatória. Este é o fundamento da cirurgia de astigmatismo.
 
 **O Efeito Colchão de Água**
-Uma analogia clássica para esse fenômeno foi descrita pelo Dr. Frederico Bicalho na literatura sobre anéis intracorneanos: o *"Efeito Colchão de Água"*. Imagine que você está deitado em um colchão de água e uma pessoa se senta bruscamente em uma ponta. O fluido e a pressão são deslocados, fazendo com que a outra ponta do colchão seja jogada explosivamente para cima. A córnea age exatamente assim.
+Uma analogia didática para esse fenômeno, atribuída ao Dr. Frederico Bicalho em comunicações sobre anéis intracorneanos, é o *"Efeito Colchão de Água"* (analogia oral/comunicação pessoal; sem publicação indexada identificada — usada aqui como recurso didático, não como referência primária). Imagine que você está deitado em um colchão de água e uma pessoa se senta bruscamente em uma ponta. O fluido e a pressão são deslocados, fazendo com que a outra ponta do colchão seja jogada explosivamente para cima. A córnea age exatamente assim.
 
 - **A Tração Direta (Aplainamento):** Quando inserimos o anel no estroma, ele atua como um espaçador rígido. Ele traciona violentamente os feixes de colágeno que correm ao longo do seu meridiano de implantação, esticando-os. Isso achata (aplaina) a superfície corneana naquele meridiano específico.
 - **A Transferência de Tensão (O Acoplamento Real):** O colágeno do estroma não são cordas soltas direcionais; é uma **malha interligada e cruzada**. Ao esticar vigorosamente e "puxar" as lamelas no eixo do anel, o tecido precisa "emprestar" área de algum lugar. O anel rouba tensão horizontal das lamelas que se cruzam a 90°.
@@ -91,10 +91,6 @@ Onde:
 
 **Comprimento do Arco (α) vs Efeito:**
 Diferente do Vetor Radial (onde segmentos mais finos com diâmetros menores têm maior força per capita), o Vetor Tangencial é altamente sensível à extensão linear do contato do anel com o tecido.
-
-1. **Figura 5.2 — Dinâmica da Tração Tangencial no Estroma:** Visão top-down (superior) das lamelas de colágeno sendo puxadas pelas extremidades do anel. Demonstra como o VT é gerado quase que inteiramente pelas pontas do segmento esticando o tecido longitudinalmente, enquanto o meio atua como ancoragem passiva.
-
-![Figura 5.2: Dinâmica da Tração Tangencial — As pontas do anel atuam como âncoras focais, tracionando violentamente as lamelas de colágeno ao longo do seu eixo, redistribuindo a tensão do meridiano](../../images/CH-005_VT/Figura_Tangential_Traction.png)
 
 - **Arcos Curtos (90° - 120°):** Geram um Vetor Tangencial altamente focado e intenso nas suas extremidades. Excelentes para girar agressivamente eixos localizados ou quebrar assimetrias periféricas intensas (ex: nódulos de ceratocone periférico extremo). Agem quase como "cunhas limitantes" de astigmatismo focal.
 - **Arcos Longos (160° - 340°):** O Vetor Tangencial se difunde ao longo de um amplo arco estromal. Eles produzem um efeito de regularização em massa — o chamado "efeito cinta" ou "ring effect". Um anel de 340° tem o Vetor Tangencial dominando esmagadoramente o resultado, englobando a córnea e forçando a centralização maciça do cone.
@@ -243,8 +239,8 @@ references:
 
 O VT atua redistributindo tensão ao longo das **fibras tangenciais/circunferenciais** (🔵):
 
-- O anel cria uma **nova linha tangencial artificial** — age como se inserisse um arco de 🔵 tangenciais extras no meridiano implantado
-- Quanto mais longo o arco do anel, mais fibras tangenciais são criadas → mais VT
+- O anel **mimetiza e amplifica o papel das fibras tangenciais naturais** — age como se reforçasse o arco de 🔵 tangenciais já presentes na periferia, sem criar fibras novas (o PMMA não gera colágeno; redistribui a tensão nas fibras existentes)
+- Quanto mais longo o arco do anel, mais fibras tangenciais naturais são recrutadas e amplificadas → mais VT
 - O **Efeito de Acoplamento** (elevação a 90° do anel) ocorre porque tensionar fibras tangenciais 🔵 em um meridiano "rouba" tensão das radiais 🔴 no meridiano ortogonal (💡 síntese baseada em Meek & Newton 1998)
 - Na periferia (5-7mm), onde o anel fica, as fibras naturais já são **parcialmente tangenciais** (✅ Meek & Boote 2004) — o anel amplifica esta orientação natural
 

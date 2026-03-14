@@ -20,7 +20,7 @@ version: 0.1.0
 
 Nos capítulos anteriores, você aprendeu **o que** cada vetor faz (Caps. 4–7) e **como** eles se somam (Cap. 9). Agora, a pergunta prática: **"Dado este mapa topográfico, qual anel devo usar?"**
 
-*Recall:* **VR (Vetor Radial)** — guia a espessura do anel. **VT (Vetor Tangencial)** — guia o comprimento do arco. **Vτ (Vetor Torsional)** — guia a assimetria do segmento. **VComa (Vetor de Deslocamento Óptico)** — verifica se o ápice foi centralizado.
+*Recall:* **VR (Vetor Radial)** — guia a espessura do anel. **VT (Vetor Tangencial)** — guia o comprimento do arco. **Vτ (Vetor de Torque)** — guia a assimetria do segmento. **VComa (Vetor de Deslocamento Óptico)** — verifica se o ápice foi centralizado.
 
 Este capítulo ensina a lógica dos nomogramas vetoriais — o sistema de decisão que traduz dados topográficos em uma prescrição cirúrgica objetiva.
 

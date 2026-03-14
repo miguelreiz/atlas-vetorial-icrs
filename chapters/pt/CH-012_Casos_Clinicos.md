@@ -20,7 +20,7 @@ version: 0.1.0
 
 Este capítulo apresenta 4 casos clínicos representativos — um para cada fenótipo principal. Em cada caso, aplicamos o nomograma vetorial (Cap. 10) passo a passo e analisamos o resultado com a linguagem vetorial.
 
-*Recall:* **VR (Vetor Radial)** — mensurável clinicamente pela queda do K-max. **VT (Vetor Tangencial)** — mensurável pela redução do cilindro. **Vτ (Vetor Torsional)** — mensurável pela migração do ápice. **VComa (Vetor de Deslocamento Óptico)** — mensurável por ΔZ(3,1). **VEsférico** — o resultado global integrado.
+*Recall:* **VR (Vetor Radial)** — mensurável clinicamente pela queda do K-max. **VT (Vetor Tangencial)** — mensurável pela redução do cilindro. **Vτ (Vetor de Torque)** — mensurável pela migração do ápice. **VComa (Vetor de Deslocamento Óptico)** — mensurável por ΔZ(3,1). **VEsférico** — o resultado global integrado.
 
 O objetivo é duplo: (1) treinar o raciocínio vetorial e (2) demonstrar que diferentes cones exigem estratégias radicalmente diferentes — incluindo configurações avançadas multicamada validadas em estudos recentes.
 

@@ -34,7 +34,7 @@ O **Vetor Esférico Resultante (VEsférico)** é o vetor final do sistema. Ele n
 
 **"Qual é o efeito total do anel na córnea deste paciente?"**
 
-*Recall:* **VR (Vetor Radial)** — a força que aplaina centralmente. **VT (Vetor Tangencial)** — redistribui tensão entre meridianos. **Vτ (Vetor Torsional)** — rotaciona o eixo do cone. **VComa (Vetor de Deslocamento Óptico)** — mede o quanto o ápice se aproximou do eixo visual.
+*Recall:* **VR (Vetor Radial)** — a força que aplaina centralmente. **VT (Vetor Tangencial)** — redistribui tensão entre meridianos. **Vτ (Vetor de Torque)** — rotaciona o eixo do cone. **VComa (Vetor de Deslocamento Óptico)** — mede o quanto o ápice se aproximou do eixo visual.
 
 Cada vetor individual descreve um aspecto isolado da mecânica do anel. O VEsférico os combina em um único resultado clínico integrado.
 
@@ -44,7 +44,7 @@ Imagine que você é o técnico de um time de futebol e cada vetor é um jogador
 
 - **VR (Vetor Radial)** = O **Zagueiro**. Forte, direto, previsível. Aplaina o centro. Sempre faz seu trabalho, mas sozinho não ganha o jogo.
 - **VT (Vetor Tangencial)** = O **Meio-campista**. Redistribui as forças entre meridianos. Decide para onde o astigmatismo se desloca. Estratégico.
-- **Vτ (Vetor Torsional)** = O **Atacante**. Agressivo, direcional. Move o cone de lugar. Sem ele, o time pode dominar a posse (aplainar) mas nunca marca gol (não corrige coma).
+- **Vτ (Vetor de Torque)** = O **Atacante**. Agressivo, direcional. Move o cone de lugar. Sem ele, o time pode dominar a posse (aplainar) mas nunca marca gol (não corrige coma).
 - **VComa (Vetor de Deslocamento Óptico)** = O **GPS/VAR**. Não joga, mas verifica se o ataque foi para o lugar certo. Mede o resultado óptico real.
 
 O **VEsférico** = O **Resultado Final no Placar**. O que importa no final não é quanto cada jogador correu individualmente — é o placar final (ganhou ou perdeu). O VEsférico é o placar.

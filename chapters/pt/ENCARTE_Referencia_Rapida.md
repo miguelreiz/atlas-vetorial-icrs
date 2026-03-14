@@ -10,7 +10,7 @@
 |-------------------|-------------------|------|
 | **Fr** (Força Radial) | **VR** (Vetor Radial) | Compressão → Aplainamento |
 | **Ft** (Força Tangencial) | **VT** (Vetor Tangencial) | Tensão assimétrica → Redistribuição |
-| **Fτ** (Força Torsional) | **Vτ** (Vetor Torsional) | Rotação → Contra-rotação |
+| **Fτ** (Força Torsional) | **Vτ** (Vetor de Torque) | Rotação → Contra-rotação |
 
 **Regra Cardinal:** V_anel + F_cone = 0 (neutralização perfeita)
 

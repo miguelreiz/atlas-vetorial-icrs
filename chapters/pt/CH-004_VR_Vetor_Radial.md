@@ -40,7 +40,42 @@ expected_outcome: "Reduction of central corneal power (ΔK = -2.0 to -6.0 D depe
 
 ### Definição
 
-O **Vetor Radial (VR)** é a força biomecânica primária exercida pelo anel intracorneano sobre o estroma. Ele age como uma **força de tração focal** — que estica o tecido corneano periférico em direção ao ápice do implante, provocando o **aplainamento central compensatório** da córnea. Este é o efeito terapêutico fundamental de todo anel intracorneano: neutralizar a força radial do cone (**Fr**) reduzindo a curvatura excessiva da córnea doente.
+O **Vetor Radial (VR)** é a força biomecânica primária exercida pelo anel intracorneano sobre o estroma. Ele age tensionando as fibras de colágeno radiais ao redor do implante, provocando o **aplainamento central compensatório** da córnea. Este é o efeito terapêutico fundamental de todo anel intracorneano: contrapor a força de colapso do cone (**Fr**) reduzindo a curvatura excessiva da córnea doente.
+
+---
+
+### 🎯 Fr vs. VR — Dois Vetores Radiais, Planos e Sentidos Opostos
+
+> **Este é o ponto de maior confusão conceitual no ensino de anéis.** A palavra "radial" aparece tanto na força patológica do cone (Fr) quanto no vetor corretivo do anel (VR) — mas eles atuam em planos diferentes e com sentidos opostos. Confundi-los inverte o raciocínio biomecânico.
+
+| | **Fr — Força Radial do Cone** | **VR — Vetor Radial do Anel** |
+|--|--|--|
+| **Quem gera** | PIO (15 mmHg) sobre fibras frouxas | Implante PMMA no túnel estromal |
+| **Plano de ação** | **Axial (eixo Z)** — perpendicular à superfície | **Fibrilar (plano XY)** — ao longo das fibras radiais |
+| **O que acontece nas fibras** | Fibras 🔴 radiais frouxas → não resistem → cedem → alongam | Fibras 🔴 radiais forçadas a desviar sobre o anel → arco encurta → ficam **tensas** |
+| **Direção da força** | Empurra o ápice do cone para **fora do olho** (anterior, Z+) | Puxa a superfície central para **fora do centro** (radialmente, XY) — consequência: superfície desce (Z−) |
+| **Efeito na superfície** | Cone protrui → K-max ↑ (ectasia) | Córnea central aplaina → K-max ↓ (correção) |
+| **Seta no diagrama** | ↑ vertical no ápice (sai do olho, eixo Z) | ↔ horizontal puxando do centro para o anel, eixo XY → consequência ↓ aplainamento |
+| **Relação** | Fr é o problema | VR ≈ −Fr: o anel gera a resposta de engenharia oposta |
+
+```
+COMO VISUALIZAR A DIFERENÇA DE PLANOS:
+
+Vista em corte lateral da córnea:
+
+  Fr (cone, patológico):          VR (anel, corretivo):
+
+  →→→ SUPERFÍCIE ANTERIOR →→→    →→→ SUPERFÍCIE ANTERIOR →→→
+         ↑ (Z+)                          ↓ (Z−)
+         │  protrusão                    │  aplainamento
+         ●  ← ápice frouxo              ← ← [anel] → →   ← fibras tensas puxam
+         │                              (XY: fibras tensionadas ao longo do plano)
+  pressão PIO
+```
+
+> **Regra de ouro:** Fr é uma força **axial** (empurra para fora do olho). VR é uma força **fibrilar** (tensiona as fibras no plano da córnea, com aplainamento como consequência axial inversa). São perpendiculares entre si nas suas ações primárias.
+
+---
 
 ### Explicação Didática
 
@@ -61,7 +96,9 @@ A magnitude dessa tração direcional é governada por dois princípios fundamen
    - **Adicionar material na periferia** da córnea → o centro aplaina (fica mais plano).
    - **Remover material do centro** da córnea → o centro também aplaina.
 
-   Em ambos os casos, a curvatura central diminui. O anel intracorneano explora a **primeira metade** dessa lei de maneira puramente biomecânica: ao inserir um implante (adicionando volume extra) no estroma periférico, este volume ocupa espaço entre as lamelas, esticando a superfície anterior tracionando a rede em direção ao limbo, o que resulta mecanicamente no aplanamento da zona central.
+   Em ambos os casos, a curvatura central diminui. O anel intracorneano explora a **primeira metade** dessa lei de maneira puramente biomecânica: ao inserir um implante (adicionando volume extra) no estroma periférico, este volume ocupa espaço entre as lamelas, tensionando as fibras radiais ao redor do implante, o que resulta mecanicamente no aplainamento da zona central.
+
+   > **📝 Nota de precisão:** A formulação acima ("adicionar na periferia → centro aplaina / remover do centro → centro aplaina") é uma **adaptação didática** da Lei das Espessuras para o contexto de ICRS. A lei original de Barraquer (1964) descreve a relação entre espessura estromal local e curvatura resultante — não menciona especificamente "adição" ou "remoção" de material. O princípio causal é o mesmo; a linguagem foi adaptada para clareza cirúrgica.
 
    ![Figura 4.3: Lei de Barraquer focada em Biomecânica da Córnea — Comparação da adição periférica pelo Anel e a remoção central pelo Excimer Laser](../../images/CH-004_Vetor_Radial/barraquer_law_biomechanics_pt_1771774491898.png)
 
@@ -80,7 +117,9 @@ A magnitude dessa tração direcional é governada por dois princípios fundamen
 O Vetor Radial não é uma força pontual. Ele emerge de uma **cascata de três eventos** que ocorrem em escalas progressivamente maiores:
 
 **1. Separação lamelar interstromal (escala microscópica):**
-O implante PMMA ocupa espaço entre as lamelas estromais. As lamelas *acima* e *abaixo* do anel são fisicamente separadas. Esta separação local é o **primeiro evento** da cascata. ✅ FEM 2025: a superfície anterior sobre o anel é plana ou rebaixada (V_End), não elevada.
+O implante PMMA ocupa espaço entre as lamelas estromais. As lamelas *acima* e *abaixo* do anel são fisicamente separadas. Esta separação local é o **primeiro evento** da cascata.
+
+> **📌 Definição — Vetor Endotelial (V_End):** Sub-componente do VR que descreve o **deslocamento axial da superfície anterior** diretamente sobre o implante. Contraintuitivamente, a simulação FEBio (modelo Mooney-Rivlin, PIO = 15 mmHg — modelagem do autor, 2025) mostra que V_End é **negativo ou nulo** (uz ≈ −0,007 mm): a superfície sobre o anel **não se eleva** — ela é mantida plana ou levemente rebaixada pela contraforça endotelial. O "tenting" clássico é separação *interstromal* (entre lamelas), não elevação da superfície anterior. V_End é um sub-componente interno do VR, não um vetor independente no framework do Atlas. Ver CH-002 para detalhes do modelo FEM.
 
 **2. Arc-Shortening (escala mesoscal/fibrilar):**
 As 🔴 **fibras radiais** que cruzam o anel são forçadas a contornar o implante. Seu comprimento funcional (arco de limbo a limbo) **encurta** naquele meridiano. Como o colágeno tem pouca elasticidade, essas fibras ficam **fisicamente tensionadas** ao redor do implante.
@@ -88,11 +127,17 @@ As 🔴 **fibras radiais** que cruzam o anel são forçadas a contornar o implan
 **3. Aplainamento Central — Lei de Barraquer (escala macroscópica):**
 O encurtamento radial periférico reduz a tensão competitiva que mantinha a curvatura central. A córnea central, agora sem a mesma resistência periférica, **achata** (K cai). Este é o Vetor Radial expresso em dioptrias.
 
-> **⚠️ Nota de correção didática:** A analogia clássica da "barraca com dois pilares" (lona suspensa entre postes) **inverte a causalidade** — sugere que o centro aplaina por estar "suspenso sem suporte". O mecanismo correto é: as fibras radiais são **tracionadas centrifúgamente** pelo implante → o centro aplaina como consequência da *tração ativa* das fibras periféricas, não por falta de suporte central.
+> **⚠️ Nota de correção didática:** A analogia clássica da "barraca com dois pilares" (lona suspensa entre postes) **inverte a causalidade** — sugere que o centro aplaina por estar "suspenso sem suporte". O mecanismo correto é o inverso: as fibras radiais ficam sob **maior tensão** ao redor do anel, e essa tensão **puxa a córnea central para fora** (em direção ao anel, no plano XY) → o resultado axial (Z) é o aplainamento da superfície anterior. A causa é tração ativa das fibras — não ausência de suporte.
 
-> **Analogia correta:** Imagine uma lona circular esticada. Uma cunha inserida na periferia *separa* as fibras da lona naquele ponto, forçando-as a contornar a cunha. O trecho funcional das fibras radiais encurta. A tensão aumenta. A lona central, puxada por essas fibras tensionadas, **aplaina**. O aplainamento é resultado da *tração ativa*, não de ausência de suporte.
+> **⚠️ Atenção ao sentido das setas:** Nas figuras deste Atlas, as setas do VR no corte transversal partem do anel em duas direções:
+> - **→ em direção ao limbo:** representam a âncora periférica (o segmento da fibra entre o anel e o limbo, sob tensão centrípeta a partir do limbo)
+> - **← em direção ao centro:** representam a força que a fibra tensa exerce **puxando a córnea central para fora** (centrífugo a partir do centro, na direção do anel)
+>
+> O aplainamento (Z−) é a **consequência axial** da tração fibrilar (XY). Não confundir Fr (força da PIO sobre o cone, Z+, axial para fora do olho) com VR (tensão fibrilar ao redor do anel, XY → consequência Z−). Ver box Fr vs. VR no início deste capítulo.
 
-![Figura 4.4 — Mecanismo Biomecânico do Vetor Radial: ICRS a 80% de profundidade, proporção real 200/580 µm, aplainamento sobre o anel (Vetor Endotelial ↓ vs PIO ↑), setas VR centrífugas](../../images/CH-004_Vetor_Radial/fig_4_4_vetor_radial_corte_pt.png)
+> **Analogia precisa:** Imagine uma lona circular esticada horizontalmente. Uma cunha inserida na periferia força as fibras radiais a desviar por cima dela. O trecho das fibras entre a cunha e o centro fica mais tenso e **puxa o centro da lona para a borda** (para fora, no plano da lona). A lona central desce — ela não foi "levantada pelo centro": foi **puxada perifericamente**. O aplainamento é resultado da tração ativa das fibras no plano XY, não de ausência de suporte em Z.
+
+![Figura 4.4 — Mecanismo Biomecânico do Vetor Radial: ICRS a ~75% de profundidade. Fr (seta tracejada Z+) = PIO empurra o cone para fora. VR = fibras radiais tensionadas pelo arc-shortening puxam o centro para fora no plano XY → superfície aplaina (Z−). Três camadas: Fr patológico / VR fibrilar / aplainamento consequência.](../../images/CH-004_Vetor_Radial/fig_4_4_vetor_radial_corte_pt.png)
 
 ### O Motor Microscópico: Tração Lamelar
 
@@ -109,9 +154,9 @@ Para validar a necessidade do Vetor Radial, o autor utilizou o modelo de **Eleme
 O resultado (ver Cap. 3, Seção 3.4.6) revela um **Vetor de Colapso (V_cone)**: um deslocamento anterior e inferior do tecido onde as lamelas falham em conter a pressão. 
 
 O **Vetor Radial (VR)** é a resposta de engenharia a este colapso:
-- Enquanto a PIO "empurra" o estroma enfraquecido para fora do plano, o anel aplica uma **tração centrífuga** que estica essas lamelas frouxas.
+- Enquanto a PIO "empurra" o estroma enfraquecido **axialmente para fora** (Fr, eixo Z+), o anel gera **tensão fibrilar radial** (no plano XY) que estica essas lamelas frouxas — puxando-as de volta ao seu comprimento funcional original.
 - O VR atua como um "tensor" que reestabelece a pré-tensão lamelar perdida na ectasia.
-- **V_anel (VR) ≈ −V_cone (Colapso)**.
+- **V_anel (VR) ≈ −V_cone (Colapso)**: os dois vetores são opostos — Fr age em Z+, VR gera a contraforça via tensão fibrilar XY → resultado líquido Z−.
 
 Esta é a justificativa matemática de por que o VR é o motor da cirurgia: ele não apenas "achata" a córnea, ele **re-tensiona ativamente a rede de colágeno** que a PIO estava deformando.
 
@@ -151,7 +196,7 @@ Um anel simétrico (mesma espessura em ambos os segmentos) com diâmetro de 5.0-
 **Resultados esperados (baseados em literatura):**
 - Redução da curvatura máxima (K-max): 2.0 a 6.0 dioptrias
 - Melhora da melhor acuidade visual corrigida (BSCVA): 2 a 4 linhas de Snellen
-- Redução do astigmatismo cilíndrico: variável (efeito secundário do VR; a correção primária do astigmatismo irregular pertence ao **Vτ (Vetor Torsional)**, detalhado no Capítulo 6)
+- Redução do astigmatismo cilíndrico: variável (efeito secundário do VR; a correção primária do astigmatismo irregular pertence ao **Vτ (Vetor de Torque)**, detalhado no Capítulo 6)
 
 #### Decisão Cirúrgica Guiada pelo Vetor Radial
 
@@ -166,7 +211,7 @@ Um anel simétrico (mesma espessura em ambos os segmentos) com diâmetro de 5.0-
 
 1. **Confundir aplainamento com correção refrativa total.** O Vetor Radial aplaina a córnea anterior, mas o resultado refrativo final depende da interação com o Vetor Tangencial (Capítulo 5) e o Vetor de Torque (Capítulo 6). Um mapa topográfico mais plano não significa automaticamente que o paciente enxerga melhor.
 
-2. **Hiperestimar o VR em cones descentrados.** Em cones ovais ou do tipo *sagging* ("caído" inferiormente), a protrusão está deslocada para baixo, longe do eixo visual. Usar um anel simétrico (que gera apenas VR puro e centrado) nesse cenário ignora a necessidade de correção assimétrica, que exige o **Vτ (Vetor Torsional)** e o **VComa (Vetor de Deslocamento Óptico)** (Capítulos 6 e 7). Resultado: o centro da córnea aplaina, mas o ápice real do cone — que está deslocado — permanece protuso.
+2. **Hiperestimar o VR em cones descentrados.** Em cones ovais ou do tipo *sagging* ("caído" inferiormente), a protrusão está deslocada para baixo, longe do eixo visual. Usar um anel simétrico (que gera apenas VR puro e centrado) nesse cenário ignora a necessidade de correção assimétrica, que exige o **Vτ (Vetor de Torque)** e o **VComa (Vetor de Deslocamento Óptico)** (Capítulos 6 e 7). Resultado: o centro da córnea aplaina, mas o ápice real do cone — que está deslocado — permanece protuso.
 
 3. **Ignorar a profundidade do túnel.** Um túnel criado a apenas 60% da espessura estromal reduz o braço de alavanca biomecânico do VR. A profundidade ideal é **70–75%** (com laser de femtosegundo); acima de 80%, estudos FEM demonstram efeito diminuído.
 
@@ -211,20 +256,37 @@ layers:
     visible: true
     color_token: "VR (#0B3D91) — 20% opacity fill"
 diagram_concept: >
-  Ilustração principal em corte transversal (cross-section) da córnea 
-  mostrando o anel inserido a ~75% de profundidade no estroma. Do anel, 
-  partem setas vermelhas (VR) em direção CENTRÍFUGA (apontando PARA FORA, 
-  em direção ao limbo). O anel empurra as lamelas para fora (tenting + 
-  separação). A superfície anterior da córnea mostra aplainamento central 
-  como CONSEQUÊNCIA do arc-shortening (arco encurta → centro aplaina). 
-  A zona aplanada é preenchida com azul semitransparente (20% opacity). 
-  Uma segunda ilustração (menor, tipo thumbnail) mostra a vista top-down 
-  com setas VR apontando PARA FORA do anel, demonstrando a força centrífuga.
+  PRANCHA PRINCIPAL — corte transversal da córnea com anel a ~75% de profundidade.
+
+  GRUPO 1 — Fibras naturais frouxas (Fr, patológico):
+    Seta VERMELHA TRACEJADA apontando PARA CIMA (Z+) no ápice do cone, fora do olho.
+    Label: "Fr — PIO empurra o cone (axial Z+)".
+
+  GRUPO 2 — Tensão fibrilar do anel (VR, corretivo):
+    Representação da fibra radial contornando o anel (linha curva sobre o implante).
+    Seta AZUL SÓLIDA no segmento central da fibra (entre centro e anel),
+    apontando DO CENTRO EM DIREÇÃO AO ANEL (centrífugo a partir do centro, plano XY).
+    Label: "VR — fibra tensionada puxa o centro (XY)".
+    Segunda seta azul no segmento periférico (entre anel e limbo),
+    apontando DO LIMBO EM DIREÇÃO AO ANEL (âncora periférica, centrípeto do limbo).
+    Label: "Âncora limbal".
+
+  GRUPO 3 — Consequência axial:
+    Seta VERDE SÓLIDA na superfície anterior central, apontando PARA BAIXO (Z−).
+    Label: "Aplainamento — consequência Z−".
+
+  Curvatura pré-op em cinza tracejado; pós-op em linha sólida mais plana.
+  Zona aplanada preenchida azul semitransparente (#0B3D91, 20% opacity).
+
+  PRANCHA SECUNDÁRIA — top-down:
+    Dois arcos (segmentos do anel). Setas azuis VR apontando DO CENTRO PARA O ANEL
+    (centrífugo a partir do eixo visual, no plano XY) — mostrando como as fibras
+    radiais puxam a córnea central para fora em todos os meridianos → aplainamento.
 ```
 
 ### 🖼️ BRIEFING DE ILUSTRAÇÃO (Skill 7 — Elite Medical Illustration Director)
 
-**Título da Prancha:** *"VR — O Vetor Radial: Força Centrífuga e Aplainamento"*
+**Título da Prancha:** *"VR — O Vetor Radial: Tensão Fibrilar e Aplainamento (Fr vs. VR)"*
 
 **Estilo:** Atlas anatômico clássico (referência: Netter / Thieme Atlas of Anatomy). Linhas limpas, sombreamento sutil, anatomia precisa. Não estilizado, não cartoon.
 
@@ -234,7 +296,7 @@ diagram_concept: >
 |----------|---------------|
 | **Córnea** | Corte meridional mostrando epitélio (cinza claro, #ECEFF1), Bowman, estroma (bege, #D7CCC8) com indicação lamelar sutil, Descemet, endotélio |
 | **Anel** | Secção transversal do implante (hexagonal ou triangular, dependendo do modelo) posicionado a ~75% de profundidade estromal. Cor: cinza-azulado (#455A64) |
-| **Setas VR** | 2-3 setas vermelhas partindo de cada lado do anel em direção CENTRÍFUGA (PARA FORA, em direção ao limbo). Setas com corpo espesso e ponta triangular. Representam a força centrífuga — o anel empurra lamelas para fora; aplainamento central é consequência |
+| **Setas VR** | Sistema de 3 camadas de setas (ver diagram_concept): (1) Seta Fr tracejada vermelha, axial Z+, no ápice do cone — força patológica da PIO; (2) Setas VR azuis sólidas na fibra: segmento central aponta DO CENTRO PARA O ANEL (centrífugo do centro, XY), segmento periférico aponta DO LIMBO PARA O ANEL (âncora limbal, XY); (3) Seta consequência verde Z− na superfície — aplainamento. As três camadas mostram: causa (Fr) → mecanismo (VR fibrilar XY) → resultado (Z− aplainamento). |
 | **Zona de aplainamento** | Preenchimento semitransparente azul (#0B3D91, 20% opacidade) sobre a superfície anterior aplanada, entre os dois pontos de implante |
 | **Curvatura anterior** | Linha contínua mostrando: curvatura normal (pré) em cinza tracejado; curvatura pós-implante (mais plana no centro) em linha sólida |
 | **Efeito de tenda** | Indicação sutil do ponto de inflexão (curvatura reversa) na zona peri-implante |
@@ -246,7 +308,7 @@ diagram_concept: >
 |----------|---------------|
 | **Córnea** | Vista frontal, limbo visível |
 | **Segmentos** | Dois arcos de 150° cada (ou configuração a definir pelo cirurgião-autor) |
-| **Setas VR** | 4-6 setas vermelhas partindo do arco EXTERNO dos segmentos, todas apontando PARA FORA (centrífugas, em direção ao limbo). Aplainamento central = consequência geométrica |
+| **Setas VR** | 4-6 setas azuis sólidas partindo da zona CENTRAL da córnea em direção ao anel (centrífugo a partir do eixo visual, no plano XY). Representam a tensão fibrilar puxando o centro para fora. Aplainamento = consequência. NÃO são setas "do anel para o limbo". |
 | **Centro** | Marca de cruz no centro óptico |
 
 **Regras Visuais Aplicadas (tokens.md):**
@@ -301,7 +363,7 @@ ANTES (ectasia):
 ANEL IMPLANTADO:
   Cunha rígida separa lamelas perifericamente
   → Fibras desviam por cima do anel (caminho mais longo)
-  → Tração local nas fibras adjacentes em direção ao ápice
+  → Tração local nas fibras adjacentes em direção ao anel (XY, centrífugo a partir do centro)
   → Fibras centrais esticam e reorganizam
 
 DEPOIS (correção):
@@ -328,7 +390,7 @@ O disco de Plácido mostra:
 - **Padrão:** mais regular, mais próximo dos concêntricos perfeitos
 - **Mapa de cores:** ilha vermelha menor, mais pálida, K-max 3-5 D mais baixo
 
-> **Leitura Vetorial do Plácido:** No Nipple tratado com VR simétrico, o campo vetorial concêntrico de deformação (🔴 Fr apontando para fora da PIO) é **neutralizado** pelo campo vetorial centrífugo do anel (🔴 VR empurrando lamelas para fora). O arc-shortening resultante aplaina o centro — os anéis de Plácido se espaçam e normalizam.
+> **Leitura Vetorial do Plácido:** No Nipple tratado com VR simétrico, o campo de colapso axial (🔴 Fr — PIO empurrando o cone para fora no eixo Z) é **neutralizado** pelo campo de tensão fibrilar do anel (🔵 VR — fibras radiais puxando o centro para fora no plano XY → superfície desce Z−). O arc-shortening redistribui a tensão lamelar e o centro aplaina — os anéis de Plácido se espaçam e normalizam.
 
 ---
 
@@ -466,4 +528,4 @@ A tabela de decisão cirúrgica (espessura, diâmetro, profundidade, arco) é ú
 
 ---
 
-*Pipeline Status: DRAFT v0.6.0 — VR corrigido para centrífugo. Revisado pelo Engenheiro Vetorial.*
+*Pipeline Status: DRAFT v0.7.0 — Fr vs. VR: distinção de planos (axial Z vs fibrilar XY) adicionada. Nomenclatura Vτ padronizada. Setas e diagram_concept corrigidos. Revisado pelo Engenheiro Vetorial.*

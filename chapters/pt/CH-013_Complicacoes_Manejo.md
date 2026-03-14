@@ -20,7 +20,7 @@ version: 0.1.0
 
 Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos ou insuficientes geram complicações. Este capítulo classifica as complicações mais comuns usando a linguagem vetorial — porque entender o vetor que causou o problema é o primeiro passo para corrigi-lo.
 
-*Recall:* **VR (Vetor Radial)** — quando excessivo, causa hipercorreção. **VT (Vetor Tangencial)** — quando mal direcionado, induz astigmatismo. **Vτ (Vetor Torsional)** — quando invertido, piora o coma. **VEsférico (Vetor Esférico Resultante)** — quando insuficiente, a cirurgia não fez efeito.
+*Recall:* **VR (Vetor Radial)** — quando excessivo, causa hipercorreção. **VT (Vetor Tangencial)** — quando mal direcionado, induz astigmatismo. **Vτ (Vetor de Torque)** — quando invertido, piora o coma. **VEsférico (Vetor Esférico Resultante)** — quando insuficiente, a cirurgia não fez efeito.
 
 ### Classificação Vetorial das Complicações
 

@@ -31,7 +31,7 @@ A classificação fenotípica deste Atlas adota os **5 Padrões de Deformação 
 | Padrão | Morfologia no Plácido | Coma | Vetor Dominante |
 |--------|----------------------|------|-----------------|
 | **P1 — Circular** | Anéis ovais simétricos | Baixo | **VT (Vetor Tangencial)** |
-| **P2 — Oval** | Compressão inferior, sagging | Vertical (Z3-1) | **Vτ (Vetor Torsional)** + **VR (Vetor Radial)** |
+| **P2 — Oval** | Compressão inferior, sagging | Vertical (Z3-1) | **Vτ (Vetor de Torque)** + **VR (Vetor Radial)** |
 | **P3 — Duck** | Dois lobos, cabeça comprimida | Alto | Vτ + VR local |
 | **P4 — Snowman** | Duplo círculo em cascata | Muito alto | VR duplo + Vτ |
 | **P5 — Complexo** | Anéis fragmentados | Variável | Análise individual |
