@@ -148,6 +148,8 @@ O ICE divide os pacientes em dois fenótipos:
 
 ### 5. Validação no Ceratocone: N=300 Olhos
 
+> **📌 Nota sobre o N total:** O ICE foi validado em **N=1.139 olhos totais** em três domínios clínicos: ICRS (N=300), catarata/LIO multifocal (N=487) e refrativa LASIK/PRK (N=352). Esta seção descreve especificamente a **coorte ICRS (N=300)**. Os demais domínios estão referenciados na Seção 9 e no manuscrito de validação multi-aplicacional (Reis 2026, em revisão).
+
 O ICE foi validado retrospectivamente em **300 olhos** com ceratocone submetidos a ICRS, agregando 8 estudos publicados (2013-2024). A metodologia segue o precedente de Santhiago para o PTA: dados publicados recalculados retrospectivamente, sem necessidade de aprovação ética adicional.
 
 **Tabela 10.1 — Resultados visuais por classificação ICE (N=300)**

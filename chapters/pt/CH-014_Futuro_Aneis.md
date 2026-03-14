@@ -77,7 +77,7 @@ O futuro é o FEM **personalizado por paciente** — não mais uma córnea-model
 | **HGO** | Holzapfel-Gasser-Ogden — modelo matemático hiperelástico anisotrópico | Descreve fibras de colágeno (aniso = direcionais) em matriz mole (hiper = não-linear) |
 | **ICRS** | Intracorneal Ring Segment — o segmento de anel de PMMA | O implante virtual colocado no modelo para simular a cirurgia |
 | **ΔK** | Delta K — variação de ceratometria (dioptrias) = K-max pré − K-max simulado | Mede o aplainamento previsto pelo FEM |
-| **VR, VT, Vτ** | Vetores Radial, Tangencial e Torsional — os 3 vetores primários do anel | O *que* o anel vai fazer (aplainar, redistribuir, torques) |
+| **VR, VT, Vτ** | Vetores Radial, Tangencial e de Torque — os 3 vetores primários do anel | O *que* o anel vai fazer (aplainar, redistribuir, torque) |
 | **VEsférico** | Vetor Esférico Resultante = raiz quadrada de (VR² + VT² + Vτ²) | O resultado funcional total integrado — o "placar final" da cirurgia |
 
 ---

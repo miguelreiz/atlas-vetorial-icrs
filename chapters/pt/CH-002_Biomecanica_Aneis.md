@@ -364,9 +364,9 @@ O ICRS produz 5 vetores biomecânicos como **resultado da cascata Tenting → Ar
 
 #### O ICRS na Escala das Fibras — Como o Anel Corrige
 
-![Figura 2.5: ICRS — A Correção na Escala das Fibras. Vista superior mostrando: anel retensiona radiais (🔴→VR aplainamento), cria nova linha tangencial artificial (🔵→VT redistribuição), e estabiliza lamelas onde oblíquas (🟢) falharam (Vτ travamento). Zona de ectasia reduzida após implantação.](../../images/CH-002_Biomecanica/icrs_fiber_correction_1772278243571.png)
+![Figura 2.5: ICRS — A Correção na Escala das Fibras. Vista superior mostrando: anel retensiona radiais (🔴→VR aplainamento), recruta e amplifica tangenciais naturais (🔵→VT redistribuição), e estabiliza lamelas onde oblíquas (🟢) falharam (Vτ travamento). Zona de ectasia reduzida após implantação.](../../images/CH-002_Biomecanica/icrs_fiber_correction_1772278243571.png)
 
-> **💡 Síntese do Autor (3-Fibras→3-Vetores):** Na escala das fibras, o anel interage diretamente com cada família: (1) tensiona **radiais** → VR; (2) cria nova linha **tangencial** → VT; (3) estabiliza **lamelas** como trava interlamelar → Vτ. O mecanismo é análogo ao das oblíquas (ambos impedem deslizamento), mas mecanisticamente diferente: oblíquas = tração biológica; ICRS = compressão mecânica PMMA.
+> **💡 Síntese do Autor (3-Fibras→3-Vetores):** Na escala das fibras, o anel interage diretamente com cada família: (1) tensiona **radiais** → VR; (2) recruta e amplifica **tangenciais periféricas naturais** → VT *(o PMMA não gera colágeno novo; redistribui tensão nas fibras existentes)*; (3) estabiliza **lamelas** como trava interlamelar → Vτ. O mecanismo é análogo ao das oblíquas (ambos impedem deslizamento), mas mecanisticamente diferente: oblíquas = tração biológica; ICRS = compressão mecânica PMMA.
 
 ### Convenção Fundamental: F (Problema) vs V (Correção)
 

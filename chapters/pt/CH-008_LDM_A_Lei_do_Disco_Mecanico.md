@@ -168,7 +168,7 @@ O estroma do ceratocone é essa lona. Os anéis de Plácido são as "pregas" da 
 
 ### 3. Os Três Componentes do Campo Vetorial
 
-#### 3.1 Força Radial (Fr) — O Componente de압achamento
+#### 3.1 Força Radial (Fr) — O Componente de Aplainamento
 
 A **Fr** é expressa pela densidade de anéis ao longo do eixo radial. Onde os anéis estão comprimidos radialmente (próximos entre si), a superfície tem curvatura máxima local — o que indica que forças de compressão/tração lineares locais estão agindo naquele ponto.
 
@@ -590,7 +590,7 @@ style: "Híbrido: óptica de campo vetorial + base anatômica clássica"
 color_system:
   Fr: "#0B3D91"   # Azul − Vetor Radial
   Ft: "#00B4DC"   # Ciano − Vetor Tangencial
-  Fτ: "#FFD700"   # Ouro − Vetor Torsional
+  Fτ: "#FFD700"   # Ouro − Força Torsional (patológica)
   V_resultante: "#FF4444"  # Vermelho − Resultante (o problema)
   V_solucao: "#00CC66"     # Verde − Solução (o anel)
   ENM: "#FFFFFF"  # Branco − Eixo de Neutralização Mecânica
