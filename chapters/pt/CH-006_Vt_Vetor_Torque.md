@@ -217,7 +217,7 @@ PONTA FINA (150 µm):       PONTA GROSSA (350 µm):
      na direção da ponta fina
 ```
 
-![Figura 6.4: Torque por Gradiente — Ponta fina (150µm) vs ponta grossa (350µm). As fibras na zona de transição rotacionam, empurrando o ápice](../../images/CH-006_Torque/Figura_Torque_Gradiente.png)
+![Figura 6.4: Torque por Gradiente — Ponta fina (150µm) vs ponta grossa (350µm). As fibras na zona de transição rotacionam, empurrando o ápice](../../images/CH-006_Vetor_Torque/Figura_6.4_Torque_Gradiente.png)
 
 #### O Efeito de Reposicionamento do Ápice
 
