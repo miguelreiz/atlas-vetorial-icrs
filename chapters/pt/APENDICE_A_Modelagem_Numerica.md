@@ -67,7 +67,7 @@ Os algoritmos de elementos finitos desmantelam a suposição de que o segmento d
 
 1. **Acréscimo Rigidez Zonal (Vetor Tangencial - VT):** A interposição geométrica adiciona "Viga" estrutural local. O $\sigma_{VM}$ é drenado do tecido doente subjacente para a interface peri-anel. (Análogo a aumentar o parâmetro intrínseco $c_1$ mecanicamente).
 2. **Arc-shortening Ativo (Vetor Radial - VR):** As fibras estromais radiais encurtadas propulsam uma onda de contra-tensão na rede lamelar rumo ao centro óptico, limitando ativamente a protrusão.
-3. **Travamento Perpendicular (Vetor Torque - V$\tau$):** Restaurando a integridade das molas espirais e fibras transversas de Bowman, suprimindo o *shear stress* (deslizamento).
+3. **Gradiente Rotacional (Vetor Torque - Vτ):** Quando o segmento é assimétrico (espessura progressiva, ex: 150→350 µm), o diferencial de volume entre as extremidades cria um **momento de torção**: a ponta grossa impõe separação lamelar máxima, a ponta fina impõe separação mínima. Este gradiente de σ_VM ao longo do arco gera rotação do campo de tensões → o ápice do cone migra lateralmente em direção ao centro pupilar. O Vτ não atua sobre as fibras em mola (bow springs) nem sobre a Bowman — atua exclusivamente no gradiente de tensão interlamelar na zona do túnel (≈70–75% de profundidade). Ver CH-006 para mecanismo detalhado.
 
 A magnificência e a magnitude de correção do deslocamento dependem da exata anulação estática: **$\sigma_{VM}$ restaurado vs $\sigma_{VM}$ doente**. Este escopo paramétrico funda as bases sólidas e inquestionáveis da Cirurgia Refrativa Vetorial e legitima o presente Atlas não apenas como um guia fenomenológico, mas como um tratado absoluto de Engenharia Cirúrgica Ocular.
 

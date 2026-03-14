@@ -59,7 +59,7 @@ Se você insere a caneta muito perto da contracapa (profundidade de 95%), as for
 ![Figura 15.3: O Fulcro Ótimo — Por Que 70% de Profundidade. Três cenários lado a lado: Raso demais (50%: risco de extrusão, efeito imprevisível), Ótimo (70-75%: máximo tenting + âncora suficiente), Profundo demais (85%: risco de afundamento, efeito diminuído por FEM).](../../images/CH-015_CXL_Profundidade/Figura_15.3_Optimal_Fulcrum_Depth.png)
 
 ✅ **A profundidade de 70–75% é o Ponto de Alavanca Ideal (Fulcro Ótimo)** — suportado por FEM (Kling & Marcos 2013; García de Oteyza 2021):
-1.  🔬 Existe tecido suficiente ACIMA do anel (70% do estroma) para que as lamelas anteriores sejam tracionadas hidraulicamente, gerando o "repuxo" das fibras radiais que esmaga o cone no centro. *Coerênte com a mecânica de alavanca demonstrada pelo FEM — Kling & Marcos 2013.*
+1.  🔬 Existe tecido suficiente ACIMA do anel (70% do estroma) para que as lamelas anteriores sejam submetidas ao arc-shortening: as fibras radiais que cruzam o anel encurtam seu arco funcional, gerando tração que aplaina o centro corneano (VR). *Mecânica de alavanca demonstrada pelo FEM — Kling & Marcos 2013.*
 2.  🔬 Existe tecido suficiente ABAIXO do anel (20-30%) para servir como uma "cama de resistência" (âncora). *Conceito de âncora posterior demonstrado por FEM — García de Oteyza 2021.*
 
 #### A Relação Profundidade × Vetor — Dados Quantitativos (FEM)

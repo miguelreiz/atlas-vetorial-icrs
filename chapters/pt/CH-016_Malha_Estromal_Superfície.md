@@ -374,16 +374,23 @@ CAMADA 3: BOWMAN + FIBRAS EM MOLA
   ↑ Bowman é ancorada ao estroma pelas "vigas" (bow springs)
   ↑ Sem elas, a Bowman "flutua" → instabilidade refrativa
   ↑
-CAMADA 2: MALHA OBLÍQUA INTERLAMELAR (Feltro Anterior)
+CAMADA 2: MALHA OBLÍQUA INTERLAMELAR (Feltro Anterior ~0–33%)
   ↑ Oblíquas travam as lamelas → coesão estrutural
   ↑ Entrelaçamento 4× mais denso que no posterior
-  ↑ O ICRS atua AQUI (substitui oblíquas perdidas)
+  ↑ ICRS PRESERVA esta zona (está abaixo dela)
   ↑
-CAMADA 1: LAMELAS POSTERIORES (Ortogonais)
+── ZONA DO ANEL (70–75% de profundidade) ──────────────────
+  ← [ICRS] atua na transição posterior: arc-shortening (VR),
+     tenta substituir função de travamento local das oblíquas
+     raras desta zona (💡 hipótese mecânica) — ver tabela abaixo
+  ↑
+CAMADA 1: LAMELAS POSTERIORES (Ortogonais ~33–100%)
   ↑ Transmissão de tensão S-I e N-T
-  ↑ Zona de clivagem natural (fácil separar)
+  ↑ Zona de clivagem natural (fácil separar — ICRS atua aqui)
   ↑ A PIO atua AQUI (endotélio → epitélio)
 ```
+
+> **📌 Nota de posição:** O ICRS a 70–75% de profundidade situa-se na Camada 1 (lamelas posteriores paralelas), **abaixo** da Camada 2 (feltro oblíquo anterior). O modelo na tabela abaixo é mais preciso: o ICRS *preserva* as oblíquas anteriores (Camada 2) e *separa* localmente as lamelas posteriores (Camada 1). A expressão "substitui oblíquas" aplica-se apenas às poucas oblíquas residuais presentes na zona de transição (~50–70%) imediatamente acima do túnel — não ao feltro anterior intacto.
 
 ### O Que Cada Cirurgia Afeta
 
