@@ -75,7 +75,7 @@ Imagine que você está tentando girar um parafuso (a córnea deformada) usando 
 
 O anel assimétrico faz exatamente isso. A ponta grossa do segmento empurra com muito mais força do que a ponta fina. Essa diferença de força cria uma rotação localizada do tecido estromal — o Vetor de Torque.
 
-![Figura 6.1: O Que é Torque? A Analogia da Chave de Fenda — Forças iguais não giram o objeto (anel simétrico = só VR); forças desiguais geram rotação (anel assimétrico = Torque Vτ)](../../images/CH-006_Torque/Figura_Torque_Screwdriver.png)
+![Figura 6.1: O Que é Torque? A Analogia da Chave de Fenda — Forças iguais não giram o objeto (anel simétrico = só VR); forças desiguais geram rotação (anel assimétrico = Torque Vτ)](../../images/CH-006_Vetor_Torque/Figura_6.1_Analogia_Torque.png)
 
 #### O Efeito de Volume Diferencial (*Bulking Effect*)
 
@@ -87,7 +87,7 @@ A consequência biomecânica direta dessa assimetria é o chamado **Efeito de Vo
 
 É como se o implante assimétrico "inclinasse" o tecido estromal, girando-o: a zona de maior elevação (ponta grossa) força o cone a se reposicionar, puxando o ápice da protrusão na direção da zona mais fina.
 
-![Figura 6.2: Efeito de Volume Diferencial (Bulking Effect) — Anel simétrico gera elevação igual dos dois lados (sem torque). Anel assimétrico progressivo cria elevação massiva na ponta grossa, gerando um Momento de Torção (Torque)](../../images/CH-006_Torque/Figura_Bulking_Effect.png)
+![Figura 6.2: Efeito de Volume Diferencial (Bulking Effect) — Anel simétrico gera elevação igual dos dois lados (sem torque). Anel assimétrico progressivo cria elevação massiva na ponta grossa, gerando um Momento de Torção (Torque)](../../images/CH-006_Vetor_Torque/Figura_6.2_Bulking_Effect.png)
 
 #### 🔬 Evidência Clínica Quantitativa (Estudos Publicados — AJL PRO+)
 
@@ -141,7 +141,7 @@ O cirurgião posiciona o segmento de anel de modo que **a ponta mais grossa** do
 2. **Torque rotacional que puxa o ápice para cima** (em direção ao eixo visual), regularizando a posição do cone.
 3. **Gradiente de curvatura suavizado** — a transição abrupta entre a zona protusa (quente) e a zona saudável (fria) se torna gradual, reduzindo o coma.
 
-![Figura 6.3: Reposicionamento do Cone Descentrado — O Vτ gerado pelo segmento assimétrico empurra o ápice protuso de volta ao eixo visual (centro pupilar), reduzindo o coma vertical](../../images/CH-006_Torque/Figura_Cone_Repositioning.png)
+![Figura 6.3: Reposicionamento do Cone Descentrado — O Vτ gerado pelo segmento assimétrico empurra o ápice protuso de volta ao eixo visual (centro pupilar), reduzindo o coma vertical](../../images/CH-006_Vetor_Torque/Figura_6.3_Reposicionamento_Cone.png)
 
 #### Assimetria Funcional de Dois Segmentos
 

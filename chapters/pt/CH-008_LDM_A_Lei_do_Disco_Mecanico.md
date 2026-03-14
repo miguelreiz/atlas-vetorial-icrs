@@ -122,7 +122,7 @@ O que muda é a **linguagem de interpretação**: de descritiva-geométrica para
 
 A topografia continua sendo o exame. A LDM é a forma mais completa de lê-lo.
 
-![Figura 8.1: A Leitura Mecânica do Plácido — À esquerda, a leitura topográfica convencional buscando o K-max. À direita, a leitura LDM decompondo a distorção do disco em vetores de força (Fr, Ft, Fτ) e marcando o COF e ENM.](../../images/CH-008_LDM/Figura_Placido_Mechanical.png)
+![Figura 8.1: O Disco de Plácido como Mapa de Forças — Cada anel revela a tensão estromal subjacente. Fr (força radial, centrípeta), Ft (força tangencial, ao longo do anel) e Fτ (força torcional, rotacional) são identificados pela morfologia dos anéis. O ENM (Eixo de Neutralização Mecânica) marca o eixo ideal de incisão cirúrgica.](../../images/CH-008_LDM/pt/Figura_8.1_Placido_Mapa_Forcas.png)
 
 > **A proposição central deste capítulo:**
 > *A distorção dos anéis de Plácido não é uma fotografia da doença. É a assinatura geométrica das forças que a produziram. Decodificar essa assinatura é o primeiro passo para uma cirurgia verdadeiramente guiada pela biomecânica — não apenas pela curvatura.*
@@ -192,7 +192,7 @@ A **Fτ** é a mais sutil e a mais negligenciada. Ela é expressa pelo **ângulo
 
 **Implicação cirúrgica:** O Vetor de Torque (Capítulo 6) deve ser paralelo à bissetriz entre o eixo interno e o eixo externo — o que corresponde ao Eixo de Neutralização Mecânica (ENM).
 
-![Figura 8.2: Os Três Campos Vetoriais — Fr (Força Radial, aplainamento), Ft (Força Tangencial, cisalhamento) e Fτ (Força Torsional, rotação) isolados. Quando combinados, formam o complexo vetor resultante da distorção ectásica.](../../images/CH-008_LDM/Figura_Placido_Vector_Fields.png)
+![Figura 8.3: Os Três Campos Vetoriais — Fr (Força Radial, aplainamento), Ft (Força Tangencial, cisalhamento) e Fτ (Força Torsional, rotação) isolados. Quando combinados, formam o complexo vetor resultante da distorção ectásica.](../../images/CH-008_LDM/Figura_Placido_Vector_Fields.png)
 
 ---
 
@@ -321,7 +321,7 @@ O Plácido mostra anéis internos com eixo de elipticidade numa direção e ané
 
 **Estratégia:** Este é o fenótipo que mais se beneficia da análise LDM. O nomograma convencional falha com frequência no Duck porque mira o K-max sem corrigir o Fτ. O posicionamento guiado pelo ENM muda o resultado.
 
-![Figura 8.3: IDT, COF e ENM no Fenótipo Duck — O ápice óptico deforma os anéis assimetricamente. O COF (ponto magenta) está distante do centro. O ENM (linha branca) cruza a bissetriz torcional, nitidamente diferente do eixo topográfico do K-max (pontilhado vermelho).](../../images/CH-008_LDM/Figura_Duck_ENM_Analysis.png)
+![Figura 8.4: ENM vs K-máx no Padrão Duck Tipo 2 — O eixo de K-máx topográfico (vermelho, 135°) difere do ENM (branco, 107°) em 28°. Planejar pelo K-máx resulta em coma persistente; planejar pelo ENM reduz o coma.](../../images/CH-008_LDM/pt/Figura_8.2_ENM_vs_Kmax_Duck.png)
 
 ---
 
@@ -358,7 +358,7 @@ Condição de neutralização perfeita:
 Resultado: V_resultante = V_anel + V_cone = 0 (córnea neutralizada)
 ```
 
-![Figura 8.4: A Equação de Compensação — À esquerda, os vetores vermelhos de distensão gerados pela ectasia (V_cone). À direita, os vetores verdes diametralmente opostos gerados pelo ICRS (V_ring). O anel ideal zera a equação.](../../images/CH-008_LDM/Figura_Compensation_Equation.png)
+![Figura 8.5: A Equação de Compensação — À esquerda, os vetores vermelhos de distensão gerados pela ectasia (V_cone). À direita, os vetores verdes diametralmente opostos gerados pelo ICRS (V_anel). O anel ideal zera a equação: V_total = V_cone + V_anel ≈ 0.](../../images/CH-008_LDM/Figura_Compensation_Equation.png)
 
 Esta equação explica por que **o implante ideal não é guiado pelo ponto mais íngreme**. Ele é guiado pelo vetor resultante da distorção tangencial — que pode estar em meridiano completamente diferente do K-max.
 
