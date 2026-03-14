@@ -18,7 +18,7 @@ pipeline_execution:
   skill_2_didactic: complete
   skill_3_visual_guide: complete
   skill_5_clinical_model: complete
-  skill_7_illustration: pending
+  skill_7_illustration: complete
   skill_9_editorial: complete
   skill_10_congress: complete
 cross_references:

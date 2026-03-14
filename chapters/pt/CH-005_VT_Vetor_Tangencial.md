@@ -16,7 +16,7 @@ pipeline_execution:
   skill_2_didactic: complete
   skill_3_visual_guide: complete
   skill_5_clinical_model: complete
-  skill_7_illustration: pending
+  skill_7_illustration: complete
   skill_9_editorial: complete
   skill_10_congress: complete
   skill_11_deepmind: complete
@@ -122,7 +122,7 @@ Muitos cirurgiões iniciantes entram em pânico ao observar que a implantação 
 
 Se a incisão for posicionada equivocadamente fora do eixo topográfico principal mais curvo, as forças combinadas tangenciais dos anéis vão fatiar o astigmatismo nativo do doente original. Em vez de reduzir as curvas, estamos criando uma nova curva a 90º da nossa incisão aleatória. Criamos um cilindro induzido (SIA - Surgically Induced Astigmatism) conflitante, o que resulta em dupla curvatura borboleta destrutiva na topografia e queda severa na Visão Corrigida por Óculos (BSCVA). 
 
-![Figura 5.3 — O Efeito Nida: A incisão a 45° off-axis gera vetores tangenciais no eixo errado. O acoplamento ortogonal cria um novo cilindro induzido (SIA Conflitante) a 135°, resultando na dupla borboleta destrutiva.](../../images/CH-005_VT/Figura_Efeito_Acoplamento.png)
+![Figura 5.4 — O Efeito Nida: A incisão a 45° off-axis gera vetores tangenciais no eixo errado. O acoplamento ortogonal cria um novo cilindro induzido (SIA Conflitante) a 135°, resultando na dupla borboleta destrutiva.](../../images/CH-005_VT/Figura_Efeito_Acoplamento.png)
 
 ### Diferenciando Radical de Tangencial (A Chave Mestra)
 
@@ -178,7 +178,7 @@ Se o cirurgião posiciona a incisão fora do K-steep:
 
 > **Pérola Micro:** O VT não cria tensão nova. Ele **redistribui** a tensão existente entre meridianos. Se a redistribuição é correta (incisão no K-steep), o astigmatismo diminui. Se é incorreta, o astigmatismo muda de eixo e pode até aumentar.
 
-![Figura 5.3: Efeito de Acoplamento nas Fibras — Tensão transferida do K-steep para o K-flat a 90°. Antes: astigmatismo 6D. Depois: 1D redistribuído](../../images/CH-005_VT/Figura_Efeito_Acoplamento.png)
+![Figura 5.5: Efeito de Acoplamento nas Fibras — Tensão transferida do K-steep para o K-flat a 90°. Antes: astigmatismo 6D. Depois: 1D redistribuído](../../images/CH-005_VT/Figura_Efeito_Acoplamento.png)
 
 ---
 

@@ -176,7 +176,7 @@ Onde:
 
 Numa visão *top-down* (frontal), em vez de meras setas, observe a córnea como um tecido tensionado. Os segmentos laterais agem como **âncoras estromais**, puxando ativamente as linhas de tensão (as fibras) a partir das bordas, criando um trecho uniformemente esticado (zona óptica aplainada) em todo o centro.
 
-![Figura 4.5: Mapa de Tensão Biomecânica do Vetor Radial — Linhas de tração estromal puxadas a partir das âncoras periféricas garantindo uma zona óptica rígida e plana](../../images/CH-004_Vetor_Radial/top_down_tension_pt_1771774458719.png)
+![Figura 4.6: Mapa de Tensão Biomecânica do Vetor Radial — Linhas de tração estromal puxadas a partir das âncoras periféricas garantindo uma zona óptica rígida e plana](../../images/CH-004_Vetor_Radial/top_down_tension_pt_1771774458719.png)
 
 Num **anel de 360° (ex: MyoRing)**, o Vetor Radial foca esta tração radial simetricamente em toda a circunferência de ancoragem — o aplainamento é isotrópico.
 Em **segmentos de arco (como o Ferrara ou o Keraring)**, o Vetor Radial se concentra na zona onde o segmento está implantado e decai nas zonas sem implante, gerando uma **assimetria intencional** — que é exatamente o que desejamos quando o cone não é central.
