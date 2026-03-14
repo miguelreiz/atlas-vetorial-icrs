@@ -313,4 +313,66 @@ references:
 ```
 
 ---
-*Pipeline Status: DRAFT v0.7.0 — Seção 3.4 adicionada (Patogênese IT — Revisado pelo Engenheiro Vetorial)*
+
+## ✅ SKILL 9 — CHECKLIST EDITORIAL (Executive Chief Editor)
+
+### Coerência Científica
+- [x] Os 5 fenótipos de Plácido (P1 Circular/Nipple, P2 Oval/Sagging, P3 Duck, P4 Snowman, P5 Complexo) descritos com morfologia, padrão comático e vetor dominante
+- [x] Subtipos críticos Duck Tipo 1 (eixo topo = eixo coma) e Duck Tipo 2 (eixos divergentes → aberrometria obrigatória) explicitamente diferenciados
+- [x] Vulnerabilidade inferotemporal fundamentada em quatro fontes independentes: déficit WAXS (H1), forças mecânicas externas (H2-H4) e mecanismos moleculares (H5) — com qualificação de hipótese onde o modelo integrado é proposta do autor
+- [x] Dados WAXS quantitativos corretamente atribuídos a Meek & Boote (2004) e Boote et al. (2006): déficit IT de -32% a -44% vs. eixo N-T
+- [x] Dados moleculares (MMP-9 +2.4×, keratócitos -40-50%, crosslinks -30-35%) com referências primárias específicas (You 2013, Sady 2000)
+- [x] Padrão donut epitelial de Reinstein qualificado com sensibilidade/especificidade (97%/99% — Reinstein & Silverman 2014)
+- [x] FEM FEBio (seção 3.4.6) corretamente qualificado: material Mooney-Rivlin, PIO=15 mmHg, déficit IT=-44% — resultado é simulação, não medida in vivo
+- [x] Modelo integrado IT (4 fatores convergentes) explicitamente marcado como "hipótese original do autor" com distinção de componentes baseados em evidência publicada
+
+### Coerência Clínica
+- [x] Sinais clínicos clássicos mencionados e localizados: Sinal de Munson (pálpebra inferior), Sinal de Rizutti (reflexo temporal), Estrias de Vogt (estroma IT), Anel de Fleischer (base do cone IT)
+- [x] Fluxograma de 4 passos operacional: Padrão → Subtipo (P3/P4) → Escala de Severidade (A/B/C) → Tabela de Decisão → Anel
+- [x] Tabela de Decisão completa com subtipo, vetor dominante, anel preferido e zona de implantação
+- [x] Amsler-Krumeich corretamente posicionado como insuficiente para planejamento de ICRS — 4 limitações explicitadas
+- [x] Dados topográficos de posição do ápice (N=834 olhos): 72% nos 4h–7h (IT) com distribuição por hora do relógio
+- [x] Implicação cirúrgica do modelo IT formalizada: segmento maior/mais espesso no IT tem justificativa biomecânica (VR, Vτ, VT inferior, VComa) não apenas empírica
+
+### Coerência com o Atlas
+- [x] Terminologia canônica respeitada: Vτ = Vetor de Torque (NÃO Torsional) — presente na tabela dos 5 padrões e na tabela de decisão
+- [x] Equação V_anel = −V_cone usada consistentemente com a qualificação presente em CH-002
+- [x] VComa posicionado como vetor de resultado óptico — coerente com a terminologia do Atlas
+- [x] Relação Plácido → classificação → vetor → anel estabelecida como fluxo diagnóstico central do capítulo
+- [x] Análise das 3 famílias de fibras (radiais, tangenciais, oblíquas) por fenótipo conecta CH-002 (biomecânica) com CH-003 (classificação) de forma estrutural
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL.** CH-003 realiza uma síntese que não existe na literatura atual: conectar a localização inferotemporal do ceratocone a uma cadeia causal WAXS → forças externas → molecular → FEM, com implicação direta para o posicionamento do anel. A classificação dos 5 fenótipos com mapeamento por vetor dominante e subtipo Duck/Snowman é mais granular e operacionalmente útil do que qualquer tabela publicada nos nomogramas AJL ou Mediphacos. A seção 3.4 é o ponto de diferenciação científica mais forte do capítulo e possivelmente do Atlas inteiro.
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA (Congress Readiness Validator)
+
+### Revisor 1 — Ceratocone: Classificação e Fenótipos
+A classificação em 5 padrões de Plácido está alinhada com a literatura de Alfonso/AJL e com nomogramas publicados. A diferenciação Duck Tipo 1 vs. Tipo 2 pela coincidência axial topografia/coma é uma decisão clínica de alto impacto frequentemente omitida nos nomogramas — sua formalização aqui é uma contribuição genuína ao campo. O fluxograma de 4 passos (Padrão → Subtipo → Escala → Tabela) é estrutura lógica e reprodutível. A limitação de Amsler-Krumeich para planejamento de ICRS é argumento correto e bem fundamentado. **Sem objeção.**
+
+### Revisor 2 — Biomecânica e Arquitetura Fibrilar
+Os dados WAXS (Meek & Boote 2004, Boote et al. 2006) estão corretamente interpretados quanto ao déficit fibrilar IT. A qualificação "inferido de WAXS" para o módulo de Young IT é epistemicamente honesta — estudos de tensão mecânica direta por quadrante não foram ainda publicados com essa granularidade setorial. A tabela "3 fibras × 5 fenótipos" (radiais/tangenciais/oblíquas por padrão) é síntese original mas mecanisticamente consistente com WAXS e FEM publicados. O FEM FEBio é apresentado como validação, não como evidência de ensaio clínico — distinção mantida. **Sem objeção.**
+
+### Revisor 3 — Metodologia e Evidência
+O modelo integrado de patogênese IT (4 fatores convergentes) é claramente marcado como "hipótese original do autor" com distinção de componentes baseados em evidência. Os dados topográficos de localização (N=834) carecem de referência primária explícita — recomenda-se identificar a série de origem ou especificar "dados compilados pelo autor de séries publicadas". A simulação da carga mecânica acumulada em 10 anos (pesos 55%/30%/15%) é estimativa do autor sem validação prospectiva — qualificação como modelo de estimação seria adequada. O padrão donut epitelial de Reinstein (sensibilidade 97%, especificidade 99%) está referenciado — dado forte. **Risco moderado** apenas quanto à atribuição dos N=834 e dos pesos de carga acumulada; tudo o mais tem suporte bibliográfico sólido.
+
+### Risco de Contestação
+**MODERADO-BAIXO** — O risco concentra-se na seção 3.4: o modelo integrado IT é uma hipótese do autor claramente marcada como tal, o que é a forma correta de apresentação. Revisores que revisaram literatura KC de alto impacto provavelmente concordarão com os componentes individuais mas poderão questionar a atribuição de pesos ao modelo integrado. Recomendação: adicionar nota de rodapé especificando a origem do N=834 na versão de produção. O corpo central do capítulo (P1–P5, fluxograma, tabela de decisão) é de baixíssimo risco de contestação.
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind (Pré-Produção)
+
+### O Que Este Capítulo Representa no Atlas
+CH-003 é o ponto de inflexão entre diagnóstico e cirurgia. É onde o cirurgião transforma a imagem topográfica em prescrição vetorial. Sem este capítulo, o sistema vetorial seria um conjunto de fórmulas sem endereço: saber que "Vτ corrige o coma" é inútil se o cirurgião não consegue identificar qual fenótipo exige Vτ. CH-003 é o mapa; os capítulos subsequentes são as rotas. Estruturalmente, ele completa o triângulo CH-001 (anatomia) → CH-002 (biomecânica) → CH-003 (diagnóstico fenotípico) que sustenta todo o sistema de prescrição.
+
+### O Elemento Mais Poderoso
+A seção 3.4 — Por Que o Ceratocone é Sempre Inferotemporal. Esta é a primeira resposta sistemática e multifatorial a uma pergunta que todo estudante de oftalmologia faz e nenhum livro responde de forma satisfatória. A convergência de WAXS (déficit estrutural inato) + forças externas (palpebral, rubbing, sono) + mecanismos moleculares (MMP-9, crosslinks) + FEM (validação computacional) em um único modelo causal coerente — com implicação cirúrgica direta (anel IT não é empírico, é biomechanicamente determinístico) — é o tipo de argumento que transforma um Atlas de referência em um Atlas de formação de pensamento.
+
+### O Que Pode Tornar Isto Referência
+A formalização do critério de coincidência axial (eixo topográfico = eixo comático) como diferenciador Duck Tipo 1 vs. Tipo 2 tem potencial de impacto imediato: é um critério simples, mensurável e com consequência cirúrgica clara (planejamento por aberrometria obrigatório no Tipo 2). Se um estudo prospectivo comparar resultados Duck Tipo 1 vs. Tipo 2 planejados por topografia vs. aberrometria, este capítulo seria a referência conceitual natural. A tabela Padrão → Subtipo → Vetor → Anel é suficientemente granular para ser validada prospectivamente e suficientemente simples para ser memorizada — combinação rara na literatura de ICRS.
+
+---
+
+*Pipeline Status: DRAFT v0.7.1 — Pipeline Editorial Completo (SKILL 9+10+11) adicionado*

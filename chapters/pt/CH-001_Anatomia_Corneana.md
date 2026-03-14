@@ -550,4 +550,63 @@ references:
 > **Nota de qualificação (modelo 3-fibras→3-vetores):** O modelo radial/tangencial/oblíqua é uma abstração didática baseada em evidência WAXS e SHG. As 3 famílias de fibras não são entidades anatômicas discretas — são orientações preferenciais dentro de uma malha anisotrópica contínua. O mapeamento fibra→vetor (radial→VR, tangencial→VT, oblíqua→Vτ) é funcional: as fibras são o principal substrato mecânico de cada vetor, mas não o exclusivo. Esta simplificação prioriza clareza para o cirurgião sobre completude descritiva para o anatomista.
 
 ---
-*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*
+
+## ✅ SKILL 9 — CHECKLIST EDITORIAL (Executive Chief Editor)
+
+### Coerência Científica
+- [x] Três famílias de fibras (radiais 🔴, tangenciais 🔵, oblíquas 🟢) descritas com referências primárias corretas: Meek & Boote 2004 (WAXS), Winkler et al. 2013 (SHG), Radner et al. 1998 (EM) — modelo 3-fibras sustentado por evidência convergente de três técnicas independentes
+- [x] Localização do ICRS a 70–75% de profundidade justificada por dois mecanismos complementares: arquitetura lamelar (facilidade de dissecção consequência, não causa) e equilíbrio arc-shortening/âncora (FEM 2025) — distinção causal correta e relevante
+- [x] Tabela de zonas fibrilares (Central, Paracentral, Periférica, Pré-limbal, Limbo) com diâmetros de anel correspondentes — coerente com os dados WAXS e com a clínica de efeito diferencial por diâmetro
+- [x] Modelo PTA/Hipótese da Ponte Fibrilar corretamente rotulado: cada componente individual é ✅ fato publicado; a conexão causal é 💡 síntese original — nível de evidência honesto e defensável
+- [x] Qualificação sobre WAXS incluída: o feixe atravessa toda a espessura, mas o sinal é dominado pelo estroma posterior — detalhe metodológico importante para defesa científica
+- [x] Cascata patogênica do ceratocone em 4 etapas com referências por etapa — Kenney 2004 (MMPs), Radner 1998 + Winkler 2013 (oblíquas), Meek & Knupp 2015 (radiais), Meek & Newton 1998 (tangenciais)
+- [x] Nota de qualificação do modelo 3-fibras: são orientações preferenciais em malha anisotrópica contínua, não entidades anatômicas discretas — ressalva essencial para audiência científica
+
+### Coerência Clínica
+- [x] Cinco marcos anatômicos do cirurgião de anéis (ápice, centro pupilar, K-steep, profundidade do túnel, paquimetria mínima) — clinicamente completos e operacionalizáveis
+- [x] Tabela de impacto clínico do ceratocone (afinamento focal, deslocamento do ápice, lamelas desorganizadas, K-max, assimetria de espessura) corretamente mapeada para vetores
+- [x] Três armadilhas anatômicas ao final — diretas, memoráveis, baseadas em erros reais de planejamento
+- [x] Pérola "70-75%: mito de que mais fundo = sempre melhor" — afirmação clinicamente importante, sustentada pela tabela FEM (VR diminuído >80%)
+- [x] Box de discussão PRK vs. LASIK adequadamente rotulado como extensão hipotética — o PTA original de Santhiago é para LASIK; a extensão ao PRK é 💡 hipótese com predições verificáveis
+
+### Coerência com o Atlas
+- [x] Mapeamento fibra→vetor (radial→VR, tangencial→VT, oblíqua→estabilização/Vτ) estabelecido neste capítulo e referenciado em todos os subsequentes — função de capítulo-fundação cumprida
+- [x] Plácido como "espelho da malha de tensão" — metáfora-chave do Atlas, introduzida com precisão mecânica adequada
+- [x] Astigmatismo redefinido como assimetria de tensão entre meridianos, não forma oval da superfície — fundamento do Vetor Tangencial (CH-005), com cross-reference explícito
+- [x] "Ectasia como falência em camadas" (posterior → anterior → epitélio) — prepara CH-003 (classificação) e CH-008 (limitações do Plácido)
+- [x] V_End (Vetor Endotelial) como sub-componente do VR, com FEM 2025 mostrando uz ≈ −0,007 mm — linguagem de aplainamento, não elevação, coerente com CH-004
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL.** CH-001 cumpre o papel de capítulo fundacional com profundidade incomum na literatura de ICRS: vai da anatomia básica ao mecanismo molecular da ectasia, integrando WAXS, SHG e FEM em uma narrativa coerente para o cirurgião. A hipótese do PTA/Ponte Fibrilar é o ponto intelectualmente mais ousado do capítulo — e está protegida pelo sistema de níveis de evidência. A nota de qualificação do modelo 3-fibras demonstra maturidade científica. Este capítulo pode ser publicado como está em obra de nível Thieme/Elsevier.
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA (Congress Readiness Validator)
+
+### Revisor 1 — Anatomia e Histologia Corneana
+O modelo 3-fibras é uma abstração didática fundamentada em evidência real de três técnicas independentes (WAXS, SHG, EM). A nota de qualificação ao final é necessária e está presente. A descrição do gradiente de fibras oblíquas (abundantes anterior → raras posterior) é coerente com Winkler 2013. A afirmação de que 66% das fibras centrais estão em ±22.5° dos eixos preferenciais cita Meek & Boote 2004 corretamente. A diferença biomecânica entre estroma anterior e posterior está apoiada em Randleman 2008. **Sem objeção.**
+
+### Revisor 2 — Biomecânica e Cirurgia de ICRS
+A justificativa de 70–75% de profundidade como equilíbrio arc-shortening/âncora é uma contribuição original do autor, apresentada com dados de FEM e tabela quantitativa. A afirmação de que VR diminui acima de 80% de profundidade é contraintuitiva e potencialmente contestável sem os dados FEM completos — recomenda-se que a referência FEM 2025 seja documentada no Apêndice com metodologia detalhada. O resto do capítulo é coerente com a literatura publicada de ICRS. **Ressalva:** publicar o FEM 2025 como referência interna citável (CH-004 ou Apêndice A) antes da submissão.
+
+### Revisor 3 — Metodologia e Evidência
+A Hipótese da Ponte Fibrilar (PTA ≈ disrupção total do estroma anterior) é metodologicamente bem estruturada: afirmações componente por componente com referências individuais, distinção clara entre fato e síntese, e predições verificáveis com métodos especificados (SHG ex vivo, Corvis ST in vivo). As 12 simulações de PTA são consistentes internamente. A extensão ao PRK é marcada como hipótese com limiar predito (PTA_ectasia_PRK ≈ 50–55%) — predição testável e falsificável. **Risco baixo.**
+
+### Risco de Contestação
+**BAIXO** — O principal vetor de contestação seria a afirmação de VR diminuído acima de 80% de profundidade, que depende do FEM 2025 não publicado externamente. Todos os demais elementos do capítulo têm suporte bibliográfico explícito. O sistema de níveis de evidência (✅/🔬/💡) mitiga contestações sobre o PTA e o modelo fibra→vetor. A Hipótese da Ponte Fibrilar é apresentada como hipótese com predições testáveis — imune à contestação de "afirmação não fundamentada".
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind (Pré-Produção)
+
+### O Que Este Capítulo Representa no Atlas
+CH-001 é o capítulo mais denso e mais importante do Atlas do ponto de vista científico. Ele transforma a anatomia corneana — geralmente tratada como prelúdio obrigatório antes do "conteúdo real" — no substrato explicativo de todo o framework vetorial. Sem este capítulo, os vetores VR, VT e Vτ são apenas rótulos. Com ele, são consequências de geometria fibrilar compreensível. A Hipótese da Ponte Fibrilar (PTA como proxy inadvertido da integridade das oblíquas) é original e potencialmente publicável como artigo independente.
+
+### O Elemento Mais Poderoso
+A frase "O Plácido não mede curvatura. Ele mede o estado de tensão da malha de colágeno. Cada distorção que você vê nos anéis é uma fibra que cedeu." Esta reformulação do significado do Plácido — da curvatura geométrica para o estado de tensão fibrilar — é o insight mais transformador do capítulo. Qualquer cirurgião que internalizar esta frase mudará a forma como lê uma topografia.
+
+### O Que Pode Tornar Isto Referência
+Dois caminhos independentes: (1) Se a Hipótese da Ponte Fibrilar (PTA ≥40% = disrupção total das oblíquas) for validada por SHG ex vivo em córneas pós-LASIK com PTA documentado, este capítulo se tornará a referência-padrão para explicar o mecanismo do PTA — citado em revisões de ectasia pós-LASIK. (2) Se o modelo fibra→vetor (radial→VR, tangencial→VT, oblíqua→Vτ) for adotado como linguagem por outros grupos de pesquisa, CH-001 será o paper fundacional do framework. Ambos os caminhos dependem de publicação dos dados FEM e das predições verificáveis listadas no capítulo.
+
+---
+*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial — Checklist editorial adicionado*

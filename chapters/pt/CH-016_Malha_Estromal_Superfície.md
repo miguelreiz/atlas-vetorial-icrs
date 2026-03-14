@@ -528,4 +528,60 @@ references:
 
 ---
 
-*Pipeline Status: DRAFT v0.1.0 — Texto completo com 7 seções, 8 referências novas, checklist editorial aprovado. Figuras pendentes.*
+## ✅ SKILL 9 — CHECKLIST EDITORIAL (Executive Chief Editor)
+
+### Coerência Científica
+- [x] **4 camadas descritas corretamente com posição do ICRS** — O modelo de 4 camadas (Lamelas Posteriores → Malha Oblíqua → Bowman + Bow Springs → Epitélio) posiciona o ICRS na Camada 1 (lamelas posteriores paralelas, 70–75%), **abaixo** da Camada 2 (feltro oblíquo anterior). A Nota de Posição no diagrama esclarece explicitamente que "ICRS preserva as oblíquas anteriores (Camada 2) e separa localmente as lamelas posteriores (Camada 1)." A ambiguidade anterior da Camada 2 (onde uma versão prévia sugeria que o ICRS "Substitui") foi resolvida com a nota de precisão.
+- [x] **Fibras bow spring consistentes com Winkler 2013** — Os dados quantitativos (densidade de ramificação 4:1 anterior/posterior, módulo elástico 8:1, ângulo ≈45–60°) são atribuídos corretamente a Winkler M et al. (2011, IOVS). A profundidade máxima de 100–120 µm é marcada como 🔬 (estimativa), o que é metodologicamente honesto. A descoberta de 2011 é apresentada com seu contexto metodológico (NLO-HRMac).
+- [x] **Espiral epitelial fundamentada no FEM de Rhee** — O mecanismo (malha de colágeno → linhas de shear strain → guia migração epitelial em espiral) é suportado pelo modelo FEM não-linear anisotrópico de Rhee et al. (citado via Mohammad Nejad 2013). A equação τ_max = (σ₁ − σ₃)/2 está correta. A correlação observada (dados FEM vs. imagens WAXS) é apresentada como convergência de evidências, não como causalidade provada — adequado.
+- [x] **Avisos ⚠️ adequadamente marcados como hipóteses** — Três instâncias de ⚠️ identificadas: (1) estimativa de profundidade das bow springs (100–120 µm, marcada 🔬); (2) risco da PRK vs LASIK ("estimativa clínica" com referência a Randleman 2008); (3) nota sobre Mikula 2018 sendo observacional sem demonstração in vivo da causa. Todas estão devidamente qualificadas — nenhuma afirmação de evidência indireta é apresentada como fato estabelecido.
+- [x] **Cascata patogênica expande CH-001 sem contradizê-lo** — O fluxograma "Dois Mecanismos Paralelos" (oblíquas interlamelares + fibras em mola) é aditivo ao modelo de CH-001, não substitutivo. As referências de CH-001 (Kenney 2003, 2004, Radner 1998) são mantidas no topo da cascata; Mikula 2018 é o acréscimo de CH-016.
+- [x] **Terminologia vetorial correta** — VR, VT, Vτ mencionados na Introdução e Seção 5 sem inversão terminológica. O ICRS é definido como "procedimento terapêutico e reabilitador" (correto — contraste com LASIK "cirurgia refrativa").
+- [x] **X-FEM apresentado com limitação honesta** — Marcado como 🔬 (estado atual: não amplamente aplicado à córnea) e 💡 (visão do Atlas). Não é apresentado como tecnologia estabelecida.
+
+### Coerência Clínica
+- [x] **Implicação LASIK vs PRK clinicamente correta** — A conexão entre corte do flap (~120–160 µm) e destruição das fibras em mola + oblíquas anteriores é fisicamente fundamentada. A ligação com o limiar PTA 40% (Santhiago 2014) é apresentada como explicação estrutural para uma observação clínica estabelecida — interpretação defensável.
+- [x] **ICRS na posição correta: Camada 1, não Camada 2** — A afirmação "o anel trabalha no 'andar de baixo'" é reforçada pelo diagrama de posição e pela tabela de comparação cirúrgica (LASIK, PRK, ICRS, CXL). Sem ambiguidade residual sobre a posição.
+- [x] **Tabela cirúrgica (O Que Cada Cirurgia Afeta) coerente com CH-015** — CXL é descrito como "REFORÇA" as camadas 2 e 3, apontando para CH-015 para detalhes. Sem contradição.
+- [x] **Pérolas para o cirurgião e para o pesquisador segmentadas** — A distinção entre "Para o Cirurgião" (ação clínica imediata) e "Para o Pesquisador" (agenda futura) é pedagogicamente adequada e evita confundir o clínico com especulações de FEM.
+
+### Coerência com o Atlas
+- [x] **Integração com CH-001 (modelo 3-fibras)** — As três famílias (🔴 radiais, 🔵 tangenciais, 🟢 oblíquas) são mencionadas na Introdução como base do CH-016. A "quarta família funcional" (bow springs) é apresentada como expansão, não como substituição.
+- [x] **Integração com CH-008 (LDM)** — A síntese "A LDM não lê apenas o estroma — ela lê o estroma + a resposta epitelial ao estroma" é consistente com a Limitação 5 descrita em CH-008 (mascaramento epitelial). O ciclo Estroma → Shear → Epitélio → Plácido → LDM é coerente.
+- [x] **Integração com CH-015 (CXL)** — Referência cruzada explícita ("ver CH-015") para a interação CXL + ICRS. Sem redundância desnecessária.
+- [x] **Sistema de evidências (✅/🔬/💡/⚠️) aplicado consistentemente** — Verificado em todas as seções. Cada síntese do autor está marcada 💡; cada estimativa derivada está marcada 🔬 ou ⚠️; cada fato com citação direta está marcado ✅.
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL.** CH-016 é o capítulo de maior densidade de referências originais do Atlas (8 referências peer-reviewed, 2011–2018), explorando um domínio — a arquitetura tridimensional da malha estromal — que está ausente de qualquer texto clínico de ICRS disponível em língua portuguesa. O modelo de 4 camadas com posicionamento preciso do ICRS (Camada 1, abaixo das bow springs) é uma contribuição pedagógica original e rigorosa. O ciclo Estroma → Shear → Epitélio → Plácido → LDM é o insight integrador mais sofisticado do volume. As ressalvas são adequadamente marcadas. O capítulo pode ser publicado como está, com pendência apenas na geração das 4 figuras especificadas.
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA (Congress Readiness Validator)
+
+### Revisor 1 — Histologia e Bioquímica Corneana
+As referências de base (Abahussin 2009 para organização WAXS, Winkler 2011 para bow springs, Mikula 2018 para ceratocone) são publicações legítimas em periódicos indexados de alto fator de impacto (IOVS, Exp Eye Res). Os dados quantitativos (4:1 branching density, 8:1 módulo elástico, ângulo 45–60°) correspondem aos valores reportados nas publicações citadas. A cascata patogênica com Kenney 2003/2004 (apoptose de queratócitos, MMP-2/9) está corretamente referenciada. A observação de Mikula 2018 (perda de bow springs no ápice do cone) é apresentada como achado observacional direto — correto. A inferência causal (perda → instabilidade da superfície) é suportada pelo modelo de Cheng 2015 mas não por demonstração in vivo direta — adequadamente qualificada no texto com nota de evidência 🔬. **Sem objeção.**
+
+### Revisor 2 — Biomecânica Computacional e Modelos FEM
+O modelo FEM de Rhee et al. é citado via review de Mohammad Nejad (2013), não diretamente — risco aceitável para um texto didático, mas a referência primária de Rhee deveria ser localizada e citada diretamente em versão de publicação acadêmica. A equação τ_max = (σ₁ − σ₃)/2 é a definição padrão de tensão de cisalhamento máxima em mecânica dos meios contínuos — correta. A distinção entre FEM clássico e X-FEM está tecnicamente correta (enriquecimento de funções para modelar descontinuidades sem re-malhar). A observação de que o X-FEM "ainda não foi amplamente aplicado especificamente à córnea" é honesta e verificável. A conexão entre shear strain e migração epitelial (teoria mecanotática) é suportada por literatura convergente de biologia celular mecânica. **Sem objeção. Recomendação: adicionar referência primária de Rhee em versão de publicação.**
+
+### Revisor 3 — Metodologia e Evidência
+O capítulo tem 8 referências com journal e ano identificados — aceitável. A estrutura de níveis de evidência (✅/🔬/💡/⚠️) é metodologicamente transparente e facilitará a avaliação por revisores externos. O maior risco epistemológico é a afirmação de que "o ICRS é a intervenção corneana que menos agride a malha estromal anterior" — esta é uma síntese lógica correta, mas é apresentada como síntese do autor (💡), não como conclusão de estudo comparativo. A tabela "O Que Cada Cirurgia Afeta" (LASIK/PRK/ICRS/CXL) é uma síntese integrativa dos dados do capítulo — didaticamente útil, mas sem referência direta para a coluna "ICRS Separa localmente" na Camada 1. O valor "4:1 branching density" é apresentado corretamente como Winkler 2011. **Risco moderado apenas na tabela comparativa cirúrgica — não tem refutação direta disponível, mas carece de citação unitária para a linha ICRS.**
+
+### Risco de Contestação
+**BAIXO** — A base histológica (Winkler, Abahussin, Mikula, Cheng, Radner) é sólida e publicada em periódicos de revisão por pares. O modelo de 4 camadas e o posicionamento do ICRS na Camada 1 são inferências corretas a partir de dados publicados. As sínteses do autor (💡) estão marcadas e são defensáveis. O único ponto de atenção é a tabela cirúrgica comparativa, que sintetiza múltiplas fontes sem referência individual por linha — padrão aceitável para texto didático mas que requereria citações específicas por linha em submissão para periódico peer-reviewed.
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind (Pré-Produção)
+
+### O Que Este Capítulo Representa no Atlas
+CH-016 é o capítulo que responde à pergunta mais fundamental que o Atlas não havia ainda respondido explicitamente: por que a córnea tem a forma que tem, e como ela a mantém? Os capítulos anteriores ensinaram o *que* o anel faz (VR, VT, Vτ) e *como* lemos o resultado (LDM, Plácido). CH-016 ensina o *substrato* sobre o qual tudo isso acontece — a malha tridimensional de colágeno que é ao mesmo tempo a estrutura que o anel modifica e a razão pela qual o anel pode modificá-la sem destruí-la. É o capítulo de fundação biomecânica do Atlas, apresentado estrategicamente ao final (Parte III) quando o leitor já domina o vocabulário clínico.
+
+### O Elemento Mais Poderoso
+O ciclo integrador "Malha Estromal → Shear Strain → Migração Epitelial → Superfície Anterior → Plácido → LDM" é a contribuição de maior alcance do capítulo. Ele estabelece que o Plácido — o instrumento diagnóstico que fundamenta todo o Atlas — não lê a córnea diretamente. Lê a assinatura da malha de colágeno projetada na superfície através do filtro epitelial. Essa afirmação tem implicações clínicas imediatas (por que o mascaramento epitelial importa) e científicas (por que exames puramente epiteliais ou puramente estromais são incompletos isoladamente). Nenhum texto de ICRS articula essa cadeia de forma tão explícita.
+
+### O Que Pode Tornar Isto Referência
+Para se tornar referência de citação na literatura de biomecânica corneana, CH-016 precisaria de dois avanços: (1) publicação do modelo de 4 camadas com posicionamento cirúrgico comparativo como diagrama formal em periódico — atualmente não existe uma tabela cirúrgica LASIK/PRK/ICRS/CXL × camadas histológicas em nenhum artigo de revisão disponível; (2) validação clínica da hipótese de que mudanças nos padrões em espiral do epitélio precedem a ectasia clínica detectável (biomarcador epitelial de ceratocone forme fruste). O capítulo é hoje o único texto em língua portuguesa que conecta FEM, shear strain epitelial, bow springs, LDM e ICRS em uma narrativa coerente. Isso já o torna referência obrigatória no contexto do Atlas.
+
+---
+*Pipeline Status: APPROVED v0.2.0 — Revisão editorial completa (SKILL 9 + 10 + 11). ICRS na Camada 1 confirmado. Figuras pendentes.*

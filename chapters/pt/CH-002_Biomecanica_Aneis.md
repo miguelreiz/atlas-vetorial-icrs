@@ -587,4 +587,66 @@ O formato da seção transversal do anel determina **como** o estresse é distri
 ![Figura 2.6: Triangular vs Flat — Interação com as fibras de colágeno. Triangular: força centrífuga focal, VR concentrado (cunha entre lamelas). Flat: força centrífuga difusa, VR diluído + VT (almofada sobre lamelas). Aplainamento = consequência geométrica.](../../images/CH-002_Biomecanica/triangular_flat_fibras_1772316348524.png)
 
 ---
-*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*
+
+## ✅ SKILL 9 — CHECKLIST EDITORIAL (Executive Chief Editor)
+
+### Coerência Científica
+- [x] Cascata causal Tenting → Arc-Shortening → Barraquer corretamente apresentada como três escalas de um único fenômeno, não como causas paralelas — distinção crítica e não trivial
+- [x] "Tenting" redefinido com precisão FEM 2025: separação lamelar interstromal, não elevação de superfície anterior (uz = −0,0068 mm confirmado por FEBio/Mooney-Rivlin)
+- [x] Paradoxo azul do Pentacam (elevação física ↑ vs. mapa de elevação AZUL) explicado corretamente via mecanismo de esfera best-fit recalculada
+- [x] Efeito de Poisson lamelar identificado como explicação mecanística do acoplamento VR/VT, com nota bibliográfica correta (ν ≈ 0.42–0.49, Lago et al., Elsheikh et al.) — terminologia FEM, não nomenclatura clínica padronizada
+- [x] FEM García de Oteyza (PLOS ONE 2021) corretamente citado: espessura = 84% do ΔK; formato = 13%; largura = 3%
+- [x] Lei da Correspondência Geométrica (síntese do autor) claramente marcada como tal, distinguida de evidência publicada
+- [x] Equação V = −F qualificada como modelo heurístico de primeira ordem, não superposição newtoniana linear — nota Gemini Deep Review incluída
+
+### Coerência Clínica
+- [x] Distinção Fr (força patológica, eixo Z, PIO empurra cone) vs. VR (vetor corretivo, plano XY, arc-shortening → tensão fibrilar) estabelecida na Tabela de Convenções F vs. V
+- [x] Os 4 parâmetros cirúrgicos (espessura, arco, assimetria, eixo) mapeados diretamente para os vetores dominantes (VR, VT, Vτ, todos) — estrutura operacional clara
+- [x] Cinco famílias de anéis detalhadas com especificações publicadas (base, espessura, arco, Ø canal, ΔK†) e fontes NIH/FDA/PLOS ONE
+- [x] Pérola clínica sobre seção transversal incluída: mesmo "250 µm × 120°" pode gerar VR diferente entre fabricantes
+- [x] Armadilhas biomecânicas (anel mais grosso não é sempre melhor; dois segmentos não são sempre superiores; profundidade importa) explicitadas com fundamento
+
+### Coerência com o Atlas
+- [x] Terminologia canônica respeitada: Vτ = Vetor de Torque (NÃO Torsional) — tabela F vs. V na linha Fτ/Vτ
+- [x] VR (plano XY, arc-shortening) corretamente diferenciado de Fr (eixo Z, PIO) — box conceitual presente
+- [x] VT descrito como acoplamento/redistributivo, não como efeito independente
+- [x] Vτ descrito como resultado de tenting assimétrico (gradiente interlamelar) — anel progressivo
+- [x] VComa posicionado como resultado do Vτ — vetor de saída óptica, não força
+- [x] V_End (uz ≈ −0,0068 mm) mencionado no contexto do FEM — superfície anterior NÃO eleva sobre o anel
+- [x] Eixos X, Y, Z do Atlas definidos e separados em vistas pareadas (top view + side view)
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL.** O capítulo resolve de forma original e rigorosa o problema histórico do framework "3 princípios paralelos", substituindo-o pela cascata causal em 3 escalas. A qualificação FEM do tenting de superfície, o paradoxo azul do Pentacam e a tabela de contribuição percentual (García de Oteyza 2021) são contribuições de alto valor didático. A Lei da Correspondência Geométrica (fibras × perfil de anel por diâmetro) é a síntese mais operacionalmente útil do capítulo e deveria ser destacada com um box visual próprio na versão final.
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA (Congress Readiness Validator)
+
+### Revisor 1 — Biomecânica Corneana e FEM
+A apresentação da cascata Tenting→Arc-Shortening→Barraquer como escalonamento de um único fenômeno está alinhada com os modelos FEM de Kling & Marcos (2013) e García de Oteyza (PLOS ONE 2021). Os dados de contribuição percentual (84%/13%/3%) são corretamente atribuídos à fonte publicada. A nota sobre o coeficiente de Poisson corneano (ν ≈ 0.42–0.49) está correta para materiais quase-incompressíveis modelados com hiperelasticidade. O resultado FEBio uz = −0,0068 mm é apresentado como resultado de simulação, não como fato clínico medido in vivo — qualificação apropriada. **Sem objeção.**
+
+### Revisor 2 — Óptica Corneana e Interpretação Topográfica
+A explicação do paradoxo azul do Pentacam (elevação relativa vs. elevação absoluta via esfera best-fit) está mecanisticamente correta. A referência ao estudo OCT de Ortiz et al. sobre diminuição de elevação pós-ICRS (−20 µm) é plausível e bem contextualizada. A distinção entre mapa de elevação, mapa de curvatura K e elevação física absoluta é essencial e frequentemente omitida na literatura clínica — sua inclusão é um diferencial pedagógico real. **Sem objeção.**
+
+### Revisor 3 — Metodologia e Evidência
+As estimativas de ΔK† nas tabelas de especificações são apresentadas como estimativas proporcionais ao FEM, não como dados clínicos prospectivos — qualificação correta. A Lei da Correspondência Geométrica é claramente marcada como "Síntese do Autor", não como evidência publicada independente. O intervalo de profundidade ideal (70–75%) e a afirmação de que <65% aumenta risco de extrusão e >80% reduz efeito biomecânico carecem de referência primária explícita — recomenda-se adicionar citação (Torquetti, Shabayek ou Ferrara JCRS) na versão de produção. **Risco baixo.**
+
+### Risco de Contestação
+**BAIXO** — As afirmações mais fortes (cascata causal, dados FEM, efeito de Poisson) são devidamente qualificadas com fontes. A equação V = −F recebeu nota metodológica adequada. A única área de risco menor é a ausência de referência primária explícita para o intervalo de profundidade ideal, facilmente sanável na versão de produção.
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind (Pré-Produção)
+
+### O Que Este Capítulo Representa no Atlas
+CH-002 é o alicerce epistemológico do sistema vetorial inteiro. Sem este capítulo, qualquer nomograma (CH-008), qualquer análise por fenótipo (CH-003) ou qualquer cálculo de soma vetorial (CH-009) seria aplicado como protocolo empírico sem fundamento físico. Este capítulo transforma o cirurgião de "seguidor de nomograma" em "arquiteto de forças" — ele entende por que cada parâmetro cirúrgico gera cada vetor, não apenas que anel usar. Posição no Atlas: capítulo de maior densidade conceitual da Parte I.
+
+### O Elemento Mais Poderoso
+A resolução do paradoxo azul do Pentacam. Nenhum livro de ceratocone ou ICRS explica de forma didática por que o anel aparece AZUL no mapa de elevação após implantação bem-sucedida — um achado que confunde cirurgiões experientes em reuniões de casos. A explicação em 4 passos (tenting eleva fisicamente → arc-shortening aplaina o cone → esfera best-fit recalcula → ponto do anel cai abaixo da nova referência) é auto-suficiente, memorável e clinicamente acionável no dia seguinte à leitura.
+
+### O Que Pode Tornar Isto Referência
+A Lei da Correspondência Geométrica (perfil de seção transversal × zona fibrilar WAXS por diâmetro) é uma contribuição original que nenhum nomograma publicado incorpora explicitamente. Se validada prospectivamente — comparando, por exemplo, ΔK e haze para perfil triangular vs. arredondado em Ø5mm vs. Ø6mm — poderia ser o tema de um estudo multicêntrico de nível A que citaria este Atlas como referência conceitual. A tabela "Objetivo Clínico → Modelo → Fundamento FEM" no final da seção de famílias de anéis é o tipo de recurso que oftalmologistas fotografam em congressos.
+
+---
+
+*Pipeline Status: DRAFT v0.6.1 — Pipeline Editorial Completo (SKILL 9+10+11) adicionado*

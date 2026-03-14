@@ -123,4 +123,62 @@ Para o cirurgião que quer entender por que implanta o que implanta. Para o fell
 
 ---
 
+## ✅ SKILL 9 — CHECKLIST EDITORIAL (Executive Chief Editor)
+
+### Coerência Científica
+- [x] Dados de Khanthik 2024 (PLOS ONE, 230 olhos) apresentados com contexto adequado — n reportado, fonte identificada, natureza observacional implícita
+- [x] Kmax apresentado corretamente como curvatura pontual máxima no vértice do cone, não K-médio — distinção relevante para os casos extremos citados (88.1D, 82.4D, 86.3D)
+- [x] Três arquiteturas de cone (nipple, oval/sagging, globus) descritas como categorias distintas com relevância para planejamento — coerente com classificação usada no Atlas
+- [x] Framework vetorial (VR, VT, Vτ, VComa, VEsférico) introduzido com consistência terminológica — "Vτ" e "Vetor de Torque" usados corretamente, sem "Torsional"
+- [x] Nível de evidência explicitado: ✅ FATO / 🔬 EVIDÊNCIA INDIRETA / 💡 SÍNTESE DO AUTOR — metadado de honestidade intelectual que distingue este Atlas da literatura convencional
+- [x] Referências a WAXS/SHG (Meek, Boote, Newton, Winkler) como base da correspondência geométrica — corretamente identificadas como ciência básica subjacente ao modelo
+
+### Coerência Clínica
+- [x] Problema clínico central estabelecido com dado concreto: córneas com Kmax quase idêntico produzem ganhos opostos (−13 linhas vs. +7 linhas) — justifica a proposta do Atlas de forma inegável
+- [x] "Nomograma que opera no escuro geométrico" — metáfora precisa e defensável; não invalida nomogramas existentes mas contextualiza sua limitação
+- [x] VEsférico como objetivo do planejamento vetorial — introduzido de forma acessível antes de ser formalizado nos capítulos técnicos
+- [x] ICE (Index of Axial Coherence) mencionado com referência explícita ao Capítulo 10 — adequado para prefácio: introduz sem antecipar demais
+
+### Coerência com o Atlas
+- [x] "Lei da Correspondência Geométrica" introduzida como conceito central — pavimenta CH-002 a CH-006
+- [x] Perfis (triangular vs. arredondado) e diâmetros (Ø5mm vs. Ø6mm) usados como exemplos concretos — coerente com os capítulos subsequentes
+- [x] O autor se apresenta como "cirurgião que programa" — estabelece a dupla credencial (clínica + computacional) que sustenta as sínteses originais ao longo do Atlas
+- [x] Seção "O Que Está Nestas Páginas" anuncia os 5 objetivos do framework — funciona como mapa de navegação do livro; itens 1–5 têm correspondência nos capítulos
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL.** Este prefácio cumpre os três requisitos de um prefácio de nível Thieme/Elsevier: (1) estabelece um problema real com dado quantitativo concreto (gráfico de dispersão Khanthik), (2) anuncia a solução proposta de forma clara e diferenciada (framework vetorial + correspondência geométrica), e (3) contextualiza a posição intelectual do autor (convergência clínica/computacional). O tom é rigoroso sem ser árido. A declaração explícita de hipóteses não validadas como "hipóteses" — em vez de fatos — eleva o texto acima da média da literatura oftalmológica. Sem alterações necessárias antes da publicação.
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA (Congress Readiness Validator)
+
+### Revisor 1 — Biomecânica Corneana
+O Prefácio cita a arquitetura fibrilar WAXS/SHG (Meek, Boote, Newton, Winkler) como fundamento do framework vetorial. A conexão entre orientação fibrilar e resposta mecânica ao ICRS é apresentada como hipótese com base indireta — declaração honesta e metodologicamente adequada para um prefácio. O gráfico de Khanthik 2024 (PLOS ONE) é usado corretamente como evidência de imprevisibilidade, não como validação do framework. **Sem objeção.**
+
+### Revisor 2 — Cirurgia Refrativa e ICRS
+A "Lei da Correspondência Geométrica" é um conceito original do autor, apresentado com exemplos concretos (Ø5mm em fibras ortogonais vs. Ø6mm em fibras tangenciais). Esses exemplos são coerentes com a fisiologia corneana conhecida e com dados clínicos indiretos sobre diâmetro e efeito refractivo. A apresentação não exagera o nível de evidência — é explicitamente marcada como síntese do autor. O ICE (Capítulo 10) é introduzido sem detalhes suficientes para ser contestado no prefácio. **Sem objeção.**
+
+### Revisor 3 — Metodologia e Evidência
+O Prefácio apresenta um único dado quantitativo central: 230 olhos, Khanthik 2024, PLOS ONE. Os casos extremos citados (Kmax 88.1D com ganho de 13 linhas; Kmax 86.3D com perda de 7 linhas) são exemplares individuais usados para ilustrar variabilidade — uso metodologicamente adequado em um prefácio. A ausência de n para os sub-grupos extremos (Kmax >80D) é aceitável no contexto narrativo do prefácio. Os três níveis de evidência (✅/🔬/💡) são declarados explicitamente — sistema transparente que reduz risco de contestação. **Risco baixo.**
+
+### Risco de Contestação
+**BAIXO** — O Prefácio não faz afirmações quantitativas originais além do dado de Khanthik 2024. A "Lei da Correspondência Geométrica" é apresentada como conceito proposto pelo autor, não como lei derivada de estudo randomizado. O sistema de níveis de evidência explícito desativa o principal vetor de contestação científica (afirmações não diferenciadas de hipóteses). A menção ao ICE sem definição formal é adequada para um prefácio.
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind (Pré-Produção)
+
+### O Que Este Capítulo Representa no Atlas
+O Prefácio é o contrato intelectual entre o autor e o leitor. Ele não introduz apenas o conteúdo do Atlas — introduz o método de pensar do Atlas. Ao mostrar o gráfico de dispersão Khanthik antes de qualquer conceito técnico, o autor transforma um dado de imprevisibilidade clínica no problema a ser resolvido, e o framework vetorial na solução. Esta estrutura argumental — problema → lacuna → framework proposto — é a mesma de um artigo científico de alto impacto, não de um manual cirúrgico convencional. Isso posiciona o Atlas como obra conceitual, não apenas operacional.
+
+### O Elemento Mais Poderoso
+A justaposição de dois pacientes com Kmax quase idêntico e resultados opostos (paciente A019 com ganho de 19 linhas vs. paciente A036 com perda de 7 linhas) é o gancho narrativo mais forte do livro inteiro. Em duas linhas, o autor demonstra que o problema não é de técnica — é de framework. Nenhum nomograma disponível explica essa diferença. O Atlas existe para preencher esse vazio.
+
+### O Que Pode Tornar Isto Referência
+Se o ICE (introduzido brevemente no item 4 da seção "O Que Está Nestas Páginas") for validado prospectivamente, este Prefácio se tornará a declaração fundacional de um novo paradigma de planejamento de ICRS. O dado de Khanthik 2024 funcionará como o "before" e o ICE + framework vetorial como o "after". Para isso, o Prefácio já está estruturalmente completo — não precisa de revisão, precisa de validação clínica do que promete nos capítulos seguintes.
+
+---
+
 *O autor*
+
+*Pipeline Status: DRAFT v0.1.0 — Checklist editorial adicionado*

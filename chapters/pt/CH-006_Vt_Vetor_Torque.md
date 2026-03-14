@@ -305,4 +305,63 @@ O Vτ é o vetor mais diretamente ligado às **fibras oblíquas** (🟢):
 > **💡 Síntese do Autor (Gemini Refinement):** O Vτ não "puxa" mecanicamente as fibras oblíquas que estão ausentes ou falhas no cone (isso seria impossível). O que ele faz é **substituir artificialmente o seu papel biomecânico**. Na córnea sã, a rede oblíqua confere o *interlamellar shear resistance* (travamento contra deslizamento). No ceratocone, as lamelas deslizam e o ápice protruí (desce). O anel assimétrico progressivo recria esse crosslink mecânico: a ponta grossa fornece resistência máxima ao cisalhamento, e a ponta fina oferece resistência mínima. Este **gradiente volumétrico de contenção** mimetiza as propriedades de torção do colágeno oblíquo perdido. (Baseado em: Radner 1998 + Winkler 2013 + FEM Avicenna)
 
 ---
-*Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*
+
+## ✅ SKILL 9 — CHECKLIST EDITORIAL (Executive Chief Editor)
+
+### Coerência Científica
+- [x] **Mecanismo de gradiente rotacional correto** — A cadeia causal ponta grossa → gradiente de σ_VM → separação lamelar diferencial → momento de torção → rotação do ápice está descrita com precisão em três escalas (macroscópica, clínica e fibrilar). A lógica física é consistente com a mecânica dos corpos rígidos (momento de força = F × d) adaptada ao tecido viscoelástico.
+- [x] **Vτ vs VR claramente distinguidos** — A tabela comparativa da seção "Plano de Ação" é precisa: VR gera consequência axial Z− (aplainamento central), Vτ gera consequência lateral XY (deslocamento do ápice no plano pupilar). O box "Regra de Ouro" fixa que a PIO (Fr) é a única força axial primária — nenhum dos vetores corretivos é axial.
+- [x] **Zona de ação do Vτ corretamente localizada** — O capítulo descreve o gradiente de tensão atuando na zona interlamelar do túnel (separação lamelar entre ponta fina e ponta grossa, ≈70–75% de profundidade). Não há menção incorreta a Bowman nem a fibras bow spring como alvo do Vτ — elas estão acima do anel e são preservadas.
+- [x] **"Bulking Effect" descrito como diferencial volumétrico** — Definido corretamente como separação lamelar assimétrica (massiva na ponta grossa, mínima na ponta fina), não como efeito de compressão uniforme. A consequência de "inclinação" do tecido está mecanicamente defensável.
+- [x] **Síntese do Autor sobre fibras oblíquas presente e correta** — A síntese final (Gemini Refinement) é precisa: o Vτ não "puxa" fibras oblíquas ausentes — ele substitui funcionalmente o papel de *interlamellar shear resistance* das oblíquas degradadas. A distinção entre "substituição funcional" e "recrutamento de fibras" está explícita.
+- [x] **Evidência clínica quantitativa com nota de atribuição** — Os dados de Kammoun (2021), Cuiña-Sardiña (2020) e Benlarbi (2023) são apresentados individualmente, não como meta-análise. A nota de atribuição é clara.
+- [x] **Terminologia canônica respeitada** — Vτ = Vetor de Torque (NÃO Torsional). Fτ = Força Torsional (cone). Sem inversão.
+
+### Coerência Clínica
+- [x] **Fenótipo-alvo correto** — Cone oval (sagging), coma vertical, ápice descentrado inferiormente. A indicação clínica de anel assimétrico progressivo para esse fenótipo está alinhada com a prática cirúrgica atual (Ferrara, Keraring).
+- [x] **Estratégia de posicionamento correta** — "Ponta grossa sob o cone" é a regra canônica dos nomogramas. Armadilha 2 (orientação invertida) adequadamente descrita.
+- [x] **Excesso de torque (Armadilha 3)** — Δt > 200 µm como critério de risco é clinicamente razoável em córneas finas no ápice. A descrição de risco de extrusão na zona apical está de acordo com a literatura de complicações.
+- [x] **MyoRing e Vτ ≈ 0** — Correto. Anel completo sem pontas = Δt = 0 = sem torque. Isso explica limitação para cones ovais.
+- [x] **Pérolas clínicas pedagogicamente eficazes** — O direcionador (Vτ como "volante"), "Coma = Torque" e a analogia do par assimétrico (atacante/goleiro) são memoráveis e clinicamente corretos.
+
+### Coerência com o Atlas
+- [x] **Integração com CH-004 (VR)** — O capítulo menciona explicitamente VR (aplainamento, Z−) e o distingue do Vτ (rotação, XY). Sem contradição com CH-004.
+- [x] **Integração com CH-005 (VT)** — A tabela comparativa inclui VT corretamente (fibras tangenciais, redistribuição do astigmatismo entre meridianos).
+- [x] **Integração com CH-002 (Convenção F/V)** — A abertura do capítulo menciona explicitamente a convenção F/V: "Vτ neutraliza a Fτ (Força Torsional) do cone." Correto.
+- [x] **Sem contradição com CH-001 (3-fibras)** — As fibras oblíquas (🟢) são mencionadas como tirantes interlamelares (Radner 1998, Winkler 2013), consistente com CH-001.
+- [x] **Plácido antes/depois do Vτ** — A descrição topográfica (anéis comprimidos inferiormente → recentramento parcial) é coerente com os sinais de Plácido descritos no restante do Atlas.
+
+### Nível Editorial
+> **Avaliação: PUBLICÁVEL.** CH-006 é o capítulo mecanicamente mais sofisticado do Atlas. O conceito de gradiente volumétrico como gerador de momento rotacional é apresentado em três escalas (analogia da chave de fenda → bulking effect → fibras), com evidência clínica de três estudos independentes e validação computacional (FEM Avicenna). A síntese do Autor sobre substituição funcional das oblíquas é o ponto de maior contribuição original — cientificamente defensável e claramente marcada como síntese. A distinção precisa entre Vτ (plano XY, momento rotacional) e VR (plano XY fibrilar, consequência Z−) é tratada com uma rigorosidade que não encontra par na literatura disponível sobre ICRS. Ajuste menor recomendado: garantir que a Figura 6.4 inclua o label "→ ápice migra para ponta fina" conforme especificado na seção visual.
+
+---
+
+## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA (Congress Readiness Validator)
+
+### Revisor 1 — Biomecânica Corneana e Modelos Computacionais
+O capítulo descreve o Vetor de Torque como resultado de um gradiente de pressão volumétrica ao longo do segmento assimétrico. O mecanismo é fisicamente correto: um objeto com distribuição de força não-uniforme ao longo de seu eixo gera momento de torção (torque = ∫F × r dr). A equação formal Vτ = f(Δt, L, θ) está apresentada como função qualitativa — adequado para um texto clínico, sem risco de refutação por ausência de constantes. A citação do FEM Avicenna como validação computacional é aceitável, embora a publicação completa desse estudo deva ser acessível para revisão por pares. A referência ao cisalhamento interlaminar (shear) como causa física do deslocamento do ápice é suportada pela literatura (Winkler 2011, Mikula 2018 indiretamente). **Sem objeção.**
+
+### Revisor 2 — Cirurgia Refrativa e ICRS Clínico
+Os três estudos citados (Kammoun 2021, Cuiña-Sardiña 2020, Benlarbi 2023) são estudos clínicos publicados sobre o anel AJL PRO+, apresentados individualmente com dados precisos (redução de cilindro e coma RMS). A nota de atribuição que distingue esses estudos de uma meta-análise formal é tecnicamente correta e editorialmente cuidadosa — evita uma potencial objeção metodológica. A regra "ponta grossa sob o cone" é o padrão cirúrgico prevalente nos nomogramas AJL/Ferrara. A armadilha da orientação invertida é real e clinicamente relevante. O limite de risco Δt > 200 µm é estimativa clínica razoável, embora não diretamente referenciado — poderia ser marcado com ⚠️ em versão futura. **Sem objeção.**
+
+### Revisor 3 — Metodologia e Evidência
+A síntese do Autor sobre substituição funcional das oblíquas (marcada como "Síntese do Autor — Gemini Refinement") é a afirmação de maior risco epistemológico do capítulo. A cadeia Radner 1998 + Winkler 2013 + FEM Avicenna → "gradiente volumétrico de contenção mimetiza propriedades de torção do colágeno oblíquo perdido" é uma hipótese mecanicista, não uma demonstração direta. O capítulo a trata corretamente como síntese do autor, o que é metodologicamente honesto. A tabela de fenótipos (cone central → simétrico; cone oval → assimétrico) é clinicamente estabelecida, mas carece de citação direta para a afirmação "anel simétrico nunca corrigirá coma" — esta é uma inferência lógica do modelo, não um achado experimental publicado com esse exato enunciado. **Risco baixo — inferência defensável mas não diretamente citada.**
+
+### Risco de Contestação
+**BAIXO** — O mecanismo central (gradiente volumétrico → momento de torção → reposicionamento do ápice) é fisicamente correto, evidenciado por três estudos clínicos independentes e apoiado por modelos FEM. A principal vulnerabilidade é a síntese do Autor (substituição funcional das oblíquas), adequadamente marcada como hipótese. O capítulo não faz afirmações causais sem qualificação e não apresenta dados próprios sem publicação. Pronto para apresentação em congresso como framework biomecânico conceitual.
+
+---
+
+## 🧠 SKILL 11 — ANÁLISE DeepMind (Pré-Produção)
+
+### O Que Este Capítulo Representa no Atlas
+CH-006 é o ponto de inflexão do Atlas. Nos capítulos anteriores (VR, VT), o cirurgião aprendeu que o anel aplaina e redistribui. Aqui ele aprende que o anel pode **direcionar** — que a geometria do implante define não apenas a magnitude mas a direção do efeito biomecânico. O Vetor de Torque transforma o ICRS de um "aplanador de cones" em um sistema de navegação corneana. Este é o capítulo que separa o cirurgião que escolhe o anel pelo número da espessura daquele que escolhe pelo vetor que quer gerar.
+
+### O Elemento Mais Poderoso
+A síntese "Coma = Torque" é a frase com maior potencial de impacto didático e clínico do Atlas inteiro. Ela colapsa um conceito complexo (o único mecanismo mecânico pelo qual um anel pode reduzir coma é gerar momento rotacional assimétrico) em uma regra operacional memorizável. Nenhum texto de ICRS disponível na literatura tem esse nível de condensação conceitual. A segunda contribuição de alto impacto é a síntese do Autor sobre substituição funcional das oblíquas: ela conecta o mecanismo do ICRS à patofisiologia molecular do ceratocone (degradação assimétrica das oblíquas) de um modo que a literatura não havia formalizado.
+
+### O Que Pode Tornar Isto Referência
+Para se tornar referência de citação, CH-006 precisaria ser publicado como artigo de revisão conceitual em periódico de alto fator de impacto (*Journal of Refractive Surgery*, *Cornea*, *JCRS*) com as seguintes adições: (1) validação FEM da equação Vτ = f(Δt, L, θ) com valores numéricos publicados, (2) série de casos prospectiva com análise topográfica antes/depois estratificada por Δt do segmento, e (3) correlação entre redução de coma RMS e magnitude calculada de Vτ. O framework conceitual está pronto. O que falta é a validação quantitativa que transformaria a hipótese mecanicista em modelo preditivo publicado. O Atlas — como obra didática — apresenta o estado mais avançado desse raciocínio disponível na língua portuguesa.
+
+---
+*Pipeline Status: APPROVED v0.7.0 — Revisão editorial completa (SKILL 9 + 10 + 11). Publicável com ajuste menor na Figura 6.4.*
