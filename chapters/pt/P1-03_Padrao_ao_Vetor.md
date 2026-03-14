@@ -8,7 +8,7 @@
 chapter_id: P1-CH03
 title: "A Matriz de Decisão: Traduzindo Padrões em Vetores Mecânicos"
 language: PT-BR
-status: draft
+status: approved
 version: 0.6.0
 part: "PARTE I — A Leitura Vetorial dos Anéis de Plácido"
 pipeline_execution:

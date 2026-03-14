@@ -8,7 +8,7 @@
 chapter_id: CH-011
 title: "Nomogramas Vetoriais: Como Traduzir a Topografia em uma Prescrição de Anel"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 ```
 

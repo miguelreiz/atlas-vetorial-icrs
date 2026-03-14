@@ -8,7 +8,7 @@
 chapter_id: CH-001
 title: "Anatomia Corneana Essencial: O Que Você Precisa Saber Antes de Implantar um Anel"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 ```
 

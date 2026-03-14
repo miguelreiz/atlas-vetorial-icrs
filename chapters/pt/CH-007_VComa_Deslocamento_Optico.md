@@ -8,7 +8,7 @@
 chapter_id: CH-007
 title: "VComa — O Vetor de Deslocamento Óptico: De Onde Vem o Coma e Como o Anel o Corrige"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 ```
 

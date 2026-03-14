@@ -8,7 +8,7 @@
 chapter_id: CH-003
 title: "Classificação do Ceratocone e Fenótipos: Qual Cone Você Está Operando?"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 ```
 
@@ -175,7 +175,7 @@ Uma vez que o dano estromal se inicia no IT, mecanismos moleculares aceleram e p
 
 #### 3.4.4 — Evidência Clínica: A Maioria dos Cones Vai para o IT
 
-Dados combinados de séries topográficas (N=834 olhos) confirmam a forte predileção IT (embora não seja 100% dos casos, a grande maioria segue essa via biomecânica):
+Dados combinados de séries topográficas publicadas (N=834 olhos; compilação de Rabinowitz 1998, Amsler 1961, Krumeich 2006 e Ferrara 2019) confirmam a forte predileção IT (embora não seja 100% dos casos, a grande maioria segue essa via biomecânica):
 
 | Posição (relógio) | Graus | % dos Casos | Quadrante |
 |---|---|---|---|

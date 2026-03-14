@@ -9,7 +9,7 @@ chapter_id: CH-008
 title: "A Lei do Disco Mecânico: Leitura Vetorial do Plácido na Ectasia Corneana"
 subtitle: "Da Distorção Geométrica ao Campo de Forças — Uma Nova Forma de Ler a Topografia"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 pipeline_execution:
   skill_11_deepmind: complete

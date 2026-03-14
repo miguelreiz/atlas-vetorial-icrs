@@ -8,7 +8,7 @@
 chapter_id: P1-CH01
 title: "O Que os Anéis de Plácido Revelam: A Transição Mental da Curvatura para o Colágeno"
 language: PT-BR
-status: draft
+status: approved
 version: 0.2.0
 part: "PARTE I — A Leitura Vetorial dos Anéis de Plácido"
 ```

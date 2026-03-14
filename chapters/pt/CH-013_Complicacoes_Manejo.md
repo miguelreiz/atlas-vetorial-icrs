@@ -8,7 +8,7 @@
 chapter_id: CH-013
 title: "Complicações e Manejo: Diagnóstico e Solução Usando a Linguagem Vetorial"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 ```
 

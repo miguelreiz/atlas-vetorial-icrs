@@ -8,7 +8,7 @@
 chapter_id: CH-006
 title: "Vτ — O Vetor de Torque: Torção Assimétrica e Correção do Astigmatismo Irregular"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 ```
 
@@ -172,7 +172,7 @@ Essa combinação gera um **torque líquido** que reposiciona o eixo visual do p
 
 1. **O Vτ é o "direcionador" do cone.** Pense nele como um volante que decide PARA ONDE o ápice corneano será empurrado. O VR decide "quanto aplaina", o VT decide "como redistribui o astigmatismo", e o Vτ decide **"para onde o cone vai se mover"**.
 
-2. **Coma = Torque.** A única maneira biomecânica eficiente de reduzir coma corneano com anel é gerar torque. Um anel simétrico nunca corrigirá coma; apenas defocus. Memorize: **Coma precisa de Torque (Vτ), nunca de VR isolado.**
+2. **Coma = Torque.** A única maneira biomecânica eficiente de reduzir coma corneano com anel é gerar torque. Um anel simétrico tem capacidade muito limitada de corrigir coma — age primariamente sobre defocus (VR), sem o gradiente rotacional que reposiciona o ápice. Memorize: **Coma eficiente precisa de Torque (Vτ), não de VR isolado.** *(Evidência indireta: Kammoun 2021, Cuiña-Sardiña 2020 — anéis assimétricos reduzem coma RMS 40–60% vs < 15% com simétricos.)*
 
 3. **O Torque desaparece em anéis de 360°.** O MyoRing, sendo um anel completo sem pontas, tem Δt = 0 (espessura uniforme em toda a circunferência), portanto gera Vτ ≈ 0. Isso explica por que o MyoRing é excelente para cones centrais (nipple) mas limitado para cones ovais descentrados.
 

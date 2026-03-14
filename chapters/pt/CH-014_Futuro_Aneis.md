@@ -8,7 +8,7 @@
 chapter_id: CH-014
 title: "O Futuro dos Anéis Intracorneanos: Novas Tecnologias, Simulações e Personalização Vetorial"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 ```
 

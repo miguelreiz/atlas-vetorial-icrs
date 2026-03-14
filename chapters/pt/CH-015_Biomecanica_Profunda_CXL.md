@@ -8,7 +8,7 @@
 chapter_id: CH-015
 title: "Biomecânica Profunda: O Efeito da Malha Corneana, a Profundidade do Implante e o Desafio Pós-CXL"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 ```
 

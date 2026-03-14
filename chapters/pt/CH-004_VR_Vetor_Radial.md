@@ -7,7 +7,7 @@
 ```yaml
 chapter_id: CH-004
 title: "VR — O Vetor Radial: Força Centrífuga e Aplainamento"
-status: draft
+status: approved
 version: 0.1.0
 pipeline_execution:
   skill_11_deepmind: complete

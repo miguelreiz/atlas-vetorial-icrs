@@ -9,7 +9,7 @@ chapter_id: CH-010
 title: "ICE — O Índice de Coerência de Eixos: O Primeiro Biomarcador Funcional"
 subtitle: "Do Paradigma Estrutural ao Funcional — Por Que a Coerência Angular Prediz Mais que a Curvatura"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 origin: "Desenvolvido pelo autor (Reis 2026) com base na classificação morfológica de Alfonso et al. (2017)"
 cross_references:

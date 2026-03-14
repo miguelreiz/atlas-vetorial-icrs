@@ -8,7 +8,7 @@
 chapter_id: CH-009
 title: "VEsférico — O Vetor Esférico Resultante: A Soma de Todas as Forças"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 ```
 

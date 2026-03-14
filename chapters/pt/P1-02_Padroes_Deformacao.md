@@ -8,7 +8,7 @@
 chapter_id: P1-CH02
 title: "Os 5 Padrões de Deformação do Plácido: Morfologia, Coma e Implicação Biomecânica"
 language: PT-BR
-status: draft
+status: approved
 version: 0.2.0
 part: "PARTE I — A Leitura Vetorial dos Anéis de Plácido"
 references_base:

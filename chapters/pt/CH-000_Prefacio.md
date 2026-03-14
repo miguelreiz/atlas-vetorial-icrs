@@ -8,7 +8,7 @@
 chapter_id: CH-000
 title: "Prefácio — A Geometria Escondida"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 ```
 

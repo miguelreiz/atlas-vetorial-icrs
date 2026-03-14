@@ -8,7 +8,7 @@
 chapter_id: CH-012
 title: "Casos Clínicos Comentados: Aplicação do Sistema Vetorial em Cenários Reais"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 ```
 

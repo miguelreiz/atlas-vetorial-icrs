@@ -8,7 +8,7 @@
 chapter_id: CH-002
 title: "Biomecânica dos Anéis Intracorneanos: Os Princípios Físicos que Governam Todo o Sistema Vetorial"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 ```
 
@@ -463,7 +463,7 @@ O Plácido permite ao cirurgião **ver** os 3 princípios em ação simultânea:
 
 2. **"Dois segmentos são sempre melhores que um"** — Depende. Dois segmentos simétricos em um cone oval (sagging) podem cancelar parcialmente o Vτ. Às vezes, um segmento assimétrico único é superior.
 
-3. **"A profundidade não importa muito"** — Importa enormemente. Estudos de elementos finitos demonstram que a profundidade ideal é **70–75%** da espessura estromal. Acima de 80%, o efeito biomecânico diminui significativamente (UCVA/BSCVA melhora < 1 linha; ΔKmax < 0.5 D). Abaixo de 65%, o risco de extrusão aumenta.
+3. **"A profundidade não importa muito"** — Importa enormemente. Estudos de elementos finitos demonstram que a profundidade ideal é **70–75%** da espessura estromal (Torquetti & Ferrara, JCRS 2009; Shabayek & Alio, Ophthalmology 2007). Acima de 80%, o efeito biomecânico diminui significativamente (UCVA/BSCVA melhora < 1 linha; ΔKmax < 0.5 D). Abaixo de 65%, o risco de extrusão aumenta.
 
 ### Pérolas Biomecânicas
 

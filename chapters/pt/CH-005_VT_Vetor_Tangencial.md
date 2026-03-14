@@ -8,7 +8,7 @@
 chapter_id: CH-005
 title: "VT — O Vetor Tangencial: Redistribuição Tensional e Efeito de Acoplamento"
 language: PT-BR
-status: draft
+status: approved
 version: 0.6.0
 pipeline_execution:
   skill_0_integrity: complete

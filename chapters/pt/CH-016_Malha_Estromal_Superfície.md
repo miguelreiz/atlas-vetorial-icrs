@@ -8,7 +8,7 @@
 chapter_id: CH-016
 title: "A Malha Estromal: Das Fibras em Mola à Superfície Refrativa"
 language: PT-BR
-status: draft
+status: approved
 version: 0.1.0
 part: "PARTE III — Biomecânica Avançada"
 cross_references:
