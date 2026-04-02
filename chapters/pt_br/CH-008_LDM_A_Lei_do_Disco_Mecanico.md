@@ -122,7 +122,7 @@ O que muda é a **linguagem de interpretação**: de descritiva-geométrica para
 
 A topografia continua sendo o exame. A LDM é a forma mais completa de lê-lo.
 
-![Figura 8.1: A Leitura Mecânica do Plácido — À esquerda, a leitura topográfica convencional buscando o K-max. À direita, a leitura LDM decompondo a distorção do disco em vetores de força (Fr, Ft, Fτ) e marcando o COF e ENM.](../../images/CH-008_LDM/Figura_Placido_Mechanical.png)
+![Figura 8.1: A Leitura Mecânica do Plácido — À esquerda, a leitura topográfica convencional buscando o K-max. À direita, a leitura LDM decompondo a distorção do disco em vetores de força (Fr, Ft, Fτ) e marcando o COF e ENM.](../../images/CH-008_LDM/pt/Figura_8.1_Placido_Mapa_Forcas.png)
 
 > **A proposição central deste capítulo:**
 > *A distorção dos anéis de Plácido não é uma fotografia da doença. É a assinatura geométrica das forças que a produziram. Decodificar essa assinatura é o primeiro passo para uma cirurgia verdadeiramente guiada pela biomecânica — não apenas pela curvatura.*
@@ -311,7 +311,7 @@ O Plácido mostra anéis internos com eixo de elipticidade numa direção e ané
 
 **Estratégia:** Este é o fenótipo que mais se beneficia da análise LDM. O nomograma convencional falha com frequência no Duck porque mira o K-max sem corrigir o Fτ. O posicionamento guiado pelo ENM muda o resultado.
 
-![Figura 8.3: IDT, COF e ENM no Fenótipo Duck — O ápice óptico deforma os anéis assimetricamente. O COF (ponto magenta) está distante do centro. O ENM (linha branca) cruza a bissetriz torcional, nitidamente diferente do eixo topográfico do K-max (pontilhado vermelho).](../../images/CH-008_LDM/Figura_Duck_ENM_Analysis.png)
+![Figura 8.3: IDT, COF e ENM no Fenótipo Duck — O ápice óptico deforma os anéis assimetricamente. O COF (ponto magenta) está distante do centro. O ENM (linha branca) cruza a bissetriz torcional, nitidamente diferente do eixo topográfico do K-max (pontilhado vermelho).](../../images/CH-008_LDM/pt/Figura_8.2_ENM_vs_Kmax_Duck.png)
 
 ---
 
