@@ -111,7 +111,7 @@ Ao colocar a incisão exatamente no eixo curvo:
 3. Os anéis geram volume sob as lamelas mais deformadas do eixo curvo. 
 4. O Vetor Radial aplaina massivamente esse eixo específico, enquanto o Vetor Tangencial se dissipa pelas laterais (meridiano plano) forçando (pelo Efeito de Acoplamento) o meridiano frouxo/plano a encurvar as lamelas a 90°.
 
-![Figura 5.3: A Regra da Incisão (Lógica Geométrica) — Atacar diretamente os polos de tensão de uma elipse (anel ovalado) usando cunhas forçará a estrutura frouxa a se arredondar (círculo perfeito)](../../images/CH-005_VT/Figura_Incision_Axis.png)
+![Figura 5.3: A Regra da Incisão (Lógica Geométrica) — Atacar diretamente os polos de tensão de uma elipse (anel ovalado) usando cunhas forçará a estrutura frouxa a se arredondar (círculo perfeito)](../../images/CH-005_VT/Figura_Incision_Axis.svg)
 
 O resultado é a aproximação das curvaturas K1 (meridiano plano) e K2 (meridiano curvo) → Redução do astigmatismo (Diferença Vetorial).
 

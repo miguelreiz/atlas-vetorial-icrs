@@ -34,7 +34,7 @@ Baseado na morfologia descrita por **José F. Alfonso** e no **nomograma AJL Oph
 
 > **A premissa central:** A morfologia do Plácido *antecipa* o comportamento biomecânico. Aprender a ler os 5 padrões é aprender a prever o vetor antes de tocar no planilha do nomograma.
 
-![Figura P2.0 — Atlas dos 5 Padrões de Deformação do Plácido: P1 Circular, P2 Oval, P3 Duck, P4 Snowman, P5 Complexo — cada um com seu vetor dominante e estratégia cirúrgica](../../images/P1-02_Padroes/Figura_Atlas_5_Padroes.png)
+![Figura P2.0 — Atlas dos 5 Padrões de Deformação do Plácido: P1 Circular, P2 Oval, P3 Duck, P4 Snowman, P5 Complexo — cada um com seu vetor dominante e estratégia cirúrgica](../../images/P1-02_Padroes/Figura_Atlas_5_Padroes.svg)
 
 ---
 
@@ -64,7 +64,7 @@ Anéis de Plácido em padrão oval com **simetria meridional preservada**. Os an
 |--------|-----------|---------------|
 | **A** | Leve ovalização dos anéis | Anéis levemente ovais, sem compressão focal |
 | **B** | Eixo meridional dominante claro | Anéis claramente elípticos, um eixo comprimido |
-| **C** | Ovalização acentuada, porém sem ruptura | Anéis muito elípticos; geometria ainda continua |
+| **C** | Ovalização acentuada, porém sem deslizamento/reorganização | Anéis muito elípticos; geometria ainda continua |
 
 ### Óptica
 - **Coma: baixo** (Z3-1 e Z3+1 < 0.5 µm)
@@ -220,7 +220,7 @@ Dois "círculos" de curvatura elevada alinhados verticalmente, com o inferior ma
 - **Duas zonas de instabilidade biomecânica** em cascata vertical
 - A zona inferior já cedeu mais (cone avançado); a superior está cedendo progressivamente
 - Campos de força: dois FR (Radial) locais + Vτ unindo as duas zonas
-- A "cintura" entre os dois círculos é a zona de maior gradiente tensional — onde a ruptura futura começa
+- A "cintura" entre os dois círculos é a zona de maior gradiente tensional — onde a deslizamento/reorganização futura começa
 
 #### Estratégia Cirúrgica
 - Segmento inferior mais espesso (atacar o polo inferior dominante)

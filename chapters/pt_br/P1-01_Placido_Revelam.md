@@ -29,7 +29,7 @@ Esta é a leitura topográfica clássica. Ela tem nos servido razoavelmente bem.
 
 Um cirurgião de anéis de excelência — o cirurgião para o qual este Atlas foi escrito — não opera manchas coloridas numa tela de computador. Ele não opera o invólucro geométrico do olho. **Ele opera uma malha tridimensional de fibras de colágeno** que perdeu sua guerra estrutural contra a pressão intraocular.
 
-O objetivo deste capítulo é provocar uma ruptura irreversível na forma como você lê um exame.
+O objetivo deste capítulo é provocar uma deslizamento/reorganização irreversível na forma como você lê um exame.
 
 ---
 
@@ -41,12 +41,12 @@ Mas olhe mais fundo. Pense na **cadeia de eventos** que antecede o anel de luz r
 
 1.  **A Força Interna:** A pressão intraocular (PIO) empurra todas as paredes do globo uniformemente de dentro para fora.
 2.  **O Escudo (A Malha de Colágeno):** O estroma corneano, composto por centenas de lamelas de colágeno empilhadas e entrelaçadas, resiste a essa pressão como uma lona de circo sob tensão máxima.
-3.  **A Falência Localizada:** No ceratocone, por um defeito enzimático ou mecânico (coçar os olhos), as pontes entre as lamelas de colágeno se rompem em uma zona específica. As fibras deslizam umas sobre as outras. A "lona de circo" relaxa naquele ponto.
+3.  **A Falência Localizada:** No ceratocone, por um defeito enzimático ou mecânico (coçar os olhos), as pontes entre as lamelas de colágeno se deslizamento/reorganização em uma zona específica. As fibras deslizam umas sobre as outras. A "lona de circo" relaxa naquele ponto.
 4.  **A Deformação Visível:** Como o colágeno cedeu, a PIO vence a batalha local. A córnea protrai.
 
 **A mancha vermelha no Plácido não diz "aqui a córnea é curva". Ela grita: "AQUI A MALHA DE COLÁGENO SE DESPEDAÇOU".**
 
-![Figura P1.1 — A Cadeia Causal: PIO → Malha de Colágeno → Falência → Plácido. Cada anel comprimido = uma fibra que cedeu](../../images/P1-01_Framework/Figura_Cadeia_Causal.png)
+![Figura P1.1 — A Cadeia Causal: PIO → Malha de Colágeno → Falência → Plácido. Cada anel comprimido = uma fibra que cedeu](../../images/P1-01_Framework/Figura_Cadeia_Causal.svg)
 
 ---
 
@@ -79,7 +79,7 @@ Um vetor não é uma flecha colorida desenhada abstratamente por cima do papel d
 *   Quando a malha inferior escorregou em relação à malha superior, o ápice desabou (Cone Oval). Ao analisar a assimetria das fibras, você percebe um momento rotacional de perda de esqueleto estrutural. **Você enxerga isso na distorção do Plácido inferior.** As fibras precisam ser içadas, tracionadas de volta para o norte: **O Vetor de Torque (Vτ)**.
 *   Quando a malha se desencontrou criando tensões oblíquas não simétricas, deslocando a qualidade ótica para formar a terrível aberração de coma. **Você enxerga isso na divergência de anéis comprimidos**. As lamelas precisam ser rotacionadas e reconectadas opticamente ao eixo visual pupilar: **O Vetor de Coma (VComa)**.
 
-![Figura P1.2 — O Nascimento dos Vetores: 3 tipos de dano lamelar geram 3 vetores diferentes (VR, Vτ, VT)](../../images/P1-01_Framework/Figura_Nascimento_Vetores.png)
+![Figura P1.2 — O Nascimento dos Vetores: 3 tipos de dano lamelar geram 3 vetores diferentes (VR, Vτ, VT)](../../images/P1-01_Framework/Figura_Nascimento_Vetores.svg)
 
 ### E o Anel?
 

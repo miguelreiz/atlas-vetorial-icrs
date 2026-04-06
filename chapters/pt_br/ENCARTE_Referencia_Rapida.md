@@ -12,14 +12,14 @@
 | **Ft** (Força Tangencial) | **VT** (Vetor Tangencial) | Tensão assimétrica → Redistribuição |
 | **Fτ** (Força Torsional) | **Vτ** (Vetor Torsional) | Rotação → Contra-rotação |
 
-**Regra Cardinal:** V_anel + F_cone = 0 (neutralização perfeita)
+**Regra Cardinal:** V_anel + F_cone → 0 (ideal) (neutralização perfeita)
 
 ---
 
 ## Os 5 Passos do Nomograma Vetorial
 
 ```
-1. CLASSIFICAR o fenótipo (Nipple, Oval, Globoso, Irregular)
+1. CLASSIFICAR o fenótipo (Globoso (Nipple), Oval, Globoso, Irregular)
 2. HIERARQUIZAR os vetores (qual priorizar)
 3. SELECIONAR parâmetros (espessura, arco, assimetria)
 4. CONFIGURAR segmentos (quantos, quais, onde)

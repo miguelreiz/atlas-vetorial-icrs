@@ -21,30 +21,51 @@ Toda afirmação científica neste Atlas é classificada em um de três níveis:
 
 ## A — Termos de Anatomia Corneana
 
-### Arc-Shortening Effect (Efeito de Encurtamento de Arco)
+### arc-shortening (encurtamento do arco) Effect (Efeito de Encurtamento de Arco)
 - **Em palavras simples:** Quando um implante rígido é inserido numa estrutura curva flexível, a curvatura ao redor do implante "achata" — como uma corda que estica em linha reta quando um pau é colocado em seu meio.
 - **Técnico:** Redução do comprimento efetivo do arco de uma lamela corneana após a interposição de um implante rígido (ICRS). A força resultante é centrípeta (direcionada ao eixo óptico).
 - **Capítulo principal:** CH-002, CH-004
 
 ### Coeficiente de Poisson
-- **Em palavras simples:** Quando você comprime um material num sentido, ele tende a "inchar" no sentido perpendicular — como um aperto de mão que faz o braço ficar mais largue no meio. Este comportamento é quantificado pelo Coeficiente de Poisson.
+- **Em palavras simples:** Quando você comprime um material num sentido, ele tende a "inchar" no sentido perpendicular — como um aperto de mão que faz o braço ficar mais largo no meio. Este comportamento é quantificado pelo Coeficiente de Poisson.
 - **Técnico:** Razão entre a deformação lateral e a deformação axial de um material submetido a carga uniaxial. Para a córnea: ν ≈ 0.49 (quasi-incompressível). Responsável pelo Efeito de Acoplamento (VT) — aplainamento num meridiano gera encurvamento no meridiano ortogonal.
 - **Símbolo:** ν (nu)
 - **Capítulo principal:** CH-005
 
 ### Critério de Von Mises (Tensão Equivalente de Von Mises)
 - **Em palavras simples:** Uma "fórmula única" que combina todos os tipos de força que atuam em um ponto de um material e calcula se esse ponto vai "ceder" (deformar) ou resistir. Como um indicador de "quanto o material está sendo estressado ao total".
-- **Técnico:** Critério de escoamento para materiais dúcteis baseado na energia de distorção. σ_VM = √[(1/2)((σ₁-σ₂)²+(σ₂-σ₃)²+(σ₃-σ₁)²)]. Escoamento ocorre quando σ_VM > σ_yield (tensão de escoamento do material). No contexto ICRS: quando σ_VM > tensão de escoamento lamelar, as lamelas deslizam → arc-shortening → VR.
+- **Técnico:** Critério de escoamento para materiais dúcteis baseado na energia de distorção. σ_VM = √[(1/2)((σ₁-σ₂)²+(σ₂-σ₃)²+(σ₃-σ₁)²)]. Escoamento ocorre quando σ_VM > σ_yield (tensão de escoamento do material). No contexto ICRS: quando σ_VM > tensão de escoamento lamelar, as lamelas deslizam → arc-shortening (encurtamento do arco) → VR.
 - **Símbolo:** σ_VM (kPa)
 - **Valores típicos:** Córnea virgem: escoamento ~50-80 kPa; Pós-CXL: ~120-150 kPa
 - **Capítulo principal:** CH-015
 
 ### Estroma Corneano
 - **Em palavras simples:** A camada mais espessa da córnea — como um "colchão" de fibras de proteína (colágeno) que dá à córnea sua forma e força.
-- **Técnico:** Camada intermediária da córnea composta por ~200 lamelas de colágeno tipo I dispostas em orientações variáveis segundo a profundidade (WAXS: mapeamento por Meek & Boote). Representa ~90% da espessura corneana (~450-500 µm de espessura total). Responsável pelas propriedades biomecânicas da córnea.
+- **Técnico:** Camada intermediária da córnea composta por ~200 lamelas de colágeno tipo I dispostas em orientações variáveis segundo a profundidade (WAXS: mapeamento por Meek & Boote). Representa ~90% da espessura corneana (~550 µm de espessura central). Responsável pelas propriedades biomecânicas da córnea.
 - **Capítulo principal:** CH-001
 
 ---
+
+## C — Termos de Córnea e Cirurgia
+
+### CXL — Crosslinking Corneano (Riboflavina + UVA)
+- **Em palavras simples:** Um procedimento que "solda quimicamente" as fibras de colágeno da córnea para freiar a progressão do ceratocone. A riboflavina absorve a luz ultravioleta e cria ligações químicas novas entre as fibras.
+- **Técnico:** Aplicação de riboflavina (vitamina B2) como fotossensibilizador + luz UVA (365 nm, 3-9 mW/cm²) para criar ligações covalentes (crosslinks) interfibrilares e interlamelares no estroma corneano. Efeito: aumento do módulo de Young em 2-3× nos primeiros 300 µm. Zona de demarcação: ~300-400 µm de profundidade (limitada pelo consumo de oxigênio pelo tecido).
+- **Impacto no ICRS:** Criar uma barreira rígida nos 300 µm anteriores que reduz a eficácia do arc-shortening (encurtamento do arco).
+- **Referência canônica:** ✅ Wollensak G et al. Am J Ophthalmol. 2003. doi:10.1016/S0002-9394(02)02220-1
+- **Capítulo principal:** CH-015
+
+### COF — Centro Óptico Fisiológico
+- **Em palavras simples:** O verdadeiro centro da visão do paciente (Eixo Visual), que muitas vezes não coincide com o centro pupilar ou com o centro do topógrafo. Anéis devem ser centralizados aqui para evitar brilhos noturnos e halos.
+- **Técnico:** Ponto de interseção do eixo visual com a superfície corneana (geralmente coincidente com reflexo de Purkinje I).
+- **Capítulo principal:** CH-010
+
+## E — Termos de Eixo
+
+### ENM — Eixo de Não-Magnitude (Zona Neutra)
+- **Em palavras simples:** O meridiano plano da topografia. Se colocar a incisão ou um anel fino aqui, ele não vai adicionar miopia e protegerá o eixo contra distorções residuais indesejadas.
+- **Técnico:** Meridiano mais plano ortogonal ao eixo da ectasia, local onde a refração e o astigmatismo são teoricamente zero antes e depois do vetor tangencial atuar.
+- **Capítulo principal:** CH-005
 
 ## F — Método dos Elementos Finitos
 
@@ -74,6 +95,16 @@ Toda afirmação científica neste Atlas é classificada em um de três níveis:
 - **Capítulo principal:** CH-002 a CH-010
 
 ---
+
+### ICE — Índice de Coerência de Eixos (Axis Coherence Index)
+- **Em palavras simples:** Uma nota matemática de 0 a 1 que mede o quanto a topografia e a refração do paciente concordam. Se o ICE for baixo (< 0.7), colocar o anel na topografia vai deixar o paciente enxergando mal de óculos.
+- **Técnico:** Grau de correlação entre o Cyl Topográfico e o Cyl Refracional em magnitude e eixo vetorial, indicando acoplamento estrutural vs óptico.
+- **Capítulo principal:** CH-010
+
+### IDT — Índice de Deslocamento Topográfico
+- **Em palavras simples:** Distância entre o pico mais quente do cone e a pupila. Cones muito descentrados exigem anéis assimétricos gigantes apenas de um lado.
+- **Técnico:** Vetor 2D marcando as coordenadas (X,Y) do ápice de máxima elevação posterior relativo ao COF. Determina a necessidade de VComa.
+- **Capítulo principal:** CH-007
 
 ## K — Termos de Ceratocone
 
@@ -110,9 +141,14 @@ Toda afirmação científica neste Atlas é classificada em um de três níveis:
 
 ## V — Vetores do Atlas
 
+### VComa — Vetor de Coma (Deslocamento Óptico)
+- **Em palavras simples:** A força que arrasta todo o bloco central da córnea em bloco para baixo ou para cima, geralmente acompanhando e consertando o deslocamento natural do cone (que "caiu" ladeira abaixo).
+- **Técnico:** Vetor resultante da assimetria global de implantação inferior vs superior. Corrige aberrações de alta ordem esféricas (Coma vertical).
+- **Capítulo principal:** CH-007
+
 ### VR — Vetor Radial
 - **Em palavras simples:** A força principal que o anel aplica na córnea, empurrando-a para "achatar" o cone no centro. Dirige-se de onde está o anel para fora (centrífugamente). ⚠️ Errata comum: VR é centrífugo, não centrípeto — o anel separa as lamelas; a tração resultante cria o aplainamento central.
-- **Técnico:** Componente de força perpendicular ao anel, direcionada centricamente (*centrifugal* em relação ao implante), gerada pelo arc-shortening das fibras radiais 🔴.
+- **Técnico:** Componente de força perpendicular ao anel, direcionada centrifugamente (para fora do bloco central, em relação ao eixo da visão), gerada pelo arc-shortening (encurtamento do arco) das fibras radiais 🔴.
 - **Capítulo principal:** CH-004
 
 ### VT — Vetor Tangencial
@@ -127,17 +163,6 @@ Toda afirmação científica neste Atlas é classificada em um de três níveis:
 
 ---
 
-## X — Crosslinking
-
-### CXL — Crosslinking Corneano (Riboflavina + UVA)
-- **Em palavras simples:** Um procedimento que "solda quimicamente" as fibras de colágeno da córnea para freiar a progressão do ceratocone. A riboflavina absorve a luz ultravioleta e cria ligações químicas novas entre as fibras.
-- **Técnico:** Aplicação de riboflavina (vitamina B2) como fotossensibilizador + luz UVA (365 nm, 3-9 mW/cm²) para criar ligações covalentes (crosslinks) interfibrilares e interlamelares no estroma corneano. Efeito: aumento do módulo de Young em 2-3× nos primeiros 300 µm. Zona de demarcação: ~300-400 µm de profundidade (limitada pelo consumo de oxigênio pelo tecido).
-- **Impacto no ICRS:** Criar uma barreira rígida nos 300 µm anteriores que reduz a eficácia do arc-shortening.
-- **Referência canônica:** ✅ Wollensak G et al. Am J Ophthalmol. 2003. doi:10.1016/S0002-9394(02)02220-1
-- **Capítulo principal:** CH-015
-
----
-
 ## WAXS — Wide-Angle X-Ray Scattering
 
 ### WAXS (Difração de Raios-X de Grande Ângulo)
@@ -146,6 +171,4 @@ Toda afirmação científica neste Atlas é classificada em um de três níveis:
 - **Referência canônica:** ✅ Meek KM, Boote C. *Progress in Retinal and Eye Research*. 2004; 2009.
 - **Capítulo principal:** CH-001
 
----
-
-*Glossário versão 1.0 — Março 2026 | Expansão contínua a cada novo capítulo*
+*Glossário versão 1.1 — Abril 2026 | Auditoria Editorial Cultura Médica*

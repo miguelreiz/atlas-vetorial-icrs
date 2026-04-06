@@ -1,11 +1,11 @@
-# Capítulo 10 — Nomogramas Vetoriais: Do Mapa Topográfico ao Anel Ideal
+# Capítulo 11 — Nomogramas Vetoriais: Do Mapa Topográfico ao Anel Ideal
 
 ---
 
 ## 📋 METADADOS DO CAPÍTULO
 
 ```yaml
-chapter_id: CH-010
+chapter_id: CH-011
 title: "Nomogramas Vetoriais: Como Traduzir a Topografia em uma Prescrição de Anel"
 language: PT-BR
 status: draft

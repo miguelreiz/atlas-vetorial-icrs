@@ -28,7 +28,7 @@ pipeline_execution:
 
 ```yaml
 vector_type: VR
-biomechanics_base: "Arc-Shortening Effect & Barraquer's Law of Thickness"
+biomechanics_base: "arc-shortening (encurtamento do arco) Effect & Barraquer's Law of Thickness"
 phenotype_target: "Nipple (Central Cone) — Primary; Applicable to all phenotypes"
 clinical_indication: "Central corneal flattening; K-max reduction"
 expected_outcome: "Reduction of central corneal power (ΔK = -2.0 to -6.0 D depending on ring thickness and diameter)"
@@ -44,9 +44,9 @@ O **Vetor Radial (VR)** é a força biomecânica primária exercida pelo anel in
 
 ### Explicação Didática
 
-#### O Princípio Físico: O Efeito de Encurtamento de Arco (*Arc-Shortening Effect*)
+#### O Princípio Físico: O Efeito de Encurtamento de Arco (*arc-shortening (encurtamento do arco) Effect*)
 
-Quando um corpo rígido — o anel — é inserido dentro de um tecido viscoelástico curvo — o estroma corneano —, ele impõe uma geometria localmente mais plana do que a curvatura natural da córnea. Este é o chamado **Efeito de Encurtamento de Arco** (*arc-shortening effect*).
+Quando um corpo rígido — o anel — é inserido dentro de um tecido viscoelástico curvo — o estroma corneano —, ele impõe uma geometria localmente mais plana do que a curvatura natural da córnea. Este é o chamado **Efeito de Encurtamento de Arco** (*arc-shortening (encurtamento do arco) effect*).
 
 ![Figura 4.1: Princípio Físico do Encurtamento de Arco — O implante rígido força o tecido viscoelástico a assumir a sua geometria plana](../../images/CH-004_Vetor_Radial/arc_shortening_viscoelastic_pt_1771775836446.png)
 
@@ -75,14 +75,14 @@ A magnitude dessa tração direcional é governada por dois princípios fundamen
    > - Diâmetro menor (ex: 5.0 mm) → Força mais concentrada no centro → Aplainamento mais agressivo
    > - Diâmetro maior (ex: 6.0 mm) → Força mais distribuída na periferia → Aplainamento mais suave e gradual
 
-#### A Mecânica no Tecido: A Cascata Tenting → Arc-Shortening
+#### A Mecânica no Tecido: A Cascata Tenting → arc-shortening (encurtamento do arco)
 
 O Vetor Radial não é uma força pontual. Ele emerge de uma **cascata de três eventos** que ocorrem em escalas progressivamente maiores:
 
 **1. Tenting (escala microscópica — separação lamelar):**
 O implante PMMA ocupa espaço entre as lamelas estromais. As lamelas *acima* do anel são fisicamente separadas e deslocadas anteriormente. Esta elevação focal visível na tomografia é o **primeiro evento** da cascata.
 
-**2. Arc-Shortening (escala mesoscal/fibrilar):**
+**2. arc-shortening (encurtamento do arco) (escala mesoscal/fibrilar):**
 As 🔴 **fibras radiais** que cruzam o anel são forçadas a contornar o implante. Seu comprimento funcional (arco de limbo a limbo) **encurta** naquele meridiano. Como o colágeno tem pouca elasticidade, essas fibras ficam **fisicamente tensionadas** ao redor do implante.
 
 **3. Aplainamento Central — Lei de Barraquer (escala macroscópica):**
@@ -98,7 +98,7 @@ O encurtamento radial periférico reduz a tensão competitiva que mantinha a cur
 
 Para compreender a física exata de *como* o Vetor Radial funciona, precisamos olhar a nível lamelar. A córnea não é um objeto sólido contínuo; é composta por camadas (lamelas) de fibras de colágeno intercruzadas. O anel (sendo inserido entre essas lamelas) atua como uma cunha interstromal.
 
-Ao interpor-se entre as lamelas, o implante força as fibras radiais a percorrerem um trajeto mais longo ao seu redor (arc-shortening). Como o colágeno tem pouca elasticidade, essas fibras ficam **fisicamente tensionadas**. Essa tensão periférica é transmitida ao longo das fibras e redistribui o campo de estresse estromal — a zona central, com menor resistência periférica, aplaina.
+Ao interpor-se entre as lamelas, o implante força as fibras radiais a percorrerem um trajeto mais longo ao seu redor (arc-shortening (encurtamento do arco)). Como o colágeno tem pouca elasticidade, essas fibras ficam **fisicamente tensionadas**. Essa tensão periférica é transmitida ao longo das fibras e redistribui o campo de estresse estromal — a zona central, com menor resistência periférica, aplaina.
 
 Esse acoplamento mecânico explica por que a topografia pós-operatória de um anel bem-posicionado mostra um padrão de **bowtie modificado** (formato de "gravata-borboleta" com achatamento central) — o sinal clínico de que o Vetor Radial funcionou exatamente como planejado.
 
@@ -201,7 +201,7 @@ diagram_concept: >
   partem setas vermelhas (VR) em direção CENTRÍFUGA (apontando PARA FORA, 
   em direção ao limbo). O anel empurra as lamelas para fora (tenting + 
   separação). A superfície anterior da córnea mostra aplainamento central 
-  como CONSEQUÊNCIA do arc-shortening (arco encurta → centro aplaina). 
+  como CONSEQUÊNCIA do arc-shortening (encurtamento do arco) (arco encurta → centro aplaina). 
   A zona aplanada é preenchida com azul semitransparente (20% opacity). 
   Uma segunda ilustração (menor, tipo thumbnail) mostra a vista top-down 
   com setas VR apontando PARA FORA do anel, demonstrando a força centrífuga.
@@ -313,7 +313,7 @@ O disco de Plácido mostra:
 - **Padrão:** mais regular, mais próximo dos concêntricos perfeitos
 - **Mapa de cores:** ilha vermelha menor, mais pálida, K-max 3-5 D mais baixo
 
-> **Leitura Vetorial do Plácido:** No Nipple tratado com VR simétrico, o campo vetorial concêntrico de deformação (🔴 Fr apontando para fora da PIO) é **neutralizado** pelo campo vetorial centrífugo do anel (🔴 VR empurrando lamelas para fora). O arc-shortening resultante aplaina o centro — os anéis de Plácido se espaçam e normalizam.
+> **Leitura Vetorial do Plácido:** No Nipple tratado com VR simétrico, o campo vetorial concêntrico de deformação (🔴 Fr apontando para fora da PIO) é **neutralizado** pelo campo vetorial centrífugo do anel (🔴 VR empurrando lamelas para fora). O arc-shortening (encurtamento do arco) resultante aplaina o centro — os anéis de Plácido se espaçam e normalizam.
 
 ---
 
@@ -327,7 +327,7 @@ references:
   
   - doi: "Semantic Scholar"
     title: "Math Analysis of Corneal Remodelling after ICRS"
-    relevance: "Mathematical model of arc-shortening effect and central flattening"
+    relevance: "Mathematical model of arc-shortening (encurtamento do arco) effect and central flattening"
   
   - doi: "Historical/Technical Manual"
     title: "Lei das Espessuras (Barraquer, 1964)"
@@ -399,7 +399,7 @@ O VR interage com o sistema TIA/SIA de Alpins:
 ## ✅ SKILL 9 — CHECKLIST EDITORIAL (Executive Chief Editor)
 
 ### Coerência Científica
-- [x] VR descrito com base biomecânica comprovada (arc-shortening, Barraquer)
+- [x] VR descrito com base biomecânica comprovada (arc-shortening (encurtamento do arco), Barraquer)
 - [x] Não há extrapolação sem marcação (fórmula didática está sinalizada como hipótese)
 - [x] Sem contradição com literatura identificada
 
@@ -428,7 +428,7 @@ O VR interage com o sistema TIA/SIA de Alpins:
 ## 🏛️ SKILL 10 — AUDITORIA CIENTÍFICA (Congress Readiness Validator)
 
 ### Revisor 1 — Biomecânica
-O modelo do VR como força de tração focal derivada do *arc-shortening effect* é robusto e amplamente aceito. A citação à Lei de Barraquer é adequada. **Sem objeção.**
+O modelo do VR como força de tração focal derivada do *arc-shortening (encurtamento do arco) effect* é robusto e amplamente aceito. A citação à Lei de Barraquer é adequada. **Sem objeção.**
 
 > Apenas uma retificação fina de linguagem (já aplicada no texto principal): a tensão originada pelo anel não é puramente "centrípeta" no sentido de puxar do limbo *para o centro geométrico*. As lamelas são tencionadas localmente *em direção ao ápice do anel*, o que resulta no rebaixamento por compensação mecânica (efeito pontão de tenda), transmitindo o aplainamento à superfície central. O texto atual demonstra essa compreensão robusta.
 

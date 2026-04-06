@@ -1,11 +1,11 @@
-# Capítulo 12 — Complicações e Manejo: Quando os Vetores Trabalham Contra Você
+# Capítulo 13 — Complicações e Manejo: Quando os Vetores Trabalham Contra Você
 
 ---
 
 ## 📋 METADADOS DO CAPÍTULO
 
 ```yaml
-chapter_id: CH-012
+chapter_id: CH-013
 title: "Complicações e Manejo: Diagnóstico e Solução Usando a Linguagem Vetorial"
 language: PT-BR
 status: draft
@@ -130,9 +130,9 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 | Coma piorado | Vτ invertido | Ponta grossa no lado errado | Inverter orientação |
 | Haze | Estresse mecânico local | Tenting alto | Observar ou corticóide |
 
-![Figura 12.1: As 6 Complicações dos Anéis Classificadas por Vetor — cada complicação está ligada ao vetor biomecânico responsável e sua solução](../../images/CH-013_Complicacoes/Figura_12.1_Complicacoes_Por_Vetor.png)
+![Figura 13.1: As 6 Complicações dos Anéis Classificadas por Vetor — cada complicação está ligada ao vetor biomecânico responsável e sua solução](../../images/CH-013_Complicacoes/Figura_13.1_Complicacoes_Por_Vetor.svg)
 
-![Figura 12.2: Complicações na Linguagem Vetorial — Painel 2×2 mostrando hipocorreção (VR insuficiente), hipercorreção (VR excessivo), extrusão (tenting excessivo), e coma piorado (Vτ invertido) em corte transversal de fibras](../../images/CH-013_Complicacoes/Figura_12.2_Complicacoes_Vetores_Fibras.png)
+![Figura 13.2: Complicações na Linguagem Vetorial — Painel 2×2 mostrando hipocorreção (VR insuficiente), hipercorreção (VR excessivo), extrusão (tenting excessivo), e coma piorado (Vτ invertido) em corte transversal de fibras](../../images/CH-013_Complicacoes/Figura_13.2_Complicacoes_Vetores_Fibras.svg)
 
 ### Pérolas de Complicações
 
@@ -150,7 +150,7 @@ Todo anel intracorneano gera vetores. Mas vetores mal direcionados, excessivos o
 | **Hipercorreção** | VR excessivo | Anel tensionou 🔴 radiais em excesso → inversão de curvatura — radiais "hiperesticadas" |
 | **Astigmatismo induzido** | VT mal direcionado | Anel criou nova linha 🔵 tangencial no eixo errado → redistribuiu tensão na direção incorreta |
 | **Coma piorado** | Vτ invertido | Ponta grossa do lado errado → gradiente de travamento 🟢 invertido → ápice migra para LONGE do centro |
-| **Extrusão** | Tenting excessivo | Anel muito espesso a profundidade insuficiente → pressão erosiva sobre as lamelas acima → fibras 🔴 e 🟢 rompem focalmente |
+| **Extrusão** | Tenting excessivo | Anel muito espesso a profundidade insuficiente → pressão erosiva sobre as lamelas acima → fibras 🔴 e 🟢 deslizamento/reorganização focalmente |
 | **Haze estromal** | Estresse mecânico | Lamelas no ponto de máximo tenting sofrem microtrauma → resposta cicatricial |
 
 > **🔬 Implicação Clínica:** Entender a complicação na escala fibrilar ajuda a escolher a **correção correta**: se o problema é de 🔴 radiais (hipo/hipercorreção), troque espessura. Se é de 🟢 oblíquas (coma), troque para assimétrico. Se é de 🔵 tangenciais (SIA), corrija o eixo.

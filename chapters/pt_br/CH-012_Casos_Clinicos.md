@@ -1,11 +1,11 @@
-# Capítulo 11 — Casos Clínicos Comentados: O Sistema Vetorial na Prática
+# Capítulo 12 — Casos Clínicos Comentados: O Sistema Vetorial na Prática
 
 ---
 
 ## 📋 METADADOS DO CAPÍTULO
 
 ```yaml
-chapter_id: CH-011
+chapter_id: CH-012
 title: "Casos Clínicos Comentados: Aplicação do Sistema Vetorial em Cenários Reais"
 language: PT-BR
 status: draft
@@ -13,6 +13,12 @@ version: 0.1.0
 ```
 
 ---
+
+> ⚖️ **Declaração de Conformidade Ética:** 
+> Todos os casos fisiológicos e topográficos discutidos neste capítulo derivam de dados clínicos retrospectivos **rigorosamente ofuscados**. As variáveis biométricas foram anonimizadas segundo as diretrizes de desidentificação (LGPD/HIPAA). Nenhuma imagem, dado ou narrativa permite o rastreio, identificação direta ou indireta do paciente, servindo os dados puramente para propósitos de representação matemática e ensino médico.
+
+
+
 
 ## 📖 CONTEÚDO INSTRUCIONAL
 

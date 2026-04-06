@@ -99,7 +99,7 @@ Para cada desequilíbrio, há um perfil de anel projetado para aplicar pressão 
 | O colágeno cedeu mais de um lado, deslocando o ápice e criando coma vertical. | Precisamos **puxar o ápice de volta ao eixo pupilar**. Vetor de Torque (Vτ). | **Segmentos Assimétricos (Tapered/Progressive).** Ponta mais grossa sob o cone empurra o ápice de volta. |
 | Two focos de instabilidade + desalinhamento axial (Duck 2, Snowman 2). | Precisamos **neutralizar Fτ** no Eixo de Neutralização Mecânica. | ENM como eixo de incisão (Cap. 8 LDM). Anel guiado por aberrometria. |
 
-![Figura P3.1 — A Matriz de Decisão Vetorial: Padrão → Teste de Coincidência Axial → Arma Biomecânica → Prescrição](../../images/P1-03_Matriz/Figura_Matriz_Decisao.png)
+![Figura P3.1 — A Matriz de Decisão Vetorial: Padrão → Teste de Coincidência Axial → Arma Biomecânica → Prescrição](../../images/P1-03_Matriz/Figura_Matriz_Decisao.svg)
 
 ---
 
@@ -190,7 +190,7 @@ A matriz de decisão não é empirismo. Ela reflete diretamente o **estado das t
 
 ---
 
-![Figura P3.2 — Cheat Sheet clínica: Do Fenótipo à Caixa Cirúrgica. Imprima e cole na parede do bloco.](../../images/P1-03_Matriz/Figura_Cheat_Sheet.png)
+![Figura P3.2 — Cheat Sheet clínica: Do Fenótipo à Caixa Cirúrgica. Imprima e cole na parede do bloco.](../../images/P1-03_Matriz/Figura_Cheat_Sheet.svg)
 
 ---
 

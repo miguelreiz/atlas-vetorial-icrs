@@ -46,4 +46,11 @@ O motor do Atlas é composto pelo seguinte ecossistema editorial iterativo:
 - Skill 12 — Dual_Language_Atlas_Publisher (PT-BR + EN-US)
 - Skill 6 — Atlas_Version_Control (Merge & Publicação)
 
-`ENTRADA` -> `ANÁLISE (11)` -> `PRODUÇÃO (0-8)` -> `CLAREZA DIDÁTICA (13)` -> `SUPERVISÃO (9)` -> `AUDITORIA (10)` -> `PUBLICAÇÃO BILÍNGUE (12)` -> `VERSIONAMENTO (6)`
+`ENTRADA` -> `ANÁLISE (11)` -> `PRODUÇÃO (0-8)` -> `CLAREZA DIDÁTICA (13)` -> `SUPERVISÃO (9)` -> `AUDITORIA (10)` -> `REVISÃO EDITORIAL (14)` -> `PUBLICAÇÃO BILÍNGUE (12)` -> `VERSIONAMENTO (6)`
+
+### Camada 6 — Revisão Editorial Completa (Texto + Imagens + Diagramação)
+- Skill 14 — Revisor_Editorial_Cultura_Medica (Superrevisora de Livro Médico Brasileiro)
+  → Laudo completo: texto PT-BR, imagens, diagramação, consistência global
+  → Padrão Editora Cultura Médica do Brasil (Vancouver, ABNT NBR 6022/10520/6023)
+  → Score de aprovação por capítulo (aprovado / ressalvas / reprovado)
+  → Skill: `.agent/skills/revisor_editorial_cultura_medica/SKILL.md`

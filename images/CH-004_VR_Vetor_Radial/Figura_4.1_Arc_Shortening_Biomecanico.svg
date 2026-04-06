@@ -1,0 +1,15 @@
+<svg viewBox="0 0 1400 750" xmlns="http://www.w3.org/2000/svg"><rect width="1400" height="750" fill="#0a1118"/>
+<defs>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff"/>
+        <stop offset="100%" stop-color="#78909c"/>
+    </linearGradient>
+    <filter id="glowGold" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="3" result="blur" />
+        <feMerge>
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+<text x="700" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">Figura 4.1: O Efeito de Encurtamento de Arco (Arc-Shortening)</text><text x="700" y="80" fill="#B0BEC5" font-family="Arial" font-size="18" text-anchor="middle">A inserção do corpo rígido consome comprimento da malha, forçando o aplainamento lamelar centripetamente.</text><path d="M 100 600 Q 700 0 1300 600" fill="none" stroke="#263238" stroke-width="150" stroke-linecap="round"/><path d="M 100 600 Q 700 0 1300 600" fill="none" stroke="#37474f" stroke-width="140" stroke-linecap="round"/><path d="M 100 550 Q 700 -50 1300 550" fill="none" stroke="#ffb74d" stroke-width="4" stroke-dasharray="10,10" opacity="0.6"/><text x="700" y="100" fill="#ffb74d" font-family="Arial" font-size="16" font-style="italic" text-anchor="middle">Trajeto Antigo: Frouxo e Elevado (Ectasia)</text><polygon points="340,550 400,400 460,550" fill="url(#ringGrad)" stroke="#fff" stroke-width="3"/><polygon points="940,550 1000,400 1060,550" fill="url(#ringGrad)" stroke="#fff" stroke-width="3"/><path d="M 100 550 Q 250 520 400 390 Q 700 500 1000 390 Q 1150 520 1300 550" fill="none" stroke="#ffb74d" stroke-width="8" filter="url(#glowGold)"/><line x1="420" y1="400" x2="520" y2="460" stroke="#ff1744" stroke-width="6"/><polygon points="530,470 520,440 500,460" fill="#ff1744"/><line x1="980" y1="400" x2="880" y2="460" stroke="#ff1744" stroke-width="6"/><polygon points="870,470 880,440 900,460" fill="#ff1744"/><text x="400" y="590" fill="#cfd8dc" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Segmento ICRS (Cunha)</text><text x="1000" y="590" fill="#cfd8dc" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Segmento ICRS (Cunha)</text><rect x="550" y="510" width="300" height="40" rx="5" fill="#1e2d3d" stroke="#4dd0e1"/><text x="700" y="535" fill="#4dd0e1" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Aplainamento Central Ativo</text></svg>

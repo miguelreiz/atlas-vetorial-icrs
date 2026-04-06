@@ -1,0 +1,18 @@
+<svg viewBox="0 0 1400 750" xmlns="http://www.w3.org/2000/svg"><rect width="1400" height="750" fill="#0a1118"/>
+<defs>
+    <filter id="glowRed" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="6" result="blur" />
+        <feMerge>
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    <filter id="glowGold" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="3" result="blur" />
+        <feMerge>
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+<text x="700" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">Figura 4.4: O Mecanismo Biomecânico do Vetor Radial (VR)</text><text x="700" y="80" fill="#B0BEC5" font-family="Arial" font-size="18" text-anchor="middle">Como a tração local das lamelas periféricas transmite tensão e achata a zona central doentia.</text><rect x="50" y="120" width="600" height="600" rx="20" fill="#111B24"/><rect x="750" y="120" width="600" height="600" rx="20" fill="#111B24"/><text x="350" y="160" fill="#ffb74d" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">ANTES: Córnea Ectásica (Lamelas Frouxas)</text><text x="1050" y="160" fill="#4dd0e1" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">DEPOIS: VR em Ação (Tracionamento Centrífugo)</text><path d="M 100 550 Q 350 200 600 550" fill="none" stroke="#37474f" stroke-width="20" stroke-linecap="round"/><path d="M 100 550 Q 350 200 600 550" fill="none" stroke="#ffb74d" stroke-width="4" stroke-dasharray="10,10"/><text x="350" y="180" fill="#ffb74d" font-family="Arial" font-size="16" font-style="italic" text-anchor="middle">Fibras Deslizada / Protrusão Central (K-max ALTO)</text><path d="M 800 550 Q 850 470 900 380 L 1200 380 Q 1250 470 1300 550" fill="none" stroke="#546e7a" stroke-width="20" stroke-linecap="round"/><path d="M 800 550 Q 850 470 900 380 L 1200 380 Q 1250 470 1300 550" fill="none" stroke="#fff" stroke-width="4" filter="url(#glowGold)"/><polygon points="870,450 900,410 930,450" fill="#cfd8dc" stroke="#fff" stroke-width="2"/><polygon points="1170,450 1200,410 1230,450" fill="#cfd8dc" stroke="#fff" stroke-width="2"/><text x="900" y="475" fill="#cfd8dc" font-family="Arial" font-size="14" text-anchor="middle">Implante</text><text x="1200" y="475" fill="#cfd8dc" font-family="Arial" font-size="14" text-anchor="middle">Implante</text><line x1="890" y1="380" x2="820" y2="380" stroke="#ff1744" stroke-width="8" filter="url(#glowRed)"/><polygon points="820,370 800,380 820,390" fill="#ff1744"/><text x="850" y="360" fill="#ff1744" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Vetor Radial</text><line x1="1210" y1="380" x2="1280" y2="380" stroke="#ff1744" stroke-width="8" filter="url(#glowRed)"/><polygon points="1280,370 1300,380 1280,390" fill="#ff1744"/><text x="1250" y="360" fill="#ff1744" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Vetor Radial</text><text x="1050" y="350" fill="#ffffff" font-family="Arial" font-size="16" font-style="italic" text-anchor="middle">O Estiramento (Arc-Shortening) traciona as fibras do centro:</text><text x="1050" y="375" fill="#4dd0e1" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">Curvatura reduzida (Aplainamento) + Rede Tensa</text><path d="M 800 550 Q 1050 200 1300 550" fill="none" stroke="#ffb74d" stroke-width="2" stroke-dasharray="5,5" opacity="0.4"/></svg>

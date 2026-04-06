@@ -1,0 +1,22 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg"><rect width="1200" height="400" fill="#0D1117"/><path d="M 50 170 Q 175 100 300 170 L 300 180 Q 175 108 50 180 Z" fill="#FFCDD2" stroke="none"/><path d="M 50 180 Q 175 108 300 180 L 300 210 Q 175 132 50 210 Z" fill="#F5E6C8" stroke="none"/><path d="M 50 210 Q 175 132 300 210 L 300 290 Q 175 220 50 290 Z" fill="#EDD9A3" stroke="none"/>
+        <path d="M 50 170 Q 175 100 300 170" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+        <path d="M 50 290 Q 175 220 300 290" fill="none" stroke="#FFF" stroke-width="2" stroke-dasharray="4,4"/>
+    <text x="175" y="340" fill="#FFFFFF" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">1. Malha Intacta</text><path d="M 330 170 Q 455 100 580 170 L 580 180 Q 455 108 330 180 Z" fill="#FFCDD2" stroke="none"/><path d="M 330 180 Q 455 108 580 180 L 580 210 Q 455 124 330 210 Z" fill="#F5E6C8" stroke="none"/><path d="M 330 210 Q 455 124 580 210 L 580 290 Q 455 188 330 290 Z" fill="#EDD9A3" stroke="none"/>
+        <path d="M 330 170 Q 455 100 580 170" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+        <path d="M 330 290 Q 455 188 580 290" fill="none" stroke="#FFF" stroke-width="2" stroke-dasharray="4,4"/>
+    <g stroke="#CC2200" fill="#CC2200">
+                    <line x1="455" y1="280" x2="455" y2="245" stroke-width="3"/>
+                    <polygon points="450,245 460,245 455,235"/>
+                 </g><text x="455" y="340" fill="#FFFFFF" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">2. Deslizamento Posterior</text><path d="M 610 170 Q 735 96 860 170 L 860 180 Q 735 104 610 180 Z" fill="#FFCDD2" stroke="none"/><path d="M 610 180 Q 735 104 860 180 L 860 210 Q 735 116 610 210 Z" fill="#F5E6C8" stroke="none"/><path d="M 610 210 Q 735 116 860 210 L 860 290 Q 735 172 610 290 Z" fill="#EDD9A3" stroke="none"/>
+        <path d="M 610 170 Q 735 96 860 170" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+        <path d="M 610 290 Q 735 172 860 290" fill="none" stroke="#FFF" stroke-width="2" stroke-dasharray="4,4"/>
+    <g stroke="#CC2200" fill="#CC2200">
+                    <line x1="735" y1="260" x2="735" y2="225" stroke-width="3"/>
+                    <polygon points="730,225 740,225 735,215"/>
+                 </g><text x="735" y="340" fill="#FFFFFF" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">3. Redistribuição Anterior</text><path d="M 890 170 Q 1015 100 1140 170 L 1140 180 Q 1015 100 890 180 Z" fill="#FFCDD2" stroke="none"/><path d="M 890 180 Q 1015 100 1140 180 L 1140 210 Q 1015 108 890 210 Z" fill="#F5E6C8" stroke="none"/><path d="M 890 210 Q 1015 108 1140 210 L 1140 290 Q 1015 164 890 290 Z" fill="#EDD9A3" stroke="none"/>
+        <path d="M 890 170 Q 1015 100 1140 170" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+        <path d="M 890 290 Q 1015 164 1140 290" fill="none" stroke="#FFF" stroke-width="2" stroke-dasharray="4,4"/>
+    <g stroke="#CC2200" fill="#CC2200">
+                    <line x1="1015" y1="250" x2="1015" y2="215" stroke-width="3"/>
+                    <polygon points="1010,215 1020,215 1015,205"/>
+                 </g><text x="1015" y="340" fill="#FFFFFF" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">4. Mascaramento Epitelial</text><text x="600" y="30" fill="#FFFFFF" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">A Ectasia como Falência em Camadas: O Abaulamento Posterior</text></svg>

@@ -172,3 +172,5 @@
 ---
 
 *Total: 54 referências | Formato: Vancouver | Numeração sequencial | Última atualização: Março 2026*
+
+55. Wollensak G, Spoerl E, Seiler T. Riboflavin/ultraviolet-a-induced collagen crosslinking for the treatment of keratoconus. Am J Ophthalmol. 2003;135(5):620-627. doi: 10.1016/s0002-9394(02)02220-1.

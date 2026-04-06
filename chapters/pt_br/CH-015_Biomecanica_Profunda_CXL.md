@@ -42,7 +42,7 @@ Como explorado no Capítulo 1 e 2, o estroma corneano não é um bloco maciço d
 
 | Profundidade (%) | Zona Estromal | Fibras Dominantes | Interação com ICRS | Impacto Biomecânico |
 |---|---|---|---|---|
-| 0–30% | Anterior (Feltro) | 🟢 Oblíquas interlamelares densas | ❌ Não implante aqui — dissecção impossível | Extrusão certa; arc-shortening imprevisível |
+| 0–30% | Anterior (Feltro) | 🟢 Oblíquas interlamelares densas | ❌ Não implante aqui — dissecção impossível | Extrusão certa; arc-shortening (encurtamento do arco) imprevisível |
 | 30–50% | Transição | 🟢→🔴 Oblíquas rarefazendo, radiais emergindo | ⚠️ Risco alto — dissecção difícil | VR fraco (pouco tenting acima); risco de haze |
 | **50–65%** | Posterior superficial | 🔴 Radiais paralelas + início de 🔵 tangenciais | ⚠️ Possível mas subótimo | VR moderado; âncora excessiva abaixo → tenting limitado |
 | **70–75%** ✅ | **Posterior ideal** | **🔴 Radiais ortogonais paralelas** | **✅ Fulcro ótimo** | **VR máximo; equilíbrio tenting/âncora perfeito** |
@@ -51,12 +51,12 @@ Como explorado no Capítulo 1 e 2, o estroma corneano não é um bloco maciço d
 
 ### A Engenharia do Aplainamento: Por Que 70%?
 
-O anel aplaina a córnea por causa do princípio de *Arc-Shortening* acoplado ao *Efeito de Tenda* (Tenting), como vimos. Mas imagine a córnea como um livro grosso. 
+O anel aplaina a córnea por causa do princípio de *arc-shortening (encurtamento do arco)* acoplado ao *Efeito de Tenda* (Tenting), como vimos. Mas imagine a córnea como um livro grosso. 
 
 Se você insere uma caneta (o anel) entre as páginas logo na capa do livro (profundidade de 10%), a capa se deforma muito, mas as páginas de baixo quase não sentem. O efeito na estrutura global é pequeno.
 Se você insere a caneta muito perto da contracapa (profundidade de 95%), as forças não são transmitidas à capa superior com eficiência. O anel fica "esmagado" contra o endotélio flácido.
 
-![Figura 15.3: O Fulcro Ótimo — Por Que 70% de Profundidade. Três cenários lado a lado: Raso demais (50%: risco de extrusão, efeito imprevisível), Ótimo (70-75%: máximo tenting + âncora suficiente), Profundo demais (85%: risco de afundamento, efeito diminuído por FEM).](../../images/CH-015_CXL_Profundidade/Figura_15.3_Optimal_Fulcrum_Depth.png)
+![Figura 15.3: O Fulcro Ótimo — Por Que 70% de Profundidade. Três cenários lado a lado: Raso demais (50%: risco de extrusão, efeito imprevisível), Ótimo (70-75%: máximo tenting + âncora suficiente), Profundo demais (85%: risco de afundamento, efeito diminuído por FEM).](../../images/CH-015_CXL_Profundidade/Figura_15.3_Optimal_Fulcrum_Depth.svg)
 
 ✅ **A profundidade de 70-80% é o Ponto de Alavanca Ideal (Fulcro Ótimo)** — suportado por FEM (Kling & Marcos 2013; García de Oteyza 2021):
 1.  🔬 Existe tecido suficiente ACIMA do anel (70% do estroma) para que as lamelas anteriores sejam tracionadas hidraulicamente, gerando o "repuxo" das fibras radiais que esmaga o cone no centro. *Coerênte com a mecânica de alavanca demonstrada pelo FEM — Kling & Marcos 2013.*
@@ -99,7 +99,7 @@ O CXL ocorre predominantemente nos **300 a 400 micrômetros anteriores** da cór
 
 ![Figura 15.4: CXL na Escala das Fibras — Trava Covalente da Malha de Colágeno. Esquerda (Antes do CXL): fibrilas frouxas com pontes de proteoglicanos degradadas, lamelas deslizantes. Direita (Após CXL): pontes covalentes intrafibrilares, interfibrilares e interlamelares (limitadas) trancam a malha. Linha de Demarcação UVA a 300 µm de profundidade.](../../images/CH-015_CXL_Profundidade/Figura_15.4_CXL_Fiber_Scale.png)
 
-#### Por Que o Efeito Vetorial é Diminuído? (A Anulação do Arc-Shortening)
+#### Por Que o Efeito Vetorial é Diminuído? (A Anulação do arc-shortening (encurtamento do arco))
 
 Lembre-se da mecânica do anel (Capítulo 2): o Vetor Radial (VR) só ocorre porque o anel **encurta o arco** da fibra radial. Para encurtar o arco, o anel precisa empurrar a fibra para cima, fazendo-a deslizar ligeiramente pelas lamelas vizinhas e redistribuir sua tensão até o centro.
 
@@ -109,9 +109,9 @@ Lembre-se da mecânica do anel (Capítulo 2): o Vetor Radial (VR) só ocorre por
 
 Aqui ocorre o choque mecânico: o túnel do anel é feito a 70% de profundidade (geralmente em torno de 350 a 400 µm de profundidade), que é **exatamente no limite ou logo abaixo da placa rígida do CXL**. 
 
-![Figura 15.1: A Dinâmica CXL vs ICRS — Esquerda (ICRS na córnea virgem): O anel separa lamelas frouxas, a tensão arc-shortening flui radialmente para achatar o cone. Direita (ICRS pós-CXL): O anel encontra o Escudo CXL anterior, as lamelas bloqueiam o deslizamento, e a força dissipa para o estroma mole posterior, reduzindo o aplainamento central (VR).](../../images/CH-015_CXL_Profundidade/Figura_15.1_CXL_vs_Virgin.png)
+![Figura 15.1: A Dinâmica CXL vs ICRS — Esquerda (ICRS na córnea virgem): O anel separa lamelas frouxas, a tensão arc-shortening (encurtamento do arco) flui radialmente para achatar o cone. Direita (ICRS pós-CXL): O anel encontra o Escudo CXL anterior, as lamelas bloqueiam o deslizamento, e a força dissipa para o estroma mole posterior, reduzindo o aplainamento central (VR).](../../images/CH-015_CXL_Profundidade/Figura_15.1_CXL_vs_Virgin.svg)
 
-Quando o anel PMMA infla e tenta separar as lamelas e tensionar as radiais (*arc-shortening*):
+Quando o anel PMMA infla e tenta separar as lamelas e tensionar as radiais (*arc-shortening (encurtamento do arco)*):
 1.  **Bloqueio de Cisalhamento Longitudinal:** O "escudo anterior" CXL impede que as lamelas superiores deslizem umas sobre as outras de volta para o centro. A energia empurrada para cima pelo anel não consegue se propagar radialmente até o ápice do cone com facilidade.
 2.  **Deflexão da Força para o Estroma Posterior:** Como o tecido acima (CXL) é imensamente mais rígido que o tecido abaixo (virgem posterior), a energia mecânica do anel PMMA segue pelo caminho de menor resistência. Em vez de empurrar o escudo para a frente gerando um grande VR central, o anel acaba empurrando o estroma profundo/Descemet para trás. O anel "afunda" no tecido mole de baixo, dissipando a energia que deveria corrigir o cone.
 
@@ -226,7 +226,7 @@ Ele combina todas as tensões que agem em um ponto — tração, compressão e c
 > **Se σ_VM > Tensão de Escoamento do Material → o material cede (deforma ou desliza).**
 > **Se σ_VM < Tensão de Escoamento → o material resiste e não deforma.**
 
-No contexto corneano, "ceder" significa que as lamelas de colágeno **deslizam umas sobre as outras** — e é exatamente esse deslizamento que gera o Efeito Arc-Shortening e, consequentemente, o Vetor Radial (VR).
+No contexto corneano, "ceder" significa que as lamelas de colágeno **deslizam umas sobre as outras** — e é exatamente esse deslizamento que gera o Efeito arc-shortening (encurtamento do arco) e, consequentemente, o Vetor Radial (VR).
 
 ##### Os Números: 81 kPa vs 140–170 kPa
 
@@ -265,7 +265,7 @@ Pense no escudo de CXL como um **cadeado de aço**. O limiar de escoamento é a 
 - **Perfil arredondado** = palma da mão pressionando o cadeado. Distribui a força por centímetros quadrados → pressão local baixa → cadeado não abre.
 - **Perfil triangular** = pino de fechadura fino. Concentra toda a força num ponto de milímetros → pressão local enorme → o cadeado *flexiona* localmente, abrindo uma fresta.
 
-O anel não "dissolve" o escudo CXL — ele explora micro-pontos de menor resistência na malha, induzindo um **micro-deslizamento lamelar focal** suficiente para transmitir parte da força de arc-shortening até o cone central.
+O anel não "dissolve" o escudo CXL — ele explora micro-pontos de menor resistência na malha, induzindo um **micro-deslizamento lamelar focal** suficiente para transmitir parte da força de arc-shortening (encurtamento do arco) até o cone central.
 
 ##### Por Que Isso Causa Haze?
 
@@ -440,7 +440,7 @@ Evidência clínica direta: ⚠️ Extrapolação derivada — nenhum RCT public
 | CXL maturo (>12 meses) + KC leve | ⬮ **CornealRing** + espessura escalada (+100 µm) | Priorizar biocompatibilidade; compensar com espessura |
 | CXL + KC em paciente jovem (prevenção) | ⭕ **Evitar MyoRing** (preferir concêntricos) | MyoRing em CXL gera deflexão total → subcorreção + risco de afundamento |
 
-![Figura 15.5: Perfil do Anel × Escudo CXL — Seis perfis confrontando a barreira covalente. Da esquerda (Triangular = máxima penetração focal, setas verdes atravessando o escudo) até a direita (MyoRing = deflexão posterior total, setas vermelhas defletidas para trás). A linha amarela de demarcação CXL a 300 µm é visível em todos.](../../images/CH-015_CXL_Profundidade/Figura_15.5_Profile_vs_CXL_Shield.png)
+![Figura 15.5: Perfil do Anel × Escudo CXL — Seis perfis confrontando a barreira covalente. Da esquerda (Triangular = máxima penetração focal, setas verdes atravessando o escudo) até a direita (MyoRing = deflexão posterior total, setas vermelhas defletidas para trás). A linha amarela de demarcação CXL a 300 µm é visível em todos.](../../images/CH-015_CXL_Profundidade/Figura_15.5_Profile_vs_CXL_Shield.svg)
 
 ![Figura 15.6: Heatmap — Eficácia Retida × Risco por Perfil em CXL. Tabela visual colorida (verde = eficaz/seguro, vermelho = ineficaz/risco). Linhas: 6 famílias. Colunas: VR retido, VT retido, Vτ retido, Risco Haze, Indicação principal.](../../images/CH-015_CXL_Profundidade/Figura_15.6_Heatmap_Profile_CXL.png)
 

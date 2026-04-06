@@ -84,7 +84,7 @@ Cada perfil tem sua zona. Cada diâmetro tem seu perfil. Esta é a **Lei da Corr
 
 Este livro não nasceu apenas no centro cirúrgico ou na lâmpada de fenda. Nasceu também diante de telas de código, modelos computacionais e planilhas de dados.
 
-Ao longo dos anos, aprendi que o conhecimento clínico, sozinho, não responde às perguntas que me interessam. Saber que um anel "funciona" não me basta — preciso entender **por que** funciona, **quanto** de cada efeito ele gera, e **como** prever o resultado antes de operar. Para isso, precisei navegar em territórios que poucos cirurgiões visitam:
+Ao longo dos anos, aprendemos que o conhecimento clínico, sozinho, não responde às perguntas que nos interessam. Saber que um anel "funciona" não nos basta — preciso entender **por que** funciona, **quanto** de cada efeito ele gera, e **como** prever o resultado antes de operar. Para isso, precisamos navegar em territórios que poucos cirurgiões visitam:
 
 - **Programação e análise de dados** — para processar centenas de casos, cruzar variáveis e encontrar padrões que o olho clínico sozinho não enxerga
 - **Modelagem computacional** — para simular como diferentes perfis interagem com diferentes arquiteturas fibrilares, antes que qualquer paciente seja tocado
@@ -119,7 +119,7 @@ Esta transparência é deliberada. Um livro que propõe conceitos novos deve ser
 
 ## Para Quem É Este Livro
 
-Para o cirurgião que quer entender por que implanta o que implanta. Para o fellow que quer um framework para pensar sobre anéis em vez de apenas seguir tabelas. Para o pesquisador que procura hipóteses testáveis na interface entre biomecânica e cirurgia refrativa. E para quem, como eu, acredita que a geometria escondida dentro da córnea tem muito mais a nos ensinar.
+Para o cirurgião que quer entender por que implanta o que implanta. Para o fellow que quer um framework para pensar sobre anéis em vez de apenas seguir tabelas. Para o pesquisador que procura hipóteses testáveis na interface entre biomecânica e cirurgia refrativa. E para quem, como nós, acredita que a geometria escondida dentro da córnea tem muito mais a nos ensinar.
 
 ---
 

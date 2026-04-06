@@ -492,7 +492,7 @@ A ectasia corneana — seja ceratocone primário, seja ectasia pós-cirurgia ref
 
 **Estágio 3 — O epitélio mascara.** O epitélio corneano atua como uma camada de suavização biológica — ele engrossa sobre as depressões e afina sobre as protrusões. Este remodelamento epitelial (visível em mapas de espessura epitelial por OCT) cria uma superfície anterior mais regular do que o estroma subjacente realmente é. O Plácido, refletindo esta superfície suavizada, pode subestimar a severidade real da ectasia.
 
-![Figura 1.7: A Ectasia como Falência em Camadas — Progressão em 4 estágios: malha intacta → posterior desloca-se anteriormente → anterior redistribui → epitélio mascara. Na ectasia, a superfície posterior abaulha em direção à anterior (não protrui para fora). O Plácido lê apenas a superfície final suavizada.](../../images/CH-001_Anatomia/ectasia_progression_v2_1772192394453.png)
+![Figura 1.7: A Ectasia como Falência em Camadas — Progressão em 4 estágios: malha intacta → posterior desloca-se anteriormente → anterior redistribui → epitélio mascara. Na ectasia, a superfície posterior abaulha em direção à anterior (não protrui para fora). O Plácido lê apenas a superfície final suavizada.](../../images/CH-001_Anatomia/ectasia_progression_v2_1772192394453.svg)
 
 > **A lição fundamental para o cirurgião de anéis:** O que você vê no Plácido é o resultado final de uma cadeia de compensações. A superfície anterior é o último dominó a cair — e quando cai, já é visível. Mas o vetor biomecânico que causou a ectasia frequentemente começou no plano posterior, em eixo que pode diferir do que a superfície mostra. É por isso que o planejamento vetorial avançado (Capítulo 8) integra Plácido, tomografia posterior e coma — nunca um isoladamente.
 

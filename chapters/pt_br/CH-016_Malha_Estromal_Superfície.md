@@ -73,7 +73,7 @@ POSTERIOR (67-100%):
 
 > ✅ **Evidência:** Winkler M et al. (2011), IOVS — Usando **microscopia óptica não-linear de alta resolução** *(NLO-HRMac = Nonlinear Optical High-Resolution Macroscopy)*, mediram que a **densidade de pontos de ramificação** *(branching-point density)* é **4 vezes maior** no terço anterior comparado ao terço posterior. Essa densidade diminui **logaritmicamente** com a distância da Bowman.
 
-![Figura 16.1 — Anatomia da Fibra em Mola (Bow Spring): corte transversal mostrando as fibras que sobem do estroma, fundem-se à Bowman e descem, com posição do ICRS abaixo.](../../images/CH-016_Malha_Estromal/Figura_16.1_Bow_Spring_Anatomia.png)
+![Figura 16.1 — Anatomia da Fibra em Mola (Bow Spring): corte transversal mostrando as fibras que sobem do estroma, fundem-se à Bowman e descem, com posição do ICRS abaixo.](../../images/CH-016_Malha_Estromal/Figura_16.1_Bow_Spring_Anatomia.svg)
 
 ---
 
@@ -161,7 +161,7 @@ O ESTROMA MODULA O EPITÉLIO:
 
 > ✅ **Evidência:** Rhee J et al. (citado em Mohammad Nejad T et al. 2013, review de FEM corneano) — Modelo FEM não-linear anisotrópico da córnea de camundongo. As curvas numéricas de máximo **cisalhamento** *(shear strain)* correlacionam diretamente com os padrões em espiral observados no epitélio.
 
-![Figura 16.2 — Padrões em Espiral do Epitélio: a malha estromal gera linhas de cisalhamento (shear strain) que guiam a migração celular epitelial em espiral.](../../images/CH-016_Malha_Estromal/Figura_16.2_Espiral_Epitelial_Shear.png)
+![Figura 16.2 — Padrões em Espiral do Epitélio: a malha estromal gera linhas de cisalhamento (shear strain) que guiam a migração celular epitelial em espiral.](../../images/CH-016_Malha_Estromal/Figura_16.2_Espiral_Epitelial_Shear.svg)
 
 ### A Matemática por Trás das Espirais
 
@@ -227,7 +227,7 @@ FEM CLÁSSICO:                      X-FEM:
 | **Incisões relaxantes (LRI)** | Profundidade ótima para máximo efeito sem risco de perfuração |
 | **Túnel do ICRS** | Como as tensões se redistribuem ao redor do canal criado pelo femtossegundo |
 | **Ceratocone** | 💡 Predizer onde a malha estromal vai falhar antes que a ectasia clínica seja visível |
-| **Trauma penetrante** | Calcular o pico de tensão *(peak strain)* no qual ocorre a ruptura |
+| **Trauma penetrante** | Calcular o pico de tensão *(peak strain)* no qual ocorre a deslizamento/reorganização |
 
 > 🔬 **Estado atual:** O X-FEM ainda não foi amplamente aplicado especificamente à córnea na literatura publicada, mas os princípios já foram validados em tecidos biológicos similares. A combinação de X-FEM com modelos de colágeno anisotrópico (como o de Rhee) representa uma fronteira promissora para previsão cirúrgica personalizada.
 
@@ -292,7 +292,7 @@ CASCATA PATOGÊNICA COMPLETA (CH-001 + CH-016):
 
 > 🔬 **Nota de evidência:** A perda de fibras em mola no ceratocone (Mikula 2018) é um achado observacional direto. A conexão causal entre essa perda e a instabilidade da superfície é suportada pelo modelo de Cheng (2015), mas não foi demonstrada in vivo em humanos — é evidência indireta convergente.
 
-![Figura 16.3 — Córnea Normal vs Ceratocone: perda das fibras em mola (bow springs) na zona do cone, com redução do entrelaçamento e compensação epitelial.](../../images/CH-016_Malha_Estromal/Figura_16.3_KC_Perda_BowSprings.png)
+![Figura 16.3 — Córnea Normal vs Ceratocone: perda das fibras em mola (bow springs) na zona do cone, com redução do entrelaçamento e compensação epitelial.](../../images/CH-016_Malha_Estromal/Figura_16.3_KC_Perda_BowSprings.svg)
 
 ---
 
@@ -353,7 +353,7 @@ Epitélio          ← Superfície refrativa
 | Fibras em mola *(bow springs)* | ✅ **PRESERVA** — estão acima do anel |
 | Oblíquas anteriores *(interlacing)* | ✅ **PRESERVA** — estão no terço superior |
 | Oblíquas na zona do anel | 💡 **SUBSTITUI** — o anel age como trava mecânica no local |
-| Lamelas posteriores | 🔬 **SEPARA** localmente — cria tenting, arc-shortening |
+| Lamelas posteriores | 🔬 **SEPARA** localmente — cria tenting, arc-shortening (encurtamento do arco) |
 
 > 💡 **Síntese do autor:** O ICRS — que é um procedimento **terapêutico e reabilitador**, não uma cirurgia refrativa — é a intervenção corneana que **menos agride** a malha estromal anterior. Enquanto o LASIK (este sim, cirurgia refrativa) destrói as fibras em mola, o ICRS trabalha **abaixo** delas. Isso explica, em parte, por que a desestabilização pós-ICRS é extremamente rara, enquanto a ectasia pós-LASIK é uma complicação conhecida.
 
@@ -414,7 +414,7 @@ LDM (Lei do Disco Mecânico → IDT, COF, ENM)
 
 > 💡 **Insight final:** A LDM não lê a córnea — ela lê a **assinatura da malha estromal projetada na superfície através do epitélio**. Cada anel de Plácido comprimido é uma região onde a malha falhou. Cada anel alargado é uma região onde a malha se mantém.
 
-![Figura 16.4 — Modelo de 4 Camadas: do estroma posterior ao epitélio, cada camada contribui para a estabilidade da superfície refrativa.](../../images/CH-016_Malha_Estromal/Figura_16.4_Modelo_4_Camadas.png)
+![Figura 16.4 — Modelo de 4 Camadas: do estroma posterior ao epitélio, cada camada contribui para a estabilidade da superfície refrativa.](../../images/CH-016_Malha_Estromal/Figura_16.4_Modelo_4_Camadas.svg)
 
 ---
 
@@ -501,7 +501,7 @@ references:
 - [x] VR centrífugo em toda menção *(Seção 5 — ICRS preserva malha)*
 - [x] Toda afirmação marcada com nível de evidência (✅/🔬/💡)
 - [x] Modelo 3-fibras coerente com CH-001
-- [x] Linguagem WAXS correta: "deslizam e reorganizam" (não "rompem")
+- [x] Linguagem WAXS correta: "deslizam e reorganizam" (não "deslizamento/reorganização")
 - [x] Profundidade 70-75% confirmada
 - [x] Termos em inglês explicados entre parênteses
 - [x] Sem contradição com outros capítulos
