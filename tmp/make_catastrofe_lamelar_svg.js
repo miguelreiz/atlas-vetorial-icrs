@@ -11,7 +11,7 @@ const bg = "#0a1118";
 let svg = `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">`;
 svg += `<rect width="${w}" height="${h}" fill="${bg}"/>`;
 
-svg += `<text x="${w/2}" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" paint-order="stroke" stroke="${bg}" stroke-width="4">Figura 1.4: A Catástrofe Lamelar (4 Passos)</text>`;
+svg += `<text x="${w/2}" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">Figura 1.4: A Catástrofe Lamelar (4 Passos)</text>`;
 
 const px = [200, 700, 200, 700];
 const py = [150, 150, 450, 450];
@@ -29,7 +29,7 @@ for(let i=0; i<4; i++) {
     
     // Panel Header
     svg += `<rect x="${cx - 180}" y="${cy - 70}" width="360" height="40" rx="8" fill="${colors[i]}" opacity="0.15"/>`;
-    svg += `<text x="${cx}" y="${cy - 45}" fill="${colors[i]}" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" paint-order="stroke" stroke="${bg}" stroke-width="4">${titles[i]}</text>`;
+    svg += `<text x="${cx}" y="${cy - 45}" fill="${colors[i]}" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">${titles[i]}</text>`;
     
     // Core visualization representing collagen sliding
     svg += `<rect x="${cx - 200}" y="${cy}" width="400" height="120" fill="#111B24" rx="10" stroke="#333" stroke-width="2"/>`;
@@ -78,7 +78,7 @@ for(let i=0; i<4; i++) {
         }
         // Force pushing
         svg += `<line x1="${cx}" y1="${cy+150}" x2="${cx}" y2="${cy+100}" stroke="${colors[i]}" stroke-width="6" marker-end="url(#arrowEctasia)"/>`;
-        svg += `<text x="${cx}" y="${cy+170}" fill="${colors[i]}" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" paint-order="stroke" stroke="${bg}" stroke-width="4">Força Ectásica (PIO focal)</text>`;
+        svg += `<text x="${cx}" y="${cy+170}" fill="${colors[i]}" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Força Ectásica (PIO focal)</text>`;
     }
 }
 

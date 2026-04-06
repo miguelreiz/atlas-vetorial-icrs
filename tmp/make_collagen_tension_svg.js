@@ -28,7 +28,7 @@ svg += `
 </defs>
 `;
 
-svg += `<text x="${cx}" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" paint-order="stroke" stroke="${bg}" stroke-width="4">Figura 1.2: Visão Microscópica do Efeito Separador (PMMA)</text>`;
+svg += `<text x="${cx}" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">Figura 1.2: Visão Microscópica do Efeito Separador (PMMA)</text>`;
 
 // Draw Stroma Tissue Context (Large rectangle)
 svg += `<rect x="50" y="150" width="1100" height="400" fill="#111B24" rx="20"/>`;
@@ -83,8 +83,8 @@ svg += `
 `;
 
 svg += `<rect x="100" y="580" width="1000" height="90" fill="#111B24" rx="8" stroke="#333"/>`;
-svg += `<text x="${cx}" y="615" fill="#00e5ff" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" paint-order="stroke" stroke="${bg}" stroke-width="4">O PMMA Atua como uma Cunha Expansora</text>`;
-svg += `<text x="${cx}" y="645" fill="#cfd8dc" font-family="Arial" font-size="16" text-anchor="middle" paint-order="stroke" stroke="${bg}" stroke-width="4">Adicionar volume entre lamelas inextensíveis gera separação vertical, que o tecido tenta compensar gerando tração horizontal massiva nas fibras radiais.</text>`;
+svg += `<text x="${cx}" y="615" fill="#00e5ff" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle">O PMMA Atua como uma Cunha Expansora</text>`;
+svg += `<text x="${cx}" y="645" fill="#cfd8dc" font-family="Arial" font-size="16" text-anchor="middle">Adicionar volume entre lamelas inextensíveis gera separação vertical, que o tecido tenta compensar gerando tração horizontal massiva nas fibras radiais.</text>`;
 
 svg += `</svg>`;
 

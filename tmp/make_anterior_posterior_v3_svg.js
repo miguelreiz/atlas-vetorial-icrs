@@ -25,14 +25,14 @@ svg += `
 </defs>
 `;
 
-svg += `<text x="${w/2}" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" paint-order="stroke" stroke="${bg}" stroke-width="4">Figura 1.6: Por Que Anterior e Posterior Não Concordam nos Eixos</text>`;
+svg += `<text x="${w/2}" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">Figura 1.6: Por Que Anterior e Posterior Não Concordam nos Eixos</text>`;
 
 const cx = 600;
 const cy = 350;
 
 // Metaphor: Two Trampolines
 svg += `<rect x="50" y="90" width="1100" height="40" fill="#111B24" rx="8"/>`;
-svg += `<text x="${cx}" y="115" fill="#cfd8dc" font-family="Arial" font-size="16" text-anchor="middle" paint-order="stroke" stroke="${bg}" stroke-width="4">Visão Superior: Uma "cama elástica" dupla. A pressão intraocular deforma ambas, mas a flexibilidade difere.</text>`;
+svg += `<text x="${cx}" y="115" fill="#cfd8dc" font-family="Arial" font-size="16" text-anchor="middle">Visão Superior: Uma "cama elástica" dupla. A pressão intraocular deforma ambas, mas a flexibilidade difere.</text>`;
 
 // Draw Anterior Surface (Ellipse tilted at 95 deg)
 // Cyan, representing the rigid anterior stroma
@@ -51,20 +51,20 @@ svg += `<line x1="0" y1="-300" x2="0" y2="300" stroke="#ff9100" stroke-width="4"
 svg += `</g>`;
 
 // Labels
-svg += `<text x="${cx + 100}" y="${cy - 260}" fill="#00e5ff" font-family="Arial" font-size="22" font-weight="bold" paint-order="stroke" stroke="${bg}" stroke-width="6">Eixo Anterior (Ex: 95°)</text>`;
-svg += `<text x="${cx + 100}" y="${cy - 235}" fill="#00e5ff" font-family="Arial" font-size="14" paint-order="stroke" stroke="${bg}" stroke-width="4">Superfície Rígida (Trama Densa)</text>`;
+svg += `<text x="${cx + 100}" y="${cy - 260}" fill="#00e5ff" font-family="Arial" font-size="22" font-weight="bold">Eixo Anterior (Ex: 95°)</text>`;
+svg += `<text x="${cx + 100}" y="${cy - 235}" fill="#00e5ff" font-family="Arial" font-size="14">Superfície Rígida (Trama Densa)</text>`;
 
-svg += `<text x="${cx + 260}" y="${cy - 120}" fill="#ff9100" font-family="Arial" font-size="22" font-weight="bold" paint-order="stroke" stroke="${bg}" stroke-width="6">Eixo Posterior (Ex: 135°)</text>`;
-svg += `<text x="${cx + 260}" y="${cy - 95}" fill="#ff9100" font-family="Arial" font-size="14" paint-order="stroke" stroke="${bg}" stroke-width="4">Superfície Flexível (Lamelas Frouxas)</text>`;
+svg += `<text x="${cx + 260}" y="${cy - 120}" fill="#ff9100" font-family="Arial" font-size="22" font-weight="bold">Eixo Posterior (Ex: 135°)</text>`;
+svg += `<text x="${cx + 260}" y="${cy - 95}" fill="#ff9100" font-family="Arial" font-size="14">Superfície Flexível (Lamelas Frouxas)</text>`;
 
 // Angle representation arc
 svg += `<path d="M ${cx + 180 * Math.cos((antAxis-90)*Math.PI/180)} ${cy + 180 * Math.sin((antAxis-90)*Math.PI/180)} A 180 180 0 0 1 ${cx + 180 * Math.cos((postAxis-90)*Math.PI/180)} ${cy + 180 * Math.sin((postAxis-90)*Math.PI/180)}" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="4,4"/>`;
-svg += `<text x="${cx + 230}" y="${cy - 180}" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold" paint-order="stroke" stroke="${bg}" stroke-width="6">Desalinhamento: 40°</text>`;
+svg += `<text x="${cx + 230}" y="${cy - 180}" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold">Desalinhamento: 40°</text>`;
 
 // Explanation Block
 svg += `<rect x="50" y="${h - 100}" width="1100" height="80" fill="#111B24" rx="8" stroke="#333"/>`;
-svg += `<text x="${cx}" y="${h - 70}" fill="#ffeb3b" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" paint-order="stroke" stroke="${bg}" stroke-width="4">Decodificando a Tomografia (Pentacam / Galilei)</text>`;
-svg += `<text x="${cx}" y="${h - 45}" fill="#cfd8dc" font-family="Arial" font-size="15" text-anchor="middle" paint-order="stroke" stroke="${bg}" stroke-width="4">A superfície posterior cede e distorce mais livremente. A superfície anterior, travada pelas oblíquas, resiste e assume um eixo cruzado compensatório.</text>`;
+svg += `<text x="${cx}" y="${h - 70}" fill="#ffeb3b" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Decodificando a Tomografia (Pentacam / Galilei)</text>`;
+svg += `<text x="${cx}" y="${h - 45}" fill="#cfd8dc" font-family="Arial" font-size="15" text-anchor="middle">A superfície posterior cede e distorce mais livremente. A superfície anterior, travada pelas oblíquas, resiste e assume um eixo cruzado compensatório.</text>`;
 
 svg += `</svg>`;
 

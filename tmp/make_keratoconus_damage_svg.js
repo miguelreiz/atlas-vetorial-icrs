@@ -24,7 +24,7 @@ svg += `
 </defs>
 `;
 
-svg += `<text x="${w/2}" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" paint-order="stroke" stroke="${bg}" stroke-width="4">Figura 1.11: Ceratocone na Escala das Fibras</text>`;
+svg += `<text x="${w/2}" y="50" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle">Figura 1.11: Ceratocone na Escala das Fibras</text>`;
 
 const cx = 450;
 const cy = 450;
@@ -38,7 +38,7 @@ const ex = cx;
 const ey = cy + 120;
 const er = 100;
 svg += `<circle cx="${ex}" cy="${ey}" r="${er}" fill="#ff1744" opacity="0.15" stroke="#ff1744" stroke-width="3" stroke-dasharray="8,4"/>`;
-svg += `<text x="${ex}" y="${ey}" fill="#ff1744" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" opacity="0.8" paint-order="stroke" stroke="${bg}" stroke-width="4">Zona do Cone</text>`;
+svg += `<text x="${ex}" y="${ey}" fill="#ff1744" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" opacity="0.8">Zona do Cone</text>`;
 
 // Fibers
 // 1. Limbal Tangential (Blue) - Intact
