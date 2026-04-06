@@ -32,7 +32,7 @@ Para o cirurgião de anéis, a córnea pode ser entendida como uma estrutura com
 | **Estroma** | ~450 μm (90%) | **CAMADA ALVO.** O anel é implantado aqui, a ~70-80% de profundidade. |
 | **Descemet + Endotélio** | ~15 μm | Proteção crítica. Nunca deve ser atingido pelo túnel. |
 
-![Figura 1.1: Corte Transversal da Córnea — As camadas corneanas com destaque para a zona de implantação do anel a ~70-80% de profundidade no estroma](../../images/CH-001_Anatomia/cornea_cross_section_pt_1771790895116.png)
+![Figura 1.1: Corte Transversal da Córnea — As camadas corneanas com destaque para a zona de implantação do anel a ~70-80% de profundidade no estroma](../../images/CH-001_Anatomia/cornea_cross_section_pt.svg)
 
 ### O Estroma: A Camada que Importa
 
@@ -45,7 +45,7 @@ Imagine o estroma como uma rede de descanso feita de cordas frouxas (a córnea c
 
 Essa tensão gerada no anel se propaga pelas lamelas e é transmitida de volta para a superfície anterior da córnea, "puxando-a" e alterando sua curvatura macroscópica.
 
-![Figura 1.2: Visão Microscópica do Estroma — O bloco de PMMA atua como um separador mecânico, tensionando as fibras de colágeno adjacentes. Esta tensão reestrutura a curvatura da superfície (efeito em bloco).](../../images/CH-001_Anatomia/collagen_tension_mechanism_pt_1771806720979.png)
+![Figura 1.2: Visão Microscópica do Estroma — O bloco de PMMA atua como um separador mecânico, tensionando as fibras de colágeno adjacentes. Esta tensão reestrutura a curvatura da superfície (efeito em bloco).](../../images/CH-001_Anatomia/collagen_tension_mechanism.svg)
 
 **Fato crucial para ICRS:** As lamelas não são todas iguais.
 
@@ -109,7 +109,7 @@ A córnea pode ser mapeada em zonas concêntricas. **Cada zona tem uma arquitetu
 
 > **🔬 Evidência Indireta Convergente:** A relação diâmetro→fibra→vetor é baseada em: (1) mapas WAXS de Meek & Boote 2004 mostrando transição ortogonal→circumferencial, (2) dados clínicos mostrando que anéis de diâmetro menor geram mais ΔK (aplainamento) e anéis maiores geram mais redistribuição, (3) princípio biomecânico de que o vetor gerado depende da orientação das fibras interceptadas.
 
-![Figura 1.12b: Relação entre Diâmetro do Anel e Zonas de Fibras — A interação biomecânica depende de qual zona da malha (ortogonal central vs. tangencial periférica) o implante intercepta.](../../images/CH-001_Anatomia/Figura_Diametro_Fibra_Vetor.png)
+![Figura 1.12b: Relação entre Diâmetro do Anel e Zonas de Fibras — A interação biomecânica depende de qual zona da malha (ortogonal central vs. tangencial periférica) o implante intercepta.](../../images/CH-002_Biomecanica/Figura_2.5_Diametro_Fibra_Vetor.svg)
 
 #### Proporções do Estroma — Anterior vs Posterior
 
@@ -153,7 +153,7 @@ Diagrama em escala — Onde o anel fica:
 >
 > Os mapas WAXS de Meek & Boote (2004) representam a **soma de toda a espessura corneana** — o raio X atravessa a córnea inteira. Porém, o padrão ortogonal N-T/S-I registrado é **dominado pela contribuição do estroma posterior** (70% da espessura, fibras mais organizadas). Winkler et al. (2013) confirmaram por SHG que o estroma posterior é mais fortemente ortogonal que o anterior. **Conclusão:** os mapas zonais (centro ortogonal → limbo circunferencial) são diretamente representativos da zona de interação do ICRS a 70-75%, já que a orientação preferencial vem primariamente do estroma posterior onde o anel é implantado.
 >
-> ![Figura 1.13b: Como o WAXS mapeia a Córnea — O feixe atravessa toda a córnea, mas o sinal de espalhamento é dominado pela organização rigorosa do estroma posterior (70% da espessura).](../../images/CH-001_Anatomia/Figura_WAXS_Mapa.png)
+> ![Figura 1.13b: Como o WAXS mapeia a Córnea — O feixe atravessa toda a córnea, mas o sinal de espalhamento é dominado pela organização rigorosa do estroma posterior (70% da espessura).](../../images/CH-001_Anatomia/Figura_WAXS_Mapa.svg)
 
 ---
 
@@ -219,7 +219,7 @@ Contudo, Santhiago descreveu o "o quê" (a força elástica), mas faltava o "por
    → Lamelas deslizam → ECTASIA
 ```
 
-![Figura 1.14: Cascata Patogênica do PTA — A explicação mecânica baseada na destruição das fibras oblíquas do estroma anterior. Quando o PTA ultrapassa ~40%, a rede de travamento ("feltro") é inteiramente contornada, deixando lamelas posteriores soltas.](../../images/CH-001_Anatomia/Figura_Cascata_PTA_Fibras.png)
+![Figura 1.14: Cascata Patogênica do PTA — A explicação mecânica baseada na destruição das fibras oblíquas do estroma anterior. Quando o PTA ultrapassa ~40%, a rede de travamento ("feltro") é inteiramente contornada, deixando lamelas posteriores soltas.](../../images/CH-001_Anatomia/Figura_Cascata_PTA_Fibras.svg)
 
 #### Comparação: LASIK Seguro vs LASIK Risco
 
@@ -425,9 +425,9 @@ As fibras oblíquas não estão distribuídas uniformemente. Elas formam um **gr
 
 No ceratocone, a degradação enzimática (MMP-2, MMP-9 — ✅ Kenney et al., 2004) enfraquece os proteoglicanos que ancoram as fibras oblíquas. A cascata progride em 4 etapas:
 
-![Figura 1.10: Cascata Patogênica do Ceratocone na Escala das Fibras — 4 estágios: (1) Normal: fibras intactas. (2) Degradação: MMPs degradam proteoglicanos, oblíquas perdem ancoragem. (3) Deslizamento: lamelas deslizam, radiais frouxas. (4) Ectasia: PIO vence focalmente, protrusão. Tangenciais límbicas preservadas em todos os estágios — Kenney 2003/2004, Radner 1998, Winkler 2013, Meek & Knupp 2015](../../images/CH-001_Anatomia/cascata_patogenica_fibras_1772278304940.png)
+![Figura 1.10: Cascata Patogênica do Ceratocone na Escala das Fibras — 4 estágios: (1) Normal: fibras intactas. (2) Degradação: MMPs degradam proteoglicanos, oblíquas perdem ancoragem. (3) Deslizamento: lamelas deslizam, radiais frouxas. (4) Ectasia: PIO vence focalmente, protrusão. Tangenciais límbicas preservadas em todos os estágios — Kenney 2003/2004, Radner 1998, Winkler 2013, Meek & Knupp 2015](../../images/CH-001_Anatomia/cascata_patogenica_fibras.svg)
 
-![Figura 1.11: Ceratocone na Escala das Fibras — Vista superior mostrando: radiais inferiores (🔴) frouxas e fragmentadas, oblíquas (🟢) ausentes na zona do cone, tangenciais límbicas (🔵) preservadas. Zona de ectasia em laranja. Explica por que o ceratocone é central/paracentral, nunca límbico](../../images/CH-001_Anatomia/keratoconus_fiber_damage_1772278231858.png)
+![Figura 1.11: Ceratocone na Escala das Fibras — Vista superior mostrando: radiais inferiores (🔴) frouxas e fragmentadas, oblíquas (🟢) ausentes na zona do cone, tangenciais límbicas (🔵) preservadas. Zona de ectasia em laranja. Explica por que o ceratocone é central/paracentral, nunca límbico](../../images/CH-001_Anatomia/keratoconus_fiber_damage.svg)
 
 **Na linguagem das 3 fibras:**
 1. 🟢 **Oblíquas degradam primeiro** — proteoglicanos perdidos → lamelas perdem "rebites" (🔬 evidência indireta: Radner 1998 + Winkler 2013)
@@ -437,7 +437,7 @@ No ceratocone, a degradação enzimática (MMP-2, MMP-9 — ✅ Kenney et al., 2
 
 > **Nota (Skill 0):** A massa total de colágeno no ceratocone diminui apenas ~5%. O que ocorre não é destruição das fibras, mas **redistribuição por deslizamento** — as fibrilas escorregam entre e dentro das lamelas, mudando de posição e orientação sem serem destruídas.
 
-![Figura 1.4: A Catástrofe Lamelar — De fibras intactas a ceratocone em 4 passos: normal → degradação enzimática → deslizamento → protrusão](../../images/CH-001_Anatomia/Figura_Catastrofe_Lamelar.png)
+![Figura 1.4: A Catástrofe Lamelar — De fibras intactas a ceratocone em 4 passos: normal → degradação enzimática → deslizamento → protrusão](../../images/CH-001_Anatomia/Figura_Catastrofe_Lamelar.svg)
 
 #### O Plácido Como Espelho da Malha
 
@@ -454,7 +454,7 @@ O astigmatismo corneano, na sua essência, não é uma "forma oval" da superfíc
 
 No meridiano mais curvo (K-steep), as fibras estão sob alta tensão — densas, próximas, resistentes. No meridiano mais plano (K-flat), as fibras estão mais relaxadas — espaçadas, com menor pré-carga elástica. Essa assimetria de tensão gera uma assimetria de curvatura: onde a malha é mais tensa, a superfície é mais curva; onde é mais frouxa, a superfície é mais plana.
 
-![Figura 1.5: Astigmatismo na Linguagem das Fibras — Vista superior da malha de colágeno. Fibras densas e tensas no meridiano K-steep (90°) contrastam com fibras frouxas e espaçadas no K-flat (180°). Tensão desigual = astigmatismo.](../../images/CH-001_Anatomia/astigmatism_fiber_mesh_1772192187788.png)
+![Figura 1.5: Astigmatismo na Linguagem das Fibras — Vista superior da malha de colágeno. Fibras densas e tensas no meridiano K-steep (90°) contrastam com fibras frouxas e espaçadas no K-flat (180°). Tensão desigual = astigmatismo.](../../images/CH-001_Anatomia/astigmatism_fiber_mesh.svg)
 
 No Plácido, isso aparece como anéis elípticos — comprimidos ao longo do K-steep e espaçados ao longo do K-flat. Cada anel oval é o reflexo de uma malha que não puxa igualmente em todas as direções.
 
@@ -464,21 +464,23 @@ Esta perspectiva é fundamental para entender o Vetor Tangencial (Capítulo 5): 
 
 ---
 
-#### Por Que Anterior e Posterior Não Concordam
+#### Por Que Anterior e Posterior Não Concordam (A Lógica do Eixo)
 
-Se a córnea fosse uma casca homogênea — mesma rigidez em toda a espessura — o astigmatismo anterior e o posterior teriam sempre o mesmo eixo e a mesma magnitude. Mas a córnea **não é homogênea**. Ela possui ao menos dois "andares" mecânicos com propriedades distintas.
+Se a córnea fosse uma casca oca e homogênea — com a mesma rigidez em toda a sua espessura — o astigmatismo medido na frente seria idêntico ao de trás. Eles teriam o mesmo eixo de inclinação. Mas a córnea anatômica **não é uma camada fina**; ela se assemelha a **duas camas elásticas coladas**, cada uma com lonas de tecidos variados.
 
-O **estroma anterior** (~120 µm) tem lamelas densamente entrelaçadas, com fibras cruzando-se em múltiplas direções. Esta arquitetura confere alta rigidez tangencial — ele resiste à deformação e redistribui carga lateralmente, como um tecido trançado.
+O **estroma anterior** (~120 µm) é como uma lona densamente cruzada, muito rígida, amarrada fortemente. 
+O **estroma posterior** (~330 µm) é como uma lona com tiras paralelas, muito mais frouxas, capazes de cederem com facilidade.
 
-O **estroma posterior** tem lamelas organizadas de forma mais paralela, com menor entrelaçamento entre camadas adjacentes. Ele é estruturalmente mais deformável — cede mais facilmente sob a mesma carga.
+![Figura 1.6: Por Que Anterior e Posterior Não Concordam nos Eixos — Vista de topo. A superfície anterior rígida responde à PIO formando um eixo astigmático (azul, 95°), enquanto a superfície posterior flexível e frouxa cede mais livremente, adotando um eixo relaxado diferente (laranja, 135°).](../../images/CH-001_Anatomia/anterior_posterior_v3.svg)
 
-![Figura 1.6: Por Que Anterior e Posterior Não Concordam — Corte transversal com proporções reais (~120µm anterior vs ~330µm posterior). Mesma PIO atuando sobre duas redes com rigidez diferente pode gerar eixos de astigmatismo rotados 15-40° entre superfícies.](../../images/CH-001_Anatomia/anterior_posterior_v2_1772192382852.png)
+Quando a Pressão Intraocular (PIO) empurra essa "cama elástica dupla" de dentro para fora, **cada lona cede e entorta em um eixo distinto, de acordo com o que a sua própria trama de fibras permite**.
 
-Quando a PIO — que é a mesma para ambos os andares — deforma a córnea, **cada camada responde de acordo com sua arquitetura**. O estroma posterior, mais flexível, pode ceder em eixo ligeiramente diferente do anterior. O estroma anterior, mais rígido, redistribui parte da carga e pode manter um eixo aparente diferente do real.
+- O **posterior (mais flexível)** cede bastante e rapidamente, torcendo num eixo natural que o seu esgarçamento define (ex: astigmatismo a 135°).
+- O **anterior (mais rígido)** hesita, reage limitadamente graças às fibras cruzadas (oblíquas), e acaba absorvendo a tensão torcido em um eixo mecanicamente diferente para compensar (ex: eixo a 95°).
 
-O resultado é mensurável no Pentacam: divergência angular de 15–40° entre o eixo do astigmatismo anterior e posterior. Isso não é erro de medida. É a assinatura de duas redes mecânicas distintas respondendo à mesma força de maneira diferente.
+Por isso, ao ler resultados avançados em tomógrafos como o Pentacam ou Galilei, é perfeitamente normal encontrar uma divergência que varia de 15 a 40 graus entre o astigmatismo real da face posterior e o da face anterior. Não é erro de medida da máquina — é o tecido biológico interno reagindo em torções anatômicas compensatórias.
 
-> **Implicação cirúrgica (desenvolvida no Capítulo 8, Limitação 4):** Quando anterior e posterior divergem significativamente, o Plácido — que lê apenas a superfície anterior — pode não revelar o verdadeiro eixo vetorial da ectasia. A tomografia posterior e o eixo do coma tornam-se complementos obrigatórios.
+> **Implicação cirúrgica (desenvolvida no Capítulo 8, Limitação 4):** Quando o eixo anterior e posterior divergem significativamente, o disco de Plácido (topografia) — que reflete apenas o topo da "cama elástica rígida" dianteira — pode ofuscar a pior ferida torcional escondida lá atrás. A tomografia e o eixo base do coma tornam-se essenciais.
 
 ---
 
@@ -492,7 +494,7 @@ A ectasia corneana — seja ceratocone primário, seja ectasia pós-cirurgia ref
 
 **Estágio 3 — O epitélio mascara.** O epitélio corneano atua como uma camada de suavização biológica — ele engrossa sobre as depressões e afina sobre as protrusões. Este remodelamento epitelial (visível em mapas de espessura epitelial por OCT) cria uma superfície anterior mais regular do que o estroma subjacente realmente é. O Plácido, refletindo esta superfície suavizada, pode subestimar a severidade real da ectasia.
 
-![Figura 1.7: A Ectasia como Falência em Camadas — Progressão em 4 estágios: malha intacta → posterior desloca-se anteriormente → anterior redistribui → epitélio mascara. Na ectasia, a superfície posterior abaulha em direção à anterior (não protrui para fora). O Plácido lê apenas a superfície final suavizada.](../../images/CH-001_Anatomia/ectasia_progression_v2_1772192394453.svg)
+![Figura 1.7: A Ectasia como Falência em Camadas — Progressão em 4 estágios: malha intacta → posterior desloca-se anteriormente → anterior redistribui → epitélio mascara. Na ectasia, a superfície posterior abaulha em direção à anterior (não protrui para fora). O Plácido lê apenas a superfície final suavizada.](../../images/CH-001_Anatomia/ectasia_progression.svg)
 
 > **A lição fundamental para o cirurgião de anéis:** O que você vê no Plácido é o resultado final de uma cadeia de compensações. A superfície anterior é o último dominó a cair — e quando cai, já é visível. Mas o vetor biomecânico que causou a ectasia frequentemente começou no plano posterior, em eixo que pode diferir do que a superfície mostra. É por isso que o planejamento vetorial avançado (Capítulo 8) integra Plácido, tomografia posterior e coma — nunca um isoladamente.
 

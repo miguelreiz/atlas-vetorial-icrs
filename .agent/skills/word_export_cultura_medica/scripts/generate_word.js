@@ -658,7 +658,7 @@ function criarTabela(linhas) {
     new Table({
       rows: tableRows,
       width: { size: 100, type: WidthType.PERCENTAGE },
-      layout: TableLayoutType.FIXED,
+      layout: TableLayoutType.AUTOFIT,
       borders: {
         top: { style: BorderStyle.SINGLE, size: 8, color: COR.AZUL_ESCURO },
         bottom: { style: BorderStyle.SINGLE, size: 8, color: COR.AZUL_ESCURO },
