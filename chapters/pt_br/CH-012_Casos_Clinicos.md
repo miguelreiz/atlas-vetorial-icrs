@@ -177,7 +177,7 @@ A aplicação de múltiplos túneis (ex: arco 210° + arco 140° em diferentes d
 | 3 | Globoso | Duplo simétrico máximo | VR (força bruta) | Bom |
 | 4 | **Oval + Anel errado** | **Simétrico (erro)** | **VR sem Vτ** | **Subótimo** |
 
-![Figura 11.1: Vetores do Anel na Escala das Fibras — Corte transversal mostrando ICRS a 70-75% de profundidade, tenting effect nas lamelas acima do implante, VR (azul) apontando para o aplainamento central, VT redistribuindo tensão tangencialmente](../../images/CH-002_Biomecanica/Figura_2.1_Principios_Biomecanicos_v4.png)
+![Figura 11.1: Vetores do Anel na Escala das Fibras — Corte transversal mostrando ICRS a 70-75% de profundidade, tenting effect nas lamelas acima do implante, VR (azul) apontando para o aplainamento central, VT redistribuindo tensão tangencialmente](../../images/CH-002_Biomecanica/Figura_2.1_Principios_Biomecanicos_v4.svg)
 
 #### 💡 Análise dos Casos na Escala das Fibras (Síntese do Autor)
 

@@ -558,7 +558,7 @@ O formato da seção transversal do anel determina **como** o estresse é distri
 - 360° = 100% de cobertura → contenção máxima
 - ✅ Melhor para: KC progressivo jovem, estabilização pura, Ø5-8mm
 
-![Figura 2.6: Triangular vs Flat — Interação com as fibras de colágeno. Triangular: força centrífuga focal, VR concentrado (cunha entre lamelas). Flat: força centrífuga difusa, VR diluído + VT (almofada sobre lamelas). Aplainamento = consequência geométrica.](../../images/CH-002_Biomecanica/Figura_2.1_Principios_Biomecanicos_v4.png)
+![Figura 2.6: Triangular vs Flat — Interação com as fibras de colágeno. Triangular: força centrífuga focal, VR concentrado (cunha entre lamelas). Flat: força centrífuga difusa, VR diluído + VT (almofada sobre lamelas). Aplainamento = consequência geométrica.](../../images/CH-002_Biomecanica/Figura_2.1_Principios_Biomecanicos_v4.svg)
 
 ---
 *Pipeline Status: DRAFT v0.6.0 — Revisado pelo Engenheiro Vetorial*
