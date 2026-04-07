@@ -122,7 +122,7 @@ A classificação tradicional de Amsler-Krumeich divide o ceratocone em estágio
 1. **Figura 3.1 — Os 5 Padrões Fenotípicos no Plácido:** Cinco mapas topográficos circulares lado a lado mostrando P1 (Circular), P2 (Oval), P3 (Duck), P4 (Snowman), P5 (Complexo).
 2. **Figura 3.2 — Fluxograma de Classificação:** As 4 perguntas em formato de árvore decisória levando ao nomograma vetorial.
 
-![Figura 3.1: Os 5 Padrões do Ceratocone no Plácido — P1 Circular (Nipple), P2 Oval (Sagging), P3 Duck (dois lobos), P4 Snowman (duplo círculo), P5 Complexo (fragmentado). Cada padrão determina a hierarquia de vetores.](../../images/CH-003_Classificacao/Figura_3.1_5_Padroes_Placido.png)
+![Figura 3.1: Os 5 Padrões do Ceratocone no Plácido — P1 Circular (Nipple), P2 Oval (Sagging), P3 Duck (dois lobos), P4 Snowman (duplo círculo), P5 Complexo (fragmentado). Cada padrão determina a hierarquia de vetores.](../../images/CH-003_Classificacao_Ceratocone/Figura_3.1_Padroes_Topograficos.svg)
 
 ![Figura 3.2: Fluxograma de Classificação Vetorial — 4 Perguntas: Padrão → Subtipo (P3/P4) → Escala de Severidade (A/B/C) → Hierarquia de Vetores → Prescrição do Anel](../../images/CH-003_Classificacao/Figura_3.2_Fluxograma_Classificacao.png)
 

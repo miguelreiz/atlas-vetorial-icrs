@@ -92,7 +92,7 @@ Diferente do Vetor Radial (onde segmentos mais finos com diâmetros menores têm
 
 1. **Figura 5.2 — Dinâmica da Tração Tangencial no Estroma:** Visão top-down (superior) das lamelas de colágeno sendo puxadas pelas extremidades do anel. Demonstra como o VT é gerado quase que inteiramente pelas pontas do segmento esticando o tecido longitudinalmente, enquanto o meio atua como ancoragem passiva.
 
-![Figura 5.2: Dinâmica da Tração Tangencial — As pontas do anel atuam como âncoras focais, tracionando violentamente as lamelas de colágeno ao longo do seu eixo, redistribuindo a tensão do meridiano](../../images/CH-005_VT/Figura_Tangential_Traction.png)
+![Figura 5.2: Dinâmica da Tração Tangencial — As pontas do anel atuam como âncoras focais, tracionando violentamente as lamelas de colágeno ao longo do seu eixo, redistribuindo a tensão do meridiano](../../images/CH-005_VT_Vetor_Tangencial/Figura_5_Incision_Axis_ENM.svg)
 
 - **Arcos Curtos (90° - 120°):** Geram um Vetor Tangencial altamente focado e intenso nas suas extremidades. Excelentes para girar agressivamente eixos localizados ou quebrar assimetrias periféricas intensas (ex: nódulos de ceratocone periférico extremo). Agem quase como "cunhas limitantes" de astigmatismo focal.
 - **Arcos Longos (160° - 340°):** O Vetor Tangencial se difunde ao longo de um amplo arco estromal. Eles produzem um efeito de regularização em massa — o chamado "efeito cinta" ou "ring effect". Um anel de 340° tem o Vetor Tangencial dominando esmagadoramente o resultado, englobando a córnea e forçando a centralização maciça do cone.
@@ -178,7 +178,7 @@ Se o cirurgião posiciona a incisão fora do K-steep:
 
 > **Pérola Micro:** O VT não cria tensão nova. Ele **redistribui** a tensão existente entre meridianos. Se a redistribuição é correta (incisão no K-steep), o astigmatismo diminui. Se é incorreta, o astigmatismo muda de eixo e pode até aumentar.
 
-![Figura 5.3: Efeito de Acoplamento nas Fibras — Tensão transferida do K-steep para o K-flat a 90°. Antes: astigmatismo 6D. Depois: 1D redistribuído](../../images/CH-005_VT/Figura_Efeito_Acoplamento.png)
+![Figura 5.3: Efeito de Acoplamento nas Fibras — Tensão transferida do K-steep para o K-flat a 90°. Antes: astigmatismo 6D. Depois: 1D redistribuído](../../images/CH-005_VT_Vetor_Tangencial/Figura_5_Efeito_Acoplamento.svg)
 
 ---
 

@@ -85,7 +85,7 @@ A córnea pode ser mapeada em zonas concêntricas. **Cada zona tem uma arquitetu
 | **Largura de cada lamela** | 0.5–2.5 mm (variável) | ✅ Winkler et al., 2013 |
 | **Número total de lamelas** | ~200 (empilhadas) | ✅ Komai & Ushiki, 1991 |
 
-![Figura 1.12a: Dimensões das Fibrilas de Colágeno — A microestrutura lamelar revelada pelo WAXS.](../../images/CH-001_Anatomia/Figura_Fibrilas_WAXS.png)
+![Figura 1.12a: Dimensões das Fibrilas de Colágeno — A microestrutura lamelar revelada pelo WAXS.](../../images/CH-001_Anatomia/Figura_WAXS_Mapa.svg)
 
 #### Arquitetura Fibrilar por Zona — A Chave para Entender os Diâmetros dos Anéis
 
@@ -147,7 +147,7 @@ Diagrama em escala — Onde o anel fica:
  550µm ┴
 ```
 
-![Figura 1.13: Proporções do Estroma Corneano — Anterior (30%) vs Posterior (70%). Corte transversal mostrando estroma anterior rico em oblíquas verdes (feltro, isotrópico) versus estroma posterior com fibras vermelhas paralelas (ortogonais N-T/S-I). ICRS posicionado a 70-75% de profundidade no estroma posterior. Proporção em escala.](../../images/CH-001_Anatomia/stromal_proportion_depth_1772301574639.png)
+![Figura 1.13: Proporções do Estroma Corneano — Anterior (30%) vs Posterior (70%). Corte transversal mostrando estroma anterior rico em oblíquas verdes (feltro, isotrópico) versus estroma posterior com fibras vermelhas paralelas (ortogonais N-T/S-I). ICRS posicionado a 70-75% de profundidade no estroma posterior. Proporção em escala.](../../images/CH-001_Anatomia/cornea_cross_section_pt.svg)
 
 > **⚠️ Qualificação sobre Profundidade WAXS (importante para defesa científica):**
 >
@@ -411,7 +411,7 @@ O estroma é composto por ~200 lamelas empilhadas. Cada lamela é uma "folha" de
 - 🔵 **Fibras tangenciais (circunferenciais):** correm em arcos paralelos ao limbo (como cercas concêntricas) — ✅ Meek & Newton, 1998 (Annulus Limbal)
 - 🟢 **Fibras oblíquas (interlamelares):** conectam as camadas anteriores às posteriores (como tirantes de uma ponte) — ✅ Radner et al., 1998; Winkler et al., 2013
 
-![Figura 1.8: Malha de Colágeno Corneana Normal — Vista Superior. Fibras radiais (vermelhas) do centro à periferia, tangenciais (azuis) em arcos concêntricos no limbo, oblíquas (verdes) conectando camadas. Tensão equilibrada = curvatura uniforme = Plácido concêntrico](../../images/CH-001_Anatomia/collagen_fiber_pattern_1772276571709.png)
+![Figura 1.8: Malha de Colágeno Corneana Normal — Vista Superior. Fibras radiais (vermelhas) do centro à periferia, tangenciais (azuis) em arcos concêntricos no limbo, oblíquas (verdes) conectando camadas. Tensão equilibrada = curvatura uniforme = Plácido concêntrico](../../images/CH-001_Anatomia/astigmatism_fiber_mesh.svg)
 
 > **💡 Síntese do Autor:** Cada família de fibras conecta-se a um vetor de correção do ICRS: radiais → VR (aplainamento), tangenciais → VT (redistribuição), oblíquas → estabilização interlamelar. Esta ponte fibra→vetor é proposta pelo autor com base na convergência de evidência WAXS (Meek), SHG (Winkler), e EM (Radner).
 
@@ -425,7 +425,7 @@ As fibras oblíquas não estão distribuídas uniformemente. Elas formam um **gr
 
 No ceratocone, a degradação enzimática (MMP-2, MMP-9 — ✅ Kenney et al., 2004) enfraquece os proteoglicanos que ancoram as fibras oblíquas. A cascata progride em 4 etapas:
 
-![Figura 1.10: Cascata Patogênica do Ceratocone na Escala das Fibras — 4 estágios: (1) Normal: fibras intactas. (2) Degradação: MMPs degradam proteoglicanos, oblíquas perdem ancoragem. (3) Deslizamento: lamelas deslizam, radiais frouxas. (4) Ectasia: PIO vence focalmente, protrusão. Tangenciais límbicas preservadas em todos os estágios — Kenney 2003/2004, Radner 1998, Winkler 2013, Meek & Knupp 2015](../../images/CH-001_Anatomia/cascata_patogenica_fibras.svg)
+![Figura 1.10: Cascata Patogênica do Ceratocone na Escala das Fibras — 4 estágios: (1) Normal: fibras intactas. (2) Degradação: MMPs degradam proteoglicanos, oblíquas perdem ancoragem. (3) Deslizamento: lamelas deslizam, radiais frouxas. (4) Ectasia: PIO vence focalmente, protrusão. Tangenciais límbicas preservadas em todos os estágios — Kenney 2003/2004, Radner 1998, Winkler 2013, Meek & Knupp 2015](../../images/CH-001_Anatomia/Figura_Catastrofe_Lamelar.svg)
 
 ![Figura 1.11: Ceratocone na Escala das Fibras — Vista superior mostrando: radiais inferiores (🔴) frouxas e fragmentadas, oblíquas (🟢) ausentes na zona do cone, tangenciais límbicas (🔵) preservadas. Zona de ectasia em laranja. Explica por que o ceratocone é central/paracentral, nunca límbico](../../images/CH-001_Anatomia/keratoconus_fiber_damage.svg)
 

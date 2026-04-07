@@ -129,7 +129,7 @@ TOPOGRAFIA
 PRESCRIÇÃO CIRÚRGICA
 ```
 
-![Figura 9.1: Fluxograma do Nomograma Vetorial — Os 5 passos para traduzir a topografia em uma prescrição de anel](../../images/CH-011_Nomogramas/nomogram_flowchart_pt_1771791398451.png)
+![Figura 9.1: Fluxograma do Nomograma Vetorial — Os 5 passos para traduzir a topografia em uma prescrição de anel](../../images/CH-011_Nomogramas/Figura_11.1_Fluxograma_Nomograma.svg)
 
 ### Exemplo Prático: Nomograma Vetorial Aplicado
 
@@ -239,7 +239,7 @@ A escolha do **perfil** (triangular vs flat) e do **arco** (curto vs longo) deve
 | **Alta miopia + KC** | 🟠 Fusiforme (HM) | 320° | VR+VT | Fuso concentrador + arco longo |
 | **KC Progressivo** | ⭕ MyoRing ou ⬮ CornealRing | 360° ou 300° + CXL | Annulus + CXL | Máxima contenção + crosslinks bioquímicos |
 
-![Figura 10.1: Matriz de Decisão — Perfil × Arco × Fenótipo. P1 Nipple (triangular+curto, VR centrífugo bilateral), P2 Oval (arredondado+longo, VT+contenção), P3 Duck (prismático-trap./triangular+assimétrico), KC Progressivo (MyoRing 360° ou CornealRing 300°+CXL)](../../images/CH-011_Nomogramas/perfil_fenotipo_matriz_1772316336266.png)
+![Figura 10.1: Matriz de Decisão — Perfil × Arco × Fenótipo. P1 Nipple (triangular+curto, VR centrífugo bilateral), P2 Oval (arredondado+longo, VT+contenção), P3 Duck (prismático-trap./triangular+assimétrico), KC Progressivo (MyoRing 360° ou CornealRing 300°+CXL)](../../images/CH-011_Nomogramas/Figura_11.2_Matriz_Nomograma.svg)
 
 > **💡 Síntese:** 🔺 Triangular = cunha para cones focais (VR). △ AJL PRO+ = torque geométrico (Vτ). 🟠 HM = fuso VR+VT. ⬮ CornealRing = almofada para cones amplos (VT). ⭕ MyoRing = cinta completa (KC progressivo).
 

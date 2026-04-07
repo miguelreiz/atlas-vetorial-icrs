@@ -46,7 +46,7 @@ Agora imagine que o farol está **torto** — inclinado para baixo e para a dire
 
 **Isso é coma.** O ponto mais curvo da córnea (o ápice do cone) está deslocado do eixo visual, e a luz que entra no olho não converge simetricamente. Uma parte da imagem fica nítida, mas a outra fica borrada com uma "cauda" — exatamente como um cometa no céu (daí o nome "coma").
 
-![Figura 7.1: O Que é Coma? A Analogia do Farol — Farol alinhado gera ponto perfeito (sem coma). Farol torto gera mancha borrada com cauda de cometa (coma)](../../images/CH-007_VComa/Figura_Coma_Headlight.png)
+![Figura 7.1: O Que é Coma? A Analogia do Farol — Farol alinhado gera ponto perfeito (sem coma). Farol torto gera mancha borrada com cauda de cometa (coma)](../../images/CH-007_VComa/Figura_7.1_Analogia_Coma.svg)
 
 #### Por Que o Ceratocone Gera Coma?
 
@@ -87,7 +87,7 @@ Onde:
 Objetivo cirúrgico: Minimizar |VComa| → Mover o ápice para (0, 0) = Centro Pupilar
 ```
 
-![Figura 7.2: Mapa de Calor do Ápice Descentrado — O VComa é a distância (seta roxa) entre o ápice real do cone (zona quente) e o eixo visual (+). Quanto maior a seta, maior o coma](../../images/CH-007_VComa/Figura_VComa_Heatmap.png)
+![Figura 7.2: Mapa de Calor do Ápice Descentrado — O VComa é a distância (seta roxa) entre o ápice real do cone (zona quente) e o eixo visual (+). Quanto maior a seta, maior o coma](../../images/CH-007_VComa/Figura_7.2_VComa_Heatmap.svg)
 
 ### Aplicação Clínica
 
@@ -103,7 +103,7 @@ O ápice está longe do centro (descentrado inferiormente). O coma é altíssimo
 
 > **Regra Clínica:** Se o coma pré-operatório é a queixa dominante (visão distorcida, "cauda de cometa"), o planejamento cirúrgico deve priorizar o VComa (e portanto o Vτ), mesmo que isso signifique sacrificar algum aplainamento central (VR).
 
-![Figura 7.3: Hierarquia dos Vetores por Fenótipo — No cone central (nipple), priorize VR. No cone oval (sagging), priorize VComa e Torque](../../images/CH-007_VComa/Figura_VComa_Hierarchy.png)
+![Figura 7.3: Hierarquia dos Vetores por Fenótipo — No cone central (nipple), priorize VR. No cone oval (sagging), priorize VComa e Torque](../../images/CH-007_VComa/Figura_7.3_Hierarquia_Cone.svg)
 
 #### Mapeando o VComa na Topografia
 
@@ -179,7 +179,7 @@ O segmento assimétrico (ponta grossa inferior) atua nas fibras em 3 etapas:
 
 > **Pérola Micro:** O coma não desaparece porque o anel "corrigiu uma aberração óptica". Desaparece porque o anel **reorganizou fisicamente as fibras** de modo que a assimetria de tensão entre metades da córnea foi reduzida. A óptica é consequência da mecânica.
 
-![Figura 7.4: Coma como Duas Hemicórneas — Metade superior com lamelas intactas e foco correto; metade inferior com lamelas frouxas e foco deslocado. Anel reorganiza → focos convergem → coma reduzido](../../images/CH-007_VComa/Figura_Coma_Hemicorneas.png)
+![Figura 7.4: Coma como Duas Hemicórneas — Metade superior com lamelas intactas e foco correto; metade inferior com lamelas frouxas e foco deslocado. Anel reorganiza → focos convergem → coma reduzido](../../images/CH-007_VComa/Figura_7.4_Coma_Hemicorneas.svg)
 
 ---
 
