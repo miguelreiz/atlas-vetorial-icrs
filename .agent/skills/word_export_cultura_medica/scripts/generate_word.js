@@ -411,8 +411,13 @@ function buscarImagemRecursiva(nomeArquivo) {
  * Detecta o tipo real de imagem pelos magic bytes do header
  * Extensão de arquivo NÃO é confiável (muitas imagens .png são na verdade JPEG)
  */
-function detectarTipoImagem(data) {
+function detectarTipoImagem(data, filename) {
+  if (filename && filename.toLowerCase().endsWith('.svg')) return 'svg';
+  
   if (data.length < 4) return 'png'; // fallback
+
+  const prefix = data.slice(0, 100).toString('utf8').trim().toLowerCase();
+  if (prefix.startsWith('<svg') || prefix.startsWith('<?xml')) return 'svg';
 
   // JPEG: FF D8 FF
   if (data[0] === 0xFF && data[1] === 0xD8 && data[2] === 0xFF) return 'jpg';
@@ -469,7 +474,7 @@ function carregarImagem(imgPath, chapterDir) {
     if (fs.existsSync(normalized)) {
       try {
         const data = fs.readFileSync(normalized);
-        const type = detectarTipoImagem(data);
+        const type = detectarTipoImagem(data, normalized);
         return { data, type, path: normalized };
       } catch (e) { /* skip */ }
     }
@@ -706,7 +711,15 @@ function criarTabela(linhas) {
  */
 function parseMarkdown(conteudo, chapterDir) {
   const elementos = [];
-  const linhas = conteudo.split(/\r?\n/);
+  let linhas = conteudo.split(/\r?\n/);
+  
+  if (linhas.length > 0 && linhas[0] === '---') {
+    const endIdx = linhas.indexOf('---', 1);
+    if (endIdx !== -1) {
+      linhas = linhas.slice(endIdx + 1);
+    }
+  }
+
   let i = 0;
 
   while (i < linhas.length) {
