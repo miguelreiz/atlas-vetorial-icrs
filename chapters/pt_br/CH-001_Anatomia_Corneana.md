@@ -425,7 +425,7 @@ As fibras oblíquas não estão distribuídas uniformemente. Elas formam um **gr
 
 No ceratocone, a degradação enzimática (MMP-2, MMP-9 — ✅ Kenney et al., 2004) enfraquece os proteoglicanos que ancoram as fibras oblíquas. A cascata progride em 4 etapas:
 
-![Figura 1.10: Cascata Patogênica do Ceratocone na Escala das Fibras — 4 estágios: (1) Normal: fibras intactas. (2) Degradação: MMPs degradam proteoglicanos, oblíquas perdem ancoragem. (3) Deslizamento: lamelas deslizam, radiais frouxas. (4) Ectasia: PIO vence focalmente, protrusão. Tangenciais límbicas preservadas em todos os estágios — Kenney 2003/2004, Radner 1998, Winkler 2013, Meek & Knupp 2015](../../images/CH-001_Anatomia/Figura_Catastrofe_Lamelar.svg)
+![Figura 1.10: Cascata Patogênica do Ceratocone na Escala das Fibras — 4 estágios: (1) Normal: fibras intactas. (2) Degradação: MMPs degradam proteoglicanos, oblíquas perdem ancoragem. (3) Deslizamento: lamelas deslizam, radiais frouxas. (4) Ectasia: PIO vence focalmente, protrusão. Tangenciais límbicas preservadas em todos os estágios — Kenney 2003/2004, Radner 1998, Winkler 2013, Meek & Knupp 2015](../../images/CH-001_Anatomia/cascata_patogenica_fibras.svg)
 
 ![Figura 1.11: Ceratocone na Escala das Fibras — Vista superior mostrando: radiais inferiores (🔴) frouxas e fragmentadas, oblíquas (🟢) ausentes na zona do cone, tangenciais límbicas (🔵) preservadas. Zona de ectasia em laranja. Explica por que o ceratocone é central/paracentral, nunca límbico](../../images/CH-001_Anatomia/keratoconus_fiber_damage.svg)
 
