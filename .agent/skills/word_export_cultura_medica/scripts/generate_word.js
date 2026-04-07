@@ -639,11 +639,15 @@ function criarTabela(linhas) {
   const rows = linhas.filter(l => !l.match(/^[\s|:-]+$/));
   if (rows.length === 0) return [];
 
+  let numCols = 1;
+
   const tableRows = rows.map((linha, rowIdx) => {
     const cells = linha
       .split('|')
       .filter((_, i, arr) => i > 0 && i < arr.length - 1) // remover bordas empty
       .map(cell => cell.trim());
+
+    if (rowIdx === 0 && cells.length > 0) numCols = cells.length;
 
     const isHeader = rowIdx === 0;
     const altRow = !isHeader && rowIdx % 2 === 0;
@@ -654,11 +658,16 @@ function criarTabela(linhas) {
     });
   });
 
+  // 160mm usable width = ~9071 twips total
+  const twipsPerCol = Math.floor(9071 / numCols);
+  const colWidths = Array(numCols).fill(twipsPerCol);
+
   return [
     new Table({
       rows: tableRows,
+      columnWidths: colWidths,
       width: { size: 100, type: WidthType.PERCENTAGE },
-      layout: TableLayoutType.AUTOFIT,
+      layout: TableLayoutType.FIXED,
       borders: {
         top: { style: BorderStyle.SINGLE, size: 8, color: COR.AZUL_ESCURO },
         bottom: { style: BorderStyle.SINGLE, size: 8, color: COR.AZUL_ESCURO },
