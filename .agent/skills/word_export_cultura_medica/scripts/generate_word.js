@@ -721,9 +721,29 @@ function parseMarkdown(conteudo, chapterDir) {
   }
 
   let i = 0;
+  let inIgnoredSection = false;
 
   while (i < linhas.length) {
     const linha = linhas[i];
+
+    // Ignorar seções de gestão interna da IA
+    if (linha.match(/^##\s+.*(METADADOS|NÚCLEO CIENTÍFICO|SKILL|ESPECIFICAÇÃO VISUAL)/i)) {
+      inIgnoredSection = true;
+      i++; continue;
+    }
+
+    // Retornar leitura se bater em um H2 legítimo de conteúdo (ex: CONTEÚDO INSTRUCIONAL)
+    if (linha.match(/^##\s+/) && !linha.match(/^##\s+.*(METADADOS|NÚCLEO CIENTÍFICO|SKILL|ESPECIFICAÇÃO VISUAL)/i)) {
+      inIgnoredSection = false;
+    }
+
+    if (inIgnoredSection) {
+      i++; continue;
+    }
+
+    if (linha.match(/Pipeline Status: DRAFT/i)) {
+      i++; continue;
+    }
 
     // ── H1
     if (linha.startsWith('# ') && !linha.startsWith('## ')) {
