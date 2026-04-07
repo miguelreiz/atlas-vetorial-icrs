@@ -639,34 +639,50 @@ function criarTabela(linhas) {
   const rows = linhas.filter(l => !l.match(/^[\s|:-]+$/));
   if (rows.length === 0) return [];
 
-  let numCols = 1;
+  // Extrair todas as células de todas as linhas
+  const allCells = rows.map(linha => 
+    linha.split('|').filter((_, i, arr) => i > 0 && i < arr.length - 1).map(c => c.trim())
+  );
+  
+  if (allCells.length === 0 || allCells[0].length === 0) return [];
+  const numCols = allCells[0].length;
 
-  const tableRows = rows.map((linha, rowIdx) => {
-    const cells = linha
-      .split('|')
-      .filter((_, i, arr) => i > 0 && i < arr.length - 1) // remover bordas empty
-      .map(cell => cell.trim());
-
-    if (rowIdx === 0 && cells.length > 0) numCols = cells.length;
-
-    const isHeader = rowIdx === 0;
-    const altRow = !isHeader && rowIdx % 2 === 0;
-
-    return new TableRow({
-      children: cells.map(cell => criarCelula(cell, isHeader, altRow)),
-      tableHeader: isHeader,
+  // Descobrir a maior string em cada coluna
+  const maxCharsPerCol = Array(numCols).fill(5); // piso mínimo de 5 chars
+  allCells.forEach(row => {
+    row.forEach((cell, i) => {
+      if (i < numCols) {
+        // Remover markdown bold/italics ignorando peso deles
+        const cleanCell = cell.replace(/[*`_]/g, '');
+        if (cleanCell.length > maxCharsPerCol[i]) {
+            // Teto de 45 chars para um parágrafo não sugar todo o espaço da tabela
+            maxCharsPerCol[i] = Math.min(cleanCell.length, 45); 
+        }
+      }
     });
   });
 
-  // 160mm usable width = ~9071 twips total
-  const twipsPerCol = Math.floor(9071 / numCols);
-  const colWidths = Array(numCols).fill(twipsPerCol);
+  // Distribuir os ~9071 twips (160mm) proporcionalmente ao peso de texto de cada coluna
+  const totalCharWeight = maxCharsPerCol.reduce((acc, val) => acc + val, 0);
+  const colWidths = maxCharsPerCol.map(w => Math.floor(9071 * (w / totalCharWeight)));
+
+  const tableRows = allCells.map((cells, rowIdx) => {
+    const isHeader = rowIdx === 0;
+    const altRow = !isHeader && rowIdx % 2 === 0;
+    return new TableRow({
+      children: cells.map((cell, i) => {
+          // Fallback se a linha tiver menos colunas que o header
+          return criarCelula(cell || '', isHeader, altRow);
+      }),
+      tableHeader: isHeader,
+    });
+  });
 
   return [
     new Table({
       rows: tableRows,
       columnWidths: colWidths,
-      width: { size: 100, type: WidthType.PERCENTAGE },
+      width: { size: 9071, type: WidthType.DXA },
       layout: TableLayoutType.FIXED,
       borders: {
         top: { style: BorderStyle.SINGLE, size: 8, color: COR.AZUL_ESCURO },
