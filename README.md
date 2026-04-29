@@ -77,3 +77,4 @@ Conteúdo editorial © Miguel Reiz. Todos os direitos reservados.
 ---
 
 *"O vetor não é uma seta desenhada sobre o mapa. O vetor É a manifestação geométrica da tensão nas lamelas de colágeno."*
+
