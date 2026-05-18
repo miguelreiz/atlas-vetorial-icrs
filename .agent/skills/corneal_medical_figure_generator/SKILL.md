@@ -154,14 +154,17 @@ ELEMENTOS ESPECIAIS:
 
 Vetores biomecânicos representáveis:
 
-| Vetor | Direção | Cor | Contexto |
-|-------|---------|-----|----------|
-| PIO | +Z (endotélio → epitélio) | Branco/Amarelo | Sempre presente |
-| VR | Centrífugo (do anel para fora) | Azul (correção) | Efeito do ICRS |
-| VT | Tangencial ao arco | Azul (correção) | Aplanamento |
-| Vτ | Rotacional (torque) | Verde | Efeito oblíquas |
-| VComa | Oposto ao deslocamento | Azul (correção) | Correção KC |
-| V_KC | -Y, +X (OD), +Z | Vermelho (doença) | Deslocamento ectásico |
+| Vetor | Direção | Cor | Hex | Contexto |
+|-------|---------|-----|-----|----------|
+| PIO | +Z (endotélio → epitélio) | Branco | `#FFFFFF` | Sempre presente |
+| VR | Centrífugo (do anel para fora) | Vermelho | `#CC2200` | Efeito do ICRS — aplainamento |
+| VT | Tangencial ao arco | Ciano | `#00B4DC` | Redistribuição |
+| Vτ | Rotacional (torque) | Verde | `#00CC44` | Efeito oblíquas |
+| VComa | Oposto ao deslocamento | Laranja | `#FF6600` | Correção KC |
+| V_End | Descendente (anel → posterior) | Verde-água | `#00FF88` | Aplainamento endotelial |
+| V_KC | -Y, +X (OD), +Z | Vermelho intenso | `#FF1744` | Deslocamento ectásico |
+
+> ⚠️ **Fonte canônica de cores:** `atlas_visual_identity_system` §1
 
 ---
 
@@ -220,3 +223,14 @@ A figura gerada deve ser adequada para:
 - 🎤 Apresentação em congresso
 - 📄 Artigo científico (JCRS, Cornea, IOVS)
 - 🖥️ Material didático digital
+
+---
+
+## SKILLS RELACIONADAS
+
+| Skill | Relação |
+|-------|---------|
+| `atlas_visual_identity_system` | **Paleta canônica** — fonte única de verdade para cores e regras visuais |
+| `svg_vector_aesthetic_engine` | Estética premium para SVG/React |
+| `pipeline_figura_express` | Motor de execução Python (YAML → script → PNG) |
+| `icrs_geometria_precisa` | Templates de código matplotlib |

@@ -1,0 +1,93 @@
+<svg viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1600" height="700" fill="#FFFFFF"/>
+    <defs>
+        <marker id="arrowR2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#C00" />
+        </marker>
+        <marker id="arrowDark" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#001F3F" />
+        </marker>
+        <marker id="arrowIOP" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#FFC107" />
+        </marker>
+    </defs>
+    <text x="800" y="50" fill="#112233" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">Figure 22.2 — Compensatory Epithelial Masking (Reinstein Law)</text>
+    
+    <g transform="translate(150, 150)">
+        <rect x="0" y="0" width="1300" height="450" fill="#F4F7FB" stroke="#DDE5F0"/>
+        
+        <!-- Base curves -->
+        <!-- True stroma (Bowman). Rings at 380 and 920. 
+             Over the rings: TENTING (elevation). y=130
+             Between the rings (center): TRENCH (flattening). y=200
+             Edges: y=180 -->
+        <path d="M 0 180 Q 200 170 300 160 Q 340 145 380 130 Q 515 200 650 200 Q 785 200 920 130 Q 960 145 1000 160 Q 1100 170 1300 180 L 1300 400 L 0 400 Z" fill="#E8F1FA"/>
+        
+        <!-- Epithelium with smoothing. 
+             Thins over ring: Placido surface is y=110 at x=380 (Thickness 20).
+             Thickens over trench: Placido surface is y=120 at x=650 (Thickness 80).
+             Edges: Placido y=140 (Thickness 40). -->
+        <path d="M 0 140 Q 200 135 300 125 Q 340 115 380 110 Q 515 120 650 120 Q 785 120 920 110 Q 960 115 1000 125 Q 1100 135 1300 140 L 1300 180 Q 1100 170 1000 160 Q 960 145 920 130 Q 785 200 650 200 Q 515 200 380 130 Q 340 145 300 160 Q 200 170 0 180 Z" fill="#FFF9C4"/>
+        
+        <!-- Anterior Surface (Placido) -->
+        <path d="M 0 140 Q 200 135 300 125 Q 340 115 380 110 Q 515 120 650 120 Q 785 120 920 110 Q 960 115 1000 125 Q 1100 135 1300 140" fill="none" stroke="#C00" stroke-width="4"/>
+        
+        <!-- Bowman/Stroma Interface -->
+        <path d="M 0 180 Q 200 170 300 160 Q 340 145 380 130 Q 515 200 650 200 Q 785 200 920 130 Q 960 145 1000 160 Q 1100 170 1300 180" fill="none" stroke="#001F3F" stroke-width="3"/>
+        
+        <!-- Endothelium -->
+        <path d="M 0 400 Q 200 390 300 380 Q 360 360 380 390 Q 515 420 650 420 Q 785 420 920 390 Q 940 360 1000 380 Q 1100 390 1300 400" fill="none" stroke="#80CBC4" stroke-width="2"/>
+
+        <!-- PMMA Rings (TRIANGULAR) at depth! -->
+        <polygon points="380,210 400,260 360,260" fill="#FF8C00" stroke="#E65100" stroke-width="2"/>
+        <polygon points="920,210 940,260 900,260" fill="#FF8C00" stroke="#E65100" stroke-width="2"/>
+        
+        <text x="380" y="280" fill="#E65100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Ferrara 3.5</text>
+        <text x="920" y="280" fill="#E65100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Ferrara 3.5</text>
+
+        <!-- IOP Arrows (pointing UP) -->
+        <line x1="200" y1="380" x2="200" y2="330" stroke="#FFC107" stroke-width="3" marker-end="url(#arrowIOP)"/>
+        <line x1="550" y1="410" x2="550" y2="360" stroke="#FFC107" stroke-width="3" marker-end="url(#arrowIOP)"/>
+        <line x1="750" y1="410" x2="750" y2="360" stroke="#FFC107" stroke-width="3" marker-end="url(#arrowIOP)"/>
+        <line x1="1100" y1="380" x2="1100" y2="330" stroke="#FFC107" stroke-width="3" marker-end="url(#arrowIOP)"/>
+        <text x="650" y="440" fill="#D49A00" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">IOP (+Z)</text>
+
+        <!-- Legends & Callouts -->
+        <g transform="translate(20, -50)">
+            <rect x="0" y="0" width="300" height="110" fill="#FFFFFF" stroke="#CCCCCC" opacity="0.9"/>
+            <rect x="10" y="10" width="20" height="10" fill="#FFF9C4"/>
+            <text x="40" y="20" fill="#112233" font-family="Arial, sans-serif" font-size="12">Epithelium (thickens to mask)</text>
+            <rect x="10" y="30" width="20" height="10" fill="#E8F1FA"/>
+            <text x="40" y="40" fill="#112233" font-family="Arial, sans-serif" font-size="12">Stroma</text>
+            <line x1="10" y1="55" x2="30" y2="55" stroke="#C00" stroke-width="4"/>
+            <text x="40" y="60" fill="#112233" font-family="Arial, sans-serif" font-size="12">Anterior surface (Placido reads here)</text>
+            <line x1="10" y1="75" x2="30" y2="75" stroke="#001F3F" stroke-width="3"/>
+            <text x="40" y="80" fill="#112233" font-family="Arial, sans-serif" font-size="12">Bowman's Interface / True Stroma</text>
+            <line x1="10" y1="95" x2="30" y2="95" stroke="#80CBC4" stroke-width="2"/>
+            <text x="40" y="100" fill="#112233" font-family="Arial, sans-serif" font-size="12">Endothelium</text>
+        </g>
+
+        <!-- Right Callouts (Central Trench) -->
+        <rect x="650" y="-30" width="160" height="50" rx="8" fill="#FFEBEE" stroke="#C00" stroke-width="2"/>
+        <text x="730" y="-5" fill="#C00" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Epithelial hyperplasia</text>
+        <text x="730" y="10" fill="#C00" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">(up to +80 μm)</text>
+        <path d="M 730 20 Q 680 70 650 140" fill="none" stroke="#C00" stroke-width="3" marker-end="url(#arrowR2)"/>
+
+        <rect x="800" y="220" width="180" height="40" rx="8" fill="#E3F2FD" stroke="#001F3F" stroke-width="2"/>
+        <text x="890" y="235" fill="#001F3F" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Stromal trench</text>
+        <text x="890" y="250" fill="#001F3F" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">(Central flattening)</text>
+        <path d="M 800 240 Q 750 220 700 200" fill="none" stroke="#001F3F" stroke-width="3" marker-end="url(#arrowDark)"/>
+        
+        <!-- Left Callouts (Ring Peak) -->
+        <rect x="250" y="40" width="120" height="40" rx="8" fill="#FFF3E0" stroke="#FF8C00" stroke-width="2"/>
+        <text x="310" y="55" fill="#E65100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Stromal Peak</text>
+        <text x="310" y="70" fill="#E65100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">(Tenting)</text>
+        <path d="M 310 80 Q 330 100 350 120" fill="none" stroke="#FF8C00" stroke-width="3" marker-end="url(#arrowDark)"/>
+
+        <!-- Axes -->
+        <line x1="-20" y1="450" x2="1320" y2="450" stroke="#B0BEC5" stroke-width="2"/>
+        <text x="650" y="480" fill="#78909C" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Radial distance (mm)</text>
+    </g>
+
+    <text x="800" y="660" fill="#667788" font-family="Arial, sans-serif" font-size="14" font-style="italic" text-anchor="middle">The ring causes tenting (stromal peak). The central stroma flattens (trench). The epithelium selectively thickens centrally to smooth the surface. (Reinstein 2008)</text>
+</svg>

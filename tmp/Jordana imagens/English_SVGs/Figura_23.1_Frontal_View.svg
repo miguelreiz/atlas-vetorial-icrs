@@ -1,0 +1,88 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="1200" fill="#FFFFFF"/>
+    <defs>
+        <marker id="arrowB2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#0288D1" />
+        </marker>
+        <marker id="arrowY" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#FDD835" />
+        </marker>
+    </defs>
+
+    <text x="600" y="80" fill="#112233" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">Figure 23.1 — Frontal View: Concentric Radial Barriers</text>
+    <text x="600" y="120" fill="#112233" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">(Corset Effect — Cascading IOP Blockade)</text>
+
+    <g transform="translate(600, 600)">
+        <circle cx="0" cy="0" r="450" fill="none" stroke="#CFD8DC" stroke-width="2" stroke-dasharray="5 5"/>
+        <text x="0" y="-470" fill="#78909C" font-family="Arial, sans-serif" font-size="16" font-style="italic" text-anchor="middle">Sclerocorneal limbus (Ø 11-12 mm)</text>
+
+        <circle cx="0" cy="0" r="180" fill="none" stroke="#B0BEC5" stroke-width="2" stroke-dasharray="8 4"/>
+        <text x="350" y="0" fill="#78909C" font-family="Arial, sans-serif" font-size="16" font-style="italic">Mesopic pupil Ø4.5 mm</text>
+        <line x1="280" y1="-5" x2="340" y2="-5" stroke="#78909C" stroke-width="2"/>
+
+        <circle cx="0" cy="0" r="140" fill="none" stroke="#D32F2F" stroke-width="12"/> <!-- Ferrara 3.5 -->
+        <circle cx="0" cy="0" r="200" fill="none" stroke="#F57C00" stroke-width="10"/> <!-- Ferrara 5.0 -->
+        <circle cx="0" cy="0" r="260" fill="none" stroke="#7B1FA2" stroke-width="10"/> <!-- Ferrara HM 6.0 -->
+        
+        <text x="0" y="-160" fill="#D32F2F" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Ferrara Ø 3.5 mm</text>
+        <text x="0" y="-220" fill="#F57C00" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Ferrara Standard Ø 5.0 mm</text>
+        <text x="0" y="-280" fill="#7B1FA2" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Ferrara HM Ø 6.0 mm</text>
+
+        <circle cx="0" cy="0" r="12" fill="#D32F2F"/>
+        <text x="0" y="30" fill="#D32F2F" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Apex</text>
+        <text x="0" y="50" fill="#D32F2F" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">(Kmax)</text>
+
+        <line x1="40" y1="0" x2="100" y2="0" stroke="#FDD835" stroke-width="4" marker-end="url(#arrowY)"/><line x1="28.284271247461902" y1="28.2842712474619" x2="70.71067811865476" y2="70.71067811865474" stroke="#FDD835" stroke-width="4" marker-end="url(#arrowY)"/><line x1="2.4492935982947065e-15" y1="40" x2="6.123233995736766e-15" y2="100" stroke="#FDD835" stroke-width="4" marker-end="url(#arrowY)"/><line x1="-28.2842712474619" y1="28.284271247461902" x2="-70.71067811865474" y2="70.71067811865476" stroke="#FDD835" stroke-width="4" marker-end="url(#arrowY)"/><line x1="-40" y1="4.898587196589413e-15" x2="-100" y2="1.2246467991473532e-14" stroke="#FDD835" stroke-width="4" marker-end="url(#arrowY)"/><line x1="-28.28427124746191" y1="-28.2842712474619" x2="-70.71067811865477" y2="-70.71067811865474" stroke="#FDD835" stroke-width="4" marker-end="url(#arrowY)"/><line x1="-7.347880794884118e-15" y1="-40" x2="-1.8369701987210297e-14" y2="-100" stroke="#FDD835" stroke-width="4" marker-end="url(#arrowY)"/><line x1="28.284271247461895" y1="-28.28427124746191" x2="70.71067811865474" y2="-70.71067811865477" stroke="#FDD835" stroke-width="4" marker-end="url(#arrowY)"/>
+
+        
+            <line x1="133.9625322141366" y1="55.48909769293802" x2="170.91771351458806" y2="70.79643498754162" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="189.39530416481378" y1="78.4501036348434" x2="226.35048546526525" y2="93.757440929447" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="244.82807611549097" y1="101.41110957674879" x2="281.78325741594244" y2="116.71844687135238" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            
+            <line x1="55.489097692938024" y1="133.9625322141366" x2="70.79643498754162" y2="170.91771351458806" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="78.45010363484342" y1="189.39530416481378" x2="93.75744092944701" y2="226.35048546526525" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="101.41110957674881" y1="244.82807611549097" x2="116.7184468713524" y2="281.78325741594244" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            
+            <line x1="-55.48909769293801" y1="133.9625322141366" x2="-70.7964349875416" y2="170.91771351458806" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="-78.45010363484339" y1="189.39530416481378" x2="-93.75744092944699" y2="226.35048546526525" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="-101.41110957674877" y1="244.82807611549097" x2="-116.71844687135237" y2="281.78325741594244" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            
+            <line x1="-133.9625322141366" y1="55.48909769293803" x2="-170.91771351458806" y2="70.79643498754163" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="-189.39530416481378" y1="78.45010363484343" x2="-226.35048546526525" y2="93.75744092944703" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="-244.82807611549097" y1="101.41110957674883" x2="-281.78325741594244" y2="116.71844687135241" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            
+            <line x1="-133.9625322141366" y1="-55.489097692938" x2="-170.91771351458806" y2="-70.79643498754159" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="-189.3953041648138" y1="-78.45010363484339" x2="-226.35048546526528" y2="-93.75744092944697" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="-244.828076115491" y1="-101.41110957674876" x2="-281.7832574159425" y2="-116.71844687135236" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            
+            <line x1="-55.489097692938095" y1="-133.96253221413656" x2="-70.79643498754172" y2="-170.917713514588" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="-78.45010363484352" y1="-189.39530416481372" x2="-93.75744092944713" y2="-226.3504854652652" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="-101.41110957674894" y1="-244.82807611549092" x2="-116.71844687135255" y2="-281.7832574159424" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            
+            <line x1="55.48909769293805" y1="-133.96253221413656" x2="70.79643498754164" y2="-170.91771351458803" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="78.45010363484344" y1="-189.39530416481375" x2="93.75744092944706" y2="-226.35048546526522" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="101.41110957674886" y1="-244.82807611549094" x2="116.71844687135246" y2="-281.78325741594244" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            
+            <line x1="133.96253221413656" y1="-55.48909769293811" x2="170.917713514588" y2="-70.79643498754172" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="189.39530416481372" y1="-78.45010363484353" x2="226.3504854652652" y2="-93.75744092944714" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            <line x1="244.82807611549092" y1="-101.41110957674896" x2="281.7832574159424" y2="-116.71844687135257" stroke="#0288D1" stroke-width="3" marker-end="url(#arrowB2)"/>
+            
+    </g>
+
+    <g transform="translate(350, 1050)">
+        <rect x="0" y="0" width="500" height="90" rx="5" fill="#FFFFFF" stroke="#CFD8DC" stroke-width="2"/>
+        <rect x="20" y="15" width="30" height="10" fill="#D32F2F"/>
+        <text x="60" y="25" fill="#112233" font-family="Arial, sans-serif" font-size="16">Ferrara Ø 3.5 mm</text>
+        <rect x="20" y="40" width="30" height="10" fill="#F57C00"/>
+        <text x="60" y="50" fill="#112233" font-family="Arial, sans-serif" font-size="16">Ferrara Standard Ø 5.0 mm</text>
+        <rect x="20" y="65" width="30" height="10" fill="#7B1FA2"/>
+        <text x="60" y="75" fill="#112233" font-family="Arial, sans-serif" font-size="16">Ferrara HM Ø 6.0 mm</text>
+
+        <rect x="280" y="15" width="30" height="10" fill="#0288D1"/>
+        <text x="320" y="25" fill="#112233" font-family="Arial, sans-serif" font-size="16">VR (Centrifugal Radial Vector)</text>
+        <rect x="280" y="40" width="30" height="10" fill="#FDD835"/>
+        <text x="320" y="50" fill="#112233" font-family="Arial, sans-serif" font-size="16">IOP (+Z, Endo→Epi)</text>
+    </g>
+
+    <text x="600" y="1170" fill="#667788" font-family="Arial, sans-serif" font-size="16" font-style="italic" text-anchor="middle">Three rows of PMMA intercept the radial dissipation of IOP. Each barrier blocks a distinct band of ectatic stress. (FEBio HGO 4.12, Antigravity 2026)</text>
+</svg>

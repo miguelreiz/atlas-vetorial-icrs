@@ -473,9 +473,13 @@ function carregarImagem(imgPath, chapterDir) {
     const normalized = path.normalize(candidate);
     if (fs.existsSync(normalized)) {
       try {
-        const data = fs.readFileSync(normalized);
-        const type = detectarTipoImagem(data, normalized);
-        return { data, type, path: normalized };
+        let p = normalized;
+        if (p.endsWith('.svg') && fs.existsSync(p.replace(/\\.svg$/, '.png'))) {
+           p = p.replace(/\\.svg$/, '.png');
+        }
+        const data = fs.readFileSync(p);
+        const type = detectarTipoImagem(data, p);
+        return { data, type, path: p };
       } catch (e) { /* skip */ }
     }
   }
@@ -484,10 +488,14 @@ function carregarImagem(imgPath, chapterDir) {
   const found = buscarImagemRecursiva(basename);
   if (found) {
     try {
-      const data = fs.readFileSync(found);
-      const ext = path.extname(found).toLowerCase().replace('.', '');
+      let p = found;
+      if (p.endsWith('.svg') && fs.existsSync(p.replace(/\.svg$/, '.png'))) {
+         p = p.replace(/\.svg$/, '.png');
+      }
+      const data = fs.readFileSync(p);
+      const ext = path.extname(p).toLowerCase().replace('.', '');
       const type = ext === 'jpg' ? 'jpeg' : ext === 'png' ? 'png' : ext;
-      return { data, type, path: found };
+      return { data, type, path: p };
     } catch (e) { /* skip */ }
   }
 

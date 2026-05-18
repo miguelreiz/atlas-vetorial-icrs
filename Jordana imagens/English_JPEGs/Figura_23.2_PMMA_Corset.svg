@@ -1,0 +1,82 @@
+<svg viewBox="0 0 1600 750" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1600" height="750" fill="#FFFFFF"/>
+    <defs>
+        <marker id="arrowB3" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#0288D1" />
+        </marker>
+        <marker id="arrowY2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#FDD835" />
+        </marker>
+    </defs>
+    
+    <text x="800" y="50" fill="#112233" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">Figure 23.2 — Cross-Section: The PMMA Corset with Containment Vectors</text>
+
+    <!-- Legend Box -->
+    <g transform="translate(50, 150)">
+        <rect x="0" y="0" width="280" height="130" fill="#FFFFFF" stroke="#CFD8DC" stroke-width="2"/>
+        
+        <rect x="10" y="10" width="20" height="10" fill="#FFF9C4" stroke="#FFAA00"/>
+        <text x="40" y="20" fill="#112233" font-family="Arial, sans-serif" font-size="14">Epithelium / Bowman</text>
+        <rect x="10" y="30" width="20" height="10" fill="#E8F1FA" stroke="#00B4DC"/>
+        <text x="40" y="40" fill="#112233" font-family="Arial, sans-serif" font-size="14">Stroma (70-75%)</text>
+        <rect x="10" y="50" width="20" height="10" fill="#FF8C00" stroke="#E65100"/>
+        <text x="40" y="60" fill="#112233" font-family="Arial, sans-serif" font-size="14">ICRS / PMMA</text>
+        <rect x="10" y="70" width="20" height="10" fill="#0288D1"/>
+        <text x="40" y="80" fill="#112233" font-family="Arial, sans-serif" font-size="14">Centrifugal VR (→)</text>
+
+        <rect x="170" y="10" width="20" height="10" fill="#FDD835"/>
+        <text x="200" y="20" fill="#112233" font-family="Arial, sans-serif" font-size="14">IOP (+Z, ↑)</text>
+        <polygon points="180,30 190,40 170,40" fill="#FF8C00" stroke="#D32F2F" stroke-width="2"/>
+        <text x="200" y="40" fill="#112233" font-family="Arial, sans-serif" font-size="14">Ferrara Ø3.5</text>
+        <polygon points="180,50 190,60 170,60" fill="#FF8C00" stroke="#F57C00" stroke-width="2"/>
+        <text x="200" y="60" fill="#112233" font-family="Arial, sans-serif" font-size="14">Ferrara Ø5.0</text>
+        <ellipse cx="180" cy="73" rx="10" ry="7" fill="#FF8C00" stroke="#7B1FA2" stroke-width="2"/>
+        <text x="200" y="80" fill="#112233" font-family="Arial, sans-serif" font-size="14">Ferrara HM Ø6.0</text>
+    </g>
+
+    <g transform="translate(150, 300)"><path d="M 0 250 Q 650 -50 1300 250 L 1300 263.5 Q 650 -36.5 0 263.5 Z" fill="#FFCDD2" opacity="0.8"/><path d="M 0 263.5 Q 650 -36.5 1300 263.5 L 1300 266.5 Q 650 -33.5 0 266.5 Z" fill="#8D6E63" opacity="0.8"/><path d="M 0 266.5 Q 650 -33.5 1300 266.5 L 1300 304 Q 650 4 0 304 Z" fill="#F5E6C8" opacity="0.8"/><path d="M 0 304 Q 650 4 1300 304 L 1300 394 Q 650 94 0 394 Z" fill="#EDD9A3" opacity="0.8"/><path d="M 0 394 Q 650 94 1300 394 L 1300 400 Q 650 100 0 400 Z" fill="#9E9E9E" opacity="0.8"/>
+        <!-- Right side -->
+        <polygon points="850,211.2011834319527 872.5,231.2011834319527 827.5,231.2011834319527" fill="#FF8C00" stroke="#D32F2F" stroke-width="2"/>
+        <text x="850" y="196.2011834319527" fill="#D32F2F" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Ferrara 3.5</text>
+        <line x1="875" y1="221.2011834319527" x2="930" y2="221.2011834319527" stroke="#0288D1" stroke-width="4" marker-end="url(#arrowB3)"/>
+
+        <polygon points="980,235.66272189349115 1002.5,255.66272189349115 957.5,255.66272189349115" fill="#FF8C00" stroke="#F57C00" stroke-width="2"/>
+        <text x="980" y="220.66272189349115" fill="#F57C00" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Ferrara 5.0</text>
+        <line x1="1000" y1="245.66272189349115" x2="1050" y2="245.66272189349115" stroke="#0288D1" stroke-width="4" marker-end="url(#arrowB3)"/>
+
+        <ellipse cx="1100" cy="273.8934911242603" rx="22.5" ry="15" fill="#FF8C00" stroke="#7B1FA2" stroke-width="2"/>
+        <text x="1100" y="248.89349112426032" fill="#7B1FA2" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Ferrara HM 6.0</text>
+        <line x1="1125" y1="273.8934911242603" x2="1165" y2="273.8934911242603" stroke="#0288D1" stroke-width="4" marker-end="url(#arrowB3)"/>
+
+        <!-- Left side -->
+        <polygon points="450,211.2011834319527 472.5,231.2011834319527 427.5,231.2011834319527" fill="#FF8C00" stroke="#D32F2F" stroke-width="2"/>
+        <line x1="425" y1="221.2011834319527" x2="370" y2="221.2011834319527" stroke="#0288D1" stroke-width="4" marker-end="url(#arrowB3)"/>
+
+        <polygon points="320,235.66272189349115 342.5,255.66272189349115 297.5,255.66272189349115" fill="#FF8C00" stroke="#F57C00" stroke-width="2"/>
+        <line x1="300" y1="245.66272189349115" x2="250" y2="245.66272189349115" stroke="#0288D1" stroke-width="4" marker-end="url(#arrowB3)"/>
+
+        <ellipse cx="200" cy="273.8934911242604" rx="22.5" ry="15" fill="#FF8C00" stroke="#7B1FA2" stroke-width="2"/>
+        <line x1="175" y1="273.8934911242604" x2="135" y2="273.8934911242604" stroke="#0288D1" stroke-width="4" marker-end="url(#arrowB3)"/>
+
+        <!-- IOP Arrows pushing up against endo -->
+        <line x1="650" y1="310" x2="650" y2="260" stroke="#FDD835" stroke-width="4" marker-end="url(#arrowY2)"/>
+        <line x1="500" y1="317.9881656804734" x2="500" y2="267.9881656804734" stroke="#FDD835" stroke-width="4" marker-end="url(#arrowY2)"/>
+        <line x1="800" y1="317.98816568047334" x2="800" y2="267.98816568047334" stroke="#FDD835" stroke-width="4" marker-end="url(#arrowY2)"/>
+        
+        <text x="650" y="340" fill="#F9A825" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">IOP (+Z)</text>
+
+        <!-- Blocked Zone Label -->
+        <rect x="450" y="-10" width="400" height="40" rx="5" fill="#E8F5E9" stroke="#2E7D32" stroke-width="3"/>
+        <text x="650" y="17" fill="#2E7D32" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">BLOCKED ZONE | Progression = 0</text>
+    </g>
+
+    <g transform="translate(1480, 420)">
+        <text x="0" y="0" fill="#FFAA00" font-family="Arial, sans-serif" font-size="14" font-style="italic">Epithelium</text>
+        <text x="0" y="20" fill="#8D6E63" font-family="Arial, sans-serif" font-size="14" font-style="italic">Bowman</text>
+        <text x="0" y="60" fill="#EDD9A3" font-family="Arial, sans-serif" font-size="14" font-style="italic">Stroma</text>
+        <text x="0" y="80" fill="#EDD9A3" font-family="Arial, sans-serif" font-size="12" font-style="italic">75%</text>
+        <text x="0" y="120" fill="#9E9E9E" font-family="Arial, sans-serif" font-size="14" font-style="italic">Endothelium</text>
+    </g>
+
+    <text x="800" y="720" fill="#667788" font-family="Arial, sans-serif" font-size="16" font-style="italic" text-anchor="middle">Three concentric rows of PMMA create a structural corset. VR (blue) = centrifugal. IOP (yellow) intercepted before reaching the apex. Sweet Spot: 70-75%.</text>
+</svg>

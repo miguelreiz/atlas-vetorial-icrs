@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ferrara® HM — BRASCRS 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--azul:#0A1628;--azul2:#1B3A5C;--gold:#D4A843;--gold-l:#F0D78C;--white:#fff;--gray:#F5F5F7;--green:#2ECC71;--red:#E74C3C;--blue:#3498DB}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0d0d0d;color:var(--white)}
+.page{width:210mm;min-height:297mm;margin:20px auto;background:var(--azul);position:relative;overflow:hidden;page-break-after:always;padding:0}
+@media print{
+  @page{size:A4;margin:0}
+  body{background:#fff}
+  .page{margin:0;box-shadow:none}
+}
+/* === PAGE 1: COVER === */
+.cover{background:linear-gradient(135deg,#0A1628 0%,#12263A 50%,#0A1628 100%);display:flex;flex-direction:column;padding:40px 50px}
+.cover .logo-area{display:flex;align-items:center;gap:16px;margin-bottom:30px}
+.cover .logo-icon{width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold-l));display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:var(--azul);font-family:'Outfit'}
+.cover .logo-text{font-family:'Outfit';font-size:18px;font-weight:700;letter-spacing:2px;color:var(--gold)}
+.cover .logo-sub{font-size:11px;color:var(--gold-l);letter-spacing:3px;text-transform:uppercase}
+.cover .hero-img{width:100%;height:220px;object-fit:cover;border-radius:12px;margin:10px 0 20px;border:2px solid rgba(212,168,67,.3)}
+.cover h1{font-family:'Outfit';font-size:36px;font-weight:800;line-height:1.15;background:linear-gradient(90deg,var(--white),var(--gold-l));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.cover .subtitle{font-size:16px;color:rgba(255,255,255,.75);margin:12px 0 20px;line-height:1.5}
+.cover .badge-row{display:flex;gap:12px;flex-wrap:wrap;margin:10px 0}
+.badge{background:rgba(212,168,67,.15);border:1px solid var(--gold);color:var(--gold-l);padding:8px 18px;border-radius:8px;font-size:13px;font-weight:600;font-family:'JetBrains Mono'}
+.cover .congress{margin-top:auto;border-top:1px solid rgba(255,255,255,.1);padding-top:16px;display:flex;justify-content:space-between;align-items:center}
+.cover .congress-name{font-family:'Outfit';font-size:16px;font-weight:600;color:var(--gold)}
+.cover .author{font-size:13px;color:rgba(255,255,255,.6)}
+/* === PAGE 2: DATA === */
+.data-page{background:linear-gradient(180deg,#0A1628 0%,#0F1F33 100%);padding:35px 40px}
+.data-page h2{font-family:'Outfit';font-size:22px;font-weight:700;color:var(--gold);margin-bottom:16px;border-bottom:2px solid rgba(212,168,67,.3);padding-bottom:8px}
+.data-page h3{font-family:'Outfit';font-size:16px;font-weight:600;color:var(--white);margin:16px 0 10px}
+.chart-container{background:rgba(255,255,255,.04);border-radius:12px;padding:20px;margin:12px 0;border:1px solid rgba(255,255,255,.08)}
+.bar-chart{display:flex;align-items:flex-end;gap:16px;height:160px;padding:10px 0}
+.bar-group{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px}
+.bar{width:100%;border-radius:6px 6px 0 0;transition:.3s;position:relative;min-width:30px}
+.bar .val{position:absolute;top:-22px;left:50%;transform:translateX(-50%);font-family:'JetBrains Mono';font-size:11px;font-weight:500;white-space:nowrap}
+.bar-label{font-size:11px;color:rgba(255,255,255,.5);text-align:center;font-weight:500}
+table.data{width:100%;border-collapse:collapse;font-size:12px;margin:10px 0}
+table.data th{background:rgba(212,168,67,.2);color:var(--gold-l);padding:8px 10px;text-align:center;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+table.data td{padding:7px 10px;text-align:center;border-bottom:1px solid rgba(255,255,255,.06);font-family:'JetBrains Mono';font-size:12px}
+table.data tr:nth-child(even){background:rgba(255,255,255,.02)}
+.highlight-box{background:linear-gradient(135deg,rgba(46,204,113,.1),rgba(46,204,113,.05));border:1px solid rgba(46,204,113,.3);border-radius:10px;padding:14px 18px;margin:12px 0}
+.highlight-box .big-num{font-family:'JetBrains Mono';font-size:28px;font-weight:700;color:var(--green)}
+.highlight-box .label{font-size:12px;color:rgba(255,255,255,.6);margin-top:2px}
+.highlights-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.temporal-arrow{color:var(--green);font-size:13px;margin:4px 0}
+/* === PAGE 3: CASES === */
+.cases-page{background:linear-gradient(180deg,#0F1F33 0%,#0A1628 100%);padding:35px 40px}
+.case-img{width:100%;border-radius:10px;margin:8px 0;border:1px solid rgba(212,168,67,.2)}
+.case-label{font-size:11px;color:rgba(255,255,255,.5);text-align:center;font-style:italic;margin:4px 0 16px}
+.slit-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.slit-row img{width:100%;height:180px;object-fit:cover;border-radius:10px;border:1px solid rgba(212,168,67,.2)}
+/* === PAGE 4: ADVANTAGES + CONCLUSION === */
+.conclusion-page{background:linear-gradient(135deg,#0A1628 0%,#12263A 100%);padding:35px 40px}
+.adv-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0}
+.adv-card{background:rgba(255,255,255,.04);border:1px solid rgba(212,168,67,.15);border-radius:10px;padding:16px;transition:.3s}
+.adv-card .icon{font-size:24px;margin-bottom:6px}
+.adv-card h4{font-family:'Outfit';font-size:14px;font-weight:600;color:var(--gold-l);margin-bottom:4px}
+.adv-card p{font-size:11.5px;color:rgba(255,255,255,.65);line-height:1.45}
+.conclusion-list{list-style:none;margin:14px 0}
+.conclusion-list li{padding:10px 14px;margin:6px 0;background:rgba(46,204,113,.08);border-left:3px solid var(--green);border-radius:0 8px 8px 0;font-size:13px;line-height:1.4}
+.refs{font-size:10px;color:rgba(255,255,255,.4);margin-top:20px;border-top:1px solid rgba(255,255,255,.08);padding-top:12px}
+.refs p{margin:3px 0}
+.footer-bar{margin-top:auto;background:rgba(212,168,67,.1);padding:14px 20px;border-radius:10px;display:flex;justify-content:space-between;align-items:center;font-size:12px}
+.footer-bar .contact{color:var(--gold-l)}
+.disclaimer{font-size:9px;color:rgba(255,255,255,.3);margin-top:12px;text-align:center;font-style:italic}
+</style>
+</head>
+<body>
+
+<!-- ==================== PAGE 1: COVER ==================== -->
+<div class="page cover">
+  <div class="logo-area">
+    <img src="assets/ferrara_logo.png" alt="Ferrara" style="height:40px">
+    <div>
+      <div class="logo-text">FERRARA OPHTHALMICS</div>
+      <div class="logo-sub">Biotechnology • Pioneers since 1986</div>
+    </div>
+  </div>
+
+  <img class="hero-img" src="assets/slit_lamp_1_anon.jpg" alt="Anel Ferrara HM implantado">
+
+  <h1>Ferrara® HM Ring<br>Progressive Corneal Remodeling Up to 9 Months</h1>
+  <p class="subtitle">Evaluation of keratometric changes induced by the Ferrara® HM ring manufactured by Freedom — evidence of continuous flattening beyond 3 months postoperatively.</p>
+
+  <div class="badge-row">
+    <span class="badge">N = 136 olhos</span>
+    <span class="badge">Brazilian Cohort</span>
+    <span class="badge">Follow-up up to 24 months</span>
+  </div>
+
+  <div class="congress">
+    <div>
+      <div class="congress-name">BRASCRS 2026</div>
+      <div class="author">Brazilian Congress of Refractive and Cataract Surgery</div>
+    </div>
+    <div style="text-align:right">
+      <div style="font-weight:600;color:var(--white)">Dr. Paulo Ferrara</div>
+      <div class="author">Belo Horizonte, Brazil</div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== PAGE 2: CLINICAL DATA ==================== -->
+<div class="page data-page">
+  <h2>📊 Clinical Data — Temporal Progression</h2>
+
+  <h3>Kmax Reduction Over Time</h3>
+  <div class="chart-container">
+    <svg viewBox="0 0 500 200" style="width:100%;height:auto">
+      <!-- Axes -->
+      <line x1="60" y1="170" x2="480" y2="170" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+      <!-- Bars -->
+      <rect x="80" y="155" width="60" height="15" rx="3" fill="#E74C3C" opacity=".8"/>
+      <text x="110" y="148" text-anchor="middle" fill="#E74C3C" font-family="JetBrains Mono" font-size="11" font-weight="600">0.35 D</text>
+      <text x="110" y="188" text-anchor="middle" fill="rgba(255,255,255,.5)" font-family="Inter" font-size="10">Pré→3m</text>
+
+      <rect x="170" y="105" width="60" height="65" rx="3" fill="#3498DB" opacity=".8"/>
+      <text x="200" y="98" text-anchor="middle" fill="#3498DB" font-family="JetBrains Mono" font-size="11" font-weight="600">1.92 D</text>
+      <text x="200" y="188" text-anchor="middle" fill="rgba(255,255,255,.5)" font-family="Inter" font-size="10">ΔKM 3m</text>
+
+      <rect x="260" y="40" width="60" height="130" rx="3" fill="#2ECC71" opacity=".8"/>
+      <text x="290" y="33" text-anchor="middle" fill="#2ECC71" font-family="JetBrains Mono" font-size="11" font-weight="600">4.70 D</text>
+      <text x="290" y="188" text-anchor="middle" fill="rgba(255,255,255,.5)" font-family="Inter" font-size="10">3m→9m</text>
+
+      <rect x="350" y="15" width="60" height="155" rx="3" fill="url(#goldGrad)" opacity=".9"/>
+      <text x="380" y="10" text-anchor="middle" fill="#D4A843" font-family="JetBrains Mono" font-size="13" font-weight="700">5.05 D</text>
+      <text x="380" y="188" text-anchor="middle" fill="var(--gold-l)" font-family="Inter" font-size="10" font-weight="600">Total 9m</text>
+
+      <!-- Arrow -->
+      <text x="440" y="60" fill="rgba(46,204,113,.6)" font-size="28">→</text>
+      <text x="435" y="85" fill="rgba(255,255,255,.4)" font-family="Inter" font-size="9" text-anchor="middle">progression</text>
+      <text x="435" y="95" fill="rgba(255,255,255,.4)" font-family="Inter" font-size="9" text-anchor="middle">continuous</text>
+
+      <defs><linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#D4A843"/><stop offset="100%" stop-color="#F0D78C"/></linearGradient></defs>
+    </svg>
+  </div>
+
+  <div class="highlights-grid">
+    <div class="highlight-box">
+      <div class="big-num">5.05 D</div>
+      <div class="label">ΔKmax total (pré→9m)</div>
+    </div>
+    <div class="highlight-box">
+      <div class="big-num" style="color:var(--blue)">4.94 D</div>
+      <div class="label">ΔKM total (pré→9m)</div>
+    </div>
+    <div class="highlight-box">
+      <div class="big-num" style="color:var(--gold)">+42.8 µm</div>
+      <div class="label">ΔPachymetry (pré→9m)</div>
+    </div>
+  </div>
+
+  <h3>Summary Table — Freedom Cohort (all HM models)</h3>
+  <table class="data">
+    <thead>
+      <tr><th>Parameter</th><th>Pre-op</th><th>Δ Pré→3m</th><th>Δ 3m→9m</th><th style="color:#2ECC71">Δ Total (9m)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>K1 (D)</td><td>—</td><td>1.47</td><td>2.85</td><td style="color:#2ECC71;font-weight:700">4.32</td></tr>
+      <tr><td>K2 (D)</td><td>—</td><td>2.09</td><td>3.27</td><td style="color:#2ECC71;font-weight:700">5.36</td></tr>
+      <tr><td>KM (D)</td><td>—</td><td>1.92</td><td>3.01</td><td style="color:#2ECC71;font-weight:700">4.94</td></tr>
+      <tr><td>Kmax (D)</td><td>—</td><td>0.35</td><td>4.70</td><td style="color:#2ECC71;font-weight:700">5.05</td></tr>
+      <tr><td>Q (asfericidade)</td><td>—</td><td>0.42</td><td>0.37</td><td style="color:#2ECC71;font-weight:700">0.79</td></tr>
+      <tr><td>Pachymetry (µm)</td><td>—</td><td>9.58</td><td>33.19</td><td style="color:#2ECC71;font-weight:700">42.77</td></tr>
+    </tbody>
+  </table>
+
+  <div class="temporal-arrow">⚡ <strong>93% of Kmax reduction occurs AFTER the 3rd month</strong> — progressive stromal remodeling</div>
+
+  <h3>Desempenho por Model (Brazilian Cohort, 3 months PO)</h3>
+  <table class="data">
+    <thead><tr><th>Model</th><th>N</th><th>ΔK1</th><th>ΔKmax</th><th>ΔAstig</th></tr></thead>
+    <tbody>
+      <tr><td>HM 300</td><td>23</td><td>2.92</td><td style="color:#2ECC71;font-weight:700">6.92</td><td>—</td></tr>
+      <tr><td>HM 350</td><td>6</td><td>3.75</td><td style="color:#2ECC71;font-weight:700">4.58</td><td>1.13</td></tr>
+      <tr><td>HM 210</td><td>3</td><td>2.04</td><td style="color:#2ECC71;font-weight:700">4.81</td><td>1.40</td></tr>
+      <tr><td>HM 250</td><td>8</td><td>1.49</td><td>2.69</td><td>1.45</td></tr>
+      <tr><td>HM 400</td><td>5</td><td>0.60</td><td>1.91</td><td>1.60</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ==================== PAGE 3: CLINICAL CASES ==================== -->
+<div class="page cases-page">
+  <h2>🔬 Clinical Cases</h2>
+
+  <h3>Case 1 — Keratoconus (OD) | Pentacam Compare 2 Exams</h3>
+  <img class="case-img" src="assets/pentacam_compare_ceratocone_anon.jpg" alt="Pentacam Compare pré vs pós">
+  <p class="case-label">Anterior axial curvature: Exam A (preoperative) vs Exam B (postoperative). Differential map showing +3.9 to +6.7 D flattening in the cone zone.</p>
+
+  <h3>Ferrara® HM Ring — Scheimpflug Image</h3>
+  <img class="case-img" src="assets/scheimpflug_ring_anon.jpg" alt="Scheimpflug com anel HM in situ">
+  <p class="case-label">Scheimpflug cross-section showing HM ring positioned in the mid-stroma with preserved fusiform profile.</p>
+
+  <h3>HM Ring In Situ — Slit-lamp</h3>
+  <div class="slit-row">
+    <img src="assets/slit_lamp_1_anon.jpg" alt="Slit lamp OE">
+    <img src="assets/slit_lamp_2_anon.jpg" alt="Slit lamp OD">
+  </div>
+  <p class="case-label">Slit-lamp appearance of two eyes with implanted Ferrara® HM ring. Corneal transparency preserved, adequate centration.</p>
+</div>
+
+<!-- ==================== PAGE 4: ADVANTAGES + CONCLUSION ==================== -->
+<div class="page conclusion-page" style="display:flex;flex-direction:column">
+  <h2>🏆 Competitive Advantages of Ferrara® HM</h2>
+
+  <div class="adv-grid">
+    <div class="adv-card">
+      <div class="icon">💎</div>
+      <h4>Exclusive Fusiform Profile</h4>
+      <p>Exclusive fusiform (spindle-shaped) design with optimized pressure distribution. 320° arc length and 5.7 mm diameter for maximum coverage.</p>
+    </div>
+    <div class="adv-card">
+      <div class="icon">⏳</div>
+      <h4>Progressive Remodeling</h4>
+      <p>Unlike other ICRS, 93% of Kmax flattening occurs after the 3rd month — sustained biomechanical effect up to 9+ months.</p>
+    </div>
+    <div class="adv-card">
+      <div class="icon">🔗</div>
+      <h4>Concentric Combinations</h4>
+      <p>Concentric implant (double-ring) possibility for advanced keratoconus, enhancing the centralized flattening effect.</p>
+    </div>
+    <div class="adv-card">
+      <div class="icon">✂️</div>
+      <h4>Synergy with Refractive Surgery</h4>
+      <p>In selected cases, combination with PRK or LASIK for final refractive refinement, expanding complete visual rehabilitation.</p>
+    </div>
+    <div class="adv-card">
+      <div class="icon">📐</div>
+      <h4>Gama Completa de Models</h4>
+      <p>HM 200 a HM 450 — cobertura de todo espectro de ceratocone, de leve a avançado, incluindo indicações em miopia alta.</p>
+    </div>
+    <div class="adv-card">
+      <div class="icon">🇧🇷</div>
+      <h4>100% Brazilian Technology</h4>
+      <p>World pioneer in ICRS since 1986. National manufacturing by Freedom with complete quality control and traceability.</p>
+    </div>
+  </div>
+
+  <h2 style="margin-top:18px">✅ Conclusions</h2>
+  <ol class="conclusion-list">
+    <li><strong>Progressive remodeling:</strong> The Ferrara® HM ring induces continuous flattening that intensifies after the 3rd month, with a total ΔKmax of 5.05 D at 9 months.</li>
+    <li><strong>Tissue remodeling:</strong> Pachymetric increase of +42.77 µm confirms active stromal remodeling, not just mechanical displacement.</li>
+    <li><strong>HM 300 highlight:</strong> ΔKmax of 6.92 D at 3 months (n=23) — result above the literature average (2-4 D).</li>
+    <li><strong>Versatility:</strong> Concentric combinations and refractive surgery synergy expand indications.</li>
+  </ol>
+
+  <div class="refs">
+    <p><strong>References:</strong></p>
+    <p>1. Ferrara P, et al. Ferrara Ring for the treatment of keratoconus. J Cataract Refract Surg. 2019.</p>
+    <p>2. Piñero DP, Alcón JL. ICRS for keratoconus: current evidence. Eye Vis. 2022.</p>
+    <p>3. Vega-Estrada A, Alio JL. Intrastromal corneal ring segments. J Refract Surg. 2016.</p>
+  </div>
+
+  <div class="footer-bar">
+    <div class="contact">
+      <strong>Dr. Paulo Ferrara</strong> | Belo Horizonte, Brazil<br>
+      contato@ferrararing.com.br | +55 31 3223 3100
+    </div>
+    <div style="text-align:right;color:rgba(255,255,255,.5)">
+      <div style="font-family:'Outfit';font-size:14px;color:var(--gold)">FERRARA OPHTHALMICS</div>
+      <div style="font-size:10px">ferrararing.com.br</div>
+    </div>
+  </div>
+  <p class="disclaimer">Clinical data presented for scientific and educational purposes. Individual results may vary.</p>
+</div>
+
+</body>
+</html>

@@ -288,3 +288,14 @@ Antes de confirmar uma figura como entregue:
 - [ ] Legenda completa e legível
 - [ ] DPI ≥ 200
 - [ ] PNG salvo no caminho correto (`images/CH-XXX/`)
+
+---
+
+## 6. Skills Relacionadas
+
+| Skill | Relação |
+|-------|---------|
+| `atlas_visual_identity_system` | **Paleta canônica** — fonte única de verdade para todas as cores |
+| `svg_vector_aesthetic_engine` | Estética premium para versões SVG/React das figuras |
+| `icrs_geometria_precisa` | Templates de código para perfis de anel e camadas |
+| `icrs_vector_illustration` | Regras de direção das setas (VR centrífugo, etc.) |

@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1600" height="700" fill="#FFFFFF"/>
+    <defs>
+        <marker id="arrowGray" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#78909C" />
+        </marker>
+    </defs>
+    <text x="800" y="50" fill="#112233" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">Figure 22.3 — Cortical Neuroadaptation: From Total Noise to Selective Suppression (V1)</text>
+
+    <!-- Phase 1: Pre-op -->
+    <g transform="translate(300, 350)">
+        <text x="-250" y="-150" fill="#FF8A80" font-family="Arial, sans-serif" font-size="36" font-weight="bold">1</text>
+        <circle cx="0" cy="0" r="180" fill="#FFEBEE" stroke="#FFCDD2" stroke-width="6"/>
+        <circle cx="0" cy="0" r="150" fill="none" stroke="#EF9A9A" stroke-width="2" stroke-dasharray="4 4"/>
+        <circle cx="0" cy="0" r="130" fill="none" stroke="#455A64" stroke-width="4"/>
+        <circle cx="1.2628824329127235" cy="91.70743285541253" r="2" fill="#E53935"/><circle cx="-3.7531151353877554" cy="7.7487098750629215" r="2" fill="#E53935"/><circle cx="13.293296905920307" cy="0.31644169543135314" r="2" fill="#E53935"/><circle cx="9.561717561191305" cy="-29.607545946325597" r="2" fill="#E53935"/><circle cx="5.99892086295024" cy="-11.108522354511166" r="2" fill="#E53935"/><circle cx="25.889040827864118" cy="-51.542123982237705" r="2" fill="#E53935"/><circle cx="-33.89505898679386" cy="-49.851191660101925" r="2" fill="#E53935"/><circle cx="24.025553307819745" cy="7.0947420586666" r="2" fill="#E53935"/><circle cx="30.755080078039366" cy="62.42092151978689" r="2" fill="#E53935"/><circle cx="-79.2592471963434" cy="61.769375280451044" r="2" fill="#E53935"/><circle cx="-46.41798728564788" cy="26.616661485602936" r="2" fill="#E53935"/><circle cx="94.07688805690326" cy="-35.22222209466347" r="2" fill="#E53935"/><circle cx="78.83652300941492" cy="10.350519864933025" r="2" fill="#E53935"/><circle cx="32.067614550571996" cy="-34.33486045548362" r="2" fill="#E53935"/><circle cx="4.916517012665721" cy="-11.127293732762542" r="2" fill="#E53935"/><circle cx="94.28627757156083" cy="-9.438423782341287" r="2" fill="#E53935"/><circle cx="-96.69208663570701" cy="41.34274113160324" r="2" fill="#E53935"/><circle cx="-21.149737311133133" cy="71.98542659292428" r="2" fill="#E53935"/><circle cx="-59.60594245602111" cy="-98.42858846843953" r="2" fill="#E53935"/><circle cx="36.32916000597201" cy="-105.22314550630901" r="2" fill="#E53935"/><circle cx="21.010134672661863" cy="-88.81658758842171" r="2" fill="#E53935"/><circle cx="-58.675030734581675" cy="27.78110857044922" r="2" fill="#E53935"/><circle cx="-2.985713127142412" cy="-6.172572772856575" r="2" fill="#E53935"/><circle cx="50.193431651883216" cy="-8.110507917841717" r="2" fill="#E53935"/><circle cx="34.99087387626414" cy="-88.69095975818595" r="2" fill="#E53935"/><circle cx="6.111343575089357" cy="-6.108077121152756" r="2" fill="#E53935"/><circle cx="-42.84562301336306" cy="60.36632822851315" r="2" fill="#E53935"/><circle cx="-1.9703572030683485" cy="21.521673019734305" r="2" fill="#E53935"/><circle cx="-8.347665528674979" cy="-79.95555910292799" r="2" fill="#E53935"/><circle cx="105.12987978137429" cy="38.4664631966124" r="2" fill="#E53935"/><circle cx="2.70102321699181" cy="-11.934494855494016" r="2" fill="#E53935"/><circle cx="20.02612225893858" cy="20.539274019193133" r="2" fill="#E53935"/><circle cx="-31.82893636322857" cy="-53.29418406436394" r="2" fill="#E53935"/><circle cx="13.071631450124656" cy="-50.08889876353329" r="2" fill="#E53935"/><circle cx="-26.62615583000531" cy="34.652475936584324" r="2" fill="#E53935"/><circle cx="-12.649569730658214" cy="50.08393653909386" r="2" fill="#E53935"/><circle cx="-83.29751266712238" cy="16.890502248034444" r="2" fill="#E53935"/><circle cx="34.54050832803521" cy="90.01362796668013" r="2" fill="#E53935"/><circle cx="7.539088098934392" cy="-13.88120573207919" r="2" fill="#E53935"/><circle cx="-29.07965035942675" cy="-84.95821335919248" r="2" fill="#E53935"/><circle cx="38.02160593531132" cy="-99.92015814020233" r="2" fill="#E53935"/><circle cx="-66.64064887233245" cy="-96.36420371405862" r="2" fill="#E53935"/><circle cx="-94.39067422204711" cy="-33.5327751874903" r="2" fill="#E53935"/><circle cx="-84.94728345220696" cy="-25.981435537130714" r="2" fill="#E53935"/><circle cx="44.53654550816463" cy="-57.87559449048637" r="2" fill="#E53935"/><circle cx="1.0203335680596086" cy="-14.210269814270365" r="2" fill="#E53935"/><circle cx="-20.96808122910831" cy="46.2026879234787" r="2" fill="#E53935"/><circle cx="21.557171443660902" cy="-7.6426137051867045" r="2" fill="#E53935"/><circle cx="-90.62307575302047" cy="26.553452060271226" r="2" fill="#E53935"/><circle cx="55.62297151601202" cy="100.5939813219357" r="2" fill="#E53935"/>
+        
+        <rect x="-80" y="-40" width="160" height="80" rx="10" fill="#FFCDD2" stroke="#B71C1C" stroke-width="3"/>
+        <text x="0" y="-5" fill="#B71C1C" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">NOISE</text>
+        <text x="0" y="25" fill="#B71C1C" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">100%</text>
+
+        <text x="0" y="-200" fill="#B71C1C" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Preoperative</text>
+        <text x="0" y="-180" fill="#78909C" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">(VA 20/400)</text>
+        <text x="0" y="170" fill="#90A4AE" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">mesopic pupil Ø4.5 mm</text>
+    </g>
+
+    <line x1="520" y1="350" x2="560" y2="350" stroke="#78909C" stroke-width="4" marker-end="url(#arrowGray)"/>
+
+    <!-- Phase 2: Immediate post-op -->
+    <g transform="translate(800, 350)">
+        <text x="-250" y="-150" fill="#FFCC80" font-family="Arial, sans-serif" font-size="36" font-weight="bold">2</text>
+        <circle cx="0" cy="0" r="180" fill="#FFF3E0" stroke="#FFE0B2" stroke-width="6"/>
+        <circle cx="0" cy="0" r="150" fill="none" stroke="#FFCC80" stroke-width="2" stroke-dasharray="4 4"/>
+        <circle cx="0" cy="0" r="130" fill="none" stroke="#455A64" stroke-width="4"/>
+        
+        <circle cx="0" cy="0" r="100" fill="#E8F5E9" stroke="#388E3C" stroke-width="6"/>
+        
+        <circle cx="0" cy="0" r="110" fill="none" stroke="#FF8F00" stroke-width="8" stroke-dasharray="20 15"/>
+        
+        <polygon points="120,-4 122,-1 125,0 122,1 120,4 118,1 115,0 118,-1" fill="#FFD54F"/><polygon points="110.86554390135441,41.922011883810775 112.86554390135441,44.922011883810775 115.86554390135441,45.922011883810775 112.86554390135441,46.922011883810775 110.86554390135441,49.922011883810775 108.86554390135441,46.922011883810775 105.86554390135441,45.922011883810775 108.86554390135441,44.922011883810775" fill="#FFD54F"/><polygon points="84.8528137423857,80.85281374238569 86.8528137423857,83.85281374238569 89.8528137423857,84.85281374238569 86.8528137423857,85.85281374238569 84.8528137423857,88.85281374238569 82.8528137423857,85.85281374238569 79.8528137423857,84.85281374238569 82.8528137423857,83.85281374238569" fill="#FFD54F"/><polygon points="45.92201188381078,106.86554390135441 47.92201188381078,109.86554390135441 50.92201188381078,110.86554390135441 47.92201188381078,111.86554390135441 45.92201188381078,114.86554390135441 43.92201188381078,111.86554390135441 40.92201188381078,110.86554390135441 43.92201188381078,109.86554390135441" fill="#FFD54F"/><polygon points="7.34788079488412e-15,116 2.0000000000000075,119 5.000000000000007,120 2.0000000000000075,121 7.34788079488412e-15,124 -1.9999999999999927,121 -4.999999999999993,120 -1.9999999999999927,119" fill="#FFD54F"/><polygon points="-45.92201188381077,106.86554390135441 -43.92201188381077,109.86554390135441 -40.92201188381077,110.86554390135441 -43.92201188381077,111.86554390135441 -45.92201188381077,114.86554390135441 -47.92201188381077,111.86554390135441 -50.92201188381077,110.86554390135441 -47.92201188381077,109.86554390135441" fill="#FFD54F"/><polygon points="-84.85281374238569,80.8528137423857 -82.85281374238569,83.8528137423857 -79.85281374238569,84.8528137423857 -82.85281374238569,85.8528137423857 -84.85281374238569,88.8528137423857 -86.85281374238569,85.8528137423857 -89.85281374238569,84.8528137423857 -86.85281374238569,83.8528137423857" fill="#FFD54F"/><polygon points="-110.86554390135441,41.92201188381079 -108.86554390135441,44.92201188381079 -105.86554390135441,45.92201188381079 -108.86554390135441,46.92201188381079 -110.86554390135441,49.92201188381079 -112.86554390135441,46.92201188381079 -115.86554390135441,45.92201188381079 -112.86554390135441,44.92201188381079" fill="#FFD54F"/><polygon points="-120,-3.9999999999999853 -118,-0.9999999999999853 -115,1.469576158976824e-14 -118,1.0000000000000147 -120,4.000000000000015 -122,1.0000000000000147 -125,1.469576158976824e-14 -122,-0.9999999999999853" fill="#FFD54F"/><polygon points="-110.86554390135443,-49.92201188381076 -108.86554390135443,-46.92201188381076 -105.86554390135443,-45.92201188381076 -108.86554390135443,-44.92201188381076 -110.86554390135443,-41.92201188381076 -112.86554390135443,-44.92201188381076 -115.86554390135443,-45.92201188381076 -112.86554390135443,-46.92201188381076" fill="#FFD54F"/><polygon points="-84.85281374238572,-88.85281374238569 -82.85281374238572,-85.85281374238569 -79.85281374238572,-84.85281374238569 -82.85281374238572,-83.85281374238569 -84.85281374238572,-80.85281374238569 -86.85281374238572,-83.85281374238569 -89.85281374238572,-84.85281374238569 -86.85281374238572,-85.85281374238569" fill="#FFD54F"/><polygon points="-45.92201188381084,-114.86554390135439 -43.92201188381084,-111.86554390135439 -40.92201188381084,-110.86554390135439 -43.92201188381084,-109.86554390135439 -45.92201188381084,-106.86554390135439 -47.92201188381084,-109.86554390135439 -50.92201188381084,-110.86554390135439 -47.92201188381084,-111.86554390135439" fill="#FFD54F"/><polygon points="-2.2043642384652355e-14,-124 1.999999999999978,-121 4.999999999999978,-120 1.999999999999978,-119 -2.2043642384652355e-14,-116 -2.000000000000022,-119 -5.000000000000022,-120 -2.000000000000022,-121" fill="#FFD54F"/><polygon points="45.922011883810804,-114.8655439013544 47.922011883810804,-111.8655439013544 50.922011883810804,-110.8655439013544 47.922011883810804,-109.8655439013544 45.922011883810804,-106.8655439013544 43.922011883810804,-109.8655439013544 40.922011883810804,-110.8655439013544 43.922011883810804,-111.8655439013544" fill="#FFD54F"/><polygon points="84.85281374238568,-88.85281374238572 86.85281374238568,-85.85281374238572 89.85281374238568,-84.85281374238572 86.85281374238568,-83.85281374238572 84.85281374238568,-80.85281374238572 82.85281374238568,-83.85281374238572 79.85281374238568,-84.85281374238572 82.85281374238568,-85.85281374238572" fill="#FFD54F"/><polygon points="110.86554390135439,-49.922011883810846 112.86554390135439,-46.922011883810846 115.86554390135439,-45.922011883810846 112.86554390135439,-44.922011883810846 110.86554390135439,-41.922011883810846 108.86554390135439,-44.922011883810846 105.86554390135439,-45.922011883810846 108.86554390135439,-46.922011883810846" fill="#FFD54F"/>
+
+        <text x="0" y="-5" fill="#2E7D32" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Foveal</text>
+        <text x="0" y="20" fill="#2E7D32" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">SIGNAL</text>
+
+        <text x="0" y="-200" fill="#E65100" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Immediate post-op</text>
+        <text x="0" y="-180" fill="#78909C" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">(VA 20/40 + Halos)</text>
+        <text x="0" y="170" fill="#90A4AE" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">mesopic pupil Ø4.5 mm</text>
+        <text x="0" y="-125" fill="#E65100" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Ferrara 3.5 mm</text>
+    </g>
+
+    <line x1="1020" y1="350" x2="1060" y2="350" stroke="#78909C" stroke-width="4" marker-end="url(#arrowGray)"/>
+
+    <!-- Phase 3: Neuroadaptation -->
+    <g transform="translate(1300, 350)">
+        <text x="-250" y="-150" fill="#A5D6A7" font-family="Arial, sans-serif" font-size="36" font-weight="bold">3</text>
+        <circle cx="0" cy="0" r="180" fill="#F1F8E9" stroke="#C8E6C9" stroke-width="6"/>
+        <circle cx="0" cy="0" r="150" fill="none" stroke="#A5D6A7" stroke-width="2" stroke-dasharray="4 4"/>
+        <circle cx="0" cy="0" r="130" fill="none" stroke="#455A64" stroke-width="4"/>
+        
+        <circle cx="0" cy="0" r="100" fill="#E8F5E9" stroke="#1B5E20" stroke-width="6"/>
+        
+        <circle cx="120" cy="0" r="1" fill="#B0BEC5"/><circle cx="110.86554390135441" cy="45.922011883810775" r="1" fill="#B0BEC5"/><circle cx="84.8528137423857" cy="84.85281374238569" r="1" fill="#B0BEC5"/><circle cx="45.92201188381078" cy="110.86554390135441" r="1" fill="#B0BEC5"/><circle cx="7.34788079488412e-15" cy="120" r="1" fill="#B0BEC5"/><circle cx="-45.92201188381077" cy="110.86554390135441" r="1" fill="#B0BEC5"/><circle cx="-84.85281374238569" cy="84.8528137423857" r="1" fill="#B0BEC5"/><circle cx="-110.86554390135441" cy="45.92201188381079" r="1" fill="#B0BEC5"/><circle cx="-120" cy="1.469576158976824e-14" r="1" fill="#B0BEC5"/><circle cx="-110.86554390135443" cy="-45.92201188381076" r="1" fill="#B0BEC5"/><circle cx="-84.85281374238572" cy="-84.85281374238569" r="1" fill="#B0BEC5"/><circle cx="-45.92201188381084" cy="-110.86554390135439" r="1" fill="#B0BEC5"/><circle cx="-2.2043642384652355e-14" cy="-120" r="1" fill="#B0BEC5"/><circle cx="45.922011883810804" cy="-110.8655439013544" r="1" fill="#B0BEC5"/><circle cx="84.85281374238568" cy="-84.85281374238572" r="1" fill="#B0BEC5"/><circle cx="110.86554390135439" cy="-45.922011883810846" r="1" fill="#B0BEC5"/>
+
+        <text x="0" y="-5" fill="#1B5E20" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Dominant</text>
+        <text x="0" y="20" fill="#1B5E20" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">SIGNAL</text>
+
+        <text x="0" y="-220" fill="#1B5E20" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Neuroadaptation</text>
+        <text x="0" y="-200" fill="#1B5E20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">3-6 months</text>
+        
+        <rect x="-60" y="-190" width="120" height="40" rx="4" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1"/>
+        <text x="0" y="-175" fill="#2E7D32" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">V1 suppresses halos</text>
+        <text x="0" y="-160" fill="#78909C" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">(Halos suppressed)</text>
+        <line x1="0" y1="-150" x2="0" y2="-130" stroke="#2E7D32" stroke-width="3" marker-end="url(#arrowGray)"/>
+        
+        <text x="0" y="170" fill="#90A4AE" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">mesopic pupil Ø4.5 mm</text>
+    </g>
+
+    <text x="800" y="660" fill="#667788" font-family="Arial, sans-serif" font-size="14" font-style="italic" text-anchor="middle">The primary visual cortex (V1) in keratoconus patients shows increased neural plasticity. After acquiring the foveal signal, inhibitory networks actively suppress peripheral reflexes. (Sabesan &amp; Yoon, IOVS 2010)</text>
+</svg>

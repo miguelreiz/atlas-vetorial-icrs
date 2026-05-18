@@ -145,3 +145,14 @@ TEMPLATE — CORTE TRANSVERSAL:
 - Direção correta (centrífugo)
 - Legenda clara mapeando vetor→fibra→direção
 - Aplainamento central como consequência, não como força
+
+---
+
+## Skills Relacionadas
+
+| Skill | Relação |
+|-------|---------|
+| `atlas_visual_identity_system` | **Paleta canônica** — cores dos vetores (`#CC2200`, `#00B4DC`, `#00CC44`) |
+| `svg_vector_aesthetic_engine` | Estética premium (gradientes, glow, animações) para SVG |
+| `icrs_geometria_precisa` | Código matplotlib para posicionamento pixel-preciso |
+| `collagen_fiber_architecture` | Base científica do modelo 3-fibras |
