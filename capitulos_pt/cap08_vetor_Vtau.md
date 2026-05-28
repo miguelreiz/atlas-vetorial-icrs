@@ -55,7 +55,7 @@ Nas simulações mantendo a espessura média constante (ex: média de 200 μm, v
 | **275 / 125** (Assimetria Severa)| 150 | 11.02 | ~0.72 mm | Reabilitação visual profunda |
 
 O modelo matemático dita uma relação linear perfeita (R² = 1.00):
- \text{Migração (mm)} ≈ 0.0048 \times Δ t 
+ Migração (mm) ≈ 0.0048 \times Δ t 
 
 ![Figura 7.2 — Vetor Vτ: migração linear do ápice vs diferencial de espessura (R² = 1,00).](book_figures/fig_07_02_migracao_apice.svg)
 

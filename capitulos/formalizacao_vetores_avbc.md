@@ -105,10 +105,10 @@ Proxy: Σ |Δuz_i − Δuz_{i-1}| × r_i × Δθ
 Para anéis **simétricos**: Vτ = 0 (confirmado em todas as 28 simulações simétricas).
 
 Para anéis **assimétricos** (espessura progressiva de 300→150 μm, 160°):
-- Linear progressivo (`asym_prog_300to150`): Vτ = 9.31 μ\text{N}\cdot\text{m} (rotação apical de 1.33°)
-- Reverso progressivo (`asym_prog_150to300`): Vτ = 9.40 μ\text{N}\cdot\text{m} (direção oposta)
-- Parabólico progressivo (`asym_parab_300to150`): Vτ = 18.34 μ\text{N}\cdot\text{m} (duplo torque ativo)
-- Arco longo progressivo (`asym_prog_300to150_arc210`): Vτ = 11.76 μ\text{N}\cdot\text{m} (+26% devido ao braço de alavanca de 10.08 mm)
+- Linear progressivo (`asym_prog_300to150`): Vτ = 9.31 μN\cdotm (rotação apical de 1.33°)
+- Reverso progressivo (`asym_prog_150to300`): Vτ = 9.40 μN\cdotm (direção oposta)
+- Parabólico progressivo (`asym_parab_300to150`): Vτ = 18.34 μN\cdotm (duplo torque ativo)
+- Arco longo progressivo (`asym_prog_300to150_arc210`): Vτ = 11.76 μN\cdotm (+26% devido ao braço de alavanca de 10.08 mm)
 
 > [!NOTE]
 > A validação física de Vτ \ne 0 foi realizada através da modelagem mecânica de contorno em FEBio 4.12, aplicando restrições rígidas no setor espesso e complacência periférica no setor delgado. O torque é o motor físico da translação do ápice corneano para regularização do coma.

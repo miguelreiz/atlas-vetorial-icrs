@@ -20,131 +20,131 @@ Para capturar essa complexidade física de maneira quantitativa nas simulações
 
 ## A.2 Cinemática de Grandes Deformações
 
-Consideremos a deformação do estroma corneano de uma configuração de referência não deformada \Omega_0 para uma configuração atual deformada \Omega. Um ponto material na posição inicial \mathbf{X} \in \Omega_0 é mapeado para a sua posição atual \mathbf{x} \in \Omega por meio do mapeamento de deformação \mathbf{x} = \boldsymbol{\chi}(\mathbf{X}, t).
+Consideremos a deformação do estroma corneano de uma configuração de referência não deformada \Omega_0 para uma configuração atual deformada \Omega. Um ponto material na posição inicial X \in \Omega_0 é mapeado para a sua posição atual x \in \Omega por meio do mapeamento de deformação x = \chi(X, t).
 
 ### A.2.1 Gradiente de Deformação e Decomposição Volumétrica
 
-O operador cinemático fundamental é o gradiente de deformação \mathbf{F}, definido como:
-\mathbf{F} = \frac{\partial \mathbf{x}}{\partial \mathbf{X}}
+O operador cinemático fundamental é o gradiente de deformação F, definido como:
+F = (∂x) / (∂X)
 
 Para tratar numericamente a quase incompressibilidade sem incorrer no fenômeno de travamento volumétrico (volumetric locking) na malha de elementos finitos, o gradiente de deformação é decomposto de forma multiplicativa em suas componentes volumétrica (dilatacional) e isocórica (distorcional ou preservadora de volume):
-\mathbf{F} = \left( J^{1/3} \mathbf{I} \right) \bar{\mathbf{F}} \quad \Rightarrow \quad \bar{\mathbf{F}} = J^{-1/3} \mathbf{F}
-onde J = \det(\mathbf{F}) > 0 representa a razão de mudança volumétrica (J = \mathrm{d}v / \mathrm{d}V), \mathbf{I} é o tensor identidade de segunda ordem, e \bar{\mathbf{F}} é o gradiente de deformação isocórico modificado (\det\bar{\mathbf{F}} = 1).
+F = ( J^{1/3} I ) F_bar \quad \Rightarrow \quad F_bar = J^{-1/3} F
+onde J = \det(F) > 0 representa a razão de mudança volumétrica (J = dv / dV), I é o tensor identidade de segunda ordem, e F_bar é o gradiente de deformação isocórico modificado (\detF_bar = 1).
 
 ### A.2.2 Tensores de Deformação e Invariantes
 
-O tensor de deformação direito de Cauchy-Green \mathbf{C} e sua contraparte isocórica modificada \bar{\mathbf{C}} são definidos por:
-\mathbf{C} = \mathbf{F}^T \mathbf{F}
-\bar{\mathbf{C}} = \bar{\mathbf{F}}^T \bar{\mathbf{F}} = J^{-2/3} \mathbf{C}
+O tensor de deformação direito de Cauchy-Green C e sua contraparte isocórica modificada C_bar são definidos por:
+C = F^T F
+C_bar = F_bar^T F_bar = J^{-2/3} C
 
-O comportamento da matriz isotrópica é governado pelo primeiro invariante isocórico de deformação de Cauchy-Green direito \bar{I}_1:
-\bar{I}_1 = \mathrm{tr}(\bar{\mathbf{C}})
+O comportamento da matriz isotrópica é governado pelo primeiro invariante isocórico de deformação de Cauchy-Green direito I_bar_1:
+I_bar_1 = tr(C_bar)
 
-Para modelar o reforço por fibras, consideremos que o estroma corneano contém duas famílias de fibras de colágeno. Na configuração de referência \Omega_0, as direções médias preferenciais dessas duas famílias são caracterizadas pelos vetores unitários tridimensionais \mathbf{a}_{01} e \mathbf{a}_{02}. 
+Para modelar o reforço por fibras, consideremos que o estroma corneano contém duas famílias de fibras de colágeno. Na configuração de referência \Omega_0, as direções médias preferenciais dessas duas famílias são caracterizadas pelos vetores unitários tridimensionais a_{01} e a_{02}. 
 
-Os invariantes estruturais fundamentais \bar{I}_{41} e \bar{I}_{42}, que representam fisicamente o quadrado do alongamento isocórico ao longo das direções das fibras, são definidos pela projeção de \bar{\mathbf{C}} nas direções de referência:
-\bar{I}_{41} = \mathbf{a}_{01} \cdot \left( \bar{\mathbf{C}} \mathbf{a}_{01} \right) = \mathrm{tr}\left( \bar{\mathbf{C}} \mathbf{A}_{01} \right)
-\bar{I}_{42} = \mathbf{a}_{02} \cdot \left( \bar{\mathbf{C}} \mathbf{a}_{02} \right) = \mathrm{tr}\left( \bar{\mathbf{C}} \mathbf{A}_{02} \right)
-onde \mathbf{A}_{0i} = \mathbf{a}_{0i} \otimes \mathbf{a}_{0i} são os tensores estruturais de segunda ordem associados a cada família de fibras.
+Os invariantes estruturais fundamentais I_bar_{41} e I_bar_{42}, que representam fisicamente o quadrado do alongamento isocórico ao longo das direções das fibras, são definidos pela projeção de C_bar nas direções de referência:
+I_bar_{41} = a_{01} \cdot ( C_bar a_{01} ) = tr( C_bar A_{01} )
+I_bar_{42} = a_{02} \cdot ( C_bar a_{02} ) = tr( C_bar A_{02} )
+onde A_{0i} = a_{0i} ⊗ a_{0i} são os tensores estruturais de segunda ordem associados a cada família de fibras.
 
 ---
 
 
 ![Figura A.1 — Malha de elementos finitos do modelo corneano FEBio com condições de contorno.](book_figures/fig_apendice_a_malha_fem.svg)
 
-## A.3 Função de Densidade de Energia de Deformação (\Psi)
+## A.3 Função de Densidade de Energia de Deformação (Ψ)
 
-O modelo HGO postula a existência de uma função de densidade de energia de deformação hiperelástica por unidade de volume de referência, \Psi, decomposta aditivamente nas contribuições volumétrica e isocórica:
-\Psi\left(J, \bar{I}_1, \bar{I}_{41}, \bar{I}_{42}\right) = \Psi_{\mathrm{vol}}(J) + \Psi_{\mathrm{iso}}\left(\bar{I}_1, \bar{I}_{41}, \bar{I}_{42}\right)
+O modelo HGO postula a existência de uma função de densidade de energia de deformação hiperelástica por unidade de volume de referência, Ψ, decomposta aditivamente nas contribuições volumétrica e isocórica:
+Ψ(J, I_bar_1, I_bar_{41}, I_bar_{42}) = Ψ_{vol}(J) + Ψ_{iso}(I_bar_1, I_bar_{41}, I_bar_{42})
 
 ### A.3.1 Componente Volumétrica
 
 A penalização volumétrica é formulada para garantir a quase incompressibilidade do tecido biológico sob pressões fisiológicas, utilizando uma função quadrática padrão em termos do módulo volumétrico (bulk modulus) k:
-\Psi_{\mathrm{vol}}(J) = \frac{1}{2} k (J - 1)^2
+Ψ_{vol}(J) = (1) / (2) k (J - 1)^2
 
 À medida que a incompressibilidade perfeita é aproximada (k \to \infty), a variação volumétrica tende a zero (J \to 1). Nas simulações com o FEBio, o valor de k é escolhido de forma a ser grande o suficiente para impor a restrição mecânica sem causar instabilidades numéricas no condicionamento da matriz de rigidez global.
 
 ### A.3.2 Componente Isocórica e Dispersão de Fibras
 
 A energia de deformação isocórica decompõe-se na resposta da matriz hidratada de proteoglicanos (isotrópica, do tipo neo-Hookeana) e na resposta não linear das lamelas de colágeno (anisotrópica):
-\Psi_{\mathrm{iso}} = \Psi_{\mathrm{matriz}}\left(\bar{I}_1\right) + \Psi_{\mathrm{fibras}}\left(\bar{I}_1, \bar{I}_{41}, \bar{I}_{42}\right)
+Ψ_{iso} = Ψ_{matriz}(I_bar_1) + Ψ_{fibras}(I_bar_1, I_bar_{41}, I_bar_{42})
 
-\Psi_{\mathrm{matriz}} = c \left(\bar{I}_1 - 3\right)
-\Psi_{\mathrm{fibras}} = \frac{k_1}{2k_2} \sum_{i=1}^2 \left\{ \exp\left[ k_2 \left\langle \bar{E}_i \right\rangle^2 \right] - 1 \right\}
+Ψ_{matriz} = c (I_bar_1 - 3)
+Ψ_{fibras} = (k_1) / (2k_2) Σ(i=1..2) \{ exp[ k_2 < E_bar_i >^2 ] - 1 \}
 
-onde c > 0 é o módulo de cisalhamento da matriz de proteoglicanos, k_1 > 0 é um parâmetro com dimensão de tensão que escala a rigidez das fibras, e k_2 > 0 é um parâmetro adimensional associado à taxa de endurecimento exponencial das fibras sob tração. Os colchetes de Macaulay \langle \bullet \rangle = \max(0, \bullet) impõem o comportamento unilateral fisicamente realista de que as lamelas de colágeno contribuem para a rigidez estromal apenas quando esticadas (\bar{E}_i > 0), tornando-se mecanicamente inativas sob compressão local (\bar{E}_i \le 0):
-\langle \bar{E}_i \rangle = \begin{cases} \bar{E}_i & \text{se } \bar{E}_i > 0 \ 0 & \text{se } \bar{E}_i \le 0 \end{cases}
+onde c > 0 é o módulo de cisalhamento da matriz de proteoglicanos, k_1 > 0 é um parâmetro com dimensão de tensão que escala a rigidez das fibras, e k_2 > 0 é um parâmetro adimensional associado à taxa de endurecimento exponencial das fibras sob tração. Os colchetes de Macaulay < • > = \max(0, •) impõem o comportamento unilateral fisicamente realista de que as lamelas de colágeno contribuem para a rigidez estromal apenas quando esticadas (E_bar_i > 0), tornando-se mecanicamente inativas sob compressão local (E_bar_i \le 0):
+< E_bar_i > = \begin{cases} E_bar_i & se  E_bar_i > 0 \ 0 & se  E_bar_i \le 0 \end{cases}
 
-O termo de deformação equivalente modificado \bar{E}_i, introduzido por Gasser, Ogden e Holzapfel (2006), incorpora a dispersão estrutural das fibrilas de colágeno ao redor de sua direção média:
-\bar{E}_i = \kappa \left(\bar{I}_1 - 3\right) + (1 - 3\kappa)\left(\bar{I}_{4i} - 1\right)
+O termo de deformação equivalente modificado E_bar_i, introduzido por Gasser, Ogden e Holzapfel (2006), incorpora a dispersão estrutural das fibrilas de colágeno ao redor de sua direção média:
+E_bar_i = \kappa (I_bar_1 - 3) + (1 - 3\kappa)(I_bar_{4i} - 1)
 
 O parâmetro \kappa \in [0, 1/3] representa a dispersão tridimensional das fibras:
-* \kappa = 0: Corresponde a fibras perfeitamente alinhadas (anisotropia transversal pura na direção \mathbf{a}_{0i}). O termo simplifica-se para \bar{E}_i = \bar{I}_{4i} - 1.
-* \kappa = 1/3: Corresponde a uma dispersão totalmente isotrópica no espaço tridimensional. O termo de fibras torna-se proporcional a \bar{I}_1 - 3, fundindo-se matematicamente com a resposta neo-Hookeana da matriz.
+* \kappa = 0: Corresponde a fibras perfeitamente alinhadas (anisotropia transversal pura na direção a_{0i}). O termo simplifica-se para E_bar_i = I_bar_{4i} - 1.
+* \kappa = 1/3: Corresponde a uma dispersão totalmente isotrópica no espaço tridimensional. O termo de fibras torna-se proporcional a I_bar_1 - 3, fundindo-se matematicamente com a resposta neo-Hookeana da matriz.
 * 0 < \kappa < 1/3: Captura a dispersão moderada observada experimentalmente no estroma. O valor de \kappa = 0,09 adotado neste livro reflete um alinhamento preferencial forte, mas com dispersão física significativa ao redor do meridiano de alinhamento lamela a lamela.
 
 ---
 
 ## A.4 Tensores de Tensão Associados (Stress)
 
-Para implementar o modelo constitutivo em um código de elementos finitos não lineares como o FEBio, é necessário derivar as relações de tensão-deformação. O tensor de tensão física de Cauchy (true stress tensor) \boldsymbol{\sigma} e o segundo tensor de Piola-Kirchhoff \mathbf{S} são obtidos por meio de diferenciação termodinamicamente consistente em relação aos tensores de deformação correspondentes.
+Para implementar o modelo constitutivo em um código de elementos finitos não lineares como o FEBio, é necessário derivar as relações de tensão-deformação. O tensor de tensão física de Cauchy (true stress tensor) σ e o segundo tensor de Piola-Kirchhoff S são obtidos por meio de diferenciação termodinamicamente consistente em relação aos tensores de deformação correspondentes.
 
-### A.4.1 O Segundo Tensor de Tensão de Piola-Kirchhoff (\mathbf{S})
+### A.4.1 O Segundo Tensor de Tensão de Piola-Kirchhoff (S)
 
-O segundo tensor de Piola-Kirchhoff \mathbf{S} é definido como o conjugado energético de trabalho do tensor de deformação de Cauchy-Green direito \mathbf{C} na configuração de referência \Omega_0:
-\mathbf{S} = 2 \frac{\partial \Psi}{\partial \mathbf{C}} = \mathbf{S}_{\mathrm{vol}} + \mathbf{S}_{\mathrm{iso}}
+O segundo tensor de Piola-Kirchhoff S é definido como o conjugado energético de trabalho do tensor de deformação de Cauchy-Green direito C na configuração de referência \Omega_0:
+S = 2 (∂Ψ) / (∂C) = S_{vol} + S_{iso}
 
 #### Derivação Volumétrica:
-\mathbf{S}_{\mathrm{vol}} = 2 \frac{\partial \Psi_{\mathrm{vol}}(J)}{\partial \mathbf{C}} = 2 \frac{\mathrm{d} \Psi_{\mathrm{vol}}}{\mathrm{d} J} \frac{\partial J}{\partial \mathbf{C}}
+S_{vol} = 2 (∂Ψ_{vol}(J)) / (∂C) = 2 (d Ψ_{vol}) / (d) J (∂J) / (∂C)
 
-Utilizando a identidade de análise tensorial \frac{\partial J}{\partial \mathbf{C}} = \frac{1}{2} J \mathbf{C}^{-1}:
-\mathbf{S}_{\mathrm{vol}} = J \frac{\mathrm{d} \Psi_{\mathrm{vol}}}{\mathrm{d} J} \mathbf{C}^{-1} = k J (J - 1) \mathbf{C}^{-1}
+Utilizando a identidade de análise tensorial (∂J) / (∂C) = (1) / (2) J C^{-1}:
+S_{vol} = J (d Ψ_{vol}) / (d) J C^{-1} = k J (J - 1) C^{-1}
 
 #### Derivação Isocórica:
-A diferenciação da parte isocórica exige a aplicação da regra da cadeia devido ao acoplamento de \bar{\mathbf{C}} = J^{-2/3}\mathbf{C}:
-\mathbf{S}_{\mathrm{iso}} = 2 \frac{\partial \Psi_{\mathrm{iso}}}{\partial \mathbf{C}} = J^{-2/3} \mathbb{P} : \bar{\mathbf{S}}
+A diferenciação da parte isocórica exige a aplicação da regra da cadeia devido ao acoplamento de C_bar = J^{-2/3}C:
+S_{iso} = 2 (∂Ψ_{iso}) / (∂C) = J^{-2/3} P : S_bar
 
-onde \mathbb{P} é o tensor de projeção de quarta ordem na configuração de referência, definido por:
-\mathbb{P} = \mathbb{I} - \frac{1}{3} \mathbf{C} \otimes \mathbf{C}^{-1}
-e \bar{\mathbf{S}} é o segundo tensor de Piola-Kirchhoff isocórico fictício:
-\bar{\mathbf{S}} = 2 \frac{\partial \Psi_{\mathrm{iso}}}{\partial \bar{\mathbf{C}}} = 2 \left[ \frac{\partial \Psi_{\mathrm{iso}}}{\partial \bar{I}_1} \frac{\partial \bar{I}_1}{\partial \bar{\mathbf{C}}} + \sum_{i=1}^2 \frac{\partial \Psi_{\mathrm{iso}}}{\partial \bar{I}_{4i}} \frac{\partial \bar{I}_{4i}}{\partial \bar{\mathbf{C}}} \right]
+onde P é o tensor de projeção de quarta ordem na configuração de referência, definido por:
+P = I - (1) / (3) C ⊗ C^{-1}
+e S_bar é o segundo tensor de Piola-Kirchhoff isocórico fictício:
+S_bar = 2 (∂Ψ_{iso}) / (∂C)_bar = 2 [ (∂Ψ_{iso}) / (∂I)_1_bar (∂I_bar_1) / (∂C)_bar + Σ(i=1..2) (∂Ψ_{iso}) / (∂I)_{4i_bar} (∂I_bar_{4i}) / (∂C)_bar ]
 
-Sabendo que \frac{\partial \bar{I}_1}{\partial \bar{\mathbf{C}}} = \mathbf{I} e \frac{\partial \bar{I}_{4i}}{\partial \bar{\mathbf{C}}} = \mathbf{a}_{0i} \otimes \mathbf{a}_{0i} = \mathbf{A}_{0i}:
-\bar{\mathbf{S}} = 2 \left[ \frac{\partial \Psi_{\mathrm{iso}}}{\partial \bar{I}_1} \mathbf{I} + \sum_{i=1}^2 \frac{\partial \Psi_{\mathrm{iso}}}{\partial \bar{I}_{4i}} \mathbf{A}_{0i} \right]
+Sabendo que (∂I_bar_1) / (∂C)_bar = I e (∂I_bar_{4i}) / (∂C)_bar = a_{0i} ⊗ a_{0i} = A_{0i}:
+S_bar = 2 [ (∂Ψ_{iso}) / (∂I)_1_bar I + Σ(i=1..2) (∂Ψ_{iso}) / (∂I)_{4i_bar} A_{0i} ]
 
-Substituindo as derivadas parciais da densidade de energia \Psi_{\mathrm{iso}}:
-\frac{\partial \Psi_{\mathrm{iso}}}{\partial \bar{I}_1} = c + k_1 \sum_{i=1}^2 \kappa \left\langle \bar{E}_i \right\rangle \exp\left[ k_2 \left\langle \bar{E}_i \right\rangle^2 \right]
-\frac{\partial \Psi_{\mathrm{iso}}}{\partial \bar{I}_{4i}} = k_1 (1 - 3\kappa) \left\langle \bar{E}_i \right\rangle \exp\left[ k_2 \left\langle \bar{E}_i \right\rangle^2 \right]
+Substituindo as derivadas parciais da densidade de energia Ψ_{iso}:
+(∂Ψ_{iso}) / (∂I)_1_bar = c + k_1 Σ(i=1..2) \kappa < E_bar_i > exp[ k_2 < E_bar_i >^2 ]
+(∂Ψ_{iso}) / (∂I)_{4i_bar} = k_1 (1 - 3\kappa) < E_bar_i > exp[ k_2 < E_bar_i >^2 ]
 
-Obtemos a expressão completa de \bar{\mathbf{S}} na configuração não deformada. A contração tensorial \mathbb{P} : \bar{\mathbf{S}} realiza a remoção da componente hidrostática isocórica de \bar{\mathbf{S}}, garantindo que a tensão isocórica permaneça puramente desviadora na configuração espacial:
-\mathbf{S}_{\mathrm{iso}} = J^{-2/3} \left[ \bar{\mathbf{S}} - \frac{1}{3} \left( \bar{\mathbf{S}} : \mathbf{C} \right) \mathbf{C}^{-1} \right]
+Obtemos a expressão completa de S_bar na configuração não deformada. A contração tensorial P : S_bar realiza a remoção da componente hidrostática isocórica de S_bar, garantindo que a tensão isocórica permaneça puramente desviadora na configuração espacial:
+S_{iso} = J^{-2/3} [ S_bar - (1) / (3) ( S_bar : C ) C^{-1} ]
 
 ---
 
-### A.4.2 O Tensor de Tensão de Cauchy (\boldsymbol{\sigma})
+### A.4.2 O Tensor de Tensão de Cauchy (σ)
 
-O tensor de tensão física (ou real) de Cauchy \boldsymbol{\sigma}, associado à configuração espacial deformada atual, é derivado a partir do mapeamento (push-forward) de \mathbf{S} via gradiente de deformação \mathbf{F}:
-\boldsymbol{\sigma} = J^{-1} \mathbf{F} \mathbf{S} \mathbf{F}^T = \boldsymbol{\sigma}_{\mathrm{vol}} + \boldsymbol{\sigma}_{\mathrm{iso}}
+O tensor de tensão física (ou real) de Cauchy σ, associado à configuração espacial deformada atual, é derivado a partir do mapeamento (push-forward) de S via gradiente de deformação F:
+σ = J^{-1} F S F^T = σ_{vol} + σ_{iso}
 
 #### Componente Volumétrica:
-\boldsymbol{\sigma}_{\mathrm{vol}} = J^{-1} \mathbf{F} \mathbf{S}_{\mathrm{vol}} \mathbf{F}^T = J^{-1} \mathbf{F} \left[ k J (J - 1) \mathbf{C}^{-1} \right] \mathbf{F}^T
+σ_{vol} = J^{-1} F S_{vol} F^T = J^{-1} F [ k J (J - 1) C^{-1} ] F^T
 
-Pela identidade \mathbf{F} \mathbf{C}^{-1} \mathbf{F}^T = \mathbf{F} \left(\mathbf{F}^{-1} \mathbf{F}^{-T}\right) \mathbf{F}^T = \mathbf{I}:
-\boldsymbol{\sigma}_{\mathrm{vol}} = k (J - 1) \mathbf{I} = -p \mathbf{I}
+Pela identidade F C^{-1} F^T = F (F^{-1} F^{-T}) F^T = I:
+σ_{vol} = k (J - 1) I = -p I
 onde p = -k(J-1) representa a pressão hidrostática interna gerada pela restrição volumétrica.
 
 #### Componente Isocórica:
 A transformação isocórica mapeia-se de forma consistente para:
-\boldsymbol{\sigma}_{\mathrm{iso}} = J^{-1} \bar{\mathbf{F}} \left[ \mathbb{P} : \bar{\mathbf{S}} \right] \bar{\mathbf{F}}^T = J^{-1} \mathrm{dev}\left( \bar{\boldsymbol{\sigma}} \right)
+σ_{iso} = J^{-1} F_bar [ P : S_bar ] F_bar^T = J^{-1} dev( σ_bar )
 
-onde \mathrm{dev}(\bullet) = (\bullet) - \frac{1}{3} \mathrm{tr}(\bullet) \mathbf{I} é o operador desviador espacial, e \bar{\boldsymbol{\sigma}} é a tensão espacial isocórica não projetada:
-\bar{\boldsymbol{\sigma}} = \bar{\mathbf{F}} \bar{\mathbf{S}} \bar{\mathbf{F}}^T = 2 \left[ \frac{\partial \Psi_{\mathrm{iso}}}{\partial \bar{I}_1} \bar{\mathbf{B}} + \sum_{i=1}^2 \frac{\partial \Psi_{\mathrm{iso}}}{\partial \bar{I}_{4i}} \bar{\mathbf{a}}_i \otimes \bar{\mathbf{a}}_i \right]
+onde dev(•) = (•) - (1) / (3) tr(•) I é o operador desviador espacial, e σ_bar é a tensão espacial isocórica não projetada:
+σ_bar = F_bar S_bar F_bar^T = 2 [ (∂Ψ_{iso}) / (∂I)_1_bar B_bar + Σ(i=1..2) (∂Ψ_{iso}) / (∂I)_{4i_bar} a_bar_i ⊗ a_bar_i ]
 
 Nesta equação:
-* \bar{\mathbf{B}} = \bar{\mathbf{F}} \bar{\mathbf{F}}^T representa o tensor de deformação isocórico esquerdo de Cauchy-Green (também chamado de tensor de deformação de Finger modificado).
-* \bar{\mathbf{a}}_i = \bar{\mathbf{F}} \mathbf{a}_{0i} representa a direção espacial deformada da i-ésima família de fibras de colágeno, capturando dinamicamente a rotação e o estiramento físico das fibras durante o carregamento por pressão intraocular e inserção do anel.
+* B_bar = F_bar F_bar^T representa o tensor de deformação isocórico esquerdo de Cauchy-Green (também chamado de tensor de deformação de Finger modificado).
+* a_bar_i = F_bar a_{0i} representa a direção espacial deformada da i-ésima família de fibras de colágeno, capturando dinamicamente a rotação e o estiramento físico das fibras durante o carregamento por pressão intraocular e inserção do anel.
 
-Esta formulação de tensão espacial \boldsymbol{\sigma} é resolvida iterativamente pelo FEBio no loop não linear global do método de Newton-Raphson para alcançar o equilíbrio mecânico estável da casca corneana.
+Esta formulação de tensão espacial σ é resolvida iterativamente pelo FEBio no loop não linear global do método de Newton-Raphson para alcançar o equilíbrio mecânico estável da casca corneana.
 
 ---
 

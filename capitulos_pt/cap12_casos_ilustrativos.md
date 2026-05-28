@@ -160,7 +160,7 @@ Nenhum nomograma padrão aborda a posição do ápice. Um nomograma de Ferrara p
 
 ### Resultado Esperado
 
-Vτ validado = 9,31 μ\text{N}\cdot\text{m} (linear progressivo, da Tabela 12.2a). Migração esperada do ápice ≈ 0,3–0,5 mm em direção ao eixo visual. Combinado com aplanamento moderado (ΔK ≈ 1,5–2,0 D). Dada a classificação O−, o paciente deve entender que a melhora da AVMC pode ser modesta, mesmo com o reposicionamento bem-sucedido do ápice.
+Vτ validado = 9,31 μN\cdotm (linear progressivo, da Tabela 12.2a). Migração esperada do ápice ≈ 0,3–0,5 mm em direção ao eixo visual. Combinado com aplanamento moderado (ΔK ≈ 1,5–2,0 D). Dada a classificação O−, o paciente deve entender que a melhora da AVMC pode ser modesta, mesmo com o reposicionamento bem-sucedido do ápice.
 
 **Ponto de aprendizado:** O Vτ aborda uma necessidade clínica que nenhum nomograma existente reconhece. Quando o ápice está deslocado > 1 mm e o coma excede 3,5 μm, o reposicionamento do ápice deve ser o objetivo cirúrgico primário, e não o aplanamento.
 

@@ -51,7 +51,7 @@ The physical interpretation is straightforward. If ΔF⊥ is constant along the 
 In the finite-element framework employed throughout this book, the displacement field u_z(θ) on the anterior corneal surface is computed at discrete nodal positions. A direct computation of ΔF⊥ at the ring–stroma interface would require extraction of contact tractions from the FEBio solver—a procedure that, while feasible, introduces mesh-dependency artifacts in the contact formulation. We therefore define a displacement-based proxy that captures the essential physics of the bending moment without requiring explicit force extraction:
 
 
-V_{τ,\text{proxy}} = \sum_{i=1}^{N-1} \left| Δ u_{z,i} - Δ u_{z,i-1} \right| \times r_i \times Δθ
+V_{τ,proxy} = \sum_{i=1}^{N-1} | Δ u_{z,i} - Δ u_{z,i-1} | \times r_i \times Δθ
 
 
 where Δu_{z,i} is the change in posterior displacement at the i-th circumferential node induced by the ICRS (relative to the baseline IOP-loaded state), r_i is the radial distance of the i-th node from the corneal center, Δθ is the angular spacing between successive nodes, and the summation runs over all N nodes along the ring arc.
@@ -79,7 +79,7 @@ At the thin end, the ring height is 150 μm, and the corresponding displacement 
 The difference ΔF⊥ = F⊥,thick − F⊥,thin acts over a lever arm equal to the arc length between the thick and thin ends. For a 160° arc at r = 2.75 mm, the arc length is:
 
 
-L = r \times θ = 2.75 \times \frac{160\pi}{180} ≈ 7.68 \text{ mm}
+L = r \times θ = 2.75 \times (160\pi) / (180) ≈ 7.68  mm
 
 
 The two unequal forces, separated by this lever arm, constitute a force couple—a system whose resultant force is non-zero (unlike a pure couple, where the forces are equal and opposite) but whose most biomechanically significant effect is the bending moment it exerts on the corneal tissue. This moment tends to rotate the corneal surface about an axis perpendicular to the plane of the ring arc, causing the apex to migrate in the direction of the thicker end.
@@ -142,10 +142,10 @@ We simulated 6 configurations under 15 mmHg of follower pressure, using the anis
 *   **Parabolic Progressive** (`asym_parab_300to150`): Progressive thickness from 300 μm in the center (thick) to 150 μm at both ends (thin) along a 160° arc.
 *   **Long Arc Progressive** (`asym_prog_300to150_arc210`): Progressive thickness from 300 to 150 μm along a 210° arc.
 
-The displacement-based torque proxy V_{τ,\text{proxy}} was computed at Step 10 (physiological pressure) using:
- V_{τ,\text{proxy}} = \sum_{i=1}^{N-1} \left| u_{z,i} - u_{z,i-1} \right| \times r \times Δθ 
+The displacement-based torque proxy V_{τ,proxy} was computed at Step 10 (physiological pressure) using:
+ V_{τ,proxy} = \sum_{i=1}^{N-1} | u_{z,i} - u_{z,i-1} | \times r \times Δθ 
 where u_z is in μm, r = 2.75 mm, and Δθ is the angular segment length in radians.
-Applying the HGO tangent stiffness conversion factor (0.0675 μ\text{N}\cdot\text{m} per μ\text{m}\cdot\text{mm} of proxy displacement), we obtain the physical torque Vτ in μ\text{N}\cdot\text{m}.
+Applying the HGO tangent stiffness conversion factor (0.0675 μN\cdotm per μm\cdotmm of proxy displacement), we obtain the physical torque Vτ in μN\cdotm.
 
 ### 8.6.2 Validated Simulation Results
 
@@ -153,7 +153,7 @@ Table 8.2 summarizes the exact, physically validated results extracted from the 
 
 **Table 8.2.** Validated Vτ values for asymmetric ring configurations (5.5 mm optical zone, 75% implantation depth, HGO hyperelastic stroma).
 
-| Configuration | Model Name | Proxy V_{τ,\text{proxy}} (μ\text{m}\cdot\text{mm}) | Validated Vτ (μ\text{N}\cdot\text{m}) | Clinical Interpretation / Expected Effect |
+| Configuration | Model Name | Proxy V_{τ,proxy} (μm\cdotmm) | Validated Vτ (μN\cdotm) | Clinical Interpretation / Expected Effect |
 | :--- | :--- | :---: | :---: | :--- |
 | **Symmetric Control** | `asym_control_sym250` | 36.57 | 2.47 | **Numerical Baseline.** Uniform displacement (0.158 to 0.183 mm). Symmetrical tilt, zero active torque. |
 | **Linear Progressive** | `asym_prog_300to150` | 137.94 | 9.31 | **Corrective Active Torque.** Asymmetric displacement gradient (0.0 to 0.179 mm). Drives controlled apex repositioning. |
@@ -166,19 +166,19 @@ Table 8.2 summarizes the exact, physically validated results extracted from the 
 
 The finite-element results provide critical mechanical insights that explain the clinical efficacy of progressive rings. 
 
-First, the **Symmetric Control** model yields a tiny residual of 2.47 μ\text{N}\cdot\text{m}. This represents the numerical baseline of the mesh, confirming that uniform-profile segments exert no active corrective moment.
+First, the **Symmetric Control** model yields a tiny residual of 2.47 μN\cdotm. This represents the numerical baseline of the mesh, confirming that uniform-profile segments exert no active corrective moment.
 
-Second, the **Linear Progressive** (300\to150 μm) model generates 9.31 μ\text{N}\cdot\text{m} of active torque. This is driven by a massive displacement gradient: the stroma over the thick end is rigidly locked at 0.00 mm, while the thin end is permitted to displace up to 0.179 mm. This creates an asymmetric tilt slope:
- θ_{\text{tilt}} = \frac{Δ u_z}{L_{\text{arc}}} ≈ \frac{0.179\text{ mm}}{7.68\text{ mm}} ≈ 0.0233\text{ rad} ≈ 1.33° 
+Second, the **Linear Progressive** (300\to150 μm) model generates 9.31 μN\cdotm of active torque. This is driven by a massive displacement gradient: the stroma over the thick end is rigidly locked at 0.00 mm, while the thin end is permitted to displace up to 0.179 mm. This creates an asymmetric tilt slope:
+ θ_{tilt} = (Δ u_z) / (L_{arc)} ≈ (0.179 mm) / (7.68 mm) ≈ 0.0233 rad ≈ 1.33° 
 This differential displacement generates a force couple that rotates the corneal vertex, pushing the apex towards the thick end. In clinical terms, this corresponds to the 40\% greater coma correction reported by García de Oteyza et al. (2021) using the progressive Keraring SI-5.
 
-Third, the **Parabolic Progressive** (300\to150 μm) model generates a remarkable 18.34 μ\text{N}\cdot\text{m} of torque. Because the center is thick (nodes 317–321 locked at 0.00 mm) and both ends are thin (displacing up to 0.178 mm at the temporal end and 0.174 mm at the nasal end), the displacement gradient is doubled. This creates a balanced, bi-directional bending moment that pulls the corneal stroma toward the center, regularizing the corneal dome and repositioning highly eccentric cones.
+Third, the **Parabolic Progressive** (300\to150 μm) model generates a remarkable 18.34 μN\cdotm of torque. Because the center is thick (nodes 317–321 locked at 0.00 mm) and both ends are thin (displacing up to 0.178 mm at the temporal end and 0.174 mm at the nasal end), the displacement gradient is doubled. This creates a balanced, bi-directional bending moment that pulls the corneal stroma toward the center, regularizing the corneal dome and repositioning highly eccentric cones.
 
-Fourth, the **Long Arc Progressive** (210° arc) generates 11.76 μ\text{N}\cdot\text{m} of torque. The larger angular envelope increases the lever arm L_{\text{arc}} = r \times θ = 2.75 \times (210\pi / 180) ≈ 10.08 mm, which amplifies the overall torque by 26\% relative to the 160° arc. This proves that both the thickness gradient and the arc length can be used as design parameters to modulate Vτ.
+Fourth, the **Long Arc Progressive** (210° arc) generates 11.76 μN\cdotm of torque. The larger angular envelope increases the lever arm L_{arc} = r \times θ = 2.75 \times (210\pi / 180) ≈ 10.08 mm, which amplifies the overall torque by 26\% relative to the 160° arc. This proves that both the thickness gradient and the arc length can be used as design parameters to modulate Vτ.
 
 ### 8.6.4 The Reverse Configuration
 
-The reverse linear configuration (150 \to 300 μm) produces a Vτ of identical magnitude (9.40 μ\text{N}\cdot\text{m}) but opposite spatial direction relative to the standard progressive (9.31 μ\text{N}\cdot\text{m}). This is not merely a theoretical curiosity; it has direct clinical relevance. If the progressive ring is implanted backwards (with the thicker end positioned away from the cone), the torque vector acts to drive the apex further away from the pupillary center, worsening coma. The surgeon must therefore align the active torque vector Vτ with the Mechanical Neutral Axis (ENM) to ensure a corrective, rather than iatrogenic, biomechanical action.
+The reverse linear configuration (150 \to 300 μm) produces a Vτ of identical magnitude (9.40 μN\cdotm) but opposite spatial direction relative to the standard progressive (9.31 μN\cdotm). This is not merely a theoretical curiosity; it has direct clinical relevance. If the progressive ring is implanted backwards (with the thicker end positioned away from the cone), the torque vector acts to drive the apex further away from the pupillary center, worsening coma. The surgeon must therefore align the active torque vector Vτ with the Mechanical Neutral Axis (ENM) to ensure a corrective, rather than iatrogenic, biomechanical action.
 
 ## 8.7 The ENM — Eixo Neutro Mecânico (Mechanical Neutral Axis)
 
@@ -227,7 +227,7 @@ When all three conditions are met, the surgeon should prescribe an asymmetric (p
 The complete AVBC prescription for a keratoconic eye is therefore a three-component vector:
 
 
-\mathbf{V}_{\text{AVBC}} = V_R \hat{r} + V_T \hat{t} + V_τ \hat{τ}
+V_{AVBC} = V_R \hat{r} + V_T \hat{t} + V_τ \hat{τ}
 
 
 where r̂, t̂, and τ̂ are the unit vectors along the radial, tangential, and rotational axes, respectively. The surgeon's task is to select the ring parameters (symmetric vs. progressive, arc length, height, depth, orientation) that produce a V_AVBC matching the patient's biomechanical prescription as closely as possible. The symmetric simulation database provides the V_R and V_T components; the validated asymmetric data of Table 8.2 provides the Vτ component; and the ENM analysis provides the orientation axis for the Vτ prescription.
@@ -238,7 +238,7 @@ This three-vector framework transforms ICRS planning from a one-dimensional prob
 
 This chapter has introduced Vτ, the torque vector, as the third and most novel component of the AVBC framework. Vτ quantifies the net bending moment generated by an intrastromal corneal ring segment, and it is non-zero only when the ring cross-section varies along its arc—that is, only for asymmetric (progressive-thickness) ring profiles. The formal definition as a line integral of perpendicular force × radial distance was complemented by a displacement-based proxy computable directly from finite-element output.
 
-The zero-torque condition was validated across all 28 symmetric FEBio simulations, confirming the internal consistency of the framework. Validated active Vτ values for six progressive-thickness asymmetric configurations were established, ranging from 9.31 μ\text{N}\cdot\text{m} (linear progressive) to 18.34 μ\text{N}\cdot\text{m} (parabolic progressive), providing robust mechanical validation for clinical apex repositioning.
+The zero-torque condition was validated across all 28 symmetric FEBio simulations, confirming the internal consistency of the framework. Validated active Vτ values for six progressive-thickness asymmetric configurations were established, ranging from 9.31 μN\cdotm (linear progressive) to 18.34 μN\cdotm (parabolic progressive), providing robust mechanical validation for clinical apex repositioning.
 
 The Eixo Neutro Mecânico (ENM) was introduced as the biomechanically correct orientation axis for Vτ, replacing the K-steep meridian used in traditional nomograms. The ENM diverges from K-steep by more than 15° in approximately 40% of keratoconic eyes, underscoring the need for a dedicated biomechanical axis rather than a purely topographic one.
 

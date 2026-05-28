@@ -182,17 +182,17 @@ Implantation depth acts as a universal amplifier across all three vectors. The A
 Perhaps the most practically valuable element of the AVBC framework is its capacity for quantitative post-operative feedback. Inspired by the Alpins Correction Index (CI = |SIA|/|TIA|), the AVBC defines three component-specific correction indices:
 
 **CI_R (Radial Correction Index):**
-CI_R = \frac{Δ K_{observed}}{Δ K_{predicted}}
+CI_R = (Δ K_{observed}) / (Δ K_{predicted)}
 
 A CI_R of 1.0 ± 0.15 indicates that the flattening effect matched the prediction. Values below 0.85 indicate systematic under-correction (the cornea was stiffer than modeled, or the ring effect was less than predicted); values above 1.15 indicate over-correction.
 
 **VT-ratio (Tangential Correction Ratio):**
-VT\text{-}ratio = \frac{Δ Cyl_{observed}}{Δ Cyl_{expected}}
+VT-ratio = (Δ Cyl_{observed}) / (Δ Cyl_{expected)}
 
 This ratio assesses whether the arc length produced the expected degree of astigmatism regularization.
 
 **Vτ-ratio (Torsional Correction Ratio):**
-V_τ\text{-}ratio = \frac{Apex\_migration_{observed}}{Apex\_migration_{expected}}
+V_τ-ratio = (Apex_migration_{observed}) / (Apex_migration_{expected)}
 
 For symmetric rings, the expected Vτ is zero, and any nonzero apex migration indicates unexpected asymmetric loading. For asymmetric rings, this ratio quantifies the effectiveness of the torque mechanism.
 

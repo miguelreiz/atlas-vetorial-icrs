@@ -142,7 +142,7 @@ No standard nomogram addresses apex position. A Ferrara nomogram would prescribe
 
 ### Expected Outcome
 
-Validated Vτ = 9.31 μ\text{N}\cdot\text{m} (linear progressive, from Table 8.2). Expected apex migration ≈ 0.3–0.5 mm toward visual axis. Combined with moderate flattening (ΔK ≈ 1.5–2.0 D). Given O− classification, the patient must understand that BCVA improvement may be modest even with successful apex repositioning.
+Validated Vτ = 9.31 μN\cdotm (linear progressive, from Table 8.2). Expected apex migration ≈ 0.3–0.5 mm toward visual axis. Combined with moderate flattening (ΔK ≈ 1.5–2.0 D). Given O− classification, the patient must understand that BCVA improvement may be modest even with successful apex repositioning.
 
 **Teaching point:** Vτ addresses a clinical need that no existing nomogram recognizes. When the apex is displaced > 1 mm and coma exceeds 3.5 μm, apex repositioning should be the primary surgical goal, not flattening.
 

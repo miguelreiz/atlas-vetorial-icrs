@@ -213,7 +213,7 @@ Before finalizing any ring prescription, the surgeon must calculate RT_{max} usi
 - Ring: Progressive asymmetric, 250→150 μm, arc 210°
 - Depth: 75% of 435 μm = 326 μm → channel at 325 μm
 - Meridian: ENM axis (250°), thick end superiorly
-- Expected effect: Astigmatism regularization (VT at 210° = 7.39 kPa, −5.0% from baseline) + moderate apex shift (validated Vτ = 11.76 μ\text{N}\cdot\text{m})
+- Expected effect: Astigmatism regularization (VT at 210° = 7.39 kPa, −5.0% from baseline) + moderate apex shift (validated Vτ = 11.76 μN\cdotm)
 - Counsel patient: O~ classification → functional improvement uncertain; contact lens fitting may still be required
 
 ---

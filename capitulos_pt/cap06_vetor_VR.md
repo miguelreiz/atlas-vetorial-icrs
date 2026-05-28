@@ -28,8 +28,8 @@ Quando um segmento de PMMA é inserido num túnel estromal a 80% de profundidade
 O novo paradigma volumétrico invalida a antiga crença de que a espessura do anel governa exclusivamente o aplanamento. Uma vez que o aplanamento resulta do aperto lamelar causado pela introdução física de massa, a magnitude da redução de Δ K escala quase perfeitamente com o **Volume Injetado**.
 
 O volume de um implante ICRS clássico (triangular) é a área da sua seção transversal multiplicada pela sua extensão circunferencial. Assim:
-1. **Maior Espessura** \rightarrow Maior altura de espaçamento \rightarrow Maior aplanamento por grau de arco.
-2. **Maior Arco** \rightarrow Mais lamelas levantadas e mais volume total \rightarrow Maior aplanamento total da cúpula.
+1. **Maior Espessura** arrow Maior altura de espaçamento arrow Maior aplanamento por grau de arco.
+2. **Maior Arco** arrow Mais lamelas levantadas e mais volume total arrow Maior aplanamento total da cúpula.
 
 ---
 

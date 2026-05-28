@@ -17,7 +17,7 @@ Este livro apresentou a Análise Vetorial Biomecânica Corneana (AVBC) — um ar
 
 **Quarto**, apresentamos o sistema de classificação AVBC — uma avaliação trimodal (Óptica, Topográfica, Biomechanical) que estrutura o processo de decisão clínica e mapeia as características do paciente para as configurações de anel por meio do raciocínio biomecânico, em vez da correlação empírica (Capítulos 5, 9, 11). O fluxo de trabalho clínico, os exemplos práticos e os estudos de caso demonstram que o arcabouço é prático e aplicável.
 
-**Quinto**, apresentamos a validação computacional — 34 simulações de elementos finitos usando o modelo constitutivo HGO no FEBio 4.12, incluindo 6 modelos assimétricos de espessura progressiva. Essas simulações confirmaram os principais achados quantitativos: a insensibilidade de VR ao comprimento do arco, a monotonicidade de VT com o comprimento do arco (VT = -0.0018 \times \text{arc}° + 7.79, R² = 0.94), o zero numérico de Vτ para anéis simétricos e a validação física do torque corretivo ativo (Vτ = 9.31\text{--}18.34 μ\text{N}\cdot\text{m}) gerado por designs assimétricos de espessura progressiva (Capítulo 12).
+**Quinto**, apresentamos a validação computacional — 34 simulações de elementos finitos usando o modelo constitutivo HGO no FEBio 4.12, incluindo 6 modelos assimétricos de espessura progressiva. Essas simulações confirmaram os principais achados quantitativos: a insensibilidade de VR ao comprimento do arco, a monotonicidade de VT com o comprimento do arco (VT = -0.0018 \times arc° + 7.79, R² = 0.94), o zero numérico de Vτ para anéis simétricos e a validação física do torque corretivo ativo (Vτ = 9.31--18.34 μN\cdotm) gerado por designs assimétricos de espessura progressiva (Capítulo 12).
 
 ---
 

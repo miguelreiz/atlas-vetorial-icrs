@@ -23,7 +23,7 @@ This chapter proceeds from formal mathematical definition through finite element
 
 The radial displacement vector V_R is defined as the projection of the total in-plane displacement onto the local radial unit vector at each point of the corneal surface. Consider a node located at polar coordinates (r, θ) on the anterior corneal surface, where r is the radial distance from the corneal apex and θ is the meridional angle measured counterclockwise from the nasal horizontal. If u_x and u_y denote the Cartesian components of displacement in the corneal plane, the radial displacement at that node is given by:
 
-V_R(r, θ) = Δ u_r = \left[ u_x \cosθ + u_y \sinθ \right]_{\text{final}} - \left[ u_x \cosθ + u_y \sinθ \right]_{\text{initial}}
+V_R(r, θ) = Δ u_r = [ u_x \cosθ + u_y \sinθ ]_{final} - [ u_x \cosθ + u_y \sinθ ]_{initial}
 
 where the subscripts "initial" and "final" refer to the pre-implantation (baseline) and post-implantation configurations, respectively. The unit of V_R is micrometers (μm). By convention, positive values indicate centrifugal displacement (radially outward, toward the limbus), and negative values indicate centripetal displacement (radially inward, toward the apex).
 
@@ -53,7 +53,7 @@ Within each zone, V_R is reported as the arithmetic mean of all nodal values, we
 
 The clinical significance of V_R lies in its relationship to the change in keratometric power, ΔK. For a spherical corneal surface with radius of curvature R and refractive index n = 1.3375 (the standard keratometric index), a small radial perturbation that changes the local radius by ΔR produces a change in dioptric power given by:
 
-Δ K = -\frac{(n - 1)}{R²} \times Δ R
+Δ K = -((n - 1)) / (R²) \times Δ R
 
 The negative sign reflects the inverse relationship between curvature radius and dioptric power: an increase in radius (flattening) produces a decrease in keratometric power. For a typical keratoconic cornea with K = 48 D (R ≈ 7.03 mm), a radial displacement of 20 μm distributed over the central zone corresponds to a local radius change that translates to approximately 1.5–2.5 D of flattening, consistent with published clinical outcomes for single-segment ICRS implantation (Piñero et al., 2009; Vega-Estrada et al., 2013).
 
@@ -185,15 +185,15 @@ The resolution lies in the distinction between displacement and curvature. Flatt
 
 To formalize this distinction, consider the anterior corneal surface as a rotationally symmetric paraboloid with apical rise h and semi-diameter a. The radius of curvature at the apex is:
 
-R = \frac{a^2}{2h}
+R = (a^2) / (2h)
 
 When the ICRS reduces the apical rise from h₀ to h₁ (where h₁ < h₀, corresponding to negative Δu_z), the radius of curvature increases from R₀ to R₁:
 
-R_1 = \frac{a^2}{2h_1} > \frac{a^2}{2h_0} = R_0
+R_1 = (a^2) / (2h_1) > (a^2) / (2h_0) = R_0
 
 The keratometric power decreases correspondingly:
 
-Δ K = \frac{(n-1)}{R_1} - \frac{(n-1)}{R_0} < 0
+Δ K = ((n-1)) / (R_1) - ((n-1)) / (R_0) < 0
 
 Thus, a negative Δu_z (posterior displacement of the apex) produces a negative ΔK (reduction in dioptric power), which is precisely the clinical flattening effect. The sign convention is internally consistent; the confusion arises only when displacement is informally equated with curvature without regard to their distinct geometric meanings.
 

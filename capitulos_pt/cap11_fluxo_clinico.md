@@ -240,7 +240,7 @@ Antes de finalizar qualquer prescrição de anel, o cirurgião deve calcular a R
 - Anel: Progressivo assimétrico, 250→150 μm, arco 210°
 - Profundidade: 75% de 435 μm = 326 μm → túnel a 325 μm
 - Meridiano: Eixo do ENM (250°), extremidade mais espessa superiormente
-- Efeito esperado: Regularização do astigmatismo (VT a 210° = 7,39 kPa, −5,0% em relação à linha de base) + deslocamento moderado do ápice (Vτ validado = 11,76 μ\text{N}\cdot\text{m})
+- Efeito esperado: Regularização do astigmatismo (VT a 210° = 7,39 kPa, −5,0% em relação à linha de base) + deslocamento moderado do ápice (Vτ validado = 11,76 μN\cdotm)
 - Orientar a paciente: Classificação O~ → melhoria funcional incerta; a adaptação de lente de contato ainda pode ser necessária
 
 ---

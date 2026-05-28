@@ -256,16 +256,16 @@ All 6 asymmetric configurations were simulated using the five-parameter anisotro
 *   **Parabolic Progressive** (`asym_parab_300to150`): Tapered on both ends, with a peak thickness of 300 μm in the center and 150 μm at the boundaries.
 *   **Long Arc Progressive** (`asym_prog_300to150_arc210`): Linear taper from 300 μm to 150 μm along a 210° arc.
 
-The displacement-based torque proxy V_{τ,\text{proxy}} was extracted at the final load step (physiological IOP) from:
- V_{τ,\text{proxy}} = \sum_{i=1}^{N-1} \left| u_{z,i} - u_{z,i-1} \right| \times r \times Δθ 
-where u_z is the posterior displacement in μm, r = 2.75 mm, and Δθ is the angular spacing in radians. To compute the physical torque Vτ in μN·m, we scaled V_{τ,\text{proxy}} with the stromal HGO tangent stiffness conversion factor of 0.0675 μ\text{N}\cdot\text{m} per μ\text{m}\cdot\text{mm}.
+The displacement-based torque proxy V_{τ,proxy} was extracted at the final load step (physiological IOP) from:
+ V_{τ,proxy} = \sum_{i=1}^{N-1} | u_{z,i} - u_{z,i-1} | \times r \times Δθ 
+where u_z is the posterior displacement in μm, r = 2.75 mm, and Δθ is the angular spacing in radians. To compute the physical torque Vτ in μN·m, we scaled V_{τ,proxy} with the stromal HGO tangent stiffness conversion factor of 0.0675 μN\cdotm per μm\cdotmm.
 
 ### 10.6.2 Asymmetric Simulation Results
 Table 10.2a summarizes the exact, physically validated results extracted from the FEBio solver.
 
 **Table 10.2a.** Validated Vτ values for asymmetric ring configurations (5.5 mm optical zone, 75% implantation depth, HGO hyperelastic stroma).
 
-| Configuration | Model Name | Nodal Displacements (u_z, mm) | Proxy V_{τ,\text{proxy}} (μ\text{m}\cdot\text{mm}) | Validated Vτ (μ\text{N}\cdot\text{m}) | Clinical Interpretation / Expected Effect |
+| Configuration | Model Name | Nodal Displacements (u_z, mm) | Proxy V_{τ,proxy} (μm\cdotmm) | Validated Vτ (μN\cdotm) | Clinical Interpretation / Expected Effect |
 | :--- | :--- | :---: | :---: | :---: | :--- |
 | **Symmetric Control** | `asym_control_sym250` | Uniform (0.158 to 0.183) | 36.57 | 2.47 | **Numerical Zero.** Symmetrical displacement field, zero active corrective torque. |
 | **Linear Progressive** | `asym_prog_300to150` | Gradient (0.0 to 0.179) | 137.94 | 9.31 | **Active Corrective Torque.** Bending moment rotates surface by 1.33°, repositioning the apex. |
@@ -277,17 +277,17 @@ Table 10.2a summarizes the exact, physically validated results extracted from th
 ### 10.6.3 Biomechanical Discussion
 The completed asymmetric simulation campaign provides crucial mechanical validation for the AVBC triad. 
 
-First, the **Symmetric Control** model yields a tiny residual of 2.47 μ\text{N}\cdot\text{m}, representing the numerical limit of our mesh and confirming that uniform-profile segments do not exert any active corrective torque. 
+First, the **Symmetric Control** model yields a tiny residual of 2.47 μN\cdotm, representing the numerical limit of our mesh and confirming that uniform-profile segments do not exert any active corrective torque. 
 
 Second, the **Linear Progressive** model generates a massive displacement gradient: the stroma over the thick end is rigidly locked at 0.00 mm, while the thin end is permitted to displace up to 0.179 mm. This creates an asymmetric tilt slope:
- θ_{\text{tilt}} = \frac{Δ u_z}{L_{\text{arc}}} ≈ \frac{0.179\text{ mm}}{7.68\text{ mm}} ≈ 0.0233\text{ rad} ≈ 1.33° 
+ θ_{tilt} = (Δ u_z) / (L_{arc)} ≈ (0.179 mm) / (7.68 mm) ≈ 0.0233 rad ≈ 1.33° 
 This differential displacement generates a force couple that rotates the corneal vertex, pushing the apex towards the thick end. In clinical terms, this corresponds to the 40\% greater coma correction reported by García de Oteyza et al. (2021) using the progressive Keraring SI-5.
 
-Third, the **Parabolic Progressive** model generates a remarkable 18.34 μ\text{N}\cdot\text{m} of torque. Because the center is thick (nodes 317–321 locked at 0.00 mm) and both ends are thin (displacing up to 0.178 mm at the temporal end and 0.174 mm at the nasal end), the displacement gradient is doubled. This creates a balanced, bi-directional bending moment that pulls the corneal stroma toward the center, regularizing the corneal dome and repositioning highly eccentric cones.
+Third, the **Parabolic Progressive** model generates a remarkable 18.34 μN\cdotm of torque. Because the center is thick (nodes 317–321 locked at 0.00 mm) and both ends are thin (displacing up to 0.178 mm at the temporal end and 0.174 mm at the nasal end), the displacement gradient is doubled. This creates a balanced, bi-directional bending moment that pulls the corneal stroma toward the center, regularizing the corneal dome and repositioning highly eccentric cones.
 
-Fourth, the **Long Arc Progressive** (210° arc) generates 11.76 μ\text{N}\cdot\text{m} of torque. The larger angular envelope increases the lever arm L_{\text{arc}} = r \times θ = 2.75 \times (210\pi / 180) ≈ 10.08 mm, which amplifies the overall torque by 26\% relative to the 160° arc. This proves that both the thickness gradient and the arc length can be used as design parameters to modulate Vτ.
+Fourth, the **Long Arc Progressive** (210° arc) generates 11.76 μN\cdotm of torque. The larger angular envelope increases the lever arm L_{arc} = r \times θ = 2.75 \times (210\pi / 180) ≈ 10.08 mm, which amplifies the overall torque by 26\% relative to the 160° arc. This proves that both the thickness gradient and the arc length can be used as design parameters to modulate Vτ.
 
-Fifth, the **Reverse Progressive** model confirms spatial directionality: identical magnitude (9.40 μ\text{N}\cdot\text{m}) but opposite spatial direction, illustrating the risk of iatrogenic coma if the progressive ring is implanted backwards relative to the Mechanical Neutral Axis (ENM).
+Fifth, the **Reverse Progressive** model confirms spatial directionality: identical magnitude (9.40 μN\cdotm) but opposite spatial direction, illustrating the risk of iatrogenic coma if the progressive ring is implanted backwards relative to the Mechanical Neutral Axis (ENM).
 
 ---
 
@@ -316,23 +316,23 @@ All scripts, CSV files, and JSON reports are archived as supplementary material:
 
 | Vector | Mathematical Definition | Unit | FEBio Data Source | Measured Range | Primary Controller |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **V_R** | Δ u_r = u_x \cos θ + u_y \sin θ | μm | `node_data`: u_x, u_y, u_z | 8.9\text{--}19.9 (central) | Ring thickness |
-| **V_T** | Δ \sigma_{θθ} (Cauchy transformation) | kPa | `element_data`: \sigma_{xx}, \sigma_{yy}, \sigma_{xy} | 7.20\text{--}7.78 (global) | Arc length |
-| **V_τ** | \int Δ F_\perp \times r \, dθ (scaled proxy) | μN·m | `node_data`: u_z along ICRS arc | 2.47\text{--}18.34 (active range) | Ring asymmetry |
+| **V_R** | Δ u_r = u_x \cos θ + u_y \sin θ | μm | `node_data`: u_x, u_y, u_z | 8.9--19.9 (central) | Ring thickness |
+| **V_T** | Δ σ_{θθ} (Cauchy transformation) | kPa | `element_data`: σ_{xx}, σ_{yy}, σ_{xy} | 7.20--7.78 (global) | Arc length |
+| **V_τ** | \int Δ F_\perp \times r \, dθ (scaled proxy) | μN·m | `node_data`: u_z along ICRS arc | 2.47--18.34 (active range) | Ring asymmetry |
 
 This chapter has established the complete computational methodology for the AVBC framework. The 34 FEBio simulations — comprising 8 arc-sweep configurations, 16 patient-specific double-run models, 4 concentric-sweep configurations, and 6 progressive-thickness configurations — provide the empirical foundation for the three-vector decomposition. The key results are:
 
-1. V_R is insensitive to arc length for partial arcs (19.2\text{--}19.9 μm), confirming that flattening is controlled by ring thickness and implantation depth rather than by circumferential extent.
+1. V_R is insensitive to arc length for partial arcs (19.2--19.9 μm), confirming that flattening is controlled by ring thickness and implantation depth rather than by circumferential extent.
 
-2. V_T decreases monotonically with arc length according to V_T = -0.0018 \times \text{arc}° + 7.79 (R² = 0.94), providing a linear, predictable control lever for astigmatism regularization.
+2. V_T decreases monotonically with arc length according to V_T = -0.0018 \times arc° + 7.79 (R² = 0.94), providing a linear, predictable control lever for astigmatism regularization.
 
-3. V_τ is virtually zero (2.47 μ\text{N}\cdot\text{m}) for symmetric configurations but ranges from 9.31 to 18.34 μ\text{N}\cdot\text{m} for progressive-thickness designs, validating that active apex repositioning requires asymmetric rings aligned with the Mechanical Neutral Axis (ENM).
+3. V_τ is virtually zero (2.47 μN\cdotm) for symmetric configurations but ranges from 9.31 to 18.34 μN\cdotm for progressive-thickness designs, validating that active apex repositioning requires asymmetric rings aligned with the Mechanical Neutral Axis (ENM).
 
 4. Corneal thickness is the primary modulator of the displacement response, with thin corneas (< 430 μm) exhibiting 20% greater |Δ u_z| than thick corneas (> 500 μm).
 
 5. The displacement paradox — negative Δ u_z despite positive clinical flattening — is resolved by the distinction between displacement and curvature.
 
-These findings are robust to mesh refinement, converge reliably for moderate keratoconus (K\text{-steep} < 52 D), and are fully traceable through the computational pipeline to the HGO constitutive parameters.
+These findings are robust to mesh refinement, converge reliably for moderate keratoconus (K-steep < 52 D), and are fully traceable through the computational pipeline to the HGO constitutive parameters.
 
 ---
 

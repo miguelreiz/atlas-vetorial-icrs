@@ -47,7 +47,7 @@ Uma análise de sensibilidade variando c e k₁ em ±30% mostra que a relação 
 
 No rascunho inicial deste trabalho, a validação física do vetor de torque ativo (Vτ) foi identificada como a maior lacuna computacional isolada no arcabouço AVBC, dependendo de projeções analíticas em vez de simulação numérica direta. Hoje, essa lacuna foi totalmente resolvida. Geramos e concluímos com sucesso 6 simulações de segmentos de anel assimétricos de espessura progressiva no FEBio 4.12 sob condições de contorno fisiológicas.
 
-Essas simulações confirmam que os designs de espessura progressiva quebram a simetria bilateral do campo de deslocamento, gerando valores de torque ativo que variam de 9.31 μ\text{N}\cdot\text{m} (progressivo linear) a 18.34 μ\text{N}\cdot\text{m} (progressivo parabólico), em comparação a uma linha de base numérica simétrica de 2.47 μ\text{N}\cdot\text{m}. O mecanismo físico — um gradiente de deslocamento progressivo que produz um binário de forças localizado que rotaciona o vértice corneano — está agora computacionalmente verificado e é rastreável até o modelo constitutivo HGO.
+Essas simulações confirmam que os designs de espessura progressiva quebram a simetria bilateral do campo de deslocamento, gerando valores de torque ativo que variam de 9.31 μN\cdotm (progressivo linear) a 18.34 μN\cdotm (progressivo parabólico), em comparação a uma linha de base numérica simétrica de 2.47 μN\cdotm. O mecanismo físico — um gradiente de deslocamento progressivo que produz um binário de forças localizado que rotaciona o vértice corneano — está agora computacionalmente verificado e é rastreável até o modelo constitutivo HGO.
 
 Embora a validação física básica esteja concluída, trabalhos futuros devem estender essa validação para geometrias específicas de pacientes, conjuntos de dados de desfechos clínicos e configurações de múltiplos segmentos.
 
@@ -200,7 +200,7 @@ A Seção 9.5 introduziu a Classificação Fenotípica Biomecânica, que mapeia 
 
 1. **O fenótipo c-dominante é o driver biomecânico primário da ectasia.** A variação de c em 10× (de 0,01 a 0,1 MPa) produz uma variação de δ_{apex} de 1590,9 μm (de −383,8 a −1974,7 μm) e de Δ K de 8,83 D (de 2,13 a 10,95 D). Isto significa que a degradação proteoglicânica — o processo molecular subjacente ao fenótipo c-dominante — é o mecanismo que governa quantitativamente a severidade da deformação.
 
-2. **Os fenótipos k_1 e k_2 são computacionalmente indistinguíveis pelo deslocamento apical sob condições saudáveis.** A variação isolada de k_1 em 10× (de 0,05 a 0,5 MPa) altera δ_{apex} em apenas 0,28 μm — uma variação insignificante sob a matriz canônica rígida. No entanto, sob condições degradadas (c = 0{,}01), a ativação correta das fibras curvadas revela um acoplamento protetor de 1{,}31\% (26 μ\text{m}), provando a sua função física de reforço secundário na ectasia progressiva.
+2. **Os fenótipos k_1 e k_2 são computacionalmente indistinguíveis pelo deslocamento apical sob condições saudáveis.** A variação isolada de k_1 em 10× (de 0,05 a 0,5 MPa) altera δ_{apex} em apenas 0,28 μm — uma variação insignificante sob a matriz canônica rígida. No entanto, sob condições degradadas (c = 0{,}01), a ativação correta das fibras curvadas revela um acoplamento protetor de 1{,}31\% (26 μm), provando a sua função física de reforço secundário na ectasia progressiva.
 
 3. **O fenótipo \kappa-dominante é secundário mas detectável.** A variação de \kappa de 0,00 (fibras perfeitamente alinhadas) a 0,333 (isotrópico) altera δ_{apex} em 16,9 μm e δ_ring em 0,58 μm — variações pequenas mas não negligíveis, e qualitativamente distinguíveis por seu efeito predominante sobre a integridade da casca sob eixos locais curvados.
 
@@ -208,21 +208,21 @@ A Seção 9.5 introduziu a Classificação Fenotípica Biomecânica, que mapeia 
 
 #### Formulação Paramétrica do Espessamento e Afinamento no FEBio
 
-A espessura da córnea (paquimetria) pode ser controlada diretamente nas funções analíticas de geração de nós da malha de elementos finitos. A superfície anterior da córnea é modelada como uma casca esférica ou elipsoide de translação. Em vez de assumir uma espessura estromal constante (t_0 = 500 μ\text{m}), a coordenada radial/axial do nó correspondente da superfície posterior da córnea é calculada variando a espessura local de forma paramétrica:
+A espessura da córnea (paquimetria) pode ser controlada diretamente nas funções analíticas de geração de nós da malha de elementos finitos. A superfície anterior da córnea é modelada como uma casca esférica ou elipsoide de translação. Em vez de assumir uma espessura estromal constante (t_0 = 500 μm), a coordenada radial/axial do nó correspondente da superfície posterior da córnea é calculada variando a espessura local de forma paramétrica:
 
 1. **Variação Paramétrica Uniforme (Thin / Normal / Thick):**
- Para simular córneas com diferentes espessuras basais de forma limpa no FEBio, a coordenada z dos nós posteriores (z_{post}) em cada ponto radial r é escalada por um parâmetro de espessura uniforme t \in [400 μ\text{m}, 600 μ\text{m}]:
+ Para simular córneas com diferentes espessuras basais de forma limpa no FEBio, a coordenada z dos nós posteriores (z_{post}) em cada ponto radial r é escalada por um parâmetro de espessura uniforme t \in [400 μm, 600 μm]:
  z_{post}(r) = z_{ant}(r) - t \cdot \cos(\phi)
  onde \phi é o ângulo de inclinação local da casca. Isto garante que a rigidez estrutural da casca no solver do FEBio responda diretamente à espessura fina (ectasia extrema), normal ou espessa.
 
 2. **Modelagem Paramétrica de Ectasia Localizada (Afinamento Regional):**
  A perda de espessura localizada na zona do cone ceratocónico (afinamento assimétrico temporal inferior) pode ser modelada de forma sintética no próprio gerador de nós adicionando uma função Gaussiana de afinamento descentrada. A espessura local t(x, y) é descrita como:
- t(x, y) = t_0 - Δ t \cdot \exp\left( - \frac{(x - x_{cone})^2 + (y - y_{cone})^2}{2 \sigma_{cone}^2} \right)
+ t(x, y) = t_0 - Δ t \cdot exp( - ((x - x_{cone})^2 + (y - y_{cone})^2) / (2 σ_{cone)^2} )
  onde:
- * t_0 é a espessura periférica saudável (500 μ\text{m}).
- * Δ t é a perda máxima de espessura no ápice do cone (ex. 150 μ\text{m}, resultando numa paquimetria mínima de 350 μ\text{m}).
+ * t_0 é a espessura periférica saudável (500 μm).
+ * Δ t é a perda máxima de espessura no ápice do cone (ex. 150 μm, resultando numa paquimetria mínima de 350 μm).
  * (x_{cone}, y_{cone}) são as coordenadas de descentração do cone (ex. temporal inferior).
- * \sigma_{cone} define a largura ou extensão da zona de afinamento.
+ * σ_{cone} define a largura ou extensão da zona de afinamento.
 
 Este método direto no gerador do FEBio permite criar modelos numéricos limpos e reprodutíveis, permitindo testar diretamente a eficácia mecânica do ICRS em diferentes graus de afinamento localizados e espessuras globais da casca, garantindo a convergência perfeita do solver sem risco de distorção de elementos.
 

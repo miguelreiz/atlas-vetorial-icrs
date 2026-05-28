@@ -43,7 +43,7 @@ A sensitivity analysis varying c and k₁ by ±30% shows that the VT monotonicit
 
 In the early draft of this work, the physical validation of the active torque vector (Vτ) was identified as the single largest computational gap in the AVBC framework, relying on analytical projections rather than direct numerical simulation. Today, this gap has been fully resolved. We have successfully generated and completed 6 progressive-thickness asymmetric ring segment simulations in FEBio 4.12 under physiological boundary conditions.
 
-These simulations confirm that progressive-thickness designs break the bilateral symmetry of the displacement field, generating active torque values ranging from 9.31 μ\text{N}\cdot\text{m} (linear progressive) to 18.34 μ\text{N}\cdot\text{m} (parabolic progressive), relative to a symmetric numerical baseline of 2.47 μ\text{N}\cdot\text{m}. The physical mechanism—a progressive displacement gradient producing a localized force couple that rotates the corneal vertex—is now computationally verified and traceable to the HGO constitutive model. 
+These simulations confirm that progressive-thickness designs break the bilateral symmetry of the displacement field, generating active torque values ranging from 9.31 μN\cdotm (linear progressive) to 18.34 μN\cdotm (parabolic progressive), relative to a symmetric numerical baseline of 2.47 μN\cdotm. The physical mechanism—a progressive displacement gradient producing a localized force couple that rotates the corneal vertex—is now computationally verified and traceable to the HGO constitutive model. 
 
 While the basic physical validation is complete, future work must extend this validation to patient-specific geometries, clinical outcome datasets, and multi-segment configurations.
 

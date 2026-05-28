@@ -182,8 +182,8 @@ Definimos quatro fenótipos biomecânicos primários da ectasia corneana:
 
 ### 9.5.3 Fenótipo de Desorganização Microestrutural (\kappa-Dominante)
 * **Fundamento Físico:** Aumento acentuado no parâmetro de dispersão angular das lamelas de colágeno (\kappa \to 1/3). A córnea perde seu arranjo preferencial circunferencial e radial altamente organizado e ortogonal na periferia e centro, transicionando mecânica e numericamente para um comportamento isotrópico de baixa rigidez cisalhante global.
-* **Assinatura Clínica (Multimodal Proxy):** Cones altamente excêntricos, periféricos (arquétipos crescente paracentral e formato D periférico) ou cones do tipo "mamilo" (nipple) de curvatura extrema. Caracteriza-se por uma **divergência acentuada** entre o Eixo Neutro Mecânico (ENM) posterior e o meridiano ceratométrico anterior íngreme (|ENM - K\text{-steep}| > 30°).
-* **Implicação Cirúrgica:** O alinhamento convencional de nomogramas baseado puramente no meridiano K\text{-steep} é ineficaz e induz aberrações secundárias. O implante do ICRS deve ser obrigatoriamente referenciado ao azimute do ENM posterior para interceptar o gradiente espacial de dispersão e atuar como ponte mecânica ativa (shunting) de estresse via vetor tangencial V_T.
+* **Assinatura Clínica (Multimodal Proxy):** Cones altamente excêntricos, periféricos (arquétipos crescente paracentral e formato D periférico) ou cones do tipo "mamilo" (nipple) de curvatura extrema. Caracteriza-se por uma **divergência acentuada** entre o Eixo Neutro Mecânico (ENM) posterior e o meridiano ceratométrico anterior íngreme (|ENM - K-steep| > 30°).
+* **Implicação Cirúrgica:** O alinhamento convencional de nomogramas baseado puramente no meridiano K-steep é ineficaz e induz aberrações secundárias. O implante do ICRS deve ser obrigatoriamente referenciado ao azimute do ENM posterior para interceptar o gradiente espacial de dispersão e atuar como ponte mecânica ativa (shunting) de estresse via vetor tangencial V_T.
 
 ### 9.5.4 Fenótipo de Instabilidade Exponencial (k_2-Dominante)
 * **Fundamento Físico:** Comprometimento no parâmetro não-linear de endurecimento exponencial (k_2 \ll 100). A córnea perde a capacidade fisiológica de endurecer exponencialmente sob deformação mecânica rápida, tornando-se suscetível à deformação plástica catastrófica e irreversível quando submetida a estresses externos cíclicos.
@@ -206,7 +206,7 @@ Uma classificação científica que não pode ser falsificada não é ciência �
 |---|---|---|
 | **c-dominante** | TBI elevado + topografia anterior normal → resposta forte a CXL isolado com estabilização do TBI em 12 meses | Se CXL não estabiliza o TBI em > 80% dos casos classificados como c-dominantes |
 | **k_1-dominante** | Coma elevado + ectasia estabelecida → forte efeito de aplanamento com ICRS espesso (V_R dominante) | Se CI_R < 0,70 sistematicamente em pacientes classificados como k_1-dominantes |
-| **\kappa-dominante** | ENM–K-steep > 30° → melhora superior com posicionamento pelo ENM vs. K-steep | Se posicionamento pelo ENM não produz VT\text{-ratio} > 0,85 em > 75% dos casos |
+| **\kappa-dominante** | ENM–K-steep > 30° → melhora superior com posicionamento pelo ENM vs. K-steep | Se posicionamento pelo ENM não produz VT-ratio > 0,85 em > 75% dos casos |
 | **k_2-dominante** | Eye rubbing crônico + flutuação refrativa → estabilização com CXL + cessação do atrito | Se progressão documentada continua após CXL + cessação em > 50% dos casos |
 
 Estes critérios de falsificação serão formalmente testados no estudo prospectivo descrito no Capítulo 13. A definição *a priori* dos limiares de rejeição é um compromisso ético e metodológico que garante a integridade científica da classificação proposta.
@@ -254,17 +254,17 @@ A profundidade de implantação atua como um amplificador universal em todos os 
 Talvez o elemento de maior valor prático do arcabouço AVBC seja a sua capacidade de fornecer feedback quantitativo pós-operatório. Inspirado no Índice de Correção de Alpins (CI = |SIA|/|TIA|), o AVBC define três índices de correção específicos por componente:
 
 **CI_R (Índice de Correção Radial):**
-CI_R = \frac{Δ K_{observado}}{Δ K_{previsto}}
+CI_R = (Δ K_{observado}) / (Δ K_{previsto)}
 
 Um CI_R de 1,0 ± 0,15 indica que o efeito de aplanamento correspondeu à previsão. Valores abaixo de 0,85 indicam subcorreção sistemática (a córnea estava mais rígida do que o modelado, ou o efeito do anel foi menor que o previsto); valores acima de 1,15 indicam supercorreção.
 
 **VT-ratio (Razão de Correção Tangencial):**
-VT\text{-}ratio = \frac{Δ Cyl_{observado}}{Δ Cyl_{esperado}}
+VT-ratio = (Δ Cyl_{observado}) / (Δ Cyl_{esperado)}
 
 Esta razão avalia se o comprimento de arco produziu o grau esperado de regularização do astigmatismo.
 
 **Vτ-ratio (Razão de Correção Torsional):**
-V_τ\text{-}ratio = \frac{Migra\text{ç}\tilde{a}o\_do\_\text{á}pice_{observada}}{Migra\text{ç}\tilde{a}o\_do\_\text{á}pice_{esperada}}
+V_τ-ratio = (Migraçao_do_ápice_{observada}) / (Migraç)ao_do_\text{ápice_{esperada}}
 
 Para anéis simétricos, o Vτ esperado é zero, e qualquer migração do ápice não nula indica carregamento assimétrico inesperado. Para anéis assimétricos, esta razão quantifica a eficácia do mecanismo de torque.
 

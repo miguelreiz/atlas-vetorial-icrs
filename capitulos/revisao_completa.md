@@ -64,7 +64,7 @@ All chapters were verified for internal consistency across the following key met
 
 ### 4.1 Completed Validation & Core Gaps Resolved
 
-*   **Asymmetric Ring FEBio Simulations:** **100% Completed.** We successfully built and ran 6 progressive-thickness configurations in FEBio 4.12. Nodal displacements were analyzed, displacement gradients evaluated, and the physical torque values (2.47\text{--}18.34 μ\text{N}\cdot\text{m}) computed. These findings have been fully integrated into Chapter 8 (The Torque Vector) and Chapter 10 (Computational Validation), completely replacing all tentative projected placeholders with hard mechanical validation.
+*   **Asymmetric Ring FEBio Simulations:** **100% Completed.** We successfully built and ran 6 progressive-thickness configurations in FEBio 4.12. Nodal displacements were analyzed, displacement gradients evaluated, and the physical torque values (2.47--18.34 μN\cdotm) computed. These findings have been fully integrated into Chapter 8 (The Torque Vector) and Chapter 10 (Computational Validation), completely replacing all tentative projected placeholders with hard mechanical validation.
 *   **Publication Figures:** **100% Completed.** High-resolution, dark-theme vector figures have been generated and archived in `book_figures/`.
 *   **Data Integrity Check:** **100% Completed.** All references and equations are aligned.
 
