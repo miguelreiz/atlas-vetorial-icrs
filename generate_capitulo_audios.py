@@ -23,7 +23,7 @@ def generate_with_cli(text_file, output_file):
         raise Exception(f"CLI Error: {result.stderr}")
 
 async def main():
-    workspace = r"d:\Antigravity\Aulas vetores corneanos"
+    workspace = os.path.dirname(os.path.abspath(__file__))
     scripts_dir = os.path.join(workspace, "audiobook_scripts")
     output_dir = os.path.join(workspace, "capitulos_audio_pt")
     
@@ -65,9 +65,26 @@ async def main():
                 await generate_with_library(text, output_path)
             else:
                 generate_with_cli(script_path, output_path)
-            print(f"Successfully generated: {output_path}")
+            
+            # Report file size and estimated duration
+            if os.path.exists(output_path):
+                size_mb = os.path.getsize(output_path) / (1024 * 1024)
+                est_min = size_mb / 0.94  # ~0.94 MB/min for 128kbps MP3
+                print(f"Successfully generated: {output_path}")
+                print(f"  Size: {size_mb:.2f} MB | Estimated duration: ~{est_min:.1f} min")
         except Exception as e:
             print(f"Failed to generate Chapter {cap_num}: {e}")
+
+    print("\n" + "=" * 60)
+    print("AUDIO GENERATION COMPLETE")
+    total_size = 0
+    for i in range(1, 16):
+        path = os.path.join(output_dir, f"capitulo_{i:02d}.mp3")
+        if os.path.exists(path):
+            total_size += os.path.getsize(path)
+    print(f"Total audio size: {total_size / (1024*1024):.1f} MB")
+    print(f"Estimated total duration: ~{total_size / (1024*1024) / 0.94:.0f} min")
+    print("=" * 60)
 
 if __name__ == "__main__":
     if sys.platform == 'win32':

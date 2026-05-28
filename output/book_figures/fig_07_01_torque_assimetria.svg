@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 440" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="ds" x="-3%" y="-3%" width="106%" height="106%"><feDropShadow dx="1" dy="1.5" stdDeviation="2" flood-opacity="0.12"/></filter>
+    <radialGradient id="cg" cx="50%" cy="55%" r="50%">
+      <stop offset="0%" stop-color="#FFF3E0"/><stop offset="100%" stop-color="#FFCC80"/>
+    </radialGradient>
+    <marker id="aor" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#E6550D"/></marker>
+    <marker id="abl" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#2171B5"/></marker>
+  </defs>
+
+  <rect width="780" height="440" fill="white" rx="8"/>
+  <text x="390" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Vetor Vτ: Mecanismo de Torque (Reposicionamento do Ápice)</text>
+  <text x="390" y="46" text-anchor="middle" font-size="10" fill="#888">Gradiente volumétrico assimétrico → migração do cone</text>
+
+  <!-- ═══ Frontal view of cornea ═══ -->
+  <circle cx="270" cy="245" r="150" fill="url(#cg)" stroke="#E65100" stroke-width="2"/>
+
+  <!-- Limbus -->
+  <circle cx="270" cy="245" r="150" fill="none" stroke="#BF360C" stroke-width="3" stroke-dasharray="8,4" opacity="0.4"/>
+
+  <!-- Ectatic cone (displaced inferiorly) -->
+  <ellipse cx="250" cy="310" rx="35" ry="30" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.7"/>
+  <text x="250" y="315" text-anchor="middle" font-size="8" font-weight="bold" fill="#C62828">Ápice</text>
+  <text x="250" y="327" text-anchor="middle" font-size="7" fill="#C62828">(descentrado)</text>
+
+  <!-- Visual axis marker -->
+  <circle cx="270" cy="245" r="5" fill="#333" opacity="0.5"/>
+  <text x="270" y="235" text-anchor="middle" font-size="7" fill="#555">Eixo Visual</text>
+
+  <!-- THICK segment (inferior - 300μm) -->
+  <path d="M 165 370 A 145 145 0 0 1 375 370" fill="none" stroke="#E6550D" stroke-width="16" stroke-linecap="round" opacity="0.7"/>
+  <text x="270" y="395" text-anchor="middle" font-size="10" font-weight="bold" fill="#BF360C">300 μm (espesso)</text>
+
+  <!-- THIN segment (superior - 150μm) -->
+  <path d="M 165 120 A 145 145 0 0 1 375 120" fill="none" stroke="#FFB74D" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+  <text x="270" y="108" text-anchor="middle" font-size="10" font-weight="bold" fill="#E65100">150 μm (fino)</text>
+
+  <!-- Migration arrow (cone moves UP toward visual axis) -->
+  <line x1="250" y1="290" x2="260" y2="260" stroke="#2171B5" stroke-width="3.5" marker-end="url(#abl)"/>
+  <text x="290" y="270" font-size="10" font-weight="bold" fill="#2171B5">Migração ↑</text>
+
+  <!-- Force arrows from thick segment (pushing cone away) -->
+  <line x1="200" y1="355" x2="220" y2="325" stroke="#E6550D" stroke-width="2" marker-end="url(#aor)" opacity="0.7"/>
+  <line x1="270" y1="365" x2="270" y2="335" stroke="#E6550D" stroke-width="2" marker-end="url(#aor)" opacity="0.7"/>
+  <line x1="340" y1="355" x2="320" y2="325" stroke="#E6550D" stroke-width="2" marker-end="url(#aor)" opacity="0.7"/>
+  <text x="170" y="380" font-size="7" fill="#E6550D">Força de repulsão</text>
+
+  <!-- ═══ RIGHT PANEL ═══ -->
+  <!-- Rule of thumb -->
+  <rect x="460" y="80" width="295" height="85" rx="8" fill="#FFF3E0" stroke="#E6550D" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="607" y="102" text-anchor="middle" font-size="11" font-weight="bold" fill="#BF360C">⚡ Regra de Ouro</text>
+  <text x="475" y="122" font-size="9" fill="#333">O cone migra sempre na direção</text>
+  <text x="475" y="137" font-size="9" fill="#333" font-weight="bold">OPOSTA ao segmento mais espesso.</text>
+  <text x="475" y="156" font-size="9" fill="#555">Cone inferior → espesso inferior → migra ↑</text>
+
+  <!-- Precision box -->
+  <rect x="460" y="185" width="295" height="70" rx="8" fill="#E3F2FD" stroke="#2171B5" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="607" y="207" text-anchor="middle" font-size="11" font-weight="bold" fill="#1565C0">Precisão Balística</text>
+  <text x="607" y="228" text-anchor="middle" font-size="10" fill="#333">Migração ≈ 0,0048 × Δt</text>
+  <text x="607" y="245" text-anchor="middle" font-size="9" fill="#555">≈ 0,5 mm por cada 100 μm de Δt (R²=1,00)</text>
+
+  <!-- Planning box -->
+  <rect x="460" y="275" width="295" height="95" rx="8" fill="#263238" filter="url(#ds)"/>
+  <text x="607" y="297" text-anchor="middle" font-size="11" font-weight="bold" fill="white">Planejamento Ortogonal</text>
+  <text x="475" y="318" font-size="9" fill="#B0BEC5">1. Definir VR: Espessura média = 200 μm</text>
+  <text x="475" y="335" font-size="9" fill="#B0BEC5">2. Definir Vτ: Δt = 100 μm necessário</text>
+  <text x="475" y="352" font-size="9" fill="#FFCC80" font-weight="bold">3. Prescrição: 250/150 μm</text>
+  <text x="475" y="366" font-size="8" fill="#78909C">   (mesmo VR global, com Vτ ativo)</text>
+
+  <!-- Footer -->
+  <text x="390" y="435" text-anchor="middle" font-size="8" fill="#CCC">Figura 7.1 — Mecanismo de Torque por Assimetria Volumétrica · Dr. Miguel Reis · Dra. Jordana Sandes</text>
+</svg>

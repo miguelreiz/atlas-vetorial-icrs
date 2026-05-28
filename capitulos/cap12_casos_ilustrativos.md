@@ -7,6 +7,9 @@
 
 ## 12.1 Introduction
 
+![Figure 11.1 - Resumo visual dos 6 estudos de caso AVBC.](book_figures/fig_11_01_resumo_6_casos.svg)
+
+
 The preceding chapters have presented the AVBC framework as a theoretical construct supported by finite element simulations. This chapter translates theory into practice through six illustrative case studies, each demonstrating the trimodal assessment (O → T → B), vector-based ring selection, and expected outcomes. The cases are selected to represent the diversity of clinical presentations encountered in keratoconus practice and to highlight scenarios where the AVBC approach diverges from, and potentially improves upon, nomogram-based planning.
 
 Each case follows a standardized format:
@@ -139,7 +142,7 @@ No standard nomogram addresses apex position. A Ferrara nomogram would prescribe
 
 ### Expected Outcome
 
-Validated $V\tau = 9.31\ \mu\text{N}\cdot\text{m}$ (linear progressive, from Table 8.2). Expected apex migration ≈ 0.3–0.5 mm toward visual axis. Combined with moderate flattening (ΔK ≈ 1.5–2.0 D). Given O− classification, the patient must understand that BCVA improvement may be modest even with successful apex repositioning.
+Validated Vτ = 9.31 μ\text{N}\cdot\text{m} (linear progressive, from Table 8.2). Expected apex migration ≈ 0.3–0.5 mm toward visual axis. Combined with moderate flattening (ΔK ≈ 1.5–2.0 D). Given O− classification, the patient must understand that BCVA improvement may be modest even with successful apex repositioning.
 
 **Teaching point:** Vτ addresses a clinical need that no existing nomogram recognizes. When the apex is displaced > 1 mm and coma exceeds 3.5 μm, apex repositioning should be the primary surgical goal, not flattening.
 
@@ -164,7 +167,7 @@ A 35-year-old male presenting with extreme corneal ectasia (Globus pattern). BCV
 
 **Module T:** Globus pattern (KMax > 60 D, diffuse thinning). The Mechanical Neutral Axis (ENM) cannot be identified as a single localized buckling zone because the entire corneal dome has undergone generalized structural mechanical destabilization.
 
-**Module B:** Classified as a **VT/B structural configuration**. The therapeutic objective changes completely from optical correction (aberration reduction) to **structural stabilization** and **restoration of contact lens tolerance**. The mechanical target is to maximize the tension shunting effect ($V_T$) to redistribute excessive circumferential hoop stress and prevent progressive ectatic collapse.
+**Module B:** Classified as a **VT/B structural configuration**. The therapeutic objective changes completely from optical correction (aberration reduction) to **structural stabilization** and **restoration of contact lens tolerance**. The mechanical target is to maximize the tension shunting effect (V_T) to redistribute excessive circumferential hoop stress and prevent progressive ectatic collapse.
 
 ### Computational Solver Limits vs. Clinical Reality
 

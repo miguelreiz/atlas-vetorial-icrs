@@ -7,6 +7,9 @@
 
 ## 2.1 Introduction
 
+![Figure 2.1 - Evolução conceitual: das Três Escolas (Geométrica, Volumétrica, Biomecânica) à síntese AVBC.](book_figures/fig_02_01_tres_escolas.svg)
+
+
 Intracorneal ring segments have been implanted for more than twenty-five years, with an estimated half-million procedures performed worldwide since the first Intacs implantation in 1999 (Burris et al., 1998; Colin et al., 2000). Despite this extensive clinical experience, the mechanism of action of ICRS remains a subject of ongoing debate. How, precisely, does a small arc of polymethylmethacrylate (PMMA) embedded in the corneal stroma produce changes in corneal curvature, astigmatism, and higher-order aberrations?
 
 Three conceptual frameworks have been proposed: the **geometric school** (Barraquer, 1964), which attributes the effect to arc-shortening; the **volumetric school** (Kling & Marcos, 2013), which emphasizes volume displacement; and the **biomechanical school** (Dupps & Roberts, 2014), which focuses on stress redistribution. Each framework captures part of the truth, but none provides a complete account of the observed clinical effects.
@@ -88,6 +91,9 @@ The full ring (360°) behaves differently because it constrains the entire circu
 
 ### Clinical Implication
 
+![Figure 2.2 - O Paradoxo do ICRS: restrição cinemática vs injeção volumétrica.](book_figures/fig_02_02_paradoxo_icrs.svg)
+
+
 This finding has a profound clinical implication: **partial-arc ICRS do not flatten the cornea by reducing apical displacement. They modify the cornea by redistributing tangential stress.** The clinical ΔK observed after ICRS implantation is a surface curvature effect — a change in the *relationship* between local curvature and the reference best-fit sphere — not a simple displacement reduction.
 
 This is why VT (tangential stress redistribution) is the primary mechanism for partial-arc ICRS, while VR (radial displacement reduction) is relevant only for the full ring. Understanding this distinction is essential for rational ICRS planning.
@@ -101,6 +107,9 @@ This is why VT (tangential stress redistribution) is the primary mechanism for p
 The foregoing analysis reveals that the ICRS effect is not a single phenomenon but a composite of multiple mechanisms, each with different sensitivities to ring parameters. To make this complexity tractable for clinical decision-making, we propose decomposing the ICRS effect into three independent **biomechanical vectors**:
 
 ### VR — The Radial Vector
+
+![Figure 2.3 - Decomposição vetorial: os três vetores VR, VT e Vτ e suas ações biomecânicas.](book_figures/fig_02_03_decomposicao_vetorial.svg)
+
 
 **Definition:** VR is the radial component of the displacement field induced by the ICRS.
 

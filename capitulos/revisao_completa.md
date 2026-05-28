@@ -64,7 +64,7 @@ All chapters were verified for internal consistency across the following key met
 
 ### 4.1 Completed Validation & Core Gaps Resolved
 
-*   **Asymmetric Ring FEBio Simulations:** **100% Completed.** We successfully built and ran 6 progressive-thickness configurations in FEBio 4.12. Nodal displacements were analyzed, displacement gradients evaluated, and the physical torque values ($2.47\text{--}18.34\ \mu\text{N}\cdot\text{m}$) computed. These findings have been fully integrated into Chapter 8 (The Torque Vector) and Chapter 10 (Computational Validation), completely replacing all tentative projected placeholders with hard mechanical validation.
+*   **Asymmetric Ring FEBio Simulations:** **100% Completed.** We successfully built and ran 6 progressive-thickness configurations in FEBio 4.12. Nodal displacements were analyzed, displacement gradients evaluated, and the physical torque values (2.47\text{--}18.34 μ\text{N}\cdot\text{m}) computed. These findings have been fully integrated into Chapter 8 (The Torque Vector) and Chapter 10 (Computational Validation), completely replacing all tentative projected placeholders with hard mechanical validation.
 *   **Publication Figures:** **100% Completed.** High-resolution, dark-theme vector figures have been generated and archived in `book_figures/`.
 *   **Data Integrity Check:** **100% Completed.** All references and equations are aligned.
 
@@ -106,6 +106,6 @@ All final, publication-ready chapters are consolidated in the primary workspace 
 ## 7. Overall Assessment
 
 > [!IMPORTANT]
-> The AVBC book manuscript is **100% ready for Elsevier submission**. All 15 chapters are drafted in full academic prose with physically validated, internally consistent finite element method (FEM) data. The completion of the progressive-thickness simulation campaign provides the final, essential biomechanical validation of the active torque vector ($V\tau$), establishing the project as a cohesive, pioneering work of clinical mechanics.
+> The AVBC book manuscript is **100% ready for Elsevier submission**. All 15 chapters are drafted in full academic prose with physically validated, internally consistent finite element method (FEM) data. The completion of the progressive-thickness simulation campaign provides the final, essential biomechanical validation of the active torque vector (Vτ), establishing the project as a cohesive, pioneering work of clinical mechanics.
 
-The manuscript represents a major leap in corneal biomechanics literature: it is the first systematic framework to decompose the ICRS-cornea interaction into three independently controllable vectors ($V_R$, $V_T$, and $V_\tau$) and to derive precise clinical decision rules directly from finite element simulations. This work successfully positions itself at the high-value intersection of computational ophthalmology and refractive surgery.
+The manuscript represents a major leap in corneal biomechanics literature: it is the first systematic framework to decompose the ICRS-cornea interaction into three independently controllable vectors (V_R, V_T, and V_τ) and to derive precise clinical decision rules directly from finite element simulations. This work successfully positions itself at the high-value intersection of computational ophthalmology and refractive surgery.

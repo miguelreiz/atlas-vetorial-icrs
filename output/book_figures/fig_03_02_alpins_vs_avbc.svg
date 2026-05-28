@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 350" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="ds" x="-3%" y="-3%" width="106%" height="106%"><feDropShadow dx="1" dy="1.5" stdDeviation="2" flood-opacity="0.1"/></filter>
+    <marker id="ar" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#555"/></marker>
+  </defs>
+  <rect width="780" height="350" fill="white" rx="8"/>
+  <text x="390" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Paralelo Estrutural: Método de Alpins ↔ AVBC</text>
+
+  <!-- ═══ LEFT: ALPINS ═══ -->
+  <rect x="30" y="55" width="340" height="250" rx="10" fill="#F5F5F5" stroke="#BDBDBD" stroke-width="1.5" filter="url(#ds)"/>
+  <rect x="30" y="55" width="340" height="32" rx="10" fill="#7B1FA2"/>
+  <rect x="30" y="78" width="340" height="9" fill="#7B1FA2"/>
+  <text x="200" y="77" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Método de Alpins (Astigmatismo)</text>
+
+  <!-- Alpins flow -->
+  <rect x="80" y="100" width="240" height="28" rx="6" fill="#E1BEE7"/>
+  <text x="200" y="118" text-anchor="middle" font-size="9" fill="#4A148C">TIA (Alvo) = Estado Pré − Estado Desejado</text>
+
+  <line x1="200" y1="128" x2="200" y2="142" stroke="#555" stroke-width="1" marker-end="url(#ar)"/>
+
+  <rect x="80" y="146" width="240" height="28" rx="6" fill="#CE93D8"/>
+  <text x="200" y="164" text-anchor="middle" font-size="9" fill="white" font-weight="bold">Cirurgia (Incisão / LIO / Laser)</text>
+
+  <line x1="200" y1="174" x2="200" y2="188" stroke="#555" stroke-width="1" marker-end="url(#ar)"/>
+
+  <rect x="80" y="192" width="240" height="28" rx="6" fill="#E1BEE7"/>
+  <text x="200" y="210" text-anchor="middle" font-size="9" fill="#4A148C">SIA (Real) = Estado Pré − Estado Pós</text>
+
+  <line x1="200" y1="220" x2="200" y2="234" stroke="#555" stroke-width="1" marker-end="url(#ar)"/>
+
+  <rect x="80" y="238" width="240" height="28" rx="6" fill="#7B1FA2"/>
+  <text x="200" y="256" text-anchor="middle" font-size="9" fill="white" font-weight="bold">CI = SIA / TIA (ideal = 1,0)</text>
+
+  <line x1="200" y1="266" x2="200" y2="280" stroke="#555" stroke-width="1" marker-end="url(#ar)"/>
+
+  <rect x="65" y="283" width="270" height="18" rx="4" fill="#F3E5F5"/>
+  <text x="200" y="296" text-anchor="middle" font-size="8" fill="#4A148C">Calibração: CI médio → Constante pessoal (como A-const)</text>
+
+  <!-- ═══ CENTRAL ARROW ═══ -->
+  <text x="390" y="170" text-anchor="middle" font-size="18" fill="#E6550D" font-weight="bold">↔</text>
+  <text x="390" y="190" text-anchor="middle" font-size="8" fill="#E6550D" font-weight="bold">PARALELO</text>
+
+  <!-- ═══ RIGHT: AVBC ═══ -->
+  <rect x="410" y="55" width="340" height="250" rx="10" fill="#FFF8E1" stroke="#E6550D" stroke-width="1.5" filter="url(#ds)"/>
+  <rect x="410" y="55" width="340" height="32" rx="10" fill="#E6550D"/>
+  <rect x="410" y="78" width="340" height="9" fill="#E6550D"/>
+  <text x="580" y="77" text-anchor="middle" font-size="12" font-weight="bold" fill="white">AVBC (Biomecânica)</text>
+
+  <!-- AVBC flow -->
+  <rect x="445" y="100" width="280" height="28" rx="6" fill="#FFE0B2"/>
+  <text x="585" y="113" text-anchor="middle" font-size="9" fill="#BF360C">ΔVR / ΔVT / ΔVτ (previstos pelo FEM)</text>
+
+  <line x1="585" y1="128" x2="585" y2="142" stroke="#555" stroke-width="1" marker-end="url(#ar)"/>
+
+  <rect x="445" y="146" width="280" height="28" rx="6" fill="#FFB74D"/>
+  <text x="585" y="164" text-anchor="middle" font-size="9" fill="white" font-weight="bold">Cirurgia (Implantação ICRS)</text>
+
+  <line x1="585" y1="174" x2="585" y2="188" stroke="#555" stroke-width="1" marker-end="url(#ar)"/>
+
+  <rect x="445" y="192" width="280" height="28" rx="6" fill="#FFE0B2"/>
+  <text x="585" y="210" text-anchor="middle" font-size="9" fill="#BF360C">ΔK / ΔCyl / Migração (medidos pós-op)</text>
+
+  <line x1="585" y1="220" x2="585" y2="234" stroke="#555" stroke-width="1" marker-end="url(#ar)"/>
+
+  <rect x="445" y="238" width="280" height="28" rx="6" fill="#E6550D"/>
+  <text x="585" y="256" text-anchor="middle" font-size="9" fill="white" font-weight="bold">CI_R = ΔK_real / ΔK_previsto (ideal = 1,0)</text>
+
+  <line x1="585" y1="266" x2="585" y2="280" stroke="#555" stroke-width="1" marker-end="url(#ar)"/>
+
+  <rect x="440" y="283" width="280" height="18" rx="4" fill="#FFF3E0"/>
+  <text x="580" y="296" text-anchor="middle" font-size="8" fill="#BF360C">Calibração: CI_R/CI_T/CI_τ médios → Fator pessoal AVBC</text>
+
+  <!-- Footer -->
+  <text x="390" y="340" text-anchor="middle" font-size="8" fill="#CCC">Figura 3.2 — Paralelo Alpins↔AVBC: mesma lógica (Previsto→Medido→CI), domínio diferente · Dr. Miguel Reis · Dra. Jordana Sandes</text>
+</svg>

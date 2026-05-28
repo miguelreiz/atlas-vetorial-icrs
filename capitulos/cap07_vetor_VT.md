@@ -2,6 +2,9 @@
 
 ## 7.1 Introduction
 
+![Figure 6.1 - Vetor VT: mecanismo de cintagem circunferencial (hoop restriction).](book_figures/fig_06_01_cintagem.svg)
+
+
 The cornea, as the principal refractive element of the human eye, derives much of its optical power from the precise geometry of its anterior surface. In healthy eyes, the corneal curvature is nearly rotationally symmetric, producing minimal regular astigmatism that is readily correctable with spectacles or toric contact lenses. In keratoconic and ectatic corneas, however, the loss of structural integrity manifests not only as central steepening—addressed by the radial flattening vector V_R (Chapter 6)—but also as profound irregularity in the circumferential distribution of curvature. This irregularity, clinically recognized as irregular astigmatism, constitutes one of the most visually debilitating features of corneal ectasia and one of the most challenging to correct by conventional refractive means (Rabinowitz, 1998; Romero-Jiménez et al., 2010).
 
 The Tangential Vector, denoted V_T, is the second fundamental component of the AVBC (Análise Vetorial Biomecânica Corneana) framework. Whereas V_R quantifies the magnitude of sagittal displacement and is directly related to the flattening power of an intrastromal corneal ring segment (ICRS), V_T captures a fundamentally different mechanical phenomenon: the redistribution of circumferential stress—hoop stress—along the corneal mid-surface. In continuum mechanics of pressurized shells, hoop stress is the dominant load-bearing stress component (Timoshenko & Woinowsky-Krieger, 1959). When an ICRS is implanted, it locally increases the bending stiffness of the corneal lamellae and thereby alters the pattern of circumferential stress transmission. The resulting change in the tangential stress field, Δσ_θθ, is what V_T measures.
@@ -18,9 +21,9 @@ This chapter presents the formal continuum-mechanical definition of V_T, reports
 
 The Tangential Vector V_T is defined as the change in circumferential (hoop) stress at the corneal mid-surface induced by ICRS implantation:
 
-$$
-V_T(r, \theta) = \Delta\sigma_{\theta\theta}(r, \theta) = \sigma_{\theta\theta}^{\text{ICRS}}(r, \theta) - \sigma_{\theta\theta}^{\text{baseline}}(r, \theta)
-$$
+
+V_T(r, θ) = Δ\sigma_{θθ}(r, θ) = \sigma_{θθ}^{\text{ICRS}}(r, θ) - \sigma_{θθ}^{\text{baseline}}(r, θ)
+
 
 where σ_θθ denotes the circumferential component of the Cauchy stress tensor in the polar coordinate system (r, θ) centered on the corneal apex, with r measured along the mid-surface and θ the meridional angle. The unit of V_T is the kilopascal (kPa).
 
@@ -28,19 +31,22 @@ where σ_θθ denotes the circumferential component of the Cauchy stress tensor 
 
 In the finite element simulations presented throughout this monograph, the stress tensor is computed in Cartesian coordinates (x, y, z) aligned with the global reference frame of the eye model. To extract the circumferential component, a standard tensor transformation is applied. For a point on the corneal mid-surface at meridional angle θ, the circumferential stress is obtained as:
 
-$$
-\sigma_{\theta\theta} = \sigma_{xx} \sin^2\theta + \sigma_{yy} \cos^2\theta - 2\sigma_{xy} \sin\theta \cos\theta
-$$
+
+\sigma_{θθ} = \sigma_{xx} \sin^2θ + \sigma_{yy} \cos^2θ - 2\sigma_{xy} \sinθ \cosθ
+
 
 This transformation projects the in-plane stress state onto the direction tangent to circles of constant radius on the corneal surface. The derivation follows directly from the second-order tensor transformation law σ'\_ij = a\_ik a\_jl σ\_kl, where a\_ij are the direction cosines of the polar basis vectors with respect to the Cartesian basis (Malvern, 1969). In the specific case of the circumferential direction ê_θ = (−sinθ, cosθ), the quadratic form above is obtained by the double contraction ê_θ · **σ** · ê_θ.
 
 ### 7.2.3 Physical Significance: Hoop Stress in Pressurized Shells
 
+![Figure 6.2 - Vetor VT: regressão linear δ_ring vs comprimento de arco (R² > 0,99).](book_figures/fig_06_02_regressao_vt.svg)
+
+
 The cornea is, from a mechanical standpoint, a pressurized thin shell subjected to a distributed internal load—the intraocular pressure (IOP). In classical shell theory, the equilibrium of a thin-walled pressure vessel is governed by the membrane stress resultants, of which the circumferential (hoop) stress is typically the largest component (Timoshenko & Woinowsky-Krieger, 1959). For a spherical shell of radius R and thickness t under internal pressure p, the hoop stress is given by the Laplace relation:
 
-$$
-\sigma_{\theta\theta} = \frac{pR}{2t}
-$$
+
+\sigma_{θθ} = \frac{pR}{2t}
+
 
 While the cornea deviates from a perfect sphere—exhibiting asphericity, regional thickness variation, and anisotropic material properties—the hoop stress remains the primary load-bearing stress component throughout the corneal stroma. The anisotropic distribution of collagen fibrils, which are predominantly oriented in the nasal–temporal and superior–inferior meridians in the central cornea (Meek & Knupp, 2015), creates a non-uniform hoop stress field even in the healthy eye.
 
@@ -50,11 +56,11 @@ When an ICRS is implanted, it acts as a local stiffener within the stromal lamel
 
 For the purposes of the parametric study reported in this chapter, V_T is reported as a spatially averaged value over the optical zone (r ≤ 3.0 mm):
 
-$$
-\bar{V}_T = \frac{1}{A} \int_A \sigma_{\theta\theta}(r, \theta) \, dA
-$$
 
-where A is the area of the optical zone. This scalar metric provides a single-valued indicator of the global hoop stress state for each ICRS configuration, enabling direct comparison across the 28 symmetric simulations of the parametric sweep. The spatially averaged baseline value is $\bar{V}_T^{\text{baseline}} = 7.78$ kPa at 15 mmHg IOP.
+\bar{V}_T = \frac{1}{A} \int_A \sigma_{θθ}(r, θ) \, dA
+
+
+where A is the area of the optical zone. This scalar metric provides a single-valued indicator of the global hoop stress state for each ICRS configuration, enabling direct comparison across the 28 symmetric simulations of the parametric sweep. The spatially averaged baseline value is \bar{V}_T^{\text{baseline}} = 7.78 kPa at 15 mmHg IOP.
 
 ---
 
@@ -64,9 +70,9 @@ where A is the area of the optical zone. This scalar metric provides a single-va
 
 The most consequential finite element finding regarding V_T is its monotonic decrease with ICRS arc length. Across the seven partial-arc configurations simulated—from 90° to 320° of circumferential coverage—the spatially averaged hoop stress decreases in a nearly linear fashion, declining from 7.63 kPa at arc 90° to 7.20 kPa at arc 320°. This finding is summarized in Table 7.1 and illustrated in Figure 7.1.
 
-**Table 7.1.** Spatially averaged tangential stress ($\bar{V}_T$) as a function of ICRS arc length. All simulations performed at 15 mmHg IOP with symmetric ring placement, ICRS cross-section 150 μm height × 600 μm base width, implanted at 80% stromal depth. The Holzapfel–Gasser–Ogden (HGO) constitutive model was used with parameters: c = 0.05 MPa, k₁ = 0.22 MPa, k₂ = 100, κ = 0.09, bulk modulus k = 4.76 MPa.
+**Table 7.1.** Spatially averaged tangential stress (\bar{V}_T) as a function of ICRS arc length. All simulations performed at 15 mmHg IOP with symmetric ring placement, ICRS cross-section 150 μm height × 600 μm base width, implanted at 80% stromal depth. The Holzapfel–Gasser–Ogden (HGO) constitutive model was used with parameters: c = 0.05 MPa, k₁ = 0.22 MPa, k₂ = 100, κ = 0.09, bulk modulus k = 4.76 MPa.
 
-| Configuration | Arc Length (°) | $\bar{V}_T$ (kPa) | ΔV_T from Baseline (kPa) | Δ (%) |
+| Configuration | Arc Length (°) | \bar{V}_T (kPa) | ΔV_T from Baseline (kPa) | Δ (%) |
 |:---|:---:|:---:|:---:|:---:|
 | Baseline (no ICRS) | — | 7.78 | — | — |
 | Arc 90° | 90 | 7.63 | −0.15 | −1.9 |
@@ -81,9 +87,9 @@ The most consequential finite element finding regarding V_T is its monotonic dec
 
 A least-squares regression through the partial-arc data (90° to 320°, excluding the full 360° ring) yields the following empirical equation:
 
-$$
-\bar{V}_T(\text{arc}°) = -0.0018 \times \text{arc}° + 7.79 \quad (R^2 = 0.94)
-$$
+
+\bar{V}_T(\text{arc}°) = -0.0018 \times \text{arc}° + 7.79 \quad (R² = 0.94)
+
 
 The coefficient of determination R² = 0.94 indicates that 94% of the variance in the spatially averaged hoop stress is explained by a simple linear function of arc length. The slope of −0.0018 kPa/degree implies that each additional degree of ICRS arc coverage reduces the mean hoop stress by approximately 1.8 Pa. Over the clinically relevant range from 90° to 320° (a span of 230°), this produces a total reduction of 0.43 kPa, corresponding to a 5.5% decrease relative to the baseline value.
 
@@ -91,7 +97,7 @@ The linearity of this relationship is noteworthy from a theoretical standpoint. 
 
 ### 7.3.3 The 360° Anomaly
 
-Inspection of Table 7.1 reveals that the full 360° ring does not follow the monotonic trend established by the partial arcs. At arc 360°, $\bar{V}_T$ = 7.29 kPa, which is higher than the value at arc 320° (7.20 kPa), thereby breaking the monotonic descent. This anomaly is not a numerical artifact; it reflects a genuine change in the mechanical state of the system.
+Inspection of Table 7.1 reveals that the full 360° ring does not follow the monotonic trend established by the partial arcs. At arc 360°, \bar{V}_T = 7.29 kPa, which is higher than the value at arc 320° (7.20 kPa), thereby breaking the monotonic descent. This anomaly is not a numerical artifact; it reflects a genuine change in the mechanical state of the system.
 
 When the ring segment forms a complete circle, the system transitions from a partially constrained geometry to a fully circumferentially constrained one. The complete ring introduces a closed-loop stiffener that fundamentally alters the membrane kinematics of the corneal shell. In the partial-arc configurations, the free ends of the ICRS permit relative tangential displacement of the corneal tissue at the ring termini, allowing the hoop stress to relax through shear redistribution. When the ring closes, this degree of freedom is eliminated: the cornea is now constrained to deform compatibly with a rigid circular inclusion, producing a state of circumferential confinement that re-elevates the hoop stress above the value that would be predicted by the linear trend.
 
@@ -99,7 +105,7 @@ This mechanical transition is analogous to the classical distinction between sim
 
 ### 7.3.4 Implications for the Linear Model
 
-The linear model V_T(arc°) = −0.0018 × arc° + 7.79 is therefore valid only for partial arcs in the range 90° ≤ arc ≤ 320°. Extrapolation to 360° would predict $\bar{V}_T$ = 7.14 kPa, which underestimates the measured value of 7.29 kPa by approximately 2%. For clinical planning purposes, the linear model provides a reliable first-order estimate of the expected hoop stress redistribution, but the full-ring case must be treated separately. In practice, complete 360° intrastromal rings (e.g., the MyoRing system) are implanted for different clinical indications—primarily advanced keratoconus with high myopia—and their biomechanical effects should be analyzed using the full FEM model rather than the linear approximation.
+The linear model V_T(arc°) = −0.0018 × arc° + 7.79 is therefore valid only for partial arcs in the range 90° ≤ arc ≤ 320°. Extrapolation to 360° would predict \bar{V}_T = 7.14 kPa, which underestimates the measured value of 7.29 kPa by approximately 2%. For clinical planning purposes, the linear model provides a reliable first-order estimate of the expected hoop stress redistribution, but the full-ring case must be treated separately. In practice, complete 360° intrastromal rings (e.g., the MyoRing system) are implanted for different clinical indications—primarily advanced keratoconus with high myopia—and their biomechanical effects should be analyzed using the full FEM model rather than the linear approximation.
 
 ---
 
@@ -133,9 +139,9 @@ The Holzapfel–Gasser–Ogden (HGO) constitutive model used in the simulations 
 
 The connection between V_T and corneal astigmatism is mediated by the shell equilibrium equations. For a thin pressurized shell, the local curvature κ(θ) at meridional angle θ is related to the local hoop stress by the membrane equilibrium relation:
 
-$$
-\sigma_{\theta\theta}(\theta) = \frac{p \cdot R(\theta)}{2t(\theta)}
-$$
+
+\sigma_{θθ}(θ) = \frac{p \cdot R(θ)}{2t(θ)}
+
 
 where p is the IOP, R(θ) is the local radius of curvature, and t(θ) is the local stromal thickness. An asymmetric distribution of σ_θθ—whether due to non-uniform collagen architecture, localized thinning, or ectatic deformation—necessarily implies an asymmetric curvature distribution, which is the defining feature of irregular astigmatism (Piñero et al., 2010; Alió & Shabayek, 2006).
 
@@ -151,9 +157,9 @@ The V_T metric captures this regularizing effect through the spatially averaged 
 
 The clinical assessment of astigmatism regularization is typically performed using topographic regularity indices such as the Index of Surface Variance (ISV) and the Index of Height Asymmetry (IHA) from Scheimpflug tomography (Alió & Shabayek, 2006). In the AVBC framework, the biomechanical correlate of these indices is the circumferential variance of V_T:
 
-$$
-\text{Var}(V_T) = \frac{1}{2\pi} \int_0^{2\pi} \left[ \sigma_{\theta\theta}(\theta) - \bar{\sigma}_{\theta\theta} \right]^2 d\theta
-$$
+
+\text{Var}(V_T) = \frac{1}{2\pi} \int_0^{2\pi} \left[ \sigma_{θθ}(θ) - \bar{\sigma}_{θθ} \right]^2 dθ
+
 
 A reduction in Var(V_T) after ICRS implantation indicates a more uniform hoop stress distribution and, by the shell equilibrium relation, a more regular curvature pattern. The optimization of arc length to minimize Var(V_T) constitutes the tangential component of the AVBC surgical planning algorithm, complementing the radial component (V_R optimization of ICRS thickness) discussed in Chapter 6.
 

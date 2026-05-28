@@ -1,8 +1,12 @@
-# Capítulo 3 — O Método Alpins: Um Modelo para Linguagens de Planejamento Cirúrgico
+# Capítulo 8 — O Método Alpins: Um Modelo para Linguagens de Planejamento Cirúrgico
 
-## 3.1 Introdução
+## 8.1 Introdução
 
 A correção cirúrgica do astigmatismo há muito tempo representa um desafio quantitativo distinto daquele do erro refrativo esférico. Enquanto a magnitude de uma correção esférica pode ser descrita por um único escalar — dioptrias de miopia ou hipermetropia —, o astigmatismo introduz a direcionalidade: tanto a magnitude quanto a orientação meridional do cilindro devem ser especificadas, planejadas e avaliadas no pós-operatório. Antes do início da década de 1990, a análise dos resultados da cirurgia de astigmatismo era amplamente empírica. Os cirurgiões relatavam valores de cilindro pré e pós-operatórios, ocasionalmente calculando diferenças aritméticas simples, mas não existia um framework padronizado para decompor o que fora *planejado*, o que fora *alcançado* e o que restava como *erro residual*. Diferentes investigadores utilizavam métricas incompatíveis, tornando as comparações entre estudos pouco confiáveis e a síntese meta-analítica quase impossível (Alpins, 1993; Koch, 1997).
+
+> [!NOTE]
+> **Para o Clínico: Por que Estudar Alpins se Sou Cirurgião de Anéis?**
+> O método Alpins não é um detalhe histórico da cirurgia de astigmatismo. É um *modelo mental* de como estruturar o raciocínio cirúrgico. A AVBC aplica exatamente a mesma lógica — comparar o que planeamos (V_R, V_T, V_τ previstos) com o que obtivemos (medições pós-operatórias) — para fechar o ciclo de aprendizagem. Antes de ler a AVBC, entender Alpins é essencial.
 
 Em 1993, Noel Alpins publicou um artigo de referência no *Journal of Cataract and Refractive Surgery* que reestruturou fundamentalmente a área. Sua contribuição não foi uma nova técnica cirúrgica, mas sim uma nova *linguagem* — um framework rigoroso baseado em vetores que decompunha os resultados astigmáticos em três vetores fundamentais: o vetor de Astigmatismo Induzido Planejado (Target Induced Astigmatism, TIA), o vetor de Astigmatismo Induzido Cirurgicamente (Surgically Induced Astigmatism, SIA) e o Vetor Diferença (Difference Vector, DV). A partir dessas primitivas, Alpins derivou uma família de índices adimensionais — o Índice de Correção (Correction Index), o Índice de Sucesso (Index of Success), o Índice de Aplanamento (Flattening Index) e o Erro de Torque (Torque Error) — que forneceram aos cirurgiões um feedback imediato, objetivo e universalmente comparável sobre seu desempenho cirúrgico (Alpins, 1993; Alpins, 2001).
 
@@ -12,9 +16,9 @@ O campo do planejamento de segmentos de anel intraestromal (ICRS) encontra-se ho
 
 ---
 
-## 3.2 A Análise Vetorial de Alpins
+## 8.2 A Análise Vetorial de Alpins
 
-### 3.2.1 A Representação em Ângulo Duplo
+### 8.2.1 A Representação em Ângulo Duplo
 
 A base matemática do método Alpins repousa em uma percepção crítica: o astigmatismo é uma quantidade óptica *diametralmente simétrica*. Um cilindro orientado a 90° produz o mesmo efeito óptico que um orientado a 270°; meridianos separados por 180° são fisicamente idênticos. As coordenadas cartesianas padrão não podem acomodar essa simetria sem ambiguidade. Alpins adotou a técnica bem estabelecida de representar cada valor de astigmatismo no *espaço de ângulo duplo* (2θ), onde o eixo do cilindro α é mapeado para 2α antes da decomposição vetorial. Nesse espaço, astigmatismos ortogonais (por exemplo, a favor da regra a 90° e contra a regra a 180°) aparecem como vetores diametralmente opostos, e a aritmética vetorial prossegue sem descontinuidade na fronteira de 0°/180° (Alpins, 1993; Thibos et al., 1997).
 
@@ -24,7 +28,7 @@ Formalmente, um cilindro de magnitude *C* no eixo α é representado como um vet
 
 A adição e a subtração de vetores de astigmatismo são realizadas nesta representação 2θ, e o resultante é convertido de volta para a notação clínica padrão dividindo-se o ângulo do vetor resultante pela metade.
 
-### 3.2.2 Os Três Vetores Fundamentais
+### 8.2.2 Os Três Vetores Fundamentais
 
 Todo o framework de Alpins é construído sobre três vetores:
 
@@ -34,24 +38,30 @@ Todo o framework de Alpins é construído sobre três vetores:
 
 3. **Vetor Diferença (DV):** O vetor que seria necessário para mover do estado pós-operatório alcançado para o estado planejado (alvo). O DV é definido como:
 
-   **DV** = **TIA** − **SIA**
+ **DV** = **TIA** − **SIA**
 
-   Um resultado cirúrgico perfeito resulta em DV = **0**. Um DV diferente de zero quantifica a magnitude e a direção do erro residual.
+ Um resultado cirúrgico perfeito resulta em DV = **0**. Um DV diferente de zero quantifica a magnitude e a direção do erro residual.
+
+> [!TIP]
+> **Para o Clínico: A Analogia com o GPS**
+> Pense no TIA como o destino que introduziu no GPS, no SIA como onde o carro realmente chegou, e no DV como a distância de recalculação. O Índice de Correção (CI) é simplesmente: quanto da viagem foi feita (SIA/TIA)? Um CI de 0.85 significa que chegou 85% do caminho. Precisa de 15% mais de tratamento na próxima vez.
 
 Esses três vetores formam um triângulo fechado no espaço de ângulo duplo: TIA = SIA + DV. Esta propriedade de fechamento é fundamental; ela garante que a análise seja internamente consistente e que nenhum componente do resultado cirúrgico deixe de ser contabilizado.
 
-### 3.2.3 Os Índices Derivados
+![Figura 3.1 — Triângulo vetorial de Alpins: TIA, SIA e DV no espaço de ângulo duplo.](book_figures/fig_03_01_alpins_triangulo.svg)
+
+### 8.2.3 Os Índices Derivados
 
 A partir dos três vetores fundamentais, Alpins derivou uma família de índices escalares que fornecem medidas adimensionais e de interpretação imediata do desempenho cirúrgico (Alpins, 2001; Alpins & Goggin, 2004):
 
 | Índice | Definição | Interpretação | Valor Ideal |
 |---|---|---|---|
-| **Índice de Correção (CI)** | CI = \|SIA\| / \|TIA\| | Razão entre magnitude alcançada e pretendida | 1.0 |
-| **Índice de Sucesso (IOS)** | IOS = \|DV\| / \|TIA\| | Erro residual relativo | 0.0 |
-| **Magnitude do Erro (ME)** | ME = \|SIA\| − \|TIA\| | Super ou subcorreção absoluta (dioptrias) | 0.0 |
+| **Índice de Correção (CI)** | CI = │SIA│ / │TIA│ | Razão entre magnitude alcançada e pretendida | 1.0 |
+| **Índice de Sucesso (IOS)** | IOS = │DV│ / │TIA│ | Erro residual relativo | 0.0 |
+| **Magnitude do Erro (ME)** | ME = │SIA│ − │TIA│ | Super ou subcorreção absoluta (dioptrias) | 0.0 |
 | **Ângulo do Erro (AE)** | AE = (eixo do SIA) − (eixo do TIA) | Desalinhamento rotacional (graus) | 0° |
-| **Índice de Aplanamento (FI)** | FI = SIA cos(AE) / \|TIA\| | Proporção de SIA ao longo do meridiano planejado | 1.0 |
-| **Erro de Torque (TE)** | TE = \|SIA\| sen(AE) | Componente de SIA perpendicular ao TIA | 0.0 |
+| **Índice de Aplanamento (FI)** | FI = SIA cos(AE) / │TIA│ | Proporção de SIA ao longo do meridiano planejado | 1.0 |
+| **Erro de Torque (TE)** | TE = │SIA│ sen(AE) | Componente de SIA perpendicular ao TIA | 0.0 |
 
 **Tabela 3.1.** Resumo dos índices de análise vetorial de Alpins. CI > 1,0 indica supercorreção; CI < 1,0 indica subcorreção. IOS = 0 representa correção perfeita. O Índice de Aplanamento e o Erro de Torque decompõem o SIA em componentes paralelo e perpendicular ao meridiano de tratamento planejado, respectivamente.
 
@@ -59,13 +69,13 @@ O Índice de Correção serve como a principal medida de precisão cirúrgica. U
 
 O Índice de Aplanamento e o Erro de Torque fornecem uma decomposição particularmente elegante. O Índice de Aplanamento captura a componente *útil* da alteração induzida cirurgicamente — a porção que atua ao longo do meridiano de tratamento planejado —, enquanto o Erro de Torque captura a componente *parasita* que rotaciona o eixo do cilindro sem reduzir sua magnitude. Um Erro de Torque elevado é clinicamente indesejável: representa um efeito cirúrgico desperdiçado que altera a orientação astigmática em vez de reduzi-la.
 
-### 3.2.4 Representações Gráficas
+### 8.2.4 Representações Gráficas
 
 Alpins também introduziu representações gráficas padronizadas que se tornaram onipresentes na literatura de cirurgia refrativa. O *gráfico polar de ângulo único* exibe o TIA e o SIA como vetores originários da origem, com o DV conectando a ponta do SIA à ponta do TIA. O *diagrama vetorial de ângulo duplo* exibe a mesma informação no espaço 2θ no qual a aritmética é realizada. Gráficos de dispersão dos pontos finais do SIA podem ser sobrepostos em anéis concêntricos alvo para fornecer um panorama visual da acurácia e precisão cirúrgicas em uma coorte (Alpins & Goggin, 2004; Reinstein et al., 2014).
 
 ---
 
-## 3.3 Por que o Método Alpins Funciona
+## 8.3 Por que o Método Alpins Funciona
 
 O sucesso do método Alpins não é atribuível à novidade matemática — representações vetoriais de ângulo duplo do astigmatismo foram descritas por Naeser (1990) e Thibos et al. (1997), entre outros. Em vez disso, o método teve sucesso porque satisfez quatro requisitos estruturais que qualquer linguagem eficaz de planejamento cirúrgico deve atender.
 
@@ -81,38 +91,49 @@ A lição mais ampla para qualquer linguagem de planejamento cirúrgico é clara
 
 ---
 
-## 3.4 Limitações do Método Alpins para o Planejamento de ICRS
+## 8.4 Limitações do Método Alpins para o Planejamento de ICRS
 
 Apesar de sua elegância e utilidade clínica, a análise vetorial de Alpins foi projetada para um problema específico — a caracterização da alteração astigmática — e sua estrutura matemática reflete as restrições desse problema. Várias características fundamentais da biomecânica do ICRS colocam o framework de Alpins fora de seu domínio de aplicabilidade.
 
-### 3.4.1 Dimensionalidade
+### 8.4.1 Dimensionalidade
 
 O método Alpins opera em ℝ², o espaço bidimensional dos vetores de astigmatismo de ângulo duplo. Cada vetor possui dois graus de liberdade: magnitude e eixo (ou, de forma equivalente, as componentes cartesianas *C* cos 2α e *C* sen 2α). O estado biomecânico de uma córnea após o implante de ICRS, contudo, é inerentemente multidimensional. Conforme desenvolvido no Capítulo 2, a AVBC decompõe a resposta corneana em três componentes vetoriais ortogonais — o vetor de deslocamento radial **V**_R, o vetor de tensão tangencial **V**_T e o vetor de torque assimétrico **V**_τ — cada um dos quais pode variar de forma independente em função do arco de varredura, da profundidade do anel e da paquimetria específica do paciente. O framework de Alpins não fornece nenhum mecanismo para representar ou analisar este espaço de estados biomecânicos multidimensionais.
 
-### 3.4.2 A Suposição do Ângulo Duplo
+### 8.4.2 A Suposição do Ângulo Duplo
 
 A representação de ângulo duplo é essencial para o astigmatismo porque a quantidade física que está sendo analisada (poder e eixo cilíndricos) possui uma periodicidade de 180°. Os segmentos de anel de ICRS não possuem, em geral, essa simetria. Um arco de 120° implantado superiormente opondo-se à área inferior produz um estado corneano biomecanicamente distinto do mesmo arco implantado inferiormente, embora o arco subtenda o mesmo ângulo. O sistema de coordenadas relevante para o ICRS é o espaço circunferencial completo de 360° da córnea, e não o espaço de ângulo duplo de 180° do astigmatismo. Qualquer tentativa de forçar os dados biomecânicos do ICRS em uma representação 2θ introduziria periodicidades artificiais sem base física.
 
-### 3.4.3 Subtração Linear
+### 8.4.3 Subtração Linear
 
 O DV de Alpins é calculado por subtração vetorial simples: DV = TIA − SIA. Essa linearidade é válida para o astigmatismo porque a relação entre as incisões cirúrgicas e a alteração induzida no cilindro é aproximadamente linear na faixa clinicamente relevante. A resposta biomecânica da córnea ao implante de ICRS, por outro lado, envolve não linearidade geométrica (deformação finita), não linearidade do material (o endurecimento exponencial das fibras capturado pelo modelo Holzapfel-Gasser-Ogden com k₂ = 100) e não linearidade de contato (interação anel-estroma). Como demonstrado no Capítulo 2, a resposta de tensão tangencial VT segue uma tendência linear monotonicamente decrescente com a varredura do arco (VT(arco°) = −0,0018 × arco° + 7,79, R² = 0,94), mas essa linearidade em um escalar derivado não implica linearidade nos campos tensoriais subjacentes. A "diferença" entre um estado biomecânico planejado e um alcançado não pode, em geral, ser calculada por subtração; requer comparação dentro da estrutura constitutiva não linear (Dupps & Roberts, 2014; Lago et al., 2015).
 
-### 3.4.4 O Que Pode Ser Aproveitado
+### 8.4.4 O Que Pode Ser Aproveitado
 
 Apesar dessas limitações, vários elementos estruturais do método Alpins se transferem diretamente para o contexto do ICRS:
 
-- **O paradigma planejado-versus-induzido.** A distinction entre o que foi *pretendido* (TIA) e o que foi *alcançado* (SIA) é universalmente aplicável. Na AVBC, la previsão do modelo de elementos finitos serve como o estado biomecânico "planejado", e as medições tomográficas e biomecânicas pós-operatórias servem como o estado "induzido".
+- **O paradigma planejado-versus-induzido.** A distinção entre o que foi *pretendido* (TIA) e o que foi *alcançado* (SIA) é universalmente aplicável. Na AVBC, a previsão do modelo de elementos finitos serve como o estado biomecânico "planejado", e as medições tomográficas e biomecânicas pós-operatórias servem como o estado "induzido".
 - **O Índice de Correção.** A razão entre o efeito alcançado e o planejado (CI = |SIA|/|TIA|) pode ser calculada para cada componente vetorial da AVBC de forma independente, resultando nos índices de correção específicos de componente: CI_R, CI_T e CI_τ.
 - **Nomenclatura padronizada.** A disciplina de atribuir nomes e símbolos padrão a cada quantidade na análise — para que todos os investigadores utilizem os mesmos termos — é uma lição metodológica de valor duradouro.
 - **Fechamento do ciclo de feedback.** O princípio de que cada índice deve conter informações aplicáveis — não apenas se o resultado foi aceitável, mas como o plano cirúrgico deve ser ajustado — é o critério de design que distingue uma *linguagem* de planejamento de uma *lista de verificação* de relatórios.
 
 ---
 
-## 3.5 A AVBC como um Alpins Biomecânico
+---
+
+> [!IMPORTANT]
+> **Para o Clínico: O Que a AVBC Herda de Alpins**
+> A AVBC não re-inventa a roda. Herda diretamente do Alpins:
+> 1. A ideia de *Planejado vs. Induzido* → O FEM prevê o que deve acontecer; a topografia pós-op confirma o que aconteceu.
+> 2. O *Índice de Correção* → se o FEM previa Δ K = -3 D e obtivemos -2.5 D, o CI_R = 0.83.
+> 3. A *Nomenclatura Padronizada* → V_R, V_T, V_τ são equivalentes biomecânicos do TIA, SIA e DV.
+>
+> O que muda: em vez de ângulo duplo (problema 2D), a AVBC opera em três vetores físicos independentes num espaço constitutivo não-linear. A matemática é mais pesada, mas a lógica é a mesma.
+
+## 8.5 A AVBC como um Alpins Biomecânico
 
 A Análise Vetorial Biomecânica Corneana é construída como um *homólogo estrutural* do método Alpins: ela preserva o fluxo de trabalho, as convenções de nomenclatura e a arquitetura de feedback do framework de Alpins, enquanto substitui sua álgebra astigmática bidimensional por um formalismo biomecânico multidimensional apropriado para o planejamento de ICRS.
 
-### 3.5.1 O Paralelo Estrutural
+### 8.5.1 O Paralelo Estrutural
 
 O paralelo entre os dois sistemas pode ser formulado de maneira concisa:
 
@@ -124,11 +145,13 @@ O paralelo entre os dois sistemas pode ser formulado de maneira concisa:
 | Estado pós-operatório | Astigmatismo pós-operatório | Estado biomecânico pós-operatório | Dados tomográficos + biomecânicos medidos |
 | Alteração alcançada | SIA | Alteração biomecânica induzida | ΔV_R, ΔV_T, ΔV_τ medidos |
 | Erro residual | DV = TIA − SIA | Resíduo biomecânico | δV_R, δV_T, δV_τ |
-| Razão de correção | CI = \|SIA\|/\|TIA\| | Índices de correção de componente | CI_R, CI_T, CI_τ |
+| Razão de correção | CI = │SIA│/│TIA│ | Índices de correção de componente | CI_R, CI_T, CI_τ |
 
 **Tabela 3.2.** Correspondência estrutural entre a análise vetorial de Alpins e a AVBC.
 
-### 3.5.2 Índices de Correção Específicos por Componente
+![Figura 3.2 — Paralelo estrutural Alpins ↔ AVBC: mesma lógica (Previsto→Medido→CI), domínio diferente.](book_figures/fig_03_02_alpins_vs_avbc.svg)
+
+### 8.5.2 Índices de Correção Específicos por Componente
 
 No método Alpins, um único CI caracteriza todo o resultado cirúrgico porque o resultado é um único vetor em ℝ². Na AVBC, o resultado biomecânico é um trio (V_R, V_T, V_τ), e cada componente recebe seu próprio índice de correção:
 
@@ -138,17 +161,17 @@ No método Alpins, um único CI caracteriza todo o resultado cirúrgico porque o
 
 - **CI_τ = |ΔV_τ_medido| / |ΔV_τ_predito|:** O índice de correção de torque assimétrico. Para configurações de anel simétricas, o V_τ previsto é zero, e o CI_τ é substituído pelo resíduo absoluto |V_τ_medido|, que serve como uma métrica de qualidade: qualquer valor diferente de zero indica carga biomecânica assimétrica não contabilizada pelo modelo de anel simétrico.
 
-### 3.5.3 A Ressalva Honesta
+### 8.5.3 A Ressalva Honesta
 
-É essencial declarar claramente o que este paralelo é e o que ele não é. A correspondência entre o método Alpins e a AVBC é *estrutural*, não *algébrica*. O DV de Alpins é calculated por subtração vetorial literal em um espaço linear; os resíduos da AVBC δV_R, δV_T e δV_τ são calculados comparando campos previstos e medidos que surgem de um modelo constitutivo não linear (parâmetros HGO: c = 0,05 MPa, k₁ = 0,22 MPa, k₂ = 100, κ = 0,09). O CI de Alpins é uma razão de magnitudes em um espaço vetorial homogêneo; os índices de correção de componentes da AVBC são razões de escalares extraídos de quantidades tensoriais mecanicamente distintas. O paralelo estrutural fornece coerência *organizacional* — garante que o fluxo de trabalho da AVBC seja familiar, intuitivo e completo —, mas não autoriza operações algébricas (como calcular um "DV total" somando δV_R, δV_T e δV_τ) que seriam dimensionalmente inconsistentes e fisicamente sem sentido.
+É essencial declarar claramente o que este paralelo é e o que ele não é. A correspondência entre o método Alpins e a AVBC é *estrutural*, não *algébrica*. O DV de Alpins é calculado por subtração vetorial literal em um espaço linear; os resíduos da AVBC δV_R, δV_T e δV_τ são calculados comparando campos previstos e medidos que surgem de um modelo constitutivo não linear (parâmetros HGO: c = 0,05 MPa, k₁ = 0,22 MPa, k₂ = 100, κ = 0,09). O CI de Alpins é uma razão de magnitudes em um espaço vetorial homogêneo; os índices de correção de componentes da AVBC são razões de escalares extraídos de quantidades tensoriais mecanicamente distintas. O paralelo estrutural fornece coerência *organizacional* — garante que o fluxo de trabalho da AVBC seja familiar, intuitivo e completo —, mas não autoriza operações algébricas (como calcular um "DV total" somando δV_R, δV_T e δV_τ) que seriam dimensionalmente inconsistentes e fisicamente sem sentido.
 
 Essa distinção não é uma fraqueza, mas uma força. O método Alpins funciona precisamente porque o astigmatismo admite uma descrição algébrica simples e completa. A AVBC foi projetada para um problema que não admite tal descrição, e sua arquitetura reflete essa complexidade de forma honesta, em vez de ocultá-la sob uma falsa simplicidade algébrica.
 
 ---
 
-## 3.6 Do Retrospectivo ao Prospectivo
+## 8.6 Do Retrospectivo ao Prospectivo
 
-A análise vetorial de Alpins foi aplicada aos resultados de ICRS em um punhado de estudos retrospectivos. Alió e Shabayek (2006) utilizaram o método Alpins para avaliar alterações astigmáticas após o implante de Intacs para ceratocone, calculando o SIA e o CI para a componente cilíndrica do resultado refrativo. Piñero et al. (2009) estenderam essa abordagem para segmentos de anel Ferrara, relatando magnitudes de SIA e ângulos de erro para o astigmatismo corneano e refrativo. Peña-García et al. (2012) aplicaram a análise de Alpins para avaliar o efeito astigmático do ICRS combinado com crosslinking corneano. Em cada caso, o método Alpins foi utilizado de forma *retrospectiva*: a análise foi realizada após a cirurgia para avaliar o que havia acontecido, e não antes da cirurgia para planejar o que deveria acontecer.
+A análise vetorial de Alpins foi aplicada aos resultados de ICRS em um punhado de estudos retrospectivos. Alió e Shabayek (2006) utilizaram o método Alpins para avaliar alterações astigmáticas após o implante de Intacs para ceratocone, calculando o SIA e o CI para a componente cilíndrica do resultado refrativo. Piñero et al. (2009) estenderam essa abordagem para segmentos de anel Ferrara, relatando magnitudes de SIA e ângulos de erro para o astigmatismo corneano e refrativo. Peña-García et al. (2014) aplicaram a análise de Alpins para avaliar o efeito astigmático do ICRS combinado com crosslinking corneano. Em cada caso, o método Alpins foi utilizado de forma *retrospectiva*: a análise foi realizada após a cirurgia para avaliar o que havia acontecido, e não antes da cirurgia para planejar o que deveria acontecer.
 
 Esta limitação retrospectiva não é uma deficiência inerente ao método Alpins; reflete o fato de que o planejamento da cirurgia de astigmatismo já dispõe de ferramentas prospectivas bem estabelecidas (nomogramas, ray-tracing, calculadoras de LIO tóricas) que incorporam o framework de Alpins implicitamente. Para o ICRS, em contrapartida, não existe ferramenta de planejamento biomecânico prospectivo. O cirurgião seleciona o tipo de anel, a varredura do arco e a profundidade de implantação com base em nomogramas empíricos (por exemplo, o nomograma Ferrara, as diretrizes do Keraring) que mapeiam parâmetros topográficos para especificações do anel sem um modelo biomecânico explícito da resposta corneana.
 
@@ -158,7 +181,16 @@ O viabilizador crítico dessa transição é o banco de dados de simulação de 
 
 ---
 
-## 3.7 Resumo
+---
+
+> [!NOTE]
+> **Para o Clínico: Resumo Operacional do Capítulo 8**
+> - O Alpins deu-nos a linguagem: Planejado (TIA), Alcançado (SIA), Diferença (DV).
+> - A AVBC aplica esta linguagem à biomecânica 3D do anel: V_R (aplanamento), V_T (cintagem), V_τ (torque).
+> - Cada vetor tem o seu Índice de Correção: CI_R, CI_T, CI_τ.
+> - O ciclo de feedback AVBC fecha-se: FEM → Cirurgia → Medição pós-op → Recalibrar modelo → Melhorar próxima previsão.
+
+## 8.7 Resumo
 
 A análise vetorial de Alpins transformou a cirurgia de astigmatismo de uma arte empírica em uma ciência mensurável ao fornecer um framework universal, objetivo e aplicável para caracterizar os resultados cirúrgicos. Seu sucesso repousou sobre quatro pilares: universalidade da aplicação, objetividade do cálculo, comparabilidade entre estudos e fechamento do ciclo de feedback cirúrgico. A AVBC herda essa arquitetura estrutural — o paradigma planejado-versus-induzido, o conceito do índice de correção, a nomenclatura padronizada e o design do ciclo de feedback —, ao mesmo tempo em que substitui a álgebra astigmática bidimensional por um formalismo biomecânico multidimensional apropriado para o planejamento de ICRS. A correspondência entre os dois sistemas é estrutural, não algébrica: a AVBC respeita a natureza não linear, heterogênea e tensorial da biomecânica corneana, em vez de reduzi-la a um escalar ou a uma quantidade vetorial plana. O avanço crítico da AVBC sobre as análises retrospectivas de Alpins dos resultados de ICRS é a introdução do planejamento biomecânico *prospectivo*, viabilizado pela simulação de elementos finitos e calibração do modelo em circuito fechado por meio de índices de correção específicos por componente. Este capítulo estabeleceu a genealogia conceitual da AVBC; os capítulos subsequentes desenvolverão seu formalismo matemático e o validarão em relação a dados clínicos.
 

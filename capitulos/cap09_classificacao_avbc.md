@@ -25,29 +25,32 @@ The classification is designed to be transparent: every step can be audited, eve
 
 Before any biomechanical analysis is undertaken, the clinician must answer a fundamental question: will this patient's vision improve if the corneal topography improves? This question may seem trivially obvious, but it is not. A substantial proportion of keratoconic patients present with optical aberrations that are beyond the corrective reach of curvature modification alone. The ICRS reshapes the anterior corneal surface — it flattens steep meridians, redistributes hoop stress, and can migrate the cone apex. What it cannot do is eliminate posterior corneal irregularity, compensate for lenticular aberrations, correct irregular trefoil or quadrafoil, or repair stromal scarring. When these non-addressable factors dominate the optical degradation, the ICRS will improve the topographic map without improving the patient's functional vision — the well-documented "map improves but vision doesn't" dissociation.
 
-To address this critical clinical gap, Module O functions as a gatekeeper. By implementing the **Index of Axial Coherence (ICE)** as the primary optical candidacy gating parameter, we unify the angular alignment of the steep topographic meridian ($\theta_{topo}$) and the comatic axis ($\theta_{coma}$) into a single functional biomarker:
+To address this critical clinical gap, Module O functions as a gatekeeper. By implementing the **Index of Axial Coherence (ICE)** as the primary optical candidacy gating parameter, we unify the angular alignment of the steep topographic meridian (θ_topo) and the comatic axis (θ_coma) into a single functional biomarker:
 
-$$ICE_{min} = |\theta_{topo} - \theta_{coma}|$$
+ICE_min = |θ_topo - θ_coma|
 
-This parameter has been validated across a multi-domain cohort of $N = 1,139$ eyes (including $N = 300$ ICRS implants) as a highly superior predictor of visual outcomes, compared to traditional raw tomographic indices such as $K_{max}$ and local pachymetry.
+This parameter has been validated across a multi-domain cohort of N = 1,139 eyes (including N = 300 ICRS implants) as a highly superior predictor of visual outcomes, compared to traditional raw tomographic indices such as K_{max} and local pachymetry.
 
 Patients classified as O+ proceed with high confidence that the ICRS will yield both topographic and functional improvement. Patients classified as O~ proceed with cautious expectations. Patients classified as O− are counseled that the primary value of the ICRS may be topographic management (facilitating contact lens fitting, halting progression when combined with CXL) rather than visual rehabilitation.
 
 ### Assessment Criteria
 
+![Figure 9.2 - Curvas ROC: ICE_min vs K_max vs paquimetria como discriminadores.](book_figures/fig_09_02_ice_roc.svg)
+
+
 Five wavefront and coherence parameters measured over a 6 mm pupil provide the Module O input:
 
 | Criterion | Favorable (O+) | Intermediate (O~) | Unfavorable (O−) | Source |
 |-----------|:-----------:|:---------------:|:--------------:|--------|
-| **$ICE_{min}$** | < 15° (ICE Alto) | 15°–45° (ICE Moderado) | > 45° (ICE Baixo) | Reiz, 2026 |
+| **ICE_min** | < 15° (ICE Alto) | 15°–45° (ICE Moderado) | > 45° (ICE Baixo) | Reis, 2026 |
 | Coma RMS | < 2.50 μm | 2.50–3.50 μm | > 3.50 μm | Alió & Shabayek, 2006 |
 | Δ Axis (refraction vs K-steep) | < 15° | 15°–30° | > 30° | Rabinowitz, 1999 |
 | Total HOA RMS | < 2.0 μm | 2.0–4.0 μm | > 4.0 μm | Maeda et al., 2002 |
 | Coma vs cone apex | Ipsilateral | Ambiguous | Contralateral | Piñero, 2014 |
 
-**Index of Axial Coherence ($ICE_{min}$).** The $ICE_{min}$ evaluates the angular alignment of the cornea's primary structural and optical asymmetry axes. An $ICE_{min} < 15^\circ$ (ICE Alto) signifies highly aligned structural and optical axes, allowing ICRS-induced curvature regularization to translate directly into substantial visual recovery. Conversely, $ICE_{min} > 45^\circ$ (ICE Baixo) indicates a decoupling of structural and optical parameters, suggesting that any geometric redistribution of stroma will likely induce secondary irregular aberrations rather than restoring functional vision. As described in Chapter 5, the $ICE_{min}$ threshold of $< 28^\circ$ represents the optimal gating threshold for predicting $\ge 3$ Snellen lines of improvement (ROC AUC: 0.82, Sensitivity: 78%, Specificity: 84%, statistically superior to $K_{max}$ [AUC 0.68] and pachymetry [AUC 0.64], DeLong test $p = 0.012$).
+**Index of Axial Coherence (ICE_min).** The ICE_min evaluates the angular alignment of the cornea's primary structural and optical asymmetry axes. An ICE_min < 15° (ICE Alto) signifies highly aligned structural and optical axes, allowing ICRS-induced curvature regularization to translate directly into substantial visual recovery. Conversely, ICE_min > 45° (ICE Baixo) indicates a decoupling of structural and optical parameters, suggesting that any geometric redistribution of stroma will likely induce secondary irregular aberrations rather than restoring functional vision. As described in Chapter 5, the ICE_min threshold of < 28° represents the optimal gating threshold for predicting \ge 3 Snellen lines of improvement (ROC AUC: 0.82, Sensitivity: 78%, Specificity: 84%, statistically superior to K_{max} [AUC 0.68] and pachymetry [AUC 0.64], DeLong test p = 0.012).
 
-**Coma RMS** is the single most informative classical optical parameter for ICRS candidacy. Vertical coma ($Z_3^{-1}$) is the signature higher-order aberration of inferior keratoconus and the aberration most effectively reduced by ring-induced curvature redistribution. Values below 2.50 μm indicate that the aberration burden is within the corrective range of a standard ICRS configuration; values above 3.50 μm suggest that the cone is so advanced that the residual irregularity after ring insertion will remain above the threshold of functional significance.
+**Coma RMS** is the single most informative classical optical parameter for ICRS candidacy. Vertical coma (Z_3^{-1}) is the signature higher-order aberration of inferior keratoconus and the aberration most effectively reduced by ring-induced curvature redistribution. Values below 2.50 μm indicate that the aberration burden is within the corrective range of a standard ICRS configuration; values above 3.50 μm suggest that the cone is so advanced that the residual irregularity after ring insertion will remain above the threshold of functional significance.
 
 **Axis discordance** captures the degree of internal (non-corneal) astigmatic contribution. When the manifest refractive cylinder axis diverges from the steep keratometric meridian by more than 30°, a substantial fraction of the cylinder arises from lenticular or other intraocular sources that the ICRS cannot address. The post-operative refractive outcome becomes unpredictable because the ring corrects only the corneal component of an astigmatism that has significant non-corneal contributions.
 
@@ -57,9 +60,9 @@ Five wavefront and coherence parameters measured over a 6 mm pupil provide the M
 
 The composite classification follows a conservative worst-criterion rule:
 
-- **O+ (Favorable):** All five criteria in the Favorable column, or $\ge 4$ of 5 favorable with none unfavorable. Proceed with high confidence.
+- **O+ (Favorable):** All five criteria in the Favorable column, or \ge 4 of 5 favorable with none unfavorable. Proceed with high confidence.
 - **O~ (Intermediate):** Mixed results — at least one criterion in the Intermediate range, none in the Unfavorable column. Proceed with cautious expectations; counsel patient regarding the possibility of requiring adjunctive correction.
-- **O− (Unfavorable):** Any criterion in the Unfavorable column, or $\ge 3$ of 5 unfavorable. ICRS can still be implanted for topographic management, but set functional expectations appropriately. The primary goal may be facilitating contact lens fitting rather than spectacle independence.
+- **O− (Unfavorable):** Any criterion in the Unfavorable column, or \ge 3 of 5 unfavorable. ICRS can still be implanted for topographic management, but set functional expectations appropriately. The primary goal may be facilitating contact lens fitting rather than spectacle independence.
 
 An important clinical clarification: **O− does not mean "do not operate."** It means that the surgeon's mental model of success must shift from "the patient will see better" to "the corneal shape will improve, which may enable other corrective strategies." This nuanced distinction is precisely the kind of structured expectation-setting that a classification system can provide but a nomogram cannot.
 
@@ -82,6 +85,9 @@ Corneal tomography provides the spatial information needed to determine where th
 The first four archetypes proceed to Module B. For the Globus archetype (where KMax exceeds 60 D and can reach up to 85 D in extreme ectatic corneas), the primary goal of ICRS shifts from optical optimization to structural stabilization and restoring contact lens tolerance. Although some of these extreme cases may eventually require deep anterior lamellar keratoplasty (DALK), clinical evidence demonstrates that ICRS can still provide substantial flattening and mechanical reinforcement, preventing or delaying transplant. Crucially, the non-convergence of our patient-specific finite element models (patients P5 and P9, with KMax > 53 D) under the standard FEBio HGO material model must be interpreted as a **numerical and computational limitation** (due to severe element distortion under extreme curvatures, localized strain gradients, and mesh contact instabilities in extreme strains) rather than a physical or biological contraindication. In clinical practice, these extreme corneas frequently experience significant structural remodeling and flattening post-ICRS.
 
 ### The ENM — Eixo Neutro Mecânico
+
+![Figure 9.1 - Árvore de decisão completa AVBC: do exame à prescrição.](book_figures/fig_09_01_arvore_decisao_avbc.svg)
+
 
 One of the most clinically actionable concepts introduced by the AVBC framework is the Eixo Neutro Mecânico (ENM) — the Mechanical Neutral Axis. The ENM is defined as the meridian of maximum posterior stromal displacement under physiological intraocular pressure. It represents the axis along which the accumulated biomechanical deformation is greatest — the direction in which the cornea is "buckling."
 
@@ -176,17 +182,17 @@ Implantation depth acts as a universal amplifier across all three vectors. The A
 Perhaps the most practically valuable element of the AVBC framework is its capacity for quantitative post-operative feedback. Inspired by the Alpins Correction Index (CI = |SIA|/|TIA|), the AVBC defines three component-specific correction indices:
 
 **CI_R (Radial Correction Index):**
-$$CI_R = \frac{\Delta K_{observed}}{\Delta K_{predicted}}$$
+CI_R = \frac{Δ K_{observed}}{Δ K_{predicted}}
 
 A CI_R of 1.0 ± 0.15 indicates that the flattening effect matched the prediction. Values below 0.85 indicate systematic under-correction (the cornea was stiffer than modeled, or the ring effect was less than predicted); values above 1.15 indicate over-correction.
 
 **VT-ratio (Tangential Correction Ratio):**
-$$VT\text{-}ratio = \frac{\Delta Cyl_{observed}}{\Delta Cyl_{expected}}$$
+VT\text{-}ratio = \frac{Δ Cyl_{observed}}{Δ Cyl_{expected}}
 
 This ratio assesses whether the arc length produced the expected degree of astigmatism regularization.
 
 **Vτ-ratio (Torsional Correction Ratio):**
-$$V_\tau\text{-}ratio = \frac{Apex\_migration_{observed}}{Apex\_migration_{expected}}$$
+V_τ\text{-}ratio = \frac{Apex\_migration_{observed}}{Apex\_migration_{expected}}
 
 For symmetric rings, the expected Vτ is zero, and any nonzero apex migration indicates unexpected asymmetric loading. For asymmetric rings, this ratio quantifies the effectiveness of the torque mechanism.
 
@@ -223,7 +229,7 @@ The AVBC classification, in its current form, has specific limitations that must
 
 2. **Thresholds are preliminary.** The VR/VT ranges (8.9–19.9 μm / 7.20–7.78 kPa) are specific to the HGO parameter set used in the simulations. Different material parameters may produce different absolute values while preserving the relative trends.
 
-3. **Vτ has been computationally validated.** The active torque values generated by progressive-thickness designs have been validated using asymmetric FEBio simulations (Chapter 10) and range from 9.31 to 18.34 μN·m, breaking the zero-torque condition ($V\tau = 0$) characteristic of symmetric configurations.
+3. **Vτ has been computationally validated.** The active torque values generated by progressive-thickness designs have been validated using asymmetric FEBio simulations (Chapter 10) and range from 9.31 to 18.34 μN·m, breaking the zero-torque condition (Vτ = 0) characteristic of symmetric configurations.
 
 4. **The ENM measurement protocol requires inter-observer agreement studies.** The reproducibility of the posterior elevation-based ENM determination across different instruments and operators has not been formally assessed.
 

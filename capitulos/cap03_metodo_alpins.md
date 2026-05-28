@@ -26,6 +26,9 @@ Addition and subtraction of astigmatism vectors are performed in this 2θ repres
 
 ### 3.2.2 The Three Fundamental Vectors
 
+![Figure 3.1 - Triângulo vetorial de Alpins: TIA, SIA e DV no espaço de ângulo duplo.](book_figures/fig_03_01_alpins_triangulo.svg)
+
+
 The entire Alpins framework is built upon three vectors:
 
 1. **Target Induced Astigmatism vector (TIA):** The astigmatic change that the surgeon *intends* to produce. TIA is computed as the vector difference (in double-angle space) between the preoperative astigmatism and the target postoperative astigmatism. When the surgical goal is complete correction, TIA equals the preoperative astigmatism vector. When partial correction is planned (as is common with toric intraocular lenses or arcuate keratotomies), TIA reflects only the intended change.
@@ -113,6 +116,9 @@ Despite these limitations, several structural elements of the Alpins method tran
 The Análise Vetorial Biomecânica Corneana is constructed as a *structural homologue* of the Alpins method: it preserves the workflow, the nomenclature conventions, and the feedback architecture of the Alpins framework while replacing its two-dimensional astigmatic algebra with a multidimensional biomechanical formalism appropriate to ICRS planning.
 
 ### 3.5.1 The Structural Parallel
+
+![Figure 3.2 - Paralelo estrutural Alpins ↔ AVBC: mesma lógica (Previsto→Medido→CI), domínio diferente.](book_figures/fig_03_02_alpins_vs_avbc.svg)
+
 
 The parallel between the two systems can be stated concisely:
 

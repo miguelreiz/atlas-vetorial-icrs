@@ -100,13 +100,13 @@ These vectors are **not metaphors** — they are extracted from finite element s
 ### Part III — Validation and Cases (Chapters 10–13)
 
 #### Chapter 10: Computational Validation — FEM Extraction of V_R, V_T, and V_τ
-*Synopsis (80 words):* Complete pipeline: FEBio 4.12 + HGO model → vector extraction across 34 simulations. Arc sweep (8 configs), patient-specific models (8 patients, double-run), concentric sweep (4 configs), and progressive-thickness asymmetric simulations (6 configs). Key findings: (1) VT monotonicity, (2) VR arc-insensitivity, (3) active corrective torque validation ($V\tau = 9.31\text{--}18.34\ \mu\text{N}\cdot\text{m}$), (4) the ICRS paradox (Δuz < 0). Full traceability chain from clinical parameters to final figures. *(Sample chapter provided with this proposal.)*
+*Synopsis (80 words):* Complete pipeline: FEBio 4.12 + HGO model → vector extraction across 34 simulations. Arc sweep (8 configs), patient-specific models (8 patients, double-run), concentric sweep (4 configs), and progressive-thickness asymmetric simulations (6 configs). Key findings: (1) VT monotonicity, (2) VR arc-insensitivity, (3) active corrective torque validation (Vτ = 9.31\text{--}18.34 μ\text{N}\cdot\text{m}), (4) the ICRS paradox (Δuz < 0). Full traceability chain from clinical parameters to final figures. *(Sample chapter provided with this proposal.)*
 
 #### Chapter 11: From Framework to Clinical Workflow
 *Synopsis (80 words):* Step-by-step translation of the theoretical framework into an actionable clinical workflow. Deconstructs how a surgeon identifies the dominant vector need and chooses the matching ring configuration. Weaves together a diagnostic flowchart and detailed step-by-step algorithms. Includes full clinical decision trees.
 
 #### Chapter 12: Illustrative Cases: AVBC-Guided ICRS Planning
-*Synopsis (80 words):* Presents three highly detailed, illustrative case studies representing different biomechanical challenges (symmetric central cone, asymmetric peripheral cone, advanced ectasia). For each case, details tomographic data, optical aberrations, vector selection, planned ring, and post-operative outcomes, demonstrating the clinically validated torque $V\tau = 9.31\ \mu\text{N}\cdot\text{m}$.
+*Synopsis (80 words):* Presents three highly detailed, illustrative case studies representing different biomechanical challenges (symmetric central cone, asymmetric peripheral cone, advanced ectasia). For each case, details tomographic data, optical aberrations, vector selection, planned ring, and post-operative outcomes, demonstrating the clinically validated torque Vτ = 9.31 μ\text{N}\cdot\text{m}.
 
 #### Chapter 13: Limitations, Open Questions, and Future Directions
 *Synopsis (80 words):* Honest, critical assessment of the framework's limitations, including geometric simplifications, uniform material parameters, and ICRS-stroma interface assumptions. Presents a rigorous validation roadmap, detailing a prospective observational cohort study (N=100) and specific falsification criteria to test the clinical efficacy of the AVBC.

@@ -1,0 +1,304 @@
+[
+  {
+    "pmid": "24857433",
+    "title": "Corneal biomechanics: a decade later.",
+    "authors": [
+      "Dupps WJ",
+      "Roberts CJ"
+    ],
+    "journal": "Journal of cataract and refractive surgery",
+    "pubdate": "2014 Jun",
+    "doi": "10.1016/j.jcrs.2014.04.012",
+    "abstract": null
+  },
+  {
+    "pmid": "6050532",
+    "title": "Keratomileusis.",
+    "authors": [
+      "Barraquer JI"
+    ],
+    "journal": "International surgery",
+    "pubdate": "1967 Aug",
+    "doi": null,
+    "abstract": null
+  },
+  {
+    "pmid": "36549584",
+    "title": "Optimized Artificial Intelligence for Enhanced Ectasia Detection Using Scheimpflug-Based Corneal Tomography and Biomechanical Data.",
+    "authors": [
+      "Ambr\u00f3sio R",
+      "Machado AP",
+      "Le\u00e3o E",
+      "Lyra JMG",
+      "Salom\u00e3o MQ",
+      "Esporcatte LGP",
+      "da Fonseca Filho JBR",
+      "Ferreira-Meneses E",
+      "Sena NB",
+      "Haddad JS",
+      "Costa Neto A",
+      "de Almeida GC",
+      "Roberts CJ",
+      "Elsheikh A",
+      "Vinciguerra R",
+      "Vinciguerra P",
+      "B\u00fchren J",
+      "Kohnen T",
+      "Kezirian GM",
+      "Hafezi F",
+      "Hafezi NL",
+      "Torres-Netto EA",
+      "Lu N",
+      "Kang DSY",
+      "Kermani O",
+      "Koh S",
+      "Padmanabhan P",
+      "Taneri S",
+      "Trattler W",
+      "Gualdi L",
+      "Salgado-Borges J",
+      "Faria-Correia F",
+      "Flockerzi E",
+      "Seitz B",
+      "Jhanji V",
+      "Chan TCY",
+      "Baptista PM",
+      "Reinstein DZ",
+      "Archer TJ",
+      "Rocha KM",
+      "Waring GO",
+      "Krueger RR",
+      "Dupps WJ",
+      "Khoramnia R",
+      "Hashemi H",
+      "Asgari S",
+      "Momeni-Moghaddam H",
+      "Zarei-Ghanavati S",
+      "Shetty R",
+      "Khamar P",
+      "Belin MW",
+      "Lopes BT"
+    ],
+    "journal": "American journal of ophthalmology",
+    "pubdate": "2023 Jul",
+    "doi": "10.1016/j.ajo.2022.12.016",
+    "abstract": "PURPOSE: To optimize artificial intelligence (AI) algorithms to integrate Scheimpflug-based corneal tomography and biomechanics to enhance ectasia detection.\nDESIGN: Multicenter cross-sectional case-control retrospective study.\nMETHODS: A total of 3886 unoperated eyes from 3412 patients had Pentacam and Corvis ST (Oculus Optikger\u00e4te GmbH) examinations. The database included 1 eye randomly selected from 1680 normal patients (N) and from 1181 \"bilateral\" keratoconus (KC) patients, along with 551 normal topography eyes from patients with very asymmetric ectasia (VAE-NT), and their 474 unoperated ectatic (VAE-E) eyes. The current TBIv1 (tomographic-biomechanical index) was tested, and an optimized AI algorithm was developed for augmenting accuracy.\nRESULTS: The area under the receiver operating characteristic curve (AUC) of the TBIv1 for discriminating clinical ectasia (KC and VAE-E) was 0.999 (98.5% sensitivity; 98.6% specificity [cutoff: 0.5]), and for VAE-NT, 0.899 (76% sensitivity; 89.1% specificity [cutoff: 0.29]). A novel random forest algorithm (TBIv2), developed with 18 features in 156 trees using 10-fold cross-validation, had a significantly higher AUC (0.945; DeLong, P < .0001) for detecting VAE-NT (84.4% sensitivity and 90.1% specificity; cutoff: 0.43; DeLong, P < .0001) and a similar AUC for clinical ectasia (0.999; DeLong, P\u00a0=\u00a0.818; 98.7% sensitivity; 99.2% specificity [cutoff: 0.8]). Considering all cases, the TBIv2 had a higher AUC (0.985) than TBIv1 (0.974; DeLong, P < .0001).\nCONCLUSIONS: AI optimization to integrate Scheimpflug-based corneal tomography and biomechanical assessments augments accuracy for ectasia detection, characterizing ectasia susceptibility in the diverse VAE-NT group. Some patients with VAE may have true unilateral ectasia. Machine learning considering additional data, including epithelial thickness or other parameters from multimodal refractive imaging, will continuously enhance accuracy. NOTE: Publication of this article is sponsored by the American Ophthalmological Society."
+  },
+  {
+    "pmid": "24774009",
+    "title": "Biomechanics of corneal ectasia and biomechanical treatments.",
+    "authors": [
+      "Roberts CJ",
+      "Dupps WJ"
+    ],
+    "journal": "Journal of cataract and refractive surgery",
+    "pubdate": "2014 Jun",
+    "doi": "10.1016/j.jcrs.2014.04.013",
+    "abstract": "UNLABELLED: Many algorithms exist for the topographic/tomographic detection of corneas at risk for post-refractive surgery ectasia. It is proposed that the reason for the difficulty in finding a universal screening tool based on corneal morphologic features is that curvature, elevation, and pachymetric changes are all secondary signs of keratoconus and post-refractive surgery ectasia and that the primary abnormality is in the biomechanical properties. It is further proposed that the biomechanical modification is focal in nature, rather than a uniform generalized weakening, and that the focal reduction in elastic modulus precipitates a cycle of biomechanical decompensation that is driven by asymmetry in the biomechanical properties. This initiates a repeating cycle of increased strain, stress redistribution, and subsequent focal steepening and thinning. Various interventions are described in terms of how this cycle of biomechanical decompensation is interrupted, such as intrastromal corneal ring segments, which redistribute the corneal stress, and collagen crosslinking, which modifies the basic structural properties.\nFINANCIAL DISCLOSURES: Proprietary or commercial disclosures are listed after the references."
+  },
+  {
+    "pmid": "4515533",
+    "title": "Keratophakia.",
+    "authors": [
+      "Barraquer JI"
+    ],
+    "journal": "Transactions of the ophthalmological societies of the United Kingdom",
+    "pubdate": "1972",
+    "doi": null,
+    "abstract": null
+  },
+  {
+    "pmid": "4615588",
+    "title": "[Keratophakia].",
+    "authors": [
+      "Barraquer JI"
+    ],
+    "journal": "Nippon Ganka Gakkai zasshi",
+    "pubdate": "1974 Nov 10",
+    "doi": null,
+    "abstract": null
+  },
+  {
+    "pmid": "7033859",
+    "title": "Keratophakia and keratomileusis--clinical results.",
+    "authors": [
+      "Swinger CA",
+      "Barraquer JI"
+    ],
+    "journal": "Ophthalmology",
+    "pubdate": "1981 Aug",
+    "doi": null,
+    "abstract": "A random, retrospective study was performed on 158 patients. who underwent keratophakia and keratomileusis for the correction of refractive errors. The primary indication for surgery was high anisometropia. Data on corneal curvature modification, refraction, accuracy, stability, and complications are reported. Both keratophakia and hypermetropic keratomileusis are capable of fully correcting aphakic hyperopia. Myopic keratomileusis corrected up to 16 diopters of myopia in this series. Lamellar refractive keratoplasty appears to have no significant detrimental effect on visual acuity. The majority of myopic patients had an improved best-corrected visual acuity postoperatively. High or irregular astigmatism was not noted following this surgery. The stability of the postoperative curvature appeared to be good with both keratophakia and myopic keratomileusis. Complications in this series were minimal, and one resulted in decreased vision postoperatively. Inaccuracy in achieving the desired refractive result appeared to be the major disadvantage of these techniques."
+  },
+  {
+    "pmid": "15406209",
+    "title": "Technique of penetrating keratoplasty.",
+    "authors": [
+      "BARRAQUER JI"
+    ],
+    "journal": "American journal of ophthalmology",
+    "pubdate": "1950 Mar",
+    "doi": null,
+    "abstract": null
+  },
+  {
+    "pmid": "9268933",
+    "title": "Permalens hydrogel intracorneal lenses for spherical ametropia.",
+    "authors": [
+      "Barraquer JI",
+      "Gomez ML"
+    ],
+    "journal": "Journal of refractive surgery (Thorofare, N.J. : 1995)",
+    "pubdate": "1997",
+    "doi": null,
+    "abstract": "PURPOSE: To assess the efficacy, stability, and safety of Permalens hydrogel intracorneal lenses for the correction of spherical ametropia 6 years after implantation.\nMETHODS: Implantation of intracorneal hydrogel lenses was performed by the same surgeon (JIBM) in five aphakic and five high myopic eyes. The lens closet to corneal vertex refraction was used. Refractive outcomes, keratometry, keratography, endothelial cell count, and corneal topography were studied.\nRESULTS: Corneal tolerance to the hydrogel implants was maintained throughout for 6 years with no alteration in endothelial cell count. All myopic eyes showed regression of achieved correction. The aphakic eyes showed no statistically significant difference between the results at 1 month and those obtained at 1 and 6 years.\nCONCLUSIONS: Hyrdogel intracorneal lenses are well tolerated and the refractive results are stable in aphakic patients. They may be considered when intraocular lenses cannot be placed in aphakic patients, but are not now in clinical use."
+  },
+  {
+    "pmid": "20335615",
+    "title": "Corneal biomechanical changes after collagen cross-linking from porcine eye inflation experiments.",
+    "authors": [
+      "Kling S",
+      "Remon L",
+      "P\u00e9rez-Escudero A",
+      "Merayo-Lloves J",
+      "Marcos S"
+    ],
+    "journal": "Investigative ophthalmology & visual science",
+    "pubdate": "2010 Aug",
+    "doi": "10.1167/iovs.09-4536",
+    "abstract": "PURPOSE: Understanding corneal biomechanics is important to refractive or therapeutic corneal treatments. The authors studied the corneal response to variable intraocular pressure (IOP) in porcines eyes after UV collagen cross-linking (CXL), in comparison with untreated eyes.\nMETHODS: Twenty-three enucleated eyes were treated with standard CXL conditions (365 nm, 3 mW, 30 minutes), and 15 contralateral eyes served as control. Eyes (within a humidity- and temperature-monitored wet chamber) were measured by Scheimpflug corneal three-dimensional topographer. Images were obtained automatically while IOP either remained constant (14 eyes) or increased (24 eyes) by 40 mm Hg and then decreased (4-mm Hg steps). Measurements were performed immediately after treatment and 24 hours later. Corneal geometry was analyzed as a function of IOP, and whole globe stress-strain curves were calculated.\nRESULTS: Instillation of riboflavin-dextran solution reduced corneal thickness (by 281 +/- 5 microm). Cross-linking produced a 1.54x reduction in corneal thinning and 2.8x reduction in corneal apical rise with increased IOP. Anterior and posterior cornea flattened with increased IOP (less flattening in CXL eyes) and became steeper with decreased IOP. The horizontal meridian flattened significantly (P < 0.01) more than the vertical meridian. Young's modulus was higher in cross-linked eyes (1.096 +/- 0.30 kN/m(2)) than in non-cross-linked eyes (0.692 +/- 0.30 kN/m(2)). Hysteresis in nontreated eyes was also larger than in cross-linked eyes.\nCONCLUSIONS: Cross-linking stiffened porcine corneas significantly. Both experimental data and stress-strain analysis are valuable for finite element models to improve understanding of CXL and its predictability. Although differences are expected between human corneas in vivo and porcine corneas ex vivo, the results are consistent with clinical data found in patients. The apparent biomechanical anisotropy of pig corneas must be confirmed in humans."
+  },
+  {
+    "pmid": "2373017",
+    "title": "Histopathology of human keratorefractive lenticules.",
+    "authors": [
+      "Pokorny KS",
+      "Kenyon KR",
+      "Swinger C",
+      "Barker BA",
+      "Henriquez AS",
+      "Barraquer JI",
+      "Amin D",
+      "Schmitterer M",
+      "Hanninen LA"
+    ],
+    "journal": "Cornea",
+    "pubdate": "1990 Jul",
+    "doi": null,
+    "abstract": "Eight human corneal lenticules (three from keratophakia, two from hypermetropic keratomileusis, and three from myopic keratomileusis) were examined by light and electron microscopy. The keratophakic lenticules were removed for optical reasons 3, 3.5, and 6 months after surgery. Microscopically, all displayed hypocellularity, mature collagen fibrils and microfibrils, keratocyte ghosts, and keratocytic debris. The hypermetropic keratomileusis specimens were removed at 13 and 14 months postoperatively, the first because of opacities from enzymatic digestion of the cornea, and the second due to contact lens-induced erosion of Bowman's layer and decreased lacrimal secretion. Ultrastructurally, both lenticules exhibited fractures in Bowman's layer, and the 14-month specimen showed multilayered squamous epithelia. The myopic keratomileusis specimens were removed at 4, 8, and 48 months postoperatively due to opacification of the interface caused by delayed epithelial healing, detergent trauma, and previous epithelization, respectively. Electron microscopy revealed fractures in Bowman's layer, subepithelial fibrocellular growth, sparse keratocyte populations of the anterior stroma, porous collagen bundles, keratocytic debris, and regions of epithelial ingrowth."
+  },
+  {
+    "pmid": "2488804",
+    "title": "Basis of refractive keratoplasty--1967.",
+    "authors": [
+      "Barraquer JI"
+    ],
+    "journal": "Refractive & corneal surgery",
+    "pubdate": "1989",
+    "doi": null,
+    "abstract": null
+  },
+  {
+    "pmid": "24857434",
+    "title": "Paired versus unpaired significance testing: how improper statistical analysis altered interpretation of posterior surface changes after LASIK.",
+    "authors": [
+      "Roberts CJ",
+      "Dupps WJ"
+    ],
+    "journal": "Journal of cataract and refractive surgery",
+    "pubdate": "2014 Jun",
+    "doi": "10.1016/j.jcrs.2014.04.020",
+    "abstract": null
+  },
+  {
+    "pmid": "39188872",
+    "title": "Safety of intraoperative autologous plasma incubation of corneal grafts for reducing endothelial cell loss: a pilot study.",
+    "authors": [
+      "Mercado C",
+      "Hern\u00e1ndez C",
+      "Lopez-Rojas C",
+      "De La Sen-Corcuera B",
+      "Anitua E",
+      "Barraquer JI",
+      "Guti\u00e9rrez A",
+      "Otero E",
+      "Sabater AL"
+    ],
+    "journal": "Frontiers in medicine",
+    "pubdate": "2024",
+    "doi": "10.3389/fmed.2024.1368117",
+    "abstract": "BACKGROUND/AIMS: Corneal endothelial cell loss contributes to transplant failure. Autologous plasma products (APP) activate salvaging pathways that can prevent oxidative stress perioperatively. This study aimed to evaluate the safety of intraoperative incubation of full-thickness corneal grafts in platelet-rich plasma (aPRP) and plasma rich in growth factors (PRGF-Endoret) in mitigating postoperative corneal endothelial cell loss (ECL).\nMETHODS: Pilot study including patients undergoing penetrating keratoplasty (PK) for various indications between June 2021 and December 2022. Patients were randomly assigned to receive either aPRP or PRGF-Endoret incubation, while those who declined intervention served as the control group. Demographic and clinical data were collected, including preoperative and postoperative endothelial cell count, intraocular pressure, pachymetry, and adverse reactions.\nRESULTS: Thirty individuals who underwent PK completed follow-up: eight from the aPRP group, 10 from the PRGF-Endoret group, and 12 from the control group. No adverse events related to APP treatment were recorded. In the first and third postoperative months, the APP group had significantly lower ECL percentages (37% vs. 25%, p\u2009=\u20090.02, and 44% vs. 33%, p\u2009=\u20090.02, respectively); this trend was maintained in the sixth month. When stratified, the PRGF-Endoret group showed significant differences in ECL reduction compared to controls at both time points (p\u2009=\u20090.03 and p\u2009=\u20090.05, respectively). The aPRP group showed a similar statistically significant outcome exclusively on the third postoperative month (p\u2009=\u20090.04). APP tended to reduce corneal edema faster than controls. Hexagonality was significantly better in the APP groups in the first and third months, particularly in the PRGF-Endoret group (p\u2009<\u20090.005).\nCONCLUSION: Preoperative incubation with APP is safe and promotes better endothelial cell quality and quantity in the early postoperative period following PK. These findings suggest a potential clinical benefit in enhancing graft outcomes and warrant further investigation."
+  },
+  {
+    "pmid": "9021454",
+    "title": "The history and evolution of keratomileusis.",
+    "authors": [
+      "Barraquer JI"
+    ],
+    "journal": "International ophthalmology clinics",
+    "pubdate": "1996",
+    "doi": null,
+    "abstract": null
+  },
+  {
+    "pmid": "23299471",
+    "title": "Finite-element modeling of intrastromal ring segment implantation into a hyperelastic cornea.",
+    "authors": [
+      "Kling S",
+      "Marcos S"
+    ],
+    "journal": "Investigative ophthalmology & visual science",
+    "pubdate": "2013 Jan 30",
+    "doi": "10.1167/iovs.12-10852",
+    "abstract": "PURPOSE: Intrastromal corneal-ring segments (ICRSs) are applied to improve highly distorted vision in keratoconic, myopic, and astigmatic patients. Selections of ICRS geometry and position are primarily based on empirical nomograms. We developed a finite-element model (FEM) predicting the corneal response to different ICRS geometries in normal and keratoconic corneas.\nMETHODS: A two-dimensional FEM was built in proprietary software (ANSYS-APDL), consisting of hyperelastic ocular tissues (cornea, limbus, sclera) and a triangular/hexagonal ICRS of poly(methyl methacrylate). An incrustation model was developed considering the local material addition and rigidity increase at the ICRS position and also for the triangular ICRS the geometric difference between its base (plane) and corneal tunnel (parallel to corneal surface). Different ICRS heights (150-350 \u03bcm) and optical zones (4.4-6.6 mm) were simulated. An axis-symmetric model of keratoconus was studied, where corneal elasticity was decreased locally.\nRESULTS: ICRS GEOMETRY (HEIGHT AND OPTICAL ZONE) HAD A SIGNIFICANT INFLUENCE ON CORNEAL POWER: changes from 4.08 to -17.7 diopters (D) (healthy)/3.31 to -20.5 D (keratoconic) were observed. Central corneal thickness was predicted to increase by up to 38.5 \u03bcm (healthy)/97.9 \u03bcm (keratoconic). Spherical aberration also changed upon ICRS implantation. The protrusion of the posterior cornea behind the rings was well predicted. The model confirmed the clinically reported trends on the effect of ring geometry.\nCONCLUSIONS: FEM is a powerful tool to study the corneal response to ICRS implantation. The combination of FEM with individual biomechanical properties and geometry of patients holds promise to increase the predictability of ICRS surgery."
+  },
+  {
+    "pmid": "22736617",
+    "title": "Corneal biomechanical properties from two-dimensional corneal flap extensiometry: application to UV-riboflavin cross-linking.",
+    "authors": [
+      "Kling S",
+      "Ginis H",
+      "Marcos S"
+    ],
+    "journal": "Investigative ophthalmology & visual science",
+    "pubdate": "2012 Jul 27",
+    "doi": "10.1167/iovs.12-9583",
+    "abstract": "PURPOSE: Corneal biomechanical properties are usually measured by strip extensiometry or inflation methods. We developed a two-dimensional (2D) flap extensiometry technique, combining the advantages of both methods, and applied it to measure the effect of UV-Riboflavin cross-linking (CXL).\nMETHODS: Corneal flaps (13 pig/8 rabbit) from the de-epithelialized anterior stroma (96 \u03bcm) were mounted on a custom chamber, consisting of a BK7 lens, a reflective retina, and two reservoirs (filled with Riboflavin and silicone oil). Stretching the corneal flap during five pressure increase/decrease cycles (0-30 mm Hg) changed the refractive power of the system, whose Zernike aberrations were monitored with a ray-tracing aberrometer. Porcine flaps were used to test the system. Rabbits were treated with CXL unilaterally in vivo following standard clinical procedures. Flaps were measured 1 month postoperatively. An analytical model allowed estimating Young's modulus from the change in surface (strain) and pressure (stress). Confocal microscopy examination was performed before, and at different times after CXL.\nRESULTS: Flap curvature changed with increased function of IOP in pig flaps (23.4 \u00d7 10\u207b\u00b3 D/mm Hg). In rabbit flaps curvature changed significantly less in 1 month post CXL (P = 0.026) than in untreated corneas [17.0 vs. 6.36 millidiopter (mD)/mm Hg]. Young's modulus was 2.29 megapascals (MPa) in porcine corneas, 1.98 MPa in untreated rabbit corneas, and 4.83 MPa in 1 month post CXL rabbit corneas. At the same time, highly reflective structures were observed in the rabbit midstroma after treatment.\nCONCLUSIONS: 2D flap extensiometry allows estimating corneal elasticity in vitro. The measurements are spatially resolved in depth, minimize the effects of corneal hydration, and preserve the integrity of the cornea. The method proved the efficacy of CXL in increasing corneal rigidity after 1 month in rabbits."
+  },
+  {
+    "pmid": "23821200",
+    "title": "Contributing factors to corneal deformation in air puff measurements.",
+    "authors": [
+      "Kling S",
+      "Marcos S"
+    ],
+    "journal": "Investigative ophthalmology & visual science",
+    "pubdate": "2013 Jul 26",
+    "doi": "10.1167/iovs.13-12509",
+    "abstract": "PURPOSE: Air puff systems have been presented recently to measure corneal biomechanical properties in vivo. In our study we tested the influence of several factors on corneal deformation to an air puff: IOP, corneal rigidity, dehydration, presence of sclera, and in vivo versus in vitro conditions.\nMETHODS: We used 14 freshly enucleated porcine eyes and five human donor eyes for in vitro experiments; nine human eyes were used for in vivo experiments. Corneal deformation was studied as a function of: IOP ranging from 15 to 45 mm Hg (in vitro); dehydration after riboflavin-dextran instillation (in vitro); corneal rigidity after standard ultraviolet (UV) corneal crosslinking (CXL, in vitro); boundary conditions, that is effect of the presence of the sclera (comparing corneal buttons and whole globes in vitro in pigs); and effect of ocular muscles (comparing human whole globes in vitro and in vivo). The temporal corneal deformation was characterized by the apex indentation across time, the maximal indentation depth, and the temporal symmetry (comparing inward versus outward deformation). The spatial corneal profile was characterized by the peak distance at maximal deformation.\nRESULTS: Temporal and spatial deformation profiles were very sensitive to the IOP (P < 0.001). The sclera slightly affected the temporal symmetry, while the ocular muscles drastically changed the amount of corneal recovery. CXL produced a significant (P = 0.001) reduction of the cornea indentation (by a factor of 1.41), and a change in the temporal symmetry of the corneal deformation profile (by a factor of 1.65), indicating a change in the viscoelastic properties with treatment.\nCONCLUSIONS: Corneal deformation following an air puff allows the measurement of dynamic properties, which are essential for the characterization of corneal biomechanics."
+  },
+  {
+    "pmid": "14211986",
+    "title": "TWO-LEVEL KERATOPLASTY.",
+    "authors": [
+      "BARRAQUER JI"
+    ],
+    "journal": "International ophthalmology clinics",
+    "pubdate": "1963 Sep",
+    "doi": null,
+    "abstract": null
+  },
+  {
+    "pmid": "9049939",
+    "title": "Coralline hydroxyapatite keratoprosthesis in rabbits.",
+    "authors": [
+      "Le\u00f3n CR",
+      "Barraquer JI",
+      "Barraquer JI"
+    ],
+    "journal": "Journal of refractive surgery (Thorofare, N.J. : 1995)",
+    "pubdate": "1997",
+    "doi": null,
+    "abstract": "BACKGROUND: The ideal keratoprosthesis will have a curvature similar to that of the recipient cornea and allow the tissue to grow into the supporting material. We developed a support for a keratoprosthesis made of porous hydroxyapatite, which is highly biocompatible, biointegrable, non-biodegradable, and colonizable.\nMETHODS: We implanted the keratoprosthesis unilaterally in the right eyes of 12 New Zealand rabbits, intralamellarly and between a homologous episclerokeratoplasty (with and without conjunctival flap) for 12 months. Pathology studies and technetium-99 bone scans were performed.\nRESULTS: We found good vascularization, no signs of infection or extrusion, no epithelial downgrowth, and no adverse tissue reaction.\nCONCLUSION: A clinical trial of this keratoprosthesis is warranted."
+  }
+]

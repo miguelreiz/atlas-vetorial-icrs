@@ -11,28 +11,35 @@ Um arcabouço biomecânico, por mais elegante que seja na teoria, torna-se clini
 
 A plataforma é concebida não como um substituto para o julgamento clínico, mas como uma **ferramenta de suporte à decisão** — de forma análoga à fórmula Barrett Universal II para cálculo de LIO ou ao software Alpins ASSORT para análise de astigmatismo. O cirurgião fornece os dados de entrada, o software realiza a análise biomecânica e o resultado é uma lista classificada de configurações de anéis com os valores esperados de VR, VT e Vτ para cada uma.
 
+> [!NOTE]
+> **Para o Clínico: O Software Não Substitui o Cirurgião**
+> A plataforma AVBC funciona como o Barrett ou o ASSORT: você insere os dados, o software calcula, e você decide. A plataforma gera uma *recomendação*, não uma *prescrição*. O cirurgião sempre tem a última palavra.
+
 ---
 
 ## 14.2 Arquitetura do Sistema
+
+
+![Figura 14.1 — Arquitetura da plataforma de software AVBC: camadas de entrada, processamento e saída.](book_figures/fig_14_01_arquitetura_software.svg)
 
 ### 14.2.1 Camada de Entrada
 
 A plataforma AVBC aceita dados clínicos padronizados de três fontes:
 
 1. **Tomografia corneana (exportação Pentacam/Galilei em formato DICOM ou CSV):**
-   - Mapa de curvatura sagital → classificação topográfica (Módulo T)
-   - Mapa de elevação posterior → cálculo do ENM
-   - Mapa paquimétrico → restrições de profundidade, margens de segurança do anel
-   - Valores de K-steep, K-flat, KMax
+ - Mapa de curvatura sagital → classificação topográfica (Módulo T)
+ - Mapa de elevação posterior → cálculo do ENM
+ - Mapa paquimétrico → restrições de profundidade, margens de segurança do anel
+ - Valores de K-steep, K-flat, KMax
 
 2. **Aberrometria de frente de onda (wavefront) (exportação Zywave, iTrace ou OPD-Scan):**
-   - Coeficientes de Zernike → RMS de Coma, RMS total de HOA (Módulo O)
-   - Direção e magnitude do vetor de coma
+ - Coeficientes de Zernike → RMS de Coma, RMS total de HOA (Módulo O)
+ - Direção e magnitude do vetor de coma
 
 3. **Refração clínica e dados clínicos (entrada manual):**
-   - Esfera, cilindro, eixo
-   - BCVA (Acuidade Visual Melhor Corrigida)
-   - Idade, histórico de CXL, cirurgia prévia
+ - Esfera, cilindro, eixo
+ - BCVA (Acuidade Visual Melhor Corrigida)
+ - Idade, histórico de CXL, cirurgia prévia
 
 ### 14.2.2 Camada de Processamento
 
@@ -51,9 +58,9 @@ A camada de processamento implementa três módulos:
 **Motor de Vetores Módulo B:**
 - Com base na necessidade clínica (determinada pelos Módulos O e T), identifica o(s) vetor(es) dominante(s).
 - Aplica as tabelas de consulta (lookup tables) derivadas de FEM:
-  - VR como função da espessura do anel (a partir da série de simulações concêntricas)
-  - VT como função do comprimento do arco (a partir da equação de monotonicidade de VT)
-  - Vτ como função da razão de assimetria (a partir dos dados de simulação assimétrica de espessura progressiva validados)
+ - VR como função da espessura do anel (a partir da série de simulações concêntricas)
+ - VT como função do comprimento do arco (a partir da equação de monotonicidade de VT)
+ - Vτ como função da razão de assimetria (a partir dos dados de simulação assimétrica de espessura progressiva validados)
 - Gera uma lista classificada de configurações de anéis (espessura × arco × profundidade × meridiano × perfil) ordenada pelo benefício biomecânico esperado.
 
 ### 14.2.3 Camada de Saída
@@ -66,6 +73,9 @@ A saída apresenta:
 4. **Visualização:** Mapa corneano interativo mostrando o campo de deslocamento esperado (VR), redistribuição de tensão (stress) (VT) e direção de migração do ápice (Vτ) para a configuração recomendada.
 
 ---
+
+
+![Figura 14.2 — Conceito de dashboard clínico AVBC (modo escuro).](book_figures/fig_14_02_dashboard_mockup.svg)
 
 ## 14.3 A Tabela de Consulta (Lookup Table) por FEM
 
@@ -127,6 +137,10 @@ Uma interface baseada em controles deslizantes (sliders) permite que o cirurgiã
 - **Seletor de meridiano:** 0°–360° → rotaciona o posicionamento do anel, mostra o alinhamento com o ENM
 
 Cada ajuste atualiza os valores previstos de ΔK, ΔCyl e migração do ápice em tempo real.
+
+> [!TIP]
+> **Para o Clínico: Imagine Isto na Prática**
+> Antes da cirurgia, abre o software, insere os dados do Pentacam e da aberrometria. O sistema classifica automáticamente (O+, Crescente paracentral, VT dominante). Arraste o slider de arco de 160° para 210° e veja o VT subir. Arraste a espessura e veja o VR subir. Compare com o que o nomograma sugeriria. Em 2 minutos, tem uma prescrição biomecânicamente justificada.
 
 ### 14.4.3 Módulo de Análise Pós-Operatória
 
@@ -202,7 +216,7 @@ A via regulatória é complexa, mas viável, particularmente se a plataforma for
 1. Alpins NA. ASSORT (Alpins Statistical System for Ophthalmic Refractive surgery Techniques). User Manual, Version 7.0, 2015.
 2. Barrett GD. An improved universal theoretical formula for intraocular lens power prediction. *J Cataract Refract Surg*. 2015;41(3):589–599.
 3. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia. *J Cataract Refract Surg*. 2014;40(6):991–998.
-4. García de Oteyza G, et al. Finite element analysis of progressive thickness ICRS. *J Cataract Refract Surg*. 2021;47(2):258–265.
+4. García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. *PLoS One*. 2021;16(1):e0245063.
 5. Kling S, Marcos S. FEM of ICRS in a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
 6. Maas SA, Ellis BJ, Ateshian GA, Weiss JA. FEBio: finite elements for biomechanics. *J Biomech Eng*. 2012;134(1):011005.
 7. Piñero DP. Corneal biomechanics: a review. *Clin Exp Optom*. 2015;98(2):107–116.

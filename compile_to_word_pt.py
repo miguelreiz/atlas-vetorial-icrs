@@ -7,6 +7,8 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
 from docx.oxml import parse_xml
 from docx.oxml.ns import nsdecls, qn
+import subprocess
+import tempfile
 
 # --- Custom XML helper functions to prevent duplicate tags and guarantee clean openXML output ---
 
@@ -340,7 +342,7 @@ def add_cover_page(doc):
     # Editors
     p_editor = doc.add_paragraph()
     p_editor.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run_editor = p_editor.add_run("Dr. Miguel Reiz, MD, PhD")
+    run_editor = p_editor.add_run("Autor Principal: Dr. Miguel Reis\nCoautora: Dra. Jordana Sandes")
     run_editor.font.name = "Calibri"
     run_editor.font.size = Pt(16)
     run_editor.font.bold = True
@@ -417,6 +419,101 @@ def compile_chapters_to_word(output_path, chapter_files):
                 line_idx += 1
                 continue
                 
+            # Images: ![caption](path)
+            img_match = re.match(r'^!\[(.*)\]\((.+)\)$', stripped)
+            if img_match:
+                caption_text = img_match.group(1)
+                img_path = img_match.group(2)
+                
+                # Resolve relative paths
+                if not os.path.isabs(img_path):
+                    img_path = os.path.join(script_dir, img_path)
+                
+                if os.path.exists(img_path):
+                    # Convert SVG to PNG if needed
+                    actual_path = img_path
+                    is_temp = False
+                    if img_path.lower().endswith('.svg'):
+                        png_path = img_path.rsplit('.', 1)[0] + '.png'
+                        if not os.path.exists(png_path):
+                            try:
+                                from svglib.svglib import svg2rlg
+                                from reportlab.graphics import renderPM
+                                drawing = svg2rlg(img_path)
+                                if drawing:
+                                    scale = 1200 / drawing.width if drawing.width > 0 else 1
+                                    drawing.width *= scale
+                                    drawing.height *= scale
+                                    drawing.scale(scale, scale)
+                                    renderPM.drawToFile(drawing, png_path, fmt='PNG')
+                                    print(f"  Converted SVG→PNG: {os.path.basename(png_path)}")
+                                else:
+                                    print(f"  Warning: Could not parse SVG: {os.path.basename(img_path)}")
+                                    p = doc.add_paragraph()
+                                    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                                    run = p.add_run(f"[{caption_text}]")
+                                    run.font.name = 'Calibri'
+                                    run.font.size = Pt(10)
+                                    run.font.italic = True
+                                    run.font.color.rgb = RGBColor(0x88, 0x88, 0x88)
+                                    line_idx += 1
+                                    continue
+                            except Exception as svg_err:
+                                print(f"  Warning: SVG conversion failed for {os.path.basename(img_path)}: {svg_err}")
+                                p = doc.add_paragraph()
+                                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                                run = p.add_run(f"[{caption_text}]")
+                                run.font.name = 'Calibri'
+                                run.font.size = Pt(10)
+                                run.font.italic = True
+                                run.font.color.rgb = RGBColor(0x88, 0x88, 0x88)
+                                line_idx += 1
+                                continue
+                        actual_path = png_path
+                    
+                    try:
+                        p_img = doc.add_paragraph()
+                        p_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                        p_img.paragraph_format.space_before = Pt(12)
+                        p_img.paragraph_format.space_after = Pt(4)
+                        run_img = p_img.add_run()
+                        run_img.add_picture(actual_path, width=Inches(5.5))
+                        
+                        # Add caption below
+                        if caption_text:
+                            p_cap = doc.add_paragraph()
+                            p_cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                            p_cap.paragraph_format.space_before = Pt(2)
+                            p_cap.paragraph_format.space_after = Pt(12)
+                            run_cap = p_cap.add_run(caption_text)
+                            run_cap.font.name = 'Calibri'
+                            run_cap.font.size = Pt(9)
+                            run_cap.font.italic = True
+                            run_cap.font.color.rgb = RGBColor(0x55, 0x55, 0x55)
+                        
+                        print(f"  Inserted image: {os.path.basename(actual_path)}")
+                    except Exception as e:
+                        print(f"  Warning: Could not insert image {os.path.basename(img_path)}: {e}")
+                        p = doc.add_paragraph()
+                        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                        run = p.add_run(f"[{caption_text}]")
+                        run.font.name = 'Calibri'
+                        run.font.size = Pt(10)
+                        run.font.italic = True
+                        run.font.color.rgb = RGBColor(0x88, 0x88, 0x88)
+                else:
+                    print(f"  Warning: Image not found: {img_path}")
+                    p = doc.add_paragraph()
+                    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                    run = p.add_run(f"[{caption_text}]")
+                    run.font.name = 'Calibri'
+                    run.font.size = Pt(10)
+                    run.font.italic = True
+                    run.font.color.rgb = RGBColor(0x88, 0x88, 0x88)
+                
+                line_idx += 1
+                continue
+            
             # Headings
             h_match = re.match(r'^(#{1,6})\s+(.*)', stripped)
             if h_match:
@@ -524,23 +621,40 @@ if __name__ == "__main__":
     # Path settings
     output_docx = os.path.join(script_dir, "Analise_Vetorial_Biomecanica_Corneana_PT.docx")
     
+    # --- Ordem didática reorganizada (Elsevier) ---
+    # Parte I: Fundamentos (Cap 1-3)
+    # Parte II: Vetores Biomecânicos (Cap 4-8)
+    # Parte III: Da Teoria à Prática (Cap 9-11)
+    # Parte IV: Validação e Evidência (Cap 12)
+    # Parte V: Horizontes (Cap 13)
+    # Parte VI: Plataforma e Conclusão (Cap 14-15)
     chapters = [
         os.path.join(script_dir, "capitulos_pt", "indice_geral.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap01_cornea_biomecanica.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap02_como_icrs_funcionam.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap03_metodo_alpins.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap04_limites_nomogramas.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap05_tres_dominios.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap06_vetor_VR.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap07_vetor_VT.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap08_vetor_Vtau.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap09_classificacao_avbc.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap10_validacao_fem.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap11_fluxo_clinico.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap12_casos_ilustrativos.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap13_limitacoes_futuro.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap14_plataforma_software.md"),
-        os.path.join(script_dir, "capitulos_pt", "cap15_conclusao.md"),
+        # --- Parte I: O Problema e os Fundamentos ---
+        os.path.join(script_dir, "capitulos_pt", "cap01_cornea_biomecanica.md"),       # Cap 1
+        os.path.join(script_dir, "capitulos_pt", "cap02_como_icrs_funcionam.md"),       # Cap 2
+        os.path.join(script_dir, "capitulos_pt", "cap04_limites_nomogramas.md"),         # Cap 3 (antigo 4)
+        # --- Parte II: Os Vetores Biomecânicos ---
+        os.path.join(script_dir, "capitulos_pt", "cap05_tres_dominios.md"),             # Cap 4 (antigo 5)
+        os.path.join(script_dir, "capitulos_pt", "cap06_vetor_VR.md"),                  # Cap 5 (antigo 6)
+        os.path.join(script_dir, "capitulos_pt", "cap07_vetor_VT.md"),                  # Cap 6 (antigo 7)
+        os.path.join(script_dir, "capitulos_pt", "cap08_vetor_Vtau.md"),                # Cap 7 (antigo 8)
+        os.path.join(script_dir, "capitulos_pt", "cap03_metodo_alpins.md"),             # Cap 8 (antigo 3)
+        # --- Parte III: Da Teoria à Prática Clínica ---
+        os.path.join(script_dir, "capitulos_pt", "cap09_classificacao_avbc.md"),        # Cap 9
+        os.path.join(script_dir, "capitulos_pt", "cap11_fluxo_clinico.md"),             # Cap 10 (antigo 11)
+        os.path.join(script_dir, "capitulos_pt", "cap12_casos_ilustrativos.md"),        # Cap 11 (antigo 12)
+        # --- Parte IV: Validação e Evidência ---
+        os.path.join(script_dir, "capitulos_pt", "cap10_validacao_fem.md"),             # Cap 12 (antigo 10)
+        # --- Parte V: Horizontes ---
+        os.path.join(script_dir, "capitulos_pt", "cap13_limitacoes_futuro.md"),         # Cap 13
+        # --- Parte VI: Plataforma e Conclusão ---
+        os.path.join(script_dir, "capitulos_pt", "cap14_plataforma_software.md"),       # Cap 14
+        os.path.join(script_dir, "capitulos_pt", "cap15_conclusao.md"),                 # Cap 15
+        # --- Apêndices ---
+        os.path.join(script_dir, "capitulos_pt", "apendice_A_modelagem_HGO.md"),
+        os.path.join(script_dir, "capitulos_pt", "apendice_B_scripts_febio.md"),
+        os.path.join(script_dir, "capitulos_pt", "apendice_C_glossario.md"),
         os.path.join(script_dir, "capitulos_pt", "proposta_elsevier_avbc.md")
     ]
     

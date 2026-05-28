@@ -4,6 +4,9 @@
 
 ## 6.1 Introduction
 
+![Figure 5.1 - Vetor VR: o efeito de tenda (spacer effect) do ICRS na córnea.](book_figures/fig_05_01_efeito_tenda.svg)
+
+
 The biomechanical response of the keratoconic cornea to intrastromal corneal ring segment (ICRS) implantation has long been characterized in clinical practice through a single scalar outcome: the change in keratometric power, ΔK. While this metric captures the net optical effect of the procedure, it conceals the directional complexity of the tissue deformation that produces it. The vectorial decomposition framework introduced in the preceding chapters decomposes the total displacement field into three orthogonal components — radial (V_R), tangential (V_T), and torsional (V_τ) — each encoding a distinct biomechanical mechanism. This chapter is the first of three dedicated to the individual vectors, and it addresses V_R: the radial displacement vector responsible for corneal flattening.
 
 V_R quantifies the magnitude of tissue displacement along the radial meridian, measured from the corneal apex toward the limbus. In mechanical terms, it reflects the capacity of an ICRS to redistribute stromal stress in the radial direction, thereby altering the anterior corneal curvature. Clinical flattening — the hallmark therapeutic effect in keratoconus management — is fundamentally a consequence of radial redistribution, and V_R is its direct biomechanical correlate.
@@ -20,7 +23,7 @@ This chapter proceeds from formal mathematical definition through finite element
 
 The radial displacement vector V_R is defined as the projection of the total in-plane displacement onto the local radial unit vector at each point of the corneal surface. Consider a node located at polar coordinates (r, θ) on the anterior corneal surface, where r is the radial distance from the corneal apex and θ is the meridional angle measured counterclockwise from the nasal horizontal. If u_x and u_y denote the Cartesian components of displacement in the corneal plane, the radial displacement at that node is given by:
 
-$$V_R(r, \theta) = \Delta u_r = \left[ u_x \cos\theta + u_y \sin\theta \right]_{\text{final}} - \left[ u_x \cos\theta + u_y \sin\theta \right]_{\text{initial}}$$
+V_R(r, θ) = Δ u_r = \left[ u_x \cosθ + u_y \sinθ \right]_{\text{final}} - \left[ u_x \cosθ + u_y \sinθ \right]_{\text{initial}}
 
 where the subscripts "initial" and "final" refer to the pre-implantation (baseline) and post-implantation configurations, respectively. The unit of V_R is micrometers (μm). By convention, positive values indicate centrifugal displacement (radially outward, toward the limbus), and negative values indicate centripetal displacement (radially inward, toward the apex).
 
@@ -50,7 +53,7 @@ Within each zone, V_R is reported as the arithmetic mean of all nodal values, we
 
 The clinical significance of V_R lies in its relationship to the change in keratometric power, ΔK. For a spherical corneal surface with radius of curvature R and refractive index n = 1.3375 (the standard keratometric index), a small radial perturbation that changes the local radius by ΔR produces a change in dioptric power given by:
 
-$$\Delta K = -\frac{(n - 1)}{R^2} \times \Delta R$$
+Δ K = -\frac{(n - 1)}{R²} \times Δ R
 
 The negative sign reflects the inverse relationship between curvature radius and dioptric power: an increase in radius (flattening) produces a decrease in keratometric power. For a typical keratoconic cornea with K = 48 D (R ≈ 7.03 mm), a radial displacement of 20 μm distributed over the central zone corresponds to a local radius change that translates to approximately 1.5–2.5 D of flattening, consistent with published clinical outcomes for single-segment ICRS implantation (Piñero et al., 2009; Vega-Estrada et al., 2013).
 
@@ -61,6 +64,9 @@ This relationship is approximate, as it assumes local sphericity and neglects th
 ## 6.3 FEM Results: Arc Sweep
 
 ### 6.3.1 Simulation Protocol
+
+![Figure 5.2 - Cascata de aplanamento: volume total vs ΔK (dados FEM).](book_figures/fig_05_02_cascata_aplanamento.svg)
+
 
 The arc-sweep study comprised 28 symmetric finite element simulations (representing the symmetric component of the broader 34-simulation campaign detailed in Chapter 10) using the hyperelastic Holzapfel–Gasser–Ogden (HGO) constitutive model with validated parameters (c = 0.05 MPa, k₁ = 0.22 MPa, k₂ = 100, κ = 0.09, bulk modulus k = 4.76 MPa). All simulations employed symmetric ring configurations to isolate the effects of arc length from those of asymmetric placement. The intraocular pressure was maintained at 15 mmHg throughout, and ring cross-section geometry was held constant at the standard Ferrara-type profile (base width 600 μm, height 250 μm). Arc lengths ranged from 90° to 360° in increments that sampled the clinically relevant design space. The baseline (no-ring) model served as the reference configuration, with a central vertical displacement u_z = 360.9 μm at 15 mmHg IOP.
 
@@ -179,15 +185,15 @@ The resolution lies in the distinction between displacement and curvature. Flatt
 
 To formalize this distinction, consider the anterior corneal surface as a rotationally symmetric paraboloid with apical rise h and semi-diameter a. The radius of curvature at the apex is:
 
-$$R = \frac{a^2}{2h}$$
+R = \frac{a^2}{2h}
 
 When the ICRS reduces the apical rise from h₀ to h₁ (where h₁ < h₀, corresponding to negative Δu_z), the radius of curvature increases from R₀ to R₁:
 
-$$R_1 = \frac{a^2}{2h_1} > \frac{a^2}{2h_0} = R_0$$
+R_1 = \frac{a^2}{2h_1} > \frac{a^2}{2h_0} = R_0
 
 The keratometric power decreases correspondingly:
 
-$$\Delta K = \frac{(n-1)}{R_1} - \frac{(n-1)}{R_0} < 0$$
+Δ K = \frac{(n-1)}{R_1} - \frac{(n-1)}{R_0} < 0
 
 Thus, a negative Δu_z (posterior displacement of the apex) produces a negative ΔK (reduction in dioptric power), which is precisely the clinical flattening effect. The sign convention is internally consistent; the confusion arises only when displacement is informally equated with curvature without regard to their distinct geometric meanings.
 

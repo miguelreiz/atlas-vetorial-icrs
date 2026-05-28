@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="ds" x="-3%" y="-3%" width="106%" height="106%"><feDropShadow dx="1" dy="1.5" stdDeviation="2" flood-opacity="0.1"/></filter>
+  </defs>
+  <rect width="780" height="420" fill="white" rx="8"/>
+  <text x="390" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">O Paradoxo do ICRS: Restrição Cinemática vs Injeção Volumétrica</text>
+
+  <!-- ═══ PANEL A: Kinematic Constraint (old model) ═══ -->
+  <rect x="20" y="50" width="360" height="330" rx="10" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="200" y="75" text-anchor="middle" font-size="13" font-weight="bold" fill="#C62828">A) Restrição Cinemática (Modelo Antigo)</text>
+  <text x="200" y="93" text-anchor="middle" font-size="9" fill="#777">Nós X,Y,Z travados → Paradoxo</text>
+
+  <!-- Old model cross-section -->
+  <!-- Posterior -->
+  <path d="M 60 310 Q 200 330 340 310" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <!-- Anterior BEFORE -->
+  <path d="M 60 280 Q 200 220 340 280" fill="none" stroke="#BDBDBD" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="350" y="270" font-size="7" fill="#999">Pré-op</text>
+  <!-- Anterior AFTER (steeper - paradox!) -->
+  <path d="M 60 280 Q 200 195 340 280" fill="none" stroke="#C62828" stroke-width="2.5"/>
+  <text x="350" y="240" font-size="7" fill="#C62828">Pós-op (FEM antigo)</text>
+
+  <!-- ICRS blocks -->
+  <rect x="110" y="280" width="20" height="20" rx="2" fill="#333"/>
+  <rect x="270" y="280" width="20" height="20" rx="2" fill="#333"/>
+  <text x="140" y="295" font-size="6" fill="#333">X</text>
+  <text x="260" y="295" font-size="6" fill="#333">X</text>
+
+  <!-- Arrow showing steepening -->
+  <line x1="200" y1="220" x2="200" y2="195" stroke="#C62828" stroke-width="2"/>
+  <text x="200" y="185" text-anchor="middle" font-size="10" font-weight="bold" fill="#C62828">↑ ENCURVA!</text>
+  <text x="200" y="170" text-anchor="middle" font-size="8" fill="#C62828">(ΔK positivo)</text>
+
+  <!-- Red X: this contradicts clinical reality -->
+  <text x="200" y="360" text-anchor="middle" font-size="12" font-weight="bold" fill="#C62828">✗ Contradiz a clínica!</text>
+  <text x="200" y="375" text-anchor="middle" font-size="8" fill="#777">Pacientes APLANAM, não encurvam</text>
+
+  <!-- ═══ PANEL B: Volumetric Injection (new model) ═══ -->
+  <rect x="400" y="50" width="360" height="330" rx="10" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="580" y="75" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E7D32">B) Injeção Volumétrica (Modelo AVBC)</text>
+  <text x="580" y="93" text-anchor="middle" font-size="9" fill="#777">Deslocamento prescrito em Z, XY livres</text>
+
+  <!-- New model cross-section -->
+  <!-- Posterior -->
+  <path d="M 440 310 Q 580 330 720 310" fill="none" stroke="#999" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <!-- Anterior BEFORE -->
+  <path d="M 440 265 Q 580 210 720 265" fill="none" stroke="#BDBDBD" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="730" y="258" font-size="7" fill="#999">Pré-op</text>
+  <!-- Anterior AFTER (flatter - correct!) with peripheral lift -->
+  <path d="M 440 265 Q 490 255 510 240 Q 580 230 650 240 Q 670 255 720 265" fill="none" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="730" y="233" font-size="7" fill="#2E7D32">Pós-op (FEM AVBC)</text>
+
+  <!-- ICRS blocks with upward displacement -->
+  <rect x="490" y="250" width="20" height="20" rx="2" fill="#8B4513" stroke="#5D2E0D" stroke-width="1"/>
+  <rect x="650" y="250" width="20" height="20" rx="2" fill="#8B4513" stroke="#5D2E0D" stroke-width="1"/>
+
+  <!-- Peripheral lift arrows -->
+  <line x1="500" y1="248" x2="500" y2="225" stroke="#E6550D" stroke-width="1.8"/>
+  <line x1="660" y1="248" x2="660" y2="225" stroke="#E6550D" stroke-width="1.8"/>
+  <text x="500" y="220" text-anchor="middle" font-size="6" fill="#E6550D">↑ Lift</text>
+  <text x="660" y="220" text-anchor="middle" font-size="6" fill="#E6550D">↑ Lift</text>
+
+  <!-- Central flattening arrow -->
+  <line x1="580" y1="210" x2="580" y2="230" stroke="#2171B5" stroke-width="2.5"/>
+  <text x="580" y="200" text-anchor="middle" font-size="10" font-weight="bold" fill="#2171B5">↓ APLANA!</text>
+  <text x="580" y="185" text-anchor="middle" font-size="8" fill="#2171B5">(ΔK negativo)</text>
+
+  <!-- Green check: matches clinical reality -->
+  <text x="580" y="355" text-anchor="middle" font-size="12" font-weight="bold" fill="#2E7D32">✓ Concorda com a clínica!</text>
+  <text x="580" y="370" text-anchor="middle" font-size="8" fill="#555">Morte do Paradoxo do Deslocamento</text>
+
+  <!-- Footer -->
+  <text x="390" y="410" text-anchor="middle" font-size="8" fill="#CCC">Figura 2.2 — O Paradoxo do ICRS resolvido pela Escola Volumétrica · Dr. Miguel Reis · Dra. Jordana Sandes</text>
+</svg>

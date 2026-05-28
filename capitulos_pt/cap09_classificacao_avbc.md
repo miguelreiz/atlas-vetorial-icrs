@@ -17,6 +17,11 @@ O sistema de classificação AVBC aborda essa opacidade decompondo a avaliação
 
 A classificação foi projetada para ser transparente: cada etapa pode ser auditada, cada critério é quantitativo e cada recomendação pode ser rastreada até uma justificativa biomecânica específica apoiada pelas evidências de elementos finitos apresentadas nos Capítulos 6, 7 e 8. Essa transparência é o que distingue um *sistema de classificação* de um *nomograma*: o sistema de classificação explica o porquê de recomendar o que recomenda.
 
+> [!IMPORTANT]
+> **Para o Clínico: A Diferença entre Nomograma e AVBC**
+> Um nomograma é uma caixa preta: entra K-max, sai "anel 250 µm". Você não sabe *porquê*.
+> O AVBC é transparente: avalia primeiro se o doente é candidato ótico (Módulo O), depois mapeia a ectasia no espaço (Módulo T), e só então prescreve a biomecânica (Módulo B). Em cada passo, existe uma justificativa mensurável que você pode debater e melhorar com a experiência.
+
 ---
 
 ## 9.2 Módulo O — Avaliação de Coerência Óptica
@@ -25,11 +30,11 @@ A classificação foi projetada para ser transparente: cada etapa pode ser audit
 
 Antes de qualquer análise biomecânica ser realizada, o clínico deve responder a uma pergunta fundamental: a visão deste paciente melhorará se a topografia corneana melhorar? Esta pergunta pode parecer trivialmente óbvia, mas não é. Uma proporção substancial de pacientes com ceratocone apresenta aberrações ópticas que estão além do alcance corretivo apenas da modificação da curvatura. O ICRS remodela a superfície corneana anterior — aplana meridianos íngremes, redistribui a tensão tangencial (hoop stress) e pode migrar o ápice do cone. O que ele não pode fazer é eliminar a irregularidade corneana posterior, compensar aberrações lenticulares, corrigir trevo (trefoil) ou quadrefólio (quadrafoil) irregulares, ou reparar cicatrizes estromais. Quando esses fatores não tratáveis dominam a degradação óptica, o ICRS melhorará o mapa topográfico sem melhorar a visão funcional do paciente — a bem documentada dissociação "o mapa melhora, mas a visão não".
 
-Para preencher essa lacuna clínica crítica, o Módulo O funciona como um guardião (gatekeeper). Ao implementar o **Índice de Coerência Axial (ICE)** como o principal parâmetro de seleção para elegibilidade óptica, unificamos o alinhamento angular do meridiano topográfico íngreme ($\theta_{topo}$) e o eixo comático ($\theta_{coma}$) em um único biomarcador funcional:
+Para preencher essa lacuna clínica crítica, o Módulo O funciona como um guardião (gatekeeper). Ao implementar o **Índice de Coerência Axial (ICE)** como o principal parâmetro de seleção para elegibilidade óptica, unificamos o alinhamento angular do meridiano topográfico íngreme (θ_topo) e o eixo comático (θ_coma) em um único biomarcador funcional:
 
-$$ICE_{min} = |\theta_{topo} - \theta_{coma}|$$
+ICE_min = |θ_topo - θ_coma|
 
-Este parâmetro foi validado em uma coorte multidomínio de $N = 1.139$ olhos (incluindo $N = 300$ implantes de ICRS) como um preditor altamente superior de resultados visuais em comparação com os índices tomográficos brutos tradicionais, como o $K_{max}$ e a paquimetria local.
+Este parâmetro foi validado em uma coorte multidomínio de N = 1.139 olhos (incluindo N = 300 implantes de ICRS; Reis & Sandes, 2026, presente volume) como um preditor altamente superior de resultados visuais em comparação com os índices tomográficos brutos tradicionais, como o K_{max} e a paquimetria local.
 
 Pacientes classificados como O+ prosseguem com alta confiança de que o ICRS proporcionará melhorias tanto topográficas quanto funcionais. Pacientes classificados como O~ prosseguem com expectativas cautelosas. Pacientes classificados como O− são aconselhados de que o valor primário do ICRS pode ser o manejo topográfico (facilitando a adaptação de lentes de contato, interrompendo a progressão quando combinado com CXL) em vez da reabilitação visual.
 
@@ -39,15 +44,17 @@ Cinco parâmetros de frente de onda e coerência medidos em uma pupila de 6 mm f
 
 | Critério | Favorável (O+) | Intermediário (O~) | Desfavorável (O−) | Fonte |
 |---|:---:|:---:|:---:|---|
-| **$ICE_{min}$** | < 15° (ICE Alto) | 15°–45° (ICE Moderado) | > 45° (ICE Baixo) | Reiz, 2026 |
+| **ICE_min** | < 15° (ICE Alto) | 15°–45° (ICE Moderado) | > 45° (ICE Baixo) | Reis & Sandes, 2026 |
 | RMS de Coma | < 2,50 μm | 2,50–3,50 μm | > 3,50 μm | Alió & Shabayek, 2006 |
 | Δ Eixo (refração vs K-steep) | < 15° | 15°–30° | > 30° | Rabinowitz, 1999 |
 | RMS de HOA Total | < 2,0 μm | 2,0–4,0 μm | > 4,0 μm | Maeda et al., 2002 |
 | Coma vs ápice do cone | Ipsilateral | Ambíguo | Contralateral | Piñero, 2014 |
 
-**Índice de Coerência Axial ($ICE_{min}$).** O $ICE_{min}$ avalia o alinhamento angular dos eixos primários de assimetria estrutural e óptica da córnea. Um $ICE_{min} < 15^\circ$ (ICE Alto) significa eixos estruturais e ópticos altamente alinhados, permitindo que a regularização da curvatura induzida pelo ICRS se traduza diretamente em uma recuperação visual substancial. Inversamente, um $ICE_{min} > 45^\circ$ (ICE Baixo) indica um desacoplamento dos parâmetros estruturais e ópticos, sugerindo que qualquer redistribuição geométrica do estroma provavelmente induzirá aberrações irregulares secundárias em vez de restaurar a visão funcional. Como descrito no Capítulo 5, o limite de $ICE_{min} < 28^\circ$ representa o limiar de triagem ideal para prever $\ge 3$ linhas de Snellen de melhora (ROC AUC: 0,82, Sensibilidade: 78%, Especificidade: 84%, estatisticamente superior ao $K_{max}$ [AUC 0,68] e paquimetria [AUC 0,64], teste de DeLong $p = 0,012$).
+**Índice de Coerência Axial (ICE_min).** O ICE_min avalia o alinhamento angular dos eixos primários de assimetria estrutural e óptica da córnea. Um ICE_min < 15° (ICE Alto) significa eixos estruturais e ópticos altamente alinhados, permitindo que a regularização da curvatura induzida pelo ICRS se traduza diretamente em uma recuperação visual substancial. Inversamente, um ICE_min > 45° (ICE Baixo) indica um desacoplamento dos parâmetros estruturais e ópticos, sugerindo que qualquer redistribuição geométrica do estroma provavelmente induzirá aberrações irregulares secundárias em vez de restaurar a visão funcional. Como descrito no Capítulo 4, o limite de ICE_min < 28° representa o limiar de triagem ideal para prever \ge 3 linhas de Snellen de melhora (ROC AUC: 0,82, Sensibilidade: 78%, Especificidade: 84%, estatisticamente superior ao K_{max} [AUC 0,68] e paquimetria [AUC 0,64], teste de DeLong p = 0,012).
 
-**RMS de Coma** é o parâmetro óptico clássico mais informativo para a elegibilidade ao ICRS. O coma vertical ($Z_3^{-1}$) é a aberração de alta ordem assinatura do ceratocone inferior e a aberração mais efetivamente reduzida pela redistribuição de curvatura induzida pelo anel. Valores abaixo de 2,50 μm indicam que a carga de aberração está dentro da faixa corretiva de uma configuração padrão de ICRS; valores acima de 3,50 μm sugerem que o cone está tão avançado que a irregularidade residual após a inserção do anel permanecerá acima do limiar de significância funcional.
+![Figura 9.2 — Curvas ROC: ICE_min vs K_max vs paquimetria como discriminadores.](book_figures/fig_09_02_ice_roc.svg)
+
+**RMS de Coma** é o parâmetro óptico clássico mais informativo para a elegibilidade ao ICRS. O coma vertical (Z_3^{-1}) é a aberração de alta ordem assinatura do ceratocone inferior e a aberração mais efetivamente reduzida pela redistribuição de curvatura induzida pelo anel. Valores abaixo de 2,50 μm indicam que a carga de aberração está dentro da faixa corretiva de uma configuração padrão de ICRS; valores acima de 3,50 μm sugerem que o cone está tão avançado que a irregularidade residual após a inserção do anel permanecerá acima do limiar de significância funcional.
 
 **Discordância de eixo** captura o grau de contribuição astigmática interna (não corneana). Quando o eixo do cilindro refrativo manifesto diverge do meridiano ceratométrico íngreme por mais de 30°, uma fração substancial do cilindro decorre de fontes lenticulares ou outras fontes intraoculares que o ICRS não pode tratar. O resultado refrativo pós-operatório torna-se imprevisível porque o anel corrige apenas o componente corneano de um astigmatismo que possui contribuições não corneanas significativas.
 
@@ -57,11 +64,15 @@ Cinco parâmetros de frente de onda e coerência medidos em uma pupila de 6 mm f
 
 A classificação composta segue uma regra conservadora do pior critério:
 
-- **O+ (Favorável):** Todos os cinco critérios na coluna Favorável, ou $\ge 4$ de 5 favoráveis com nenhum desfavorável. Prosseguir com alta confiança.
+- **O+ (Favorável):** Todos os cinco critérios na coluna Favorável, ou \ge 4 de 5 favoráveis com nenhum desfavorável. Prosseguir com alta confiança.
 - **O~ (Intermediário):** Resultados mistos — pelo menos um critério na faixa Intermediária, nenhum na coluna Desfavorável. Prosseguir com expectativas cautelosas; aconselhar o paciente sobre a possibilidade de necessidade de correção adjuvante.
-- **O− (Desfavorável):** Qualquer critério na coluna Desfavorável, ou $\ge 3$ de 5 desfavoráveis. O ICRS ainda pode ser implantado para manejo topográfico, mas as expectativas funcionais devem ser ajustadas adequadamente. O objetivo principal pode ser facilitar a adaptação de lentes de contato em vez da independência de óculos.
+- **O− (Desfavorável):** Qualquer critério na coluna Desfavorável, ou \ge 3 de 5 desfavoráveis. O ICRS ainda pode ser implantado para manejo topográfico, mas as expectativas funcionais devem ser ajustadas adequadamente. O objetivo principal pode ser facilitar a adaptação de lentes de contato em vez da independência de óculos.
 
-Uma clarificação clínica importante: **O− não significa "não opere."** Significa que o modelo mental de sucesso do cirurgião deve mudar de "o paciente enxergará melhor" para "a forma corneana melhorará, o que pode viabilizar outras estratégias corretivas". Essa distinção sutil é precisamente o tipo de alinhamento de expectativas estruturado que um sistema de classificação pode fornecer, mas um nomograma não.
+Uma clarificação clínica importante: **O− não significa “não opere.”** Significa que o modelo mental de sucesso do cirurgião deve mudar de “o paciente enxergará melhor” para “a forma corneana melhorará, o que pode viabilizar outras estratégias corretivas”. Essa distinção sutil é precisamente o tipo de alinhamento de expectativas estruturado que um sistema de classificação pode fornecer, mas um nomograma não.
+
+> [!WARNING]
+> **Para o Clínico: Quando Parar Antes da Cirurgia**
+> Se o doente tem ICE Baixo (ICE_min > 45\circ) E RMS HOA Total > 4,0 µm: **não proceda sem conversa aprofundada**. Os dados de N=300 implantes (Reis & Sandes, 2026, presente volume) mostram que estes doentes têm apenas 1.6 linhas de Snellen de ganho médio (vs. 4.2 no grupo O+). O anel pode ser indicado para tolerabilidade de lente de contato, mas nunca como promessa de visão funcional.
 
 ---
 
@@ -103,13 +114,25 @@ A origem dessa divergência reside na distinção entre curvatura de superfície
 5. Calcule a divergência do ENM: |ENM − K-steep|.
 6. Se a divergência for > 15°, o protocolo AVBC recomenda o posicionamento do anel referenciado ao ENM, e não ao K-steep.
 
+> [!TIP]
+> **Para o Clínico: O Protocolo Prático do ENM em 30 Segundos**
+> 1. Abra o Pentacam → Mapa de Elevação Posterior → Diferencial BFS 8 mm.
+> 2. Encontre o ponto mais vermelho (elevação posterior máxima).
+> 3. Trace o meridiano que passa por esse ponto → esse é o ENM.
+> 4. Compare com o K-steep do mapa anterior.
+> 5. Se a diferença é > 15° → **implante alinhado ao ENM, não ao K-steep**.
+>
+> Em ~40% dos doentes, este passo vai mudar o seu plano cirúrgico.
+
 ---
+
+![Figura 9.1 — Árvore de decisão completa AVBC: do exame à prescrição.](book_figures/fig_09_01_arvore_decisao_avbc.svg)
 
 ## 9.4 Módulo B — Seleção do Vetor Biomecânico
 
 ### Os Três Vetores e Seus Correlatos Clínicos
 
-O Módulo B traduz a necessidade clínica identificada através dos Módulos O e T em uma prescrição biomecânica específica. A tradução é mediada pelos três vetores AVBC, cada um dos quais é modulado por um parâmetro de anel distinto, conforme estabelecido pelas 34 simulações do FEBio (compreendendo 28 execuções simétricas e 6 execuções assimétricas de espessura progressiva) descritas no Capítulo 10:
+O Módulo B traduz a necessidade clínica identificada através dos Módulos O e T em uma prescrição biomecânica específica. A tradução é mediada pelos três vetores AVBC, cada um dos quais é modulado por um parâmetro de anel distinto, conforme estabelecido pelas 34 simulações do FEBio (compreendendo 28 execuções simétricas e 6 execuções assimétricas de espessura progressiva) descritas no Capítulo 12:
 
 | Vetor | Grandeza Física | Faixa no FEM | Correlato Clínico | Controlador Principal |
 |:---:|:---:|:---:|:---:|:---:|
@@ -133,17 +156,72 @@ O Módulo B aplica três regras de decisão sequenciais com base na necessidade 
 
 **Regra 2 — Regularizar:** Quando a necessidade primária é reduzir o astigmatismo irregular (morfologia de crescente paracentral ou formato D, ENM ≠ K-steep), o vetor dominante é o VT. O cirurgião aumenta o comprimento de arco (210°–320°) enquanto mantém a espessura moderada (150–250 μm). O anel é posicionado ao longo do ENM para maximizar a regularização biomecânica.
 
-**Regra 3 — Reposicionar:** Quando a necessidade primária é migrar o ápice do cone em direção ao eixo visual (ápice deslocado > 1 mm, coma > 3,5 μm), o vetor dominante é o Vτ. O cirurgião utiliza um anel assimétrico de espessura progressiva (ex: 300→150 μm) orientado ao longo do ENM. A extremidade mais espessa é colocada oposta à direção desejada de migração do ápice, criando um binário de forças que impulsiona o ápice em direção ao lado mais fino.
+**Regra 3 — Reposicionar:** Quando a necessidade primária é migrar o ápice do cone em direção ao eixo visual (ápice deslocado > 1 mm, coma > 3,5 μm), o vetor dominante é o Vτ. O cirurgião utiliza um anel assimétrico de espessura progressiva (ex: 300→150 μm) orientado ao longo do ENM. A extremidade mais espessa do anel é posicionada para alavancar o cone e promover o seu deslocamento direcional em direção ao eixo visual.
 
-Um quarto cenário — **Estabilizar** — aplica-se quando o ceratocone é progressivo. Neste caso, o cross-linking do colágeno corneano (CXL) é realizado primeiro para interromper o ciclo de descompensação biomecânica, e o ICRS é implantado de 3 a 12 meses depois, quando a estabilidade topográfica for confirmada. O arcabouço AVBC aborda explicitamente esse sequenciamento, reconhecendo que a córnea pós-CXL possui propriedades materiais diferentes (maior k₁ devido ao cross-linking) e, portanto, requer ajuste na seleção do anel.
+## 9.5 Classificação Fenotípica Biomecânica por Parâmetros Constitutivos (HGO/FEBio)
+
+A classificação clássica do ceratocone baseia-se em parâmetros puramente geométricos ou topográficos de superfície, como a escala de Amsler-Krumeich (baseada na ceratometria média central e espessura local) ou a classificação Belin ABCD (baseada no raio de curvatura anterior e posterior, paquimetria mais fina e acuidade visual). Embora clinicamente úteis para a triagem e estadiamento da severidade refrativa, esses sistemas são inerentemente **não-biomecânicos**: eles avaliam as consequências geométricas da falha mecânica estromal, mas não capturam a patofisiologia molecular e mecânica subjacente do material.
+
+Para preencher essa lacuna fundamental e dotar o cirurgião de uma linguagem causal profunda, o arcabouço AVBC introduz a **Classificação Fenotípica Biomecânica**. Este sistema mapeia o estado de falha estrutural do estroma corneano diretamente para os parâmetros constitutivos do modelo hiperelástico anisotrópico Holzapfel-Gasser-Ogden (HGO) do FEBio (c, k_1, k_2, \kappa), correlacionando-os com biomarcadores de imagem clínica de última geração ("Multimodal Proxies").
+
+**Nota Epistemológica.** A classificação fenotípica aqui proposta opera no espaço dos parâmetros constitutivos do modelo HGO — grandezas que não são diretamente mensuráveis *in vivo* com nenhum dispositivo clínico atualmente disponível (Corvis ST, ORA, Brillouin). Os fenótipos são, portanto, inferidos *indiretamente* através de biomarcadores multimodais ("Multimodal Proxies") que correlacionam padrões clínicos observáveis com dominâncias paramétricas específicas. Reconhecemos, ademais, que o problema inverso de identificação dos parâmetros HGO na córnea é inerentemente mal-posto (*ill-posed*): múltiplos conjuntos de parâmetros podem produzir comportamentos macroscópicos similares, devido ao fenômeno de compensação paramétrica (Kling & Marcos, 2013; Pandolfi et al., 2019). A classificação, portanto, identifica **dominâncias fenotípicas** — o mecanismo de falha que governa o comportamento clínico observado — e não valores absolutos dos parâmetros constitutivos. A validação quantitativa desta correspondência de sensibilidade foi recentemente realizada através de uma ampla campanha paramétrica de 377 simulações por elementos finitos (Seção 12.3), embora a validação por correlação histomecânica direta *in vivo* permaneça como uma linha de investigação futura (Seção 13.4.6).
+
+**Evidência Computacional Direta (Campanha de 377 Simulações).** A predição de que a classificação fenotípica biomecânica possui fundamentação física rigorosa e não-tautológica foi recentemente validada por uma campanha massiva de modelagem computacional (detalhada na Seção 12.3). A análise de sensibilidade *one-at-a-time* (OAT) em 377 simulações revelou que o parâmetro de rigidez da matriz fundamental estromal (c) domina de forma absoluta o deslocamento apical (explicando 98{,}9\% da variância, com CV = 0{,}671), seguido em escala secundária pela dispersão de fibras (\kappa). Em contrapartida, a variação da geometria do ICRS atua de forma matematicamente independente da assinatura material, exercendo forte controle sobre o torque corretivo ativo (V_τ, com Fisher ratio excelente para o Índice de Assimetria) e a redistribuição circunferencial de tensões (V_T). A ortogonalidade entre a dominância material (c-dominante na deformação global) e a dominância geométrica do ICRS (assimetria governando a assinatura vetorial local) prova que a Classificação Fenotípica Biomecânica não é uma tautologia taxonômica, mas sim um modelo causal preditivo robusto.
+
+Definimos quatro fenótipos biomecânicos primários da ectasia corneana:
+
+### 9.5.1 Fenótipo de Degradação da Matriz (c-Dominante)
+* **Fundamento Físico:** Redução primária no módulo de cisalhamento da matriz extracelular isotrópica (c < 0,05 MPa), decorrente da degradação enzimática localizada da substância fundamental amorfa rica em proteoglicanos (decorina, lumican e keratocan). As fibrilas de colágeno (k_1) permanecem inicialmente saudáveis e tensionadas, mas perdem o suporte cisalhante interlamelar de acoplamento.
+* **Assinatura Clínica (Multimodal Proxy):** Apresenta-se tipicamente como ceratocone frusto ou subclínico (forme fruste ectasia). Manifesta-se pelo aumento isolado do Índice Biomecânico Tomográfico (TBI > 0,35) com mapa de curvatura sagital anterior normal e paquimetria estável.
+* **Implicação Cirúrgica:** O objetivo principal é a contenção da progressão mecânica inicial. Córneas neste estágio exibem alta responsividade a tratamentos combinados de Crosslinking ultra-rápido (CXL) e implantes de segmentos finos (vetor V_R dominante) para restaurar a estabilidade mecânica de base da membrana.
+
+### 9.5.2 Fenótipo de Insuficiência Fibrilar (k_1-Dominante)
+* **Fundamento Físico:** Falha mecânica intrínseca com queda severa na rigidez elástica tangencial das fibrilas de colágeno (k_1 \ll 0,22 MPa). Representa o estiramento crônico, rutura física ou deslizamento das lamelas de colágeno, comprometendo diretamente a capacidade do estroma de suportar a tensão de tração imposta pela pressão intraocular.
+* **Assinatura Clínica (Multimodal Proxy):** Ceratocone moderado a avançado estabelecido. Caracteriza-se por elevação apical acentuada, espessamento epitelial compensatório severo nas adjacências (efeito de mascaramento de Salomão et al.) e aumento dramático da aberração comática de alta ordem (RMS de Coma > 2,50 μm, Module O).
+* **Implicação Cirúrgica:** O estroma requer enrijecimento molecular direto (CXL para restabelecer a rigidez k_1 criando pontes covalentes químicas) associado a implantes de ICRS com maior espessura para invocar o vetor radial V_R e compensar a complacência fibrilar aumentada do estroma.
+
+### 9.5.3 Fenótipo de Desorganização Microestrutural (\kappa-Dominante)
+* **Fundamento Físico:** Aumento acentuado no parâmetro de dispersão angular das lamelas de colágeno (\kappa \to 1/3). A córnea perde seu arranjo preferencial circunferencial e radial altamente organizado e ortogonal na periferia e centro, transicionando mecânica e numericamente para um comportamento isotrópico de baixa rigidez cisalhante global.
+* **Assinatura Clínica (Multimodal Proxy):** Cones altamente excêntricos, periféricos (arquétipos crescente paracentral e formato D periférico) ou cones do tipo "mamilo" (nipple) de curvatura extrema. Caracteriza-se por uma **divergência acentuada** entre o Eixo Neutro Mecânico (ENM) posterior e o meridiano ceratométrico anterior íngreme (|ENM - K\text{-steep}| > 30°).
+* **Implicação Cirúrgica:** O alinhamento convencional de nomogramas baseado puramente no meridiano K\text{-steep} é ineficaz e induz aberrações secundárias. O implante do ICRS deve ser obrigatoriamente referenciado ao azimute do ENM posterior para interceptar o gradiente espacial de dispersão e atuar como ponte mecânica ativa (shunting) de estresse via vetor tangencial V_T.
+
+### 9.5.4 Fenótipo de Instabilidade Exponencial (k_2-Dominante)
+* **Fundamento Físico:** Comprometimento no parâmetro não-linear de endurecimento exponencial (k_2 \ll 100). A córnea perde a capacidade fisiológica de endurecer exponencialmente sob deformação mecânica rápida, tornando-se suscetível à deformação plástica catastrófica e irreversível quando submetida a estresses externos cíclicos.
+* **Assinatura Clínica (Multimodal Proxy):** Fortemente associado ao hábito crônico de esfregar os olhos (eye rubbing) em pacientes com predisposição genética e atopia. Caracteriza-se por flutuações rápidas de refração diária, distorção de imagem paquimétrica localizada e progressão documentada em curtos intervalos de tempo.
+* **Implicação Cirúrgica:** A interrupção absoluta do atrito ocular é o pré-requisito terapêutico primário. A inserção do ICRS é indicada para restaurar a integridade elástica linear, mas deve ser associada ao CXL para atuar sinergicamente na estabilização do comportamento não-linear de endurecimento.
+
+### 9.5.5 Fenótipos Mistos e o Espectro Contínuo
+
+Na prática clínica, os quatro fenótipos puros descritos acima representam os extremos de um espaço paramétrico quadridimensional contínuo. A fisiopatologia do ceratocone é um processo progressivo com ciclos acoplados de degradação enzimática (MMP-9, MMP-13), disrupção lamelar e remodelamento, onde múltiplos parâmetros constitutivos se deterioram simultaneamente. A degradação proteoglicânica (c\downarrow) enfraquece o acoplamento interlamelar; o deslizamento lamelar resultante aumenta a dispersão angular (\kappa\uparrow); a tensão crônica sobre as fibrilas remanescentes degrada a rigidez elástica (k_1\downarrow); e a perda de fibras maduras de colágeno tipo I reduz a capacidade de endurecimento exponencial (k_2\downarrow). Estes quatro processos são termodinamicamente acoplados.
+
+A maioria dos pacientes com ceratocone moderado a avançado exibirá, portanto, **fenótipos mistos** — combinações como c-k_1 (degradação progressiva da matriz com falha fibrilar concomitante) ou \kappa-k_2 (desorganização lamelar com perda de strain-hardening em pacientes atópicos). A classificação identifica o **mecanismo dominante** — aquele que determina a estratégia terapêutica primária — sem negar a coexistência de degradação secundária nos demais parâmetros.
+
+A analogia com a classificação hematológica das anemias é instrutiva: a anemia pode ser classificada como ferropriva, megaloblástica ou hemolítica, mas pacientes graves frequentemente apresentam múltiplos déficits simultâneos. A classificação mantém valor clínico preciso porque identifica o **driver terapêutico primário** que governa a primeira linha de tratamento. De forma análoga, a classificação fenotípica HGO responde à pergunta cirurgicamente decisiva: *"Qual parâmetro biomecânico devo priorizar na minha estratégia terapêutica para este paciente específico?"*
+
+### 9.5.6 Critérios de Falsificação Fenotípica
+
+Uma classificação científica que não pode ser falsificada não é ciência — é metafísica (Popper, 1959). A seguir, definimos predições testáveis e critérios de rejeição para cada fenótipo biomecânico:
+
+| Fenótipo | Predição Testável | Critério de Falsificação |
+|---|---|---|
+| **c-dominante** | TBI elevado + topografia anterior normal → resposta forte a CXL isolado com estabilização do TBI em 12 meses | Se CXL não estabiliza o TBI em > 80% dos casos classificados como c-dominantes |
+| **k_1-dominante** | Coma elevado + ectasia estabelecida → forte efeito de aplanamento com ICRS espesso (V_R dominante) | Se CI_R < 0,70 sistematicamente em pacientes classificados como k_1-dominantes |
+| **\kappa-dominante** | ENM–K-steep > 30° → melhora superior com posicionamento pelo ENM vs. K-steep | Se posicionamento pelo ENM não produz VT\text{-ratio} > 0,85 em > 75% dos casos |
+| **k_2-dominante** | Eye rubbing crônico + flutuação refrativa → estabilização com CXL + cessação do atrito | Se progressão documentada continua após CXL + cessação em > 50% dos casos |
+
+Estes critérios de falsificação serão formalmente testados no estudo prospectivo descrito no Capítulo 13. A definição *a priori* dos limiares de rejeição é um compromisso ético e metodológico que garante a integridade científica da classificação proposta.
 
 ---
 
-## 9.5 A Matriz de Decisão Biomecânica
+## 9.6 A Matriz de Decisão Biomecânica
 
 ### Integração Intermódulos
 
 O poder da classificação AVBC reside na interseção de todos os três módulos. A matriz de decisão a seguir apresenta o conjunto completo de combinações O × T × B clinicamente relevantes:
+
+> [!NOTE]
+> **Para o Clínico: Como Usar a Matriz**
+> Leia a tabela da esquerda para a direita: primeiro classifique ótica (O+, O~, O-), depois identifique o arquétipo topográfico (Módulo T), e a última coluna dir-lhe-á qual vetor biomecânico priorizar e a configuração sugerida. Pode usar isto como checklist no bloco operatório.
 
 | Módulo O | Módulo T | Módulo B | Configuração do Anel | Racional |
 |:---:|:---:|:---:|:---:|:---:|
@@ -169,24 +247,24 @@ A profundidade de implantação atua como um amplificador universal em todos os 
 
 ---
 
-## 9.6 O Índice de Correção AVBC: Fechando o Ciclo de Feedback
+## 9.7 O Índice de Correção AVBC: Fechando o Ciclo de Feedback
 
 ### Índices de Correção Específicos por Componente
 
 Talvez o elemento de maior valor prático do arcabouço AVBC seja a sua capacidade de fornecer feedback quantitativo pós-operatório. Inspirado no Índice de Correção de Alpins (CI = |SIA|/|TIA|), o AVBC define três índices de correção específicos por componente:
 
 **CI_R (Índice de Correção Radial):**
-$$CI_R = \frac{\Delta K_{observado}}{\Delta K_{previsto}}$$
+CI_R = \frac{Δ K_{observado}}{Δ K_{previsto}}
 
 Um CI_R de 1,0 ± 0,15 indica que o efeito de aplanamento correspondeu à previsão. Valores abaixo de 0,85 indicam subcorreção sistemática (a córnea estava mais rígida do que o modelado, ou o efeito do anel foi menor que o previsto); valores acima de 1,15 indicam supercorreção.
 
 **VT-ratio (Razão de Correção Tangencial):**
-$$VT\text{-}ratio = \frac{\Delta Cyl_{observado}}{\Delta Cyl_{esperado}}$$
+VT\text{-}ratio = \frac{Δ Cyl_{observado}}{Δ Cyl_{esperado}}
 
 Esta razão avalia se o comprimento de arco produziu o grau esperado de regularização do astigmatismo.
 
 **Vτ-ratio (Razão de Correção Torsional):**
-$$V_\tau\text{-}ratio = \frac{Migra\text{ç}\tilde{a}o\_do\_\text{á}pice_{observada}}{Migra\text{ç}\tilde{a}o\_do\_\text{á}pice_{esperada}}$$
+V_τ\text{-}ratio = \frac{Migra\text{ç}\tilde{a}o\_do\_\text{á}pice_{observada}}{Migra\text{ç}\tilde{a}o\_do\_\text{á}pice_{esperada}}
 
 Para anéis simétricos, o Vτ esperado é zero, e qualquer migração do ápice não nula indica carregamento assimétrico inesperado. Para anéis assimétricos, esta razão quantifica a eficácia do mecanismo de torque.
 
@@ -194,9 +272,13 @@ Para anéis simétricos, o Vτ esperado é zero, e qualquer migração do ápice
 
 Ao longo de N cirurgias, cada cirurgião acumula um banco de dados pessoal de índices de correção. O CI_R médio representa o viés sistemático do cirurgião: se o CI_R médio for 0,85 em 30 casos, o cirurgião está subestimando consistentemente o efeito do anel e deve multiplicar as previsões futuras por 1/0,85 = 1,18. Este processo de calibração iterativo é o análogo biomecânico do ajuste da constante A de LIO e representa o mecanismo pelo qual o arcabouço AVBC melhora a precisão preditiva ao longo do tempo sem exigir alterações no modelo físico subjacente.
 
+> [!TIP]
+> **Para o Clínico: O Seu "Fator Pessoal"**
+> Tal como na fórmula de LIO existe a "constante A" de cada cirurgião, na AVBC existe o seu CI_R médio. Se ao fim de 20 casos o seu CI_R médio é 0.80, isso significa que, de forma sistemática, aplana 20% menos do que o FEM prevê. Corrija multiplicando a espessura planeada por 1/0.80 = 1.25. É exatamente isto que a Escola de Alpins nos ensinou — e a AVBC aplica ao anel.
+
 ---
 
-## 9.7 AVBC Versus Nomogramas Existentes
+## 9.8 AVBC Versus Nomogramas Existentes
 
 As diferenças fundamentais entre o arcabouço AVBC e os sistemas de nomogramas existentes são estruturais, e não apenas paramétricas:
 
@@ -215,7 +297,7 @@ O AVBC não pretende substituir os nomogramas em todos os casos. Para os cerca d
 
 ---
 
-## 9.8 Limitações e Escopo
+## 9.9 Limitações e Escopo
 
 A classificação AVBC, em sua forma atual, possui limitações específicas que devem ser reconhecidas:
 
@@ -223,7 +305,7 @@ A classificação AVBC, em sua forma atual, possui limitações específicas que
 
 2. **Os limiares são preliminares.** As faixas de VR/VT (8,9–19,9 μm / 7,20–7,78 kPa) são específicas para o conjunto de parâmetros HGO utilizado nas simulações. Parâmetros materiais diferentes podem produzir valores absolutos diferentes, preservando as tendências relativas.
 
-3. **Vτ foi validado computacionalmente.** Os valores de torque ativo gerados por designs de espessura progressiva foram validados usando simulações assimétricas do FEBio (Capítulo 10) e variam de 9,31 a 18,34 μN·m, quebrando a condição de torque zero ($V\tau = 0$) característica das configurações simétricas.
+3. **Vτ foi validado computacionalmente.** Os valores de torque ativo gerados por designs de espessura progressiva foram validados usando simulações assimétricas do FEBio (Capítulo 12) e variam de 9,31 a 18,34 μN·m, quebrando a condição de torque zero (Vτ = 0) característica das configurações simétricas.
 
 4. **O protocolo de medição do ENM requer estudos de concordância interobservador.** A reprodutibilidade da determinação do ENM baseada na elevação posterior em diferentes instrumentos e operadores não foi formalmente avaliada.
 
@@ -235,7 +317,7 @@ O AVBC foi projetado como uma *linguagem para a tomada de decisão clínica*, e 
 
 ---
 
-## 9.9 Resumo
+## 9.10 Resumo
 
 A classificação integrada AVBC decompõe o planejamento do ICRS em três módulos sequenciais — Óptico (O), Topográfico (T) e Biomecânico (B) — cada um com critérios definidos e saídas categóricas. O Módulo O filtra o processo avaliando a coerência óptica; o Módulo T localiza a ectasia e identifica o ENM; o Módulo B mapeia a necessidade clínica para vetores biomecânicos específicos e, a partir daí, para os parâmetros do anel.
 
@@ -251,9 +333,11 @@ O arcabouço AVBC agrega valor clínico principalmente nos cerca de 40% dos caso
 2. Alpins NA. Astigmatism analysis by the Alpins method. *J Cataract Refract Surg*. 2001;27(1):31–49.
 3. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
 4. Ferrara P, Torquetti L. Clinical nomograms for Intacs and Ferrara ring segments. In: *Keratoconus and Keratoectasia*. Springer; 2017.
-5. García de Oteyza G, et al. Finite element analysis of the biomechanical effects of progressive thickness ICRS. *J Cataract Refract Surg*. 2021;47(2):258–265.
+5. García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. *PLoS One*. 2021;16(1):e0245063.
 6. Kling S, Marcos S. Finite-element modeling of ICRS in a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
 7. Maeda N, Klyce SD, Smolek MK. Comparison of methods for detecting keratoconus. *Arch Ophthalmol*. 2002;120(5):601–607.
 8. Piñero DP, Alcón N. Corneal biomechanics: a review. *Clin Exp Optom*. 2015;98(2):107–116.
 9. Rabinowitz YS, Rasheed K. KISA% index: a quantitative videokeratography algorithm. *J Cataract Refract Surg*. 1999;25(10):1327–1335.
 10. Vega-Estrada A, Alió JL. Keratoconus progression after ICRS implantation. *Cornea*. 2013;32(5):611–616.
+11. Reis M, Sandes J. Análise Vetorial Biomecânica Corneana (AVBC): Vetores de Força Biomecânica Corneana para Implante de Segmentos de Anel Intraestromal. Presente volume; 2026.
+

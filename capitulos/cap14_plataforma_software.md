@@ -15,6 +15,9 @@ The platform is conceived not as a replacement for clinical judgment but as a **
 
 ## 14.2 System Architecture
 
+![Figure 14.1 - Arquitetura da plataforma de software AVBC: camadas de entrada, processamento e saída.](book_figures/fig_14_01_arquitetura_software.svg)
+
+
 ### 14.2.1 Input Layer
 
 The AVBC platform accepts standard clinical data from three sources:
@@ -57,6 +60,9 @@ The processing layer implements three modules:
 - Generates a ranked list of ring configurations (thickness × arc × depth × meridian × profile) sorted by expected biomechanical benefit.
 
 ### 14.2.3 Output Layer
+
+![Figure 14.2 - Conceito de dashboard clínico AVBC (modo escuro).](book_figures/fig_14_02_dashboard_mockup.svg)
+
 
 The output presents:
 

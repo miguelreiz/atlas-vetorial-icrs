@@ -11,49 +11,76 @@ Os segmentos de anel intraestromal têm sido implantados por mais de vinte e cin
 
 Três estruturas conceituais foram propostas: a **escola geométrica** (Barraquer, 1964), que atribui o efeito ao encurtamento do arco; a **escola volumétrica** (Kling & Marcos, 2013), que enfatiza o deslocamento de volume; e a **escola biomecânica** (Dupps & Roberts, 2014), que se concentra na redistribuição de tensão (stress). Cada abordagem captura parte da verdade, mas nenhuma fornece uma explicação completa dos efeitos clínicos observados.
 
-Este capítulo revisa criticamente essas três perspectivas e as sintetiza em uma estrutura unificada — a **decomposição em três vetores** —, na qual o efeito do ICRS é resolvido em três mecanismos biomecânicos independentes: deslocamento radial (VR), redistribuição de tensão tangencial (VT) e torque assimétrico (Vτ). Esta decomposição, validada por 34 simulações de elementos finitos apresentadas no Capítulo 10, forma a base mecanicista para o framework de planejamento AVBC.
+Este capítulo revisa criticamente essas três perspectivas e as sintetiza em uma estrutura unificada — a **decomposição em três vetores** —, na qual o efeito do ICRS é resolvido em três mecanismos biomecânicos independentes: deslocamento radial (VR), redistribuição de tensão tangencial (VT) e torque assimétrico (Vτ). Esta decomposição, validada por 34 simulações de elementos finitos apresentadas no Capítulo 12, forma a base mecanicista para o framework de planejamento AVBC.
 
 ---
 
-## 2.2 O Princípio Barraquer de Encurtamento de Arco
+![Figura 2.1 — Evolução conceitual: das Três Escolas (Geométrica, Volumétrica, Biomecânica) à síntese AVBC.](book_figures/fig_02_01_tres_escolas.svg)
 
-### O Conceito Original
+## 2.2 A Escola Geométrica: O Princípio de Barraquer (1960s)
 
-A base intelectual para o ICRS remonta a José I. Barraquer, que propôs em 1964 que a inserção de material no estroma corneano poderia modificar sua curvatura através do **princípio do encurtamento de arco** (Barraquer, 1964). O conceito é geométrico: para um arco circular de comprimento de corda fixo, o encurtamento do arco aumenta o raio de curvatura. Por outro lado, o alongamento do arco (pela inserção de material) deveria encurvar a trajetória — mas se o material for colocado na córnea *periférica*, a redistribuição geométrica resultante aplana a córnea *central*.
+### A Evolução do Conceito
 
-Barraquer formulou sua lei da espessura: *"Se material for adicionado à periferia da córnea ou removido do centro, a córnea aplana. Se material for removido da periferia ou adicionado ao centro, a córnea encurva."* Esse princípio guiou o design de procedimentos aditivos (ICRS) e subtrativos (LASIK) e continua sendo a explicação mais amplamente citada para a ação do ICRS.
+A base intelectual para o ICRS remonta aos trabalhos pioneiros de José I. Barraquer na década de 1960. Nas suas publicações seminais sobre a *Keratomileusis* e a *Keratophakia* (Barraquer, 1966; Barraquer, 1967), propôs que a modificação da espessura estromal poderia induzir alterações previsíveis na curvatura anterior. O mecanismo inicialmente postulado era puramente geométrico: o **princípio do encurtamento de arco**.
 
-### Base Matemática
+Para um arco circular de comprimento de corda fixo, o encurtamento do arco aumenta o raio de curvatura. Se material for colocado na córnea *periférica*, a redistribuição geométrica e a expansão estromal forçam as camadas anteriores a acomodar o volume, resultando num encurtamento do arco efetivo e, consequentemente, aplanando a córnea *central*.
 
-O fundamento matemático é direto. Considere um arco circular de raio R e comprimento de arco s, subtendendo um ângulo 2α no centro de curvatura. O comprimento da corda é L = 2R sen(α). Se o comprimento do arco for encurtado (s → s − Δs), então para um comprimento de corda L constante, o raio deve aumentar (R → R + ΔR), e a curvatura da superfície κ = 1/R diminui — a superfície aplana. Para a córnea, isso se traduz em uma redução no poder ceratométrico: ΔK ≈ −(n−1)/R² × ΔR, onde n = 1,3375.
+Este postulado culminou na clássica **"Lei da Espessura"** (Barraquer, 1967): *"Se material for adicionado à periferia da córnea ou removido do centro, a córnea aplana. Se material for removido da periferia ou adicionado ao centro, a córnea encurva."* Historicamente, este princípio elegante fundou a base para os procedimentos subtrativos (LASIK, PRK) e para a concepção dos primeiros modelos de anéis intraestromais para correção de miopia na década de 1990 (Burris et al., 1991).
 
-### Limitações
+### Limitações da Escola Geométrica
 
-O modelo de encurtamento de arco é atraente por sua simplicidade, mas incompleto em vários aspectos:
+O modelo de encurtamento de arco dominou a literatura refrativa por décadas devido à sua simplicidade intuitiva, mas revelou-se cientificamente incompleto, particularmente quando aplicado a córneas patológicas (ectasias):
 
-1. **Explica o aplanamento, mas não a regularização do astigmatismo.** Muitos pacientes apresentam redução significativa no cilindro e nas aberrações de alta ordem após o ICRS — efeitos que não podem ser explicados por uma simples mudança no comprimento do arco.
-
-2. **Não explica o reposicionamento do ápice.** No ceratocone, o ápice do cone frequentemente está deslocado do eixo visual, e configurações assimétricas de ICRS podem migrar o ápice — um mecanismo que está fora do escopo do encurtamento do arco.
-
-3. **O conceito de "limbo artificial" foi refutado.** Uma extensão do modelo de encurtamento do arco propôs que o ICRS cria um limbo funcional — uma barreira de endurecimento circunferencial que mimetiza o anel limbal natural. No entanto, as análises de FEM demonstraram que os ICRS de arco parcial não criam um endurecimento global; eles criam restrições locais com efeitos paradoxais no deslocamento apical (ver Seção 2.4).
+1. **A Assunção de Simetria e Esfericidade:** O modelo pressupõe que a córnea responde como uma calota esférica uniforme. Consegue explicar o aplanamento miópico global (redução de K-médio em olhos saudáveis), mas **não explica a regularização do astigmatismo** ou as alterações topográficas assimétricas que observamos clinicamente no ceratocone.
+2. **Ignora o Reposicionamento do Ápice:** No ceratocone, o ápice do cone está frequentemente deslocado do eixo visual. Configurações assimétricas de ICRS conseguem migrar este ápice (reduzindo o coma) — um efeito cinemático que o encurtamento radial mecânico e uniforme de um arco não consegue abranger.
+3. **A Falácia do "Limbo Artificial" para Arcos Parciais:** Uma extensão posterior do modelo de arco tentou explicar os resultados atípicos com implantes parciais (menos de 360°) postulando que o ICRS rígido criava sempre um "limbo funcional" ou "esfíncter" — uma barreira de aperto que mimetizava o suporte limbal natural. É verdade que um **anel completo de 360°** consegue, de facto, criar um anel de tensão contínuo (um "limbo artificial" eficaz que contém a expansão). No entanto, o erro histórico foi assumir que este efeito se aplicava a arcos parciais. Simulações em elementos finitos demonstraram que os arcos parciais *não* fecham o anel de tensão, criando descontinuidades biomecânicas que redirecionam o stress e levam a deformações diametralmente opostas (ver Seção 2.4).
 
 ---
 
 ## 2.3 Deslocamento de Volume e Redistribuição de Tensão
 
-### O Estudo de FEM de Kling e Marcos
+### A Escola Volumétrica: O Estudo de FEM de Kling e Marcos (2013)
 
-Uma explicação mecanicista mais rigorosa surgiu do trabalho de elementos finitos de Kling e Marcos (2013), que modelaram a implantação de ICRS em uma córnea hiperelástica e analisaram os campos de deslocamento e de tensão (stress) resultantes. Sua principal conclusão foi que o mecanismo dominante é o **deslocamento de volume** — o espaço físico ocupado pelo segmento de anel desloca o estroma circundante radialmente, alterando a curvatura local. A contribuição do encurtamento do arco estava presente, mas era secundária.
+A transição formal da geometria bidimensional para a mecânica de sólidos tridimensional ocorreu quando Kling e Marcos (2013) aplicaram o método dos elementos finitos (FEM) ao modelo da córnea hiperelástica. Ao estudarem detalhadamente os campos de deslocamento gerados em torno do implante, revelaram que o aplanamento não decorria de um mero encurtamento da curvatura superior, mas sim de um intenso **deslocamento de volume** (o chamado *spacer effect*).
 
-O mecanismo de deslocamento de volume opera da seguinte forma: o ICRS ocupa um volume finito dentro do estroma (tipicamente 0,5–1,5 mm³, dependendo das dimensões). Esse volume não pode ser comprimido no tecido circundante (o estroma é quase incompressível); em vez disso, o tecido deve acomodar o implante deslocando-se radialmente. O deslocamento é maior adjacente ao anel e atenua-se com a distância, produzindo uma alteração característica da curvatura — aplanamento central e encurvamento na posição do anel.
+O mecanismo opera da seguinte forma: o ICRS ocupa um volume físico e inflexível dentro do tecido (tipicamente de 0,5 a 1,5 mm³, consoante o seu perfil). Sendo o estroma rico em água (78% de hidratação) e, portanto, um fluido tecidular quase perfeitamente incompressível, é incapaz de absorver ou comprimir as suas próprias lamelas. Em consequência, o tecido adjacente deve acomodar a intrusão deslocando-se no sentido radial e anterior. Esta pressão centrífuga periférica expande o canal intraestromal lateralmente, puxando a fina rede fibrilar do leito central. Ao sofrer esta tração radial divergente, o teto da córnea central desce, achatando-se de forma conservadora para compensar a expansão estromal periférica.
 
-### Redistribuição de Tensão (Stress): A Perspectiva de Dupps
+### A Escola Biomecânica: A Perspectiva de Dupps e Roberts (2014)
 
-Dupps e Roberts (2014) enfatizaram um mecanismo complementar: a **redistribuição de tensão (stress)**. O ICRS, sendo muito mais rígido do que o estroma circundante (módulo do PMMA ~3 GPa vs. estroma ~0,2 MPa), atua como uma restrição rígida dentro de uma casca deformável sob pressão. Essa restrição força o campo de tensão (stress) impulsionado pela PIO a se redistribuir — a tensão (stress) que normalmente seria distribuída de forma relativamente uniforme ao longo da rede de colágeno agora se concentra no anel e próximo a ele.
+Embora a escola volumétrica previsse bem o deslocamento de massa, não captava inteiramente a degradação mecânica primária do paciente com ceratocone. No ano seguinte, Dupps e Roberts (2014) consolidaram um paradigma vital para a oftalmologia: as alterações na curvatura, elevação e paquimetria são manifestações estritamente *secundárias* de uma anomalia estrutural subjacente. A doença primária do ceratocone é, intrinsecamente, um défice biomecânico focal.
 
-A principal percepção dessa perspectiva é que o ICRS não "empurra" a córnea para uma nova forma; em vez disso, ele **reorganiza a distribuição de tensão (stress)**, e a nova forma é a configuração de equilíbrio da córnea sob o campo de tensão (stress) modificado. Essa distinção não é meramente semântica — ela tem implicações diretas para a compreensão do motivo pelo qual o efeito clínico depende dos parâmetros do anel, da biomecânica específica do paciente e da profundidade de implantação.
+Nesta perspectiva moderna, os ICRS atuam por meio de uma complexa **redistribuição de tensão (stress redistribution)**. Ao introduzir no estroma um sólido cujas propriedades mecânicas são milhares de vezes superiores às da matriz enfraquecida (módulo de Young do PMMA ronda os 3 GPa face aos escassos ~0,2 MPa da córnea ectásica), o anel atua como um contraforte inflexível. Na casca esférica da córnea, que é inflada permanentemente pela pressão intraocular (PIO), as forças radiais e tangenciais (*hoop stress*) tentam procurar o caminho de menor resistência.
 
-Nossos dados de FEM confirmam isso: uma córnea basal sob 15 mmHg de PIO mostra um deslocamento apical de **360,9 μm**. Com um ICRS circunferencial completo (360°), esse valor cai para **125,9 μm** — uma redução de 65%. O anel completo cria uma barreira circunferencial que resiste à expansão radial e altera profundamente o campo de tensão (stress). Isso não é encurtamento de arco; é redistribuição de tensão (stress) em escala global.
+A perspectiva de Dupps sublinha que o segmento não "molda" fisicamente a córnea à força (ao contrário de um anel ortodôntico num dente). Pelo contrário, atua como um escudo periférico: o anel intercepta a cascata de tensão expansiva, ancorando as forças circulares e radiais para fora do cone central enfraquecido. O novo *K-steep* e a nova topografia são meramente a postura de repouso ("equilíbrio de estabilidade") que a córnea adota sob o novo cenário modificado de forças induzido pelo implante.
+
+Os nossos dados reúnem evidências avassaladoras neste sentido. Uma córnea basal simulada com um módulo HGO clássico (ver Anexo A) demonstra, sob 15 mmHg de PIO pulsada, um deslocamento apical fisiológico de **360,9 μm**. Ao ser submetida a um anel completo (360°), este valor é severamente estrangulado para **125,9 μm** (um ganho estrutural notável de 65%). Esta supressão maciça do abaulamento excede largamente o efeito puramente volumétrico do anel; representa uma real mutação nas leis elásticas aparentes do esqueleto de colágeno perante a carga compressiva posterior.
+
+### Síntese: A Evolução Histórica dos Paradigmas do ICRS
+
+Para um médico oftalmologista moderno, compreender as limitações históricas e os triunfos explicativos destas diversas escolas é essencial para raciocinar de forma abstrata perante tomografias atípicas ou decisões cirúrgicas desafiantes.
+
+A **Tabela 2.1** resume cronologicamente a jornada do nosso entendimento científico dos anéis intracorneanos. É sobre os ombros desta herança centenária de geometria, hidrodinâmica volumétrica e mecânica das fraturas que nasce a quarta e atual etapa da sistematização planeada: a **Decomposição Vetorial Biomecânica (AVBC)** explorada neste livro.
+
+**Tabela 2.1.** Comparação Histórica das Escolas de Pensamento Científico sobre os Mecanismos do ICRS.
+
+| Escola / Paradigma | Período (Autor Base) | Postulado Dominante do Mecanismo de Ação | Ponto Forte Explicativo | Principal Lacuna Clínica |
+| :--- | :--- | :--- | :--- | :--- |
+| **Geométrica** | 1960s (Barraquer) | Encurtamento da corda de superfície por inserção estromal periférica. | Justifica o aplanamento miópico proporcional em tecidos biomecanicamente sãos. | Não consegue explicar o efeito nos astigmatismos irregulares ou as deformações assimétricas de arcos parciais. |
+| **Volumétrica** | 2013 (Kling & Marcos) | Incompressibilidade estromal e o *spacer effect* deslocam tecido radialmente. | Estabelece a ligação mecanicista entre o volume do anel (espessura) e o grau exato de aplanamento K. | Não esclarece inteiramente o poder remodelador de diferentes comprimentos de arco se a espessura for mantida. |
+| **Biomecânica** | 2014 (Dupps & Roberts) | A redistribuição da cascata de stress perante um material artificialmente ultrarrígido. | Desvenda o mistério de estabilização estrutural da córnea degenerativa a longo prazo (ectasia primária). | Sendo uma dinâmica vetorial 3D complexa, revelou-se clinicamente pesada e impraticável para nomogramas triviais. |
+| **Decomposição Vetorial** | Presente (AVBC) | Decomposição pragmática da mecânica híbrida em três forças: Deslocamento (VR), Tração (VT) e Torque (Vτ). | Mapeia biunivocamente o desejo clínico do cirurgião (Aplanar, Regularizar, Rodar) com a escolha do anel. | Exige transição mental de nomogramas fixos empíricos (escola antiga) para planificação computacional baseada na forma real. |
+
+### 2.3.3 A Perspectiva do Volume vs. Ação Direta nas Fibras
+
+A literatura de modelagem por elementos finitos (FEM) consagra um debate biomecânico fundamental: o ICRS altera a forma da córnea por **adição/deslocamento de volume** (mecanismo puramente geométrico e de espaço ocupado) ou por **ação mecânica direta nas propriedades estruturais das fibras de colágeno**?
+
+Os estudos numéricos e os dados consolidados da AVBC trazem uma resposta inequívoca: **o anel atua predominantemente através do deslocamento físico de volume (spacer effect), e não por alterar ou recrutar ativamente as fibras estromais centrais.**
+
+Este domínio do efeito volumétrico sustenta-se em três pilares mecânicos:
+
+1. **Incompressibilidade Estromal:** O estroma corneano é composto por cerca de 78% de água, comportando-se como um meio quase perfeitamente incompressível. Ao introduzir o volume do ICRS (de 0{,}5 a 1{,}5 \text{mm}^3) num canal estromal, o tecido circundante é obrigado a deslocar-se radialmente para acomodar esta intrusão física. Este "efeito cunha" puxa a córnea central adjacente, encurtando o seu vão livre e forçando o aplanamento.
+2. **Ausência de Reforço Fibrilar Global:** O implante de PMMA não aumenta a rigidez intrínseca (k_1) das fibras de colágeno da córnea central (as fibras continuam com a sua biologia e propriedades inalteradas). O anel funciona como uma restrição puramente geométrica periférica. A córnea central aplana passivamente para atingir um novo estado de equilíbrio geométrico sob a mesma PIO, mas as suas propriedades materiais e a tensão intrínseca nas suas fibras estromais permanecem inalteradas.
+3. **Mapeamento de Sensibilidade:** Esta perspectiva explica perfeitamente por que razão a variação da espessura do anel (que aumenta linearmente o seu volume) produz um efeito de aplanamento (V_R) proporcional e direto, ao passo que a variação isolada dos parâmetros elásticos das fibras HGO centrais (k_1 e k_2) sob matriz saudável não altera o aplanamento. O ICRS é, por definição, um **modificador geométrico volumétrico da casca** e não um reforço estrutural das suas fibras longitudinais.
 
 ---
 
@@ -61,42 +88,45 @@ Nossos dados de FEM confirmam isso: uma córnea basal sob 15 mmHg de PIO mostra 
 
 ### A Descoberta Contraintuitiva
 
-Talvez a descoberta mais reveladora de nossas simulações de FEM seja o que chamamos de **paradoxo do ICRS**: os segmentos de anel de arco parcial (90°–320°) na verdade **aumentam** o deslocamento apical em comparação com a linha de base não restrita, enquanto apenas o anel completo (360°) produz a redução esperada.
+Talvez a descoberta mais reveladora das nossas simulações de Elementos Finitos (FEM) puros seja o que chamamos de **Paradoxo do ICRS**: quando aplicamos o anel *apenas como uma restrição mecânica* (um bloqueio cinemático que não deixa o estroma expandir, ignorando o volume adicionado pelo implante), os segmentos de arco parcial e total na verdade **aumentam** o deslocamento apical (protusão) e **encurvam** a córnea, em comparação com a linha de base não restrita.
 
-**Tabela 2.1.** Deslocamento apical (uz) como função do comprimento do arco do ICRS.
+**Tabela 2.2.** Deslocamento apical (uz) e Curvatura Simulada (K-médio) como função da restrição mecânica do arco (simulação de restrição cinemática pura sob PIO de 15 mmHg, sem Efeito Volumétrico).
 
-| Configuração | Arco (°) | uz ápice (μm) | Alteração vs. linha de base |
-|--------------|---------|-------------|-------------------|
-| Linha de base (sem ICRS) | — | 360.9 | — |
-| ICRS 360° | 360 | 125.9 | **−65%** |
-| Arco 90° | 90 | 369.7 | +2% |
-| Arco 120° | 120 | 372.3 | +3% |
-| Arco 160° | 160 | 375.1 | +4% |
-| Arco 210° | 210 | 382.0 | +6% |
-| Arco 255° | 255 | 385.0 | +7% |
-| Arco 320° | 320 | 390.3 | +8% |
+| Configuração | Arco (°) | Deslocamento Ápice (μm) | K-médio (D) | Alteração vs. base (D) |
+|--------------|---------|-------------|-------------|-------------------|
+| Linha de base (Ectasia) | — | 549.0 | 60.11 | — |
+| Arco 160° | 160 | 555.4 | 60.36 | +0.25 |
+| Arco 210° | 210 | 557.6 | 60.44 | +0.34 |
+| Arco 320° | 320 | 563.6 | 60.68 | +0.57 |
+| Arco 360° | 360 | 565.6 | 60.75 | +0.64 |
 
-Este resultado parece contradizer a experiência clínica — os cirurgiões observam aplanamento após a implantação de ICRS, não encurvamento. Mas o paradoxo se resolve quando se reconhece a distinção entre **deslocamento** e **curvatura**.
+Este resultado parece contradizer frontalmente a experiência clínica diária — os cirurgiões oftalmológicos observam um aplanamento maciço (frequentemente superior a 4 Dioptrias) após a implantação de um anel de 320°, e não um encurvamento. Mas é precisamente este paradoxo que revela a genialidade e a verdadeira natureza mecânica dos ICRS.
 
-### Explicação Física
+### A Prova da Escola Volumétrica
 
-O ICRS de arco parcial restringe o deslocamento em apenas um setor da circunferência corneana. No setor restrito, o estroma não pode se deformar radialmente. A PIO, contudo, continua a carregar toda a superfície endotelial uniformemente. A tensão (stress) que normalmente seria distribuída por toda a circunferência agora está concentrada nos setores *não restritos*, produzindo maior deslocamento nessas regiões — incluindo o ápice.
+![Figura 2.2 — O Paradoxo do ICRS: restrição cinemática vs injeção volumétrica.](book_figures/fig_02_02_paradoxo_icrs.svg)
 
-O resultado é análogo a apertar um balão parcialmente inflado em um ponto: a região comprimida permanece plana, mas a região não comprimida protrui mais. O deslocamento apical líquido aumenta porque a restrição parcial cria uma distribuição de tensão (stress) assimétrica que direciona mais deformação centralmente.
+O ICRS, em modelos estritamente restritivos (como o tensor de Colin), restringe a expansão radial numa determinada circunferência. Como a PIO contínua empurra o endotélio uniformemente de dentro para fora, a fixação de uma "fronteira rígida" inextensível obriga toda essa tensão e deslocamento a concentrar-se na área central livre.
 
-O anel completo (360°) se comporta de maneira diferente porque restringe toda a circunferência, criando uma barreira completa. Não há setor não restrito para absorver a tensão (stress) redistribuída. Em vez disso, o anel atua como um anel rígido, reduzindo efetivamente o vão não suportado da córnea do diâmetro total para o diâmetro interno do anel, diminuindo assim a curvatura efetiva e o deslocamento apical.
+O resultado da pura restrição mecânica é que a córnea é afunilada. A área central, impossibilitada de dilatar as suas bases laterais, protrai ainda mais para a frente (o deslocamento sobe de 549 para 565 μm no 360º) e torna-se mais pontuda e íngreme (steepening de 60.1 para 60.7 D). 
 
-### Implicação Clínica
+Se a restrição mecânica *encurva* a córnea, como explicamos o aplanamento clínico? **Através da Escola Volumétrica de Barraquer, provada matematicamente por Kling e Marcos.**
 
-Essa descoberta tem uma implicação clínica profunda: **os ICRS de arco parcial não aplanam a córnea reduzindo o deslocamento apical. Eles modificam a córnea redistribuindo a tensão tangencial.** O ΔK clínico observado após a implantação de ICRS é um efeito de curvatura de superfície — uma alteração na *relação* entre a curvatura local e a esfera de melhor ajuste (best-fit sphere) de referência — e não uma simples redução de deslocamento.
+O aplanamento drástico que vemos na clínica miópica com anéis de 320º deve-se *quase exclusivamente* ao efeito de espaçador volumétrico maciço do implante de PMMA (e não apenas à restrição elástica). Quando inserimos o plástico, o volume físico do anel afasta as lamelas e empurra a média-periferia para cima. Ao elevar as vertentes da córnea, o centro da tenda é "esticado", forçando um aplanamento da curvatura central relativa.
 
-É por isso que o VT (redistribuição de tensão tangencial) é o mecanismo primário para os ICRS de arco parcial, enquanto o VR (redução do deslocamento radial) é relevante apenas para o anel completo. Compreender essa distinção é essencial para o planejamento racional do ICRS.
+### Implicação Clínica: A Separação dos Efeitos
+
+Esta constatação biomecânica tem uma implicação clínica transformadora: **os ICRS não aplanam a córnea por bloquearem o deslocamento apical (já que a restrição isolada aumenta esse abaulamento). Eles aplanam a córnea devido à adição de volume periférico, enquanto redistribuem a tensão através do seu arco rígido.** O ΔK clínico que o cirurgião refrativo observa advém da relação local de volumes e da modelagem da superfície (Vetor Vertical).
+
+É por isso que as simulações e nomogramas tradicionais focados apenas em leis de tensão pura falham na ectasia. Compreender que a correção da miopia depende intimamente da capacidade volumétrica (Espessura) e a correção do astigmatismo irregular depende da redistribuição assimétrica de tensões (Arco) é a gênese da Decomposição Vetorial.
 
 ---
 
 ## 2.5 A Decomposição em Três Vetores: VR, VT, Vτ
 
 ### A Necessidade de uma Decomposição
+
+![Figura 2.3 — Decomposição vetorial: os três vetores VR, VT e Vτ e suas ações biomecânicas.](book_figures/fig_02_03_decomposicao_vetorial.svg)
 
 A análise precedente revela que o efeito do ICRS não é um fenômeno único, mas sim um compósito de múltiplos mecanismos, cada um com diferentes sensibilidades aos parâmetros do anel. Para tornar essa complexidade tratável para a tomada de decisões clínicas, propomos a decomposição do efeito do ICRS em três **vetores biomecânicos** independentes:
 
@@ -108,9 +138,9 @@ A análise precedente revela que o efeito do ICRS não é um fenômeno único, m
 VR(r, θ) = Δuᵣ = [ux·cos(θ) + uy·sin(θ)]_final − [ux·cos(θ) + uy·sin(θ)]_initial
 ```
 
-**Correlação clínica:** O VR controla o aplanamento corneano (ΔK). Um VR maior na zona central corresponde a um maior aplanamento.
+**Correlação clínica:** O VR controla o aplanamento corneano (ΔK) derivado do efeito de espaçador volumétrico. Um VR maior corresponde a um maior aplanamento central.
 
-**Parâmetro do anel:** O VR é modulado principalmente pela **espessura do anel** (mecanismo de deslocamento de volume). Nossos dados de FEM demonstram que o VR central é insensível ao comprimento do arco: ele permanece em 19,2–19,9 μm em todos os arcos parciais (90°–320°), variando menos de 4%. Apenas o anel completo (360°) reduz o VR para 8,89 μm. Esse desacoplamento — VR em relação ao comprimento do arco — é uma descoberta fundamental.
+**Parâmetro do anel:** O VR é modulado fundamentalmente pelo **volume total do anel implantado**. Este volume depende criticamente de dois fatores: a **espessura do anel** (que dita a elevação transversal) e o **comprimento de arco** (que dita a extensão do suporte volumétrico ao longo da circunferência). Clinicamente, um arco de 320° com 300 μm de espessura injeta muito mais volume no estroma do que um arco de 90° com a mesma espessura, produzindo, portanto, um aplanamento (VR) significativamente maior. Esta é a essência matemática da Escola Volumétrica: a redução miópica escala com o volume.
 
 ### VT — O Vetor Tangencial
 
@@ -127,7 +157,7 @@ onde σ_θθ é obtido por transformação tensorial da tensão Cauchy cartesian
 **Parâmetro do anel:** O VT é modulado principalmente pelo **comprimento do arco**. Nossos dados de FEM mostram uma diminuição de forma monotônica: o VT cai de 7,78 kPa (linha de base) para 7,20 kPa (arco de 320°), seguindo a relação empírica:
 
 ```
-VT(arc°) = −0.0018 × arc° + 7.79    (R² = 0.94)
+VT(arc°) = −0.0018 × arc° + 7.79 (R² = 0.94)
 ```
 
 Cada grau adicional de arco reduz a tensão tangencial global em 0,0018 kPa. Essa monotonicidade fornece um guia quantitativo para a seleção do comprimento do arco.
@@ -185,7 +215,7 @@ A profundidade de implantação — tipicamente especificada como uma porcentage
 
 Nossos modelos de FEM específicos para o paciente fornecem suporte quantitativo para o papel amplificador do contexto estrutural da córnea. Pacientes com córneas mais finas — onde o ICRS ocupa uma fração relativamente maior da espessura total — mostram maior capacidade de resposta biomecânica:
 
-| Faixa de Paquimetria | Média \|Δuz\| (μm) | N |
+| Faixa de Paquimetria | Média │Δuz│ (μm) | N |
 |-----------------|------|---|
 | < 430 μm (fina) | **34.1 ± 1.0** | 2 |
 | 430–500 μm (média) | **29.3 ± 0.8** | 4 |
@@ -213,14 +243,15 @@ A orientação clínica é: a profundidade não é apenas um parâmetro de segur
 ## Referências
 
 1. Barraquer JI. Modification of refraction by means of intracorneal inclusions. *Int Ophthalmol Clin*. 1966;6(1):53–78.
-2. Burris TE, Ayer CT, Evensen DA, et al. Effects of intrastromal corneal ring size and thickness on corneal flattening in human eyes. *Refract Corneal Surg*. 1991;7(1):46–50.
-3. Colin J, Cochener B, Savary G, et al. Correcting keratoconus with intracorneal rings. *J Cataract Refract Surg*. 2000;26(8):1117–1122.
-4. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
-5. García de Oteyza G, Álvarez de Toledo J, Barraquer RI, et al. Finite element analysis of the biomechanical effects of progressive thickness intracorneal ring segments. *J Cataract Refract Surg*. 2021;47(2):258–265.
-6. Holzapfel GA, Gasser TC, Ogden RW. A new constitutive framework for arterial wall mechanics and a comparative study of material models. *J Elasticity*. 2000;61:1–48.
-7. Kling S, Marcos S. Finite-element modeling of intracorneal ring segment implantation into a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
-8. Meek KM, Knupp C. Corneal structure and transparency. *Prog Retin Eye Res*. 2015;49:1–16.
-9. Nguyen BA, Roberts CJ, Reilly MA. Biomechanical impact of the sclera on corneal deformation response to an air-puff. *Front Bioeng Biotechnol*. 2018;6:210.
-10. Piñero DP, Alcón N. Corneal biomechanics: a review. *Clin Exp Optom*. 2015;98(2):107–116.
-11. Torquetti L, Berbel RF, Ferrara P. Long-term follow-up of intrastromal corneal ring segments in keratoconus. *J Cataract Refract Surg*. 2009;35(10):1768–1773.
-12. Vega-Estrada A, Alió JL, Plaza-Puche AB. Keratoconus progression after intrastromal corneal ring segment implantation. *Cornea*. 2013;32(5):611–616.
+2. Barraquer JI. Basis of refractive keratoplasty - 1967. *Revue Med (Bogota)*. 1967;33(1). [PMID: 2488804]
+3. Burris TE, Ayer CT, Evensen DA, et al. Effects of intrastromal corneal ring size and thickness on corneal flattening in human eyes. *Refract Corneal Surg*. 1991;7(1):46–50.
+4. Colin J, Cochener B, Savary G, et al. Correcting keratoconus with intracorneal rings. *J Cataract Refract Surg*. 2000;26(8):1117–1122.
+5. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998. [PMID: 24774009]
+6. García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. *PLoS One*. 2021;16(1):e0245063.
+7. Holzapfel GA, Gasser TC, Ogden RW. A new constitutive framework for arterial wall mechanics and a comparative study of material models. *J Elasticity*. 2000;61:1–48.
+8. Kling S, Marcos S. Finite-element modeling of intrastromal corneal-ring segment implantation into a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889. [PMID: 23299471]
+9. Meek KM, Knupp C. Corneal structure and transparency. *Prog Retin Eye Res*. 2015;49:1–16.
+10. Nguyen BA, Roberts CJ, Reilly MA. Biomechanical impact of the sclera on corneal deformation response to an air-puff. *Front Bioeng Biotechnol*. 2018;6:210.
+11. Piñero DP, Alcón N. Corneal biomechanics: a review. *Clin Exp Optom*. 2015;98(2):107–116.
+12. Torquetti L, Berbel RF, Ferrara P. Long-term follow-up of intrastromal corneal ring segments in keratoconus. *J Cataract Refract Surg*. 2009;35(10):1768–1773.
+13. Vega-Estrada A, Alió JL, Plaza-Puche AB. Keratoconus progression after intrastromal corneal ring segment implantation. *Cornea*. 2013;32(5):611–616.

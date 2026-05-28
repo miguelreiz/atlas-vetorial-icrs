@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 680" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="ds" x="-3%" y="-3%" width="106%" height="106%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2.5" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="gO" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#0288D1"/>
+    </linearGradient>
+    <linearGradient id="gT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81C784"/><stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="gB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFB74D"/><stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0,8 3,0 6" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect width="780" height="680" fill="white" rx="8"/>
+
+  <!-- Title -->
+  <text x="390" y="35" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">O Paradigma Trimodal AVBC: O → T → B</text>
+  <text x="390" y="55" text-anchor="middle" font-size="11" fill="#888">Avaliação sequencial em três módulos para planejamento de ICRS</text>
+
+  <!-- ════ MODULE O ════ -->
+  <rect x="40" y="75" width="700" height="155" rx="10" fill="#E3F2FD" stroke="#0288D1" stroke-width="1.5" filter="url(#ds)"/>
+  <rect x="40" y="75" width="700" height="36" rx="10" fill="url(#gO)"/>
+  <rect x="40" y="100" width="700" height="11" fill="url(#gO)"/>
+  <text x="390" y="99" text-anchor="middle" font-size="15" font-weight="bold" fill="white">MÓDULO O — Avaliação de Coerência Óptica</text>
+  <text x="60" y="133" font-size="11" font-weight="bold" fill="#0277BD">Pergunta:</text>
+  <text x="125" y="133" font-size="11" fill="#333">"O paciente enxergará melhor com ICRS?"</text>
+
+  <!-- O criteria -->
+  <text x="60" y="158" font-size="10" fill="#555">Entradas: ICE_min · RMS Coma · Δ Eixo · HOA Total · Coma vs Ápice</text>
+
+  <!-- O outputs -->
+  <rect x="80" y="175" width="120" height="35" rx="6" fill="#4CAF50" filter="url(#ds)"/>
+  <text x="140" y="197" text-anchor="middle" font-size="12" font-weight="bold" fill="white">O+  Favorável</text>
+
+  <rect x="280" y="175" width="160" height="35" rx="6" fill="#FFC107" filter="url(#ds)"/>
+  <text x="360" y="197" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">O~  Intermediário</text>
+
+  <rect x="520" y="175" width="160" height="35" rx="6" fill="#EF5350" filter="url(#ds)"/>
+  <text x="600" y="197" text-anchor="middle" font-size="12" font-weight="bold" fill="white">O−  Desfavorável</text>
+
+  <!-- Arrow O → T -->
+  <line x1="390" y1="230" x2="390" y2="260" stroke="#555" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ════ MODULE T ════ -->
+  <rect x="40" y="265" width="700" height="155" rx="10" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5" filter="url(#ds)"/>
+  <rect x="40" y="265" width="700" height="36" rx="10" fill="url(#gT)"/>
+  <rect x="40" y="290" width="700" height="11" fill="url(#gT)"/>
+  <text x="390" y="289" text-anchor="middle" font-size="15" font-weight="bold" fill="white">MÓDULO T — Morfologia Topográfica + ENM</text>
+  <text x="60" y="323" font-size="11" font-weight="bold" fill="#1B5E20">Pergunta:</text>
+  <text x="125" y="323" font-size="11" fill="#333">"Onde está a ectasia e qual o eixo mecânico real?"</text>
+
+  <!-- T outputs: 5 archetypes -->
+  <rect x="55" y="345" width="110" height="52" rx="6" fill="white" stroke="#66BB6A" stroke-width="1.5"/>
+  <text x="110" y="365" text-anchor="middle" font-size="9" font-weight="bold" fill="#2E7D32">Oval Central</text>
+  <text x="110" y="380" text-anchor="middle" font-size="8" fill="#777">Simétrico</text>
+
+  <rect x="180" y="345" width="110" height="52" rx="6" fill="white" stroke="#66BB6A" stroke-width="1.5"/>
+  <text x="235" y="365" text-anchor="middle" font-size="9" font-weight="bold" fill="#2E7D32">Mamilo Inferior</text>
+  <text x="235" y="380" text-anchor="middle" font-size="8" fill="#777">Coma dominante</text>
+
+  <rect x="305" y="345" width="110" height="52" rx="6" fill="white" stroke="#66BB6A" stroke-width="1.5"/>
+  <text x="360" y="365" text-anchor="middle" font-size="9" font-weight="bold" fill="#2E7D32">Crescente</text>
+  <text x="360" y="380" text-anchor="middle" font-size="8" fill="#777">Astigmatismo</text>
+
+  <rect x="430" y="345" width="110" height="52" rx="6" fill="white" stroke="#66BB6A" stroke-width="1.5"/>
+  <text x="485" y="365" text-anchor="middle" font-size="9" font-weight="bold" fill="#2E7D32">Formato D</text>
+  <text x="485" y="380" text-anchor="middle" font-size="8" fill="#777">Periférico</text>
+
+  <rect x="555" y="345" width="110" height="52" rx="6" fill="#FFEBEE" stroke="#EF5350" stroke-width="1.5"/>
+  <text x="610" y="365" text-anchor="middle" font-size="9" font-weight="bold" fill="#C62828">Globo (>60 D)</text>
+  <text x="610" y="380" text-anchor="middle" font-size="8" fill="#C62828">Estabilização</text>
+
+  <!-- ENM label -->
+  <text x="680" y="330" font-size="9" fill="#1B5E20" font-weight="bold">+ ENM (°)</text>
+
+  <!-- Arrow T → B -->
+  <line x1="390" y1="420" x2="390" y2="450" stroke="#555" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ════ MODULE B ════ -->
+  <rect x="40" y="455" width="700" height="150" rx="10" fill="#FFF3E0" stroke="#E65100" stroke-width="1.5" filter="url(#ds)"/>
+  <rect x="40" y="455" width="700" height="36" rx="10" fill="url(#gB)"/>
+  <rect x="40" y="480" width="700" height="11" fill="url(#gB)"/>
+  <text x="390" y="479" text-anchor="middle" font-size="15" font-weight="bold" fill="white">MÓDULO B — Seleção Biomecânica (3 Vetores)</text>
+  <text x="60" y="513" font-size="11" font-weight="bold" fill="#BF360C">Pergunta:</text>
+  <text x="125" y="513" font-size="11" fill="#333">"Como o cirurgião deve agir mecanicamente?"</text>
+
+  <!-- B: 3 vectors -->
+  <rect x="70" y="530" width="185" height="55" rx="8" fill="#2171B5" filter="url(#ds)"/>
+  <text x="162" y="552" text-anchor="middle" font-size="13" font-weight="bold" fill="white">VR — Aplanamento</text>
+  <text x="162" y="572" text-anchor="middle" font-size="10" fill="#B3D9F2">↑ Espessura do anel</text>
+
+  <rect x="290" y="530" width="195" height="55" rx="8" fill="#31A354" filter="url(#ds)"/>
+  <text x="387" y="552" text-anchor="middle" font-size="13" font-weight="bold" fill="white">VT — Regularização</text>
+  <text x="387" y="572" text-anchor="middle" font-size="10" fill="#B2DFBC">↑ Comprimento de arco</text>
+
+  <rect x="520" y="530" width="195" height="55" rx="8" fill="#E6550D" filter="url(#ds)"/>
+  <text x="617" y="552" text-anchor="middle" font-size="13" font-weight="bold" fill="white">Vτ — Reposicionamento</text>
+  <text x="617" y="572" text-anchor="middle" font-size="10" fill="#FFD9B3">↑ Assimetria (Δt)</text>
+
+  <!-- ════ OUTPUT ════ -->
+  <line x1="390" y1="605" x2="390" y2="625" stroke="#555" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="170" y="628" width="440" height="38" rx="8" fill="#263238" filter="url(#ds)"/>
+  <text x="390" y="652" text-anchor="middle" font-size="13" font-weight="bold" fill="white">PRESCRIÇÃO: Espessura · Arco · Profundidade · Meridiano · Perfil</text>
+
+  <!-- Footer -->
+  <text x="390" y="677" text-anchor="middle" font-size="8" fill="#CCC">Figura 4.1 — O Paradigma Trimodal AVBC · Dr. Miguel Reis · Dra. Jordana Sandes</text>
+</svg>

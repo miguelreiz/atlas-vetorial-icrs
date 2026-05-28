@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="ds" x="-3%" y="-3%" width="106%" height="106%"><feDropShadow dx="1" dy="1.5" stdDeviation="2" flood-opacity="0.12"/></filter>
+    <linearGradient id="stroma" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B3D9F2"/><stop offset="100%" stop-color="#E8F4FD"/>
+    </linearGradient>
+    <marker id="au" markerWidth="8" markerHeight="6" refX="4" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#2171B5"/></marker>
+    <marker id="ad" markerWidth="8" markerHeight="6" refX="4" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#E6550D"/></marker>
+  </defs>
+
+  <rect width="780" height="420" fill="white" rx="8"/>
+  <text x="390" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Vetor VR: O Efeito de Tenda (Spacer Effect)</text>
+  <text x="390" y="46" text-anchor="middle" font-size="10" fill="#888">Mecanismo de aplanamento por injeção volumétrica</text>
+
+  <!-- ═══ CROSS-SECTION VIEW ═══ -->
+  <!-- Posterior surface (endothelium) -->
+  <path d="M 80 340 Q 390 370 700 340" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="710" y="345" font-size="8" fill="#999">Endotélio</text>
+
+  <!-- Anterior surface (epithelium) - curved dome -->
+  <path d="M 80 310 Q 180 210 270 180 Q 390 135 510 180 Q 600 210 700 310" fill="url(#stroma)" stroke="#4A90A4" stroke-width="2.5"/>
+  <text x="710" y="305" font-size="8" fill="#4A90A4">Epitélio</text>
+
+  <!-- Stroma fill area -->
+  <path d="M 80 310 Q 180 210 270 180 Q 390 135 510 180 Q 600 210 700 310 Q 390 370 80 310 Z" fill="url(#stroma)" opacity="0.5"/>
+
+  <!-- ICRS segment LEFT -->
+  <rect x="170" y="270" width="45" height="35" rx="4" fill="#8B4513" stroke="#5D2E0D" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="192" y="292" text-anchor="middle" font-size="7" fill="white" font-weight="bold">ICRS</text>
+
+  <!-- ICRS segment RIGHT -->
+  <rect x="565" y="270" width="45" height="35" rx="4" fill="#8B4513" stroke="#5D2E0D" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="587" y="292" text-anchor="middle" font-size="7" fill="white" font-weight="bold">ICRS</text>
+
+  <!-- Elevation arrows at ICRS sites (peripheral lift) -->
+  <line x1="192" y1="265" x2="192" y2="220" stroke="#E6550D" stroke-width="2.5" marker-end="url(#ad)"/>
+  <line x1="587" y1="265" x2="587" y2="220" stroke="#E6550D" stroke-width="2.5" marker-end="url(#ad)"/>
+  <text x="192" y="213" text-anchor="middle" font-size="9" fill="#E6550D" font-weight="bold">↑ Elevação</text>
+  <text x="587" y="213" text-anchor="middle" font-size="9" fill="#E6550D" font-weight="bold">↑ Elevação</text>
+
+  <!-- Central flattening arrow (down) -->
+  <line x1="390" y1="135" x2="390" y2="170" stroke="#2171B5" stroke-width="3" marker-end="url(#au)"/>
+  <text x="390" y="125" text-anchor="middle" font-size="11" font-weight="bold" fill="#2171B5">↓ APLANAMENTO</text>
+  <text x="390" y="110" text-anchor="middle" font-size="9" fill="#2171B5">(ΔK negativo)</text>
+
+  <!-- Tension arrows along surface -->
+  <line x1="280" y1="178" x2="330" y2="157" stroke="#31A354" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="500" y1="178" x2="450" y2="157" stroke="#31A354" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="305" y="170" font-size="7" fill="#31A354" transform="rotate(-20, 305, 170)">Tração lamelar</text>
+  <text x="470" y="170" font-size="7" fill="#31A354" transform="rotate(20, 470, 170)">Tração lamelar</text>
+
+  <!-- PIO arrows (from bottom) -->
+  <line x1="300" y1="380" x2="300" y2="355" stroke="#CC3333" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="390" y1="385" x2="390" y2="360" stroke="#CC3333" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="480" y1="380" x2="480" y2="355" stroke="#CC3333" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="390" y="398" text-anchor="middle" font-size="9" fill="#CC3333">PIO = 15 mmHg ↑</text>
+
+  <!-- Tent analogy annotation box -->
+  <rect x="30" y="60" width="200" height="90" rx="8" fill="#FFF8E1" stroke="#FFA000" stroke-width="1.5"/>
+  <text x="130" y="82" text-anchor="middle" font-size="10" font-weight="bold" fill="#E65100">⛺ Analogia da Tenda</text>
+  <text x="40" y="100" font-size="8" fill="#555">O ICRS atua como postes de uma</text>
+  <text x="40" y="113" font-size="8" fill="#555">tenda: levanta a periferia e</text>
+  <text x="40" y="126" font-size="8" fill="#555">estica + achata o teto central.</text>
+  <text x="40" y="143" font-size="8" fill="#E65100" font-weight="bold">Volume ↑ = Aplanamento ↑</text>
+
+  <!-- Key formula box -->
+  <rect x="550" y="60" width="200" height="75" rx="8" fill="#E3F2FD" stroke="#2171B5" stroke-width="1.5"/>
+  <text x="650" y="82" text-anchor="middle" font-size="10" font-weight="bold" fill="#1565C0">Lei Volumétrica</text>
+  <text x="650" y="100" text-anchor="middle" font-size="9" fill="#333">VR ∝ Volume Total</text>
+  <text x="650" y="116" text-anchor="middle" font-size="9" fill="#333">= Espessura × Arco</text>
+  <text x="650" y="132" text-anchor="middle" font-size="8" fill="#777">Validado: R² > 0.99 (FEBio)</text>
+
+  <!-- Footer -->
+  <text x="390" y="415" text-anchor="middle" font-size="8" fill="#CCC">Figura 5.1 — Mecanismo do Efeito de Tenda (Kling &amp; Marcos, 2013) · Dr. Miguel Reis · Dra. Jordana Sandes</text>
+</svg>

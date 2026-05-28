@@ -92,7 +92,7 @@ The finite element simulations presented in the preceding chapters of this volum
 
 First, the radial and tangential components of the corneal displacement vector are independently modulated by different ring parameters. The radial displacement magnitude VR is predominantly governed by segment thickness, with a sensitivity of approximately 19.2–19.9 μm across partial arc configurations from 90° to 320°. This near-constancy of VR with respect to arc length is remarkable: it indicates that VR is determined primarily by the local cross-sectional geometry of the ring–stroma interaction, not by the global extent of the implant. By contrast, the tangential stress VT is monotonically related to arc length, following the linear relationship:
 
-$$V_T(\text{arc}°) = -0.0018 \times \text{arc}° + 7.79 \quad (R^2 = 0.94)$$
+V_T(\text{arc}°) = -0.0018 \times \text{arc}° + 7.79 \quad (R² = 0.94)
 
 with values ranging from 7.63 kPa at 90° to 7.20 kPa at 320° (baseline: 7.78 kPa; full 360° ICRS: 7.29 kPa). This decoupling means that the surgeon can, in principle, adjust arc length to titrate the tangential stress redistribution without substantially altering the radial flattening effect—a degree of independent control that no nomogram can express.
 

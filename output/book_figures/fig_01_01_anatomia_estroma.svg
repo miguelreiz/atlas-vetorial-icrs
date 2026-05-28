@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 450" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="ds" x="-3%" y="-3%" width="106%" height="106%"><feDropShadow dx="1" dy="1.5" stdDeviation="2" flood-opacity="0.1"/></filter>
+    <linearGradient id="ep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#BBDEFB"/><stop offset="100%" stop-color="#E3F2FD"/>
+    </linearGradient>
+  </defs>
+  <rect width="780" height="450" fill="white" rx="8"/>
+  <text x="390" y="25" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Anatomia Fibrilar do Estroma Corneano</text>
+  <text x="390" y="43" text-anchor="middle" font-size="10" fill="#888">Estrutura lamelar anisotrópica — base do modelo HGO</text>
+
+  <!-- ═══ CROSS-SECTION ═══ -->
+  <rect x="30" y="60" width="350" height="340" rx="10" fill="#FAFAFA" stroke="#DDD" stroke-width="1" filter="url(#ds)"/>
+  <text x="205" y="82" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Corte Transversal</text>
+
+  <!-- 5 layers from top to bottom -->
+  <!-- Epithelium -->
+  <rect x="55" y="95" width="300" height="25" rx="3" fill="#81D4FA"/>
+  <text x="205" y="112" text-anchor="middle" font-size="9" font-weight="bold" fill="#01579B">Epitélio (50 μm)</text>
+
+  <!-- Bowman -->
+  <rect x="55" y="122" width="300" height="12" rx="2" fill="#4FC3F7"/>
+  <text x="205" y="131" text-anchor="middle" font-size="7" fill="white" font-weight="bold">Camada de Bowman (12 μm)</text>
+
+  <!-- Anterior Stroma (interlaced) -->
+  <rect x="55" y="136" width="300" height="80" rx="3" fill="#B3E5FC"/>
+  <text x="205" y="155" text-anchor="middle" font-size="9" font-weight="bold" fill="#0277BD">Estroma Anterior (1/3)</text>
+  <text x="205" y="170" text-anchor="middle" font-size="8" fill="#0277BD">Fibras ENTRELAÇADAS</text>
+  <!-- interlace pattern -->
+  <g stroke="#0277BD" stroke-width="0.8" opacity="0.4">
+    <line x1="75" y1="180" x2="140" y2="200"/><line x1="100" y1="200" x2="165" y2="180"/>
+    <line x1="140" y1="180" x2="205" y2="200"/><line x1="165" y1="200" x2="230" y2="180"/>
+    <line x1="205" y1="180" x2="270" y2="200"/><line x1="230" y1="200" x2="295" y2="180"/>
+    <line x1="270" y1="180" x2="335" y2="200"/><line x1="295" y1="200" x2="340" y2="190"/>
+  </g>
+
+  <!-- Posterior Stroma (parallel) -->
+  <rect x="55" y="218" width="300" height="80" rx="3" fill="#E3F2FD"/>
+  <text x="205" y="240" text-anchor="middle" font-size="9" font-weight="bold" fill="#1565C0">Estroma Posterior (2/3)</text>
+  <text x="205" y="255" text-anchor="middle" font-size="8" fill="#1565C0">Fibras PARALELAS</text>
+  <!-- parallel pattern -->
+  <g stroke="#1565C0" stroke-width="0.8" opacity="0.4">
+    <line x1="75" y1="268" x2="335" y2="268"/>
+    <line x1="75" y1="275" x2="335" y2="275"/>
+    <line x1="75" y1="282" x2="335" y2="282"/>
+    <line x1="75" y1="289" x2="335" y2="289"/>
+  </g>
+
+  <!-- Descemet -->
+  <rect x="55" y="300" width="300" height="12" rx="2" fill="#90CAF9"/>
+  <text x="205" y="309" text-anchor="middle" font-size="7" fill="white" font-weight="bold">Membrana de Descemet (10 μm)</text>
+
+  <!-- Endothelium -->
+  <rect x="55" y="314" width="300" height="22" rx="3" fill="#42A5F5"/>
+  <text x="205" y="329" text-anchor="middle" font-size="9" font-weight="bold" fill="white">Endotélio (5 μm)</text>
+
+  <!-- Thickness annotation -->
+  <line x1="370" y1="95" x2="370" y2="336" stroke="#555" stroke-width="1"/>
+  <line x1="365" y1="95" x2="375" y2="95" stroke="#555" stroke-width="1"/>
+  <line x1="365" y1="336" x2="375" y2="336" stroke="#555" stroke-width="1"/>
+  <text x="385" y="220" font-size="8" fill="#555" transform="rotate(90, 385, 220)">≈ 540 μm (central)</text>
+
+  <!-- ICRS insertion depth marker -->
+  <line x1="45" y1="275" x2="360" y2="275" stroke="#E6550D" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="45" y="270" font-size="7" fill="#E6550D" font-weight="bold">↑ Profundidade ICRS (70–80%)</text>
+
+  <!-- ═══ FRONTAL VIEW ═══ -->
+  <rect x="405" y="60" width="355" height="340" rx="10" fill="#FAFAFA" stroke="#DDD" stroke-width="1" filter="url(#ds)"/>
+  <text x="582" y="82" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Vista Frontal — Orientação Fibrilar</text>
+
+  <!-- Cornea circle -->
+  <circle cx="582" cy="230" r="120" fill="url(#ep)" stroke="#1565C0" stroke-width="2"/>
+
+  <!-- Central: cardinal fibers (horizontal + vertical) -->
+  <g stroke="#E6550D" stroke-width="1.2" opacity="0.5">
+    <!-- Horizontal -->
+    <line x1="500" y1="230" x2="665" y2="230"/>
+    <!-- Vertical -->
+    <line x1="582" y1="150" x2="582" y2="310"/>
+    <!-- 45° -->
+    <line x1="520" y1="170" x2="645" y2="290"/>
+    <line x1="520" y1="290" x2="645" y2="170"/>
+  </g>
+  <text x="582" y="230" text-anchor="middle" font-size="7" fill="#E6550D" font-weight="bold">Cardinal</text>
+
+  <!-- Peripheral: circumferential fibers (arcs near limbus) -->
+  <g fill="none" stroke="#2E7D32" stroke-width="1.5" opacity="0.5">
+    <path d="M 492 160 A 110 110 0 0 1 672 160"/>
+    <path d="M 472 230 A 110 110 0 0 1 472 230"/>
+    <path d="M 492 300 A 110 110 0 0 0 672 300"/>
+    <path d="M 467 200 A 120 120 0 0 0 467 260"/>
+    <path d="M 697 200 A 120 120 0 0 1 697 260"/>
+  </g>
+  <text x="582" y="360" text-anchor="middle" font-size="7" fill="#2E7D32" font-weight="bold">Circunferencial (límbica)</text>
+
+  <!-- Legend -->
+  <line x1="430" y1="380" x2="460" y2="380" stroke="#E6550D" stroke-width="2"/>
+  <text x="465" y="384" font-size="8" fill="#333">Fibras cardinais (centro)</text>
+  <line x1="560" y1="380" x2="590" y2="380" stroke="#2E7D32" stroke-width="2"/>
+  <text x="595" y="384" font-size="8" fill="#333">Fibras circunferenciais (limbo)</text>
+
+  <!-- HGO parameter box -->
+  <rect x="425" y="100" width="150" height="80" rx="6" fill="white" stroke="#555" stroke-width="1"/>
+  <text x="500" y="117" text-anchor="middle" font-size="9" font-weight="bold" fill="#333">Modelo HGO</text>
+  <text x="435" y="133" font-size="8" fill="#555">c = 0,05 MPa (matriz)</text>
+  <text x="435" y="146" font-size="8" fill="#555">k₁ = 0,22 MPa (fibras)</text>
+  <text x="435" y="159" font-size="8" fill="#555">k₂ = 100 (não-linear.)</text>
+  <text x="435" y="172" font-size="8" fill="#555">κ = 0,09 (dispersão)</text>
+
+  <!-- Footer -->
+  <text x="390" y="440" text-anchor="middle" font-size="8" fill="#CCC">Figura 1.1 — Anatomia Fibrilar do Estroma Corneano · Dr. Miguel Reis · Dra. Jordana Sandes</text>
+</svg>

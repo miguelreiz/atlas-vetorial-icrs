@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="ds" x="-3%" y="-3%" width="106%" height="106%"><feDropShadow dx="1" dy="1.5" stdDeviation="2" flood-opacity="0.1"/></filter>
+    <marker id="ar" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#555"/></marker>
+  </defs>
+  <rect width="800" height="280" fill="white" rx="8"/>
+  <text x="400" y="25" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Evolução Conceitual: Das Três Escolas à AVBC</text>
+
+  <!-- Timeline axis -->
+  <line x1="60" y1="130" x2="740" y2="130" stroke="#BDBDBD" stroke-width="2"/>
+  <!-- Timeline dots -->
+  <circle cx="120" cy="130" r="6" fill="#7B1FA2"/>
+  <circle cx="310" cy="130" r="6" fill="#0277BD"/>
+  <circle cx="500" cy="130" r="6" fill="#2E7D32"/>
+  <circle cx="680" cy="130" r="8" fill="#E6550D" stroke="white" stroke-width="2"/>
+
+  <!-- Era 1: Geométrica -->
+  <rect x="50" y="50" width="140" height="65" rx="8" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="120" y="72" text-anchor="middle" font-size="10" font-weight="bold" fill="#7B1FA2">Escola Geométrica</text>
+  <text x="120" y="86" text-anchor="middle" font-size="8" fill="#555">Barraquer, 1949</text>
+  <text x="120" y="98" text-anchor="middle" font-size="7" fill="#777">Lei de Espessuras</text>
+  <text x="120" y="108" text-anchor="middle" font-size="7" fill="#777">Restrição cinemática pura</text>
+
+  <!-- Era 2: Volumétrica -->
+  <rect x="240" y="50" width="140" height="65" rx="8" fill="#E3F2FD" stroke="#0277BD" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="310" y="72" text-anchor="middle" font-size="10" font-weight="bold" fill="#0277BD">Escola Volumétrica</text>
+  <text x="310" y="86" text-anchor="middle" font-size="8" fill="#555">Kling &amp; Marcos, 2013</text>
+  <text x="310" y="98" text-anchor="middle" font-size="7" fill="#777">Injeção de massa</text>
+  <text x="310" y="108" text-anchor="middle" font-size="7" fill="#777">Efeito de tenda (spacer)</text>
+
+  <!-- Era 3: Biomecânica -->
+  <rect x="430" y="50" width="140" height="65" rx="8" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="500" y="72" text-anchor="middle" font-size="10" font-weight="bold" fill="#2E7D32">Escola Biomecânica</text>
+  <text x="500" y="86" text-anchor="middle" font-size="8" fill="#555">Dupps &amp; Roberts, 2014</text>
+  <text x="500" y="98" text-anchor="middle" font-size="7" fill="#777">Tensão/Deformação</text>
+  <text x="500" y="108" text-anchor="middle" font-size="7" fill="#777">Modelo HGO, FEM</text>
+
+  <!-- Era 4: AVBC -->
+  <rect x="610" y="42" width="140" height="75" rx="8" fill="#FFF3E0" stroke="#E6550D" stroke-width="2.5" filter="url(#ds)"/>
+  <text x="680" y="64" text-anchor="middle" font-size="11" font-weight="bold" fill="#E6550D">AVBC</text>
+  <text x="680" y="80" text-anchor="middle" font-size="8" fill="#555">Reis &amp; Sandes, 2026</text>
+  <text x="680" y="93" text-anchor="middle" font-size="7" fill="#777">Unifica as 3 escolas</text>
+  <text x="680" y="103" text-anchor="middle" font-size="7" fill="#E6550D" font-weight="bold">VR + VT + Vτ</text>
+  <text x="680" y="113" text-anchor="middle" font-size="7" fill="#777">Sistema O→T→B</text>
+
+  <!-- Arrows between eras -->
+  <line x1="192" y1="85" x2="238" y2="85" stroke="#555" stroke-width="1.2" marker-end="url(#ar)"/>
+  <line x1="382" y1="85" x2="428" y2="85" stroke="#555" stroke-width="1.2" marker-end="url(#ar)"/>
+  <line x1="572" y1="85" x2="608" y2="85" stroke="#555" stroke-width="1.2" marker-end="url(#ar)"/>
+
+  <!-- Timeline labels -->
+  <text x="120" y="155" text-anchor="middle" font-size="9" fill="#7B1FA2" font-weight="bold">1949–2012</text>
+  <text x="310" y="155" text-anchor="middle" font-size="9" fill="#0277BD" font-weight="bold">2013</text>
+  <text x="500" y="155" text-anchor="middle" font-size="9" fill="#2E7D32" font-weight="bold">2014</text>
+  <text x="680" y="155" text-anchor="middle" font-size="9" fill="#E6550D" font-weight="bold">2026</text>
+
+  <!-- Bottom row: what each school captures -->
+  <rect x="50" y="175" width="140" height="35" rx="5" fill="#F3E5F5"/>
+  <text x="120" y="195" text-anchor="middle" font-size="8" fill="#7B1FA2">Forma → Forma</text>
+
+  <rect x="240" y="175" width="140" height="35" rx="5" fill="#E3F2FD"/>
+  <text x="310" y="195" text-anchor="middle" font-size="8" fill="#0277BD">Volume → Forma</text>
+
+  <rect x="430" y="175" width="140" height="35" rx="5" fill="#E8F5E9"/>
+  <text x="500" y="195" text-anchor="middle" font-size="8" fill="#2E7D32">Tensão → Forma</text>
+
+  <rect x="610" y="175" width="140" height="35" rx="5" fill="#FFF3E0" stroke="#E6550D" stroke-width="1.5"/>
+  <text x="680" y="190" text-anchor="middle" font-size="8" fill="#E6550D" font-weight="bold">Volume + Tensão +</text>
+  <text x="680" y="202" text-anchor="middle" font-size="8" fill="#E6550D" font-weight="bold">Óptica → Prescrição</text>
+
+  <!-- Integration arrows to AVBC -->
+  <path d="M 120 210 Q 120 240 400 250 Q 680 240 680 210" fill="none" stroke="#E6550D" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.4"/>
+  <path d="M 310 210 Q 310 235 500 245 Q 680 240 680 210" fill="none" stroke="#E6550D" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.4"/>
+  <path d="M 500 210 Q 500 225 590 225 Q 680 225 680 210" fill="none" stroke="#E6550D" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.4"/>
+
+  <!-- Footer -->
+  <text x="400" y="272" text-anchor="middle" font-size="8" fill="#CCC">Figura 2.1 — Evolução Conceitual: Das Três Escolas à AVBC · Dr. Miguel Reis · Dra. Jordana Sandes</text>
+</svg>

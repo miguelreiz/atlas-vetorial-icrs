@@ -1,7 +1,9 @@
 # Capítulo 1 — A Córnea Ceratocônica como uma Estrutura Mecânica
 
 > **Análise Vetorial Biomecânica Corneana para Planejamento de Segmento de Anel Intraestromal**
-> *Parte I — Fundamentos*
+> *Parte I — O Problema e os Fundamentos*
+
+> **Ponto-Chave:** O ceratocone não é apenas uma córnea curva — é uma doença do material estromal. Dois olhos com o mesmo K-steep podem ter estados biomecânicos completamente diferentes. Um nomograma que ignora isso está a tratar o sintoma, não a doença.
 
 ---
 
@@ -11,13 +13,17 @@ O ceratocone é a ectasia corneana mais comum, com estimativas de prevalência v
 
 Esta perspectiva geométrica tem consequências práticas para o planejamento do tratamento. Quando um cirurgião seleciona um segmento de anel intraestromal (ICRS) para um olho com ceratocone, a decisão é tipicamente guiada por nomogramas que mapeiam um ou dois parâmetros geométricos — ceratometria, valor Q, refração manifesta — para uma configuração de anel. A suposição implícita é que a forma da córnea é uma representação (proxy) suficiente para a mecânica corneana. Como demonstraremos ao longo deste livro, essa suposição é fundamentalmente falha.
 
-Nas últimas duas décadas, uma mudança de paradigma vem ganhando força. O trabalho de Dupps e Roberts (2001, 2014), Meek e Knupp (2015) e outros estabeleceu que o ceratocone é, em sua essência, uma **doença biomecânica** — um distúrbio de distribuição de tensão (stress) estromal, integridade das fibras de colágeno e degradação das propriedades do material. As manifestações geométricas (K elevado, afinamento, protrusão) são *consequências* de um processo mecânico subjacente, não o processo em si. Duas córneas com valores idênticos de K-steep podem abrigar estados de tensão (stress), rigidez de material e propensões para progressão extremamente diferentes. Tratá-las de forma idêntica, como faz um nomograma, é confundir o sintoma com a doença.
+Nas últimas duas décadas, uma mudança de paradigma estrutural e bibliográfica vem ganhando força na oftalmologia. O trabalho seminal de Dupps e Roberts (2001, e consolidado em 2014 em seu artigo "*Biomechanics of corneal ectasia and biomechanical treatments*"), juntamente com as investigações estruturais de Meek e Knupp (2015), estabeleceu inequivocamente que o ceratocone é, em sua essência, uma **doença primariamente biomecânica** — um distúrbio da distribuição de tensão (*stress*) estromal, com degradação focal das propriedades elásticas do material.
 
-Este capítulo de abertura estabelece a fundação biomecânica sobre a qual repousa todo o framework da AVBC. Começamos com a arquitetura fibrilar do estroma corneano — a estrutura de suporte de carga que determina o comportamento mecânico — e progredimos através da modelagem constitutiva, do ciclo de descompensação que impulsiona a progressão do ceratocone e da evidência clínica para uma compreensão biomecânica, em vez de puramente geométrica, da doença. O leitor que compreender essa fundação entenderá por que o planejamento racional do ICRS requer uma linguagem biomecânica, não uma tabela de consulta geométrica.
+As manifestações geométricas clássicas (K elevado, afinamento paquimétrico, protrusão apical) não são a patologia em si, mas sim as *consequências mecânicas secundárias (sintomas)* de uma estrutura enfraquecida cedendo perante a pressão intraocular normal. Duas córneas com valores idênticos de K-steep podem abrigar estados de tensão, rigidez de material e propensões para progressão extremamente diferentes. Tratá-las de forma idêntica e puramente geométrica, como faz um nomograma clássico, é confundir o sintoma (a forma) com a doença (a fraqueza mecânica).
+
+Este capítulo de abertura estabelece a fundação biomecânica sobre a qual repousa todo o arcabouço da AVBC. Começamos com a arquitetura fibrilar do estroma corneano — a estrutura de suporte de carga que determina o comportamento mecânico — e progredimos através da modelagem constitutiva, do ciclo de descompensação que impulsiona a progressão do ceratocone e da evidência clínica para uma compreensão biomecânica, em vez de puramente geométrica, da doença. O leitor que compreender essa fundação entenderá por que o planejamento racional do ICRS requer uma linguagem biomecânica, não uma tabela de consulta geométrica.
 
 ---
 
 ## 1.2 Anatomia Fibrilar do Estroma Corneano
+
+> **Para o Clínico:** Esta seção explica *por que* a córnea se comporta como se comporta sob pressão. O conceito central é simples: a córnea é um material compósito (como fibra de vidro), com fibras de colágeno (que dão rigidez) embebidas numa matriz macia (que dá flexibilidade). A orientação dessas fibras determina onde a córnea é forte e onde é vulnerável.
 
 O estroma corneano constitui aproximadamente 90% da espessura corneana e é o principal determinante de seu comportamento mecânico. É composto por 200 a 500 lamelas de colágeno, cada uma com 1–2 μm de espessura e 10–250 μm de largura, dispostas em uma matriz altamente organizada que serve a um duplo propósito: transparência óptica e suporte de carga mecânica (Komai & Ushiki, 1991; Meek & Knupp, 2015).
 
@@ -33,15 +39,17 @@ Estudos de espalhamento de raios X de grande ângulo (WAXS), realizados de forma
 
 ### Estroma Anterior versus Posterior
 
-Existe uma distinção crítica entre o estroma anterior e o posterior. O terço anterior exibe extenso *entrelaçamento* lamelar — as lamelas se ramificam, fundem-se e inserem-se na camada de Bowman em ângulos oblíquos, criando uma malha mecanicamente interconectada (Komai & Ushiki, 1991; Winkler et al., 2011). Os dois terços posteriores, em contraste, apresentam lamelas mais paralelas e planas, com menor entrelaçamento. Essa diferença arquitetônica tem consequências mecânicas diretas:
+Existe uma distinção crítica entre o estroma anterior e o posterior. O terço anterior exibe extenso *entrelaçamento* lamelar — as lamelas se ramificam, fundem-se e inserem-se na camada de Bowman em ângulos oblíquos, criando uma malha mecanicamente interconectada (Komai & Ushiki, 1991; Winkler et al., 2013). Os dois terços posteriores, em contraste, apresentam lamelas mais paralelas e planas, com menor entrelaçamento. Essa diferença arquitetônica tem consequências mecânicas diretas:
 
 - O estroma anterior é aproximadamente **duas a três vezes mais rígido** que o estroma posterior quando medido por nanoindentação (Thomasy et al., 2014) ou microscopia de Brillouin (Scarcelli et al., 2015).
 - O estroma posterior é mais suscetível à falha por cisalhamento e ao deslizamento lamelar.
 - **No ceratocone, o estroma posterior falha primeiro** (Dupps & Roberts, 2014). As primeiras alterações histopatológicas — desorganização das fibras, quebras na continuidade lamelar — ocorrem nas camadas posteriores, consistente com a observação de que as anormalidades de elevação posterior estão entre os primeiros sinais tomográficos de ceratocone subclínico.
 
+![Figura 1.1 — Anatomia fibrilar do estroma corneano: corte transversal e orientação das fibras.](book_figures/fig_01_01_anatomia_estroma.svg)
+
 ### A Matriz de Proteoglicanos
 
-Entre as fibrilas de colágeno encontra-se a matriz interfibrilar, composta principalmente por proteoglicanos — proteoglicanos de sulfato de queratana (lumicam, queratocam, mimecam) e proteoglicanos de sulfato de dermatana (decorim, biglicam). Essas moléculas regulam o espaçamento e a hidratação das fibrilas, contribuindo tanto para a transparência quanto para o acoplamento mecânico entre as lamelas (Quantock et al., 2015). No ceratocone, a expressão de proteoglicanos é alterada, e a relação entre a hidratação da matriz e o espaçamento das fibrilas torna-se perturbada — uma alteração que precede o afinamento observável (Meek et al., 2005).
+Entre as fibrilas de colágeno encontra-se a matriz interfibrilar, composta principalmente por proteoglicanos — proteoglicanos de sulfato de queratana (lumicam, queratocam, mimecam) e proteoglicanos de sulfato de dermatana (decorim, biglicam). Essas moléculas regulam o espaçamento e a hidratação das fibrilas, contribuindo tanto para a transparência quanto para o acoplamento mecânico entre as lamelas (Quantock et al., 2010). No ceratocone, a expressão de proteoglicanos é alterada, e a relação entre a hidratação da matriz e o espaçamento das fibrilas torna-se perturbada — uma alteração que precede o afinamento observável (Meek et al., 2005).
 
 Para fins de modelagem constitutiva, a principal conclusão é que o estroma corneano é um **compósito reforçado por fibras** — uma matriz extracelular reforçada por fibras de colágeno com rigidez dependente da direção. Qualquer modelo mecânico realista deve capturar essa anisotropia.
 
@@ -59,6 +67,8 @@ Os primeiros modelos biomecânicos da córnea tratavam-na como um material linea
 4. **Viscoelasticidade:** A córnea exibe comportamento mecânico dependente do tempo — fluência (creep) sob carga sustentada e relaxamento de tensão (stress). No entanto, para análises quase-estáticas (como carregamento de PIO ou implantação de ICRS), os modelos hiperelásticos são geralmente suficientes.
 
 ### O Modelo Holzapfel-Gasser-Ogden (HGO)
+
+> **Para o Clínico:** O modelo HGO é a equação matemática que usamos para simular a córnea no computador. Não precisa de memorizar a equação — o que importa são os **5 parâmetros** da tabela abaixo. Cada um descreve um aspeto diferente do material corneano, e as nossas simulações usam estes valores em todo o livro.
 
 Entre os modelos constitutivos disponíveis para tecidos moles biológicos, o modelo Holzapfel-Gasser-Ogden (HGO) emergiu como o padrão para a biomecânica corneana (Holzapfel et al., 2000; Pandolfi & Manganiello, 2006; Nguyen et al., 2018). O modelo HGO foi originalmente desenvolvido para a mecânica da parede arterial, mas é bem adequado para qualquer tecido reforçado por fibras onde as fibras estão embutidas em uma substância fundamental mais macia.
 
@@ -84,7 +94,7 @@ onde:
 
 - **c = 0.05 MPa** representa a rigidez basal da córnea *sem* a contribuição das fibras de colágeno — apenas a matriz de proteoglicanos. É relativamente macia, comparável a um gel firme. No ceratocone, a degradação da matriz reduz ainda mais c, tornando o tecido mais complacente.
 - **k₁ = 0.22 MPa** captura a rigidez contribuída pelas fibras de colágeno. Este é o parâmetro mais diretamente afetado pelo crosslinking de colágeno (CXL), que aumenta k₁ em uma estimativa de 50–200% (Wollensak et al., 2003).
-- **k₂ = 100** controla a rapidez com que o tecido se torna mais rígido à medida que a deformação (strain) aumenta. Um valor de 100 Simula uma curva em J fortemente não linear — a córnea é complacente em deformações (strain) fisiológicas, mas resiste a grandes deformações. Este é um mecanismo de proteção: o tecido acomoda pequenas flutuações na PIO, mas resiste à ruptura em altas pressões.
+- **k₂ = 100** controla a rapidez com que o tecido se torna mais rígido à medida que a deformação (strain) aumenta. Um valor de 100 simula uma curva em J fortemente não linear — a córnea é complacente em deformações (strain) fisiológicas, mas resiste a grandes deformações. Este é um mecanismo de proteção: o tecido acomoda pequenas flutuações na PIO, mas resiste à ruptura em altas pressões.
 - **κ = 0.09** indica que as fibras estão *majoritariamente* alinhadas (κ = 0 significaria perfeitamente alinhadas; κ = 1/3 significaria perfeitamente aleatórias). Um valor de 0,09 é consistente com os dados de WAXS que mostram orientação tangencial preferencial, mas não exclusiva, na córnea central.
 - **k = 4.76 MPa** impõe quase-incompressibilidade, apropriada para um tecido biológico hidratado.
 
@@ -92,11 +102,17 @@ Os colchetes de Macaulay ⟨·⟩ na equação garantem que as fibras contribuam
 
 O primeiro invariante Ī₁ captura a deformação isotrópica (matriz), enquanto os pseudo-invariantes Ī₄ᵢ capturam o estiramento específico na direção das fibras. Esta separação é a personificação matemática da natureza compósita do estroma: matriz mais fibras.
 
+![Figura 1.3 — Curva de tensão-deformação em J da córnea segundo o modelo HGO.](book_figures/fig_01_03_curva_tensao_deformacao.svg)
+
 ---
 
 ## 1.4 O Ciclo de Descompensação de Dupps
 
+> **Ponto-Chave:** O ciclo de Dupps é a razão pela qual o ceratocone progride. É um ciclo vicioso: fraqueza → deformação → mais tensão → mais fraqueza. É também a razão pela qual o CXL funciona (interrompe o ciclo ao reforçar as fibras) e por que o ICRS funciona (redistribui as tensões).
+
 Talvez o avanço conceitual mais importante na compreensão do ceratocone tenha vindo de Dupps e Roberts, que formalizaram o **ciclo de descompensação biomecânica** — um ciclo de feedback positivo que explica por que o ceratocone é progressivo e por que os descritores geométricos isolados são insuficientes (Dupps & Roberts, 2001; Dupps & Roberts, 2014).
+
+![Figura 1.2 — Ciclo de descompensação de Dupps: retroalimentação positiva e pontos de intervenção (CXL e ICRS).](book_figures/fig_01_02_ciclo_dupps.svg)
 
 ### O Ciclo
 
@@ -146,7 +162,7 @@ A evidência mais direta de variação regional de rigidez no ceratocone vem da 
 
 ### O Ocular Response Analyzer e o Corvis ST
 
-Na prática clínica, o Ocular Response Analyzer (ORA, Reichert) e o Corvis ST (Oculus) fornecem medidas indiretas da biomecânica corneana por meio de tonometria de sopro de ar. Os principais parâmetros — Histerese Corneana (CH), Fator de Resistência Corneana (CRF) e o Índice Biomecânico do Corvis (CBI) — capturam aspectos da resposta viscoelástica à deformação (Luce, 2005; Roberts & Dupps, 2014).
+Na prática clínica, o Ocular Response Analyzer (ORA, Reichert) e o Corvis ST (Oculus) fornecem medidas indiretas da biomecânica corneana por meio de tonometria de sopro de ar. Os principais parâmetros — Histerese Corneana (CH), Fator de Resistência Corneana (CRF) e o Índice Biomecânico do Corvis (CBI) — capturam aspectos da resposta viscoelástica à deformação (Luce, 2005; Dupps & Roberts, 2014).
 
 No ceratocone, o CH e o CRF estão consistentemente reduzidos, e essa redução muitas vezes **precede alterações topográficas detectáveis** (Fontes et al., 2010). Essa sequência temporal — alteração biomecânica antes da alteração geométrica — é uma forte evidência de que a doença é fundamentalmente biomecânica e que os descritores geométricos são *indicadores tardios* de um processo mecânico contínuo.
 
@@ -174,6 +190,20 @@ O framework da AVBC, introduzido nos capítulos seguintes, propõe preencher ess
 - Mesmo uma **PIO normal (15 mmHg)** produz deformação corneana significativa (uz = 360,9 μm em nossa linha de base de FEM), destacando a PIO como o motor mecânico da progressão ectática.
 - O **planejamento racional de ICRS** exige a compreensão dos mecanismos biomecânicos da intervenção — não apenas do resultado geométrico. Esta é a premissa do framework AVBC desenvolvido nos capítulos subsequentes.
 
+### Tabela-Resumo: Conceitos-Chave para o Clínico
+
+| Conceito | O Que É | Por Que Importa ao Cirurgião |
+|:---------|:--------|:----------------------------|
+| Modelo HGO | Equação que descreve a mecânica da córnea como compósito fibra+matriz | Os 5 parâmetros (c, k₁, k₂, κ, k) determinam como a córnea responde ao anel |
+| c = 0.05 MPa | Módulo de cisalhamento da matriz (gel sem fibras) | Quando degrada no ceratocone, a córnea torna-se mais macia — é isto que o CXL não reverte diretamente |
+| k₁ = 0.22 MPa | Rigidez das fibras de colágeno | É o parâmetro que o CXL aumenta (50–200%); o reforço das fibras é a base da estabilização |
+| k₂ = 100 | Taxa de endurecimento exponencial | Explica por que a córnea acomoda flutuações normais de PIO mas resiste a deformação extrema |
+| κ = 0.09 | Dispersão angular das fibras (0=alinhadas, 1/3=aleatórias) | Fibras maioritariamente alinhadas significam que o anel funciona diferente conforme a orientação |
+| Ciclo de Dupps | Feedback positivo: fraqueza → deformação → mais tensão → mais fraqueza | Explica a progressão do ceratocone e por que CXL (reforça fibras) e ICRS (redistribui tensão) funcionam |
+| Anisotropia | Rigidez varia conforme a direção e a região | O efeito do anel depende da orientação local das fibras de colágeno |
+| PIO como motor | 15 mmHg gera uz = 360,9 μm de deslocamento central | Mesmo PIO normal deforma significativamente uma córnea enfraquecida |
+| Estroma anterior vs posterior | Anterior 2-3× mais rígido; posterior falha primeiro no KC | O ICRS é implantado a 70–80% de profundidade para interagir com o estroma de suporte de carga |
+
 ---
 
 ## Referências
@@ -194,11 +224,10 @@ O framework da AVBC, introduzido nos capítulos seguintes, propõe preencher ess
 14. Nguyen BA, Roberts CJ, Reilly MA. Biomechanical impact of the sclera on corneal deformation response to an air-puff: a finite-element study. *Front Bioeng Biotechnol*. 2018;6:210.
 15. Pandolfi A, Manganiello F. A model for the human cornea: constitutive formulation and numerical analysis. *Biomech Model Mechanobiol*. 2006;5(4):237–246.
 16. Quantock AJ, Young RD, Akama TO. Structural and biochemical aspects of keratan sulphate in the cornea. *Cell Mol Life Sci*. 2010;67(6):891–906.
-17. Roberts CJ, Dupps WJ Jr. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
-18. Scarcelli G, Besber R, Pineda R, et al. In vivo biomechanical mapping of normal and keratoconus corneas. *JAMA Ophthalmol*. 2015;133(4):480–482.
-19. Scarcelli G, Pineda R, Yun SH. Brillouin optical microscopy for corneal biomechanics. *Invest Ophthalmol Vis Sci*. 2012;53(1):185–190.
-20. Seppälä HP, Määttä M, Rautia M, et al. EMMPRIN and MMP-1 in keratoconus. *Cornea*. 2006;25(3):325–330.
-21. Thomasy SM, Raghunathan VK, Winkler M, et al. Elastic modulus and collagen organization of the rabbit cornea: epithelium to endothelium. *Acta Biomater*. 2014;10(2):785–791.
-22. Torres Netto EA, Al-Otaibi WM, Hafezi NL, et al. Prevalence of keratoconus in paediatric patients in Riyadh, Saudi Arabia. *Br J Ophthalmol*. 2018;102(10):1436–1441.
-23. Winkler M, Shoa G, Xie Y, et al. Three-dimensional distribution of transverse collagen fibers in the anterior human corneal stroma. *Invest Ophthalmol Vis Sci*. 2013;54(12):7293–7301.
-24. Wollensak G, Spoerl E, Seiler T. Stress-strain measurements of human and porcine corneas after riboflavin-ultraviolet-A-induced cross-linking. *J Cataract Refract Surg*. 2003;29(9):1780–1785.
+17. Scarcelli G, Besner S, Pineda R, et al. In vivo biomechanical mapping of normal and keratoconus corneas. *JAMA Ophthalmol*. 2015;133(4):480–482.
+18. Scarcelli G, Pineda R, Yun SH. Brillouin optical microscopy for corneal biomechanics. *Invest Ophthalmol Vis Sci*. 2012;53(1):185–190.
+19. Seppälä HP, Määttä M, Rautia M, et al. EMMPRIN and MMP-1 in keratoconus. *Cornea*. 2006;25(3):325–330.
+20. Thomasy SM, Raghunathan VK, Winkler M, et al. Elastic modulus and collagen organization of the rabbit cornea: epithelium to endothelium. *Acta Biomater*. 2014;10(2):785–791.
+21. Torres Netto EA, Al-Otaibi WM, Hafezi NL, et al. Prevalence of keratoconus in paediatric patients in Riyadh, Saudi Arabia. *Br J Ophthalmol*. 2018;102(10):1436–1441.
+22. Winkler M, Shoa G, Xie Y, et al. Three-dimensional distribution of transverse collagen fibers in the anterior human corneal stroma. *Invest Ophthalmol Vis Sci*. 2013;54(12):7293–7301.
+23. Wollensak G, Spoerl E, Seiler T. Stress-strain measurements of human and porcine corneas after riboflavin-ultraviolet-A-induced cross-linking. *J Cataract Refract Surg*. 2003;29(9):1780–1785.

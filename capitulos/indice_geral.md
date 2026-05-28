@@ -2,7 +2,8 @@
 
 ## Master Table of Contents
 
-**Editors:** Miguel Reiz, MD, PhD
+**Lead Author:** Dr. Miguel Reis
+**Co-author:** Dr. Jordana Sandes
 **Publisher:** Elsevier Health Sciences
 **Estimated Pages:** 280–320
 

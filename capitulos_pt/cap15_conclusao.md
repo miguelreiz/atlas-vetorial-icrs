@@ -13,11 +13,11 @@ Este livro apresentou a Análise Vetorial Biomecânica Corneana (AVBC) — um ar
 
 **Segundo**, revisamos os mecanismos de ação do ICRS e demonstramos, por meio da análise de elementos finitos, que o efeito não é um fenômeno único, mas uma combinação de três mecanismos independentes: deslocamento radial (VR), redistribuição de tensão (stress) tangencial (VT) e torque assimétrico (Vτ) (Capítulos 2, 6, 7, 8). Cada mecanismo é modulado por um parâmetro de anel diferente — espessura para VR, comprimento de arco para VT e assimetria para Vτ — permitindo o controle independente do aplanamento, da regularização e do reposicionamento do ápice.
 
-**Terceiro**, demonstramos as limitações dos nomogramas existentes — sua incapacidade de capturar a heterogeneidade biomecânica, as evidências de discordância entre cirurgiões e a "maldição da dimensionalidade" que torna as tabelas de consulta empíricas fundamentalmente inadequadas para um problema com cinco ou mais parâmetros relevantes (Capítulo 4). Traçamos um paralelo com a evolução do cálculo de LIO, do SRK (empírico) para o rastreamento de raios (ray-tracing, mecanicista), e argumentamos que o planejamento do ICRS exige a mesma evolução.
+**Terceiro**, demonstramos as limitações dos nomogramas existentes — sua incapacidade de capturar a heterogeneidade biomecânica, as evidências de discordância entre cirurgiões e a "maldição da dimensionalidade" que torna as tabelas de consulta empíricas fundamentalmente inadequadas para um problema com cinco ou mais parâmetros relevantes (Capítulo 3). Traçamos um paralelo com a evolução do cálculo de LIO, do SRK (empírico) para o rastreamento de raios (ray-tracing, mecanicista), e argumentamos que o planejamento do ICRS exige a mesma evolução.
 
 **Quarto**, apresentamos o sistema de classificação AVBC — uma avaliação trimodal (Óptica, Topográfica, Biomechanical) que estrutura o processo de decisão clínica e mapeia as características do paciente para as configurações de anel por meio do raciocínio biomecânico, em vez da correlação empírica (Capítulos 5, 9, 11). O fluxo de trabalho clínico, os exemplos práticos e os estudos de caso demonstram que o arcabouço é prático e aplicável.
 
-**Quinto**, apresentamos a validação computacional — 34 simulações de elementos finitos usando o modelo constitutivo HGO no FEBio 4.12, incluindo 6 modelos assimétricos de espessura progressiva. Essas simulações confirmaram os principais achados quantitativos: a insensibilidade de VR ao comprimento do arco, a monotonicidade de VT com o comprimento do arco ($VT = -0.0018 \times \text{arc}^\circ + 7.79$, $R^2 = 0.94$), o zero numérico de $V\tau$ para anéis simétricos e a validação física do torque corretivo ativo ($V\tau = 9.31\text{--}18.34\ \mu\text{N}\cdot\text{m}$) gerado por designs assimétricos de espessura progressiva (Capítulo 10).
+**Quinto**, apresentamos a validação computacional — 34 simulações de elementos finitos usando o modelo constitutivo HGO no FEBio 4.12, incluindo 6 modelos assimétricos de espessura progressiva. Essas simulações confirmaram os principais achados quantitativos: a insensibilidade de VR ao comprimento do arco, a monotonicidade de VT com o comprimento do arco (VT = -0.0018 \times \text{arc}° + 7.79, R² = 0.94), o zero numérico de Vτ para anéis simétricos e a validação física do torque corretivo ativo (Vτ = 9.31\text{--}18.34 μ\text{N}\cdot\text{m}) gerado por designs assimétricos de espessura progressiva (Capítulo 12).
 
 ---
 
@@ -28,6 +28,11 @@ Este livro apresentou a Análise Vetorial Biomecânica Corneana (AVBC) — um ar
 A principal contribuição deste trabalho não é um novo nomograma ou um novo design de anel. É uma **linguagem** — um vocabulário padronizado de conceitos biomecânicos (VR, VT, Vτ, ENM, AVBC-CI) que permite ao cirurgião de córnea raciocinar sobre os efeitos do ICRS em termos mecanicistas. Antes da AVBC, o cirurgião poderia perguntar: "Um anel de 250 μm com arco de 160° irá aplanar esta córnea?" Após a AVBC, o cirurgião pode perguntar: "O aplanamento é a necessidade dominante ou a regularização é mais importante? Se for a regularização, devo aumentar o comprimento do arco? O ENM está alinhado com o K-steep ou preciso redirecionar o meridiano do anel?"
 
 Essa mudança — de "qual anel devo implantar?" para "qual mecanismo devo invocar?" — é o núcleo conceitual da AVBC. A linguagem torna o mecanismo explícito, e mecanismos explícitos podem ser discutidos, debatidos, calibrados e aprimorados.
+
+> [!IMPORTANT]
+> **Para o Clínico: A Pergunta Que Mudou**
+> Antes da AVBC: *"Que anel pede o nomograma para um K-steep de 50 D?"* → Resposta: "250 µm a 160°." Sem saber porquê.
+> Depois da AVBC: *"O meu paciente precisa de aplanar, regularizar ou centrar? O ENM coincide com o K-steep? A ótica permite esperar melhoria funcional?"* → Resposta informada, rastreável e calibrável.
 
 ### 15.2.2 Um Arcabouço
 
@@ -82,6 +87,12 @@ A córnea é uma estrutura de notável elegância — um composto reforçado por
 
 O caminho do nomograma empírico ao planejamento biomecânico é longo, mas a direção é clara. Este livro é um passo ao longo desse caminho.
 
+> [!TIP]
+> **Para o Clínico: Os 3 Take-Homes Deste Livro**
+> 1. **O anel tem 3 mecanismos independentes**, não 1. Espessura → aplanamento (VR). Arco → regularização (VT). Assimetria → reposicionamento (Vτ).
+> 2. **O ENM muda o seu plano em 40% dos doentes.** Verifique sempre a elevação posterior antes de marcar o eixo.
+> 3. **O seu CI_R médio é o seu "fator pessoal".** Registe, calcule e corrija. É assim que melhora de cirurgião para cirurgião.
+
 ---
 
 ## Referências
@@ -89,7 +100,7 @@ O caminho do nomograma empírico ao planejamento biomecânico é longo, mas a di
 1. Alpins NA. A new method of analyzing vectors for changes in astigmatism. *J Cataract Refract Surg*. 1993;19(4):524–533.
 2. Barraquer JI. Modification of refraction by means of intracorneal inclusions. *Int Ophthalmol Clin*. 1966;6(1):53–78.
 3. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
-4. García de Oteyza G, et al. Finite element analysis of progressive thickness ICRS. *J Cataract Refract Surg*. 2021;47(2):258–265.
+4. García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. *PLoS One*. 2021;16(1):e0245063.
 5. Holzapfel GA, Gasser TC, Ogden RW. A new constitutive framework for arterial wall mechanics. *J Elasticity*. 2000;61:1–48.
 6. Kling S, Marcos S. FEM of ICRS in a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
 7. Meek KM, Knupp C. Corneal structure and transparency. *Prog Retin Eye Res*. 2015;49:1–16.

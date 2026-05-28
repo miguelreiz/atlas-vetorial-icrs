@@ -33,6 +33,9 @@ Wide-angle X-ray scattering (WAXS) studies, performed most extensively by Meek, 
 
 ### Anterior versus Posterior Stroma
 
+![Figure 1.1 - Anatomia fibrilar do estroma corneano: corte transversal e orientação das fibras.](book_figures/fig_01_01_anatomia_estroma.svg)
+
+
 A critical distinction exists between the anterior and posterior stroma. The anterior third exhibits extensive lamellar *interweaving* — lamellae branch, fuse, and insert into Bowman's layer at oblique angles, creating a mechanically interconnected mesh (Komai & Ushiki, 1991; Winkler et al., 2011). The posterior two-thirds, by contrast, have more parallel, planar lamellae with less interweaving. This architectural difference has direct mechanical consequences:
 
 - The anterior stroma is approximately **two to three times stiffer** than the posterior stroma when measured by nanoindentation (Thomasy et al., 2014) or Brillouin microscopy (Scarcelli et al., 2015).
@@ -59,6 +62,9 @@ Early biomechanical models of the cornea treated it as a linearly elastic, isotr
 4. **Viscoelasticity:** The cornea exhibits time-dependent mechanical behavior — creep under sustained load and stress relaxation. However, for quasi-static analyses (such as IOP loading or ICRS implantation), hyperelastic models are generally sufficient.
 
 ### The Holzapfel-Gasser-Ogden (HGO) Model
+
+![Figure 1.3 - Curva de tensão-deformação em J da córnea segundo o modelo HGO.](book_figures/fig_01_03_curva_tensao_deformacao.svg)
+
 
 Among the constitutive models available for biological soft tissues, the Holzapfel-Gasser-Ogden (HGO) model has emerged as the standard for corneal biomechanics (Holzapfel et al., 2000; Pandolfi & Manganiello, 2006; Nguyen et al., 2018). The HGO model was originally developed for arterial wall mechanics but is well suited to any fiber-reinforced tissue where the fibers are embedded in a softer ground substance.
 
@@ -95,6 +101,9 @@ The first invariant Ī₁ captures the isotropic (matrix) deformation, while the
 ---
 
 ## 1.4 The Dupps Decompensation Cycle
+
+![Figure 1.2 - Ciclo de descompensação de Dupps: retroalimentação positiva e pontos de intervenção (CXL e ICRS).](book_figures/fig_01_02_ciclo_dupps.svg)
+
 
 Perhaps the most important conceptual advance in understanding keratoconus came from Dupps and Roberts, who formalized the **biomechanical decompensation cycle** — a positive feedback loop that explains why keratoconus is progressive and why geometric descriptors alone are insufficient (Dupps & Roberts, 2001; Dupps & Roberts, 2014).
 

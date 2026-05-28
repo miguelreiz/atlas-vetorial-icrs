@@ -7,6 +7,9 @@
 
 ## 11.1 Introduction
 
+![Figure 10.1 - Fluxo de trabalho clínico AVBC: do mapa topográfico ao anel.](book_figures/fig_10_01_fluxo_clinico_completo.svg)
+
+
 The preceding chapters have established the theoretical framework: the three biomechanical vectors (VR, VT, Vτ), their extraction from finite element models, their dependence on ring parameters, and the integrated AVBC classification system. The challenge now is translation — converting this framework into a reproducible clinical workflow that a corneal surgeon can apply in the consultation room.
 
 This chapter presents the AVBC clinical protocol as a sequential decision tree. The workflow distills the trimodal assessment (O, T, B) into a series of practical steps, each supported by quantitative criteria and tied to specific examination instruments. Two worked clinical examples illustrate the protocol from initial evaluation through ring selection and expected outcome estimation.
@@ -24,7 +27,7 @@ Before any biomechanical assessment, the standard clinical evaluation must be co
 - **Best-corrected visual acuity (BCVA):** Snellen or logMAR, with spectacle correction and with rigid contact lens trial. The difference between spectacle and contact lens BCVA is a rough indicator of irregular astigmatism burden.
 - **Manifest and cycloplegic refraction:** Sphere, cylinder, axis. These data feed the Optical module.
 - **Slit-lamp biomicroscopy:** Assess corneal clarity, Vogt striae, Fleischer ring, scarring. Significant central scarring may contraindicate ICRS or necessitate lamellar keratoplasty.
-- **Pachymetry at the tunnel site:** The minimum stromal thickness at the planned implantation radius (typically 5.0–6.0 mm from the visual axis) must exceed 400 μm to accommodate the ring safely at 70–80% depth. The local corneal thickness ($CT$) at the exact meridian of planned implantation must be recorded to calculate the maximum safe ring thickness ($RT_{max}$) under the **Lei das Espessuras**.
+- **Pachymetry at the tunnel site:** The minimum stromal thickness at the planned implantation radius (typically 5.0–6.0 mm from the visual axis) must exceed 400 μm to accommodate the ring safely at 70–80% depth. The local corneal thickness (CT) at the exact meridian of planned implantation must be recorded to calculate the maximum safe ring thickness (RT_{max}) under the **Lei das Espessuras**.
 - **Intraocular pressure:** Goldmann or dynamic contour tonometry. IOP values inform the FEM loading condition (15 mmHg is the standard modeling assumption; significant deviations require model adjustment).
 
 ### Step 2 — Corneal Tomography (Module T Input)
@@ -130,7 +133,7 @@ With the dominant vector identified, translate to ring parameters:
 
 | Parameter | Value | Rationale |
 |-----------|-------|-----------|
-| Thickness | 250–400 μm (proportional to desired ΔK) | VR scales with volume; **strictly subject to $RT_{max} \le CT \times 0.60$** |
+| Thickness | 250–400 μm (proportional to desired ΔK) | VR scales with volume; **strictly subject to RT_{max} \le CT \times 0.60** |
 | Arc length | 120°–160° (standard) | Arc length does not modulate VR |
 | Profile | Symmetric | No torque needed |
 | Depth | 70–80% pachymetry | Amplifies VR |
@@ -142,7 +145,7 @@ With the dominant vector identified, translate to ring parameters:
 
 | Parameter | Value | Rationale |
 |-----------|-------|-----------|
-| Thickness | 150–250 μm (moderate) | VR is secondary; **strictly subject to $RT_{max} \le CT \times 0.60$** |
+| Thickness | 150–250 μm (moderate) | VR is secondary; **strictly subject to RT_{max} \le CT \times 0.60** |
 | Arc length | 210°–320° (long arc) | VT equation: each degree reduces σ_θθ by 0.0018 kPa |
 | Profile | Symmetric | Unless Vτ also needed |
 | Depth | 70–75% pachymetry | Moderate depth sufficient |
@@ -154,7 +157,7 @@ With the dominant vector identified, translate to ring parameters:
 
 | Parameter | Value | Rationale |
 |-----------|-------|-----------|
-| Thickness profile | Progressive (e.g., 300→150 μm) | Generates asymmetric force couple; **peak thickness strictly subject to $RT_{max} \le CT \times 0.60$** |
+| Thickness profile | Progressive (e.g., 300→150 μm) | Generates asymmetric force couple; **peak thickness strictly subject to RT_{max} \le CT \times 0.60** |
 | Arc length | 160°–210° | Sufficient for torque generation |
 | Profile | Asymmetric (progressive) | Essential for Vτ |
 | Depth | 70–80% pachymetry | Amplifies torque |
@@ -164,17 +167,17 @@ With the dominant vector identified, translate to ring parameters:
 
 ### 11.6.4 The Law of Relative Thicknesses ("Lei das Espessuras")
 
-To prevent stromal bridge collapse, melting, localized mechanical necrosis, or pressure-induced extrusion, the AVBC protocol implements a strict safety law validated by 60 high-fidelity finite-element simulations. The **Law of Relative Thicknesses (Lei das Espessuras)** dictates that the maximum safe ring thickness ($RT_{max}$) is strictly limited by the local corneal thickness ($CT$) at the exact meridian of planned implantation:
+To prevent stromal bridge collapse, melting, localized mechanical necrosis, or pressure-induced extrusion, the AVBC protocol implements a strict safety law validated by 60 high-fidelity finite-element simulations. The **Law of Relative Thicknesses (Lei das Espessuras)** dictates that the maximum safe ring thickness (RT_{max}) is strictly limited by the local corneal thickness (CT) at the exact meridian of planned implantation:
 
-$$RT_{max} \le CT \times 0.60$$
+RT_{max} \le CT \times 0.60
 
 This proportionality rule ensures that a minimum of 40% of the local corneal thickness is preserved as a load-bearing stromal bridge over the implant. The safety threshold varies slightly based on the specific geometric profile of the segment:
 
-1. **Triangular Profiles (Ferrara / Mediphacos):** Follow the standard **0.60** boundary strictly ($RT_{max} \le CT \times 0.60$).
-2. **High-Myopia (HM) Ferrara Profiles:** Capped at a conservative **0.55** boundary ($RT_{max} \le CT \times 0.55$) due to high vertical apical stress concentrations and sharp geometric edges that pose an increased risk of stromal erosion.
-3. **Rounded Profiles (Cornealring):** Follow the standard **0.60** boundary ($RT_{max} \le CT \times 0.60$). The smoother contact mechanics and uniform stress distribution of rounded geometries provide excellent safety margins even at the upper limit of the proportionality rule.
+1. **Triangular Profiles (Ferrara / Mediphacos):** Follow the standard **0.60** boundary strictly (RT_{max} \le CT \times 0.60).
+2. **High-Myopia (HM) Ferrara Profiles:** Capped at a conservative **0.55** boundary (RT_{max} \le CT \times 0.55) due to high vertical apical stress concentrations and sharp geometric edges that pose an increased risk of stromal erosion.
+3. **Rounded Profiles (Cornealring):** Follow the standard **0.60** boundary (RT_{max} \le CT \times 0.60). The smoother contact mechanics and uniform stress distribution of rounded geometries provide excellent safety margins even at the upper limit of the proportionality rule.
 
-Before finalizing any ring prescription, the surgeon must calculate $RT_{max}$ using the local pachymetry at the implantation meridian. If the planned thickness exceeds $RT_{max}$, the prescription must be down-titrated to the nearest available segment thickness below the safety limit.
+Before finalizing any ring prescription, the surgeon must calculate RT_{max} using the local pachymetry at the implantation meridian. If the planned thickness exceeds RT_{max}, the prescription must be down-titrated to the nearest available segment thickness below the safety limit.
 
 ---
 
@@ -210,7 +213,7 @@ Before finalizing any ring prescription, the surgeon must calculate $RT_{max}$ u
 - Ring: Progressive asymmetric, 250→150 μm, arc 210°
 - Depth: 75% of 435 μm = 326 μm → channel at 325 μm
 - Meridian: ENM axis (250°), thick end superiorly
-- Expected effect: Astigmatism regularization (VT at 210° = 7.39 kPa, −5.0% from baseline) + moderate apex shift (validated $V\tau = 11.76\ \mu\text{N}\cdot\text{m}$)
+- Expected effect: Astigmatism regularization (VT at 210° = 7.39 kPa, −5.0% from baseline) + moderate apex shift (validated Vτ = 11.76 μ\text{N}\cdot\text{m})
 - Counsel patient: O~ classification → functional improvement uncertain; contact lens fitting may still be required
 
 ---

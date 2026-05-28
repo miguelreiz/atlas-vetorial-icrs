@@ -1,0 +1,1035 @@
+[
+  {
+    "pmid": null,
+    "original": "Birk DE, Fitch JM, Babiarz JP, et al. Collagen fibrillogenesis in vitro: interaction of types I and V collagen regulates fibril diameter. J Cell Sci. 1990;95(Pt 4):649–657.",
+    "index": 1
+  },
+  {
+    "pmid": null,
+    "original": "Dupps WJ Jr, Roberts CJ. Effect of acute biomechanical changes on corneal curvature after photokeratectomy. J Refract Surg. 2001;17(6):658–669.",
+    "index": 2
+  },
+  {
+    "pmid": null,
+    "original": "Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. J Cataract Refract Surg. 2014;40(6):991–998.",
+    "index": 3
+  },
+  {
+    "pmid": null,
+    "original": "Fontes BM, Ambrósio R Jr, Jardim D, et al. Corneal biomechanical metrics and anterior segment parameters in mild keratoconus. Ophthalmology. 2010;117(4):673–679.",
+    "index": 4
+  },
+  {
+    "pmid": null,
+    "original": "Godefrooij DA, de Wit GA, Uiterwaal CS, et al. Age-specific incidence and prevalence of keratoconus: a nationwide registration study. Am J Ophthalmol. 2017;175:169–172.",
+    "index": 5
+  },
+  {
+    "pmid": null,
+    "original": "Holzapfel GA, Gasser TC, Ogden RW. A new constitutive framework for arterial wall mechanics and a comparative study of material models. J Elasticity. 2000;61:1–48.",
+    "index": 6
+  },
+  {
+    "pmid": "2071337",
+    "title": "The three-dimensional organization of collagen fibrils in the human cornea and sclera.",
+    "year": "1991",
+    "authors": [
+      "Komai Y",
+      "Ushiki T"
+    ],
+    "journal": "Investigative ophthalmology & visual science",
+    "doi": "",
+    "original": "Komai Y, Ushiki T. The three-dimensional organization of collagen fibrils in the human cornea and sclera. Invest Ophthalmol Vis Sci. 1991;32(8):2244–2258.",
+    "index": 7
+  },
+  {
+    "pmid": "15721708",
+    "title": "Determining in vivo biomechanical properties of the cornea with an ocular response analyzer.",
+    "year": "2005",
+    "authors": [
+      "Luce David A"
+    ],
+    "journal": "Journal of cataract and refractive surgery",
+    "doi": "10.1016/j.jcrs.2004.10.044",
+    "original": "Luce DA. Determining in vivo biomechanical properties of the cornea with an ocular response analyzer. J Cataract Refract Surg. 2005;31(1):156–162.",
+    "index": 8
+  },
+  {
+    "pmid": "13429485",
+    "title": "The structure and transparency of the cornea.",
+    "year": "1957",
+    "authors": [
+      "MAURICE D M"
+    ],
+    "journal": "The Journal of physiology",
+    "doi": "10.1113/jphysiol.1957.sp005758",
+    "original": "Maurice DM. The structure and transparency of the cornea. J Physiol. 1957;136(2):263–286.",
+    "index": 9
+  },
+  {
+    "pmid": "28509987",
+    "title": "Corneal collagen-its role in maintaining corneal shape and transparency.",
+    "year": "2009",
+    "authors": [
+      "Meek Keith M"
+    ],
+    "journal": "Biophysical reviews",
+    "doi": "10.1007/s12551-009-0011-x",
+    "original": "Meek KM. Corneal collagen — its role in maintaining corneal shape and transparency. Biophys Rev. 2009;1(2):83–93.",
+    "index": 10
+  },
+  {
+    "pmid": "32555309",
+    "title": "The effect of bacteriochlorophyll derivative WST-D and near infrared light on the molecular and fibrillar architecture of the corneal stroma.",
+    "year": "2020",
+    "authors": [
+      "Hayes S",
+      "Aldahlawi N",
+      "Marcovich A L",
+      "Brekelmans J",
+      "Goz A",
+      "Scherz A",
+      "Young R D",
+      "Bell J S",
+      "O'Brart D P",
+      "Nuijts R M M A",
+      "Meek K M"
+    ],
+    "journal": "Scientific reports",
+    "doi": "10.1038/s41598-020-66869-y",
+    "original": "Meek KM, Boote C. The organization of collagen in the corneal stroma. Exp Eye Res. 2004;78(3):503–512.",
+    "index": 11
+  },
+  {
+    "pmid": "38396030",
+    "title": "Structural control of corneal transparency, refractive power and dynamics.",
+    "year": "2025",
+    "authors": [
+      "Meek Keith M",
+      "Knupp Carlo",
+      "Lewis Philip N",
+      "Morgan Siân R",
+      "Hayes Sally"
+    ],
+    "journal": "Eye (London, England)",
+    "doi": "10.1038/s41433-024-02969-7",
+    "original": "Meek KM, Knupp C. Corneal structure and transparency. Prog Retin Eye Res. 2015;49:1–16.",
+    "index": 12
+  },
+  {
+    "pmid": null,
+    "original": "Meek KM, Tuft SJ, Huang Y, et al. Changes in collagen orientation and distribution in keratoconus corneas. Invest Ophthalmol Vis Sci. 2005;46(6):1948–1956.",
+    "index": 13
+  },
+  {
+    "pmid": null,
+    "original": "Nguyen BA, Roberts CJ, Reilly MA. Biomechanical impact of the sclera on corneal deformation response to an air-puff: a finite-element study. Front Bioeng Biotechnol. 2018;6:210.",
+    "index": 14
+  },
+  {
+    "pmid": null,
+    "original": "Pandolfi A, Manganiello F. A model for the human cornea: constitutive formulation and numerical analysis. Biomech Model Mechanobiol. 2006;5(4):237–246.",
+    "index": 15
+  },
+  {
+    "pmid": null,
+    "original": "Quantock AJ, Young RD, Akama TO. Structural and biochemical aspects of keratan sulphate in the cornea. Cell Mol Life Sci. 2010;67(6):891–906.",
+    "index": 16
+  },
+  {
+    "pmid": null,
+    "original": "Scarcelli G, Besner S, Pineda R, et al. In vivo biomechanical mapping of normal and keratoconus corneas. JAMA Ophthalmol. 2015;133(4):480–482.",
+    "index": 17
+  },
+  {
+    "pmid": null,
+    "original": "Scarcelli G, Pineda R, Yun SH. Brillouin optical microscopy for corneal biomechanics. Invest Ophthalmol Vis Sci. 2012;53(1):185–190.",
+    "index": 18
+  },
+  {
+    "pmid": null,
+    "original": "Seppälä HP, Määttä M, Rautia M, et al. EMMPRIN and MMP-1 in keratoconus. Cornea. 2006;25(3):325–330.",
+    "index": 19
+  },
+  {
+    "pmid": null,
+    "original": "Thomasy SM, Raghunathan VK, Winkler M, et al. Elastic modulus and collagen organization of the rabbit cornea: epithelium to endothelium. Acta Biomater. 2014;10(2):785–791.",
+    "index": 20
+  },
+  {
+    "pmid": null,
+    "original": "Torres Netto EA, Al-Otaibi WM, Hafezi NL, et al. Prevalence of keratoconus in paediatric patients in Riyadh, Saudi Arabia. Br J Ophthalmol. 2018;102(10):1436–1441.",
+    "index": 21
+  },
+  {
+    "pmid": null,
+    "original": "Winkler M, Shoa G, Xie Y, et al. Three-dimensional distribution of transverse collagen fibers in the anterior human corneal stroma. Invest Ophthalmol Vis Sci. 2013;54(12):7293–7301.",
+    "index": 22
+  },
+  {
+    "pmid": null,
+    "original": "Wollensak G, Spoerl E, Seiler T. Stress-strain measurements of human and porcine corneas after riboflavin-ultraviolet-A-induced cross-linking. J Cataract Refract Surg. 2003;29(9):1780–1785.",
+    "index": 23
+  },
+  {
+    "pmid": "5334910",
+    "title": "Modification of refraction by means of intracorneal inclusions.",
+    "year": "1966",
+    "authors": [
+      "Barraquer J I"
+    ],
+    "journal": "International ophthalmology clinics",
+    "doi": "",
+    "original": "Barraquer JI. Modification of refraction by means of intracorneal inclusions. Int Ophthalmol Clin. 1966;6(1):53–78.",
+    "index": 24
+  },
+  {
+    "pmid": "2488804",
+    "title": "Basis of refractive keratoplasty--1967.",
+    "year": "1989",
+    "authors": [
+      "Barraquer J I"
+    ],
+    "journal": "Refractive & corneal surgery",
+    "doi": "",
+    "original": "Barraquer JI. Basis of refractive keratoplasty - 1967. Revue Med (Bogota). 1967;33(1). [PMID: 2488804]",
+    "index": 25
+  },
+  {
+    "pmid": null,
+    "original": "Burris TE, Ayer CT, Evensen DA, et al. Effects of intrastromal corneal ring size and thickness on corneal flattening in human eyes. Refract Corneal Surg. 1991;7(1):46–50.",
+    "index": 26
+  },
+  {
+    "pmid": null,
+    "original": "Colin J, Cochener B, Savary G, et al. Correcting keratoconus with intracorneal rings. J Cataract Refract Surg. 2000;26(8):1117–1122.",
+    "index": 27
+  },
+  {
+    "pmid": null,
+    "original": "Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. J Cataract Refract Surg. 2014;40(6):991–998. [PMID: 24774009]",
+    "index": 28
+  },
+  {
+    "pmid": null,
+    "original": "García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. PLoS One. 2021;16(1):e0245063.",
+    "index": 29
+  },
+  {
+    "pmid": null,
+    "original": "Holzapfel GA, Gasser TC, Ogden RW. A new constitutive framework for arterial wall mechanics and a comparative study of material models. J Elasticity. 2000;61:1–48.",
+    "index": 30
+  },
+  {
+    "pmid": null,
+    "original": "Kling S, Marcos S. Finite-element modeling of intrastromal corneal-ring segment implantation into a hyperelastic cornea. Invest Ophthalmol Vis Sci. 2013;54(1):881–889. [PMID: 23299471]",
+    "index": 31
+  },
+  {
+    "pmid": "38396030",
+    "title": "Structural control of corneal transparency, refractive power and dynamics.",
+    "year": "2025",
+    "authors": [
+      "Meek Keith M",
+      "Knupp Carlo",
+      "Lewis Philip N",
+      "Morgan Siân R",
+      "Hayes Sally"
+    ],
+    "journal": "Eye (London, England)",
+    "doi": "10.1038/s41433-024-02969-7",
+    "original": "Meek KM, Knupp C. Corneal structure and transparency. Prog Retin Eye Res. 2015;49:1–16.",
+    "index": 32
+  },
+  {
+    "pmid": null,
+    "original": "Nguyen BA, Roberts CJ, Reilly MA. Biomechanical impact of the sclera on corneal deformation response to an air-puff. Front Bioeng Biotechnol. 2018;6:210.",
+    "index": 33
+  },
+  {
+    "pmid": null,
+    "original": "Piñero DP, Alcón N. Corneal biomechanics: a review. Clin Exp Optom. 2015;98(2):107–116.",
+    "index": 34
+  },
+  {
+    "pmid": null,
+    "original": "Torquetti L, Berbel RF, Ferrara P. Long-term follow-up of intrastromal corneal ring segments in keratoconus. J Cataract Refract Surg. 2009;35(10):1768–1773.",
+    "index": 35
+  },
+  {
+    "pmid": null,
+    "original": "Vega-Estrada A, Alió JL, Plaza-Puche AB. Keratoconus progression after intrastromal corneal ring segment implantation. Cornea. 2013;32(5):611–616.",
+    "index": 36
+  },
+  {
+    "pmid": null,
+    "original": "Alió JL, Shabayek MH, Artola A. Intracorneal ring segments for keratoconus correction: long-term follow-up. J Cataract Refract Surg. 2006;32(6):978–985.",
+    "index": 37
+  },
+  {
+    "pmid": null,
+    "original": "Coskunseven E, Kymionis GD, Tsiklis NS, et al. One-year results of intrastromal corneal ring segment implantation (KeraRing) using femtosecond laser in patients with keratoconus. Am J Ophthalmol. 2008;145(5):775–779.",
+    "index": 38
+  },
+  {
+    "pmid": null,
+    "original": "Dupps WJ Jr, Roberts CJ. Corneal biomechanics: a decade of progress. J Cataract Refract Surg. 2014;40(3):333–339.",
+    "index": 39
+  },
+  {
+    "pmid": "34058904",
+    "title": "Corneal densitometry in patients with keratoconus undergoing intrastromal Ferrara ring implantation.",
+    "year": "2021",
+    "authors": [
+      "Rodrigues Pablo Felipe",
+      "Moscovici Bernardo Kaplan",
+      "Ferrara Guilherme",
+      "Lamazales Luciano",
+      "Freitas Marcela Mara Silva",
+      "Torquetti Leonardo",
+      "Ambrósio Renato",
+      "Gomes José Alvaro Pereira"
+    ],
+    "journal": "European journal of ophthalmology",
+    "doi": "10.1177/11206721211020631",
+    "original": "Ferrara G, Torquetti L, Ferrara P. Long-term follow-up of intrastromal corneal ring segments in keratoconus. J Refract Surg. 2011;27(9):702–703.",
+    "index": 40
+  },
+  {
+    "pmid": null,
+    "original": "Piñero DP, Alio JL, Teus MA, Barraquer RI, Uceda-Montañés A. Modeling the intracorneal ring segment effect in keratoconus using refractive, keratometric, and corneal aberrometric data. Invest Ophthalmol Vis Sci. 2010;51(11):5583–5591.",
+    "index": 41
+  },
+  {
+    "pmid": "34058904",
+    "title": "Corneal densitometry in patients with keratoconus undergoing intrastromal Ferrara ring implantation.",
+    "year": "2021",
+    "authors": [
+      "Rodrigues Pablo Felipe",
+      "Moscovici Bernardo Kaplan",
+      "Ferrara Guilherme",
+      "Lamazales Luciano",
+      "Freitas Marcela Mara Silva",
+      "Torquetti Leonardo",
+      "Ambrósio Renato",
+      "Gomes José Alvaro Pereira"
+    ],
+    "journal": "European journal of ophthalmology",
+    "doi": "10.1177/11206721211020631",
+    "original": "Torquetti L, Ferrara P. Corneal ring segment implantation for the correction of keratoconus: 12-month follow-up. J Emmetropia. 2009;1(1):22–28.",
+    "index": 42
+  },
+  {
+    "pmid": "11165856",
+    "title": "Astigmatism analysis by the Alpins method.",
+    "year": "2001",
+    "authors": [
+      "Alpins N"
+    ],
+    "journal": "Journal of cataract and refractive surgery",
+    "doi": "10.1016/s0886-3350(00)00798-7",
+    "original": "Alpins N. A new method of analyzing vectors for changes in astigmatism. J Cataract Refract Surg. 1993;19(4):524-533.",
+    "index": 43
+  },
+  {
+    "pmid": null,
+    "original": "Ferrara P, Torquetti L. Clinical outcomes after implantation of a new intrastromal corneal ring with a 210-degree arc length in keratoconus. Cornea. 2009;28(9):989-992.",
+    "index": 44
+  },
+  {
+    "pmid": "16805116",
+    "title": "Corneal higher order aberrations: a method to grade keratoconus.",
+    "year": "2006",
+    "authors": [
+      "Alió Jorge L",
+      "Shabayek Mohamed H"
+    ],
+    "journal": "Journal of refractive surgery (Thorofare, N.J. : 1995)",
+    "doi": "10.3928/1081-597X-20060601-05",
+    "original": "Alió JL, Shabayek MH. Corneal higher order aberrations: a method to grade keratoconus. J Refract Surg. 2006;22(6):539-545.",
+    "index": 45
+  },
+  {
+    "pmid": null,
+    "original": "Alfonso JG, Lisa C, Fernández-Vega Cueto L, et al. Intrastromal corneal ring segments and posterior chamber phakic intraocular lens implantation for keratoconus correction. J Cataract Refract Surg. 2011;37(4):706–715.",
+    "index": 46
+  },
+  {
+    "pmid": null,
+    "original": "Peris-Martínez C, Hernández-Verdejo JL, Ceballos-Torres S, et al. Intracorneal ring segments in keratoconus: a comprehensive review. Surv Ophthalmol. 2021;66(5):835–858.",
+    "index": 47
+  },
+  {
+    "pmid": "23299471",
+    "title": "Finite-element modeling of intrastromal ring segment implantation into a hyperelastic cornea.",
+    "year": "2013",
+    "authors": [
+      "Kling Sabine",
+      "Marcos Susana"
+    ],
+    "journal": "Investigative ophthalmology & visual science",
+    "doi": "10.1167/iovs.12-10852",
+    "original": "Kling S, Marcos S. Finite-element modeling of intrastromal ring segment implantation into a hyperelastic cornea. Invest Ophthalmol Vis Sci. 2013;54(1):881–889.",
+    "index": 48
+  },
+  {
+    "pmid": "38396030",
+    "title": "Structural control of corneal transparency, refractive power and dynamics.",
+    "year": "2025",
+    "authors": [
+      "Meek Keith M",
+      "Knupp Carlo",
+      "Lewis Philip N",
+      "Morgan Siân R",
+      "Hayes Sally"
+    ],
+    "journal": "Eye (London, England)",
+    "doi": "10.1038/s41433-024-02969-7",
+    "original": "Meek KM, Knupp C. Corneal structure and transparency. Prog Retin Eye Res. 2015;49:1–16.",
+    "index": 49
+  },
+  {
+    "pmid": null,
+    "original": "Alió JL, Shabayek MH, Belda JI. Semifluorinated KeraRing segments for keratoconus. J Refract Surg. 2006;22(2):149–157.",
+    "index": 50
+  },
+  {
+    "pmid": null,
+    "original": "Roberts CJ, Dupps WJ Jr. Biomechanics of corneal ectasia and biomechanical treatments. J Cataract Refract Surg. 2014;40(6):991–998.",
+    "index": 51
+  },
+  {
+    "pmid": "2488804",
+    "title": "Basis of refractive keratoplasty--1967.",
+    "year": "1989",
+    "authors": [
+      "Barraquer J I"
+    ],
+    "journal": "Refractive & corneal surgery",
+    "doi": "",
+    "original": "Barraquer JI. Refractive keratoplasty. J Ibero-Latino-Amer. Ophthalmol. 1967;1:123–145.",
+    "index": 52
+  },
+  {
+    "pmid": null,
+    "original": "Alió JL, Shabayek MH, Artola A. Intrastromal corneal ring segments for keratoconus in 120 eyes. Ophthalmology. 2006;113(9):1517–1524.",
+    "index": 53
+  },
+  {
+    "pmid": null,
+    "original": "Roberts CJ, Dupps WJ Jr. Biomechanics of corneal ectasia and biomechanical treatments. J Cataract Refract Surg. 2014;40(6):991–998.",
+    "index": 54
+  },
+  {
+    "pmid": "23299471",
+    "title": "Finite-element modeling of intrastromal ring segment implantation into a hyperelastic cornea.",
+    "year": "2013",
+    "authors": [
+      "Kling Sabine",
+      "Marcos Susana"
+    ],
+    "journal": "Investigative ophthalmology & visual science",
+    "doi": "10.1167/iovs.12-10852",
+    "original": "Kling S, Marcos S. Finite-element modeling of intrastromal ring segment implantation into a hyperelastic cornea. Invest Ophthalmol Vis Sci. 2013;54(1):881–889.",
+    "index": 55
+  },
+  {
+    "pmid": "16805116",
+    "title": "Corneal higher order aberrations: a method to grade keratoconus.",
+    "year": "2006",
+    "authors": [
+      "Alió Jorge L",
+      "Shabayek Mohamed H"
+    ],
+    "journal": "Journal of refractive surgery (Thorofare, N.J. : 1995)",
+    "doi": "10.3928/1081-597X-20060601-05",
+    "original": "Alió JL, Shabayek MH. Corneal higher order aberrations: a method to grade keratoconus. Journal of Refractive Surgery. 2006;22(6):539–545.",
+    "index": 56
+  },
+  {
+    "pmid": null,
+    "original": "Alpins NA. A new method of analyzing vectors of astigmatism to compare the effects of refractive surgery. Journal of Cataract and Refractive Surgery. 1993;19(4):524–533.",
+    "index": 57
+  },
+  {
+    "pmid": "11165856",
+    "title": "Astigmatism analysis by the Alpins method.",
+    "year": "2001",
+    "authors": [
+      "Alpins N"
+    ],
+    "journal": "Journal of cataract and refractive surgery",
+    "doi": "10.1016/s0886-3350(00)00798-7",
+    "original": "Alpins NA. Astigmatism analysis by the Alpins method. Journal of Cataract and Refractive Surgery. 2001;27(1):31–49.",
+    "index": 58
+  },
+  {
+    "pmid": "14711444",
+    "title": "Practical astigmatism analysis for refractive outcomes in cataract and refractive surgery.",
+    "year": "2004",
+    "authors": [
+      "Alpins Noel A",
+      "Goggin Michael"
+    ],
+    "journal": "Survey of ophthalmology",
+    "doi": "10.1016/j.survophthal.2003.10.010",
+    "original": "Alpins NA, Goggin M. Practical astigmatism analysis for refractive outcomes in cataract and refractive surgery. Survey of Ophthalmology. 2004;49(1):109–122.",
+    "index": 59
+  },
+  {
+    "pmid": null,
+    "original": "Dupps WJ Jr, Roberts CJ. Corneal biomechanics: a decade of progress. Journal of Cataract and Refractive Surgery. 2014;40(3):333–338.",
+    "index": 60
+  },
+  {
+    "pmid": "9850884",
+    "title": "Reporting astigmatism data.",
+    "year": "1998",
+    "authors": [
+      "Koch D D"
+    ],
+    "journal": "Journal of cataract and refractive surgery",
+    "doi": "10.1016/s0886-3350(98)80335-0",
+    "original": "Koch DD. Reporting astigmatism data. Journal of Cataract and Refractive Surgery. 1997;23(10):1441–1442.",
+    "index": 61
+  },
+  {
+    "pmid": null,
+    "original": "Lago MA, Rupérez MJ, Monserrat C, et al. Patient-specific simulation of the intrastromal ring segment implantation in corneas with keratoconus. Journal of the Mechanical Behavior of Biomedical Materials. 2015;51:260–268.",
+    "index": 62
+  },
+  {
+    "pmid": "2258811",
+    "title": "Conversion of keratometer readings to polar values.",
+    "year": "1990",
+    "authors": [
+      "Naeser K"
+    ],
+    "journal": "Journal of cataract and refractive surgery",
+    "doi": "10.1016/s0886-3350(13)81018-8",
+    "original": "Naeser K. Conversion of keratometer readings to polar values. Journal of Cataract and Refractive Surgery. 1990;16(6):741–745.",
+    "index": 63
+  },
+  {
+    "pmid": null,
+    "original": "Peña-García P, Alió JL, Vega-Estrada A, Barraquer RI. Internal, corneal, and refractive astigmatism as prognostic factors for intrastromal corneal ring segment implantation in mild to moderate keratoconus. Journal of Cataract and Refractive Surgery. 2014;40(10):1633–1644.",
+    "index": 64
+  },
+  {
+    "pmid": null,
+    "original": "Piñero DP, Alió JL, Teus MA, Barraquer RI, Michael R, Jiménez R. Modification and refinement of the corneal asphericity after intrastromal corneal ring segment implantation in keratoconus. Cornea. 2009;28(7):747–752.",
+    "index": 65
+  },
+  {
+    "pmid": "24175646",
+    "title": "Technologies for anatomical and geometric characterization of the corneal structure and anterior segment: a review.",
+    "year": "2015",
+    "authors": [
+      "Piñero David P"
+    ],
+    "journal": "Seminars in ophthalmology",
+    "doi": "10.3109/08820538.2013.835844",
+    "original": "Piñero DP. Technologies for anatomical and geometric characterization of the corneal structure and anterior segment: a review. Clinical and Experimental Optometry. 2014;97(1):5–18.",
+    "index": 66
+  },
+  {
+    "pmid": null,
+    "original": "Reinstein DZ, Archer TJ, Randleman JB. JRS standard for reporting astigmatism outcomes of refractive surgery. Journal of Refractive Surgery. 2014;30(11):734–736.",
+    "index": 67
+  },
+  {
+    "pmid": null,
+    "original": "Thibos LN, Wheeler W, Horner D. Power vectors: an application of Fourier analysis to the description and statistical analysis of refractive error. Optometry and Vision Science. 1997;74(6):367–375.",
+    "index": 68
+  },
+  {
+    "pmid": null,
+    "original": "Vega-Estrada A, Alió JL, Brenner LF, Burguera N. Outcomes of intrastromal corneal ring segments for treatment of keratoconus: five-year follow-up analysis. Journal of Cataract and Refractive Surgery. 2013;39(8):1234–1240.",
+    "index": 69
+  },
+  {
+    "pmid": "16805116",
+    "title": "Corneal higher order aberrations: a method to grade keratoconus.",
+    "year": "2006",
+    "authors": [
+      "Alió Jorge L",
+      "Shabayek Mohamed H"
+    ],
+    "journal": "Journal of refractive surgery (Thorofare, N.J. : 1995)",
+    "doi": "10.3928/1081-597X-20060601-05",
+    "original": "Alió JL, Shabayek MH. Corneal higher order aberrations: a method to grade keratoconus. J Refract Surg. 2006;22(6):539–545.",
+    "index": 70
+  },
+  {
+    "pmid": "11165856",
+    "title": "Astigmatism analysis by the Alpins method.",
+    "year": "2001",
+    "authors": [
+      "Alpins N"
+    ],
+    "journal": "Journal of cataract and refractive surgery",
+    "doi": "10.1016/s0886-3350(00)00798-7",
+    "original": "Alpins NA. Astigmatism analysis by the Alpins method. J Cataract Refract Surg. 2001;27(1):31–49.",
+    "index": 71
+  },
+  {
+    "pmid": null,
+    "original": "Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. J Cataract Refract Surg. 2014;40(6):991–998.",
+    "index": 72
+  },
+  {
+    "pmid": null,
+    "original": "Ferrara P, Torquetti L. Clinical nomograms for Intacs and Ferrara ring segments. In: Keratoconus and Keratoectasia. Springer; 2017.",
+    "index": 73
+  },
+  {
+    "pmid": null,
+    "original": "García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. PLoS One. 2021;16(1):e0245063.",
+    "index": 74
+  },
+  {
+    "pmid": "23299471",
+    "title": "Finite-element modeling of intrastromal ring segment implantation into a hyperelastic cornea.",
+    "year": "2013",
+    "authors": [
+      "Kling Sabine",
+      "Marcos Susana"
+    ],
+    "journal": "Investigative ophthalmology & visual science",
+    "doi": "10.1167/iovs.12-10852",
+    "original": "Kling S, Marcos S. Finite-element modeling of ICRS in a hyperelastic cornea. Invest Ophthalmol Vis Sci. 2013;54(1):881–889.",
+    "index": 75
+  },
+  {
+    "pmid": null,
+    "original": "Maeda N, Klyce SD, Smolek MK. Comparison of methods for detecting keratoconus. Arch Ophthalmol. 2002;120(5):601–607.",
+    "index": 76
+  },
+  {
+    "pmid": null,
+    "original": "Piñero DP, Alcón N. Corneal biomechanics: a review. Clin Exp Optom. 2015;98(2):107–116.",
+    "index": 77
+  },
+  {
+    "pmid": null,
+    "original": "Rabinowitz YS, Rasheed K. KISA% index: a quantitative videokeratography algorithm. J Cataract Refract Surg. 1999;25(10):1327–1335.",
+    "index": 78
+  },
+  {
+    "pmid": null,
+    "original": "Vega-Estrada A, Alió JL. Keratoconus progression after ICRS implantation. Cornea. 2013;32(5):611–616.",
+    "index": 79
+  },
+  {
+    "pmid": null,
+    "original": "Reis M, Sandes J. Análise Vetorial Biomecânica Corneana (AVBC): Vetores de Força Biomecânica Corneana para Implante de Segmentos de Anel Intraestromal. Presente volume; 2026.",
+    "index": 80
+  },
+  {
+    "pmid": "16805116",
+    "title": "Corneal higher order aberrations: a method to grade keratoconus.",
+    "year": "2006",
+    "authors": [
+      "Alió Jorge L",
+      "Shabayek Mohamed H"
+    ],
+    "journal": "Journal of refractive surgery (Thorofare, N.J. : 1995)",
+    "doi": "10.3928/1081-597X-20060601-05",
+    "original": "Alió JL, Shabayek MH. Corneal higher order aberrations: a method to grade keratoconus. J Refract Surg. 2006;22(6):539–545.",
+    "index": 81
+  },
+  {
+    "pmid": "11165856",
+    "title": "Astigmatism analysis by the Alpins method.",
+    "year": "2001",
+    "authors": [
+      "Alpins N"
+    ],
+    "journal": "Journal of cataract and refractive surgery",
+    "doi": "10.1016/s0886-3350(00)00798-7",
+    "original": "Alpins NA. A new method of analyzing vectors for changes in astigmatism. J Cataract Refract Surg. 1993;19(4):524–533.",
+    "index": 82
+  },
+  {
+    "pmid": null,
+    "original": "Colin J, Cochener B, Savary G, et al. Correcting keratoconus with intracorneal rings. J Cataract Refract Surg. 2000;26(8):1117–1122.",
+    "index": 83
+  },
+  {
+    "pmid": null,
+    "original": "Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. J Cataract Refract Surg. 2014;40(6):991–998.",
+    "index": 84
+  },
+  {
+    "pmid": null,
+    "original": "Ferrara de Almeida Cunha P. Intrastromal corneal ring. Arq Bras Oftalmol. 1997;60:631–640.",
+    "index": 85
+  },
+  {
+    "pmid": null,
+    "original": "García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. PLoS One. 2021;16(1):e0245063.",
+    "index": 86
+  },
+  {
+    "pmid": "38950043",
+    "title": "Correction: Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model.",
+    "year": "2024",
+    "authors": [
+      "García de Oteyza Gonzalo",
+      "Álvarez de Toledo Juan",
+      "Barraquer Rafael I",
+      "Kling Sabine"
+    ],
+    "journal": "PloS one",
+    "doi": "10.1371/journal.pone.0306652",
+    "original": "Kling S, Marcos S. Finite-element modeling of intracorneal ring segment implantation into a hyperelastic cornea. Invest Ophthalmol Vis Sci. 2013;54(1):881–889.",
+    "index": 87
+  },
+  {
+    "pmid": null,
+    "original": "Piñero DP, Alcón N. Corneal biomechanics: a review. Clin Exp Optom. 2015;98(2):107–116.",
+    "index": 88
+  },
+  {
+    "pmid": "42207012",
+    "title": "Predictive Value of Intraoperative Parathyroid Hormone Levels via Central vs Peripheral Sampling.",
+    "year": "2026",
+    "authors": [
+      "Paz Stephanie I",
+      "Rabinowitz Seth",
+      "Turner Douglas J",
+      "Hu Yinin"
+    ],
+    "journal": "The American surgeon",
+    "doi": "10.1177/00031348261455084",
+    "original": "Rabinowitz YS. Keratoconus. Surv Ophthalmol. 1998;42(4):297–319.",
+    "index": 89
+  },
+  {
+    "pmid": null,
+    "original": "Torquetti L, Berbel RF, Ferrara P. Long-term follow-up of intrastromal corneal ring segments in keratoconus. J Cataract Refract Surg. 2009;35(10):1768–1773.",
+    "index": 90
+  },
+  {
+    "pmid": null,
+    "original": "Vega-Estrada A, Alió JL, Plaza-Puche AB. Keratoconus progression after intrastromal corneal ring segment implantation. Cornea. 2013;32(5):611–616.",
+    "index": 91
+  },
+  {
+    "pmid": "16805116",
+    "title": "Corneal higher order aberrations: a method to grade keratoconus.",
+    "year": "2006",
+    "authors": [
+      "Alió Jorge L",
+      "Shabayek Mohamed H"
+    ],
+    "journal": "Journal of refractive surgery (Thorofare, N.J. : 1995)",
+    "doi": "10.3928/1081-597X-20060601-05",
+    "original": "Alió JL, Shabayek MH. Corneal higher order aberrations: a method to grade keratoconus. J Refract Surg. 2006;22(6):539–545.",
+    "index": 92
+  },
+  {
+    "pmid": null,
+    "original": "Colin J, Cochener B, Savary G, et al. Correcting keratoconus with intracorneal rings. J Cataract Refract Surg. 2000;26(8):1117–1122.",
+    "index": 93
+  },
+  {
+    "pmid": null,
+    "original": "Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. J Cataract Refract Surg. 2014;40(6):991–998.",
+    "index": 94
+  },
+  {
+    "pmid": null,
+    "original": "Ferrara de Almeida Cunha P. Intrastromal corneal ring. Arq Bras Oftalmol. 1997;60:631–640.",
+    "index": 95
+  },
+  {
+    "pmid": null,
+    "original": "García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. PLoS One. 2021;16(1):e0245063.",
+    "index": 96
+  },
+  {
+    "pmid": "23299471",
+    "title": "Finite-element modeling of intrastromal ring segment implantation into a hyperelastic cornea.",
+    "year": "2013",
+    "authors": [
+      "Kling Sabine",
+      "Marcos Susana"
+    ],
+    "journal": "Investigative ophthalmology & visual science",
+    "doi": "10.1167/iovs.12-10852",
+    "original": "Kling S, Marcos S. Finite-element modeling of ICRS in a hyperelastic cornea. Invest Ophthalmol Vis Sci. 2013;54(1):881–889.",
+    "index": 97
+  },
+  {
+    "pmid": null,
+    "original": "Piñero DP, Alcón N. Corneal biomechanics: a review. Clin Exp Optom. 2015;98(2):107–116.",
+    "index": 98
+  },
+  {
+    "pmid": "42207012",
+    "title": "Predictive Value of Intraoperative Parathyroid Hormone Levels via Central vs Peripheral Sampling.",
+    "year": "2026",
+    "authors": [
+      "Paz Stephanie I",
+      "Rabinowitz Seth",
+      "Turner Douglas J",
+      "Hu Yinin"
+    ],
+    "journal": "The American surgeon",
+    "doi": "10.1177/00031348261455084",
+    "original": "Rabinowitz YS. Keratoconus. Surv Ophthalmol. 1998;42(4):297–319.",
+    "index": 99
+  },
+  {
+    "pmid": "34058904",
+    "title": "Corneal densitometry in patients with keratoconus undergoing intrastromal Ferrara ring implantation.",
+    "year": "2021",
+    "authors": [
+      "Rodrigues Pablo Felipe",
+      "Moscovici Bernardo Kaplan",
+      "Ferrara Guilherme",
+      "Lamazales Luciano",
+      "Freitas Marcela Mara Silva",
+      "Torquetti Leonardo",
+      "Ambrósio Renato",
+      "Gomes José Alvaro Pereira"
+    ],
+    "journal": "European journal of ophthalmology",
+    "doi": "10.1177/11206721211020631",
+    "original": "Torquetti L, Ferrara P. Long-term follow-up of ICRS in keratoconus. J Cataract Refract Surg. 2009;35(10):1768–1773.",
+    "index": 100
+  },
+  {
+    "pmid": null,
+    "original": "Vega-Estrada A, Alió JL. Keratoconus progression after ICRS implantation. Cornea. 2013;32(5):611–616.",
+    "index": 101
+  },
+  {
+    "pmid": null,
+    "original": "Wollensak G, Spoerl E, Seiler T. Stress-strain measurements after riboflavin-UVA crosslinking. J Cataract Refract Surg. 2003;29(9):1780–1785.",
+    "index": 102
+  },
+  {
+    "pmid": null,
+    "original": "Holzapfel GA, Gasser TC, Ogden RW. A new constitutive framework for arterial wall mechanics and a comparative study of material models. J Elasticity. 2000;61:1-48.",
+    "index": 103
+  },
+  {
+    "pmid": null,
+    "original": "Pinsky PM, van der Heide D, Chernyak D. Computational modeling of mechanical anisotropy in the cornea and sclera. J Cataract Refract Surg. 2005;31(1):136-145.",
+    "index": 104
+  },
+  {
+    "pmid": null,
+    "original": "Maas SA, Ellis BJ, Ateshian GA, Weiss JA. FEBio: finite elements for biomechanics. J Biomech Eng. 2012;134(1):011005.",
+    "index": 105
+  },
+  {
+    "pmid": null,
+    "original": "Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. J Cataract Refract Surg. 2014;40(6):991–998.",
+    "index": 106
+  },
+  {
+    "pmid": null,
+    "original": "García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. PLoS One. 2021;16(1):e0245063.",
+    "index": 107
+  },
+  {
+    "pmid": "23299471",
+    "title": "Finite-element modeling of intrastromal ring segment implantation into a hyperelastic cornea.",
+    "year": "2013",
+    "authors": [
+      "Kling Sabine",
+      "Marcos Susana"
+    ],
+    "journal": "Investigative ophthalmology & visual science",
+    "doi": "10.1167/iovs.12-10852",
+    "original": "Kling S, Marcos S. Finite-element modeling of ICRS in a hyperelastic cornea. Invest Ophthalmol Vis Sci. 2013;54(1):881–889.",
+    "index": 108
+  },
+  {
+    "pmid": null,
+    "original": "Nguyen BA, Roberts CJ, Reilly MA. Biomechanical impact of the sclera on corneal deformation response. Front Bioeng Biotechnol. 2018;6:210.",
+    "index": 109
+  },
+  {
+    "pmid": null,
+    "original": "Pandolfi A, Gizzi A, Vasta M. A microstructural model of cross-link interaction between collagen fibrils in the human cornea. Phil Trans R Soc A. 2019;377(2144):20180079.",
+    "index": 110
+  },
+  {
+    "pmid": null,
+    "original": "Scarcelli G, Besner S, Pineda R, et al. In vivo biomechanical mapping of normal and keratoconus corneas. JAMA Ophthalmol. 2015;133(4):480–482.",
+    "index": 111
+  },
+  {
+    "pmid": null,
+    "original": "Simonini I, Angelillo M, Pandolfi A. Theoretical and computational analysis of the biomechanics of ICRS for keratoconus. J Mech Behav Biomed Mater. 2015;51:260–275.",
+    "index": 112
+  },
+  {
+    "pmid": null,
+    "original": "Wollensak G, Spoerl E, Seiler T. Riboflavin/UVA crosslinking. J Cataract Refract Surg. 2003;29(9):1780–1785.",
+    "index": 113
+  },
+  {
+    "pmid": null,
+    "original": "Alpins NA. ASSORT (Alpins Statistical System for Ophthalmic Refractive surgery Techniques). User Manual, Version 7.0, 2015.",
+    "index": 114
+  },
+  {
+    "pmid": "8271166",
+    "title": "An improved universal theoretical formula for intraocular lens power prediction.",
+    "year": "1993",
+    "authors": [
+      "Barrett G D"
+    ],
+    "journal": "Journal of cataract and refractive surgery",
+    "doi": "10.1016/s0886-3350(13)80339-2",
+    "original": "Barrett GD. An improved universal theoretical formula for intraocular lens power prediction. J Cataract Refract Surg. 2015;41(3):589–599.",
+    "index": 115
+  },
+  {
+    "pmid": null,
+    "original": "Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia. J Cataract Refract Surg. 2014;40(6):991–998.",
+    "index": 116
+  },
+  {
+    "pmid": null,
+    "original": "García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. PLoS One. 2021;16(1):e0245063.",
+    "index": 117
+  },
+  {
+    "pmid": "23299471",
+    "title": "Finite-element modeling of intrastromal ring segment implantation into a hyperelastic cornea.",
+    "year": "2013",
+    "authors": [
+      "Kling Sabine",
+      "Marcos Susana"
+    ],
+    "journal": "Investigative ophthalmology & visual science",
+    "doi": "10.1167/iovs.12-10852",
+    "original": "Kling S, Marcos S. FEM of ICRS in a hyperelastic cornea. Invest Ophthalmol Vis Sci. 2013;54(1):881–889.",
+    "index": 118
+  },
+  {
+    "pmid": null,
+    "original": "Maas SA, Ellis BJ, Ateshian GA, Weiss JA. FEBio: finite elements for biomechanics. J Biomech Eng. 2012;134(1):011005.",
+    "index": 119
+  },
+  {
+    "pmid": null,
+    "original": "Piñero DP. Corneal biomechanics: a review. Clin Exp Optom. 2015;98(2):107–116.",
+    "index": 120
+  },
+  {
+    "pmid": null,
+    "original": "Simonini I, Pandolfi A. Customized finite element modelling of the human cornea. PLoS One. 2015;10(6):e0130426.",
+    "index": 121
+  },
+  {
+    "pmid": "11165856",
+    "title": "Astigmatism analysis by the Alpins method.",
+    "year": "2001",
+    "authors": [
+      "Alpins N"
+    ],
+    "journal": "Journal of cataract and refractive surgery",
+    "doi": "10.1016/s0886-3350(00)00798-7",
+    "original": "Alpins NA. A new method of analyzing vectors for changes in astigmatism. J Cataract Refract Surg. 1993;19(4):524–533.",
+    "index": 122
+  },
+  {
+    "pmid": "5334910",
+    "title": "Modification of refraction by means of intracorneal inclusions.",
+    "year": "1966",
+    "authors": [
+      "Barraquer J I"
+    ],
+    "journal": "International ophthalmology clinics",
+    "doi": "",
+    "original": "Barraquer JI. Modification of refraction by means of intracorneal inclusions. Int Ophthalmol Clin. 1966;6(1):53–78.",
+    "index": 123
+  },
+  {
+    "pmid": null,
+    "original": "Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. J Cataract Refract Surg. 2014;40(6):991–998.",
+    "index": 124
+  },
+  {
+    "pmid": null,
+    "original": "García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. PLoS One. 2021;16(1):e0245063.",
+    "index": 125
+  },
+  {
+    "pmid": null,
+    "original": "Holzapfel GA, Gasser TC, Ogden RW. A new constitutive framework for arterial wall mechanics. J Elasticity. 2000;61:1–48.",
+    "index": 126
+  },
+  {
+    "pmid": "23299471",
+    "title": "Finite-element modeling of intrastromal ring segment implantation into a hyperelastic cornea.",
+    "year": "2013",
+    "authors": [
+      "Kling Sabine",
+      "Marcos Susana"
+    ],
+    "journal": "Investigative ophthalmology & visual science",
+    "doi": "10.1167/iovs.12-10852",
+    "original": "Kling S, Marcos S. FEM of ICRS in a hyperelastic cornea. Invest Ophthalmol Vis Sci. 2013;54(1):881–889.",
+    "index": 127
+  },
+  {
+    "pmid": "38396030",
+    "title": "Structural control of corneal transparency, refractive power and dynamics.",
+    "year": "2025",
+    "authors": [
+      "Meek Keith M",
+      "Knupp Carlo",
+      "Lewis Philip N",
+      "Morgan Siân R",
+      "Hayes Sally"
+    ],
+    "journal": "Eye (London, England)",
+    "doi": "10.1038/s41433-024-02969-7",
+    "original": "Meek KM, Knupp C. Corneal structure and transparency. Prog Retin Eye Res. 2015;49:1–16.",
+    "index": 128
+  },
+  {
+    "pmid": null,
+    "original": "Gasser TC, Ogden RW, Holzapfel GA. Hyperelastic modelling of arterial layers with distributed collagen fibre orientations. Journal of the Royal Society Interface. 2006;3(6):15–35.",
+    "index": 129
+  },
+  {
+    "pmid": null,
+    "original": "Holzapfel GA, Gasser TC, Ogden RW. A new constitutive framework for arterial wall mechanics and a comparative study of material models. Journal of Elasticity. 2000;61(1–3):1–48.",
+    "index": 130
+  },
+  {
+    "pmid": null,
+    "original": "Nguyen BA, Roberts CJ, Reilly MA. Biomechanical impact of the sclera on corneal deformation response to an air-puff: a finite-element study. Frontiers in Bioengineering and Biotechnology. 2018;6:210.",
+    "index": 131
+  },
+  {
+    "pmid": null,
+    "original": "Pandolfi A, Manganiello F. A model for the human cornea: constitutive formulation and numerical analysis. Biomechanics and Modeling in Mechanobiology. 2006;5(4):237–246.",
+    "index": 132
+  },
+  {
+    "pmid": "38396030",
+    "title": "Structural control of corneal transparency, refractive power and dynamics.",
+    "year": "2025",
+    "authors": [
+      "Meek Keith M",
+      "Knupp Carlo",
+      "Lewis Philip N",
+      "Morgan Siân R",
+      "Hayes Sally"
+    ],
+    "journal": "Eye (London, England)",
+    "doi": "10.1038/s41433-024-02969-7",
+    "original": "Meek KM, Knupp C. Corneal structure and transparency. Progress in Retinal and Eye Research. 2015;49:1–16.",
+    "index": 133
+  }
+]

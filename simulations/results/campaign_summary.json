@@ -1,0 +1,180 @@
+{
+  "timestamp": "2026-05-28T00:45:08.534746",
+  "total": 17,
+  "passed": 17,
+  "failed": 0,
+  "elapsed_sec": 4.316598892211914,
+  "subset": "geometry",
+  "results": [
+    {
+      "name": "mat_canonical_geom_arc_160",
+      "material": "canonical",
+      "geometry": "arc_160",
+      "status": "PASS",
+      "elapsed_sec": 1.3858988285064697,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_arc_160.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_arc_160.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_baseline",
+      "material": "canonical",
+      "geometry": "baseline",
+      "status": "PASS",
+      "elapsed_sec": 1.4174730777740479,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_baseline.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_baseline.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_arc_090",
+      "material": "canonical",
+      "geometry": "arc_090",
+      "status": "PASS",
+      "elapsed_sec": 1.4191172122955322,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_arc_090.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_arc_090.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_arc_120",
+      "material": "canonical",
+      "geometry": "arc_120",
+      "status": "PASS",
+      "elapsed_sec": 1.418482780456543,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_arc_120.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_arc_120.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_arc_255",
+      "material": "canonical",
+      "geometry": "arc_255",
+      "status": "PASS",
+      "elapsed_sec": 0.7110257148742676,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_arc_255.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_arc_255.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_arc_210",
+      "material": "canonical",
+      "geometry": "arc_210",
+      "status": "PASS",
+      "elapsed_sec": 0.7167890071868896,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_arc_210.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_arc_210.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_arc_320",
+      "material": "canonical",
+      "geometry": "arc_320",
+      "status": "PASS",
+      "elapsed_sec": 0.733522891998291,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_arc_320.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_arc_320.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_arc_360",
+      "material": "canonical",
+      "geometry": "arc_360",
+      "status": "PASS",
+      "elapsed_sec": 0.733198881149292,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_arc_360.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_arc_360.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_asym_control_sym250",
+      "material": "canonical",
+      "geometry": "asym_control_sym250",
+      "status": "PASS",
+      "elapsed_sec": 0.671454906463623,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_asym_control_sym250.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_asym_control_sym250.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_asym_prog_300to150",
+      "material": "canonical",
+      "geometry": "asym_prog_300to150",
+      "status": "PASS",
+      "elapsed_sec": 0.7029569149017334,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_asym_prog_300to150.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_asym_prog_300to150.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_asym_prog_350to150",
+      "material": "canonical",
+      "geometry": "asym_prog_350to150",
+      "status": "PASS",
+      "elapsed_sec": 0.6902611255645752,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_asym_prog_350to150.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_asym_prog_350to150.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_asym_prog_150to300",
+      "material": "canonical",
+      "geometry": "asym_prog_150to300",
+      "status": "PASS",
+      "elapsed_sec": 0.6916899681091309,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_asym_prog_150to300.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_asym_prog_150to300.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_asym_parab_300to150",
+      "material": "canonical",
+      "geometry": "asym_parab_300to150",
+      "status": "PASS",
+      "elapsed_sec": 0.709906816482544,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_asym_parab_300to150.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_asym_parab_300to150.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_asym_prog_arc210",
+      "material": "canonical",
+      "geometry": "asym_prog_arc210",
+      "status": "PASS",
+      "elapsed_sec": 0.6770191192626953,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_asym_prog_arc210.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_asym_prog_arc210.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_pachy_normal",
+      "material": "canonical",
+      "geometry": "pachy_normal",
+      "status": "PASS",
+      "elapsed_sec": 0.6940650939941406,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_pachy_normal.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_pachy_normal.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_pachy_thin",
+      "material": "canonical",
+      "geometry": "pachy_thin",
+      "status": "PASS",
+      "elapsed_sec": 0.7037429809570312,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_pachy_thin.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_pachy_thin.log",
+      "error_msg": ""
+    },
+    {
+      "name": "mat_canonical_geom_pachy_thick",
+      "material": "canonical",
+      "geometry": "pachy_thick",
+      "status": "PASS",
+      "elapsed_sec": 0.2941598892211914,
+      "feb_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/models/mat_canonical_geom_pachy_thick.feb",
+      "log_path": "/Users/miguelreis/Library/Mobile Documents/com~apple~CloudDocs/GitHub/atlas-vetorial-icrs/simulations/results/mat_canonical_geom_pachy_thick.log",
+      "error_msg": ""
+    }
+  ]
+}

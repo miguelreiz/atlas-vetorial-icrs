@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <radialGradient id="corneaGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#E8F4FD;stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#B3D9F2;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7FBEE0;stop-opacity:1"/>
+    </radialGradient>
+    <marker id="arrowVR" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2171B5"/>
+    </marker>
+    <marker id="arrowVT" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#31A354"/>
+    </marker>
+    <marker id="arrowVtau" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#E6550D"/>
+    </marker>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="white" rx="8"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Decomposição Vetorial Biomecânica do Efeito ICRS</text>
+
+  <!-- ===== LEFT PANEL: Cornea Schematic ===== -->
+  <!-- Cornea ellipse (frontal view) -->
+  <ellipse cx="220" cy="195" rx="155" ry="155" fill="url(#corneaGrad)" stroke="#4A90A4" stroke-width="2.5" filter="url(#shadow)"/>
+
+  <!-- Limbus ring -->
+  <ellipse cx="220" cy="195" rx="155" ry="155" fill="none" stroke="#2C6E8A" stroke-width="4" stroke-dasharray="8,4"/>
+
+  <!-- Central zone -->
+  <ellipse cx="220" cy="195" rx="42" ry="42" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="220" y="199" text-anchor="middle" font-size="9" fill="#888">Zona Central</text>
+
+  <!-- ICRS arc (simulated ring segment) -->
+  <path d="M 120 305 A 130 130 0 0 1 320 305" fill="none" stroke="#8B4513" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  <text x="220" y="330" text-anchor="middle" font-size="9" font-weight="bold" fill="#6B3410">Segmento ICRS</text>
+
+  <!-- Cone apex (ectasia marker) -->
+  <circle cx="195" cy="235" r="18" fill="#FFE0E0" stroke="#CC3333" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.7"/>
+  <text x="195" y="239" text-anchor="middle" font-size="8" fill="#CC3333">Ápice</text>
+
+  <!-- ===== VECTOR VR (Radial - Blue) ===== -->
+  <line x1="220" y1="195" x2="220" y2="85" stroke="#2171B5" stroke-width="3.5" marker-end="url(#arrowVR)"/>
+  <rect x="175" y="58" width="90" height="24" rx="4" fill="#2171B5" opacity="0.9"/>
+  <text x="220" y="74" text-anchor="middle" font-size="12" font-weight="bold" fill="white">V<tspan baseline-shift="sub" font-size="9">R</tspan></text>
+
+  <!-- VR annotation -->
+  <text x="310" y="75" font-size="9" fill="#2171B5" font-weight="bold">Aplanamento</text>
+  <text x="310" y="87" font-size="8" fill="#555">(Radial ↑)</text>
+
+  <!-- ===== VECTOR VT (Tangential - Green) ===== -->
+  <!-- Curved arrow along the cornea circumference -->
+  <path d="M 310 120 A 120 120 0 0 1 365 195" fill="none" stroke="#31A354" stroke-width="3.5" marker-end="url(#arrowVT)"/>
+  <rect x="345" y="122" width="90" height="24" rx="4" fill="#31A354" opacity="0.9"/>
+  <text x="390" y="138" text-anchor="middle" font-size="12" font-weight="bold" fill="white">V<tspan baseline-shift="sub" font-size="9">T</tspan></text>
+
+  <!-- VT annotation -->
+  <text x="440" y="135" font-size="9" fill="#31A354" font-weight="bold">Regularização</text>
+  <text x="440" y="147" font-size="8" fill="#555">(Tangencial ⟳)</text>
+
+  <!-- ===== VECTOR Vτ (Torque - Orange) ===== -->
+  <!-- Curved torque arrow -->
+  <path d="M 165 285 Q 135 250 155 215" fill="none" stroke="#E6550D" stroke-width="3.5" marker-end="url(#arrowVtau)"/>
+  <rect x="62" y="268" width="90" height="24" rx="4" fill="#E6550D" opacity="0.9"/>
+  <text x="107" y="284" text-anchor="middle" font-size="12" font-weight="bold" fill="white">V<tspan baseline-shift="sub" font-size="9">τ</tspan></text>
+
+  <!-- Vτ annotation -->
+  <text x="60" y="300" font-size="9" fill="#E6550D" font-weight="bold">Reposicionamento</text>
+  <text x="60" y="312" font-size="8" fill="#555">(Torque ↻)</text>
+
+  <!-- ===== RIGHT PANEL: Mapping Table ===== -->
+  <rect x="465" y="55" width="320" height="290" rx="6" fill="#FAFAFA" stroke="#DDD" stroke-width="1" filter="url(#shadow)"/>
+
+  <!-- Table Header -->
+  <rect x="465" y="55" width="320" height="32" rx="6" fill="#2C3E50"/>
+  <rect x="465" y="75" width="320" height="12" fill="#2C3E50"/>
+  <text x="625" y="76" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Mapeamento Vetor → Anel → Clínica</text>
+
+  <!-- Column Headers -->
+  <rect x="465" y="87" width="320" height="28" fill="#ECF0F1"/>
+  <line x1="555" y1="87" x2="555" y2="345" stroke="#DDD" stroke-width="1"/>
+  <line x1="665" y1="87" x2="665" y2="345" stroke="#DDD" stroke-width="1"/>
+  <text x="510" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#2C3E50">Vetor</text>
+  <text x="610" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#2C3E50">Parâmetro</text>
+  <text x="730" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#2C3E50">Efeito Clínico</text>
+
+  <!-- Row 1: VR -->
+  <rect x="465" y="115" width="320" height="55" fill="white"/>
+  <line x1="465" y1="170" x2="785" y2="170" stroke="#EEE" stroke-width="1"/>
+  <rect x="480" y="127" width="55" height="22" rx="4" fill="#2171B5"/>
+  <text x="507" y="142" text-anchor="middle" font-size="11" font-weight="bold" fill="white">V<tspan baseline-shift="sub" font-size="8">R</tspan></text>
+  <text x="610" y="136" text-anchor="middle" font-size="10" fill="#333">Volume Total</text>
+  <text x="610" y="151" text-anchor="middle" font-size="9" fill="#777">(Espessura × Arco)</text>
+  <text x="730" y="136" text-anchor="middle" font-size="10" fill="#333">Aplanamento</text>
+  <text x="730" y="151" text-anchor="middle" font-size="9" fill="#777">↓ K-médio (ΔK)</text>
+
+  <!-- Row 2: VT -->
+  <rect x="465" y="170" width="320" height="55" fill="#F8FBF8"/>
+  <line x1="465" y1="225" x2="785" y2="225" stroke="#EEE" stroke-width="1"/>
+  <rect x="480" y="182" width="55" height="22" rx="4" fill="#31A354"/>
+  <text x="507" y="197" text-anchor="middle" font-size="11" font-weight="bold" fill="white">V<tspan baseline-shift="sub" font-size="8">T</tspan></text>
+  <text x="610" y="191" text-anchor="middle" font-size="10" fill="#333">Comprimento</text>
+  <text x="610" y="206" text-anchor="middle" font-size="9" fill="#777">de Arco (°)</text>
+  <text x="730" y="191" text-anchor="middle" font-size="10" fill="#333">Regularização</text>
+  <text x="730" y="206" text-anchor="middle" font-size="9" fill="#777">↓ Astigmatismo</text>
+
+  <!-- Row 3: Vτ -->
+  <rect x="465" y="225" width="320" height="55" fill="white"/>
+  <line x1="465" y1="280" x2="785" y2="280" stroke="#EEE" stroke-width="1"/>
+  <rect x="480" y="237" width="55" height="22" rx="4" fill="#E6550D"/>
+  <text x="507" y="252" text-anchor="middle" font-size="11" font-weight="bold" fill="white">V<tspan baseline-shift="sub" font-size="8">τ</tspan></text>
+  <text x="610" y="246" text-anchor="middle" font-size="10" fill="#333">Assimetria</text>
+  <text x="610" y="261" text-anchor="middle" font-size="9" fill="#777">(Gradiente Δt)</text>
+  <text x="730" y="246" text-anchor="middle" font-size="10" fill="#333">Reposicionamento</text>
+  <text x="730" y="261" text-anchor="middle" font-size="9" fill="#777">↑ Centralização</text>
+
+  <!-- Row 4: Profundidade -->
+  <rect x="465" y="280" width="320" height="55" rx="0 0 6 6" fill="#F5F5F5"/>
+  <text x="510" y="310" text-anchor="middle" font-size="10" fill="#636363" font-style="italic">Profundidade</text>
+  <text x="610" y="305" text-anchor="middle" font-size="10" fill="#636363">70–80%</text>
+  <text x="610" y="320" text-anchor="middle" font-size="9" fill="#999">da paquimetria</text>
+  <text x="730" y="310" text-anchor="middle" font-size="10" fill="#636363" font-style="italic">Amplificador ×</text>
+
+  <!-- ===== BOTTOM: Key Equation ===== -->
+  <rect x="80" y="375" width="640" height="55" rx="8" fill="#F0F4F8" stroke="#B0C4DE" stroke-width="1.5"/>
+  <text x="400" y="395" text-anchor="middle" font-size="11" fill="#2C3E50" font-weight="bold">Regra de Ouro AVBC:</text>
+  <text x="400" y="418" text-anchor="middle" font-size="12" fill="#333">
+    <tspan fill="#2171B5" font-weight="bold">Miopia → Espessura ↑</tspan>
+    <tspan dx="15">|</tspan>
+    <tspan dx="15" fill="#31A354" font-weight="bold">Astigmatismo → Arco ↑</tspan>
+    <tspan dx="15">|</tspan>
+    <tspan dx="15" fill="#E6550D" font-weight="bold">Coma → Assimetria ↑</tspan>
+  </text>
+
+  <!-- ===== FOOTER ===== -->
+  <text x="400" y="470" text-anchor="middle" font-size="9" fill="#AAA">Figura 2.3 — Decomposição Vetorial Biomecânica do Efeito ICRS (AVBC)</text>
+  <text x="400" y="485" text-anchor="middle" font-size="8" fill="#CCC">Dr. Miguel Reis · Dra. Jordana Sandes · Análise Vetorial Biomecânica Corneana</text>
+
+  <!-- Legend circle labels on cornea -->
+  <text x="220" y="365" text-anchor="middle" font-size="8" fill="#4A90A4">Vista Frontal — Córnea com Ceratocone</text>
+</svg>

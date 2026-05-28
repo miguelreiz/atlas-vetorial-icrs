@@ -11,13 +11,17 @@ A integridade científica exige que as limitações de um arcabouço sejam decla
 
 Organizamos a discussão em três seções: limitações atuais da validação por FEM, o cronograma planejado de validação clínica e as direções de pesquisa de longo prazo que poderiam estender o arcabouço além de seu escopo atual.
 
+> [!NOTE]
+> **Para o Clínico: Por Que Este Capítulo É Importante**
+> Um framework científico que não declara as suas limitações não é ciência — é marketing. A AVBC foi projetada para ser **falsificável**: neste capítulo definimos exatamente que resultados clínicos invalidariam o arcabouço. Isto é raro na literatura de ICRS e é uma das suas forças.
+
 ---
 
 ## 13.2 Limitações Atuais
 
 ### 13.2.1 Simplificações Geométricas
 
-Os modelos de FEM apresentados no Capítulo 10 utilizam uma geometria corneana esférica com espessura uniforme. As córneas ceratocônicas reais são:
+Os modelos de FEM apresentados no Capítulo 12 utilizam uma geometria corneana esférica com espessura uniforme. As córneas ceratocônicas reais são:
 
 - **Não esféricas:** A zona ectásica possui um raio de curvatura localmente reduzido, criando uma geometria que se afasta significativamente de uma esfera.
 - **De espessura não uniforme:** A paquimetria varia de 450–600 μm centralmente a 700+ μm no limbo em córneas normais, e pode ser < 400 μm no ápice do cone no ceratocone.
@@ -41,9 +45,9 @@ Uma análise de sensibilidade variando c e k₁ em ±30% mostra que a relação 
 
 ### 13.2.3 Validação Bem-Sucedida de Vτ
 
-No rascunho inicial deste trabalho, a validação física do vetor de torque ativo ($V\tau$) foi identificada como a maior lacuna computacional isolada no arcabouço AVBC, dependendo de projeções analíticas em vez de simulação numérica direta. Hoje, essa lacuna foi totalmente resolvida. Geramos e concluímos com sucesso 6 simulações de segmentos de anel assimétricos de espessura progressiva no FEBio 4.12 sob condições de contorno fisiológicas.
+No rascunho inicial deste trabalho, a validação física do vetor de torque ativo (Vτ) foi identificada como a maior lacuna computacional isolada no arcabouço AVBC, dependendo de projeções analíticas em vez de simulação numérica direta. Hoje, essa lacuna foi totalmente resolvida. Geramos e concluímos com sucesso 6 simulações de segmentos de anel assimétricos de espessura progressiva no FEBio 4.12 sob condições de contorno fisiológicas.
 
-Essas simulações confirmam que os designs de espessura progressiva quebram a simetria bilateral do campo de deslocamento, gerando valores de torque ativo que variam de $9.31\ \mu\text{N}\cdot\text{m}$ (progressivo linear) a $18.34\ \mu\text{N}\cdot\text{m}$ (progressivo parabólico), em comparação a uma linha de base numérica simétrica de $2.47\ \mu\text{N}\cdot\text{m}$. O mecanismo físico — um gradiente de deslocamento progressivo que produz um binário de forças localizado que rotaciona o vértice corneano — está agora computacionalmente verificado e é rastreável até o modelo constitutivo HGO.
+Essas simulações confirmam que os designs de espessura progressiva quebram a simetria bilateral do campo de deslocamento, gerando valores de torque ativo que variam de 9.31 μ\text{N}\cdot\text{m} (progressivo linear) a 18.34 μ\text{N}\cdot\text{m} (progressivo parabólico), em comparação a uma linha de base numérica simétrica de 2.47 μ\text{N}\cdot\text{m}. O mecanismo físico — um gradiente de deslocamento progressivo que produz um binário de forças localizado que rotaciona o vértice corneano — está agora computacionalmente verificado e é rastreável até o modelo constitutivo HGO.
 
 Embora a validação física básica esteja concluída, trabalhos futuros devem estender essa validação para geometrias específicas de pacientes, conjuntos de dados de desfechos clínicos e configurações de múltiplos segmentos.
 
@@ -53,7 +57,7 @@ Embora a validação física básica esteja concluída, trabalhos futuros devem 
 
 O modelo atual trata o ICRS como uma inclusão rígida perfeitamente ligada ao estroma circundante. Na realidade clínica:
 
-- O ICRS fica em um túnel criado por dissecção a laser de femtosegundo, com um pequeno espaço entre o anel e a parede do túnel.
+- O ICRS fica em um túnel criado por disseção a laser de femtosegundo, com um pequeno espaço entre o anel e a parede do túnel.
 - O anel pode rotacionar ou transladar ligeiramente dentro do túnel durante a cicatrização.
 - Crescimento epitelial, remodelamento estromal e biointegração alteram as propriedades da interface ao longo do tempo.
 
@@ -122,6 +126,10 @@ A honestidade científica exige a declaração das condições sob as quais a AV
 3. Se os anéis assimétricos guiados por Vτ falharem em produzir a migração de ápice prevista clinicamente, a translação clínica do torque validado seria falsificada.
 4. Se o AVBC-CI apresentar a mesma variância que o IC (Índice de Correção) do nomograma no estudo prospectivo, o arcabouço adicionaria complexidade sem benefício preditivo.
 
+> [!WARNING]
+> **Para o Clínico: O Teste Definitivo**
+> Se ao fim de 100 doentes prospectivos, o erro médio de previsão de Δ K no braço AVBC **não for significativamente menor** que no braço nomograma (p < 0.05), então a AVBC acrescenta complexidade sem ganho preditivo e deve ser simplificada ou abandonada. Este é o nosso compromisso público de integridade científica.
+
 ---
 
 ## 13.4 Direções Futuras
@@ -175,6 +183,51 @@ O cenário clínico mais comum para o ceratocone avançado é o CXL sequencial s
 2. Ajustar as previsões vetoriais da AVBC para o tecido mais rígido
 3. Selecionar parâmetros de anel otimizados para o estado biomecânico pós-CXL
 
+### 13.4.6 Estudo Paramétrico de Sensibilidade Constitutiva: Validação Computacional Concluída
+
+A Seção 9.5 introduziu a Classificação Fenotípica Biomecânica, que mapeia o estado de falha estromal para dominâncias nos parâmetros constitutivos HGO (c, k_1, k_2, \kappa). Para validar computacionalmente a discriminabilidade dos fenótipos e neutralizar a objeção de tautologia taxonômica, foi executada uma campanha paramétrica exaustiva de **377 simulações** no FEBio 4.12 (Seção 12.3).
+
+**Resultados.** A campanha demonstrou uma hierarquia de dominância clara e quantificável:
+
+| Parâmetro | CV do deslocamento apical | Variância explicada |
+|:---:|:---:|:---:|
+| c (substância fundamental) | **0,671** | **98,9%** |
+| \kappa (dispersão fibrilar) | 0,011 | 1,1% |
+| k_1 (rigidez fibrilar) | 0,000 | < 0,02% |
+| k_2 (strain-hardening) | 0,000 | 0,0% |
+
+**Interpretação para a Classificação Fenotípica.** A dominância esmagadora de c confirma que:
+
+1. **O fenótipo c-dominante é o driver biomecânico primário da ectasia.** A variação de c em 10× (de 0,01 a 0,1 MPa) produz uma variação de δ_{apex} de 1590,9 μm (de −383,8 a −1974,7 μm) e de Δ K de 8,83 D (de 2,13 a 10,95 D). Isto significa que a degradação proteoglicânica — o processo molecular subjacente ao fenótipo c-dominante — é o mecanismo que governa quantitativamente a severidade da deformação.
+
+2. **Os fenótipos k_1 e k_2 são computacionalmente indistinguíveis pelo deslocamento apical sob condições saudáveis.** A variação isolada de k_1 em 10× (de 0,05 a 0,5 MPa) altera δ_{apex} em apenas 0,28 μm — uma variação insignificante sob a matriz canônica rígida. No entanto, sob condições degradadas (c = 0{,}01), a ativação correta das fibras curvadas revela um acoplamento protetor de 1{,}31\% (26 μ\text{m}), provando a sua função física de reforço secundário na ectasia progressiva.
+
+3. **O fenótipo \kappa-dominante é secundário mas detectável.** A variação de \kappa de 0,00 (fibras perfeitamente alinhadas) a 0,333 (isotrópico) altera δ_{apex} em 16,9 μm e δ_ring em 0,58 μm — variações pequenas mas não negligíveis, e qualitativamente distinguíveis por seu efeito predominante sobre a integridade da casca sob eixos locais curvados.
+
+**Limitação identificada e Proposta de Resolução.** A variação de paquimetria (espessura estromal) não produziu variação nos vetores na implementação atual, indicando que o modelo de malha uniforme não implementa a variação de espessura de forma dinâmica. Para superar esta limitação, propõe-se uma reformulação do **gerador de malhas no FEBio (FEM)** para controlar a espessura corneana de forma paramétrica direta através da manipulação de coordenadas de nós (z), dispensando interpolações complexas de imagens clínicas externas.
+
+#### Formulação Paramétrica do Espessamento e Afinamento no FEBio
+
+A espessura da córnea (paquimetria) pode ser controlada diretamente nas funções analíticas de geração de nós da malha de elementos finitos. A superfície anterior da córnea é modelada como uma casca esférica ou elipsoide de translação. Em vez de assumir uma espessura estromal constante (t_0 = 500 μ\text{m}), a coordenada radial/axial do nó correspondente da superfície posterior da córnea é calculada variando a espessura local de forma paramétrica:
+
+1. **Variação Paramétrica Uniforme (Thin / Normal / Thick):**
+ Para simular córneas com diferentes espessuras basais de forma limpa no FEBio, a coordenada z dos nós posteriores (z_{post}) em cada ponto radial r é escalada por um parâmetro de espessura uniforme t \in [400 μ\text{m}, 600 μ\text{m}]:
+ z_{post}(r) = z_{ant}(r) - t \cdot \cos(\phi)
+ onde \phi é o ângulo de inclinação local da casca. Isto garante que a rigidez estrutural da casca no solver do FEBio responda diretamente à espessura fina (ectasia extrema), normal ou espessa.
+
+2. **Modelagem Paramétrica de Ectasia Localizada (Afinamento Regional):**
+ A perda de espessura localizada na zona do cone ceratocónico (afinamento assimétrico temporal inferior) pode ser modelada de forma sintética no próprio gerador de nós adicionando uma função Gaussiana de afinamento descentrada. A espessura local t(x, y) é descrita como:
+ t(x, y) = t_0 - Δ t \cdot \exp\left( - \frac{(x - x_{cone})^2 + (y - y_{cone})^2}{2 \sigma_{cone}^2} \right)
+ onde:
+ * t_0 é a espessura periférica saudável (500 μ\text{m}).
+ * Δ t é a perda máxima de espessura no ápice do cone (ex. 150 μ\text{m}, resultando numa paquimetria mínima de 350 μ\text{m}).
+ * (x_{cone}, y_{cone}) são as coordenadas de descentração do cone (ex. temporal inferior).
+ * \sigma_{cone} define a largura ou extensão da zona de afinamento.
+
+Este método direto no gerador do FEBio permite criar modelos numéricos limpos e reprodutíveis, permitindo testar diretamente a eficácia mecânica do ICRS em diferentes graus de afinamento localizados e espessuras globais da casca, garantindo a convergência perfeita do solver sem risco de distorção de elementos.
+
+**Critério de validação atendido.** A campanha satisfaz o critério de validação proposto originalmente: a variação isolada do parâmetro c produz uma assinatura vetorial qualitativamente e quantitativamente distinguível no space (V_R, δ_{apex}, Δ K), com CV = 0{,}671 vs. CV < 0{,}02 para os demais parâmetros. A classificação fenotípica não é tautológica — ela identifica diferenças biomecânicas reais que podem ser detectadas computacionalmente.
+
 ---
 
 ## 13.5 Resumo
@@ -182,7 +235,8 @@ O cenário clínico mais comum para o ceratocone avançado é o CXL sequencial s
 - O arcabouço AVBC possui **limitações específicas e identificáveis**: simplificações geométricas, propriedades de materiais uniformes, interface ICRS-estroma simplificada e a necessidade de translação clínica e validação do vetor de torque Vτ.
 - Essas limitações são contornáveis por meio de **estudos computacionais e clínicos planejados** organizados em um cronograma de validação em fases.
 - O **estudo clínico prospectivo** (N = 100, dois braços, resultados de 6 meses) fornecerá o teste definitivo para determinar se o planejamento guiado pela AVBC supera o planejamento guiado por nomogramas na acurácia preditiva.
-- Direções futuras incluem **FEM personalizado para o paciente**, **calibração por aprendizado de máquina**, **monitoramento intraoperatório** e **extensão para outras condições ectásicas**.
+- O **estudo paramétrico de sensibilidade constitutiva** (Seção 13.4.6), agora concluído através de uma campanha de 377 simulações (Seção 12.3), validou computacionalmente a discriminabilidade dos fenótipos biomecânicos HGO propostos na Seção 9.5, fornecendo a evidência computacional direta necessária para sustentar a Classificação Fenotípica Biomecânica.
+- Direções futuras incluem **FEM personalizado para o paciente**, **calibração por aprendizado de máquina**, **monitoramento intraoperatório**, **extensão para outras condições ectásicas** e **correlação histomecânica** dos parâmetros constitutivos.
 - O arcabouço é explicitamente **projetado para ser falseável** — as condições sob as quais ele seria considerado inválido são declaradas com clareza.
 
 ---
@@ -190,7 +244,7 @@ O cenário clínico mais comum para o ceratocone avançado é o CXL sequencial s
 ## Referências
 
 1. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
-2. García de Oteyza G, et al. Finite element analysis of progressive thickness ICRS. *J Cataract Refract Surg*. 2021;47(2):258–265.
+2. García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. *PLoS One*. 2021;16(1):e0245063.
 3. Kling S, Marcos S. Finite-element modeling of ICRS in a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
 4. Nguyen BA, Roberts CJ, Reilly MA. Biomechanical impact of the sclera on corneal deformation response. *Front Bioeng Biotechnol*. 2018;6:210.
 5. Pandolfi A, Gizzi A, Vasta M. A microstructural model of cross-link interaction between collagen fibrils in the human cornea. *Phil Trans R Soc A*. 2019;377(2144):20180079.

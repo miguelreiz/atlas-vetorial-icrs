@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="ds" x="-3%" y="-3%" width="106%" height="106%"><feDropShadow dx="1" dy="1.5" stdDeviation="2" flood-opacity="0.1"/></filter>
+  </defs>
+  <rect width="800" height="350" fill="white" rx="8"/>
+  <text x="400" y="25" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Resumo Visual: 6 Estudos de Caso AVBC</text>
+
+  <!-- Case 1 -->
+  <g transform="translate(15, 45)">
+    <rect width="115" height="260" rx="8" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1.5" filter="url(#ds)"/>
+    <text x="57" y="18" text-anchor="middle" font-size="9" font-weight="bold" fill="#2E7D32">Caso 1</text>
+    <circle cx="57" cy="75" r="35" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1"/>
+    <circle cx="57" cy="75" r="12" fill="#81C784" opacity="0.6"/>
+    <text x="57" y="79" text-anchor="middle" font-size="7" fill="#1B5E20">Central</text>
+    <text x="57" y="125" text-anchor="middle" font-size="8" font-weight="bold" fill="#333">Oval Central</text>
+    <rect x="15" y="140" width="85" height="18" rx="3" fill="#2171B5"/>
+    <text x="57" y="153" text-anchor="middle" font-size="8" fill="white" font-weight="bold">VR</text>
+    <text x="57" y="175" text-anchor="middle" font-size="7" fill="#555">200 μm, 150°</text>
+    <text x="57" y="188" text-anchor="middle" font-size="7" fill="#555">Simétrico</text>
+    <rect x="10" y="200" width="95" height="18" rx="3" fill="#4CAF50"/>
+    <text x="57" y="213" text-anchor="middle" font-size="7" fill="white" font-weight="bold">✓ Nomograma OK</text>
+    <text x="57" y="240" text-anchor="middle" font-size="8" fill="#2E7D32" font-weight="bold">O+</text>
+  </g>
+
+  <!-- Case 2 -->
+  <g transform="translate(143, 45)">
+    <rect width="115" height="260" rx="8" fill="#FFF3E0" stroke="#E6550D" stroke-width="1.5" filter="url(#ds)"/>
+    <text x="57" y="18" text-anchor="middle" font-size="9" font-weight="bold" fill="#E6550D">Caso 2</text>
+    <circle cx="57" cy="75" r="35" fill="#FFE0B2" stroke="#E6550D" stroke-width="1"/>
+    <ellipse cx="40" cy="85" rx="15" ry="10" fill="#FFB74D" opacity="0.6"/>
+    <text x="57" y="79" text-anchor="middle" font-size="7" fill="#BF360C">Crescente</text>
+    <text x="57" y="125" text-anchor="middle" font-size="8" font-weight="bold" fill="#333">Paracentral</text>
+    <rect x="15" y="140" width="85" height="18" rx="3" fill="#31A354"/>
+    <text x="57" y="153" text-anchor="middle" font-size="8" fill="white" font-weight="bold">VT</text>
+    <text x="57" y="175" text-anchor="middle" font-size="7" fill="#555">200 μm, 255°</text>
+    <text x="57" y="188" text-anchor="middle" font-size="7" fill="#555">Eixo ENM</text>
+    <rect x="10" y="200" width="95" height="18" rx="3" fill="#E6550D"/>
+    <text x="57" y="213" text-anchor="middle" font-size="7" fill="white" font-weight="bold">✗ Eixo ≠ 35°</text>
+    <text x="57" y="240" text-anchor="middle" font-size="8" fill="#FFC107" font-weight="bold">O~</text>
+  </g>
+
+  <!-- Case 3 -->
+  <g transform="translate(271, 45)">
+    <rect width="115" height="260" rx="8" fill="#FFF3E0" stroke="#E6550D" stroke-width="1.5" filter="url(#ds)"/>
+    <text x="57" y="18" text-anchor="middle" font-size="9" font-weight="bold" fill="#E6550D">Caso 3</text>
+    <circle cx="57" cy="75" r="35" fill="#FFE0B2" stroke="#E6550D" stroke-width="1"/>
+    <ellipse cx="45" cy="90" rx="12" ry="10" fill="#FF6F00" opacity="0.6"/>
+    <text x="57" y="79" text-anchor="middle" font-size="7" fill="#BF360C">Deslocado</text>
+    <text x="57" y="125" text-anchor="middle" font-size="8" font-weight="bold" fill="#333">Ápice Deslocado</text>
+    <rect x="15" y="140" width="85" height="18" rx="3" fill="#E6550D"/>
+    <text x="57" y="153" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Vτ</text>
+    <text x="57" y="175" text-anchor="middle" font-size="7" fill="#555">300→150 μm</text>
+    <text x="57" y="188" text-anchor="middle" font-size="7" fill="#555">Progressivo</text>
+    <rect x="10" y="200" width="95" height="18" rx="3" fill="#E6550D"/>
+    <text x="57" y="213" text-anchor="middle" font-size="7" fill="white" font-weight="bold">✗ Nomograma ≠</text>
+    <text x="57" y="240" text-anchor="middle" font-size="8" fill="#EF5350" font-weight="bold">O−</text>
+  </g>
+
+  <!-- Case 4 -->
+  <g transform="translate(399, 45)">
+    <rect width="115" height="260" rx="8" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5" filter="url(#ds)"/>
+    <text x="57" y="18" text-anchor="middle" font-size="9" font-weight="bold" fill="#C62828">Caso 4</text>
+    <circle cx="57" cy="75" r="35" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5"/>
+    <text x="57" y="75" text-anchor="middle" font-size="7" fill="#C62828" font-weight="bold">76 D</text>
+    <text x="57" y="125" text-anchor="middle" font-size="8" font-weight="bold" fill="#333">Globo (>60 D)</text>
+    <rect x="15" y="140" width="85" height="18" rx="3" fill="#546E7A"/>
+    <text x="57" y="153" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Estrutural</text>
+    <text x="57" y="175" text-anchor="middle" font-size="7" fill="#555">Duplo 320 μm</text>
+    <text x="57" y="188" text-anchor="middle" font-size="7" fill="#555">Tolerância LC</text>
+    <rect x="10" y="200" width="95" height="18" rx="3" fill="#C62828"/>
+    <text x="57" y="213" text-anchor="middle" font-size="7" fill="white" font-weight="bold">Caso especial</text>
+    <text x="57" y="240" text-anchor="middle" font-size="8" fill="#EF5350" font-weight="bold">O−</text>
+  </g>
+
+  <!-- Case 5 -->
+  <g transform="translate(527, 45)">
+    <rect width="115" height="260" rx="8" fill="#E3F2FD" stroke="#2171B5" stroke-width="1.5" filter="url(#ds)"/>
+    <text x="57" y="18" text-anchor="middle" font-size="9" font-weight="bold" fill="#2171B5">Caso 5</text>
+    <circle cx="37" cy="68" r="22" fill="#B3D9F2" stroke="#2171B5" stroke-width="1"/>
+    <circle cx="77" cy="82" r="22" fill="#FFCC80" stroke="#E6550D" stroke-width="1"/>
+    <text x="37" y="71" text-anchor="middle" font-size="5" fill="#1565C0">OD leve</text>
+    <text x="77" y="85" text-anchor="middle" font-size="5" fill="#BF360C">OE mod</text>
+    <text x="57" y="125" text-anchor="middle" font-size="8" font-weight="bold" fill="#333">Bilateral</text>
+    <rect x="15" y="140" width="85" height="18" rx="3" fill="#2171B5"/>
+    <text x="57" y="153" text-anchor="middle" font-size="8" fill="white" font-weight="bold">VR + VT</text>
+    <text x="57" y="175" text-anchor="middle" font-size="7" fill="#555">OD: 200μm/150°</text>
+    <text x="57" y="188" text-anchor="middle" font-size="7" fill="#555">OE: 250μm/210°</text>
+    <rect x="10" y="200" width="95" height="18" rx="3" fill="#FFC107"/>
+    <text x="57" y="213" text-anchor="middle" font-size="7" fill="#333" font-weight="bold">✗ Diferencial</text>
+    <text x="57" y="240" text-anchor="middle" font-size="8" fill="#2E7D32" font-weight="bold">O+ / O~</text>
+  </g>
+
+  <!-- Case 6 -->
+  <g transform="translate(655, 45)">
+    <rect width="115" height="260" rx="8" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="1.5" filter="url(#ds)"/>
+    <text x="57" y="18" text-anchor="middle" font-size="9" font-weight="bold" fill="#7B1FA2">Caso 6</text>
+    <circle cx="57" cy="75" r="35" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="1"/>
+    <text x="57" y="72" text-anchor="middle" font-size="7" fill="#4A148C" font-weight="bold">pós-CXL</text>
+    <text x="57" y="84" text-anchor="middle" font-size="6" fill="#7B1FA2">k₁ ↑ 2×</text>
+    <text x="57" y="125" text-anchor="middle" font-size="8" font-weight="bold" fill="#333">Pós-CXL</text>
+    <rect x="15" y="140" width="85" height="18" rx="3" fill="#2171B5"/>
+    <text x="57" y="153" text-anchor="middle" font-size="8" fill="white" font-weight="bold">VR (↑50%)</text>
+    <text x="57" y="175" text-anchor="middle" font-size="7" fill="#555">300 μm, 150°</text>
+    <text x="57" y="188" text-anchor="middle" font-size="7" fill="#555">Compensar rigidez</text>
+    <rect x="10" y="200" width="95" height="18" rx="3" fill="#E6550D"/>
+    <text x="57" y="213" text-anchor="middle" font-size="7" fill="white" font-weight="bold">✗ Subcorreção</text>
+    <text x="57" y="240" text-anchor="middle" font-size="8" fill="#2E7D32" font-weight="bold">O+</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="400" y="340" text-anchor="middle" font-size="8" fill="#CCC">Figura 11.1 — Resumo dos 6 Estudos de Caso · Dr. Miguel Reis · Dra. Jordana Sandes</text>
+</svg>

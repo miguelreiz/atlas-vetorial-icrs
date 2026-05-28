@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <filter id="ds" x="-3%" y="-3%" width="106%" height="106%"><feDropShadow dx="1" dy="1.5" stdDeviation="2" flood-opacity="0.1"/></filter>
+    <radialGradient id="g1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FF6F00"/><stop offset="100%" stop-color="#FFF8E1"/></radialGradient>
+    <radialGradient id="g2" cx="50%" cy="70%" r="50%"><stop offset="0%" stop-color="#FF6F00"/><stop offset="100%" stop-color="#FFF8E1"/></radialGradient>
+    <radialGradient id="g3" cx="30%" cy="60%" r="50%"><stop offset="0%" stop-color="#FF6F00"/><stop offset="100%" stop-color="#FFF8E1"/></radialGradient>
+    <radialGradient id="g4" cx="50%" cy="50%" r="30%"><stop offset="0%" stop-color="#D32F2F"/><stop offset="50%" stop-color="#FF6F00"/><stop offset="100%" stop-color="#FFF8E1"/></radialGradient>
+  </defs>
+  <rect width="800" height="340" fill="white" rx="8"/>
+  <text x="400" y="25" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Os 4 Arquétipos Morfológicos + Ceratoglobo (Módulo T)</text>
+
+  <!-- ═══ 1. Oval Central ═══ -->
+  <g transform="translate(30, 45)">
+    <rect width="140" height="250" rx="8" fill="#FAFAFA" stroke="#DDD" stroke-width="1" filter="url(#ds)"/>
+    <circle cx="70" cy="100" r="55" fill="url(#g1)" stroke="#E6550D" stroke-width="1.5"/>
+    <circle cx="70" cy="100" r="20" fill="#FF6F00" opacity="0.4"/>
+    <text x="70" y="105" text-anchor="middle" font-size="7" fill="#BF360C">Cone</text>
+    <circle cx="70" cy="100" r="3" fill="#333"/>
+    <text x="70" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Oval Central</text>
+    <text x="70" y="185" text-anchor="middle" font-size="8" fill="#31A354" font-weight="bold">VR dominante</text>
+    <text x="70" y="200" text-anchor="middle" font-size="7" fill="#555">Anel simétrico</text>
+    <text x="70" y="215" text-anchor="middle" font-size="7" fill="#555">ENM ≈ K-steep</text>
+    <rect x="15" y="228" width="110" height="16" rx="3" fill="#4CAF50"/>
+    <text x="70" y="240" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Nomograma OK ✓</text>
+  </g>
+
+  <!-- ═══ 2. Mamilo Inferior ═══ -->
+  <g transform="translate(185, 45)">
+    <rect width="140" height="250" rx="8" fill="#FAFAFA" stroke="#DDD" stroke-width="1" filter="url(#ds)"/>
+    <circle cx="70" cy="100" r="55" fill="url(#g2)" stroke="#E6550D" stroke-width="1.5"/>
+    <ellipse cx="70" cy="125" rx="18" ry="15" fill="#FF6F00" opacity="0.5"/>
+    <text x="70" y="130" text-anchor="middle" font-size="6" fill="#BF360C">Cone ↓</text>
+    <circle cx="70" cy="100" r="3" fill="#333"/>
+    <text x="70" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Mamilo Inferior</text>
+    <text x="70" y="185" text-anchor="middle" font-size="8" fill="#E6550D" font-weight="bold">Vτ + VR</text>
+    <text x="70" y="200" text-anchor="middle" font-size="7" fill="#555">Progressivo inferior</text>
+    <text x="70" y="215" text-anchor="middle" font-size="7" fill="#555">ENM ≈ 6h (270°)</text>
+    <rect x="15" y="228" width="110" height="16" rx="3" fill="#FFC107"/>
+    <text x="70" y="240" text-anchor="middle" font-size="8" fill="#333" font-weight="bold">AVBC superior ⚡</text>
+  </g>
+
+  <!-- ═══ 3. Crescente Paracentral ═══ -->
+  <g transform="translate(340, 45)">
+    <rect width="140" height="250" rx="8" fill="#FAFAFA" stroke="#DDD" stroke-width="1" filter="url(#ds)"/>
+    <circle cx="70" cy="100" r="55" fill="url(#g3)" stroke="#E6550D" stroke-width="1.5"/>
+    <ellipse cx="50" cy="115" rx="22" ry="12" fill="#FF6F00" opacity="0.5" transform="rotate(-15, 50, 115)"/>
+    <text x="50" y="120" text-anchor="middle" font-size="6" fill="#BF360C">Cresc</text>
+    <circle cx="70" cy="100" r="3" fill="#333"/>
+    <text x="70" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Crescente</text>
+    <text x="70" y="185" text-anchor="middle" font-size="8" fill="#31A354" font-weight="bold">VT dominante</text>
+    <text x="70" y="200" text-anchor="middle" font-size="7" fill="#555">Arco longo 210°–320°</text>
+    <text x="70" y="215" text-anchor="middle" font-size="7" fill="#555">ENM variável!</text>
+    <rect x="15" y="228" width="110" height="16" rx="3" fill="#E6550D"/>
+    <text x="70" y="240" text-anchor="middle" font-size="8" fill="white" font-weight="bold">AVBC essencial ⚡⚡</text>
+  </g>
+
+  <!-- ═══ 4. Formato D ═══ -->
+  <g transform="translate(495, 45)">
+    <rect width="140" height="250" rx="8" fill="#FAFAFA" stroke="#DDD" stroke-width="1" filter="url(#ds)"/>
+    <circle cx="70" cy="100" r="55" fill="#FFF8E1" stroke="#E6550D" stroke-width="1.5"/>
+    <path d="M 35 70 Q 25 100 35 130 L 105 130 Q 115 100 105 70 Z" fill="#FFCC80" opacity="0.4"/>
+    <text x="70" y="105" text-anchor="middle" font-size="6" fill="#BF360C">D shape</text>
+    <circle cx="70" cy="100" r="3" fill="#333"/>
+    <text x="70" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Formato D</text>
+    <text x="70" y="185" text-anchor="middle" font-size="8" fill="#31A354" font-weight="bold">VT + VR</text>
+    <text x="70" y="200" text-anchor="middle" font-size="7" fill="#555">Arco amplo ou duplo</text>
+    <text x="70" y="215" text-anchor="middle" font-size="7" fill="#555">Periférico >2mm</text>
+    <rect x="15" y="228" width="110" height="16" rx="3" fill="#FFC107"/>
+    <text x="70" y="240" text-anchor="middle" font-size="8" fill="#333" font-weight="bold">AVBC superior ⚡</text>
+  </g>
+
+  <!-- ═══ 5. Globo ═══ -->
+  <g transform="translate(650, 45)">
+    <rect width="130" height="250" rx="8" fill="#FFEBEE" stroke="#C62828" stroke-width="1.5" filter="url(#ds)"/>
+    <circle cx="65" cy="100" r="55" fill="url(#g4)" stroke="#C62828" stroke-width="2"/>
+    <text x="65" y="100" text-anchor="middle" font-size="8" fill="white" font-weight="bold">K>60D</text>
+    <circle cx="65" cy="100" r="3" fill="white"/>
+    <text x="65" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#C62828">Globo</text>
+    <text x="65" y="185" text-anchor="middle" font-size="8" fill="#C62828" font-weight="bold">Estabilização</text>
+    <text x="65" y="200" text-anchor="middle" font-size="7" fill="#555">Duplo simétrico</text>
+    <text x="65" y="215" text-anchor="middle" font-size="7" fill="#555">Até 85 D (validado)</text>
+    <rect x="10" y="228" width="110" height="16" rx="3" fill="#C62828"/>
+    <text x="65" y="240" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Caso especial ⚠</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="400" y="330" text-anchor="middle" font-size="8" fill="#CCC">Figura 4.2 — Os 4 Arquétipos Morfológicos + Ceratoglobo · Dr. Miguel Reis · Dra. Jordana Sandes</text>
+</svg>
