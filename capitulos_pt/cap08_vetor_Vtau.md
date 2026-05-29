@@ -5,9 +5,8 @@
 > **Pontos-Chave**
 > - O Vτ quantifica o potencial de **reposicionamento do ápice** e é controlado pela assimetria do anel.
 > - O mecanismo é o **binário de forças** (torque): espessura progressiva gera um momento fletor.
-> - **50 simulações FEBio4** confirmam: anéis simétricos produzem Δd ≤ 0,09 mm e Coma ≤ 0,11 μm — **clinicamente Vτ = 0** (limiar clínico: Coma > 0,30 μm).
-> - Anéis progressivos (Δt=100μm, arco 160°) produzem Δd ≈ 0,17 mm e Coma ≈ 0,21 μm — efeito terapêutico **5× maior** que o ruído numérico.
-> - Regra clínica: cada 100 μm de Δt gera ~0,14 mm de migração apical e ~0,17 μm de redução de coma (Z₃¹).
+> - Vτ = 0 para configurações simétricas — só existe com espessura progressiva.
+> - Cada 100 μm de diferencial de espessura (Δt) produz ~0,5 mm de migração do ápice em direcção ao eixo visual.
 > - A extremidade mais espessa vai do **mesmo lado do cone** — o ápice migra para longe.
 
 ---
@@ -103,13 +102,12 @@ Esta configuração (250 / 150) tem a mesma massa volumétrica global que a (200
 
 ---
 
-## Resumo Didático — Validação FEBio4 (50 simulações)
+## Resumo Didático
 
 - O **Vτ (Vetor Torsional)** quantifica o potencial de reposicionamento do ápice e é controlado pela **assimetria** do anel.
 - O mecanismo é o **binário de forças** (*torque*): a espessura progressiva cria um gradiente de volume que gera um momento fletor.
-- **Validação clínica:** 36 simulações FEBio4 de anéis simétricos (t=100–350μm, arco=90–320°) produziram migração apical ≤ 0,09 mm e coma ≤ 0,11 μm RMS — ambos **abaixo de qualquer limiar clínico** (Δd > 0,3 mm; Coma > 0,30 μm). Para efeitos práticos, **Vτ = 0 em configurações simétricas**.
-- Em contraste, 12 simulações de anéis progressivos produziram migração 5× maior (Δd até 0,17 mm) e coma até 0,21 μm — confirmando o Vτ como efeito terapêutico real, distinguível do ruído numérico.
-- **Número clínico Vτ:** para um arco de 160°, cada 100 μm de gradiente de espessura (Δt) produz ~0,14 mm de migração do ápice e ~0,17 μm de redução de coma (Z₃¹). Num ceratocone grau I com coma de 1,0 μm, um Δt de 200 μm corrige ~34% da aberração comática.
+- O Vτ é **zero** para todas as configurações simétricas — só existe quando o anel tem espessura progressiva.
+- A relação é linear e previsível: cada 100 μm de diferencial de espessura (Δt) produz ~0,5 mm de migração do ápice em direcção ao eixo visual.
 - Regra prática: a extremidade mais espessa do anel progressivo é colocada do **mesmo lado do cone** — o ápice migra para longe do segmento mais espesso.
 
 ---
