@@ -63,6 +63,8 @@ class ICRSConfig:
     profile: str = "symmetric"     # symmetric, linear, reverse, step, parabolic, long_arc
     start_sector: int = 0          # Starting sector index
     pachymetry: float = 0.500      # Stromal thickness in mm
+    ring_thickness_um: float = 250.0  # Ring base thickness in μm
+    ring_delta_um: float = 0.0        # Progressive thickness differential in μm
 
 
 @dataclass
@@ -258,6 +260,48 @@ def get_limbal_nodes() -> List[int]:
     return nids
 
 
+def get_icrs_sector_thickness(config: ICRSConfig) -> List[Tuple[int, float]]:
+    """Return [(sector_index, thickness_mm), ...] for each sector in the ICRS arc.
+
+    Thickness varies per sector according to the profile:
+      - symmetric: uniform t_base
+      - linear:    t_base at start → t_base + t_delta at end (progressive)
+      - reverse:   t_base + t_delta at start → t_base at end
+      - step:      t_base + t_delta for first half, t_base for second half
+      - parabolic: t_base at ends, t_base + t_delta at center
+    """
+    if config.arc_degrees <= 0:
+        return []
+
+    n_sectors = round(config.arc_degrees / (360.0 / N_SEC))
+    n_sectors = max(1, min(n_sectors, N_SEC))
+
+    t_base = config.ring_thickness_um / 1000.0  # μm → mm
+    t_delta = config.ring_delta_um / 1000.0
+
+    result = []
+    for i in range(n_sectors):
+        sec = (config.start_sector + i) % N_SEC
+        frac = i / max(n_sectors - 1, 1)  # 0..1 across arc
+
+        if config.profile == "symmetric" or config.symmetric:
+            t_local = t_base
+        elif config.profile == "linear":
+            t_local = t_base + t_delta * frac
+        elif config.profile == "reverse":
+            t_local = t_base + t_delta * (1.0 - frac)
+        elif config.profile == "step":
+            t_local = (t_base + t_delta) if frac < 0.5 else t_base
+        elif config.profile == "parabolic":
+            t_local = t_base + t_delta * (1.0 - (2*frac - 1)**2)
+        else:
+            t_local = t_base
+
+        result.append((sec, t_local))
+
+    return result
+
+
 def get_icrs_nodes(config: ICRSConfig) -> Tuple[List[int], List[int]]:
     """Return (xy_fixed_nodes, z_fixed_nodes) for the ICRS constraint.
 
@@ -282,21 +326,18 @@ def get_icrs_nodes(config: ICRSConfig) -> Tuple[List[int], List[int]]:
     # Asymmetric profiles: fix uz on thick-end sectors
     if not config.symmetric:
         if config.profile in ("linear", "step"):
-            # First half = thick end (uz fixed)
             n_thick = n_sectors // 2
             for i in range(n_thick):
                 sec = (config.start_sector + i) % N_SEC
                 for layer in range(N_Z):
                     z_fixed.append(node_id(layer, ICRS_RING, sec))
         elif config.profile == "reverse":
-            # Second half = thick end
             n_thick = n_sectors // 2
             for i in range(n_sectors - n_thick, n_sectors):
                 sec = (config.start_sector + i) % N_SEC
                 for layer in range(N_Z):
                     z_fixed.append(node_id(layer, ICRS_RING, sec))
         elif config.profile == "parabolic":
-            # Center = thick, both ends free
             n_thick = n_sectors // 3
             start = n_sectors // 3
             for i in range(start, start + n_thick):
@@ -490,27 +531,52 @@ def build_feb_xml(nodes, penta6, hex8,
     _t(bc_limb, "y_dof", "1")
     _t(bc_limb, "z_dof", "1")
 
-    # ICRS Volumetric Spacer (Escola Volumétrica)
-    if xy_fixed:
-        # A restrição X e Y simula a rigidez inextensível do anel de PMMA
+    # ICRS Volumetric Spacer — Escola Volumétrica
+    # Deslocamento prescrito proporcional à espessura local do anel (por setor)
+    sector_thicknesses = get_icrs_sector_thickness(icrs)
+
+    if sector_thicknesses:
+        # Agrupar setores por espessura (para minimizar nº de BCs)
+        thickness_groups = {}  # {t_mm: [node_ids]}
+        for sec, t_mm in sector_thicknesses:
+            t_key = round(t_mm, 6)  # Agrupar por espessura idêntica
+            if t_key not in thickness_groups:
+                thickness_groups[t_key] = []
+            for layer in range(N_Z):
+                thickness_groups[t_key].append(node_id(layer, ICRS_RING, sec))
+
+        # Criar um node set + BC para cada grupo de espessura
+        for gi, (t_mm, group_nodes) in enumerate(sorted(thickness_groups.items())):
+            set_name = f"ICRSNodes_t{gi}"
+            ns_el = ET.SubElement(mesh, "NodeSet", name=set_name)
+            ns_el.text = ", ".join(str(nid) for nid in group_nodes)
+
+            # Fixar XY (rigidez do PMMA)
+            bc_xy = ET.SubElement(boundary, "bc", name=f"FixICRS_XY_t{gi}",
+                                 type="zero displacement", node_set=set_name)
+            _t(bc_xy, "x_dof", "1")
+            _t(bc_xy, "y_dof", "1")
+            _t(bc_xy, "z_dof", "0")
+
+            # Prescrever Z = espessura local do anel (em mm)
+            bc_z = ET.SubElement(boundary, "bc", name=f"PrescribeICRS_Vol_t{gi}",
+                                type="prescribed displacement", node_set=set_name)
+            _t(bc_z, "dof", "z")
+            _t(bc_z, "value", f"{t_mm:.6f}", lc="1")
+
+    elif xy_fixed:
+        # Fallback: sem anel ou arco=0
         bc_icrs_xy = ET.SubElement(boundary, "bc", name="FixICRS_XY",
                                    type="zero displacement", node_set="ICRSNodes_XY")
         _t(bc_icrs_xy, "x_dof", "1")
         _t(bc_icrs_xy, "y_dof", "1")
         _t(bc_icrs_xy, "z_dof", "0")
 
-        # O deslocamento Z prescrito simula a inserção física de volume (espessura)
+        t_base_mm = icrs.ring_thickness_um / 1000.0
         bc_icrs_z = ET.SubElement(boundary, "bc", name="PrescribeICRS_Volume",
                                   type="prescribed displacement", node_set="ICRSNodes_XY")
         _t(bc_icrs_z, "dof", "z")
-        _t(bc_icrs_z, "value", "0.250", lc="1") # 250 microns de elevação volumétrica
-
-    # ICRS Z constraint (asymmetric thick-end) - modificado para sobrepor volume extra se necessário
-    if z_fixed:
-        bc_icrs_z_asym = ET.SubElement(boundary, "bc", name="PrescribeICRS_Asym_Volume",
-                                  type="prescribed displacement", node_set="ICRSNodes_Z")
-        _t(bc_icrs_z_asym, "dof", "z")
-        _t(bc_icrs_z_asym, "value", "0.350", lc="1") # Progressivo: extremidade mais espessa (350 um)
+        _t(bc_icrs_z, "value", f"{t_base_mm:.6f}", lc="1")
 
     # ── Loads ──
     loads = ET.SubElement(root, "Loads")
