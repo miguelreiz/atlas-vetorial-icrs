@@ -1,0 +1,18 @@
+{
+  "n_total": 50,
+  "n_converged": 50,
+  "symmetric": {
+    "n": 36,
+    "min": 0.0,
+    "mean": 0.0,
+    "max": 0.0
+  },
+  "progressive": {
+    "n": 12,
+    "min": 0.0,
+    "mean": 0.0,
+    "max": 0.0
+  },
+  "ratio_prog_sym": 0.0,
+  "n_zero_sym": 36
+}

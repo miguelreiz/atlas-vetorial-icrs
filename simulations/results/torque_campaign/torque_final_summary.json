@@ -1,0 +1,19 @@
+{
+  "symmetric": {
+    "n": 36,
+    "min": 0.40061,
+    "mean": 1.3215700000000001,
+    "max": 2.123
+  },
+  "progressive": {
+    "n": 12,
+    "min": 1.12334,
+    "mean": 2.6567366666666667,
+    "max": 4.03072
+  },
+  "n_zero_sym": 0,
+  "conclusion": {
+    "sym_zero": false,
+    "prog_larger": false
+  }
+}
