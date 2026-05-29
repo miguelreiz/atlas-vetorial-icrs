@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Apêndice C — Glossário de Terminologia da AVBC
 
 ---
@@ -40,11 +41,37 @@ Modelo constitutivo hiperelástico para materiais reforçados por fibras. Decomp
 **Hoop stress** — Tensão tangencial
 Tensão circunferencial numa casca pressurizada (como a córnea sob PIO). Governa a tendência da córnea a expandir-se radialmente. O ICRS interrompe esta tensão criando uma barreira mecânica (ver Cintagem).
 
+**Aberrometria**
+Técnica de medição das aberrações ópticas do olho (de baixa e alta ordem) utilizando sensores de frente de onda. Aberrações de alta ordem como coma e trefoil são marcadores de irregularidade corneana no ceratocone.
+
+**BFS** — *Best Fit Sphere*
+Esfera de melhor ajuste à superfície corneana. A diferença entre a superfície real e a BFS produz o mapa de elevação, que revela o cone ectásico. Valor de referência: elevação posterior > 15 μm é suspeita de ceratocone.
+
+**Corvis ST** — *Corneal Visualization Scheimpflug Technology*
+Tonômetro de não-contato com câmara Scheimpflug de ultra-alta velocidade (Oculus). Mede a resposta biomecânica corneana in vivo (DA ratio, SP-A1, Integrated Radius). Complementa dados topográficos com informação biomecânica.
+
+**Cross-linking (CXL)** — ver **CXL**
+
+**Fenótipo Biomecânico**
+Padrão de resposta mecânica da córnea definido pela combinação dos três vetores AVBC (VR, VT, Vτ). A classificação trimodal O/T/B agrupa fenótipos em categorias clínicas para selecção do ICRS.
+
 **ICRS** — Segmento de Anel Intraestromal (*Intrastromal Corneal Ring Segment*)
 Implante de PMMA inserido no estroma corneano para modificar a curvatura, astigmatismo e aberrações. Tipos comerciais: Intacs, Ferrara Ring, Keraring.
 
 **Incompressibilidade**
 Propriedade de um material que resiste à mudança de volume. O estroma corneano (78% água) é quase incompressível: quando o ICRS ocupa volume, o tecido adjacente deve deslocar-se, não comprimir-se.
+
+**K-flat / K-steep**
+Os dois meridianos principais da ceratometria. K-steep é o meridiano de maior curvatura (em dioptrias); K-flat é o de menor curvatura. A diferença (K-steep − K-flat) define o astigmatismo corneano.
+
+**Pentacam** (*Oculus Pentacam*)
+Sistema de tomografia corneana por câmara Scheimpflug rotacional que produz mapas de elevação anterior e posterior, paquimetria ponto a ponto, e índices de progressão de ceratocone. É o exame primário de input para a AVBC.
+
+**Tomografia Corneana**
+Técnica de imagem tridimensional da córnea (Scheimpflug ou OCT) que fornece dados de elevação, curvatura e espessura em toda a superfície. Difere da topografia por captar também a face posterior.
+
+**Topografia Corneana**
+Técnica de mapeamento bidimensional da curvatura da face anterior da córnea por reflexão de anéis luminosos (discos de Plácido). Fornece mapas axiais e tangenciais usados na classificação do ceratocone.
 
 ---
 
@@ -55,7 +82,7 @@ Propriedade de um material que resiste à mudança de volume. O estroma corneano
 | Rigidez da matriz | c | 0,05 MPa | Degradação proteoglicânica → ceratocone. **Parâmetro dominante.** |
 | Rigidez fibrilar | k_1 | 0,22 MPa | Enfraquecimento do colágeno; CXL aumenta k_1. |
 | Endurecimento exponencial | k_2 | 100 | Resposta não-linear das fibras a grandes deformações. |
-| Dispersão de fibras | \kappa | 0,09 | Desorganização lamelar; \kappa → 1/3 = isotropia total. |
+| Dispersão de fibras | κ | 0,09 | Desorganização lamelar; κ → 1/3 = isotropia total. |
 | Módulo volumétrico | k | 4,76 MPa | Impõe quase-incompressibilidade. |
 
 ---
@@ -66,7 +93,7 @@ Propriedade de um material que resiste à mudança de volume. O estroma corneano
 Quantifica o efeito de aplanamento. Controlado pela espessura do anel (volume injetado). Insensível ao comprimento do arco em arcos parciais. Faixa FEM: 19,2–19,9 μm (arcos parciais), 125,9 μm (anel completo 360°).
 
 **VT** — Vetor de Tensão Tangencial
-Quantifica a redistribuição de astigmatismo por cintagem circunferencial. Controlado pelo comprimento do arco. Equação empírica: V_T = -0{,}0018 \times arco° + 7{,}79 (R² = 0{,}94). Faixa FEM: 7,20–7,78 kPa.
+Quantifica a redistribuição de astigmatismo por cintagem circunferencial. Controlado pelo comprimento do arco. Relação empírica: para cada grau a mais de arco, a tensão tangencial diminui em 0,0018 kPa (R² = 0,94). Faixa FEM: 7,20–7,78 kPa.
 
 **Vτ** — Vetor de Torque Assimétrico
 Quantifica o reposicionamento do ápice. Controlado pelo diferencial de espessura em anéis progressivos. Zero numérico para anéis simétricos. Faixa FEM: 9,31 μN·m (progressivo linear) a 18,34 μN·m (progressivo parabólico).
@@ -89,10 +116,10 @@ Traduz a classificação O+T em prescrição de anel usando os três vetores. De
 ## Índices de Correção AVBC
 
 **CI_R** — Índice de Correção Radial
-CI_R = Δ K_{observado} / Δ K_{previsto}. Meta: 1,0 ± 0,15. Análogo ao CI de Alpins para aplanamento.
+CI_R = ΔK observado / ΔK previsto. Meta: 1,0 ± 0,15. Análogo ao CI de Alpins para aplanamento.
 
 **CI_T** — Índice de Correção Tangencial
-CI_T = Δ Cyl_{observado} / Δ Cyl_{previsto}. Meta: 1,0 ± 0,15. Análogo ao CI de Alpins para astigmatismo.
+CI_T = ΔCyl observado / ΔCyl previsto. Meta: 1,0 ± 0,15. Análogo ao CI de Alpins para astigmatismo.
 
 **ICE** — Índice de Coerência Estrutural
 ICE_min = ângulo mínimo entre o eixo de maior curvatura e o ENM. Limiar de triagem: ICE_min < 28° prediz ≥ 3 linhas de ganho (AUC 0,82).

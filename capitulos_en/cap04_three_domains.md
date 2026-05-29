@@ -1,10 +1,22 @@
+<!-- GPT revision applied -->
 # Chapter 4 — The Three Domains of ICRS Assessment
+
+
+> **Key Points**
+> - AVBC decomposes ICRS planning into **three sequential modules**: Optical (O), Topographic (T), and Biomechanical (B).
+> - **Module O** gates the process: evaluates optical coherence (ACE index) to predict functional improvement.
+> - **Module T** locates the ectasia and identifies the **Mechanical Neutral Axis** (MNA).
+> - **Module B** maps clinical need to specific biomechanical vectors (VR, VT, Vτ) and ring parameters.
+> - The trimodal structure ensures **transparent, traceable, and calibratable** decision-making.
 
 ---
 
 ## 4.1 Introduction
 
 The clinical assessment of a keratoconic cornea before intracorneal ring segment (ICRS) implantation has traditionally followed a binary paradigm: the surgeon determines whether ectasia is present and, if so, selects a ring configuration from an empirical nomogram. This approach reduces the complexity of corneal biomechanics to a mere table exercise. This chapter presents a trimodal and systematic assessment model — designated by the **Optical (O)**, **Topographic (T)**, and **Biomechanical (B)** domains.
+
+![Figure 4.1 — The AVBC trimodal paradigm: sequential O → T → B assessment.](book_figures/fig_04_01_paradigma_otb.svg)
+
 
 The three structural questions are:
 
@@ -50,6 +62,9 @@ Studies with over 1,100 eyes proved that patients with High ACE (ACEmin < 15°) 
 ## 4.3 T Module — Topographic Morphology
 
 ### 4.3.1 Morphological Archetypes
+
+![Figure 4.2 — The 4 topographic morphological archetypes + keratoglobus (Module T).](book_figures/fig_04_02_arquetipos_topograficos.svg)
+
 
 Topographic analysis goes beyond K-max, which is frequently an artifact of conic protrusion. The T Module requires classification into spatial archetypes, which will dictate the macro configuration of the implant:
 1. **Central Oval:** Symmetric. Requires concentric flattening (symmetric segments).
@@ -115,6 +130,18 @@ The AVBC protocol finalizes the consultation by condensing the analysis into an 
 2. The implant axis targets the posterior structural elevation (MNA 260°), ignoring epithelial surface artifacts.
 3. Biomechanics prescribed a single long circular bar (320°) because the B Module demands maximum belting (to treat the crescent pattern's astigmatism) with moderate volume (to avoid over-flattening myopia). Without need for drastic apex repositioning, progressive rings are dispensed with.
 
+
+---
+
+## Didactic Summary
+
+- The AVBC framework decomposes ICRS planning into **three sequential modules**: Optical (O), Topographic (T), and Biomechanical (B).
+- **Module O** acts as a gatekeeper, evaluating optical coherence to predict visual outcomes.
+- **Module T** provides spatial localization and introduces the **MNA** as a key reference axis.
+- **Module B** translates clinical needs into biomechanical vector prescriptions.
+- This trimodal structure ensures every recommendation is **transparent, traceable, and calibratable**.
+
+---
 
 ## References
 

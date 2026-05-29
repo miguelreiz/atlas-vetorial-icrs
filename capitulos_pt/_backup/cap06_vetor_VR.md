@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 5 — V_R: O Vetor Radial — A Escola Volumétrica
 
 ---

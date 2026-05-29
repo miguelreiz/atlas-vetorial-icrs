@@ -12,7 +12,7 @@
   <circle cx="200" cy="130" r="60" fill="#0D47A1" opacity="0.3"/>
   <ellipse cx="185" cy="145" rx="25" ry="20" fill="#FF6F00" opacity="0.4"/>
   <ellipse cx="185" cy="145" rx="12" ry="10" fill="#FF3D00" opacity="0.5"/>
-  <text x="185" y="148" text-anchor="middle" font-size="6" fill="white">Cone</text>
+  <text x="185" y="148" text-anchor="middle" font-size="7" fill="white">Cone</text>
   <!-- ENM line -->
   <line x1="155" y1="170" x2="245" y2="90" stroke="#4CAF50" stroke-width="2" stroke-dasharray="4,3"/>
   <text x="250" y="88" font-size="7" fill="#4CAF50" font-weight="bold">ENM 135°</text>
@@ -45,9 +45,9 @@
   <rect x="655" y="108" width="15" height="32" rx="2" fill="#FFC107"/>
   <rect x="680" y="90" width="15" height="50" rx="2" fill="#EF5350" opacity="0.5"/>
   <rect x="680" y="118" width="15" height="22" rx="2" fill="#EF5350"/>
-  <text x="637" y="155" text-anchor="middle" font-size="5" fill="#90A4AE">Coma</text>
-  <text x="662" y="155" text-anchor="middle" font-size="5" fill="#90A4AE">HOA</text>
-  <text x="687" y="155" text-anchor="middle" font-size="5" fill="#90A4AE">Δ Eixo</text>
+  <text x="637" y="155" text-anchor="middle" font-size="7" fill="#90A4AE">Coma</text>
+  <text x="662" y="155" text-anchor="middle" font-size="7" fill="#90A4AE">HOA</text>
+  <text x="687" y="155" text-anchor="middle" font-size="7" fill="#90A4AE">Δ Eixo</text>
 
   <!-- ═══ Bottom-Left: Vector Selection (Module B) ═══ -->
   <rect x="15" y="220" width="370" height="170" rx="8" fill="#16213E" stroke="#334756" stroke-width="1" filter="url(#ds)"/>

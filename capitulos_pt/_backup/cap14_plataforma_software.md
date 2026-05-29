@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 14 — A Plataforma de Software AVBC: Do Arcabouço à Ferramenta
 
 > **Análise Vetorial Biomecânica Corneana para o Planejamento de Segmento de Anel Intraestromal**

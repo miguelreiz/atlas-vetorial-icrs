@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 12 — Validação Computacional: Extração por Elementos Finitos de V_R, V_T e V_τ
 
 ---

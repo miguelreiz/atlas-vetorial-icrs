@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Capítulo 15 — Conclusão: Rumo a uma Linguagem Biomecânica para o ICRS
+
+
+> **Pontos-Chave**
+> - A AVBC decompõe o efeito do ICRS em **três vetores ortogonais**: VR (aplanamento), VT (regularização), Vτ (reposicionamento).
+> - Cada vetor está ligado a um parâmetro do anel: espessura→VR, arco→VT, assimetria→Vτ.
+> - O sistema O/T/B integra óptica, topografia e biomecânica num fluxo de decisão transparente.
+> - O ciclo de feedback permite calibração pessoal — cada cirurgião constrói a sua curva de aprendizagem.
+> - O próximo passo: validação clínica prospectiva (N=100, dois braços, 6 meses).
 
 > **Análise Vetorial Biomecânica Corneana para o Planejamento de Segmento de Anel Intraestromal**
 > *Parte V — Horizontes*
@@ -95,6 +104,16 @@ O caminho do nomograma empírico ao planejamento biomecânico é longo, mas a di
 
 ---
 
+## Resumo Didático
+
+- A AVBC decompõe o efeito do ICRS em **três vetores ortogonais** (VR, VT, Vτ), cada um ligado a um parâmetro do anel.
+- Esta decomposição transforma o planeamento de ICRS de uma arte empírica numa **ciência mecanística** rastreável e calibrável.
+- O sistema trimodal **O/T/B** integra óptica, topografia e biomecânica num fluxo de decisão transparente.
+- O ciclo de feedback AVBC (CI_R, VT-ratio, Vτ-ratio) permite que cada cirurgião construa a sua curva de calibração pessoal.
+- O próximo passo é a validação clínica prospectiva — o teste definitivo que determinará o valor real do arcabouço.
+
+---
+
 ## Referências
 
 1. Alpins NA. A new method of analyzing vectors for changes in astigmatism. *J Cataract Refract Surg*. 1993;19(4):524–533.
@@ -102,5 +121,5 @@ O caminho do nomograma empírico ao planejamento biomecânico é longo, mas a di
 3. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
 4. García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. *PLoS One*. 2021;16(1):e0245063.
 5. Holzapfel GA, Gasser TC, Ogden RW. A new constitutive framework for arterial wall mechanics. *J Elasticity*. 2000;61:1–48.
-6. Kling S, Marcos S. FEM of ICRS in a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
+6. Kling S, Marcos S. Finite-element modeling of intrastromal corneal ring segment implantation into a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
 7. Meek KM, Knupp C. Corneal structure and transparency. *Prog Retin Eye Res*. 2015;49:1–16.

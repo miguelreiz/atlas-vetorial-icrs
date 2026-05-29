@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Capítulo 7 — V_τ: O Vetor de Torque (Mecânica da Assimetria e Reposicionamento do Ápice)
+
+
+> **Pontos-Chave**
+> - O Vτ quantifica o potencial de **reposicionamento do ápice** e é controlado pela assimetria do anel.
+> - O mecanismo é o **binário de forças** (torque): espessura progressiva gera um momento fletor.
+> - Vτ = 0 para configurações simétricas — só existe com espessura progressiva.
+> - Torque validado: 9,31–18,34 μN·m (progressivo) vs 2,47 μN·m (simétrico) — FEBio 4.12.
+> - A extremidade mais espessa vai do **mesmo lado do cone** — o ápice migra para longe.
 
 ---
 
@@ -54,8 +63,7 @@ Nas simulações mantendo a espessura média constante (ex: média de 200 μm, v
 | **250 / 150** (Assimetria Moderada)| 100 | 7.35 | ~0.48 mm | Regularização comática visível |
 | **275 / 125** (Assimetria Severa)| 150 | 11.02 | ~0.72 mm | Reabilitação visual profunda |
 
-O modelo matemático dita uma relação linear perfeita (R² = 1.00):
- Migração (mm) ≈ 0.0048 \times Δ t 
+A biomecânica dita uma **regra geométrica de ouro**, linear e altamente previsível: por cada 100 microns de assimetria que introduzimos (por exemplo, 250 inferior e 150 superior), o ápice do cone migra cerca de meio milímetro em direção ao centro.
 
 ![Figura 7.2 — Vetor Vτ: migração linear do ápice vs diferencial de espessura (R² = 1,00).](book_figures/fig_07_02_migracao_apice.svg)
 
@@ -94,9 +102,19 @@ Esta configuração (250 / 150) tem a mesma massa volumétrica global que a (200
 
 ---
 
+## Resumo Didático
+
+- O **Vτ (Vetor Torsional)** quantifica o potencial de reposicionamento do ápice e é controlado pela **assimetria** do anel.
+- O mecanismo é o **binário de forças** (*torque*): a espessura progressiva cria um gradiente de volume que gera um momento fletor.
+- O Vτ é **zero** para todas as configurações simétricas — só existe quando o anel tem espessura progressiva.
+- Simulações FEBio validaram valores de torque de 9,31 a 18,34 μN·m para perfis progressivos, vs 2,47 μN·m para simétricos.
+- Regra prática: a extremidade mais espessa do anel progressivo é colocada do **mesmo lado do cone** — o ápice migra para longe do segmento mais espesso.
+
+---
+
 ## Referências
 
 1. Barraquer JI. Refractive keratoplasty. *J Ibero-Latino-Amer. Ophthalmol*. 1967;1:123–145.
 2. Alió JL, Shabayek MH, Artola A. Intrastromal corneal ring segments for keratoconus in 120 eyes. *Ophthalmology*. 2006;113(9):1517–1524.
-3. Roberts CJ, Dupps WJ Jr. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
+3. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
 4. Kling S, Marcos S. Finite-element modeling of intrastromal ring segment implantation into a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.

@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 7 — V_τ: O Vetor de Torque (Mecânica da Assimetria e Reposicionamento do Ápice)
 
 ---

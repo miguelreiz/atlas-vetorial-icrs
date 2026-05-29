@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 2 — Como Funcionam os ICRS: Do Deslocamento de Volume à Decomposição Vetorial
 
 > **Análise Vetorial Biomecânica Corneana para Planejamento de Segmento de Anel Intraestromal**

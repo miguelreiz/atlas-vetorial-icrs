@@ -1,4 +1,12 @@
+<!-- GPT revision applied -->
 # Capítulo 6 — V_T: O Vetor Tangencial — Mecânica da Cintagem e Regularização
+
+> **Pontos-Chave**
+> - O VT quantifica a **redistribuição de astigmatismo** e é controlado pelo comprimento do arco.
+> - O mecanismo é a **cintagem circunferencial** (*hoop restriction*): o anel actua como o aro de um barril.
+> - Quanto mais longo o arco, menor a expansão radial sob PIO — a córnea regulariza-se.
+> - A espessura do anel **NÃO afecta** VT — esta dissociação (Arco → VT, Espessura → VR) é fundamental.
+> - A relação arco–VT é linear e previsível (R² = 0,94), permitindo prescrição de arco objectiva.
 
 ---
 
@@ -104,8 +112,18 @@ Esta dissociação total — Arco controla a regularização (V_T); Espessura co
 
 ---
 
+## Resumo Didático
+
+- O **VT (Vetor Tangencial)** quantifica a redistribuição de astigmatismo e é controlado pelo **comprimento do arco**.
+- O mecanismo é a **cintagem circunferencial**: o anel actua como o aro de um barril, restringindo a expansão radial.
+- Relação empírica: para cada grau a mais de arco, a tensão tangencial diminui em 0,0018 kPa (R² = 0,94).
+- A **espessura não afecta VT** — esta dissociação total (Arco → VT, Espessura → VR) é a "Pedra de Roseta" dos nomogramas.
+- Arco controla a regularização; espessura controla o aplanamento. Os dois são independentes.
+
+---
+
 ## Referências
 
 1. Meek KM, Knupp C. Corneal structure and transparency. *Prog Retin Eye Res*. 2015;49:1–16.
 2. Alió JL, Shabayek MH, Belda JI. Semifluorinated KeraRing segments for keratoconus. *J Refract Surg*. 2006;22(2):149–157.
-3. Roberts CJ, Dupps WJ Jr. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
+3. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.

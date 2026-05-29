@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Capítulo 12 — Validação Computacional: Extração por Elementos Finitos de V_R, V_T e V_τ
+
+
+> **Pontos-Chave**
+> - A campanha FEM de **377 simulações** convergidas no FEBio valida computacionalmente o arcabouço AVBC.
+> - O parâmetro c explica **98,9%** da variância — a degradação da matriz é o driver primário da ectasia.
+> - O desacoplamento VR–VT é robusto: espessura→VR, arco→VT, independentemente da geometria.
+> - As simulações de anel assimétrico validaram o mecanismo Vτ com torques de 9,31–18,34 μN·m.
+> - Limitação: geometria esférica uniforme — a próxima geração usará geometria do Pentacam.
 
 ---
 
@@ -140,8 +149,18 @@ A campanha de FEBio validou matematicamente os postulados centrais da Análise V
 - Embora robusto para extração de tendências, o FEM elástico puro não incorpora a viscoelasticidade e reestruturação dos ceratócitos (healing), que aprimoram os resultados topográficos meses pós-cirurgia.
 
 
+## Resumo Didático
+
+- A campanha FEM de **377 simulações** convergidas no FEBio 4.12 fornece a base computacional do arcabouço AVBC.
+- O parâmetro **c** (substância fundamental) explica **98,9%** da variância do deslocamento apical — confirmando que a degradação da matriz é o driver primário da ectasia.
+- O **desacoplamento VR–VT** é um achado estrutural robusto: espessura controla VR, arco controla VT, independentemente da geometria.
+- As simulações de **anel assimétrico** validaram o mecanismo de torque Vτ com valores entre 9,31–18,34 μN·m.
+- Limitação principal: o modelo actual usa geometria esférica uniforme — a próxima geração usará geometria específica do paciente (Pentacam).
+
+---
+
 ## Referências
 
-1. Holzapfel GA, Gasser TC, Ogden RW. A new constitutive framework for arterial wall mechanics and a comparative study of material models. J Elasticity. 2000;61:1-48.
-2. Pinsky PM, van der Heide D, Chernyak D. Computational modeling of mechanical anisotropy in the cornea and sclera. J Cataract Refract Surg. 2005;31(1):136-145.
-3. Maas SA, Ellis BJ, Ateshian GA, Weiss JA. FEBio: finite elements for biomechanics. J Biomech Eng. 2012;134(1):011005.
+1. Holzapfel GA, Gasser TC, Ogden RW. A new constitutive framework for arterial wall mechanics and a comparative study of material models. *J Elasticity*. 2000;61(1–3):1–48.
+2. Maas SA, Ellis BJ, Ateshian GA, Weiss JA. FEBio: finite elements for biomechanics. *J Biomech Eng*. 2012;134(1):011005.
+3. Pinsky PM, van der Heide D, Chernyak D. Computational modeling of mechanical anisotropy in the cornea and sclera. *J Cataract Refract Surg*. 2005;31(1):136–145.

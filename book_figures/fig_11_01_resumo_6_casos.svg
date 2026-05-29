@@ -78,8 +78,8 @@
     <text x="57" y="18" text-anchor="middle" font-size="9" font-weight="bold" fill="#2171B5">Caso 5</text>
     <circle cx="37" cy="68" r="22" fill="#B3D9F2" stroke="#2171B5" stroke-width="1"/>
     <circle cx="77" cy="82" r="22" fill="#FFCC80" stroke="#E6550D" stroke-width="1"/>
-    <text x="37" y="71" text-anchor="middle" font-size="5" fill="#1565C0">OD leve</text>
-    <text x="77" y="85" text-anchor="middle" font-size="5" fill="#BF360C">OE mod</text>
+    <text x="37" y="71" text-anchor="middle" font-size="7" fill="#1565C0">OD leve</text>
+    <text x="77" y="85" text-anchor="middle" font-size="7" fill="#BF360C">OE mod</text>
     <text x="57" y="125" text-anchor="middle" font-size="8" font-weight="bold" fill="#333">Bilateral</text>
     <rect x="15" y="140" width="85" height="18" rx="3" fill="#2171B5"/>
     <text x="57" y="153" text-anchor="middle" font-size="8" fill="white" font-weight="bold">VR + VT</text>
@@ -96,7 +96,7 @@
     <text x="57" y="18" text-anchor="middle" font-size="9" font-weight="bold" fill="#7B1FA2">Caso 6</text>
     <circle cx="57" cy="75" r="35" fill="#E1BEE7" stroke="#7B1FA2" stroke-width="1"/>
     <text x="57" y="72" text-anchor="middle" font-size="7" fill="#4A148C" font-weight="bold">pós-CXL</text>
-    <text x="57" y="84" text-anchor="middle" font-size="6" fill="#7B1FA2">k₁ ↑ 2×</text>
+    <text x="57" y="84" text-anchor="middle" font-size="7" fill="#7B1FA2">k₁ ↑ 2×</text>
     <text x="57" y="125" text-anchor="middle" font-size="8" font-weight="bold" fill="#333">Pós-CXL</text>
     <rect x="15" y="140" width="85" height="18" rx="3" fill="#2171B5"/>
     <text x="57" y="153" text-anchor="middle" font-size="8" fill="white" font-weight="bold">VR (↑50%)</text>

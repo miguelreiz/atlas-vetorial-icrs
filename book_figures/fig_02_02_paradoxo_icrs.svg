@@ -23,8 +23,8 @@
   <!-- ICRS blocks -->
   <rect x="110" y="280" width="20" height="20" rx="2" fill="#333"/>
   <rect x="270" y="280" width="20" height="20" rx="2" fill="#333"/>
-  <text x="140" y="295" font-size="6" fill="#333">X</text>
-  <text x="260" y="295" font-size="6" fill="#333">X</text>
+  <text x="140" y="295" font-size="7" fill="#333">X</text>
+  <text x="260" y="295" font-size="7" fill="#333">X</text>
 
   <!-- Arrow showing steepening -->
   <line x1="200" y1="220" x2="200" y2="195" stroke="#C62828" stroke-width="2"/>
@@ -57,8 +57,8 @@
   <!-- Peripheral lift arrows -->
   <line x1="500" y1="248" x2="500" y2="225" stroke="#E6550D" stroke-width="1.8"/>
   <line x1="660" y1="248" x2="660" y2="225" stroke="#E6550D" stroke-width="1.8"/>
-  <text x="500" y="220" text-anchor="middle" font-size="6" fill="#E6550D">↑ Lift</text>
-  <text x="660" y="220" text-anchor="middle" font-size="6" fill="#E6550D">↑ Lift</text>
+  <text x="500" y="220" text-anchor="middle" font-size="7" fill="#E6550D">↑ Lift</text>
+  <text x="660" y="220" text-anchor="middle" font-size="7" fill="#E6550D">↑ Lift</text>
 
   <!-- Central flattening arrow -->
   <line x1="580" y1="210" x2="580" y2="230" stroke="#2171B5" stroke-width="2.5"/>

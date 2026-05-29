@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Apêndice C — Glossário de Terminologia da AVBC
 
 ---

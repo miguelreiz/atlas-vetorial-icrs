@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Capítulo 13 — Limitações, Cronograma de Validação e Direções Futuras
+
+
+> **Pontos-Chave**
+> - A AVBC tem limitações **específicas e falsificáveis**: geometria simplificada, materiais uniformes, interface idealizada.
+> - O cronograma de validação procede de concordância retrospectiva a ensaio prospectivo controlado (N=100).
+> - As condições de **invalidação** estão explicitamente declaradas — isto é raro na literatura de ICRS.
+> - Direcções futuras: FEM personalizado, machine learning, monitoramento intraoperatório, extensão a outras ectasias.
+> - Se o erro de Δ K no braço AVBC não for significativamente menor que no nomograma, o arcabouço deve ser abandonado.
 
 > **Análise Vetorial Biomecânica Corneana para o Planejamento de Segmento de Anel Intraestromal**
 > *Parte V — Horizontes*
@@ -206,25 +215,14 @@ A Seção 9.5 introduziu a Classificação Fenotípica Biomecânica, que mapeia 
 
 **Limitação identificada e Proposta de Resolução.** A variação de paquimetria (espessura estromal) não produziu variação nos vetores na implementação atual, indicando que o modelo de malha uniforme não implementa a variação de espessura de forma dinâmica. Para superar esta limitação, propõe-se uma reformulação do **gerador de malhas no FEBio (FEM)** para controlar a espessura corneana de forma paramétrica direta através da manipulação de coordenadas de nós (z), dispensando interpolações complexas de imagens clínicas externas.
 
-#### Formulação Paramétrica do Espessamento e Afinamento no FEBio
+### Formulação Paramétrica do Espessamento e Afinamento no FEBio
 
-A espessura da córnea (paquimetria) pode ser controlada diretamente nas funções analíticas de geração de nós da malha de elementos finitos. A superfície anterior da córnea é modelada como uma casca esférica ou elipsoide de translação. Em vez de assumir uma espessura estromal constante (t_0 = 500 μm), a coordenada radial/axial do nó correspondente da superfície posterior da córnea é calculada variando a espessura local de forma paramétrica:
+As plataformas computacionais futuras abandonarão a premissa de que a córnea é uma esfera ou elipse perfeita. Em vez de assumir uma espessura estromal constante, o modelo do futuro irá reconstruir a verdadeira arquitetura 3D da córnea ponto a ponto.
 
-1. **Variação Paramétrica Uniforme (Thin / Normal / Thick):**
- Para simular córneas com diferentes espessuras basais de forma limpa no FEBio, a coordenada z dos nós posteriores (z_{post}) em cada ponto radial r é escalada por um parâmetro de espessura uniforme t \in [400 μm, 600 μm]:
- z_{post}(r) = z_{ant}(r) - t \cdot \cos(\phi)
- onde \phi é o ângulo de inclinação local da casca. Isto garante que a rigidez estrutural da casca no solver do FEBio responda diretamente à espessura fina (ectasia extrema), normal ou espessa.
+1. **Variação Paramétrica:** O software cruzará os mapas de elevação anterior e posterior do paciente para calcular a espessura exata em cada ponto da topografia, libertando o planeamento das suposições globais de espessura.
+2. **Modelagem Paramétrica de Ectasia Localizada:** O cone ceratocónico (a zona de afinamento máximo e protrusão) será modelado com precisão geográfica. O algoritmo injetará as coordenadas exatas do ápice (por exemplo, deslocado ínfero-temporalmente) e o gradiente de perda de tecido, construindo um "clone digital" da ectasia do paciente.
 
-2. **Modelagem Paramétrica de Ectasia Localizada (Afinamento Regional):**
- A perda de espessura localizada na zona do cone ceratocónico (afinamento assimétrico temporal inferior) pode ser modelada de forma sintética no próprio gerador de nós adicionando uma função Gaussiana de afinamento descentrada. A espessura local t(x, y) é descrita como:
- t(x, y) = t_0 - Δ t \cdot exp( - ((x - x_{cone})^2 + (y - y_{cone})^2) / (2 σ_{cone)^2} )
- onde:
- * t_0 é a espessura periférica saudável (500 μm).
- * Δ t é a perda máxima de espessura no ápice do cone (ex. 150 μm, resultando numa paquimetria mínima de 350 μm).
- * (x_{cone}, y_{cone}) são as coordenadas de descentração do cone (ex. temporal inferior).
- * σ_{cone} define a largura ou extensão da zona de afinamento.
-
-Este método direto no gerador do FEBio permite criar modelos numéricos limpos e reprodutíveis, permitindo testar diretamente a eficácia mecânica do ICRS em diferentes graus de afinamento localizados e espessuras globais da casca, garantindo a convergência perfeita do solver sem risco de distorção de elementos.
+Este método direto permite criar modelos numéricos limpos e reprodutíveis, permitindo testar diretamente a eficácia mecânica do ICRS em diferentes graus de afinamento localizados e espessuras globais da casca, garantindo a convergência perfeita do solver sem risco de distorção de elementos.
 
 **Critério de validação atendido.** A campanha satisfaz o critério de validação proposto originalmente: a variação isolada do parâmetro c produz uma assinatura vetorial qualitativamente e quantitativamente distinguível no space (V_R, δ_{apex}, Δ K), com CV = 0{,}671 vs. CV < 0{,}02 para os demais parâmetros. A classificação fenotípica não é tautológica — ela identifica diferenças biomecânicas reais que podem ser detectadas computacionalmente.
 
@@ -241,11 +239,21 @@ Este método direto no gerador do FEBio permite criar modelos numéricos limpos 
 
 ---
 
+## Resumo Didático
+
+- O arcabouço AVBC possui limitações **específicas e identificáveis**: geometria simplificada, propriedades de materiais uniformes e interface ICRS-estroma idealizada.
+- Estas limitações são contornáveis por **estudos computacionais e clínicos** organizados num cronograma de validação em fases.
+- O estudo prospectivo (N=100, dois braços, 6 meses) determinará se a AVBC supera o nomograma em acurácia preditiva.
+- O arcabouço é **explicitamente falsificável** — as condições de invalidação estão declaradas com clareza.
+- Direcções futuras: FEM personalizado, machine learning, monitoramento intraoperatório, extensão a ectasia pós-LASIK e ceratoglobo.
+
+---
+
 ## Referências
 
 1. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
 2. García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. *PLoS One*. 2021;16(1):e0245063.
-3. Kling S, Marcos S. Finite-element modeling of ICRS in a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
+3. Kling S, Marcos S. Finite-element modeling of intrastromal corneal ring segment implantation into a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
 4. Nguyen BA, Roberts CJ, Reilly MA. Biomechanical impact of the sclera on corneal deformation response. *Front Bioeng Biotechnol*. 2018;6:210.
 5. Pandolfi A, Gizzi A, Vasta M. A microstructural model of cross-link interaction between collagen fibrils in the human cornea. *Phil Trans R Soc A*. 2019;377(2144):20180079.
 6. Scarcelli G, Besner S, Pineda R, et al. In vivo biomechanical mapping of normal and keratoconus corneas. *JAMA Ophthalmol*. 2015;133(4):480–482.

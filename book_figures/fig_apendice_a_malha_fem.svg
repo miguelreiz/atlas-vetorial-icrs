@@ -36,7 +36,7 @@
 
   <!-- Central node -->
   <circle cx="195" cy="210" r="3" fill="#333"/>
-  <text x="195" y="200" text-anchor="middle" font-size="6" fill="#333">Ápice</text>
+  <text x="195" y="200" text-anchor="middle" font-size="7" fill="#333">Ápice</text>
 
   <!-- Node count -->
   <text x="195" y="355" text-anchor="middle" font-size="7" fill="#777">~4.800 nós hexaédricos</text>
@@ -67,8 +67,8 @@
   <!-- Displacement arrows -->
   <line x1="495" y1="243" x2="495" y2="218" stroke="#E6550D" stroke-width="2"/>
   <line x1="660" y1="243" x2="660" y2="218" stroke="#E6550D" stroke-width="2"/>
-  <text x="495" y="212" text-anchor="middle" font-size="6" fill="#E6550D" font-weight="bold">↑ uz=250μm</text>
-  <text x="660" y="212" text-anchor="middle" font-size="6" fill="#E6550D" font-weight="bold">↑ uz=250μm</text>
+  <text x="495" y="212" text-anchor="middle" font-size="7" fill="#E6550D" font-weight="bold">↑ uz=250μm</text>
+  <text x="660" y="212" text-anchor="middle" font-size="7" fill="#E6550D" font-weight="bold">↑ uz=250μm</text>
 
   <!-- IOP arrows -->
   <g stroke="#2171B5" stroke-width="1" opacity="0.6">
@@ -84,8 +84,8 @@
   <g fill="#C62828" font-size="10" font-weight="bold">
     <text x="420" y="290">▲</text><text x="728" y="290">▲</text>
   </g>
-  <text x="425" y="305" font-size="6" fill="#C62828">Fixo</text>
-  <text x="728" y="305" font-size="6" fill="#C62828">Fixo</text>
+  <text x="425" y="305" font-size="7" fill="#C62828">Fixo</text>
+  <text x="728" y="305" font-size="7" fill="#C62828">Fixo</text>
 
   <!-- BC Legend -->
   <rect x="420" y="340" width="320" height="15" rx="3" fill="#F5F5F5"/>

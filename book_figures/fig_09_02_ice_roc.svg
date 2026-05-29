@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="398.497812pt" height="405.08625pt" viewBox="0 0 398.497812 405.08625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg font-family="Arial, Helvetica, sans-serif" xmlns:xlink="http://www.w3.org/1999/xlink" width="398.497812pt" height="405.08625pt" viewBox="0 0 398.497812 405.08625" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -2896,4 +2896,5 @@ z
    <rect x="47.412813" y="30.263594" width="332.64" height="332.64"/>
   </clipPath>
  </defs>
+  <text x="199.2" y="400.1" text-anchor="middle" font-size="8" fill="#CCC" font-family="Arial, Helvetica, sans-serif">Figura 9.2 — Curva ROC do Índice de Coerência Axial (ICE) · Dr. Miguel Reis · Dra. Jordana Sandes</text>
 </svg>

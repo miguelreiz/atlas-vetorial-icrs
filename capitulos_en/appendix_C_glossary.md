@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Appendix C — AVBC Terminology Glossary
 
 ---

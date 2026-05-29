@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Capítulo 11 — Estudos de Casos Ilustrativos
+
+
+> **Pontos-Chave**
+> - Os 6 casos demonstram que a AVBC acrescenta valor quando o nomograma falha: divergência ENM, ápice deslocado, pós-CXL.
+> - O Caso 1 (central simétrico) confirma que o nomograma funciona quando ENM ≈ K-steep.
+> - Os Casos 3–4 (ápice deslocado) mostram que VR sozinho é insuficiente — Vτ é necessário.
+> - O Caso 6 (pós-CXL) demonstra a importância de ajustar a espessura à rigidez modificada.
+> - O AVBC agrega valor em ~40% dos casos — os restantes são bem servidos pelo nomograma.
 
 > **Análise Vetorial Biomecânica Corneana para Planejamento de Segmento de Anel Intraestromal**
 > *Parte IV — Aplicação Clínica*
@@ -288,6 +297,16 @@ O AVBC agrega valor clínico em aproximadamente 40% dos casos — aqueles com di
 
 ---
 
+## Resumo Didático
+
+- Os 6 casos ilustrativos demonstram que a AVBC acrescenta valor em cenários onde os nomogramas falham: divergência de ENM, ápice deslocado, biomecânica modificada.
+- O **Caso 1** (central simétrico) confirma que o nomograma funciona quando o ENM coincide com o K-steep.
+- Os **Casos 3–4** (ápice deslocado, ENM divergente) mostram que VR sozinho é insuficiente — Vτ é necessário para reposicionar o cone.
+- O **Caso 6** (pós-CXL) demonstra a importância de ajustar a espessura do anel à rigidez modificada do estroma.
+- O AVBC agrega valor clínico em aproximadamente 40% dos casos — os restantes 60% são bem servidos pelos nomogramas tradicionais.
+
+---
+
 ## Referências
 
 1. Alió JL, Shabayek MH. Corneal higher order aberrations: a method to grade keratoconus. *J Refract Surg*. 2006;22(6):539–545.
@@ -295,7 +314,7 @@ O AVBC agrega valor clínico em aproximadamente 40% dos casos — aqueles com di
 3. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
 4. Ferrara de Almeida Cunha P. Intrastromal corneal ring. *Arq Bras Oftalmol*. 1997;60:631–640.
 5. García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. *PLoS One*. 2021;16(1):e0245063.
-6. Kling S, Marcos S. Finite-element modeling of ICRS in a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
+6. Kling S, Marcos S. Finite-element modeling of intrastromal corneal ring segment implantation into a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
 7. Piñero DP, Alcón N. Corneal biomechanics: a review. *Clin Exp Optom*. 2015;98(2):107–116.
 8. Rabinowitz YS. Keratoconus. *Surv Ophthalmol*. 1998;42(4):297–319.
 9. Torquetti L, Ferrara P. Long-term follow-up of ICRS in keratoconus. *J Cataract Refract Surg*. 2009;35(10):1768–1773.

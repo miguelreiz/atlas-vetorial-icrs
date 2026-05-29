@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 10 — Fluxo de Trabalho Clínico: Do Mapa ao Anel
 
 > **Análise Vetorial Biomecânica Corneana para Planejamento de Segmento de Anel Intraestromal**

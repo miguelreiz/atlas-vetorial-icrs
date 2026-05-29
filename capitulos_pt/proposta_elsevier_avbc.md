@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # PROPOSTA DE LIVRO — Elsevier
 
 ---

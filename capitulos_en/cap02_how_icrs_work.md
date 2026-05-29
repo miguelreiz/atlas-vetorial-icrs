@@ -1,13 +1,25 @@
+<!-- GPT revision applied -->
 # Chapter 2 — How ICRS Work: From Volume Displacement to Vector Decomposition
 
 > **Corneal Biomechanical Vector Analysis for Intracorneal Ring Segment Planning**
 > *Part I — Fundamentals*
+
+> **Key Points**
+> - ICRS are **not simple spacers**: they act through three independent biomechanical mechanisms.
+> - **VR** (radial vector): apical flattening via volume injection — controlled by ring **thickness**.
+> - **VT** (tangential vector): astigmatism regularization via hoop restriction — controlled by **arc length**.
+> - **Vτ** (torque vector): apex repositioning via asymmetric loading — controlled by **thickness gradient**.
+> - The **Volumetric School** reconciles FEM with clinical observations: more arc = more flattening.
+
 
 ---
 
 ## 2.1 Introduction
 
 Intracorneal ring segments have been implanted for over twenty-five years, with an estimated half-million procedures performed worldwide since the first Intacs implant in 1999 (Burris et al., 1998; Colin et al., 2000). Despite this extensive clinical experience, the ICRS mechanism of action remains a subject of ongoing debate. How, precisely, does a small arc of polymethylmethacrylate (PMMA) inserted into the corneal stroma produce changes in corneal curvature, astigmatism, and higher-order aberrations?
+
+![Figure 2.1 — Conceptual evolution: from the Three Schools (Geometric, Volumetric, Biomechanical) to the AVBC synthesis.](book_figures/fig_02_01_tres_escolas.svg)
+
 
 Three conceptual frameworks have been proposed: the **geometric school** (Barraquer, 1964), which attributes the effect to arc shortening; the **volumetric school** (Kling & Marcos, 2013), which emphasizes volume displacement; and the **biomechanical school** (Dupps & Roberts, 2014), which focuses on stress redistribution. Each approach captures part of the truth, but none provides a complete explanation of the observed clinical effects.
 
@@ -18,6 +30,9 @@ This chapter critically reviews these three perspectives and synthesizes them in
 ## 2.2 The Geometric School: Barraquer's Principle (1960s)
 
 ### The Evolution of the Concept
+
+![Figure 2.2 — The ICRS Paradox: kinematic constraint vs volumetric injection.](book_figures/fig_02_02_paradoxo_icrs.svg)
+
 
 The intellectual foundation for ICRS dates back to the pioneering work of José I. Barraquer in the 1960s. In his seminal publications on *Keratomileusis* and *Keratophakia* (Barraquer, 1966; Barraquer, 1967), he proposed that modification of stromal thickness could induce predictable changes in anterior curvature. The initially postulated mechanism was purely geometric: the **arc-shortening principle**.
 
@@ -38,6 +53,9 @@ The arc-shortening model dominated the refractive literature for decades due to 
 ## 2.3 Volume Displacement and Stress Redistribution
 
 ### The Volumetric School: The FEM Study of Kling and Marcos (2013)
+
+![Figure 2.3 — Vector decomposition: the three vectors VR, VT, and Vτ and their biomechanical actions.](book_figures/fig_02_03_decomposicao_vetorial.svg)
+
 
 The formal transition from two-dimensional geometry to three-dimensional solid mechanics occurred when Kling and Marcos (2013) applied the finite element method (FEM) to the hyperelastic cornea model. By studying in detail the displacement fields generated around the implant, they revealed that flattening did not result from mere shortening of the superior curvature, but rather from an intense **volume displacement** (the so-called *spacer effect*).
 
@@ -151,7 +169,7 @@ where σ_θθ is obtained by tensorial transformation of the Cartesian Cauchy st
 **Ring parameter:** VT is primarily modulated by **arc length**. Our FEM data show a monotonic decrease: VT falls from 7.78 kPa (baseline) to 7.20 kPa (320° arc), following the empirical relationship:
 
 ```
-VT(arc°) = −0.0018 × arc° + 7.79    (R² = 0.94)
+VT(arc°) = −0.0018 × arc° + 7.79 (R² = 0.94)
 ```
 
 Each additional degree of arc reduces global tangential stress by 0.0018 kPa. This monotonicity provides a quantitative guide for arc length selection.
@@ -231,6 +249,18 @@ The clinical guidance is: depth is not merely a safety parameter (avoiding perfo
 - Each vector is modulated by a different ring parameter: **thickness** (VR), **arc length** (VT), **asymmetry** (Vτ).
 - **Depth** acts as a universal amplifier of all three vectors.
 - This mechanistic understanding forms the basis for the AVBC planning framework — a system that prescribes ring parameters based on *which mechanism the cornea needs*, not on empirical correlation.
+
+---
+
+---
+
+## Didactic Summary
+
+- ICRS act through **three independent biomechanical mechanisms**, not a single "spacer" effect.
+- **VR** (radial displacement) is controlled by ring thickness and governs apical flattening.
+- **VT** (tangential stress redistribution) is controlled by arc length and governs astigmatism regularization.
+- **Vτ** (asymmetric torque) is controlled by thickness gradient and governs apex repositioning.
+- The **Volumetric School** provides the physical explanation: the ring injects mass into the mid-periphery, lifting and stretching the corneal dome.
 
 ---
 

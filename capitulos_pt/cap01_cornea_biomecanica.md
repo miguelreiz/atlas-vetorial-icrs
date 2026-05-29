@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Capítulo 1 — A Córnea Ceratocônica como uma Estrutura Mecânica
+
+
+> **Pontos-Chave**
+> - A córnea ceratocônica é um **compósito biológico anisotrópico** — não um plástico homogéneo.
+> - O modelo HGO descreve o estroma com 4 parâmetros: c (matriz), k₁ (fibras), k₂ (não-linearidade), κ (dispersão).
+> - A degradação de **c** (substância fundamental) é o motor primário da ectasia no ceratocone.
+> - A profundidade do ICRS (70–80%) coloca o implante na zona de interacção mecânica máxima.
+> - Toda a análise AVBC parte desta compreensão biomecânica do tecido corneano.
 
 > **Análise Vetorial Biomecânica Corneana para Planejamento de Segmento de Anel Intraestromal**
 > *Parte I — O Problema e os Fundamentos*
@@ -203,6 +212,16 @@ O framework da AVBC, introduzido nos capítulos seguintes, propõe preencher ess
 | Anisotropia | Rigidez varia conforme a direção e a região | O efeito do anel depende da orientação local das fibras de colágeno |
 | PIO como motor | 15 mmHg gera uz = 360,9 μm de deslocamento central | Mesmo PIO normal deforma significativamente uma córnea enfraquecida |
 | Estroma anterior vs posterior | Anterior 2-3× mais rígido; posterior falha primeiro no KC | O ICRS é implantado a 70–80% de profundidade para interagir com o estroma de suporte de carga |
+
+---
+
+## Resumo Didático
+
+- A córnea ceratocônica é uma **estrutura mecânica anisotrópica** cujo comportamento depende da organização fibrilar do estroma, não apenas da sua forma geométrica.
+- O modelo **HGO** (Holzapfel–Gasser–Ogden) descreve o estroma com apenas 4 parâmetros: rigidez da matriz (c), rigidez fibrilar (k₁), não-linearidade (k₂) e dispersão (κ). A degradação de c é o motor primário do ceratocone.
+- A **anisotropia** — fibras cardinais no centro, circunferenciais no limbo — governa como a córnea distribui tensões e como o ICRS redistribui forças.
+- A profundidade de inserção do ICRS (70–80% do estroma) coloca o implante na zona de estroma posterior paralelo, onde a interação mecânica é máxima.
+- Toda a análise AVBC parte desta compreensão: a córnea não é um "plástico mole" — é um **compósito biológico** que responde como um tecido vivo reforçado por fibras.
 
 ---
 

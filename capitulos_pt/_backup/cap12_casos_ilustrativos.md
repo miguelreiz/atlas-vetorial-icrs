@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 11 — Estudos de Casos Ilustrativos
 
 > **Análise Vetorial Biomecânica Corneana para Planejamento de Segmento de Anel Intraestromal**

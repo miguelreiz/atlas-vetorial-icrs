@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Apêndice B — Documentação de Scripts FEBio e Pipeline de Extração
 
 ---
@@ -136,11 +137,7 @@ Para cada simulação convergida, o script extrai 8 métricas primárias:
 
 ### Cálculo da Curvatura (Δ K)
 
-A variação ceratométrica é calculada por `calc_curvature.py` usando a fórmula:
-
-Δ K = (n_{ref} - 1) / (R_{post)} - (n_{ref} - 1) / (R_{pre)}
-
-onde n_{ref} = 1{,}3375 (índice ceratométrico) e R é o raio de curvatura ajustado a uma esfera local nos 3 mm centrais.
+A variação ceratométrica é calculada por `calc_curvature.py` subtraindo a potência ceratométrica inicial da final. A curvatura é extraída ajustando o perfil dos 3 mm centrais da córnea simulada a uma esfera local, utilizando o índice ceratométrico padrão (1,3375).
 
 ### Saída
 

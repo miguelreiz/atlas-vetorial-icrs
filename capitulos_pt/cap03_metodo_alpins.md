@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Capítulo 8 — O Método Alpins: Um Modelo para Linguagens de Planejamento Cirúrgico
+
+
+> **Pontos-Chave**
+> - O Método Alpins estabeleceu o paradigma **planejado-versus-induzido** para cirurgia de astigmatismo.
+> - A AVBC herda de Alpins: universalidade, objectividade, comparabilidade e ciclo de feedback.
+> - Diferença fundamental: Alpins opera em 2D (astigmatismo); AVBC opera em **3D** (VR + VT + Vτ).
+> - O CI (Índice de Correção) de Alpins inspira directamente os CI_R, VT-ratio e Vτ-ratio da AVBC.
+> - A AVBC avança de análise retrospectiva para **planeamento prospectivo** baseado em FEM.
 
 ## 8.1 Introdução
 
@@ -196,19 +205,29 @@ A análise vetorial de Alpins transformou a cirurgia de astigmatismo de uma arte
 
 ---
 
+## Resumo Didático
+
+- O Método Alpins estabeleceu o paradigma **planejado-versus-induzido** para cirurgia de astigmatismo, permitindo análise objectiva de resultados.
+- A AVBC herda de Alpins quatro pilares: **universalidade, objectividade, comparabilidade e ciclo de feedback**.
+- A diferença fundamental: Alpins opera num espaço **bidimensional** (astigmatismo), enquanto a AVBC opera num espaço **tridimensional** (VR + VT + Vτ).
+- O Índice de Correção (CI) de Alpins inspira directamente os CI_R, VT-ratio e Vτ-ratio da AVBC.
+- O avanço da AVBC é passar da análise *retrospectiva* de Alpins para o planeamento **prospectivo** baseado em simulação de elementos finitos.
+
+---
+
 ## Referências
 
-1. Alió JL, Shabayek MH. Corneal higher order aberrations: a method to grade keratoconus. *Journal of Refractive Surgery*. 2006;22(6):539–545.
-2. Alpins NA. A new method of analyzing vectors of astigmatism to compare the effects of refractive surgery. *Journal of Cataract and Refractive Surgery*. 1993;19(4):524–533.
-3. Alpins NA. Astigmatism analysis by the Alpins method. *Journal of Cataract and Refractive Surgery*. 2001;27(1):31–49.
-4. Alpins NA, Goggin M. Practical astigmatism analysis for refractive outcomes in cataract and refractive surgery. *Survey of Ophthalmology*. 2004;49(1):109–122.
-5. Dupps WJ Jr, Roberts CJ. Corneal biomechanics: a decade of progress. *Journal of Cataract and Refractive Surgery*. 2014;40(3):333–338.
-6. Koch DD. Reporting astigmatism data. *Journal of Cataract and Refractive Surgery*. 1997;23(10):1441–1442.
-7. Lago MA, Rupérez MJ, Monserrat C, et al. Patient-specific simulation of the intrastromal ring segment implantation in corneas with keratoconus. *Journal of the Mechanical Behavior of Biomedical Materials*. 2015;51:260–268.
-8. Naeser K. Conversion of keratometer readings to polar values. *Journal of Cataract and Refractive Surgery*. 1990;16(6):741–745.
-9. Peña-García P, Alió JL, Vega-Estrada A, Barraquer RI. Internal, corneal, and refractive astigmatism as prognostic factors for intrastromal corneal ring segment implantation in mild to moderate keratoconus. *Journal of Cataract and Refractive Surgery*. 2014;40(10):1633–1644.
-10. Piñero DP, Alió JL, Teus MA, Barraquer RI, Michael R, Jiménez R. Modification and refinement of the corneal asphericity after intrastromal corneal ring segment implantation in keratoconus. *Cornea*. 2009;28(7):747–752.
-11. Piñero DP. Technologies for anatomical and geometric characterization of the corneal structure and anterior segment: a review. *Clinical and Experimental Optometry*. 2014;97(1):5–18.
-12. Reinstein DZ, Archer TJ, Randleman JB. JRS standard for reporting astigmatism outcomes of refractive surgery. *Journal of Refractive Surgery*. 2014;30(11):734–736.
-13. Thibos LN, Wheeler W, Horner D. Power vectors: an application of Fourier analysis to the description and statistical analysis of refractive error. *Optometry and Vision Science*. 1997;74(6):367–375.
-14. Vega-Estrada A, Alió JL, Brenner LF, Burguera N. Outcomes of intrastromal corneal ring segments for treatment of keratoconus: five-year follow-up analysis. *Journal of Cataract and Refractive Surgery*. 2013;39(8):1234–1240.
+1. Alió JL, Shabayek MH. Corneal higher order aberrations: a method to grade keratoconus. *J Refract Surg*. 2006;22(6):539–545.
+2. Alpins NA. A new method of analyzing vectors of astigmatism to compare the effects of refractive surgery. *J Cataract Refract Surg*. 1993;19(4):524–533.
+3. Alpins NA. Astigmatism analysis by the Alpins method. *J Cataract Refract Surg*. 2001;27(1):31–49.
+4. Alpins NA, Goggin M. Practical astigmatism analysis for refractive outcomes in cataract and refractive surgery. *Surv Ophthalmol*. 2004;49(1):109–122.
+5. Dupps WJ Jr, Roberts CJ. Corneal biomechanics: a decade of progress. *J Cataract Refract Surg*. 2014;40(3):333–338.
+6. Koch DD. Reporting astigmatism data. *J Cataract Refract Surg*. 1997;23(10):1441–1442.
+7. Lago MA, Rupérez MJ, Monserrat C, et al. Patient-specific simulation of the intrastromal ring segment implantation in corneas with keratoconus. *J Mech Behav Biomed Mater*. 2015;51:260–268.
+8. Naeser K. Conversion of keratometer readings to polar values. *J Cataract Refract Surg*. 1990;16(6):741–745.
+9. Peña-García P, Alió JL, Vega-Estrada A, Barraquer RI. Internal, corneal, and refractive astigmatism as prognostic factors for intrastromal corneal ring segment implantation in mild to moderate keratoconus. *J Cataract Refract Surg*. 2014;40(10):1633–1644.
+10. Piñero DP, Alió JL, Teus MA, et al. Modification and refinement of the corneal asphericity after intrastromal corneal ring segment implantation in keratoconus. *Cornea*. 2009;28(7):747–752.
+11. Piñero DP. Technologies for anatomical and geometric characterization of the corneal structure and anterior segment: a review. *Clin Exp Optom*. 2014;97(1):5–18.
+12. Reinstein DZ, Archer TJ, Randleman JB. JRS standard for reporting astigmatism outcomes of refractive surgery. *J Refract Surg*. 2014;30(11):734–736.
+13. Thibos LN, Wheeler W, Horner D. Power vectors: an application of Fourier analysis to the description and statistical analysis of refractive error. *Optom Vis Sci*. 1997;74(6):367–375.
+14. Vega-Estrada A, Alió JL, Brenner LF, Burguera N. Outcomes of intrastromal corneal ring segments for treatment of keratoconus: five-year follow-up analysis. *J Cataract Refract Surg*. 2013;39(8):1234–1240.

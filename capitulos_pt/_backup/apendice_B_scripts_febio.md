@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Apêndice B — Documentação de Scripts FEBio e Pipeline de Extração
 
 ---

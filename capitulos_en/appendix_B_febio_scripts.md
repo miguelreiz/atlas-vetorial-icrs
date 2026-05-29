@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Appendix B — FEBio Scripts and Extraction Pipeline Documentation
 
 ---
@@ -8,14 +9,14 @@ The AVBC computational pipeline consists of four interlinked Python scripts that
 
 ```
 simulations/
-├── generate_febio_model.py         # .feb model generator
-├── run_parametric_campaign.py      # Parametric campaign orchestrator
-├── extract_parametric_vectors.py   # Vector metric extraction
-├── analyze_phenotype_discrimination.py  # Phenotypic discrimination analysis
-├── calc_curvature.py               # Curvature calculation from displacements
-├── models/                         # Generated .feb files
-├── results/                        # Simulation outputs
-└── analysis/                       # Discrimination reports
+├── generate_febio_model.py # .feb model generator
+├── run_parametric_campaign.py # Parametric campaign orchestrator
+├── extract_parametric_vectors.py # Vector metric extraction
+├── analyze_phenotype_discrimination.py # Phenotypic discrimination analysis
+├── calc_curvature.py # Curvature calculation from displacements
+├── models/ # Generated .feb files
+├── results/ # Simulation outputs
+└── analysis/ # Discrimination reports
 ```
 
 Sequential workflow:
@@ -55,9 +56,9 @@ Ring 14 (r ≈ 4.2 mm from apex), corresponding to the 5–6 mm optical zone.
 
 ```bash
 python generate_febio_model.py \
-  --c 0.05 --k1 0.22 --k2 100 --kappa 0.09 \
-  --arc 160 --thickness 250 \
-  --output model_arc160_t250.feb
+ --c 0.05 --k1 0.22 --k2 100 --kappa 0.09 \
+ --arc 160 --thickness 250 \
+ --output model_arc160_t250.feb
 ```
 
 | Flag | Parameter | Default | Unit |
@@ -91,9 +92,9 @@ python generate_febio_model.py \
 **Total: 377 simulations converged** from 680 attempted (convergence rate: 55.4%).
 
 ```bash
-python run_parametric_campaign.py --jobs 4        # Full campaign
-python run_parametric_campaign.py --subset geometry --jobs 2  # Geometry only
-python run_parametric_campaign.py --dry-run        # Generate .feb without executing
+python run_parametric_campaign.py --jobs 4 # Full campaign
+python run_parametric_campaign.py --subset geometry --jobs 2 # Geometry only
+python run_parametric_campaign.py --dry-run # Generate .feb without executing
 ```
 
 ---
@@ -115,9 +116,7 @@ python run_parametric_campaign.py --dry-run        # Generate .feb without execu
 
 ### Curvature Calculation (ΔK)
 
-$$\Delta K = \frac{n_{ref} - 1}{R_{post}} - \frac{n_{ref} - 1}{R_{pre}}$$
-
-where $n_{ref} = 1.3375$ and $R$ is fitted to a local sphere over the central 3 mm.
+Keratometric change is calculated by `calc_curvature.py` by subtracting the initial simulated curvature from the final one. The curvature is extracted by fitting the profile of the central 3 mm of the simulated cornea to a local sphere, utilizing the standard keratometric index (1.3375).
 
 ---
 
@@ -147,8 +146,8 @@ where $n_{ref} = 1.3375$ and $R$ is fitted to a local sphere over the central 3 
 ### Full Pipeline Execution
 
 ```bash
-python run_parametric_campaign.py --dry-run --jobs 4  # Generate models
-python run_parametric_campaign.py --jobs 4             # Execute campaign
+python run_parametric_campaign.py --dry-run --jobs 4 # Generate models
+python run_parametric_campaign.py --jobs 4 # Execute campaign
 python extract_parametric_vectors.py --campaign results/campaign_summary.json
 python analyze_phenotype_discrimination.py
 ```

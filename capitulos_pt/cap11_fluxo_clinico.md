@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Capítulo 10 — Fluxo de Trabalho Clínico: Do Mapa ao Anel
+
+
+> **Pontos-Chave**
+> - O fluxo AVBC segue 5 etapas: **Colecta → Módulo O → Módulo T → Módulo B → Prescrição**.
+> - O ENM diverge do K-steep em até 40% dos casos — acima de 15° o nomograma perde precisão.
+> - Espessura → VR, Arco → VT, Assimetria → Vτ, Profundidade → amplificador universal.
+> - O ciclo de feedback (CI_R, VT-ratio, Vτ-ratio) permite calibração pessoal do cirurgião.
+> - Após 20 casos, o CI_R médio torna-se o "factor pessoal AVBC" — análogo à constante A da LIO.
 
 > **Análise Vetorial Biomecânica Corneana para Planejamento de Segmento de Anel Intraestromal**
 > *Parte III — Da Teoria à Prática Clínica*
@@ -304,6 +313,16 @@ Este ciclo de feedback específico do cirurgião é um paralelo estrutural diret
 
 ---
 
+## Resumo Didático
+
+- O fluxo clínico AVBC segue 5 etapas: **Coleta → Módulo O → Módulo T → Módulo B → Prescrição**.
+- O **ENM** diverge do K-steep em até 40% dos casos — quando diverge > 15°, a precisão do nomograma degrada significativamente.
+- Os parâmetros do anel mapeiam directamente para vetores: **espessura → VR**, **arco → VT**, **assimetria → Vτ**, **profundidade → amplificador universal**.
+- O ciclo de feedback AVBC (AVBC-CI, VT-ratio, Vτ-ratio) permite calibração específica do cirurgião, análoga ao CI de Alpins.
+- Com o tempo, cada cirurgião constrói uma **curva de calibração pessoal** que melhora sistematicamente a precisão preditiva.
+
+---
+
 ## Referências
 
 1. Alió JL, Shabayek MH. Corneal higher order aberrations: a method to grade keratoconus. *J Refract Surg*. 2006;22(6):539–545.
@@ -312,7 +331,7 @@ Este ciclo de feedback específico do cirurgião é um paralelo estrutural diret
 4. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
 5. Ferrara de Almeida Cunha P. Intrastromal corneal ring. *Arq Bras Oftalmol*. 1997;60:631–640.
 6. García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. *PLoS One*. 2021;16(1):e0245063.
-7. Kling S, Marcos S. Finite-element modeling of intracorneal ring segment implantation into a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
+7. Kling S, Marcos S. Finite-element modeling of intrastromal corneal ring segment implantation into a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
 8. Piñero DP, Alcón N. Corneal biomechanics: a review. *Clin Exp Optom*. 2015;98(2):107–116.
 9. Rabinowitz YS. Keratoconus. *Surv Ophthalmol*. 1998;42(4):297–319.
 10. Torquetti L, Berbel RF, Ferrara P. Long-term follow-up of intrastromal corneal ring segments in keratoconus. *J Cataract Refract Surg*. 2009;35(10):1768–1773.

@@ -1,4 +1,12 @@
+<!-- GPT revision applied -->
 # Capítulo 5 — V_R: O Vetor Radial — A Escola Volumétrica
+
+> **Pontos-Chave**
+> - O VR quantifica o **efeito de aplanamento** e é controlado pela espessura do anel (volume injetado).
+> - O mecanismo subjacente é o **deslocamento de volume**: o ICRS actua como espaçador no estroma incompressível.
+> - VR é insensível ao comprimento do arco em arcos parciais — a espessura domina.
+> - Para arcos de 360°, VR salta para 125,9 μm pela redistribuição circunferencial completa.
+> - Espessura controla VR; Arco controla VT — os dois parâmetros são biomecânicamente independentes.
 
 ---
 
@@ -93,6 +101,16 @@ Por este motivo, para um paciente com **Elevada Miopia E Elevado Astigmatismo**,
 3. A magnitude do aplanamento é diretamente proporcional ao **Volume Total do Anel** (Espessura + Comprimento de Arco).
 4. As simulações FEBio provam que arcos mais longos deprimem monotonicamente o poder central, invalidando as teses obsoletas de "efeitos exclusivamente tensionais" e validando perfeitamente a intuição cirúrgica dos nomogramas volumétricos (Kling & Marcos, 2013).
 5. Córneas finas amplificam dramaticamente o V_R devido à falta de resistência estrutural no leito estromal anterior.
+
+---
+
+## Resumo Didático
+
+- O **VR (Vetor Radial)** quantifica o efeito de aplanamento e é controlado pela **espessura** do anel.
+- O mecanismo é o **deslocamento de volume**: o anel ocupa espaço no estroma incompressível, empurrando o tecido anteriormente como uma tenda.
+- VR é **insensível ao comprimento do arco** em arcos parciais (120°–210°): a espessura domina.
+- Para arcos de 360° (anel completo), VR salta dramaticamente para 125,9 μm porque o volume deslocado é distribuído circunferencialmente.
+- Para **miopia elevada com astigmatismo**, VR sozinho não basta — é preciso combinar com VT e possivelmente Vτ.
 
 ---
 

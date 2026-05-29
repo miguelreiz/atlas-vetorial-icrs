@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Apêndice A — Modelo Constitutivo HGO: Derivação e Parâmetros
 
 > **Análise Vetorial Biomecânica Corneana para o Planejamento de Segmento de Anel Intraestromal**

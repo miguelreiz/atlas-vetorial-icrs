@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Análise Vetorial Biomecânica Corneana para Planejamento de Segmento de Anel Intraestromal
 
 ## Sumário Geral

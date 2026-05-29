@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Chapter 3 — The Limits of Empirical Planning: Why Nomograms Fail
+
+
+> **Key Points**
+> - Current nomograms are **empirical lookup tables** that map geometry to ring specifications without biomechanical models.
+> - The "curse of dimensionality" makes empirical tables fundamentally inadequate for a 5+ parameter problem.
+> - Inter-surgeon discordance in nomogram interpretation exceeds 30% in complex cases.
+> - The evolution from SRK to Barrett/ray-tracing in IOL calculation provides the precedent for ICRS planning.
+> - AVBC aims to be the "Barrett formula" for ICRS: mechanistic, transparent, calibratable.
 
 ---
 
@@ -69,6 +78,18 @@ ICRS planning today finds itself exactly where intraocular lens (IOL) calculatio
 Empirical nomograms served as a springboard for the massive adoption of ICRS. However, their efficacy ceiling has been reached. Because they reduce the 3D elastic complexity of the stroma to K-max and Spherical Equivalent, nomograms generate overcorrections, undercorrections, and enormous divergence between medical opinions facing the same eye.
 
 The transition to biomechanics (Volumetric School and AVBC model) allows predicting the corneal response based on the three fronts of spatial alteration (VR, VT, and Vτ). Instead of a giant table, the surgeon now has three independent mechanical levers to shape the tissue to measure.
+
+---
+
+---
+
+## Didactic Summary
+
+- Current nomograms are **empirical lookup tables** with no biomechanical model — they capture correlations, not causation.
+- The **"curse of dimensionality"** renders empirical tables inadequate for a problem with 5+ relevant parameters.
+- **Inter-surgeon discordance** in nomogram interpretation highlights the need for a standardized biomechanical framework.
+- The parallel with **IOL calculation evolution** (SRK → Barrett) provides the historical precedent for the AVBC transition.
+- AVBC aims to be transparent, mechanistic, and calibratable — the "Barrett formula" for ICRS.
 
 ---
 

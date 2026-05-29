@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 15 — Conclusão: Rumo a uma Linguagem Biomecânica para o ICRS
 
 > **Análise Vetorial Biomecânica Corneana para o Planejamento de Segmento de Anel Intraestromal**

@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 3 — Os Limites do Planejamento Empírico: Por que os Nomogramas Falham
 
 ---

@@ -59,6 +59,7 @@ EN_CONFIG = {
     "dir": BASE_DIR / "capitulos_en",
     "output": BASE_DIR / "output" / "Corneal_Biomechanical_Vector_Analysis_EN.docx",
     "files": [
+        "table_of_contents.md",
         "cap01_cornea_biomechanics.md",
         "cap02_how_icrs_work.md",
         "cap03_nomogram_limits.md",

@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 6 — V_T: O Vetor Tangencial — Mecânica da Cintagem e Regularização
 
 ---

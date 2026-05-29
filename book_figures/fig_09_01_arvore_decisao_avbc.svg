@@ -74,7 +74,7 @@
   <rect x="510" y="312" width="95" height="45" rx="5" fill="#FFEBEE" stroke="#EF5350" stroke-width="1.5"/>
   <text x="557" y="330" text-anchor="middle" font-size="8" font-weight="bold" fill="#C62828">Globo</text>
   <text x="557" y="345" text-anchor="middle" font-size="7" fill="#C62828">>60 D</text>
-  <text x="557" y="355" text-anchor="middle" font-size="6" fill="#C62828">→ Estabilização</text>
+  <text x="557" y="355" text-anchor="middle" font-size="7" fill="#C62828">→ Estabilização</text>
 
   <!-- ENM divergence check -->
   <rect x="140" y="375" width="280" height="25" rx="5" fill="#E8F5E9" stroke="#66BB6A" stroke-width="1"/>

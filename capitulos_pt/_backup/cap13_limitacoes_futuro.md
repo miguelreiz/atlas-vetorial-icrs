@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 13 — Limitações, Cronograma de Validação e Direções Futuras
 
 > **Análise Vetorial Biomecânica Corneana para o Planejamento de Segmento de Anel Intraestromal**

@@ -1,10 +1,22 @@
+<!-- GPT revision applied -->
 # Chapter 5 — VR: The Radial Vector — The Volumetric School
+
+
+> **Key Points**
+> - **VR** is the radial displacement vector: it quantifies corneal apical flattening (ΔK).
+> - VR is primarily controlled by ring **thickness** (150–400 μm).
+> - VR is **insensitive to arc length**: across 90°–320° arcs, VR varies by less than 4%.
+> - This decoupling (thickness→VR, arc→VT) is the key structural finding that enables independent vector control.
+> - Clinical analogue: VR corresponds to the flattening effect measured by postoperative ΔK.
 
 ---
 
 ## 5.1 Introduction
 
 The biomechanical response of the keratoconic cornea to intracorneal ring segment (ICRS) implantation has long been characterized in clinical practice through a single scalar outcome: the change in keratometric power, ΔK. Although this metric captures the net optical effect of the procedure, it conceals the underlying mechanical complexity. The AVBC vector decomposition model divides the deformation field into three orthogonal components — radial (VR), tangential (VT), and torsional (Vτ). This chapter is dedicated to VR: the radial flattening vector that governs myopia correction and K-mean reduction.
+
+![Figure 5.1 — VR Vector: the tent (spacer) effect of ICRS on the cornea.](book_figures/fig_05_01_efeito_tenda.svg)
+
 
 Historically, corneal flattening was frequently attributed to a mysterious "arc tension" that pulled the cornea circumferentially. However, modern finite element modeling, supported by careful clinical observation, proves otherwise: VR is governed by the **Volumetric Effect**. The ring acts as a physical spacer implanted deep in the stroma. When forced between the corneal lamellae, the rigid acrylic mechanically elevates the mid-periphery of the cornea. The fixed length of the anterior corneal arc is thus forced to redistribute over this "high ground," pulling and flattening the center of the cornea (Kling & Marcos, 2013).
 
@@ -15,6 +27,9 @@ This chapter proves, through rigorous simulation of expansive constraint in FEBi
 ## 5.2 The Mechanism of the Volumetric Effect
 
 ### 5.2.1 Spacer and Dome Geometry
+
+![Figure 5.2 — Flattening cascade: total volume vs ΔK (FEM data).](book_figures/fig_05_02_cascata_aplanamento.svg)
+
 
 The VR vector captures the change in central spherical curvature (K-mean). To understand why an ICRS flattens the cornea, we must abandon the 2D elastic tension model and visualize the cornea as a 3D volumetric dome.
 
@@ -88,6 +103,18 @@ For this reason, for a patient with **High Myopia AND High Astigmatism**, using 
 3. The magnitude of flattening is directly proportional to the **Total Ring Volume** (Thickness + Arc Length).
 4. FEBio simulations prove that longer arcs monotonically depress central power, invalidating the obsolete theses of "exclusively tensional effects" and perfectly validating the surgical intuition of volumetric nomograms (Kling & Marcos, 2013).
 5. Thin corneas dramatically amplify VR due to the lack of structural resistance in the anterior stromal bed.
+
+---
+
+---
+
+## Didactic Summary
+
+- **VR** (radial vector) quantifies the apical flattening effect of ICRS, measured as ΔK.
+- VR is controlled by ring **thickness** and is **insensitive to arc length** (< 4% variation across 90°–320°).
+- This thickness–arc decoupling enables **independent control** of flattening (VR) and regularization (VT).
+- FEM simulations confirm VR values of 8.9–19.9 μm for standard ring configurations.
+- Clinical application: increase thickness to increase flattening; adjust arc independently for astigmatism.
 
 ---
 

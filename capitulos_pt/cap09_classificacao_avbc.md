@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Capítulo 9 — A Classificação Integrada AVBC
+
+
+> **Pontos-Chave**
+> - A classificação AVBC integra O/T/B numa **matriz de decisão biomecânica** com prescrições rastreáveis.
+> - O ICE (Índice de Coerência Axial) é o parâmetro de triagem: ICE_min < 28° prediz ≥ 3 linhas de ganho.
+> - Os índices CI_R, VT-ratio e Vτ-ratio fecham o **ciclo de feedback** do cirurgião.
+> - O AVBC agrega valor em ~40% dos casos — com divergência ENM, ápice deslocado ou biomecânica incomum.
+> - Para ceratocone central simétrico, os nomogramas continuam adequados.
 
 > **Análise Vetorial Biomecânica Corneana para Planejamento de Segmento de Anel Intraestromal**
 > *Parte IV — Classificação e Aplicação Clínica*
@@ -32,7 +41,7 @@ Antes de qualquer análise biomecânica ser realizada, o clínico deve responder
 
 Para preencher essa lacuna clínica crítica, o Módulo O funciona como um guardião (gatekeeper). Ao implementar o **Índice de Coerência Axial (ICE)** como o principal parâmetro de seleção para elegibilidade óptica, unificamos o alinhamento angular do meridiano topográfico íngreme (θ_topo) e o eixo comático (θ_coma) em um único biomarcador funcional:
 
-ICE_min = |θ_topo - θ_coma|
+ICE_min = Medida da diferença angular (em graus) entre o meridiano mais curvo da córnea e o eixo do coma.
 
 Este parâmetro foi validado em uma coorte multidomínio de N = 1.139 olhos (incluindo N = 300 implantes de ICRS; Reis & Sandes, 2026, presente volume) como um preditor altamente superior de resultados visuais em comparação com os índices tomográficos brutos tradicionais, como o K_{max} e a paquimetria local.
 
@@ -253,18 +262,16 @@ A profundidade de implantação atua como um amplificador universal em todos os 
 
 Talvez o elemento de maior valor prático do arcabouço AVBC seja a sua capacidade de fornecer feedback quantitativo pós-operatório. Inspirado no Índice de Correção de Alpins (CI = |SIA|/|TIA|), o AVBC define três índices de correção específicos por componente:
 
-**CI_R (Índice de Correção Radial):**
-CI_R = (Δ K_{observado}) / (Δ K_{previsto)}
+**Índice de Correção Radial (Eficácia do Aplanamento):**
+Calculado dividindo o aplanamento real que obteve no pós-operatório pelo aplanamento que o modelo previra.
+Um índice de 1,0 ± 0,15 indica que o efeito correspondeu à previsão. Valores abaixo de 0,85 indicam subcorreção sistemática (a córnea estava mais rígida do que o modelado, ou o efeito do anel foi menor que o previsto); valores acima de 1,15 indicam supercorreção.
 
-Um CI_R de 1,0 ± 0,15 indica que o efeito de aplanamento correspondeu à previsão. Valores abaixo de 0,85 indicam subcorreção sistemática (a córnea estava mais rígida do que o modelado, ou o efeito do anel foi menor que o previsto); valores acima de 1,15 indicam supercorreção.
-
-**VT-ratio (Razão de Correção Tangencial):**
-VT-ratio = (Δ Cyl_{observado}) / (Δ Cyl_{esperado)}
-
+**Razão de Correção Tangencial (Eficácia do Astigmatismo):**
+Calculado dividindo a correção do cilindro real pela correção que seria esperada pelo arco escolhido.
 Esta razão avalia se o comprimento de arco produziu o grau esperado de regularização do astigmatismo.
 
-**Vτ-ratio (Razão de Correção Torsional):**
-V_τ-ratio = (Migraçao_do_ápice_{observada}) / (Migraç)ao_do_\text{ápice_{esperada}}
+**Razão de Correção Torsional (Eficácia da Migração):**
+Calculado dividindo a distância real que o cone migrou pela distância esperada em função da assimetria do anel.
 
 Para anéis simétricos, o Vτ esperado é zero, e qualquer migração do ápice não nula indica carregamento assimétrico inesperado. Para anéis assimétricos, esta razão quantifica a eficácia do mecanismo de torque.
 
@@ -327,6 +334,16 @@ O arcabouço AVBC agrega valor clínico principalmente nos cerca de 40% dos caso
 
 ---
 
+## Resumo Didático
+
+- A classificação AVBC integra três módulos (O/T/B) numa **matriz de decisão biomecânica** que gera prescrições de anel rastreáveis.
+- O **ICE (Índice de Coerência Axial)** é o parâmetro de triagem principal: ICE_min < 28° prediz ≥ 3 linhas de ganho (AUC 0,82).
+- Os índices de correção AVBC (**CI_R, VT-ratio, Vτ-ratio**) fecham o ciclo de feedback, permitindo calibração específica do cirurgião.
+- O AVBC agrega valor em ~40% dos casos — aqueles com divergência ENM, ápice deslocado ou biomecânica incomum.
+- Para ceratocone central e simétrico com astigmatismo alinhado, os nomogramas existentes continuam adequados.
+
+---
+
 ## Referências
 
 1. Alió JL, Shabayek MH. Corneal higher order aberrations: a method to grade keratoconus. *J Refract Surg*. 2006;22(6):539–545.
@@ -334,7 +351,7 @@ O arcabouço AVBC agrega valor clínico principalmente nos cerca de 40% dos caso
 3. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
 4. Ferrara P, Torquetti L. Clinical nomograms for Intacs and Ferrara ring segments. In: *Keratoconus and Keratoectasia*. Springer; 2017.
 5. García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. *PLoS One*. 2021;16(1):e0245063.
-6. Kling S, Marcos S. Finite-element modeling of ICRS in a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
+6. Kling S, Marcos S. Finite-element modeling of intrastromal corneal ring segment implantation into a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
 7. Maeda N, Klyce SD, Smolek MK. Comparison of methods for detecting keratoconus. *Arch Ophthalmol*. 2002;120(5):601–607.
 8. Piñero DP, Alcón N. Corneal biomechanics: a review. *Clin Exp Optom*. 2015;98(2):107–116.
 9. Rabinowitz YS, Rasheed K. KISA% index: a quantitative videokeratography algorithm. *J Cataract Refract Surg*. 1999;25(10):1327–1335.

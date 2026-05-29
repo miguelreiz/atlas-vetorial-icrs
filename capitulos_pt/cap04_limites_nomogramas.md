@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Capítulo 3 — Os Limites do Planejamento Empírico: Por que os Nomogramas Falham
+
+
+> **Pontos-Chave**
+> - Os nomogramas comerciais são **caixas-pretas empíricas** que não explicam *porquê*.
+> - O nomograma falha em ~40% dos casos com divergência de ENM, ápice deslocado ou biomecânica atípica.
+> - A transição nomograma→AVBC é análoga ao salto SRK→Ray Tracing no cálculo de LIO.
+> - A AVBC é **transparente e rastreável**: cada prescrição é auditável até à simulação FEM.
+> - O nomograma continua adequado para ceratocone central simétrico com astigmatismo alinhado.
 
 ---
 
@@ -69,6 +78,16 @@ O planejamento do ICRS hoje encontra-se exatamente onde o cálculo de lentes int
 Os nomogramas empíricos serviram como trampolim para a adoção massiva do ICRS. No entanto, o seu teto de eficácia foi atingido. Porque reduzem a complexidade elástica 3D do estroma a K-max e Equivalente Esférico, os nomogramas geram supercorreções, subcorreções e enorme divergência entre opiniões médicas perante o mesmo olho.
 
 A transição para a biomecânica (Escola Volumétrica e modelo AVBC) permite prever a resposta corneana com base nas três frentes de alteração espacial (V_R, V_T e V_τ). Em vez de uma tabela gigante, o cirurgião passa a dispor de três alavancas mecânicas independentes para moldar o tecido à medida.
+
+---
+
+## Resumo Didático
+
+- Os nomogramas comerciais de ICRS baseiam-se em **correlações empíricas** que não capturam a mecânica subjacente.
+- A transição de nomogramas para a AVBC é análoga ao salto das fórmulas empíricas SRK para as fórmulas de Ray Tracing no cálculo de LIO.
+- O nomograma falha em ~40% dos casos: quando o ENM diverge do K-steep, quando o cone é excêntrico, ou quando a biomecânica é atípica.
+- A AVBC substitui a caixa-preta (KMax → "anel 250 μm") por um raciocínio **transparente e rastreável** que o cirurgião pode auditar.
+- O futuro é a personalização: cada córnea terá o seu modelo biomecânico individual.
 
 ---
 

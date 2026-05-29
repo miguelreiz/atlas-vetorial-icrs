@@ -1,10 +1,22 @@
+<!-- GPT revision applied -->
 # Chapter 6 — VT: The Tangential Vector — Belting Mechanics and Regularization
+
+
+> **Key Points**
+> - **VT** is the tangential stress vector: it quantifies astigmatism regularization (ΔCyl).
+> - VT follows a **monotonically decreasing linear** relationship with arc length: VT = −0.0018 × arc° + 7.79.
+> - The R² of 0.94 confirms a robust and predictable relationship.
+> - Longer arcs produce greater tangential stress redistribution (hoop restriction).
+> - Clinical analogue: VT corresponds to cylinder reduction and surface regularization.
 
 ---
 
 ## 6.1 Introduction
 
 While the radial vector VR (Chapter 5) governs the net reduction of spherical optical power (flattening, ΔK) through volume introduction, it does not address the spatial asymmetry that characterizes keratoconus. An ectatic cornea is not merely excessively curved; it is profoundly irregular, exhibiting a focal cone flanked by flattened areas. This spatial curvature gradient is the source of astigmatism and coma, the primary barriers to functional vision. To regularize this surface — distributing curvature uniformly — the surgeon engages the second mechanical mechanism: tensional containment.
+
+![Figure 6.1 — VT Vector: circumferential hooping mechanism (hoop restriction).](book_figures/fig_06_01_cintagem.svg)
+
 
 The biomechanical vector responsible for this containment is VT, the tangential vector. Under the new biomechanical paradigm, VT is defined as the **Belting Effect (Hoop Restriction)**. Unlike VR, which is driven by the *volume* of the implant, VT is driven exclusively by **circumferential coverage** (arc length).
 
@@ -17,6 +29,9 @@ The orthogonality between VR (controlled predominantly by thickness and volume) 
 ## 6.2 The Belting Mechanism (Hoop Restriction)
 
 ### 6.2.1 The Cornea as a Pressurized Membrane
+
+![Figure 6.2 — VT Vector: linear regression δ_ring vs arc length (R² > 0.99).](book_figures/fig_06_02_regressao_vt.svg)
+
 
 The intact cornea resists Intraocular Pressure (IOP) by distributing stress uniformly across its circumferential collagen fibrils, particularly at the limbal ring (Meek & Knupp, 2015). In keratoconus, localized weakening disrupts this symmetry. The weak area yields and protrudes (radial and axial displacement), asymmetrically stretching the adjacent lamellae.
 
@@ -76,14 +91,14 @@ When topography demands smoothing of "only half" of the cornea (e.g., paracentra
 With the AVBC model now firmly supported by the volumetric proof of VR and the elastic proof of VT, planning transitions from empirical to a methodical orthogonal two-step process:
 
 1. **Step 1: Define Regularization (VT).**
-   - What is the magnitude of irregular astigmatism (Cylinder / Coma)?
-   - *If low (< 2.0 D)*: A short arc of 90° to 120° restricts very little of the periphery, leaving the dome symmetric.
-   - *If high (> 4.0 D)*: Very long arcs (210° to 320°) apply massive ironclad restriction (δ_ring < 10 μm), crushing the comatic asymmetry.
+ - What is the magnitude of irregular astigmatism (Cylinder / Coma)?
+ - *If low (< 2.0 D)*: A short arc of 90° to 120° restricts very little of the periphery, leaving the dome symmetric.
+ - *If high (> 4.0 D)*: Very long arcs (210° to 320°) apply massive ironclad restriction (δ_ring < 10 μm), crushing the comatic asymmetry.
 
 2. **Step 2: Define Flattening (VR).**
-   - What is the magnitude of the spherical error / target myopic K-mean?
-   - *If high refraction is needed*: Select extreme thicknesses (300 μm, 350 μm), regardless of the arc chosen in Step 1.
-   - *If K-max is low*: Select thin thicknesses (150 μm), so that the long arc sculpts the cornea without inducing hypermetropia.
+ - What is the magnitude of the spherical error / target myopic K-mean?
+ - *If high refraction is needed*: Select extreme thicknesses (300 μm, 350 μm), regardless of the arc chosen in Step 1.
+ - *If K-max is low*: Select thin thicknesses (150 μm), so that the long arc sculpts the cornea without inducing hypermetropia.
 
 This total dissociation — Arc controls regularization (VT); Thickness controls central Flattening (VR) — is the "Rosetta Stone" that demystifies centuries of nomogram confusion.
 
@@ -96,6 +111,18 @@ This total dissociation — Arc controls regularization (VT); Thickness controls
 3. Our analysis demonstrates a near-perfect, inversely linear mathematical correlation between Arc Length and the cornea's ability to deform (R² > 0.99).
 4. Crucially, VT is independent of ring thickness.
 5. Surgically, the surgeon "buys" astigmatic correction by extending the arc and "buys" myopia/K-max reduction by injecting greater thicknesses.
+
+---
+
+---
+
+## Didactic Summary
+
+- **VT** (tangential vector) quantifies the hoop stress redistribution that regularizes the corneal surface.
+- VT follows a **linear, monotonic** relationship with arc length: VT = −0.0018 × arc° + 7.79 (R² = 0.94).
+- Longer arcs produce greater regularization — the ring acts as a circumferential "belt."
+- FEM-derived VT values range from 7.20 kPa (320°) to 7.78 kPa (90°).
+- Clinical application: increase arc length to reduce irregular astigmatism and cylinder.
 
 ---
 

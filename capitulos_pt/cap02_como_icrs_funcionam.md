@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Capítulo 2 — Como Funcionam os ICRS: Do Deslocamento de Volume à Decomposição Vetorial
+
+
+> **Pontos-Chave**
+> - O ICRS funciona por **três mecanismos independentes**: deslocamento de volume (VR), cintagem (VT) e torque (Vτ).
+> - Espessura → VR (aplanamento). Arco → VT (regularização). Assimetria → Vτ (reposicionamento).
+> - A profundidade actua como **amplificador universal** de todos os três vetores.
+> - O paradoxo do ICRS (aplanar ao introduzir volume) resolve-se pela incompressibilidade estromal.
+> - Os três parâmetros do anel são independentes — podem ser prescritos separadamente.
 
 > **Análise Vetorial Biomecânica Corneana para Planejamento de Segmento de Anel Intraestromal**
 > *Parte I — Fundamentos*
@@ -240,16 +249,26 @@ A orientação clínica é: a profundidade não é apenas um parâmetro de segur
 
 ---
 
+## Resumo Didático
+
+- O ICRS funciona por **três mecanismos biomecânicos independentes**: deslocamento de volume (VR), cintagem circunferencial (VT) e torque assimétrico (Vτ).
+- A **Escola Volumétrica** explica o aplanamento: o anel ocupa espaço no estroma incompressível, forçando o tecido a deslocar-se anteriormente.
+- A **Escola Biomecânica** explica a redistribuição de tensões: o anel interrompe o *hoop stress* e gera barreiras mecânicas.
+- Os três parâmetros do anel (espessura, arco, perfil) controlam vetores diferentes: **espessura → VR**, **arco → VT**, **assimetria → Vτ**.
+- A **profundidade** actua como amplificador universal de todos os três vetores.
+
+---
+
 ## Referências
 
 1. Barraquer JI. Modification of refraction by means of intracorneal inclusions. *Int Ophthalmol Clin*. 1966;6(1):53–78.
-2. Barraquer JI. Basis of refractive keratoplasty - 1967. *Revue Med (Bogota)*. 1967;33(1). [PMID: 2488804]
+2. Barraquer JI. Basis of refractive keratoplasty - 1967. *Revue Med (Bogota)*. 1967;33(1).
 3. Burris TE, Ayer CT, Evensen DA, et al. Effects of intrastromal corneal ring size and thickness on corneal flattening in human eyes. *Refract Corneal Surg*. 1991;7(1):46–50.
 4. Colin J, Cochener B, Savary G, et al. Correcting keratoconus with intracorneal rings. *J Cataract Refract Surg*. 2000;26(8):1117–1122.
-5. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998. [PMID: 24774009]
+5. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
 6. García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. *PLoS One*. 2021;16(1):e0245063.
 7. Holzapfel GA, Gasser TC, Ogden RW. A new constitutive framework for arterial wall mechanics and a comparative study of material models. *J Elasticity*. 2000;61:1–48.
-8. Kling S, Marcos S. Finite-element modeling of intrastromal corneal-ring segment implantation into a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889. [PMID: 23299471]
+8. Kling S, Marcos S. Finite-element modeling of intrastromal corneal ring segment implantation into a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
 9. Meek KM, Knupp C. Corneal structure and transparency. *Prog Retin Eye Res*. 2015;49:1–16.
 10. Nguyen BA, Roberts CJ, Reilly MA. Biomechanical impact of the sclera on corneal deformation response to an air-puff. *Front Bioeng Biotechnol*. 2018;6:210.
 11. Piñero DP, Alcón N. Corneal biomechanics: a review. *Clin Exp Optom*. 2015;98(2):107–116.

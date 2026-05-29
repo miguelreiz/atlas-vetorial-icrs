@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="541.230781pt" height="347.922656pt" viewBox="0 0 541.230781 347.922656" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg font-family="Arial, Helvetica, sans-serif" xmlns:xlink="http://www.w3.org/1999/xlink" width="541.230781pt" height="347.922656pt" viewBox="0 0 541.230781 347.922656" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -2416,4 +2416,5 @@ L 496.873906 30.263594
    <rect x="50.473906" y="30.263594" width="446.4" height="277.2"/>
   </clipPath>
  </defs>
+  <text x="270.6" y="342.9" text-anchor="middle" font-size="8" fill="#CCC" font-family="Arial, Helvetica, sans-serif">Figura 12.1 — Campanha FEM: 377 Simulações Convergidas · Dr. Miguel Reis · Dra. Jordana Sandes</text>
 </svg>

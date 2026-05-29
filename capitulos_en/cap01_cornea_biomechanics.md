@@ -1,15 +1,30 @@
+<!-- GPT revision applied -->
 # Chapter 1 — The Keratoconic Cornea as a Mechanical Structure
 
 > **Corneal Biomechanical Vector Analysis for Intracorneal Ring Segment Planning**
 > *Part I — The Problem and Fundamentals*
 
+> **Key Points**
+> - The cornea is a **fiber-reinforced composite**: 200+ collagen lamellae in a proteoglycan matrix.
+> - Its biomechanical behavior is described by the **HGO model** (c, k₁, k₂, κ).
+> - Keratoconus is a **material disease**: enzymatic degradation of the matrix (c↓) precedes geometric deformity.
+> - The **Dupps cycle** explains the positive feedback loop: thinning → stress concentration → further thinning.
+> - Understanding biomechanics is a prerequisite for rational ICRS planning.
+
+
 > **Key Point:** Keratoconus is not merely a curved cornea — it is a disease of the stromal material. Two eyes with the same K-steep may have completely different biomechanical states. A nomogram that ignores this is treating the symptom, not the disease.
 
 ---
 
+![Figure 1.3 — J-shaped stress-strain curve of the cornea according to the HGO model.](book_figures/fig_01_03_curva_tensao_deformacao.svg)
+
+
 ## 1.1 Introduction
 
 Keratoconus is the most common corneal ectasia, with prevalence estimates ranging from 1 in 375 in population-based studies to as high as 1 in 84 when modern videokeratographic screening criteria are applied (Godefrooij et al., 2017; Torres Netto et al., 2018). Traditionally, the condition has been defined by its striking topographic features — elevated keratometric readings, inferior corneal steepening, irregular astigmatism, and progressive thinning — features that place it squarely in the domain of optical geometry. Indeed, the standard clinical workflow for keratoconus diagnosis centers on sagittal curvature maps, keratometric indices, and pachymetric profiles: measurements that describe the *shape* of the cornea but say little about its *mechanical state*.
+
+![Figure 1.1 — Fibrillar anatomy of the corneal stroma: cross-section and fiber orientation.](book_figures/fig_01_01_anatomia_estroma.svg)
+
 
 This geometric perspective has practical consequences for treatment planning. When a surgeon selects an intracorneal ring segment (ICRS) for a keratoconic eye, the decision is typically guided by nomograms that map one or two geometric parameters — keratometry, Q-value, manifest refraction — to a ring configuration. The implicit assumption is that corneal shape is a sufficient proxy for corneal mechanics. As we will demonstrate throughout this book, this assumption is fundamentally flawed.
 
@@ -24,6 +39,9 @@ This opening chapter establishes the biomechanical foundation upon which the ent
 ## 1.2 Fibrillar Anatomy of the Corneal Stroma
 
 > **For the Clinician:** This section explains *why* the cornea behaves as it does under pressure. The central concept is simple: the cornea is a composite material (like fiberglass), with collagen fibers (providing stiffness) embedded in a soft matrix (providing flexibility). The orientation of these fibers determines where the cornea is strong and where it is vulnerable.
+
+![Figure 1.2 — Dupps decompensation cycle: positive feedback loop and intervention points (CXL and ICRS).](book_figures/fig_01_02_ciclo_dupps.svg)
+
 
 The corneal stroma constitutes approximately 90% of the corneal thickness and is the primary determinant of its mechanical behavior. It is composed of 200 to 500 collagen lamellae, each 1–2 μm thick and 10–250 μm wide, arranged in a highly organized matrix that serves a dual purpose: optical transparency and mechanical load bearing (Komai & Ushiki, 1991; Meek & Knupp, 2015).
 
@@ -197,6 +215,18 @@ The AVBC framework, introduced in the following chapters, proposes to bridge thi
 | Anisotropy | Stiffness varies by direction and region | The ring's effect depends on the local orientation of collagen fibers |
 | IOP as engine | 15 mmHg generates uz = 360.9 μm of central displacement | Even normal IOP significantly deforms a weakened cornea |
 | Anterior vs posterior stroma | Anterior 2-3× stiffer; posterior fails first in KC | ICRS is implanted at 70–80% depth to interact with the load-bearing stroma |
+
+---
+
+---
+
+## Didactic Summary
+
+- The cornea is a **fiber-reinforced biomechanical composite** whose behavior is governed by four HGO parameters (c, k₁, k₂, κ).
+- Keratoconus is fundamentally a **material disease**: degradation of the matrix (c↓) triggers a positive feedback loop of progressive thinning and stress concentration.
+- The **Dupps decompensation cycle** explains why ectasia is self-reinforcing once initiated.
+- Brillouin microscopy confirms that the **matrix modulus c** is the primary differentiator between normal and keratoconic corneas.
+- Understanding biomechanics is the prerequisite for rational ICRS planning — geometry is the consequence, not the cause.
 
 ---
 

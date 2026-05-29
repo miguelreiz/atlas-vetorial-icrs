@@ -1,4 +1,13 @@
+<!-- GPT revision applied -->
 # Capítulo 14 — A Plataforma de Software AVBC: Do Arcabouço à Ferramenta
+
+
+> **Pontos-Chave**
+> - A plataforma AVBC traduz o arcabouço teórico em **ferramenta de suporte à decisão clínica**.
+> - Entrada: dados clínicos padronizados (tomografia, aberrometria, refracção).
+> - Saída: recomendações de anel classificadas com desfechos biomecânicos esperados.
+> - Uma tabela de consulta FEM pré-computada (N=377) permite previsões rápidas sem simulação em tempo real.
+> - O simulador interactivo permite ao cirurgião explorar o espaço de parâmetros e compreender o racional.
 
 > **Análise Vetorial Biomecânica Corneana para o Planejamento de Segmento de Anel Intraestromal**
 > *Parte V — Horizontes*
@@ -211,13 +220,23 @@ A via regulatória é complexa, mas viável, particularmente se a plataforma for
 
 ---
 
+## Resumo Didático
+
+- A plataforma AVBC traduz o arcabouço teórico em **ferramenta de suporte à decisão clínica** acessível ao cirurgião.
+- O sistema usa dados clínicos padronizados (tomografia, aberrometria, refração) como input e fornece **recomendações classificadas** de anel.
+- Uma **tabela de consulta FEM pré-computada** (N=377 simulações) permite previsões rápidas sem simulação em tempo real.
+- O **simulador interactivo** permite que o cirurgião explore o espaço de parâmetros e compreenda a justificativa biomecânica.
+- A arquitectura modular permite evolução futura: integração de Brillouin, OCT biomecânico e machine learning.
+
+---
+
 ## Referências
 
 1. Alpins NA. ASSORT (Alpins Statistical System for Ophthalmic Refractive surgery Techniques). User Manual, Version 7.0, 2015.
 2. Barrett GD. An improved universal theoretical formula for intraocular lens power prediction. *J Cataract Refract Surg*. 2015;41(3):589–599.
-3. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia. *J Cataract Refract Surg*. 2014;40(6):991–998.
+3. Dupps WJ Jr, Roberts CJ. Biomechanics of corneal ectasia and biomechanical treatments. *J Cataract Refract Surg*. 2014;40(6):991–998.
 4. García de Oteyza G, Kling S, Álvarez de Toledo J, Barraquer RI. Refractive changes of a new asymmetric intracorneal ring segment with variable thickness and base width: A 2D finite-element model. *PLoS One*. 2021;16(1):e0245063.
-5. Kling S, Marcos S. FEM of ICRS in a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
+5. Kling S, Marcos S. Finite-element modeling of intrastromal corneal ring segment implantation into a hyperelastic cornea. *Invest Ophthalmol Vis Sci*. 2013;54(1):881–889.
 6. Maas SA, Ellis BJ, Ateshian GA, Weiss JA. FEBio: finite elements for biomechanics. *J Biomech Eng*. 2012;134(1):011005.
 7. Piñero DP. Corneal biomechanics: a review. *Clin Exp Optom*. 2015;98(2):107–116.
 8. Simonini I, Pandolfi A. Customized finite element modelling of the human cornea. *PLoS One*. 2015;10(6):e0130426.

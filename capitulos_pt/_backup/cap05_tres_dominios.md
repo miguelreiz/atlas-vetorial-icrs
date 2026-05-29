@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 4 — Os Três Domínios da Avaliação do ICRS
 
 ---

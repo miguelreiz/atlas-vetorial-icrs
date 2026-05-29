@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 8 — O Método Alpins: Um Modelo para Linguagens de Planejamento Cirúrgico
 
 ## 8.1 Introdução

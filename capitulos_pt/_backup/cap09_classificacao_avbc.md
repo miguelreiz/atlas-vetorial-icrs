@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 9 — A Classificação Integrada AVBC
 
 > **Análise Vetorial Biomecânica Corneana para Planejamento de Segmento de Anel Intraestromal**

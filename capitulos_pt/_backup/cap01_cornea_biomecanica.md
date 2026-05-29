@@ -1,3 +1,4 @@
+<!-- GPT revision applied -->
 # Capítulo 1 — A Córnea Ceratocônica como uma Estrutura Mecânica
 
 > **Análise Vetorial Biomecânica Corneana para Planejamento de Segmento de Anel Intraestromal**
